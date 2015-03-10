@@ -32,27 +32,36 @@ mkdir -p data/$MODEL_type
 	# cp ~/refbib/corpus/trainbibistx/${MODEL_type}/training.*.tei/* data/${MODEL_type}/corpus/tei/.
 
 # si il faut faire des f-flux raw:
+# --------------------------------
+# grobid annotation tool
+export GB="/home/loth/refbib/grobid"
+# new training docs
+export exemples_prets=~/refbib/corpus/trainbibistx/segmentation/pdfs
 # 1/3 - obtention: nom de l'executable de pretraining dans le jar
 case $MODEL_type in
 fulltext*)
-  pre='createTrainingFulltext'
+  pre_MODEL='createTrainingFulltext'
   ;;
 segmentation)
-  pre='createTrainingSegmentation'
+  pre_MODEL='createTrainingSegmentation'
   ;;
 reference-segmenter)
-  pre='createTrainingReferenceSegmentation'
+  pre_MODEL='createTrainingReferenceSegmentation'
   ;;
 citation)
-  pre='createTrainingFulltext'
+  pre_MODEL='createTrainingFulltext'
   ;;
 name/citation)
-  pre='createTrainingFulltext'
+  pre_MODEL='createTrainingFulltext'
   ;;
 *)
   pre="type de modèle grobid inconnu:'$MODEL_type'"
   ;;
 esac
+
+# createTraining (f-flux <= pdf) /!\ attention créer un regard
+java -Xmx2G -jar $GB/grobid-core/target/grobid-core-*.one-jar.jar -gH $GB/grobid-home -gP $GB/grobid-home/config/grobid.properties -dIn ${exemples_prets} -dOut trainers.${MODEL_type}.praws/ -exe ${pre_MODEL}
+
 
 # 2/3 génération et 3/3 récup
 # cf. samp/seg-a-40_flux_anciens_g030/meta/préparation.training.*.readme

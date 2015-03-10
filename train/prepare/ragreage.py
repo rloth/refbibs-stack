@@ -218,17 +218,6 @@ def strip_inner_tags(match):
 		# ok
 		return (ltag+inner+rtag)
 
-
-def matchob_escape(match):
-	"""
-	Takes a re 'match object' on raw content and calls str_escape()
-	
-	Ex: "Pilote <mâtin quel journal!>"
-	    => "Pilote &lt;mâtin quel journal!&gt;"
-	"""
-	capture = match.group(0)
-	return str_escape(capture)
-
 def str_escape(s):
 	"""
 	Takes string of raw content and escapes xml-unsafe chars "<" ">" "&"
@@ -250,16 +239,22 @@ def check_align_seq(array_of_xidx):
 	"""
 	# seq <- champions sans duplicats
 	seq = []
-	checkset = set()
+	previous_except_none = -1
 	for w in array_of_xidx:
 		# on enlève les doublons
-		if w is None or w in checkset:
+		if w is None:
+			continue
+		elif w == previous_except_none:
+			continue
+		elif w == previous_except_none + 1:
+			seq.append(w)
+			previous_except_none = w
 			continue
 		else:
 			seq.append(w)
-			checkset.add(w)
+			previous_except_none = w
 	
-	# diagnostic consécutivité
+	# diagnostic consécutivité et complétion
 	consec = True
 	lseq = len(seq)
 	for a in range(0,lseq):
@@ -609,6 +604,7 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	
 	# -b- auteurs groupés
 	new_lines = re.sub(r'(<author>.*</author>)',strip_inner_tags, new_lines)
+	new_lines = re.sub(r'(<editor>.*</editor>)',strip_inner_tags, new_lines)
 	
 	new_lines = "<bibl>"+new_lines+"</bibl>"
 	
@@ -754,19 +750,21 @@ class XTokinfo:
 		# A) préparation du contenu
 		# --------------------------
 		subtokens = re_TOUS.findall(anystring)
-		esctokens = [t for t in map(re.escape,subtokens)]
+		esctokens = [u for u in map(re.escape,subtokens)]
 		# TODO ajouter ici possibilité tirets de césure
+		
+		print("====ESCTOKS====", esctokens)
 		my_re_str = "[\W¤]*".join(r'%s' % u for u in esctokens)
 		
 		# B) Décision du format des limites gauche et droite pour les \b
 		# --------------------------------------------------
-		# test si commence par une ponctuation échappée
-		if re.match('\\\\*\W',my_re_str):
+		# test si commence par une ponctuation
+		if re.search(r'^\W', subtokens[0]):
 			prefix = ""
 		else:
 			prefix = "\\b"
-		# idem mais plus facile à la fin
-		if re.search('\W$', my_re_str):
+		# idem à la fin
+		if re.search(r'\W$', subtokens[-1]):
 			postfix = ""
 		else:
 			postfix = "\\b"
@@ -919,6 +917,10 @@ if (nxbof > 0):
 	
 	# incomplétude du résultat à l'étape 0
 	checklist[0] = False
+	
+	
+	# TODO : traiter les <bibl> ssi sortie refseg 
+	# + les prendre en compte dans le décompte de enumerate(xbibs)
 
 # exception si aucune <biblStruct>
 if (nxb == 0):
@@ -1096,7 +1098,6 @@ else:
 		sys.exit(1)
 
 
-
 # (à présent: match inverse pour aligner)
 # =======================================
 #  Alignement lignes txt <=> entrées XML
@@ -1128,20 +1129,14 @@ print("Les champions: %s" % winners, file=sys.stderr)
 # TODO ici utilisation de xml_nos_map pour faire des tokens labels
 
 # vérification si on ne doit garder que les documents qui matchent bien
-# (par exemple quand on génère un corpus d'entraînement)
+# (quand on génère un corpus d'entraînement)
 
 if not check_align_seq(winners):
 	
 	# désordre du résultat à l'étape 1
 	checklist[1] = False
 
-# pour la sortie : traduction de la checkliste en "101", "111", etc
-out_check_trigram = ""
-for test in checklist:
-	if test:
-		out_check_trigram += "1"
-	else:
-		out_check_trigram += "0"
+print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
 
 # -------=============--------------------------------------------------
 # boucle OUTPUT mode 1 (dans le cas *reference-segmenter*: alignements)
@@ -1229,8 +1224,8 @@ if args.model_type=="reference-segmenter":
 	print ("~" * 80, file=sys.stderr)
 	print (
 		   args.xmlin
-			 +"\t"+out_check_trigram[0]
-			 +"\t"+out_check_trigram[1], 
+			 +"\t"+checklist[0]
+			 +"\t"+checklist[1], 
 		   file=CHECKS
 		   )
 	
@@ -1252,6 +1247,7 @@ if args.model_type=="reference-segmenter":
 #     (each raw txtline i') by its associated xml id j_win
 #   --------------------------------------------------------
 else:
+	
 	# résultat à remplir
 	rawlinegroups_by_xid = [None for j in range(nxb)]
 	
@@ -1326,6 +1322,10 @@ else:
 				# separateur saut de ligne dans le cas 'citations' 
 				# (TODO check si c'est bien " " attendu et pas "" ?)
 				my_bibl_str = re.sub("¤"," ",my_bibl_str)
+				
+				# pour la sortie : traduction de la checkliste en "101", "111", etc
+				out_check_trigram = "".join([str(int(boul)) 
+				                              for boul in checklist])
 				
 				#  => sortie finale format 'citations'
 				#     -------------
