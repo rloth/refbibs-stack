@@ -13,12 +13,10 @@ use strict ;
 
 use Getopt::Long ;
 
-#~ use File::Find::Rule ;         # pour l'ouverture du corpus
 use File::Basename;            # pour les noms de fichier standards
-#~ use File::Slurp ;              # pour lectures/écritures
 
 use XML::LibXML ;              # pour parser les XML
-use HTML::Entities ();         # et enlever les entités
+use HTML::HTML5::Entities;     # et enlever les entités
 
 use Unicode::Normalize ;       # pour savoir recoller les accents
 
@@ -368,10 +366,10 @@ for my $path (sort (@xml_to_check_list)) {
 			$gline =~ s/"/_=_mondq_=_/g ;
 			
 			# décoder tous les autres
-			# use HTML::Entities ;
-			$gline = HTML::Entities::decode($gline);
+			# use HTML::HTML5::Entities ;
+			$gline = decode_entities($gline);
 			# sauf les importants qu'il aurait créé (ne faisant donc pas partie des balises)
-			$gline = HTML::Entities::encode_entities($gline, '<>&"\'') ;
+			$gline = encode_entities($gline, '<>&');
 			
 			# retour des importants faisant partie des balises
 			$gline =~ s/_=_monlt_=_/</g ;
