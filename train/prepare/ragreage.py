@@ -231,72 +231,110 @@ def str_escape(s):
 	return s
 
 
-
-def check_align_seq(array_of_xidx):
+def check_align_seq_and_correct(array_of_xidx):
 	"""
 	Diagnostics sur les champions par ligne issus des scores_pl_xb ?
 	(signale les séquences en désordre pour diagnostics)
+	
+	/!\\ fait *une* correction si voisins avant/après sont univoques
+	
+	Exemple en entrée:
+	
+	[0, 0, 1, 1, 1, 2, 2, 2, 2, 17, 17, 33, 3, 4, None, None, None, None, None, 4, 4, 4, None, None, None, None, 4, None, None, None, None, 4, None, None, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 9, None, None, 7, 7, None, 7, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 13, 13, 14, 14, 14, None, None, 15, 15, 16, 16, 17, 17, 17, 17, 17, 17, 18, 18, 18, 19, 19, 19, 19, 20, 20, 20, 4, None, None, None, None, None, 21, 21, 21, 22, 22, 22, 22, 23, 23, 23, 24, 24, 24, 24, 25, 25, 25, 25, 25, 26, 26, 26, 27, 27, None, None, None, 27, 27, 28, 28, 28, 28, 28, 28, 29, 29, 29, 29, 30, 30, 30, 30, 31, 31, 31, 32, 32, 33, 33, 33, None, None, None, None, None, 34, 34, 35, 35, 35, 36, 36, 36, 36, 36, 37, 37, 37, 38, 38, None, None, None, None]
+	
+	Retour:
+	return (is_consec, corrected_array_of_xidx)
+	
+	(on conserve le None pour toute sortie à caler sur un flux extr)
 	"""
-	# seq <- champions sans duplicats
-	seq = []
+	# résultat à valider: "la liste est consécutive"
+	is_consec = True
+	
+	# on ne peut pas faire plus qu'une correction
+	did_correc = False
+	
+	# et on s'arrête après 3 intrus
+	is_decale = 0
+
+	# seq <- liste sans duplicat devrait être l'identité
+	#        si toutes les biblios sont bien dans le XML src
+	#        autrement dit normalement seq[counter] = counter
+	seq_counter = 0
+	
+	# pour vérifications locales:  ( -1 = valeur None )
+	#
+	# pointeur direct sur dernier qui était != None
 	previous_except_none = -1
-	for w in array_of_xidx:
-		# on enlève les doublons
+	# pointeur omnibus sur précédent
+	any_previous = -1
+	# pointeur omnibus sur suivant
+	any_next = -1
+	
+	# freiner avant le virage
+	last_k = len(array_of_xidx)-1
+	
+	# copie et non pas coref, pour renvoi liste corrigée
+	corrected_array_of_xidx = list(array_of_xidx)
+	
+	# boucle sur l'apparillage
+	for k, w in enumerate(array_of_xidx):
+		if k+1 <= last_k:
+			any_next = array_of_xidx[k+1]
+		else:
+			any_next = -1
+		
+		# on saute les lignes vides
 		if w is None:
+			any_previous = w   # MàJ
 			continue
+		# et les doublons
 		elif w == previous_except_none:
-			continue
-		elif w == previous_except_none + 1:
-			seq.append(w)
-			previous_except_none = w
+			# là les previous seront à jour
 			continue
 		else:
-			seq.append(w)
-			previous_except_none = w
+			# nouvel élément:
+			# ---------------
+			seq_counter += 1
+			
+			# vérif: si nouvel élément normal
+			if w == previous_except_none + 1:
+				previous_except_none = w    # MàJ
+				any_previous = w            # MàJ
+				continue
+			
+			# vérif: si nouvel élément non-consecutif
+			else:
+				print("SEQ:intrus seq[%i]='%i'" % (seq_counter,w), file=sys.stderr)
+				is_decale +=1
+				
+				if is_decale >= 3:
+					print("SEQ: décalage!", file=sys.stderr)
+					break
+				
+				else:
+					# -1- tentative de correction
+					if not(did_correc) and (any_previous == any_next):
+						# on recale l'intrus sur ses voisins
+						# NB: eux peuvent encore être None et None
+						w = any_previous
+						# on reporte
+						corrected_array_of_xidx[k] = w
+						did_correc = True
+						print("SEQ:***corrigé*** sur voisins en '%s'" % w, file=sys.stderr)
+						if w is None:
+							seq_counter -= 1
+						else:
+							previous_except_none = w
+					# -2- pas d'idée pour corriger
+					else:
+						is_consec = False
+				
+				# MAJ pointeur omnibus dans tous les 3 cas
+				any_previous = w
+				
 	
-	# diagnostic consécutivité et complétion
-	consec = True
-	lseq = len(seq)
-	for a in range(0,lseq):
-		if seq[a] != a:
-			# force est de le constater
-			consec = False
-			print("SEQ:intrus seq[%i]='%i'" % (a,seq[a]),
-			         file=sys.stderr)
-			break
-	# bool
-	return consec
-
-	# exemple 1: rsc_1992_P2_P29920001815
-	# Les champions: [12, 12, 13, None, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 17, 18, 18, 18, 18, 19, None, None, 18, 10, 28, 14, 21, 21, 21, 21, 22, 22, 23, 24, 24, None, 25, None, None, None, 26, None, 26, None, 27, 27, 28, 28, None, 28, 10, None, 29, None, None, 15, 30, 30, None, 31, None, 31, None, 5, 32, 32, None, 33, 0, 34]
-	
-	# explication : le pdf a un layout mal ficelé
-	# (deux colonnes du PDF mais pas dans le rendu)
-	
-	#     aaaa           citation 12
-	#     blab           citation 12 (suite)
-	#     bla            citation 13
-	#  REFS:               (....)
-	#   citation 1       citation 25
-	#    (....)            (....)
-	#   citation 7       citation 32
-	#   citation 8
-	#    (....)
-	#   citation 11
-	
-	# dans le rendu les cit 1..7 se mélangent avec le 25..32
-	#            et les cit 8..11 sont carrément hors zone
-	
-	## exemple 2 le pdf est ok mais notre algo fait deux matchs hors ordre
-	## (noms de famille identiques et 'and' => ce dernier ne matche plus)
-	# Les champions: [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 5, 5, 6, None, None, None, None, None, None, 7, 7, 7, 8, 8, 9, 28, 9, 9, 10, 10, 10, 10, 11, 11, 11, 12, 12, 12, 12, 12, 12, 13, 13, 13, 14, 14, 14, 15, 15, 15, 16, 16, 16, 17, 17, 18, 18, 18, 18, None, None, None, 5, None, 19, 19, 20, 20, 20, 20, 21, 21, 21, 21, 22, 22, 22, None, 23, 23, 23, 24, 24, 24, 25, 25, 25, 25, 26, 26, 26, 27, 27, 27, 28, 28, 28, 28, 28, 29, 29]
-	
-	# exemple 3: rsc_1997_CS_CS9972600425
-	#   le pdf est ok, par contre 
-	#       - il a des interlignes (bas de page) qui intercalent des groupes de 5 à 7 None entre les bibs 4 et 5, 16 et 17
-	#       - le debut de zone est trop tôt (window span trop grand en amont?) => il y a des None avant la bib 0
-	#       - les bibs 14,15,16 et 17 ont ~ les mêmes auteurs => matchs plus WEAK ex aequo (et pas de décision pour la 17)
-	# Les champions: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 0, 1, 1, 2, 2, 3, 4, None, None, None, None, None, 5, 6, 7, 7, 8, 8, 8, 9, 9, 10, 11, 11, 12, 12, 12, 13, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16, None, None, None, None, None, None, None, 18, 18, 19, 19, None, None, 21, 21, None, 22, 23, 23, 24, 25, 25, 26, 26, 27, 28, 29, 30, 30, None, None, None]
+	# bool + array
+	return (is_consec, corrected_array_of_xidx)
 
 
 # --------------------------------------------------------
@@ -438,8 +476,6 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		print("\n"+"="*50, file=sys.stderr)
 		
 		# rappel input XML
-		
-		
 		if subtree is not None:
 			xmlentry = rag_procedures.glance_xbib(subtree)
 			print("XML entry:", xmlentry
@@ -461,16 +497,16 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	# ------------------------
 	
 	# tokenisation
-	# - - - - - - - - - - - - - -
+	#  - - - - - - 
 	# ajouter label en 1er token
 	#~ print ("je cherche %s" % label)
-	toklist = [XTokinfo(s=str(label),xip="label")]
+	toklist = [XTokinfo(s=str(label),xip="label", req=False)]
 	
 	# Tous les autres tokens:
 	if not just_label:
 		# parcours de l'arbre
 		
-		# on utilise iter() et pas itertext() pour avoir les chemins rel
+		# on utilise iter() et pas itertext() qui ne donne pas les chemins
 		# + on le fait sous la forme iter(tag=elt) pour avoir les éléments
 		#   et pas les commentaires
 		subelts = [xelt_s for xelt_s in subtree.iter(tag=etree.Element)]
@@ -482,11 +518,11 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		#   - leur balise  => décrit *ce que* l'on va réintégrer comme infos
 		#                  => obtenue par table corresp selon relpath actuel
 		# - - - - - - -
-		# methode 1 : appel fonction cas par cas
+		# methode 1 : appel fonction de correspondance cas par cas
 		toklist += biblStruct_elts_to_match_tokens(subelts, debug=debug)
 		
 		# - - - - - - -
-		# méthode 2 générique
+		# méthode 2 générique (remettra le même tag qu'en entrée)
 		#~ toklist = [XTokinfo(
 					  #~ s=xelt.text,
 					  #~ xip=simple_path(
@@ -494,8 +530,13 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 					  #~    relative_to = localname_of_tag(subtree.tag)
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
-	# - - - - - - - - - - - - - -
 	 # print("TOKLIST", toklist)
+	
+	
+	# le flux PDFTXT non encore matché
+	# ----------------------------------
+	remainder = grouped_raw_lines
+	
 	
 	# on matche les infos XML sur le flux PDFTXT
 	# ------------------------------------------
@@ -504,12 +545,11 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	mtched = []
 	mtched_k = -1
 	
-	# spécifique biblStruct:
+	# pour vérifs : passé en sortie (TODO plus stat ?)
+	unrecognized = False
+	
 	# correspondances tag d'entrée => le tag de sortie
 	for l, tok in enumerate(toklist):
-		
-		# pour vérifs : todo stat dessus passée en //
-		my_doubt = False
 		
 		# debug
 		if debug >= 1:
@@ -518,39 +558,44 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		# sanity check A : the xmlstr we just found
 		if tok.xtexts is None:
 			print("ERR: no xmlstr for %s" % tok.relpath, file=sys.stderr)
-			my_doubt = True
+			unrecognized = True
 			continue
 		
 	
 		# 3) on matche -------------------------------------------
 		#  £ TODO procéder par ordre inverse de longueur !!
-		# print("RAW: {'%s'}" % grouped_raw_lines)
+		# print("RAW: {'%s'}" % remainder)
 		
-		mgroups = re.findall( tok.re,  grouped_raw_lines )
+		mgroups = re.findall( tok.re,  remainder )
 		
 		# print("===mgroups==>", mgroups, file=sys.stderr)
 		n_matchs = len(mgroups)
 		# --------------------------------------------------------
 		
+		#debg
+		if debug >= 2:
+			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)
+		
 		# sanity check B : "there can be only one" !
 		if n_matchs > 1:
-			if debug >= 2:
-				print("ERR: '%s' (%s) matches too many times" %
-				         (tok.xtexts, tok.relpath),
-				         file=sys.stderr)
-			my_doubt = True
+			if tok.req:
+				unrecognized = True
+				if debug >= 2:
+					print("ERR: '%s' (%s) matches too many times" %
+							 (tok.xtexts, tok.relpath),
+							 file=sys.stderr)
 			
-			
-			# ££££ TODO choose one of the matches (surtout if =~ date ou ville ?)
+			# £ TODO choose one of the matches (surtout if =~ date ou ville ?)
 			continue
 		
 		# quand tok.xtexts == "__group__" au moins un des 2 ne matche pas
 		elif n_matchs < 1:
-			if debug >= 2:
-				print("ERR: no raw match for XToken '%s' (%s) aka re /%s/" %
-				         (tok.xtexts, tok.relpath, tok.re.pattern),
-				         file=sys.stderr)
-			my_doubt = True
+			if tok.req:
+				unrecognized = True
+				if debug >= 2:
+					print("ERR: no raw match for XToken '%s' (%s) aka re /%s/" %
+							 (tok.xtexts, tok.relpath, tok.re.pattern),
+							 file=sys.stderr)
 			continue
 		
 		# 4) lorsque on a un unique match => on le traite --------------
@@ -568,30 +613,45 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			mtched.append(pseudo_out)
 			mtched_k += 1
 			
-			# -c- effacement, substitution par un renvoi
-			grouped_raw_lines = re.sub(tok.re,
-			                           "###%i###" % mtched_k,
-			                           grouped_raw_lines)
+			# -c- effacement dans le remainder
+			# (substitution par un renvoi ###42###)
+			remainder = re.sub(tok.re, "###%i###" % mtched_k,
+			                           remainder)
 			
-			
-			# TODO utiliser les possibilités du remainder pour:
+			# TODO utiliser les possibilités du remainder (ou masque des infos):
 			#  - diagnostic qualité sortie (moins bonne si remainder grand)
 			#  - comparaison chaines à erreurs OCR <=> chaines corrigées
-
 		
 		# fins cas de figures match
 	# fin boucle sur tokens
 	
 	# traitement du remainder => résultat visible avec option -r (mask)
-	grouped_raw_lines = str_escape(grouped_raw_lines)
+	remainder = str_escape(remainder)
+	
+	# affiche la pile récupérée
+	# print("====MATCHED====", mtched, file=sys.stderr)
+	
+	
+	# SORTIE
+	new_lines = remainder
 	
 	# ré-insertion des matchs échappés eux aussi ET balisés
 	if not args.mask:
 		for (k, rendu) in enumerate(mtched):
 			renvoi = "###%i###" % k
-			grouped_raw_lines = re.sub(renvoi,
-			                            rendu,
-			                            grouped_raw_lines)
+			new_lines = re.sub(renvoi, rendu,
+			                         remainder)
+	
+	
+	# correctif label  => TODO à part dans une matcheuse que pour label?
+	# ---------------
+	#   Les labels sont souvents des attributs n=int mais
+	#   dans le corpus d'entraînement on les balise avec leur ponct
+	#   ex: [<label>1</label>]  ==> <label>[1]</label>
+	new_lines = re.sub("\[<label>(.*?)</label>\]",
+						 "<label>[\g<1>]</label>",
+						   new_lines)
+	
 	
 	# dernier correctif: groupements de tags
 	# ------------------
@@ -600,16 +660,21 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	new_lines = re.sub(r'<pp>', r'<biblScope type="pp">',
 			  re.sub(r'</pp>', r'</biblScope>',
 			 re.sub(r'(<pp>.*</pp>)',strip_inner_tags,
-			grouped_raw_lines)))
+			new_lines)))
 	
 	# -b- auteurs groupés
+	# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
+	#        => <author>Ageta, H., Arai, Y.</author>
 	new_lines = re.sub(r'(<author>.*</author>)',strip_inner_tags, new_lines)
 	new_lines = re.sub(r'(<editor>.*</editor>)',strip_inner_tags, new_lines)
 	
+	
+	# ajout d'un éventuel tag extérieur
+	# ----------------------------------
 	new_lines = "<bibl>"+new_lines+"</bibl>"
 	
-	
-	return(new_lines, not(my_doubt))
+	# ==> (new_lines, success_bool)
+	return(new_lines, not(unrecognized))
 
 
 # --------------------------------------------------------
@@ -689,32 +754,39 @@ class XTokinfo:
 	
 	# =================================================
 	# initialisation
-	def __init__(self, s="", xip=""):
+	def __init__(self, s="", xip="", req=True):
 		# 1) Initialisation str <= contenu(s) et xip <= src_path
 		# -------------------------------------------------------
-		# CONTENUS SELF.XTEXTS
+		
+		# << XIP
+		self.relpath = xip   # xpath of src element
+		
+		# << contents: SELF.XTEXTS
+		
+		# -a- 
+		# 1 token = 1 str (<= usually text content of the xml elt)
 		if type(s) == str:
-			# token = 1 str (<= usually text content of the xml elt)
 			self.xtexts = s
 			self.combimode = False
 		
-		# token = k strings together in any order
-		# initialisation combinée avec une liste str appelé s_list
-		# ex: nom + prénom 
+		# -b- 
+		# 1 token = k strings together in any order
+		# initialisation combinée avec une liste str (ex: nom + prénom)
 		elif type(s) == list:
 			self.xtexts = s
 			self.combimode = True
-			
+		
 		else:
 			raise TypeError(type(s))
 		
-		# xpath of src element in <biblStruct>
-		# XIP
-		self.relpath = xip
+		# <<  "isRequired" BOOL
+		#    (ex: label not required)
+		# /!\ most tokens are required for successful align
+		self.req = req
 		
 		# 2) on crée des expressions régulières pour le contenu
 		# -------------------------------------------------------
-		# SELF.RE
+		# <> SELF.RE
 		# "J Appl Phys" ==> r'J(\W+)Appl(\W+)Phys'
 		# £ TODO : autoriser un tiret n'importe ou dans les mots des
 		#          longs champs !!
@@ -724,7 +796,7 @@ class XTokinfo:
 		
 		# 3) on récupère ce qui deviendra le tag de sortie
 		# -------------------------------------------------
-		# SELF.TAGOUT
+		# <> SELF.TAGOUT
 		# opening tag
 		self.tagout = XTokinfo.xmlin_path_to_xmlout(self.relpath)
 		# closing tag
@@ -753,7 +825,7 @@ class XTokinfo:
 		esctokens = [u for u in map(re.escape,subtokens)]
 		# TODO ajouter ici possibilité tirets de césure
 		
-		print("====ESCTOKS====", esctokens)
+		# print("====ESCTOKS====", esctokens)
 		my_re_str = "[\W¤]*".join(r'%s' % u for u in esctokens)
 		
 		# B) Décision du format des limites gauche et droite pour les \b
@@ -785,9 +857,10 @@ class XTokinfo:
 			re_str = self.str_pre_regexp(self.xtexts)
 		
 		# => plusieurs chaînes matchables dans les 2 ordres possibles
-		# ex: ['nom', 'prénom'] => /((?:nom\W*prénom)|(?:prénom\W*nom))/
+		# (quand les XML n'ont pas préservé l'ordre)
 		elif self.combimode:
 			alternatives = []
+			# ex: ['nom', 'prénom'] => /((?:nom\W*prénom)|(?:prénom\W*nom))/
 			for substr_combi in permutations(self.xtexts):
 				# jonction par un espace ou toute valeur de XTokinfo.BLANK
 				str_combi = XTokinfo.BLANK.join(substr_combi)
@@ -803,8 +876,6 @@ class XTokinfo:
 		# et compilation
 		my_regexp_object = re.compile("("+re_str+")")
 		return my_regexp_object
-	
-	
 	
 	
 	def __str__(self):
@@ -872,9 +943,8 @@ if (args.model_type in ["reference-segmenter", "citations"]
 # ================
 print("LECTURE XML", file=sys.stderr)
 
-# TODO ==> on signale au passage les colonnes vides (xbibs vides en amont)
-
 parser = etree.XMLParser(remove_blank_text=True)
+
 # parse parse
 try:
 	dom = etree.parse(args.xmlin, parser)
@@ -1130,11 +1200,18 @@ print("Les champions: %s" % winners, file=sys.stderr)
 
 # vérification si on ne doit garder que les documents qui matchent bien
 # (quand on génère un corpus d'entraînement)
+# voire correction si évident
+(is_consec, new_winners) = check_align_seq_and_correct(winners)
 
-if not check_align_seq(winners):
-	
+if new_winners != winners:
+	print("Ces champions corrigés: %s" % new_winners, file=sys.stderr)
+	winners = new_winners
+
+if not is_consec:
 	# désordre du résultat à l'étape 1
 	checklist[1] = False
+
+
 
 print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
 
@@ -1166,6 +1243,7 @@ if args.model_type=="reference-segmenter":
 	if len(winners) != len(rawlines):
 		raise ValueError("wtf??")
 	
+	# ne pas oublier de rajouter un marqueur fin de lignes après ch. rawlines
 	for i, this_line in enumerate(rawlines):
 		
 		# récup de l'indice XML correspondant à la ligne
@@ -1181,7 +1259,9 @@ if args.model_type=="reference-segmenter":
 		if j_win is None:
 			# on ne peut rien reporter sur cette ligne
 			# mais on la sort quand même (fidélité au flux txtin)
-			print(str_escape(this_line))
+			print(str_escape(this_line)+"<lb/>")
+			#                           -------
+			#                           important!
 		else:
 			# nouveau morceau
 			if len(local_grouped_lines) is 0:
@@ -1199,6 +1279,13 @@ if args.model_type=="reference-segmenter":
 					
 					# match_cit_field n'a pas été prévu pour multiligne: TODO à part ?
 					my_bibl_line = re.sub("</bibl>$","",my_bibl_line)
+					
+					# les labels sont souvents des attributs n=int mais
+					# dans le corpus d'entraînement on les balise avec leur ponct
+					# ex: [<label>1</label>]  ==> <label>[1]</label>
+					my_bibl_line = re.sub("\[<label>(.*?)</label>\]",
+					                       "<label>\[\1\]</label>",
+					                       my_bibl_line)
 					# -------------------8<-------------------------
 				else:
 					my_bibl_line = "<bibl>"+ str_escape(my_bibl_line)
@@ -1212,8 +1299,12 @@ if args.model_type=="reference-segmenter":
 				local_grouped_lines.append(str_escape(this_line))
 			# morceau de fin >> SORTIE
 			else:
-				local_grouped_lines.append(str_escape(this_line)+'</bibl>')
-				# separateur saut de ligne
+				local_grouped_lines.append(str_escape(this_line)+'<lb/></bibl>')
+				#                                                ------
+				#                                               fin de la
+				#                                             dernière ligne
+				
+				# separateur saut de ligne pour les lignes internes
 				#  => sortie finale format ref-seg
 				#     -------------
 				print("<lb/>".join(local_grouped_lines))
@@ -1221,13 +1312,12 @@ if args.model_type=="reference-segmenter":
 				# empty buffer
 				local_grouped_lines = []
 	
+	# diagnostic
+	diagno_refseg = args.xmlin+"\t"+str(int(checklist[0]))+"\t"+str(int(checklist[1]))
+	print ("DIAGNOSTIC RAPIDE", diagno_refseg, file=sys.stderr)
+	
 	print ("~" * 80, file=sys.stderr)
-	print (
-		   args.xmlin
-			 +"\t"+checklist[0]
-			 +"\t"+checklist[1], 
-		   file=CHECKS
-		   )
+	print (diagno_refseg , file=CHECKS)
 	
 	CHECKS.close()
 	
@@ -1314,6 +1404,8 @@ else:
 											label   = xlabel,
 											debug   = args.debug
 										   )
+				#~ if not success:
+					#~ print("KEIN SUCCESS")
 				
 				# update 3è slot checklist pour filtrage erreurs
 				# (1 info par refbib et non plus sur l'ens.)
