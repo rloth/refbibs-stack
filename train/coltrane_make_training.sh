@@ -9,6 +9,7 @@ export MODEL_type=$2       # ex: "segmentation"
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
 export GB_NAME="g033c"
+export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 
 # result's structured backup => "coltrane" dir
 export CoLTrAnE="/home/loth/refbib/analyses/coltrane"
