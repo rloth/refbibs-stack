@@ -8,7 +8,7 @@ export MODEL_type=$2       # ex: "segmentation"
 # (Dirs)
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
-export GB_NAME="g033c"
+export GB_NAME="g033d"
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 
 # result's structured backup => "coltrane" dir
@@ -48,11 +48,11 @@ cd $GB/grobid-trainer/resources/dataset
 if [ ! -d $MODEL_type.bak ]
  then cp -r $MODEL_type $MODEL_type.bak
 fi
-rm -r $MODEL_type
+rm -fr $MODEL_type
 ln -s $SAMP_PATH/data/$MODEL_type $MODEL_type
 
-# === === === === === === === === ===
-# 2 - PUIS LANCEMENT PROPREMENT DIT
+# === === === === === === === === ===<  <<  <  <<  <  <<
+# 2 - PUIS LANCEMENT PROPREMENT DIT   <  <<  <  <<  <  <<
 export LC_ALL=C
 cd $GB/grobid-trainer
 mvn generate-resources -P ${tgt} \
@@ -60,6 +60,7 @@ mvn generate-resources -P ${tgt} \
 2> $MY_NEW_SAMP.trainer.crf.log
 
 # ça tourne...
+export LC_ALL=fr_FR.UTF-8
 
 
 # === === === === === === ===

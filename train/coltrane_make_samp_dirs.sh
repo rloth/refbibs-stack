@@ -39,7 +39,7 @@ mkdir -p data/$MODEL_type
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
 # new training docs
-export exemples_prets=~/refbib/corpus/trainbibistx/segmentation/pdfs
+export exemples_prets=~/refbib/corpus/trainbibistx/${MODEL_type}/pdfs
 # 1/3 - obtention: nom de l'executable de pretraining dans le jar
 case $MODEL_type in
 fulltext*)
@@ -62,7 +62,8 @@ name/citation)
   ;;
 esac
 
-# createTraining (f-flux <= pdf) /!\ attention créer un regard
+# createTraining (f-flux <= pdf)
+# /!\ attention créer un "regard": par défaut createTraining ne montre pas ces flux
 java -Xmx2G -jar $GB/grobid-core/target/grobid-core-*.one-jar.jar -gH $GB/grobid-home -gP $GB/grobid-home/config/grobid.properties -dIn ${exemples_prets} -dOut trainers.${MODEL_type}.praws/ -exe ${pre_MODEL}
 
 
@@ -73,6 +74,13 @@ java -Xmx2G -jar $GB/grobid-core/target/grobid-core-*.one-jar.jar -gH $GB/grobid
 # on ajoute les dossiers qu'on ne modifiait pas en provenance des corpus actuels
 cp -r $ORIG_DATASET/${MODEL_type}.bak/crfpp-templates $SAMP_PATH/data/$MODEL_type/.
 cp -r $ORIG_DATASET/${MODEL_type}.bak/evaluation $SAMP_PATH/data/$MODEL_type/.
+
+cp -r $ORIG_DATASET/${MODEL_type}/crfpp-templates $SAMP_PATH/data/$MODEL_type/.
+cp -r $ORIG_DATASET/${MODEL_type}/evaluation $SAMP_PATH/data/$MODEL_type/.
+
+# --- (autres fichiers) ---
+# on ajoute ou non les fichiers d'entraînement initiaux
+cp -r $ORIG_DATASET/${MODEL_type}/corpus $SAMP_PATH/data/$MODEL_type/.
 
 echo "ok dirs created"
 tree $SAMP_PATH
