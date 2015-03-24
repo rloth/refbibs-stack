@@ -2,13 +2,14 @@
 
 # (Descriptions libres)
 export MY_NEW_SAMP=$1       # ex: "seg-a-40"
-export MODEL_type=$2       # ex: "segmentation"
-
+export MODEL_type=$2        # ex: "segmentation"
+export GB_BASENAME=$3       # ex: "g033e"
+export eps="e-5"
 
 # (Dirs)
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
-export GB_NAME="g033d"
+export GB_NAME=${GB_BASENAME}.${eps}
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 
 # result's structured backup => "coltrane" dir
@@ -53,15 +54,15 @@ ln -s $SAMP_PATH/data/$MODEL_type $MODEL_type
 
 # === === === === === === === === ===<  <<  <  <<  <  <<
 # 2 - PUIS LANCEMENT PROPREMENT DIT   <  <<  <  <<  <  <<
-export LC_ALL=C
 cd $GB/grobid-trainer
+# export LC_ALL=C  # n'est plus nécessaire normalement
+
+export MAVEN_OPTS="-Xmx7G"
 mvn generate-resources -P ${tgt} \
-1> $MY_NEW_SAMP.trainer.mvn.log \
-2> $MY_NEW_SAMP.trainer.crf.log
+1> $MY_NEW_SAMP.$eps.trainer.mvn.log \
+2> $MY_NEW_SAMP.$eps.trainer.crf.log 
 
 # ça tourne...
-export LC_ALL=fr_FR.UTF-8
-
 
 # === === === === === === ===
 # 3 - RECUP MODELE ET LOG
