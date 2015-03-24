@@ -2,109 +2,24 @@
 
 import re
 import sys
+
 from lxml import etree
-
-from math import ceil
-
-
-# quelques helper regexps
-re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
+from rag_xtools import localname_of_tag, glance_xbib
 
 
+# -------------------------------------------------------
+# --------(procédures principales de "ragreage")---------
+# -------------------------------------------------------
 
-
-
-# --------------------------------------------------------
-# -A- helpers
-
-# --------------------------------------------------------
-NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
-
-
-def glance_xbib(bS, longer = False):
-	"""Donne un infostr ou aperçu du contenu d'une biblio structurée XML
-	
-	Arguments:
-		bS -- l'entrée biblio
-		longer -- un booléen pour format étendu 
-	"""
-	# variables du glance
-	# article title if present, or monog title, or nothing 
-	main_title  = None
-	main_author = None
-	the_year  = None
-	the_id    = None
-	
-	# id
-	id_elt = bS.xpath("@xml:id")
-	if len(id_elt):
-		the_id = id_elt[0]
-		
-	# date
-	date_elts = bS.xpath(".//tei:imprint/tei:date", namespaces=NSMAP)
-	if len(date_elts) == 1:
-		# 2 manières de noter la date: attribut when ou contenu balise
-		# si attribut @when
-		if "when" in date_elts[0].keys():
-			the_year = date_elts[0].get("when")[0:4]
-		# sinon contenu
-		else:
-			the_year = date_elts[0].text[0:4]
-	# sinon la date reste à None
-	elif len(date_elts) > 1:
-		print ("plusieurs dates", file=sys.stderr)
-	
-	# check bool entrée analytique ??
-	has_analytic  = (len(bS.xpath("tei:analytic", namespaces=NSMAP)) > 0)
-	
-	
-	if has_analytic:
-		ana_tit_elts = bS.xpath("tei:analytic/tei:title", namespaces=NSMAP)
-		if len(ana_tit_elts):
-			main_title = ana_tit_elts[0].text 
-		
-		ana_au_elts = bS.xpath("tei:analytic/tei:author//tei:surname", namespaces=NSMAP)
-		if len(ana_au_elts):
-			main_author = ana_au_elts[0].text
-	
-	# on va chercher auteur et titre dans monogr si ils manquaient dans analytic
-	if (main_title is None):
-		monogr_tit_elts = bS.xpath("tei:monogr/tei:title", namespaces=NSMAP)
-		if len(monogr_tit_elts):
-			main_title = monogr_tit_elts[0].text
-		else:
-			main_title = "_NA_"
-	
-	if (main_author == None):
-		monogr_au_elts = bS.xpath("tei:monogr/tei:author//tei:surname", namespaces=NSMAP)
-		if len(monogr_au_elts):
-			main_author = monogr_au_elts[0].text
-		else:
-			main_author = "_NA_" # on ne laisse pas à None car on doit renvoyer str
-	
-	# NB : il peuvent éventuellement toujours être none si éléments à texte vide ?
-	
-	# build "short" string
-	my_desc = "("+main_author[:min(5,len(main_author))]+"-"+str(the_year)+")" 
-	
-	# optional longer string
-	#~ if longer:
-		#~ maxlen = min(16,len(main_title))
-		#~ my_desc = the_id+":"+my_desc+":'"+main_title[:maxlen]+"'"
-	
-	return my_desc
-
-# --------------------------------------------------------
-
-
-
-
-# --------------------------------------------------------
-# -B- procédures principales
 # <<xml_elts_to_match_tokens
 # <<match_citation_fields
 # link_txt_bibs_with_xml
 # find_bib_zone
+
+
+
+# quelques helper regexps
+re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
 
 
 def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
@@ -161,7 +76,10 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 		# print(pdf_w_tokens, file=sys.stderr)
 		
 		for j, xbib in enumerate(xmlbibnodes):
-			# count count
+			
+			if localname_of_tag(xbib.tag) == "bibl":
+				print("========================= >>>>>>>>> bibl pas struct <<<<<<<<< =========================", file=sys.stderr)
+			
 			# décompte de cooccurrences (pl.bow <=> xb.bow)
 			for ptok in pdf_w_tokens:
 				if debug >= 3:
@@ -175,29 +93,33 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 					
 					# MATCH !
 					if reptok.search(xtext):
+						# count count count count count count count count count count count count count
+						scores_pl_xb[i][j] += 1
+						# + d'un match de même ptok sur le même xtxt n'est pas intéressant
 						if debug >= 4:
 							print("\t\tMATCH (i=%i, j=%i)!" % (i,j), file=sys.stderr)
-						scores_pl_xb[i][j] += 1 
-						# + d'un match de même ptok sur le même xtxt n'est pas intéressant
+						
 						break
 	
 	# pour log
 	# --------
 	if debug >= 2:
 		# reboucle: affichage détaillé pour log de la matrice des scores
+		print("link_scores[pdfline,xmlbib]", file=sys.stderr)
 		for i in range(len(pdfbibzone)):
+
 			# ligne courante : [valeurs de similarité] verbatim de la ligne
 			print("pdf>biblio>l.%i: %s (max:%i) txt:'%s'" % (
 					  i,
 					  scores_pl_xb[i], 
 					  max(scores_pl_xb[i]), 
 					  # correspond à rawlines[debut_zone+i]
-					  pdfbibzone[i]
+					  pdfbibzone[i][:10]
 					 ),
 				file=sys.stderr)
 	
 	
-	# RECHERCHE champions   
+	# RECHERCHE champions (meilleur x_j de chaque ligne p_i dans la matrice scores_pl_xb)
 	# ===================
 	# [argmax_j de scores[i][j] for j in xbibs], for i in rawlines
 	#
@@ -219,6 +141,7 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 		# on n'utilise pas indexof(the_max_val) car si *ex aequo* on les veut tous
 		candidats = [j for j in range(m_xnodes) if scores_pl_xb[i][j] == the_max_val]
 		
+		# ----------------------
 		# si plusieurs ex aequo
 		# ----------------------
 		if len(candidats) > 1:
@@ -226,7 +149,7 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 			# cas à noter: la ligne est pratiquement vide
 			if the_max_val == 0:
 				champions[i] = None
-				if debug >= 2:
+				if debug >= 1:
 					print( "l.%i %-90s: NONE tout à 0" % (i, pdfbibzone[i]), file=sys.stderr)
 			
 			# cas rare: attribution raisonnable au précédent
@@ -296,7 +219,7 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 				
 				# match pas folichon
 				if the_max_val < 5 :
-					if debug >= 2:
+					if debug >= 1:
 						print("l.%i %-90s: WEAK (max=%i) (x vide? ou cette ligne p vide ?)" % (i, pdfbibzone[i], the_max_val), file=sys.stderr)
 					# oublier résultat incertain
 					argmax_j = None
@@ -332,7 +255,7 @@ def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
 					champions[i] = argmax_j
 					
 					# log
-					if debug >= 2:
+					if debug >= 1:
 						ma_bS = xmlbibnodes[argmax_j]
 						infostr = glance_xbib(ma_bS, longer=True)
 						print( "l.%i %-90s: WINs suite XML %s %s (max=%i vs d=%f) " % (
@@ -594,7 +517,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			
 			# -----------------------------------------------------
 			# large sliding lookahead window over sums in all_occs
-			desired_chunk_span = ceil(3.2 * len(xmlbibnodes))
+			desired_chunk_span = int(3.2 * len(xmlbibnodes))+1
 			# param 3.2 fixé après quelques essais 
 			# dans doc/tables/test_pdf_bib_zone-pour_ragreage.ods
 			
@@ -682,12 +605,14 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	
 	# curseur temporaire à l'endroit le plus court possible (si une ligne par xbib)
 	fin = debut + len(xmlbibnodes)
+	print ("Fin", fin, "   N_LINES", n_lines)
 	
 	# prolongement portée jq vraie fin : 
 	while summs_shorter_lookahead[fin+1] > 0:
 		# tant que freq_suivants > 0:
 		# on suppose des continuations consécutive de la liste des biblios
 		# ==> on décale la fin
+		
 		fin += 1
 	
 	if debug >= 2:
@@ -697,7 +622,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	print ("deb: ligne %s (\"%s\")\nfin: ligne %s (\"%s\")"
 		   %(
 		     debut, "_NA_" if debut is None else rawtxtlines[debut] ,
-		     fin, "_NA_" if fin is None else rawtxtlines[fin]
+		     fin, "sup ??" if fin > n_lines else "_NA_" if fin is None else rawtxtlines[fin]
 		     ),
 		  file=sys.stderr)
 	
@@ -706,6 +631,12 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	if (len(xmlbibnodes) * 8 <  (fin - debut)):
 		print ("WARN ça fait trop grand, je remets deb <- None", file=sys.stderr)
 		debut = None
+	
+	# filtre si un pb de fenêtre a mis fin > n_lines
+	if fin > n_lines:
+		print ("WARN fin sup dans find_bib_zone ?? ", file=sys.stderr)
+		fin = n_lines -1
+		print("nouvelle fin: ligne %s (\"%s\")" % (fin, rawtxtlines[fin]), file=sys.stderr)
 	
 	return (debut, fin)
 

@@ -59,19 +59,27 @@ __version__     = "1.0"
 # I/O
 import sys
 import argparse
-from subprocess import (check_output, CalledProcessError)
 from lxml import etree
-
-# procédures: find_bib_zone, link_txt_bibs_with_xml et helpers divers
-import rag_procedures
 
 # fonctions
 import re
 from itertools import permutations
 
+# mes méthodes XML
+import rag_xtools # str_escape, strip_inner_tags, glance_xbib, 
+                  # simple_path, localname_of_tag
+
+# mes procédures
+import rag_procedures  # find_bib_zone, link_txt_bibs_with_xml
+
+
+
 # --------------------------------------------------------
 # --------------------------------------------------------
-# global vars
+# my global vars
+
+NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
+
 
 # pour la tokenisation des lignes via re.findall
 re_TOUS = re.compile(r'\w+|[^\w\s]')
@@ -91,7 +99,7 @@ LABELS = None
 
 # --------------------------------------------------------
 # --------------------------------------------------------
-# fonctions
+# subroutines
 
 def prepare_arg_parser():
 	"""Preparation argument parser de l'input pour main"""
@@ -164,71 +172,6 @@ def prepare_arg_parser():
 
 
 
-# --------------------------------------------------------
-# -B- fonctions xpath et nettoyage value-of
-
-def simple_path(xelt, relative_to = ""):
-	"""Construct a path of local-names from tag to root
-	   or up to a local-name() provided in arg "rel_to"
-	"""
-	# starting point
-	the_path = localname_of_tag(xelt.tag)
-	if the_path == relative_to:
-		return "."
-	else:
-		# ancestor loop
-		for pp in xelt.iterancestors():
-			pp_locname = localname_of_tag(pp.tag)
-			if pp_locname != relative_to:
-				# prepend elts on the way
-				the_path = pp_locname + "/" + the_path
-			else:
-				# reached chosen top elt
-				break
-	# voilà
-	return the_path
-
-def localname_of_tag(etxmltag):
-	"""
-	Strip etree tag from namespace à la xsl:local-name()
-	"""
-	return re.sub(r"{[^}]+}","",etxmltag)
-
-def strip_inner_tags(match):
-	"""
-	Takes a re 'match object' on xml content and removes its inner XML tags à la xsl:value-of()
-	Ex: "<au>Merry</au> and <au>Pippin</au>"
-	    => <au>Merry and Pippin</au>
-	"""
-	capture = match.group(0)
-	top_mid_bot=re.match(r"^(<[^>]+>)(.*)(<[^>]+>)$",capture)
-	if (top_mid_bot is None):
-		print("CLEAN_TAG_ERR: capture doesn't start and end with xmltags"
-		      , file=sys.stderr)
-		return(capture)
-	else:
-		tmb3 = top_mid_bot.groups()
-		ltag  = tmb3[0]
-		inner = tmb3[1]
-		rtag  = tmb3[2]
-		
-		# strip
-		inner = re.sub(r"<[^>]*>","",inner)
-		
-		# ok
-		return (ltag+inner+rtag)
-
-def str_escape(s):
-	"""
-	Takes string of raw content and escapes xml-unsafe chars "<" ">" "&"
-	
-	Ex: "Pilote <mâtin quel journal!>"
-	    => "Pilote &lt;mâtin quel journal!&gt;"
-	"""
-	s = re.sub("&", "&amp;", s)
-	s = re.sub("<", "&lt;", s)
-	s = re.sub(">", "&gt;", s)
-	return s
 
 
 def check_align_seq_and_correct(array_of_xidx):
@@ -360,9 +303,9 @@ def biblStruct_elts_to_match_tokens(xml_elements, debug=0):
 	
 	toklist = []
 	for xelt in xml_elements:
-		base_path = simple_path(xelt, relative_to = "biblStruct")
+		base_path = rag_xtools.simple_path(xelt, relative_to = "biblStruct")
 		
-		loc_name = localname_of_tag(xelt.tag)
+		loc_name = rag_xtools.localname_of_tag(xelt.tag)
 		
 		if debug >= 2:
 			print("***", file=sys.stderr)
@@ -458,7 +401,10 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	   Minimal: re-annotate only label
 	   Normal : re-annotate label and all subelements in subtree this_xbib
 	   
-	En particulier, report des tags <bibl> sur une refbib"""
+	En particulier, report des tags <bibl> sur une refbib
+	
+	TODO cohérence arguments -m "citations" et -r
+	"""
 	
 	
 	# vérification des arguments
@@ -477,7 +423,7 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		
 		# rappel input XML
 		if subtree is not None:
-			xmlentry = rag_procedures.glance_xbib(subtree)
+			xmlentry = rag_xtools.glance_xbib(subtree)
 			print("XML entry:", xmlentry
 		        + "\ncontenus texte xmlbib %i" % j, file=sys.stderr)
 			print(etree.tostring(subtree, pretty_print=True).decode("ascii")
@@ -498,9 +444,9 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	
 	# tokenisation
 	#  - - - - - - 
-	# ajouter label en 1er token
-	#~ print ("je cherche %s" % label)
+	# ajout du label en 1er token
 	toklist = [XTokinfo(s=str(label),xip="label", req=False)]
+	#~ print ("je cherche %s" % label)
 	
 	# Tous les autres tokens:
 	if not just_label:
@@ -519,15 +465,18 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		#                  => obtenue par table corresp selon relpath actuel
 		# - - - - - - -
 		# methode 1 : appel fonction de correspondance cas par cas
+		#                    (elle crée les objets "token")
+		# TODO liaison (pp debut) (pp last) pour anticiper aphérèse des secondes
+		#      ex: 00992399_v16i9_S0099239906818911
 		toklist += biblStruct_elts_to_match_tokens(subelts, debug=debug)
 		
 		# - - - - - - -
 		# méthode 2 générique (remettra le même tag qu'en entrée)
 		#~ toklist = [XTokinfo(
 					  #~ s=xelt.text,
-					  #~ xip=simple_path(
+					  #~ xip=rag_xtools.simple_path(
 					  #~    xelt, 
-					  #~    relative_to = localname_of_tag(subtree.tag)
+					  #~    relative_to = rag_xtools.localname_of_tag(subtree.tag)
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
 	 # print("TOKLIST", toklist)
@@ -551,8 +500,11 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	# correspondances tag d'entrée => le tag de sortie
 	for l, tok in enumerate(toklist):
 		
+		# debg
+		my_path = None
+
 		# debug
-		if debug >= 1:
+		if debug >= 2:
 			print("XTOK",l,tok, file=sys.stderr)
 		
 		# sanity check A : the xmlstr we just found
@@ -561,7 +513,6 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			unrecognized = True
 			continue
 		
-	
 		# 3) on matche -------------------------------------------
 		#  £ TODO procéder par ordre inverse de longueur !!
 		# print("RAW: {'%s'}" % remainder)
@@ -570,14 +521,27 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		
 		# print("===mgroups==>", mgroups, file=sys.stderr)
 		n_matchs = len(mgroups)
-		# --------------------------------------------------------
 		
 		#debg
 		if debug >= 2:
-			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)
+			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)		
+		
+		
+		# 4) on traite le succès ou non du match -----------------  
+		
+		# si pas de match !
+		if n_matchs < 1:
+			if tok.req:
+				# problème
+				unrecognized = True
+				if debug >= 2:
+					print("ERR: no raw match for XToken '%s' (%s) aka re /%s/" %
+							 (tok.xtexts, tok.relpath, tok.re.pattern),
+							 file=sys.stderr)
+			continue
 		
 		# sanity check B : "there can be only one" !
-		if n_matchs > 1:
+		elif n_matchs > 1:
 			if tok.req:
 				unrecognized = True
 				if debug >= 2:
@@ -588,15 +552,6 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			# £ TODO choose one of the matches (surtout if =~ date ou ville ?)
 			continue
 		
-		# quand tok.xtexts == "__group__" au moins un des 2 ne matche pas
-		elif n_matchs < 1:
-			if tok.req:
-				unrecognized = True
-				if debug >= 2:
-					print("ERR: no raw match for XToken '%s' (%s) aka re /%s/" %
-							 (tok.xtexts, tok.relpath, tok.re.pattern),
-							 file=sys.stderr)
-			continue
 		
 		# 4) lorsque on a un unique match => on le traite --------------
 		else:
@@ -604,19 +559,22 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			# (pour traitement du remainder et ré-insertion ultérieure)
 			le_match = mgroups[0]
 			
+			#~ print("le_match:",le_match)
 			
 			# -a- préparation du substitut balisé
 			#                     £ pseudo_out == 'rendu'
-			pseudo_out = tok.tagout+str_escape(le_match)+tok.endout
+			pseudo_out = tok.tagout+rag_xtools.str_escape(le_match)+tok.endout
 			
 			# -b- enregistrement et incrément indice de renvoi
 			mtched.append(pseudo_out)
 			mtched_k += 1
 			
 			# -c- effacement dans le remainder
-			# (substitution par un renvoi ###42###)
+			# (substitution par un renvoi à la \4 ex: ###4###)
 			remainder = re.sub(tok.re, "###%i###" % mtched_k,
 			                           remainder)
+			
+			#~ print("remainder:", remainder)
 			
 			# TODO utiliser les possibilités du remainder (ou masque des infos):
 			#  - diagnostic qualité sortie (moins bonne si remainder grand)
@@ -626,47 +584,54 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	# fin boucle sur tokens
 	
 	# traitement du remainder => résultat visible avec option -r (mask)
-	remainder = str_escape(remainder)
+	remainder = rag_xtools.str_escape(remainder)
 	
 	# affiche la pile récupérée
-	# print("====MATCHED====", mtched, file=sys.stderr)
+	#~ print("====MATCHED====", mtched, file=sys.stderr)
 	
 	
-	# SORTIE
+	# SORTIE 
+	
+	# c'est ce "remainder" qu'on affichera si args.mask
 	new_lines = remainder
-	
-	# ré-insertion des matchs échappés eux aussi ET balisés
+
+	# sinon ré-insertion des matchs échappés eux aussi ET balisés
 	if not args.mask:
 		for (k, rendu) in enumerate(mtched):
 			renvoi = "###%i###" % k
+			# ==================================
 			new_lines = re.sub(renvoi, rendu,
-			                         remainder)
-	
-	
-	# correctif label  => TODO à part dans une matcheuse que pour label?
-	# ---------------
-	#   Les labels sont souvents des attributs n=int mais
-	#   dans le corpus d'entraînement on les balise avec leur ponct
-	#   ex: [<label>1</label>]  ==> <label>[1]</label>
-	new_lines = re.sub("\[<label>(.*?)</label>\]",
-						 "<label>[\g<1>]</label>",
+									 new_lines)
+			
+		# correctif label  => TODO à part dans une matcheuse que pour label?
+		# ---------------
+		#   Les labels sont souvents des attributs n=int mais
+		#   dans le corpus d'entraînement on les balise avec leur ponct
+		#   ex: [<label>1</label>]  ==> <label>[1]</label>
+		new_lines = re.sub("\[<label>(.*?)</label>\]",
+							 "<label>[\g<1>]</label>",
+							   new_lines)
+		
+		# dernier correctif: groupements de tags
+		# ------------------
+		
+		# -a- pages collées pour le modèle citation
+		new_lines = re.sub(r'<pp>', r'<biblScope type="pp">',
+				  re.sub(r'</pp>', r'</biblScope>',
+				 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
+				new_lines)))
+		
+		# -b- auteurs groupés
+		# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
+		#        => <author>Ageta, H., Arai, Y.</author>
+		new_lines = re.sub(r'(<author>.*</author>)',
+							  rag_xtools.strip_inner_tags, 
+						   new_lines)
+		new_lines = re.sub(r'(<editor>.*</editor>)',
+							  rag_xtools.strip_inner_tags,
 						   new_lines)
 	
 	
-	# dernier correctif: groupements de tags
-	# ------------------
-	
-	# -a- pages collées pour le modèle citation
-	new_lines = re.sub(r'<pp>', r'<biblScope type="pp">',
-			  re.sub(r'</pp>', r'</biblScope>',
-			 re.sub(r'(<pp>.*</pp>)',strip_inner_tags,
-			new_lines)))
-	
-	# -b- auteurs groupés
-	# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
-	#        => <author>Ageta, H., Arai, Y.</author>
-	new_lines = re.sub(r'(<author>.*</author>)',strip_inner_tags, new_lines)
-	new_lines = re.sub(r'(<editor>.*</editor>)',strip_inner_tags, new_lines)
 	
 	
 	# ajout d'un éventuel tag extérieur
@@ -967,22 +932,25 @@ DOCID = "RAG-"+re.sub( "\.xml$", # sans suffixe
 # query query
 xbibs = dom.findall(
 			"tei:text/tei:back//tei:listBibl/tei:biblStruct",
-			namespaces=rag_procedures.NSMAP
+			namespaces=NSMAP
 			)
 xbibs_plus = dom.xpath(
 			"tei:text/tei:back//tei:listBibl/*[local-name()='bibl' or local-name()='biblStruct']",
-			 namespaces=rag_procedures.NSMAP
+			 namespaces=NSMAP
 			)
+
+nxb = len(xbibs_plus)
+print ("N xbibs: %i" % nxb, file=sys.stderr)
 
 # pour logs
 # ---------
-nxb = len(xbibs)
-nxbof = len(xbibs_plus) - nxb
+nxb_traitables = len(xbibs)
+nxbof = nxb - nxb_traitables
 
 # si présence de <bibl>
 if (nxbof > 0):
 	print("WARN: %i entrées dont  %i <bibl> (non traitées)" %
-			 (nxb+nxbof, nxbof),
+			 (nxb, nxbof),
 			 file=sys.stderr )
 	
 	# incomplétude du résultat à l'étape 0
@@ -1154,7 +1122,7 @@ else:
 	print("---\nFIND PDF BIBS", file=sys.stderr)
 	
 	(debut_zone, fin_zone) = rag_procedures.find_bib_zone(
-									 xbibs,
+									 xbibs_plus,
 									 rawlines,
 									 debug=args.debug
 							  )
@@ -1259,7 +1227,7 @@ if args.model_type=="reference-segmenter":
 		if j_win is None:
 			# on ne peut rien reporter sur cette ligne
 			# mais on la sort quand même (fidélité au flux txtin)
-			print(str_escape(this_line)+"<lb/>")
+			print(rag_xtools.str_escape(this_line)+"<lb/>")
 			#                           -------
 			#                           important!
 		else:
@@ -1288,7 +1256,7 @@ if args.model_type=="reference-segmenter":
 					                       my_bibl_line)
 					# -------------------8<-------------------------
 				else:
-					my_bibl_line = "<bibl>"+ str_escape(my_bibl_line)
+					my_bibl_line = "<bibl>"+ rag_xtools.str_escape(my_bibl_line)
 				
 				# >> BUFFER, dans les 2 cas
 				local_grouped_lines.append(my_bibl_line)
@@ -1296,10 +1264,10 @@ if args.model_type=="reference-segmenter":
 			# morceaux de suite
 			elif next_win == j_win:
 				# ligne sans balises
-				local_grouped_lines.append(str_escape(this_line))
+				local_grouped_lines.append(rag_xtools.str_escape(this_line))
 			# morceau de fin >> SORTIE
 			else:
-				local_grouped_lines.append(str_escape(this_line)+'<lb/></bibl>')
+				local_grouped_lines.append(rag_xtools.str_escape(this_line)+'<lb/></bibl>')
 				#                                                ------
 				#                                               fin de la
 				#                                             dernière ligne
@@ -1363,7 +1331,7 @@ else:
 		# linked results
 		print("="*70, file=sys.stderr)
 		for j in range(nxb):
-			xml_info = rag_procedures.glance_xbib(xbibs[j], longer = True)
+			xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
 			if rawlinegroups_by_xid[j] is None:
 				print(xml_info + "\n<==> NONE", file=sys.stderr)
 			else:
@@ -1415,7 +1383,8 @@ else:
 				# (TODO check si c'est bien " " attendu et pas "" ?)
 				my_bibl_str = re.sub("¤"," ",my_bibl_str)
 				
-				# pour la sortie : traduction de la checkliste en "101", "111", etc
+				# pour la sortie : filtre ex: 111 => tout bon
+				# traduction de la checkliste en "101", "111", etc
 				out_check_trigram = "".join([str(int(boul)) 
 				                              for boul in checklist])
 				
