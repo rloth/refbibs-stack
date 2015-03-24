@@ -2,13 +2,14 @@
 
 # (Descriptions libres du run)
 export MY_NEW_SAMP=$1       # ex: "seg-a-40" ou "vanilla"
-export MODEL_type=$2        # ex: "segmentation" ou "none"
+
+export GB_NAME="g033e"
 
 # (Dirs)
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
-export GB_NAME="g033d"
-export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
+#~ export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
+export GB_GIT_ID="30305f9"
 
 # (Corpus d'évaluation)
 export CORPUS_NAME="BI-10kELS-s1"
@@ -35,7 +36,7 @@ export EXF="/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/"
 export EPF="/home/loth/refbib/corpus/bibistex/05_docs/s1/A-pdfs_flat/"
 
 # nombre de proc au balisage
-export NCPU=4
+export NCPU=6
 
 # === === === === === === === === === === === ===
 # 1 - DOSSIER NOUVELLE EVAL
@@ -66,7 +67,7 @@ fi
 pushd $GB/grobid-service/
 mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war &
 SERVICE_PID=$!
-sleep 30 # parfois il essaye de D/L qqch
+sleep 45 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch (cf. ~/.m2/settings pour le proxy)
 popd
 
 # avant de baliser
@@ -85,6 +86,8 @@ for liste in xa* ;
      i=$((i+1)) ;
  done
 
+sleep 3 # le service annonce les modèles choisis
+
 for pid in ${PIDS[*]} ; do echo "PID $pid en cours de balisage" ; done
 
 # ça tourne... on attend le premier puis les suivants
@@ -94,18 +97,19 @@ for pid in ${PIDS[*]};  do wait $pid ; echo "PID $pid a fini" ; done
 # /!\ 
 rm -fr xa*
 
-kill $SERVICE_PID
+#~ kill $SERVICE_PID
+
+# signature
+echo -e "fait par gb $GB_GIT_ID ($GB_NAME)" | cat >> version.log
+
 
 # === === === === === === === === ===
 # 4 - ENFIN EVAL ELLE-MËME !
  
 eval_xml_refbibs.pl -r $EXF -x $OUTDIR -g 'elsevier' \
 1> gb_eval_${EVALID}.tab \
-2> gb_eval_${EVALID}.log
-
-evalpid=$!
-
-echo "${EVALID} en cours"
-wait evalpid
+2> gb_eval_${EVALID}.log & echo "Eval '${EVALID}' en cours"
 # watch "tail -n 42 gb_eval_$EVALID.log"
-echo "fini!"
+
+# tableau de récap seul
+wait $! & tail -n 25 gb_eval_${EVALID}.log > gb_eval_${EVALID}.shb
