@@ -4,7 +4,7 @@
 #         - sur corpus PM_1943 déjà annoté dans un format NXML
 #         - d'une chaine de balisage des références TEI (ex: grobid, bilbo)
 # --------------------------------------------------------------------------
-#  message /help/ en fin de ce fichier       version: 0.5 (25/11/2014)
+#  message /help/ en fin de ce fichier       version: 0.6 (08/04/2015)
 #  copyright 2014 INIST-CNRS      contact: romain dot loth at inist dot fr
 # --------------------------------------------------------------------------
 
@@ -71,9 +71,6 @@ my $dump_lookup = 0 ;
 # booléen (global) : plus de détail pour infos d'erreurs telles que champ todo = sous-chaine champ gold
 my $SUBSTR_INFO = 0 ;
 
-# booléen prendre comme base de décompte les couples (docgold,doctodo) au lieu des docgolds seuls
-my $intersection = 0 ;
-
 # booléen activer compteur du défilement des docs en cours sur STDERR
 my $counter = 0 ;
 
@@ -109,7 +106,6 @@ my @COMPARERS = (
 			 "maxtemp:i"    => \$maxref,       # optional int
 			 "lookupdump"   => \$dump_lookup,  # optional bool
 			 "substrinfo"   => \$SUBSTR_INFO,  # optional bool
-			 "intersection" => \$intersection, # optional bool
 			 "counter"      => \$counter,      # optional bool
 			 "help"         => \&HELP_MESSAGE,
 			 ) ;
@@ -124,22 +120,6 @@ my @xml_to_check_list = map {decode('UTF-8', $_)} glob("$xml_dir/*.$ext") ;
 my $M = scalar(@xml_to_check_list) ;
 warn "RELU_d : $M fichiers $ext dans le dossier à évaluer\n" ;
 
-# -------------
-# TODO: paramètre bool if worklist externe
-# Intersection des docs dossier todo avec @worklist
-# my @sublist = () ;
-# for my $path (sort (@xml_to_check_list)) {
-# 	my $checkname = fileparse($path,(".tei.xml")) ;
-# 	warn $checkname."\n" if $debug ;
-#
-# 	if (grep {$_ == $checkname} @worklist) {
-# 		push (@sublist, $path) ;
-# 	}
-# }
-# # MàJ des variables
-# @xml_to_check_list = @sublist ;
-# $M = scalar(@$sublist) ;
-# -------------
 my @gold_paths_list = () ;
 my $N = 0 ;
 my $gold_extension = ($gold_format eq "nlm") ? "nxml" : "xml" ;
@@ -222,14 +202,17 @@ print join($separateur,
 # compteurs de boucle doc
 my $doc_j = 0 ;         # nb de docs todo lus [1..$M]  (débutera à 1)
 my $aligned_docs = 0 ;     # nb de docs todo alignés sur un doc gold
-my $gxerrs = 0 ;           # nb d'erreurs de lecture XML sur corpus gold
-my $txerrs = 0 ;           # nb d'erreurs de lecture XML sur corpus todo
+my $matchable_docs = 0 ;   # nb de couples de docs alignés sans erreur XML  
+                           # soit: $matchable_docs = $aligned_docs - ||U($gxerrs,$txerrs)||
+my $gxerrs = 0 ;           # nb de docs gold à erreurs de lecture XML
+my $txerrs = 0 ;           # nb de docs todo à erreurs de lecture XML
 my $errs = 0 ;             # nb d'autres erreurs
-my $empty_goldbib = 0 ;    # nb de docs originaux sans refbibs
-my $empty_todobib = 0 ;    # nb de docs todo sans aucune refbib
+my $empty_goldbib = 0 ;    # nb de docs originaux sans erreurs XML mais sans refbibs
+my $empty_todobib = 0 ;    # nb de docs todo sans erreurs XML mais sans aucune refbib
 
 # ... et de sous-boucles
 my $K = 0 ;                   # nb de refbibs gold lues (base de travail)
+my $matchable_K = 0 ;         # nb de refbibs gold lues sans errs XML dans le todo d'en face (assiette max)
 my $L = 0 ;                   # nb de refbibs todo lues (bibs générées) (= base - silence + bruit)
 my $total_found_title = 0 ;   # nb refbibs bien alignées via le titre
 my $total_found_issue = 0 ;   # nb refbibs bien alignées via journal+date+vol+fasc
@@ -248,10 +231,12 @@ my $maxdocsdigits = length($M.'') ;
 
 # NB les seules situations où l'ont fait next() sont le non-alignement du fichier
 #    (pas de couple gold-todo) et l'erreur goldxml (todo déjà compté, gold rien à compter)
-# Par contre l'erreur todoxml (fichier balisé a été renvoyé invalide doit
+# Par contre l'erreur todoxml (fichier balisé a été renvoyé invalide) doit
 # provoquer une continuation avec un ajout aux stats de silence
 
 for my $path (sort (@xml_to_check_list)) {
+	# flag booléen si erreur XML dans doc todo pour ne pas le compter dans l'assiette
+	my $got_txerr = 0 ;
 	
 	# compteur grande boucle [1..$M]
 	$doc_j ++ ;
@@ -269,20 +254,12 @@ for my $path (sort (@xml_to_check_list)) {
 
 	# Gestion des exceptions
 	if (not defined $info) {
-		$errs++ ;
-		warn "CHECKERR: nom de fichier '$checkname' non reconnu dans la liste de référence\n";
-		if ($intersection) {
-			next ;
-		}
-		
-		# TODO vérifier logique
-		#~ else {
-			#~ # on gardera aussi un doc vide pour le décompte des silences ?
-			#~ $info->{'todopath'} = "__ABSENT__" ;
-		#~ }
+		warn "CHECKTODO=>GOLDMIS: nom de fichier '$checkname' non reconnu dans la liste de référence\n";
+		next ;
 	}
 	else {
-		$aligned_docs ++ ;
+		$aligned_docs ++ ;    # celui-ci ne sera plus jamais modifié
+		$matchable_docs ++ ;   # celui-ci sera décrémenté si une erreur XML du doc todo ou gold
 	}
 
 	# enregistrement des infos du doc à évaluer
@@ -301,15 +278,18 @@ for my $path (sort (@xml_to_check_list)) {
 	
 	## parsing XML du doc à évaluer # = = = = parse = = = = parse = = = = = = =
 	my $tododoc ;
-	#~ eval { $tododoc = $parser->parse_file($path) ; } ;
+	
+	# i) méthode simple
+	# eval { $tododoc = $parser->parse_file($path) ; } ;
+	
+	# ii) méthode avec la main sur chaque ligne
 	my @todoxml = () ;
 	open (TODO, "< $path") ;
 	for my $tline (<TODO>) {
 		chomp $tline ;
 		# use Encode ;
 		$tline = decode('UTF-8', $tline);
-		if($todo_format eq 'nlm') {
-			# £TODO vérifier tous cas de figure
+		if ($todo_format eq 'nlm') {
 			# suppression du header non-xml de cermine
 			push(@todoxml, $tline) unless ($tline =~ /\[Element:/) ;
 		}
@@ -317,7 +297,6 @@ for my $path (sort (@xml_to_check_list)) {
 		else {
 			push(@todoxml, $tline)
 		}
-
 	}
 	close (TODO) ;
 
@@ -329,9 +308,14 @@ for my $path (sort (@xml_to_check_list)) {
 	# gestion d'erreurs
 	# (on *ne* saute *pas* le doc même si on a une erreur parsing xml)
 	if ($@) {
-		$txerrs ++ ;
 		warn "  XMLERR: doc à évaluer no $doc_j ($path)\n" ;
 		warn (errlog($@,$path)) ;
+		
+		$txerrs ++ ;
+		$matchable_docs -- ;
+		
+		# flag on
+		$got_txerr = 1 ;
 		
 		# on garde un doc vide pour le décompte des silences
 		$tododoc = $parser->parse_string("<TEI/>") ;
@@ -366,8 +350,6 @@ for my $path (sort (@xml_to_check_list)) {
 	# (on la décomptera ensuite si alignement)
 	$semble_bruit += $nb_todobibs ;
 
-
-
 	## idem parsing XML du doc gold # = = = = parse = = = = parse = = = = = =
 	my $goldpath = $info->{'goldpath'} ;
 	my $golddoc ;
@@ -385,49 +367,35 @@ for my $path (sort (@xml_to_check_list)) {
 			
 			my $els_ns_decl = 'xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' ;
 
-			# ajout des namespaces à la volée pour elsevier
-			# (dans les fichiers XML qui les avaient omis)
-			if ($gline !~ /xmlns/) {
-				$gline =~ s!<converted-article!<converted-article $els_ns_decl! ;
-				$gline =~ s!<article!<article $els_ns_decl! ;
-				$gline =~ s!<simple-article!<simple-article $els_ns_decl! ;
-			}
-			elsif ($gline =~ m!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!) {
-				$gline =~ s!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!<article $els_ns_decl xml:lang="en" docsubtype="fla">! ;
-			}
-			#~ # ajout des namespaces à la volée pour elsevier
-			#~ # (dans les fichiers XML qui les avaient omis)
-			#~ if ($gline !~ /xmlns/) {
-				#~ $gline =~ s!<converted-article!<converted-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-				#~ xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-				#~ $gline =~ s!<article!<article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-				#~ xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-				#~ $gline =~ s!<simple-article!<simple-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-				#~ xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-			#~ }
-			#~ elsif ($gline =~ m!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!) {
-				#~ $gline =~ s!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xml:lang="en" docsubtype="fla">! ;
-			#~ }
-			# on garde les importants pour plus tard
+			# corrections des namespaces à la volée pour elsevier
+			# (peu importe que le fichier les aie déjà, les aie partiellement ou ne les aie pas :
+			#  on enlève tout ce qu'il y a et on remet la liste complète)
+			$gline =~ s!xmlns:[a-z]+=["'][^"']+["']!!g ;
+			$gline =~ s!<converted-article +!<converted-article $els_ns_decl ! ;
+			$gline =~ s!<article +!<article $els_ns_decl ! ;
+			$gline =~ s!<simple-article +!<simple-article $els_ns_decl ! ;
+			$gline =~ s!<book-review +!<book-review $els_ns_decl ! ;
+			
+			# décodage des entités
+			# 1/3 on garde pour plus tard les importants faisant partie des balises
 			$gline =~ s/</_=_monlt_=_/g ;
 			$gline =~ s/>/_=_mongt_=_/g ;
 			$gline =~ s/'/_=_monsq_=_/g ;
 			$gline =~ s/"/_=_mondq_=_/g ;
 
-			# décoder tous les autres
+			# 2/3 décoder tous les autres...
 			# use HTML::HTML5::Entities ;
 			$gline = decode_entities($gline);
-			# sauf les importants qu'il aurait créé (ne faisant donc pas partie des balises)
+			# ...sauf les unsafe qu'il aurait créés (ne faisant donc pas partie des balises)
 			$gline = encode_entities($gline, '<>&');
 
-			# retour des importants faisant partie des balises
+			# 3/3 retour des importants faisant partie des balises
 			$gline =~ s/_=_monlt_=_/</g ;
 			$gline =~ s/_=_mongt_=_/>/g ;
 			$gline =~ s/_=_monsq_=_/'/g ;
 			$gline =~ s/_=_mondq_=_/"/g ;
 
 			$gline = encode('UTF-8', $gline) ;
-
 		}
 		push(@goldxml, $gline) ;
 	}
@@ -438,6 +406,8 @@ for my $path (sort (@xml_to_check_list)) {
 	# gestion d'erreurs
 	if ($@) {
 		$gxerrs ++ ;
+		# ne fera pas partie de l'assiette sauf si parmi txerrs (déjà enlevé)
+		$matchable_docs -- unless ($got_txerr) ;
 		warn "  XMLERR: doc de référence $checkname ($goldpath)\n" ;
 		warn (errlog($@,$goldpath)) ;
 
@@ -487,8 +457,8 @@ for my $path (sort (@xml_to_check_list)) {
 
 		# gestion d'erreurs (on saute le doc si erreur xpath)
 		if ($@) {
-			$txerrs ++ ;
-			warn "  XPAERR: XPATH ELS sur doc à évaluer no $doc_j ($path)\n" ;
+			$errs ++ ;
+			warn "  XP_ERR: XPATH ELS sur doc gold no $doc_j ($path)\n" ;
 			warn (errlog($@,$path)) ;
 
 			# il n'ajoutera plus rien aux décomptes et le todobib à déjà été compté
@@ -502,6 +472,7 @@ for my $path (sort (@xml_to_check_list)) {
 	my $nb_goldbibs = scalar(@goldbibs) ;
 	warn "GOLD : $nb_goldbibs réfbibs\n" if $debug ;
 	$K += $nb_goldbibs ;
+	$matchable_K += $nb_goldbibs unless ($got_txerr) ;
 
 
 	# ------------------------------------------------------------------
@@ -538,17 +509,19 @@ for my $path (sort (@xml_to_check_list)) {
 	# premiers tests de bon sens
 	# --------------------------
 	# on envoie des warnings mais on continue malgré tout
-	# (pour exhaustivité des décomptes et lignes csv sorties)
+	# (pour exhaustivité des décomptes bruit/silence et lignes csv sorties)
 	if ($nb_goldbibs == 0) {
 		$empty_goldbib ++ ;
-		warn "EMPTYSRC: doc gold $checkname ($docnostr) ; n'a originellement aucune refbib :(\n" ;
-		warn "          (chemin d$checkname=".$info->{'goldpath'}.")\n" if ($debug) ;
+		if ($debug) {
+			warn "EMPTYSRC: doc gold $checkname ($docnostr) n'a originellement aucune refbib :(\n" ;
+			#~ warn "          (chemin $checkname=".$info->{'goldpath'}.")\n" ;
+		}
 	}
 	# ceci n'est pas un else: décompte $empty_todobib distinct
-	if ($nb_todobibs == 0) {
+	if ($nb_todobibs == 0 and not($got_txerr)) {
 		$empty_todobib ++ ;
-		warn "EMPTYTGT: doc à évaluer $checkname ($docnostr) n'a sorti aucune refbib :(\n" ;
-		warn "          (chemin d$checkname=".$info->{'goldpath'}.")\n" if ($debug) ;
+		
+		warn "EMPTYTGT: doc à évaluer $checkname ($docnostr / $got_txerr) n'a sorti aucune refbib :(\n" ;
 	}
 
 	# ===================================================
@@ -1164,13 +1137,15 @@ warn "------ stats évaluation corpus nxml ------\n" ;
 warn "  #docs dossier gold ..........".sprintf("% ${nbchar1}d",$N)."\n" ;
 warn "  #docs dossier todo ..........".sprintf("% ${nbchar1}d",$M)."\n" ;
 warn "  #DOCUMENTS ALIGNÉS ..........".sprintf("% ${nbchar1}d",$aligned_docs)."\n" ;
-warn "  #docs 'gold' sans refbibs ...".sprintf("% ${nbchar1}d",$empty_goldbib)."\n" ;
-warn "  #docs 'todo' sans refbibs ...".sprintf("% ${nbchar1}d",$empty_todobib)."\n" ;
+warn "  #documents assiette .........".sprintf("% ${nbchar1}d",$matchable_docs)."\n" ;
 warn "  #docs 'gold' à erreurs xml ..".sprintf("% ${nbchar1}d",$gxerrs)."\n" ;
 warn "  #docs 'todo' à erreurs xml ..".sprintf("% ${nbchar1}d",$txerrs)."\n" ;
+warn "  #docs 'gold' sans refbibs ...".sprintf("% ${nbchar1}d",$empty_goldbib)."\n" ;
+warn "  #docs 'todo' sans refbibs ...".sprintf("% ${nbchar1}d",$empty_todobib)."\n" ;
 warn "  #autres erreurs (path...). ..".sprintf("% ${nbchar1}d",$errs)."\n" ;
 warn "------------------------------------------\n" ;
 warn " #refbibs 'gold' ...............".sprintf("% ${nbchar2}d",$K)."\n" ;
+warn "  dont #assiette ...............".sprintf("% ${nbchar2}d",$matchable_K)."\n" ;
 warn "  dont #trouvés ................".sprintf("% ${nbchar2}d",$total_found)."\n" ;
 warn "    ├─ par le titre ............".sprintf("% ${nbchar2}d",$total_found_title)."\n" ;
 warn "    ├─ par la volumaison .......".sprintf("% ${nbchar2}d",$total_found_issue)."\n" ;
@@ -1179,11 +1154,12 @@ warn "    └─ par heuristique tit .....".sprintf("% ${nbchar2}d",$total_found
 warn "  et #non-trouvés (silence) ....".sprintf("% ${nbchar2}d",$K - $total_found)."\n" ;
 warn "           _ _ _ _ _ _ _ _ _ _ \n" ;
 warn "          | => Rappel = ".sprintf("%.3f |",$total_found/$K)."\n" if ($K != 0) ;
+warn "          | => R_asst = ".sprintf("%.3f |",$total_found/$matchable_K)."\n" if ($matchable_K != 0) ;
 warn "------------------------------------------\n" ;
 warn " #refbibs 'todo' ...............".sprintf("% ${nbchar2}d",$L)."\n" ;
 warn "  dont #non-alignées (bruit) ...".sprintf("% ${nbchar2}d",$semble_bruit)."\n" ;
 warn "          _ _ _ _ _ _ _ _ _ _ _ _\n" ;
-warn "         | => Précision = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($K != 0) ;
+warn "         | => Précision = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($L != 0) ;
 warn "------------------------------------------\n" ;
 
 
@@ -1887,44 +1863,44 @@ sub compare_unaccent {
 	for my $string ($gstr, $tstr) {
 		# toutes les accentuées possibles sur leur équivalent ASCII
 		# NB : on utilise s/// car tr/// est plus difficile à utiliser avec l'utf8
-		$string =~ s/[ÀÁÂÃÄÅĄĀĂ]/A/g ;
-		$string =~ s/[àáâãäåąāă]/a/g ;
-		$string =~ s/[ÇĆĈĊČ]/C/g ;
-		$string =~ s/[çćĉċč]/c/g ;
-		$string =~ s/[ĎĐ]/D/g ;
-		$string =~ s/[ďđ]/d/g ;
-		$string =~ s/[ÈÉÊËĘĒĔĖĚ]/E/g ;
-		$string =~ s/[èéêëęēĕėě]/e/g ;
-		$string =~ s/[ĜĞĠĢ]/G/g ;
-		$string =~ s/[ĝğġģ]/g/g ;
-		$string =~ s/[ĤĦ]/H/g ;
-		$string =~ s/[ĥħ]/h/g ;
-		$string =~ s/[ÌÍÎÏĨĪĬĮİ]/I/g ;
-		$string =~ s/[ìíîïĩīĭįı]/i/g ;
-		$string =~ s/[Ĵ]/J/g ;
-		$string =~ s/[ĵ]/j/g ;
-		$string =~ s/[Ķ]/K/g ;
-		$string =~ s/[ķ]/k/g ;
-		$string =~ s/[ŁĹĻĽĿ]/L/g ;
-		$string =~ s/[łĺļľŀ]/l/g ;
-		$string =~ s/[ÑŃŅŇ]/N/g ;
-		$string =~ s/[ñńņň]/n/g ;
-		$string =~ s/[ÒÓÔÕÖØŌŎŐ]/O/g ;
-		$string =~ s/[òóôõöøōŏő]/o/g ;
-		$string =~ s/[ŔŖŘ]/R/g ;
-		$string =~ s/[ŕŗř]/r/g ;
-		$string =~ s/[ŚŜŞŠ]/$string =~ s/g ;
-		$string =~ s/[śŝşš]/$string =~ s/g ;
-		$string =~ s/[ŢŤŦ]/T/g ;
-		$string =~ s/[ţťŧ]/t/g ;
-		$string =~ s/[ÙÚÛÜŨŪŬŮŰŲ]/U/g ;
-		$string =~ s/[ùúûüũūŭůűų]/u/g ;
-		$string =~ s/[Ŵ]/W/g ;
-		$string =~ s/[ŵ]/w/g ;
-		$string =~ s/[ŸÝŶ]/Y/g ;
-		$string =~ s/[ÿýŷ]/y/g ;
-		$string =~ s/[ŹŻŽ]/Z/g ;
-		$string =~ s/[źżž]/z/g ;
+		$string =~ s/[ÀÁÂÃÄÅĄĀĂ]/A/go ;
+		$string =~ s/[àáâãäåąāă]/a/go ;
+		$string =~ s/[ÇĆĈĊČ]/C/go ;
+		$string =~ s/[çćĉċč]/c/go ;
+		$string =~ s/[ĎĐ]/D/go ;
+		$string =~ s/[ďđ]/d/go ;
+		$string =~ s/[ÈÉÊËĘĒĔĖĚ]/E/go ;
+		$string =~ s/[èéêëęēĕėě]/e/go ;
+		$string =~ s/[ĜĞĠĢ]/G/go ;
+		$string =~ s/[ĝğġģ]/g/go ;
+		$string =~ s/[ĤĦ]/H/go ;
+		$string =~ s/[ĥħ]/h/go ;
+		$string =~ s/[ÌÍÎÏĨĪĬĮİ]/I/go ;
+		$string =~ s/[ìíîïĩīĭįı]/i/go ;
+		$string =~ s/[Ĵ]/J/go ;
+		$string =~ s/[ĵ]/j/go ;
+		$string =~ s/[Ķ]/K/go ;
+		$string =~ s/[ķ]/k/go ;
+		$string =~ s/[ŁĹĻĽĿ]/L/go ;
+		$string =~ s/[łĺļľŀ]/l/go ;
+		$string =~ s/[ÑŃŅŇ]/N/go ;
+		$string =~ s/[ñńņň]/n/go ;
+		$string =~ s/[ÒÓÔÕÖØŌŎŐ]/O/go ;
+		$string =~ s/[òóôõöøōŏő]/o/go ;
+		$string =~ s/[ŔŖŘ]/R/go ;
+		$string =~ s/[ŕŗř]/r/go ;
+		$string =~ s/[ŚŜŞŠ]/S/go ;
+		$string =~ s/[śŝşš]/s/go ;
+		$string =~ s/[ŢŤŦ]/T/go ;
+		$string =~ s/[ţťŧ]/t/go ;
+		$string =~ s/[ÙÚÛÜŨŪŬŮŰŲ]/U/go ;
+		$string =~ s/[ùúûüũūŭůűų]/u/go ;
+		$string =~ s/[Ŵ]/W/go ;
+		$string =~ s/[ŵ]/w/go ;
+		$string =~ s/[ŸÝŶ]/Y/go ;
+		$string =~ s/[ÿýŷ]/y/go ;
+		$string =~ s/[ŹŻŽ]/Z/go ;
+		$string =~ s/[źżž]/z/go ;
 	}
 
 	my $success = $gstr eq $tstr ;
@@ -2158,8 +2134,6 @@ sub HELP_MESSAGE {
 |   -d  --debug           infos de debogage au cours du traitement |
 |   -l  --lookupdump      sortir à part une table IDS <=> FICHIERS |
 |   -s  --substrinfo      infos supplémentaires si match substr    |
-|   -i  --intersection    ne compter que sur les couples de docs   |
-|                         réels et non pas sur tous les gold       |
 |   -c  --counter         afficher un compteur durant traitement   |
 |                                                                  |
 | Sortie:                                                          |
