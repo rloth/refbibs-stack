@@ -64,15 +64,21 @@ my $ext = "tei.xml" ;
 # limite au nombre de docs à traiter pour les tests
 my $maxref = 0 ;
 
-# booléen : sortir un fichier supplémentaire "lookup_ids.csv"
+# booléen: sortir un fichier supplémentaire "lookup_ids.csv"
 #           avec une liste à 2 colonnes : identifiant <=> nom de fichier évalué
 my $dump_lookup = 0 ;
 
-# booléen (global) : plus de détail pour infos d'erreurs telles que champ todo = sous-chaine champ gold
+# booléen (global): plus de détail pour infos d'erreurs telles que champ todo = sous-chaine champ gold
 my $SUBSTR_INFO = 0 ;
 
+# booléen (global): activer la désaccentuation avant match des chaînes 
+my $UNACCENTS = 0 ;
+
+# booléen (global): activer $UNACCENTS et le prétraitement des namespaces elsevier gold à la v 0.5
+my $COMPAT = 0 ;
+
 # booléen activer compteur du défilement des docs en cours sur STDERR
-my $counter = 0 ;
+my $numcount = 0 ;
 
 # champs à extraire et traiter pour comparaison micro (variable globale)
 # -----------------------------------------------------------------------
@@ -106,9 +112,15 @@ my @COMPARERS = (
 			 "maxtemp:i"    => \$maxref,       # optional int
 			 "lookupdump"   => \$dump_lookup,  # optional bool
 			 "substrinfo"   => \$SUBSTR_INFO,  # optional bool
-			 "counter"      => \$counter,      # optional bool
+			 "unaccents"    => \$UNACCENTS,    # optional bool (changes results slightly)
+			 "compat"       => \$COMPAT,       # optional bool (changes results slightly)
+			 "numcount"     => \$numcount,     # optional bool
 			 "help"         => \&HELP_MESSAGE,
 			 ) ;
+
+
+# --compat implique 2 choses: --unaccents et aussi les ns elseviers plus loin
+$UNACCENTS = 1 if ($COMPAT) ;
 
 ###############################################################
 #######                    MAIN                      ##########
@@ -308,7 +320,7 @@ for my $path (sort (@xml_to_check_list)) {
 	# gestion d'erreurs
 	# (on *ne* saute *pas* le doc même si on a une erreur parsing xml)
 	if ($@) {
-		warn "  XMLERR: doc à évaluer no $doc_j ($path)\n" ;
+		warn "  XMLERR: doc à évaluer no $docnostr ($path)\n" ;
 		warn (errlog($@,$path)) ;
 		
 		$txerrs ++ ;
@@ -364,17 +376,37 @@ for my $path (sort (@xml_to_check_list)) {
 		# use Encode ;
 		$gline = decode('UTF-8', $gline);
 		if($gold_format =~ /^els/) {
+			# ajout des namespaces à la volée pour elsevier
 			
-			my $els_ns_decl = 'xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' ;
+			# default: new namespace correction
+			if (not $COMPAT) {
+				my $els_ns_decl = 'xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' ;
 
-			# corrections des namespaces à la volée pour elsevier
-			# (peu importe que le fichier les aie déjà, les aie partiellement ou ne les aie pas :
-			#  on enlève tout ce qu'il y a et on remet la liste complète)
-			$gline =~ s!xmlns:[a-z]+=["'][^"']+["']!!g ;
-			$gline =~ s!<converted-article +!<converted-article $els_ns_decl ! ;
-			$gline =~ s!<article +!<article $els_ns_decl ! ;
-			$gline =~ s!<simple-article +!<simple-article $els_ns_decl ! ;
-			$gline =~ s!<book-review +!<book-review $els_ns_decl ! ;
+				# corrections des namespaces à la volée pour elsevier
+				# (peu importe que le fichier les aie déjà, les aie partiellement ou ne les aie pas :
+				#  on enlève tout ce qu'il y a et on remet la liste complète)
+				$gline =~ s!xmlns:[a-z]+=["'][^"']+["']!!g ;
+				$gline =~ s!<converted-article +!<converted-article $els_ns_decl ! ;
+				$gline =~ s!<article +!<article $els_ns_decl ! ;
+				$gline =~ s!<simple-article +!<simple-article $els_ns_decl ! ;
+				$gline =~ s!<book-review +!<book-review $els_ns_decl ! ;
+			}
+			
+			# --compat switch: old-style elsevier namespace correction if count coherence needed with counts from pre-0.6 version
+			else {
+				if ($gline !~ /xmlns/) {
+					$gline =~ s!<converted-article!<converted-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
+					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
+					$gline =~ s!<article!<article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
+					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
+					$gline =~ s!<simple-article!<simple-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
+					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
+				}
+				elsif ($gline =~ m!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!) {
+					$gline =~ s!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xml:lang="en" docsubtype="fla">! ;
+				}
+			}
+			
 			
 			# décodage des entités
 			# 1/3 on garde pour plus tard les importants faisant partie des balises
@@ -512,16 +544,12 @@ for my $path (sort (@xml_to_check_list)) {
 	# (pour exhaustivité des décomptes bruit/silence et lignes csv sorties)
 	if ($nb_goldbibs == 0) {
 		$empty_goldbib ++ ;
-		if ($debug) {
-			warn "EMPTYSRC: doc gold $checkname ($docnostr) n'a originellement aucune refbib :(\n" ;
-			#~ warn "          (chemin $checkname=".$info->{'goldpath'}.")\n" ;
-		}
+		warn "EMPTYSRC: doc gold no $docnostr ($checkname)\n" ;
 	}
 	# ceci n'est pas un else: décompte $empty_todobib distinct
 	if ($nb_todobibs == 0 and not($got_txerr)) {
 		$empty_todobib ++ ;
-		
-		warn "EMPTYTGT: doc à évaluer $checkname ($docnostr / $got_txerr) n'a sorti aucune refbib :(\n" ;
+		warn "EMPTYTGT: doc à évaluer no $docnostr ($checkname)\n" ;
 	}
 
 	# ===================================================
@@ -1058,7 +1086,7 @@ for my $path (sort (@xml_to_check_list)) {
 		}
 
 	# affiche compteur défilant docno-max(goldbibno)
-	print STDERR "doc $docnostr/$M - ".sprintf("bibs [1..%03d] comparées", $goldbib_k)."\r" if ($counter || $debug) ;
+	print STDERR "doc $docnostr/$M - ".sprintf("bibs [1..%03d] comparées", $goldbib_k)."\r" if ($numcount || $debug) ;
 
 	} ## fin boucle @goldbibs ##
 
@@ -1162,7 +1190,12 @@ warn "          _ _ _ _ _ _ _ _ _ _ _ _\n" ;
 warn "         | => Précision = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($L != 0) ;
 warn "------------------------------------------\n" ;
 
-
+if ($COMPAT) {
+	warn "[mode --compat v0.5 dont --unaccents]\n" ;
+}
+elsif ($UNACCENTS) {
+	warn "[mode --unaccents]\n" ;
+}
 
 # Sorties supplémentaires et posttraitements
 # ------------------------------------------
@@ -1622,25 +1655,43 @@ sub clean_compare {
 	my $gold_str = shift ;
 	my $todo_str = shift ;
 
+	# $success doit être False par défaut !
+	my $success = 0 ;
+	
+	my $new_gold_str = "" ;
+	my $new_todo_str = "" ;
+	my $useless = "" ;
+	
 	# séquence canonique d'opérateurs de simplification de la chaîne avant comparaison
 	# ---------------------------------------------------------------------------------
-	# joinacc..unlig..unacc
-	my ($success, $new_gold_str, $new_todo_str, $useless) = @{compare_joinaccent($gold_str, $todo_str)} ;
-	return $success if ($success) ;
-	($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unligatures($new_gold_str, $new_todo_str)} ;
-	return $success if ($success) ;
-	($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unaccent($new_gold_str, $new_todo_str)} ;
-	return $success if ($success) ;
-
+	if ($UNACCENTS) {
+		# Opérateurs sur les accents (/!\ lents surtout compare_unaccent)
+		# ---------------------------------------------------------------
+		# joinacc..unlig..unacc
+		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_joinaccent($gold_str, $todo_str)} ;
+		return $success if ($success) ;
+		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unligatures($new_gold_str, $new_todo_str)} ;
+		return $success if ($success) ;
+		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unaccent($new_gold_str, $new_todo_str)} ;
+		return $success if ($success) ;
+	}
+	# cas normal : pas d'opérations initiales
+	else {
+		$new_gold_str = $gold_str ;
+		$new_todo_str = $todo_str ;
+	}
+	
 	# opérations supplémentaires pour comparaison radicale
 	# -----------------------------------------------------
+	
 	$new_gold_str = lc($new_gold_str) ;
 	$new_todo_str = lc($new_todo_str) ;
-	# [^a-z0-9] au lieu de \W pour éviter les caras non-ascii qui ont pu être mal transcrits
+	# [^a-z0-9] au lieu de \W pour éviter les caras non-ascii quelque soit la locale de \W
+	# (car les caras non-ascii sont plus souvent mal transcrits à l'ocr ou conversion)
 	$new_gold_str =~ s/[^a-z0-9]+//g ;
 	$new_todo_str =~ s/[^a-z0-9]+//g ;
 
-	$success = ($new_gold_str eq $new_todo_str) ;
+	my $success = ($new_gold_str eq $new_todo_str) ;
 	return $success if ($success) ;
 
 	# match regexp si les champs sont de longueurs suffisantes et comparables
@@ -1650,10 +1701,10 @@ sub clean_compare {
 	if (($glen > 9) && ($tlen > 9) && ($glen/$tlen > 0.7) && ($glen/$tlen < 1.3)) {
 		$success = (($new_gold_str =~ /$new_todo_str/) || ($new_todo_str =~ /$new_gold_str/)) ;
 # 		if ($success) {
-# 			warn "todo avant: '$todo_str'\n" ;
-# 			warn "gold avant: '$gold_str'\n" ;
-# 			warn "todo après: '$new_todo_str'\n" ;
-# 			warn "gold après: '$new_gold_str'\n" ;
+# 			warn "MATCH: sb_longueur_proche todo avant: '$todo_str'\n" ;
+# 			warn "MATCH: sb_longueur_proche gold avant: '$gold_str'\n" ;
+# 			warn "MATCH: sb_longueur_proche todo après: '$new_todo_str'\n" ;
+# 			warn "MATCH: sb_longueur_proche gold après: '$new_gold_str'\n" ;
 # 			warn "success = '$success'\n" ;
 # 		}
 	}
@@ -2134,7 +2185,14 @@ sub HELP_MESSAGE {
 |   -d  --debug           infos de debogage au cours du traitement |
 |   -l  --lookupdump      sortir à part une table IDS <=> FICHIERS |
 |   -s  --substrinfo      infos supplémentaires si match substr    |
-|   -c  --counter         afficher un compteur durant traitement   |
+|   -u  --unaccents       activer la désaccentuation préalable aux |
+|                         comparaisons de chaînes (+ ~.1 R & ~.3 P)|
+|                         mais temps de traitement x 2             |
+|   -c  --compat          traitement des namespaces elsevier comme |
+|                         dans la v0.5 et -u déclenché pour obtenir|
+|                         des décomptes proches de la v0.5         |
+|                                                                  |
+|   -n  --numcount        afficher un compteur durant traitement   |
 |                                                                  |
 | Sortie:                                                          |
 |      STDERR : statistiques sur le parsing (et log d'erreurs)     |
