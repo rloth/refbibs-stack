@@ -59,7 +59,7 @@ my $xml_dir = "TEI-back_done" ;
 
 # (option -e) Extension des données à évaluer 
 # (TEI avec balisage refbib sorti de Grobid ou archivearticle sorti de Cermine)
-my $ext = "tei.xml" ;
+my $ext = "refbibs.tei.xml" ;
 
 # limite au nombre de docs à traiter pour les tests
 my $maxref = 0 ;

@@ -18,9 +18,9 @@ mkdir -p $SAMP_PATH/meta
 
 cd $SAMP_PATH
 # plongeoir à corpus: lien symbq instanciable, vers l'intérieur de data
-ln -s data/$MODEL_type/corpus/tei corpus # (ne pointe encore nulle part)
+#~ ln -s $SAMP_PATH/data/$MODEL_type/corpus/tei corpus # (ne pointe encore nulle part)
 
-mkdir -p data/$MODEL_type
+mkdir -p $SAMP_PATH/data/$MODEL_type
 
 # --- (corpus tei et raw) ---
 # la suite est "do it yourself"

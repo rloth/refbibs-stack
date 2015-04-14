@@ -3,7 +3,7 @@
 # (Descriptions libres)
 export MY_NEW_SAMP=$1       # ex: "seg-a-40"
 export MODEL_type=$2        # ex: "segmentation"
-export GB_BASENAME=$3       # ex: "g033e"
+export GB_BASENAME=$3       # ex: "g033f"
 export eps="e-5"
 
 # (Dirs)
@@ -11,6 +11,7 @@ export eps="e-5"
 export GB="/home/loth/refbib/grobid"
 export GB_NAME=${GB_BASENAME}.${eps}
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
+
 
 # result's structured backup => "coltrane" dir
 export CoLTrAnE="/home/loth/refbib/analyses/coltrane"
@@ -47,7 +48,7 @@ esac
 # 1 - ENSUITE SUBSTITUTION CHEZ GROBID
 cd $GB/grobid-trainer/resources/dataset
 if [ ! -d $MODEL_type.bak ]
- then cp -r $MODEL_type $MODEL_type.bak
+ then cp -rp $MODEL_type $MODEL_type.bak
 fi
 rm -fr $MODEL_type
 ln -s $SAMP_PATH/data/$MODEL_type $MODEL_type
@@ -55,9 +56,9 @@ ln -s $SAMP_PATH/data/$MODEL_type $MODEL_type
 # === === === === === === === === ===<  <<  <  <<  <  <<
 # 2 - PUIS LANCEMENT PROPREMENT DIT   <  <<  <  <<  <  <<
 cd $GB/grobid-trainer
-# export LC_ALL=C  # n'est plus nécessaire normalement
+export LC_ALL=C  # finalement semble encore nécessaire
 
-export MAVEN_OPTS="-Xmx7G"
+export MAVEN_OPTS="-Xmx12G"
 mvn generate-resources -P ${tgt} \
 1> $MY_NEW_SAMP.$eps.trainer.mvn.log \
 2> $MY_NEW_SAMP.$eps.trainer.crf.log 
@@ -71,8 +72,8 @@ cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $CoLTrAnE/run/$CRFTRAINEDI
 
 # logs
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
-mv $MY_NEW_SAMP.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/. 
-mv $MY_NEW_SAMP.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
+mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
+mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
 
 
 # === === === === ===

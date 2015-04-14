@@ -1,15 +1,20 @@
 #! /bin/bash
 
+# TODO ici 2 cas : si nouveau sample ou si nouvelle combinaison de samples
+# ex: MY_NEW_SAMP=seg-a-40_et_refseg-bcor-25-flux_g033e-sans_lb
+
 # (Descriptions libres du run)
 export MY_NEW_SAMP=$1       # ex: "seg-a-40" ou "vanilla"
 
-export GB_NAME="g033e"
+export GB_BASENAME="g033f"
+export eps="e-5"
+export GB_NAME=${GB_BASENAME}.${eps}
 
 # (Dirs)
 # grobid annotation tool
 export GB="/home/loth/refbib/grobid"
-#~ export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
-export GB_GIT_ID="30305f9"
+export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
+#~ export GB_GIT_ID="30305f9"
 
 # (Corpus d'évaluation)
 export CORPUS_NAME="BI-10kELS-s1"
@@ -18,7 +23,6 @@ export CORPUS_SHORTNAME="s1"
 # (Où et qui)
 # structured backup for results
 export CoLTrAnE="/home/loth/refbib/analyses/coltrane"
-export CRFTRAINEDID=${GB_NAME}_${MY_NEW_SAMP}
 export EVALID=${CORPUS_SHORTNAME}-${GB_NAME}_${MY_NEW_SAMP}
 
 # a new home
@@ -36,7 +40,7 @@ export EXF="/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/"
 export EPF="/home/loth/refbib/corpus/bibistex/05_docs/s1/A-pdfs_flat/"
 
 # nombre de proc au balisage
-export NCPU=6
+export NCPU=5
 
 # === === === === === === === === === === === ===
 # 1 - DOSSIER NOUVELLE EVAL
@@ -45,6 +49,7 @@ mkdir -p $NEWDIR
 cd $NEWDIR
 
 # récupération à l'arrache de tout descriptif *readme ou *log du sample
+# (TODO cas si plusieurs samples combinés)
 if [ -f ../../samp/$MY_NEW_SAMP/meta/*readme ] ;
   then ln -s ../../samp/$MY_NEW_SAMP/meta/*readme description_${MY_NEW_SAMP}.readme ;
 fi
@@ -67,7 +72,7 @@ fi
 pushd $GB/grobid-service/
 mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war &
 SERVICE_PID=$!
-sleep 45 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch (cf. ~/.m2/settings pour le proxy)
+#~ sleep 45 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch (cf. ~/.m2/settings pour le proxy)
 popd
 
 # avant de baliser
@@ -76,7 +81,9 @@ mkdir -p $OUTDIR
 # on fait la todolist
 ls $EPF/ > temp.docs.ls   # todo: timestamp
 
-split -n $NCPU temp.docs.ls
+# le switch est bien -nl/5 avec un slash  /!\
+# autrement juste avec -n 5 les lignes peuvent être coupées !
+split -nl/${NCPU} temp.docs.ls
 
 # lancement client # # # # # # 2/2
 PIDS=()
@@ -97,7 +104,7 @@ for pid in ${PIDS[*]};  do wait $pid ; echo "PID $pid a fini" ; done
 # /!\ 
 rm -fr xa*
 
-#~ kill $SERVICE_PID
+kill $SERVICE_PID
 
 # signature
 echo -e "fait par gb $GB_GIT_ID ($GB_NAME)" | cat >> version.log
