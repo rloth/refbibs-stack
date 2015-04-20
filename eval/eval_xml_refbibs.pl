@@ -1691,7 +1691,7 @@ sub clean_compare {
 	$new_gold_str =~ s/[^a-z0-9]+//g ;
 	$new_todo_str =~ s/[^a-z0-9]+//g ;
 
-	my $success = ($new_gold_str eq $new_todo_str) ;
+	$success = ($new_gold_str eq $new_todo_str) ;
 	return $success if ($success) ;
 
 	# match regexp si les champs sont de longueurs suffisantes et comparables
