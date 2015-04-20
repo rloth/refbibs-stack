@@ -5,24 +5,26 @@
 
 # (Descriptions libres du run)
 export MY_NEW_SAMP=$1       # ex: "seg-a-40" ou "vanilla"
+export MODEL_type=citation        # ex: "segmentation"
 
 export GB_BASENAME="g033f"
-export eps="e-5"
+export eps=$4           # ex: "e-5"
 export GB_NAME=${GB_BASENAME}.${eps}
 
 # (Dirs)
 # grobid annotation tool
-export GB="/home/loth/refbib/grobid"
+export GB=$2           # ex:   "/home/loth/refbib/grobid"
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 #~ export GB_GIT_ID="30305f9"
 
 # (Corpus d'évaluation)
 export CORPUS_NAME="BI-10kELS-s1"
 export CORPUS_SHORTNAME="s1"
+export CORPUS_PATH=$5            # ex: /home/loth/refbib/corpus/bibistex/05_docs/s1/
 
 # (Où et qui)
 # structured backup for results
-export CoLTrAnE="/home/loth/refbib/analyses/coltrane"
+export CoLTrAnE=$3               # ex: "/home/loth/refbib/analyses/coltrane"
 export EVALID=${CORPUS_SHORTNAME}-${GB_NAME}_${MY_NEW_SAMP}
 
 # a new home
@@ -34,10 +36,10 @@ echo "$MY_NEW_SAMP / $MODEL_type [$GB] / outdir:$OUTDIR"
 # (Paramètres de balisage)
 
 # dossier gold pour eval xml
-export EXF="/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/"
+export EXF=${CORPUS_PATH}/C-xmls_flat/
 
 # dossier à baliser pdf
-export EPF="/home/loth/refbib/corpus/bibistex/05_docs/s1/A-pdfs_flat/"
+export EPF=${CORPUS_PATH}/A-pdfs_flat/
 
 # nombre de proc au balisage
 export NCPU=5
@@ -61,18 +63,28 @@ fi
 # === === === === === === === === === === === ===
 # 2 - SUBSTITUTION "MODEL_typeE RESULTANT" CHEZ GROBID-HOME
 #
-# rien à faire : si on vient d'entraîner le modèle est dans
+# Normalement rien à faire :
+#                si on vient d'entraîner le modèle est dans
 #                son dossier gb-home (et stocké dans coltrane/run)
 #
+
+# Sinon :
+#~ export CRFTRAINEDID=${GB_NAME}_${MY_NEW_SAMP}
+#~ 
+#~ pushd $GB/grobid-home/models/$MODEL_type/
+#~ cp -p model.wapiti model.wapiti.bak
+#~ cp -p $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type/model.wapiti .
+#~ popd
 
 # === === === === === === === === ===
 # 3 - LANCEMENT DU BALISAGE
 
 # lancement service  # # # # #  1/2
 pushd $GB/grobid-service/
-mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war &
+mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war 2>> gb-service.log &
 SERVICE_PID=$!
-#~ sleep 45 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch (cf. ~/.m2/settings pour le proxy)
+sleep 25 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch
+         # (cf. ~/.m2/settings pour le proxy)
 popd
 
 # avant de baliser
@@ -80,6 +92,7 @@ mkdir -p $OUTDIR
 
 # on fait la todolist
 ls $EPF/ > temp.docs.ls   # todo: timestamp
+# ls $EPF/ | head -n 100 > temp.docs.ls
 
 # le switch est bien -nl/5 avec un slash  /!\
 # autrement juste avec -n 5 les lignes peuvent être coupées !
@@ -89,7 +102,7 @@ split -nl/${NCPU} temp.docs.ls
 PIDS=()
 i=0
 for liste in xa* ;
-  do client_passe_liste.sh < $liste 2>> clients.curl.log & PIDS[$i]=$! ;
+  do bash client_passe_liste.sh < $liste 2>> clients.curl.log & PIDS[$i]=$! ;
      i=$((i+1)) ;
  done
 
@@ -100,11 +113,11 @@ for pid in ${PIDS[*]} ; do echo "PID $pid en cours de balisage" ; done
 # ça tourne... on attend le premier puis les suivants
 for pid in ${PIDS[*]};  do wait $pid ; echo "PID $pid a fini" ; done
 
-# nettoyages
+# 3 nettoyages : listes temporaires xa*, daemon, tempdirs
 # /!\ 
-rm -fr xa*
-
 kill $SERVICE_PID
+rm -fr xa*
+rm -fr /run/shm/mon_grobid_tmp/*
 
 # signature
 echo -e "fait par gb $GB_GIT_ID ($GB_NAME)" | cat >> version.log
@@ -112,11 +125,32 @@ echo -e "fait par gb $GB_GIT_ID ($GB_NAME)" | cat >> version.log
 
 # === === === === === === === === ===
 # 4 - ENFIN EVAL ELLE-MËME !
- 
+
 eval_xml_refbibs.pl -r $EXF -x $OUTDIR -g 'elsevier' \
 1> gb_eval_${EVALID}.tab \
-2> gb_eval_${EVALID}.log & echo "Eval '${EVALID}' en cours"
+2> gb_eval_${EVALID}.log & EVAL_PID=$! & echo "Eval '${EVALID}' en cours"
 # watch "tail -n 42 gb_eval_$EVALID.log"
 
+wait $EVAL_PID
 # tableau de récap seul
-wait $! & tail -n 25 gb_eval_${EVALID}.log > gb_eval_${EVALID}.shb
+tail -n 28 gb_eval_${EVALID}.log > gb_eval_${EVALID}.shb
+
+
+# non testé pour afficher STDERR en cours mais $! ?
+#~ eval_xml_refbibs.pl -r $EXF -x $OUTDIR -g 'elsevier' \
+ #~ 3>&1 1> gb_eval_${EVALID}.tab 2>&3 \
+ #~ | tee gb_eval_${EVALID}.log & EVAL_PID=$! \
+ #~ & echo "Eval '${EVALID}' en cours sur PID ${EVAL_PID}"
+
+
+
+# === === === === ===
+# 5 - envoi infos
+RUN_INFO=`grep -P "\[INFO\] (Total|Finished)" < $CoLTrAnE/run/$CRFTRAINEDID/log/$MY_NEW_SAMP.trainer.mvn.log`
+FILE_INFO=`ls -lhGF --time-style long-iso $GB/grobid-home/models/$MODEL_type/model.wapiti`
+
+# 2 x un mail avec toutes les infos clés et le déroulement du CRF
+# => @gmail et @inist
+echo -e "subject:eval ${EVALID}\nfrom:training_machine\n\n" > temp_debut_mail_eval
+cat temp_debut_mail_eval gb_eval_${EVALID}.shb | sendmail "romain.loth@gmail.com,romain.loth@inist.fr"
+
