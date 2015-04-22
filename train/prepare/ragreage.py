@@ -524,7 +524,7 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		
 		#debg
 		if debug >= 2:
-			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)		
+			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)
 		
 		
 		# 4) on traite le succès ou non du match -----------------  
@@ -650,7 +650,7 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 class XTokinfo:
 	"""Groups infos about a str token found in the source XML"""
 	
-		
+	# £ TODO define ~ config.IN_TO_OUT with param table
 	# MAP (biblStruct => bibl) to choose the final citation's 'out tag'
 	STRUCT_TO_BIBL = {
 	  # --- label inséré à part ---
@@ -666,6 +666,7 @@ class XTokinfo:
 	  'analytic/author/surname' :           '<author>',
 	  'analytic/author/orgName' :           '<author>',  # ? orgName en <bibl> ?
 	  'analytic/author' :                   '<author>',
+	  'analytic/name' :                     '<author>',  # wtf?
 	  'analytic/respStmt/name' :            '<author>',
 	  'monogr/author/persName/surname' :       '<author>',  # <!-- monogr -->
 	  'monogr/author/persName/forename' :        '<author>',
@@ -692,6 +693,8 @@ class XTokinfo:
 	  'series/title[@level="s"]' :          '<title level="s">',
 	  'series/biblScope[@unit="vol"]' :     '<biblScope type="vol">',
 	  'note' :                              '<note>',
+	   #£ TODO cas particulier thèse ou rapport => <note type="report">
+	  'note/p' :                            '<note>',
 	  'monogr/idno' :                       '<idno>',
 	  'analytic/idno' :                     '<editor>',
 	  'note/ref' :                          '<ptr type="web">',
@@ -753,9 +756,10 @@ class XTokinfo:
 		# -------------------------------------------------------
 		# <> SELF.RE
 		# "J Appl Phys" ==> r'J(\W+)Appl(\W+)Phys'
-		# £ TODO : autoriser un tiret n'importe ou dans les mots des
-		#          longs champs !!
-		# => les chaînes seront matchables dans les 2 ordres possibles
+		#  si tiret autorisé encore + complexe:
+		#               ==> r'(?=^.{11,15}$)J(\W+)A[-¤]{0,2}p[-¤]{0,2}p[-¤]\ #
+		#                     {0,2}l(\W+)P[-¤]{0,2}h[-¤]{0,2}y[-¤]{0,2}s'
+		# => les chaînes "combimode" seront matchables dans les 2 ordres possibles
 		# ex: /nom\W*prénom/ et /prénom\W*nom/
 		self.re = self.tok_full_regexp()
 		
@@ -774,24 +778,90 @@ class XTokinfo:
 		"""
 		Translate an input structrured path into desired output markup
 		"""
-		# for this we use the global var : STRUCT_TO_BIBL
-		# todo define ~ config.IN_TO_OUT with param table
-		return XTokinfo.STRUCT_TO_BIBL[relpath]
+		
+		markup_xpath = '__inconnu__'
+		try:
+			# for this we use the global var : STRUCT_TO_BIBL
+			markup_xpath=XTokinfo.STRUCT_TO_BIBL[relpath]
+		except KeyError as ke:
+			print("KeyError: '%s' n'est pas dans ma liste..." % relpath)
+		
+		return markup_xpath
 	
 	
 	
 	# =================================================
-	# préparation d'une regexp pour un string donné
+	# préparation d'une regexp pour un *string* donné
+	#          (ne pas tenir compte du self)
 	def str_pre_regexp(self, anystring):
 		"""Just the raw regexp string without capture"""
+		
+		strlen = len(anystring)
+		
 		# A) préparation du contenu
 		# --------------------------
 		subtokens = re_TOUS.findall(anystring)
-		esctokens = [u for u in map(re.escape,subtokens)]
-		# TODO ajouter ici possibilité tirets de césure
 		
-		# print("====ESCTOKS====", esctokens)
-		my_re_str = "[\W¤]*".join(r'%s' % u for u in esctokens)
+		# ex: ['J', '\\.', 'Nucl', '\\.', 'Mater', '\\.']
+		esctokens = [u for u in map(re.escape,subtokens)]
+		
+		# £TODO params
+		do_cesure=True
+		
+		# on ne fait pas la césure pour les locutions courtes
+		if (not do_cesure or strlen < 15):
+			# re: chaîne de base 
+			# ------------------
+			# autorisant un ou des passage-s à la ligne à ch. espace entre ch. mot
+			my_re_str = '[\W¤]{0,10}'.join(r"%s" % u for u in esctokens)
+		
+		# expression plus complexe pour permettre une césure inattendue
+		else:
+			minlen = strlen
+			# on permet 3 caractères en plus tous les 80 caractères
+			maxlen = strlen + ((strlen // 80)+1) * 3
+			
+			# exprime la contrainte de longueur de la regex qui suivra
+			re_prefix = r"(?=.{%i,%i})" % (minlen, maxlen)
+			
+			# on va ajouter /-?/ après ch. caractère...
+			# version avec sauts de lignes et espaces : on ajouterait /[-¤ ]{0,3}/
+			virtually_hyphenated_esctokens = []
+			
+			# ... de ch token...
+			for u in esctokens:
+				# ... sauf si token <= 4 ou si contient char='/' ...
+				if (len(u) <= 4 or re.search(r'\\', u)):
+					virtually_hyphenated_esctokens.append(u)
+				
+				else:
+					v_h_word=""
+					# ... donc pour ch. caractère !
+					for c in u:
+						# todo ici classes de caractères 'semblables'
+						#if c == 'i':
+						#	c = '(?:i|l)'
+						#etc.
+						v_h_word += c + '-?'
+					
+					virtually_hyphenated_esctokens.append(v_h_word)
+				
+				my_re_str = re_prefix+'[\W¤]*'.join(r"%s" % u 
+				                       for u in virtually_hyphenated_esctokens)
+			
+			# ex: ['M[-¤]{0,2}o[-¤]{0,2}l[-¤]{0,2}e[-¤]{0,2}c[-¤]{0,2}
+			#       u[-¤]{0,2}l[-¤]{0,2}a[-¤]{0,2}r[-¤]{0,2}',
+			#      '\\&', 'C[-¤]{0,2}e[-¤]{0,2}l[-¤]{0,2}
+			#      l[-¤]{0,2}u[-¤]{0,2}l[-¤]{0,2}a[-¤]{0,2}r[-¤]{0,2}',
+			#      'E[-¤]{0,2}n[-¤]{0,2}d[-¤]{0,2}o[-¤]{0,2}
+			#      c[-¤]{0,2}r[-¤]{0,2}i[-¤]{0,2}n[-¤]{0,2}o[-¤]{0,2}
+			#      l[-¤]{0,2}o[-¤]{0,2}g[-¤]{0,2}y[-¤]{0,2}']
+			#
+			# <title level="j">Molecular &amp; Cellular Endocrinology</title>
+			#~ print('====V_H_Toks====', virtually_hyphenated_esctokens)
+		
+		print("====x_str====", anystring)
+		print("====re_str====", my_re_str)
 		
 		# B) Décision du format des limites gauche et droite pour les \b
 		# --------------------------------------------------
@@ -838,8 +908,8 @@ class XTokinfo:
 			re_str = "|".join(alternatives)
 		
 		# enfin ajout de balises de capture extérieures
-		# et compilation
-		my_regexp_object = re.compile("("+re_str+")")
+		# et compilation CASE INSENSITIve !
+		my_regexp_object = re.compile("("+re_str+")", re.IGNORECASE)
 		return my_regexp_object
 	
 	
@@ -1190,6 +1260,7 @@ print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
 if args.model_type=="reference-segmenter":
 	
 	# log de la checkliste (évaluation qualité de ce qui sort)
+	# non nécessaire pour les citations (mis inline)
 	CHECKS = open("checks.refseg.tab", "a")
 
 	# header
@@ -1347,9 +1418,23 @@ else:
 	# report de chaque champ
 	bibl_found_array = []
 	
+	max_j = len(rawlinegroups_by_xid) - 1
+	
 	for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
 			
-			this_xbib = xbibs[j]
+			# la dernière est parfois vide
+			if (group_of_real_lines is None) and (j == max_j):
+				continue
+			
+			try:
+				this_xbib = xbibs[j]
+			except IndexError as ie:
+				print("Bib %i absente dans xbibs pour '%s'" % 
+				               ( j, 
+				                 group_of_real_lines ),
+				file=sys.stderr)
+				# on donne un biblStruct vide
+				this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
 			
 			xlabel = LABELS[j]
 			
