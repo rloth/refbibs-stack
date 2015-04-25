@@ -64,6 +64,7 @@ from lxml import etree
 # fonctions
 import re
 from itertools import permutations
+from random import randint
 
 # mes méthodes XML
 import rag_xtools # str_escape, strip_inner_tags, glance_xbib, 
@@ -394,19 +395,93 @@ def biblStruct_elts_to_match_tokens(xml_elements, debug=0):
 	return toklist
 
 
+def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
+	"""When an xml token matched a pdf substr, it
+	   is recorded by this function in the array
+	   'mtched' aka 'matchlist'... It is also removed
+	   from the original pdf string (and replaced by 
+	   a ref therein) for further tok <=> substr matches.
+	   
+	   Returns the updated list of substrings + the remainder
+	"""
+	pstr_infostr = matched_substr
+	xtok_infostr = re.sub(r'<([^<>"]{1,3})\w*(?: \w+="([^<>"]{1,3})\w*")?>',
+	                     r'\1',
+	                    xtoken.tagout)
+	# print("SAVE p-substr:'%s' =~ m/%s/ix" % (pstr_infostr,xtok_infostr),file=sys.stderr)
+	
+	# -a- préparation du substitut balisé en xml
+	#      £ pseudo_out == 'rendu'
+	pseudo_out = xtoken.tagout+rag_xtools.str_escape(matched_substr)+xtoken.endout
+	
+	# -b- enregistrement
+	matchlist.append(pseudo_out)
+	i = len(matchlist)
+	
+	# -c- effacement dans le remainder
+	# (substitution par un renvoi à la \4 ex: ###4###)
+	remainder_str = re.sub(xtoken.re, "###%i-%s###" % (i, xtok_infostr), remainder_str)
+	
+	return(matchlist, remainder_str)
+
+
 def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	"""Matches field info in raw txt string
 	   returns(output_xml_string, success_bool)
 	   
-	   Minimal: re-annotate only label
-	   Normal : re-annotate label and all subelements in subtree this_xbib
+	   Re-annotate all subelements in subtree this_xbib on
+	   a slightly different textstream than the original xml
 	   
-	En particulier, report des tags <bibl> sur une refbib
+	   (Minimal: re-annotate only label)
+	   
+	   (Use case: report des tags <bibl> sur une refbib training)
 	
-	TODO cohérence arguments -m "citations" et -r
+	   TODO cohérence arguments -m "citations" et -r
+	
+	Séquence :      FLUXTEXTE         XMLNODES
+	               grouped_raw         subtree (ou xlabel seul)
+	                    |                 |
+	                    |               (iter)
+	                    |                 |
+	                    |             @subelts {xip, xtxt}+
+	                    |                 |
+	                    |                 |-> biblStruct_elts_to_match_tokens
+	                    |                        -> prepare /xregex/
+	                    |                        -> prepare <xop> (output tag)
+	                    |                                  |
+	                    |                  ============== /
+	                    |             (XTok.init)
+	                    |                 |
+	                    |                 |
+	                    |              @xtoklist {xip, xtxt, /xre/, <xop>}+
+	                    |                 |
+	        [état 0]  $remainder          |
+	                  @mtched = [] ==>   for xtok in @xtoklist:
+	                                      re.findall(/xre/, $remainder)
+	                          =======>         |
+	                        /                  |
+	                       /                  si 1 match  ---- sinon warns++
+	                      /                        |
+	                    next l                     |
+	                     |            tok_match_record()
+	   [itération l] ----------------------------------------------
+	        où           $remainder.sub(--)
+	    l = k+warns      mtched_k ++
+	                     @mtched = [ <xop_1>pdfsubtxt_1</xop_1>,
+	                                 <xop_2>pdfsubtxt_2</xop_2>,
+	                                          (...)
+	                                 <xop_k>pdfsubtxt_k</xop_k> ]
+	     ---------------------------------------------------------
+	                              /
+	                             |
+	                     reinsertion @mtched dans $remainder
+	                                          |
+	                                        newxml
+	                                          |
+	                                    post-traitements (group authors, pp)
+	                                          |
+	                                 return(newxml, warnings)
 	"""
-	
-	
 	# vérification des arguments
 	if subtree is None and label == "":
 		raise ValueError("match_citation_fields()"
@@ -444,14 +519,23 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	
 	# tokenisation
 	#  - - - - - - 
-	# ajout du label en 1er token
-	toklist = [XTokinfo(s=str(label),xip="label", req=False)]
-	#~ print ("je cherche %s" % label)
 	
-	# Tous les autres tokens:
-	if not just_label:
-		# parcours de l'arbre
+	toklist = []
+	
+	if just_label:
+		# ajout du label en 1er token
+		toklist = [XTokinfo(s=str(label),xip="label", req=False)]
+		#~ print ("je cherche %s" % label)
+	
+	# sinon tous les autres tokens:
+	else:
 		
+		# NB on ne prend pas le label qui n'est pas concerné par citations
+		# mais on pourrait (en reprenant le début de liste du cas préc.) 
+		# si on voulait faire un mode 'match intégral'
+		
+		# parcours de l'arbre
+		# -------------------
 		# on utilise iter() et pas itertext() qui ne donne pas les chemins
 		# + on le fait sous la forme iter(tag=elt) pour avoir les éléments
 		#   et pas les commentaires
@@ -479,7 +563,8 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 					  #~    relative_to = rag_xtools.localname_of_tag(subtree.tag)
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
-	 # print("TOKLIST", toklist)
+		
+		# print("TOKLIST", toklist)
 	
 	
 	# le flux PDFTXT non encore matché
@@ -514,13 +599,12 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			continue
 		
 		# 3) on matche -------------------------------------------
-		#  £ TODO procéder par ordre inverse de longueur !!
-		# print("RAW: {'%s'}" % remainder)
-		
-		mgroups = re.findall( tok.re,  remainder )
-		
-		# print("===mgroups==>", mgroups, file=sys.stderr)
-		n_matchs = len(mgroups)
+		#  £TODO procéder par ordre inverse de longueur (mais \b)|
+		#  £TODO faire les tok.req=False en dernier              |
+		# print("RAW: {'%s'}" % remainder)                       |
+		mgroups = re.findall( tok.re,  remainder )    #          | <<== MATCH
+		n_matchs = len(mgroups)                          #       |
+		# print("===mgroups==>", mgroups, file=sys.stderr)  #    |
 		
 		#debg
 		if debug >= 2:
@@ -529,59 +613,89 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		
 		# 4) on traite le succès ou non du match -----------------  
 		
-		# si pas de match !
+		# si pas de match => :(
 		if n_matchs < 1:
 			if tok.req:
 				# problème
 				unrecognized = True
 				if debug >= 2:
-					print("ERR: no raw match for XToken '%s' (%s) aka re /%s/" %
+					print("WARN: no raw match for XToken '%s' (%s) aka re /%s/" %
 							 (tok.xtexts, tok.relpath, tok.re.pattern),
 							 file=sys.stderr)
 			continue
 		
-		# sanity check B : "there can be only one" !
-		elif n_matchs > 1:
+		# si "beaucoup trop" de matchs => :(
+		elif n_matchs > 2:
 			if tok.req:
 				unrecognized = True
 				if debug >= 2:
-					print("ERR: '%s' (%s) matches too many times" %
-							 (tok.xtexts, tok.relpath),
+					print("WARN: '%s' (%s) matches too many times (%i)" %
+							 (tok.xtexts, tok.relpath, n_matchs),
 							 file=sys.stderr)
 			
-			# £ TODO choose one of the matches (surtout if =~ date ou ville ?)
+			continue
+			
+		
+		# si deux matchs => :/       (ex: date or city?)
+		# we choose arbitrarily one of the 2 matches TODO better
+		elif n_matchs == 2:
+			if debug >= 2:
+				print("WARN: '%s' (%s) matched twice" %
+						 (tok.xtexts, tok.relpath),
+						 file=sys.stderr)
+			
+			le_match = mgroups[randint(0, 1)]
+
+			# => it is recorded in the mtched array
+			(mtched, remainder) = tok_match_record(mtched, 
+			                                        remainder,
+			                                         tok,
+			                                          le_match)
+			mtched_k += 1
+			
 			continue
 		
-		
-		# 4) lorsque on a un unique match => on le traite --------------
+		# et si on a un unique match => :D
+		# n_matchs == 1 ----- on le traite :)
 		else:
 			# le match est substitué par un renvoi et stocké dans mtched
 			# (pour traitement du remainder et ré-insertion ultérieure)
 			le_match = mgroups[0]
 			
-			#~ print("le_match:",le_match)
-			
-			# -a- préparation du substitut balisé
-			#                     £ pseudo_out == 'rendu'
-			pseudo_out = tok.tagout+rag_xtools.str_escape(le_match)+tok.endout
-			
-			# -b- enregistrement et incrément indice de renvoi
-			mtched.append(pseudo_out)
+			# xml token matched le_match pdf str
+			# => recorded in mtched array
+			(mtched, remainder) = tok_match_record(mtched, 
+			                                        remainder,
+			                                         tok,
+			                                          le_match)
 			mtched_k += 1
 			
-			# -c- effacement dans le remainder
-			# (substitution par un renvoi à la \4 ex: ###4###)
-			remainder = re.sub(tok.re, "###%i###" % mtched_k,
-			                           remainder)
-			
-			#~ print("remainder:", remainder)
-			
-			# TODO utiliser les possibilités du remainder (ou masque des infos):
+			# £TODO utiliser les possibilités du remainder (ou masque des infos):
 			#  - diagnostic qualité sortie (moins bonne si remainder grand)
-			#  - comparaison chaines à erreurs OCR <=> chaines corrigées
+			
+			# ----------------------------------8<----------------------
+			# au passage stat comparaison facultative:
+			# chaines à erreurs OCR <=> chaines corrigées
+			if tok.combimode == False and le_match != tok.xtexts:
+				if re.sub('-','',le_match) == re.sub('-','',tok.xtexts):
+					print("MATCH interpolé tiret:\n\tPDF:'%s'\n\tXML:'%s'" 
+					         % (le_match, tok.xtexts),
+					      file=sys.stderr)
+				elif re.sub('[- ]','',le_match) == re.sub('[- ]','',tok.xtexts):
+					print("MATCH interpolé espaces:\n\tPDF:'%s'\n\tXML:'%s'" 
+					         % (le_match, tok.xtexts),
+					      file=sys.stderr)
+				else:
+					print("MATCH interpolé OCR:\n\tPDF:'%s'\n\tXML:'%s'" 
+					         % (le_match, tok.xtexts),
+					      file=sys.stderr)
+			# ----------------------------------8<----------------------
 		
 		# fins cas de figures match
 	# fin boucle sur tokens
+	
+	# print("$remainder:", remainder, file=sys.stderr)
+	# print("@mtched   :", mtched, file=sys.stderr)
 	
 	# traitement du remainder => résultat visible avec option -r (mask)
 	remainder = rag_xtools.str_escape(remainder)
@@ -593,53 +707,51 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	# SORTIE 
 	
 	# c'est ce "remainder" qu'on affichera si args.mask
-	new_lines = remainder
+	new_xml = remainder
 
 	# sinon ré-insertion des matchs échappés eux aussi ET balisés
 	if not args.mask:
 		for (k, rendu) in enumerate(mtched):
-			renvoi = "###%i###" % k
+			renvoi = "###%i###" % (k + 1)
 			# ==================================
-			new_lines = re.sub(renvoi, rendu,
-									 new_lines)
+			new_xml = re.sub(renvoi, rendu,
+									 new_xml)
 			
 		# correctif label  => TODO à part dans une matcheuse que pour label?
 		# ---------------
 		#   Les labels sont souvents des attributs n=int mais
 		#   dans le corpus d'entraînement on les balise avec leur ponct
 		#   ex: [<label>1</label>]  ==> <label>[1]</label>
-		new_lines = re.sub("\[<label>(.*?)</label>\]",
+		new_xml = re.sub("\[<label>(.*?)</label>\]",
 							 "<label>[\g<1>]</label>",
-							   new_lines)
+							   new_xml)
 		
 		# dernier correctif: groupements de tags
 		# ------------------
 		
 		# -a- pages collées pour le modèle citation
-		new_lines = re.sub(r'<pp>', r'<biblScope type="pp">',
+		new_xml = re.sub(r'<pp>', r'<biblScope type="pp">',
 				  re.sub(r'</pp>', r'</biblScope>',
 				 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
-				new_lines)))
+				new_xml)))
 		
 		# -b- auteurs groupés
 		# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
 		#        => <author>Ageta, H., Arai, Y.</author>
-		new_lines = re.sub(r'(<author>.*</author>)',
+		new_xml = re.sub(r'(<author>.*</author>)',
 							  rag_xtools.strip_inner_tags, 
-						   new_lines)
-		new_lines = re.sub(r'(<editor>.*</editor>)',
+							new_xml)
+		new_xml = re.sub(r'(<editor>.*</editor>)',
 							  rag_xtools.strip_inner_tags,
-						   new_lines)
-	
-	
+							new_xml)
 	
 	
 	# ajout d'un éventuel tag extérieur
 	# ----------------------------------
-	new_lines = "<bibl>"+new_lines+"</bibl>"
+	new_xml = "<bibl>"+new_xml+"</bibl>"
 	
-	# ==> (new_lines, success_bool)
-	return(new_lines, not(unrecognized))
+	# ==> (new_xml, success_bool)
+	return(new_xml, not(unrecognized))
 
 
 # --------------------------------------------------------
@@ -649,6 +761,60 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 
 class XTokinfo:
 	"""Groups infos about a str token found in the source XML"""
+	
+	# sert pour recombiner des tokens séparés: par ex " " ou ""
+	BLANK = " "
+	
+	# pour matcher malgré des erreurs OCR
+	OCR_SIMILAR_CHARACTER = {
+	  '0' : ['0', 'O'],
+	  '1' : ['1','l'],
+	  '5' : ['S', '5'],
+	  'a' : ['a', 'u', 'n'],
+	  'ä' : ['ä', 'a', 'g', 'L'],
+	  'c' : ['c', 'e', 't'],
+	  'ç' : ['ç', 'q'],
+	  'd' : ['d', 'cl'],
+	  'e' : ['e', 'c', '¢'],
+	  'é' : ['é', '6', 'e', 'd', '~'],
+	  'è' : ['è', 'e', 'Q'],
+	  'f' : ['f', 't'],
+	  'i' : ['i', ';'],
+	  'l' : ['1', 'l', 'i','I', ']', '/', 'Z'],
+	  'm' : ['m', 'rn', 'nn'],   # comment faire les règles inverses 2->1 :/ ?
+	  'n' : ['n', 'rt', 'll'],
+	  'o' : ['o', 'c'],
+	  'ø' : ['ø', 'o'],
+	  'ö' : ['ö', 'o', '6', 'b', '~'],
+	  't' : ['t', 'f', '¹', 'r'],
+	  'ü' : ['ü', 'u', 'ii', 'ti', 'fi'],
+	  'v' : ['v', 'y'],
+	  'y' : ['y', 'v'],
+	  'D' : ['D', 'I)'],
+	  'E' : ['E', 'B'],
+	  'F' : ['F', 'E'],
+	  'J' : ['J', '.I'],
+	  'O' : ['O', '0', 'C)'],
+	  'P' : ['P', "I'"],
+	  'R' : ['R', 'K'],
+	  'S' : ['S', '5'],
+	  'V' : ['V', 'Y'],
+	  'Y' : ['Y', 'V'],
+	  'β' : ['β', '[3', 'b', 'fl'],
+	
+	  #~ '.' : ['.', ','],       # risque de choper un séparateur en trop
+	  '—' : ['—', '--', '-'],
+	  '"' : ['"','“','”','‟'],
+	  '“' : ['"','“','”','‟'],
+	  '”' : ['"','“','”','‟'],
+	  '‟' : ['"','“','”','‟'],
+	  "'" : ["'","‘","’","‛"],
+	  "‘" : ["'","‘","’","‛"],
+	  "’" : ["'","‘","’","‛"],
+	  "‛" : ["'","‘","’","‛"]
+	}
+	
+	OCR_CLASSES = OCR_SIMILAR_CHARACTER.keys()
 	
 	# £ TODO define ~ config.IN_TO_OUT with param table
 	# MAP (biblStruct => bibl) to choose the final citation's 'out tag'
@@ -660,6 +826,7 @@ class XTokinfo:
 	  'analytic/title[@level="a"]' :            '<title level="a">',
 	  'analytic/title/hi' :                 '__rmtag__',  # todo effacer le tag
 	  'analytic/title/title/hi' :           '__rmtag__',
+	  'analytic/translated-title/maintitle':'<note>',     # pour CRF
 	  'analytic/author/persName/surname' :  '<author>',
 	  'analytic/author/persName/forename': '<author>',
 	  'analytic/author/forename' :          '<author>',
@@ -713,10 +880,6 @@ class XTokinfo:
 	  # -- à vérifier --
 	  'monogr/imprint/edition' :                  '<note type="edition">',  
 	  }
-
-
-	# sert pour recombiner des tokens séparés: par ex " " ou ""
-	BLANK = " "
 	
 	
 	
@@ -752,8 +915,8 @@ class XTokinfo:
 		# /!\ most tokens are required for successful align
 		self.req = req
 		
-		# 2) on crée des expressions régulières pour le contenu
-		# -------------------------------------------------------
+		# 2) on prépare des expressions régulières pour le contenu
+		# ---------------------------------------------------------
 		# <> SELF.RE
 		# "J Appl Phys" ==> r'J(\W+)Appl(\W+)Phys'
 		#  si tiret autorisé encore + complexe:
@@ -763,8 +926,8 @@ class XTokinfo:
 		# ex: /nom\W*prénom/ et /prénom\W*nom/
 		self.re = self.tok_full_regexp()
 		
-		# 3) on récupère ce qui deviendra le tag de sortie
-		# -------------------------------------------------
+		# 3) on prépare ce qui deviendra le tag de sortie
+		# ------------------------------------------------
 		# <> SELF.TAGOUT
 		# opening tag
 		self.tagout = XTokinfo.xmlin_path_to_xmlout(self.relpath)
@@ -802,18 +965,17 @@ class XTokinfo:
 		# --------------------------
 		subtokens = re_TOUS.findall(anystring)
 		
-		# ex: ['J', '\\.', 'Nucl', '\\.', 'Mater', '\\.']
-		esctokens = [u for u in map(re.escape,subtokens)]
-		
 		# £TODO params
 		do_cesure=True
+		do_espace=True
+		do_char_classes=True
 		
 		# on ne fait pas la césure pour les locutions courtes
-		if (not do_cesure or strlen < 15):
+		if (not do_cesure or strlen < 6):
 			# re: chaîne de base 
 			# ------------------
 			# autorisant un ou des passage-s à la ligne à ch. espace entre ch. mot
-			my_re_str = '[\W¤]{0,10}'.join(r"%s" % u for u in esctokens)
+			my_re_str = '[\W¤]{0,10}'.join(r"%s" % u for u in subtokens)
 		
 		# expression plus complexe pour permettre une césure inattendue
 		else:
@@ -822,68 +984,71 @@ class XTokinfo:
 			maxlen = strlen + ((strlen // 80)+1) * 3
 			
 			# exprime la contrainte de longueur de la regex qui suivra
-			re_prefix = r"(?=.{%i,%i})" % (minlen, maxlen)
+			re_length_prefix = r"(?=.{%i,%i})" % (minlen, maxlen)
 			
 			# on va ajouter /-?/ après ch. caractère...
 			# version avec sauts de lignes et espaces : on ajouterait /[-¤ ]{0,3}/
 			virtually_hyphenated_esctokens = []
 			
 			# ... de ch token...
-			for u in esctokens:
-				# ... sauf si token <= 4 ou si contient char='/' ...
-				if (len(u) <= 4 or re.search(r'\\', u)):
-					virtually_hyphenated_esctokens.append(u)
-				
-				else:
-					v_h_word=""
-					# ... donc pour ch. caractère !
-					for c in u:
-						# todo ici classes de caractères 'semblables'
-						#if c == 'i':
-						#	c = '(?:i|l)'
-						#etc.
-						v_h_word += c + '-?'
+			for u in subtokens:
+				v_h_word=""
+				# ... donc pour ch. caractère !
+				for c in u:
+					if not do_char_classes or (c not in XTokinfo.OCR_CLASSES):
+						v_h_word += re.escape(c) + '[- ]?'
 					
-					virtually_hyphenated_esctokens.append(v_h_word)
+					else:
+						# todo ici classes de caractères 'semblables'
+						c_matchables = XTokinfo.OCR_SIMILAR_CHARACTER[c]
+						c_alter = '|'.join(map(re.escape,c_matchables))
+						
+						# ex : regexp = '(?:i|l)'
+						v_h_word += '(?:' + c_alter + ')' + '-?'
 				
-				my_re_str = re_prefix+'[\W¤]*'.join(r"%s" % u 
+				virtually_hyphenated_esctokens.append(v_h_word)
+				
+				my_re_str = re_length_prefix+'[\W¤]*'.join(r"%s" % u 
 				                       for u in virtually_hyphenated_esctokens)
 			
-			# ex: ['M[-¤]{0,2}o[-¤]{0,2}l[-¤]{0,2}e[-¤]{0,2}c[-¤]{0,2}
-			#       u[-¤]{0,2}l[-¤]{0,2}a[-¤]{0,2}r[-¤]{0,2}',
-			#      '\\&', 'C[-¤]{0,2}e[-¤]{0,2}l[-¤]{0,2}
-			#      l[-¤]{0,2}u[-¤]{0,2}l[-¤]{0,2}a[-¤]{0,2}r[-¤]{0,2}',
-			#      'E[-¤]{0,2}n[-¤]{0,2}d[-¤]{0,2}o[-¤]{0,2}
-			#      c[-¤]{0,2}r[-¤]{0,2}i[-¤]{0,2}n[-¤]{0,2}o[-¤]{0,2}
-			#      l[-¤]{0,2}o[-¤]{0,2}g[-¤]{0,2}y[-¤]{0,2}']
+			# ex: ['M[- ]?o[- ]?l[- ]?e[- ]?c[- ]?u[- ]?l[- ]?a[- ]?r[- ]?',
+			#      '\\&', 'C[- ]?e[- ]?l[- ]?l[- ]?u[- ]?l[- ]?a[- ]?r[- ]?',
+			#      'E[- ]?n[- ]?d[- ]?o[- ]?c[- ]?r[- ]?i[- ]?
+			#      n[- ]?o[- ]?l[- ]?o[- ]?g[- ]?y[- ]?']
 			#
 			# <title level="j">Molecular &amp; Cellular Endocrinology</title>
-			#~ print('====V_H_Toks====', virtually_hyphenated_esctokens)
+			
+			#~ print('====V_H_Toks====', virtually_hyphenated_esctokens, file=sys.stderr)
 		
-		print("====x_str====", anystring)
-		print("====re_str====", my_re_str)
+		
+		#~ print("====x_str====", anystring, file=sys.stderr)
+		#~ print("====re_str====", my_re_st file=sys.stderr)
+		
 		
 		# B) Décision du format des limites gauche et droite pour les \b
 		# --------------------------------------------------
 		# test si commence par une ponctuation
 		if re.search(r'^\W', subtokens[0]):
-			prefix = ""
+			re_boundary_prefix = ""
 		else:
-			prefix = "\\b"
+			re_boundary_prefix = "\\b"
 		# idem à la fin
 		if re.search(r'\W$', subtokens[-1]):
-			postfix = ""
+			re_boundary_postfix = ""
 		else:
-			postfix = "\\b"
+			re_boundary_postfix = "\\b"
 		
 		# voilà
-		return prefix + my_re_str + postfix
+		return re_boundary_prefix + my_re_str + re_boundary_postfix
+	
+	
+	
 	
 	# =================================================
 	# construction de l'expression régulière à partir
 	# de toutes sortes de strings seuls ou couplés
 	def tok_full_regexp(self):
-		"""The precompiled regexp with alternatives and parens around"""
+		"""The precompiled regexp with alternatives and parentheses around"""
 		re_str=""
 		
 		# => cas normal : une seule chaîne dans self.xtexts
@@ -923,10 +1088,6 @@ class XTokinfo:
 # --------------------------------------------------------
 
 # --------------------------------------------------------
-
-
-
-
 
 
 
@@ -1086,8 +1247,8 @@ for j, xbib in enumerate(xbibs):
 		thisbib_no_str = None
 		thisbib_no_int = None
 	
-	# stockage de ce qu'on a trouvé
-	# -----------------------------
+	# stockage des labels/bibids trouvés
+	# -----------------------------------
 	xml_ids_map[j] = thisbib_id
 	xml_no_strs_map[j] = thisbib_no_str
 	xml_no_ints_map[j] = thisbib_no_int
@@ -1181,7 +1342,7 @@ fin_zone = None
 #    ============
 # -a- Cas facile
 # (si on a un txtin visant 'citations' ou 'reference-segmenter'
-#  en entraînement, le flux ne contiendra *que* la zone des biblios
+#  en entraînement, le flux ne contient déjà *que* la zone des biblios
 if (args.model_type in ["reference-segmenter", "citations"]):
 	debut_zone = 0
 	fin_zone = npl -1 
@@ -1253,10 +1414,23 @@ if not is_consec:
 
 print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
 
-# -------=============--------------------------------------------------
-# boucle OUTPUT mode 1 (dans le cas *reference-segmenter*: alignements)
-# -------=============--------------------------------------------------
 
+# -------=================----------------------------------------
+# boucle OUTPUT --mode seg (objectif: repérage macro zone de bibs)
+# -------=================----------------------------------------
+#
+#   Contenus des bibs sont connus (TEI in) mais le flux du texte
+#   (PDF in) est légèrement différent
+#
+#   use case: entraînement seg pour grobid
+#
+	 # TODO
+	
+
+
+# -------====================---------------------------------
+# boucle OUTPUT --mode refseg (objectif: alignements de bibs)
+# -------====================---------------------------------
 if args.model_type=="reference-segmenter":
 	
 	# log de la checkliste (évaluation qualité de ce qui sort)
