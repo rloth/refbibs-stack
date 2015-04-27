@@ -3,6 +3,7 @@
 import re
 import sys
 from lxml import etree
+from xml.sax.saxutils import escape
 
 
 NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
@@ -119,10 +120,11 @@ def str_escape(s):
 	Ex: "Pilote <mâtin quel journal!>"
 	    => "Pilote &lt;mâtin quel journal!&gt;"
 	"""
-	s = re.sub("&", "&amp;", s)
-	s = re.sub("<", "&lt;", s)
-	s = re.sub(">", "&gt;", s)
-	return s
+	#~ s = re.sub("&", "&amp;", s)
+	#~ s = re.sub("<", "&lt;", s)
+	#~ s = re.sub(">", "&gt;", s)
+	
+	return escape(s)
 
 
 # --------------------------------------------------------

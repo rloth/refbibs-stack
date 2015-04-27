@@ -13,20 +13,19 @@ from rag_xtools import localname_of_tag, glance_xbib
 
 # <<xml_elts_to_match_tokens
 # <<match_citation_fields
-# link_txt_bibs_with_xml
+# link_txtlines_with_xbibs
 # find_bib_zone
 
 
 
 # quelques helper regexps
+# "REFERENCES" seul sur une ligne => presque certain qu'une entête de section
 re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
 
 
-def link_txt_bibs_with_xml(pdfbibzone, xmlbibnodes, debug=0):
+def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 	"""Trouver quelle biblStruct correspond le mieux à ch. ligne dans zone ?
 	   (~ reference-segmenter)
-	TODO 
-	  - on n'utilise pas assez la double séquentialité
 	"""
 	
 	m_xnodes = len(xmlbibnodes)
@@ -309,6 +308,8 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	debut = None
 	fin = None
 	
+	debug=2
+	
 	# var remplie ssi vu l'expression /References:?/
 	# => simplifie la recherche du début !
 	ref_header_i0 = None
@@ -517,9 +518,14 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			
 			# -----------------------------------------------------
 			# large sliding lookahead window over sums in all_occs
-			desired_chunk_span = int(3.2 * len(xmlbibnodes))+1
-			# param 3.2 fixé après quelques essais 
-			# dans doc/tables/test_pdf_bib_zone-pour_ragreage.ods
+			desired_chunk_span = int(3 * len(xmlbibnodes))+1
+			# param 3.2 fixé après quelques essais sur pdftotxt qui contient
+			# pas mal de sauts de lignes intercalaires qui allongent la zone
+			# cf. dans doc/tables/test_pdf_bib_zone-pour_ragreage.ods
+			
+			# essais aussi avec param à 2 pour flux grobid createTrainingSegmentation
+			# qui sont plus compacts ?
+			
 			
 			if debug >= 2:
 				print("looking for debut_zone in Σ(occs_i...occs_i+k) over all i, with large window span k", desired_chunk_span, file=sys.stderr)
@@ -547,33 +553,16 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 					else:
 						summs_by_chunk_from[i] += all_occs[i+k] 
 				
-				# TODO £ : max normal = last max => simplifier 15 lignes:
-				
-				# judge last max 
-				# (if window span is a little over the real 
-				#  length of the bib zone in the pdf
-				#  then *last* max should be right answer)
-				if summs_by_chunk_from[i] == max_chunk:
-					i_last_max_chunk = i
-				if summs_by_chunk_from[i] > max_chunk:
-					max_chunk = summs_by_chunk_from[i]
-					i_last_max_chunk = i
-				
-				if debug >= 4:
-					# affiche chaque step
-					print("line", i,
-					  "this sum", summs_by_chunk_from[i],
-					  "last max sum", max_chunk,
-					  "idx of last max", i_last_max_chunk, file=sys.stderr)
-			
 			if debug >= 3:
 				print("windowed sums:", summs_by_chunk_from, file=sys.stderr)
 			
 			# Décision début
 			# --------------
 			
-			# début: je suis sur que c'est lui !
-			debut = i_last_max_chunk
+			# début
+			# i du chunk maximal
+			# /!\ en cas d'ex aequo = premier max £?
+			debut = summs_by_chunk_from.index(max(summs_by_chunk_from))
 		
 		if debug >= 2:
 			print("max_chunk:", max_chunk, "\nfrom i:", debut, file=sys.stderr)
@@ -605,10 +594,10 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	
 	# curseur temporaire à l'endroit le plus court possible (si une ligne par xbib)
 	fin = debut + len(xmlbibnodes)
-	print ("Fin", fin, "   N_LINES", n_lines)
+	print ("Fin", fin, "   N_LINES", n_lines, file=sys.stderr)
 	
 	# prolongement portée jq vraie fin : 
-	while summs_shorter_lookahead[fin+1] > 0:
+	while (fin < n_lines-1 and summs_shorter_lookahead[fin+1] > 0):
 		# tant que freq_suivants > 0:
 		# on suppose des continuations consécutive de la liste des biblios
 		# ==> on décale la fin

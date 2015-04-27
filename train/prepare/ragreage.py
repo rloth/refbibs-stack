@@ -27,7 +27,7 @@ Principe:
          comparaisons
          ------------
       (1) find_bibzone()                => sortie segmentation 
-      (2) link_txt_bibs_with_xml()    ===> sortie reference-segmenter
+      (2) link_txtlines_with_xbibs()    ===> sortie reference-segmenter
       (3) align xml fields on pdftxt
              ||
            report struct sur non-struct
@@ -65,13 +65,14 @@ from lxml import etree
 import re
 from itertools import permutations
 from random import randint
+from subprocess import check_output
 
 # mes méthodes XML
 import rag_xtools # str_escape, strip_inner_tags, glance_xbib, 
                   # simple_path, localname_of_tag
 
 # mes procédures
-import rag_procedures  # find_bib_zone, link_txt_bibs_with_xml
+import rag_procedures  # find_bib_zone, link_txtlines_with_xbibs
 
 
 
@@ -150,7 +151,7 @@ def prepare_arg_parser():
 		metavar='name-of-model',
 		help="""format output as a valid tei's 'listBibl' (default)
 		        or tailored to a Grobid crf model pseudotei input among:
-		        {'segmentation', 'reference-segmenter', 'citations'}""",
+		        {'seg', 'refseg', 'refs'}""",
 		type=str,
 		default='listBibl' ,
 		action='store')
@@ -285,20 +286,21 @@ def check_align_seq_and_correct(array_of_xidx):
 # fonctions procédures citations (prepare field tokens => match in txt)
 
 def biblStruct_elts_to_match_tokens(xml_elements, debug=0):
-	""" Prepares tokens relevant to each field
+	""" Prepares search tokens for each field of a reference
 	
-	Convertit une branche XML sous la forme de tous ses sous-éléments
+	Convertit une branche XML (1 refbib) avec tous ses sous-éléments
+	   en une liste de tokens matchables (instances de XTokinfo)
 	   en une liste de tokens matchables (instances de XTokinfo)
 	   (avec 2 tags src=xip,tgt=xop + 1 ou psieurs contenus=str + 1 re)
 	   dont certains spécifiquement groupés pour le modèle crf citations
 	
-	Difficulté à voir: il peut y avoir plus de tokens que d'éléments
+	Difficulté à voir: il peut y avoir plus de tokens que d'éléments xml
 	   par ex: <biblScope unit="page" from="20" to="31" />
 	   => donne 2 tokens "20" et "31"
 	
-	Les tags et la regexp du token sont stockés dans son instance 
-	   tag src => xpath simple en y ajoutant les attributs clé
-	   tag tgt => tag src traduit via table tei:biblStruct => tei:bibl
+	Les tags et la regexp du token sont stockés dans son instance
+	   tag src => xpath d'origine simple, avec les éventuels attributs pertinents
+	   tag tgt => le précédent traduit en markup simplifié via table tei:biblStruct => tei:bibl
 	   regexp => match défini dans classe XToken
 	"""
 	
@@ -768,7 +770,7 @@ class XTokinfo:
 	# pour matcher malgré des erreurs OCR
 	OCR_SIMILAR_CHARACTER = {
 	  '0' : ['0', 'O'],
-	  '1' : ['1','l'],
+	  '1' : ['1', 'l', 'I'],
 	  '5' : ['S', '5'],
 	  'a' : ['a', 'u', 'n'],
 	  'ä' : ['ä', 'a', 'g', 'L'],
@@ -1100,10 +1102,6 @@ class XTokinfo:
 
 
 
-
-
-
-
 ###############################################################
 ########################### M A I N ###########################
 ###############################################################
@@ -1127,7 +1125,7 @@ if args.pdfin == None and args.txtin == None :
 	print("PDFIN?: essai de %s" % args.pdfin, file=sys.stderr)
 
 # vérification cohérence
-if (args.model_type in ["reference-segmenter", "citations"] 
+if (args.model_type in ["refseg", "reference-segmenter", "refs", "cits", "citations"] 
 	and not args.txtin):
 	print("""L'arg -m '%s' requiert un -t ad hoc (utiliser les cibles createTraining* de grobid-trainer)"""
 		  % args.model_type,
@@ -1332,24 +1330,58 @@ npl = len(rawlines)
 print ("N lignes: %i" % npl, file=sys.stderr)
 
 
+
+
+
+# """ coeur du main
+#     -------------
+#    on a un doc XML structuré et un PDF ou un texte issu de PDF non-structuré 
+#   (même objet doc mais avec des erreurs OCR et des virgules etc un peu différentes)
+# 
+#   le but est de recréer un "TRAIN.XML" d'entraînement de balisage
+#   qui reprend:
+#     - la structure du document XML en input
+#     - les contenus (chaînes de caractères) du flux texte du PDF
+# 
+# Les "train.xml" peuvent être de 3 types selon l'étape de balisage
+# de Grobid ou Cermine qu'on veut entraîner.
+# 
+#    >> train.segmentation.tei.xml          (--mode segmentation)
+#    >> train.referenceSegmenter.tei.xml    (--mode refseg)
+#    >> train.references.tei.xml            (--mode refs)
+# 
+# # pour le use case "segmentation" on veut la zone des refbibs
+# # pour le use case "refseg" on veut les lignes PDF de chaque refbib XML et les labels
+# # pour le use case "refs" on veut les champs dans chaque refbib
+# 
+# 
+# Ce main effectue un choix du mode et le lancement des sous-procédures
+# correspondantes.
+# """
+
 # La zone biblio dans le texte  pdf est un segment marqué par 2 bornes
 #       (par ex: d=60 et f=61 on aura |2| lignes intéressantes)
+#      par défaut elle est égale à toute la longueur du document
 # ----------------------------------------------------------------------
-debut_zone = None
-fin_zone = None
+debut_zone = 0
+fin_zone = npl - 1
 
 
-#    ============
-# -a- Cas facile
-# (si on a un txtin visant 'citations' ou 'reference-segmenter'
-#  en entraînement, le flux ne contient déjà *que* la zone des biblios
-if (args.model_type in ["reference-segmenter", "citations"]):
-	debut_zone = 0
-	fin_zone = npl -1 
+# -------==========----------------------------------------
+# boucle --mode seg (objectif: repérage macro zone de bibs)
+# -------==========----------------------------------------
+if args.model_type in ["seg", "segmentation"]:
+# =======================
+#  Recherche zone biblio
+# =======================
+	header="""
+<tei type="grobid.train.segmentation">
+	<teiHeader>
+		<fileDesc xml:id="%s"/>
+	</teiHeader>
+	<text xml:lang="en">""" % DOCID
+	print (header)
 
-#            =======================
-# -b- sinon : Recherche zone biblio
-else:
 	print("---\nFIND PDF BIBS", file=sys.stderr)
 	
 	(debut_zone, fin_zone) = rag_procedures.find_bib_zone(
@@ -1362,305 +1394,343 @@ else:
 	#  !!         donc nos slices utiliseront fin+1         !!
 	#                      ------             -----
 	
+	# rarement
 	if ((debut_zone == None) or  (fin_zone == None)):
 		print("ERR: trop difficile de trouver la zone biblio dans ce rawtexte '%s'" % args.pdfin, file=sys.stderr)
 		sys.exit(1)
-
-
-# (à présent: match inverse pour aligner)
-# =======================================
-#  Alignement lignes txt <=> entrées XML
-# =======================================
-print("---\nLINK PDF BIBS <=> XML BIBS", file=sys.stderr)
-
-# get correspondance array
-# (sequence over pdf content lines ids filled with matching xml ids)
-winners = rag_procedures.link_txt_bibs_with_xml(
-				   rawlines[debut_zone:fin_zone+1], 
-				   xbibs, 
-				   debug=args.debug
-				   )
-
-# affiche résultat
-print("Les champions: %s" % winners, file=sys.stderr)
-# exemple liste winners
-# ----------------------------
-# winners =[None, 0 , 0 , 1 , 1 , 2, 2, 2, 3, 3, 3, 4, 4, None, None, None, None, 4, 5, 5, 6, 6, 7,   7                 ]
-#      i' =[  0 | 1 | 2 | 3 | 4 | ...     ...     ...     ...     ...     ...     ...     ...     | fin_zone-debut_zone ]
-
-# NB: "None" values are either:
-#             - failed matches
-#             - or gaps in the list,
-#             - or lines before 1st ref
-#             - or lines after last ref
-
-
-# TODO ici utilisation de xml_nos_map pour faire des tokens labels
-
-# vérification si on ne doit garder que les documents qui matchent bien
-# (quand on génère un corpus d'entraînement)
-# voire correction si évident
-(is_consec, new_winners) = check_align_seq_and_correct(winners)
-
-if new_winners != winners:
-	print("Ces champions corrigés: %s" % new_winners, file=sys.stderr)
-	winners = new_winners
-
-if not is_consec:
-	# désordre du résultat à l'étape 1
-	checklist[1] = False
-
-
-
-print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
-
-
-# -------=================----------------------------------------
-# boucle OUTPUT --mode seg (objectif: repérage macro zone de bibs)
-# -------=================----------------------------------------
-#
-#   Contenus des bibs sont connus (TEI in) mais le flux du texte
-#   (PDF in) est légèrement différent
-#
-#   use case: entraînement seg pour grobid
-#
-	 # TODO
-	
-
-
-# -------====================---------------------------------
-# boucle OUTPUT --mode refseg (objectif: alignements de bibs)
-# -------====================---------------------------------
-if args.model_type=="reference-segmenter":
-	
-	# log de la checkliste (évaluation qualité de ce qui sort)
-	# non nécessaire pour les citations (mis inline)
-	CHECKS = open("checks.refseg.tab", "a")
-
-	# header
-	header="""<tei>
-<teiHeader>
-	<fileDesc xml:id="%s"/>
-</teiHeader>
-<text xml:lang="en">
-	<listBibl>""" % DOCID
-	print (header)
-	
-	# yalla !
-	print ("~" * 80, file=sys.stderr)
-	
-	# buffer for lines of the same xml elt
-	local_grouped_lines = []
-	
-	# txtin donc len(winners) = len(rawlines)
-	if len(winners) != len(rawlines):
-		raise ValueError("wtf??")
-	
-	# ne pas oublier de rajouter un marqueur fin de lignes après ch. rawlines
-	for i, this_line in enumerate(rawlines):
+	# cas normal
+	else:
+		# £TODO ajouter éventuellement quelquechose
+		# pour générer des balises <page> et le <front>
+		# (si l'entraînement se passe mal sans)
 		
-		# récup de l'indice XML correspondant à la ligne
-		j_win = winners[i]
+		esclines = [rag_xtools.str_escape(st) for st in rawlines]
 		
-		# lookahead de l'indice suivant
-		if i+1 < npl:
-			next_win = winners[i+1]
-		else:
-			next_win = None
-		
-		# cas aucune ligne matchée
-		if j_win is None:
-			# on ne peut rien reporter sur cette ligne
-			# mais on la sort quand même (fidélité au flux txtin)
-			print(rag_xtools.str_escape(this_line)+"<lb/>")
-			#                           -------
-			#                           important!
-		else:
-			# nouveau morceau
-			if len(local_grouped_lines) is 0:
-				# tentative de report du label
-				xlabel = LABELS[j_win]
-				if xlabel:
-					# TODO faire une fonction à part et reserver match_citation_fields au cas citations ?
-					# -------------------8<-------------------------
-					# report du label sur chaîne de caractères réelle
-					(my_bibl_line, success) = match_citation_fields(
-					                            this_line,
-					                            label = xlabel,
-					                            debug = args.debug,
-					                           )
-					
-					# match_cit_field n'a pas été prévu pour multiligne: TODO à part ?
-					my_bibl_line = re.sub("</bibl>$","",my_bibl_line)
-					
-					# les labels sont souvents des attributs n=int mais
-					# dans le corpus d'entraînement on les balise avec leur ponct
-					# ex: [<label>1</label>]  ==> <label>[1]</label>
-					my_bibl_line = re.sub("\[<label>(.*?)</label>\]",
-					                       "<label>\[\1\]</label>",
-					                       my_bibl_line)
-					# -------------------8<-------------------------
-				else:
-					my_bibl_line = "<bibl>"+ rag_xtools.str_escape(my_bibl_line)
-				
-				# >> BUFFER, dans les 2 cas
-				local_grouped_lines.append(my_bibl_line)
-
-			# morceaux de suite
-			elif next_win == j_win:
-				# ligne sans balises
-				local_grouped_lines.append(rag_xtools.str_escape(this_line))
-			# morceau de fin >> SORTIE
-			else:
-				local_grouped_lines.append(rag_xtools.str_escape(this_line)+'<lb/></bibl>')
-				#                                                ------
-				#                                               fin de la
-				#                                             dernière ligne
-				
-				# separateur saut de ligne pour les lignes internes
-				#  => sortie finale format ref-seg
-				#     -------------
-				print("<lb/>".join(local_grouped_lines))
-				
-				# empty buffer
-				local_grouped_lines = []
-	
-	# diagnostic
-	diagno_refseg = args.xmlin+"\t"+str(int(checklist[0]))+"\t"+str(int(checklist[1]))
-	print ("DIAGNOSTIC RAPIDE", diagno_refseg, file=sys.stderr)
-	
-	print ("~" * 80, file=sys.stderr)
-	print (diagno_refseg , file=CHECKS)
-	
-	CHECKS.close()
-	
-	# tail
-	tail="""
-	</listBibl>
-</text>
+		print("\t\t<body>")
+		print("<lb/>".join(esclines[0:debut_zone-1]))
+		print("\t\t</body>")
+		print("\t\t<listBibl>")
+		print("<lb/>".join(esclines[debut_zone:fin_zone-1]))
+		print("\t\t</listBibl>")
+		if (fin_zone < npl-1):
+			print("\t\t<body>")
+			print("<lb/>".join(esclines[fin_zone:npl-1]))
+			print("\t\t</body>")
+		# tail
+		tail="""
+	</text>
 </tei>"""
 	print (tail)
-	
 	sys.exit(0)
 
-# -------------------------------------------------------------
-#  mode 2: boucle plus simple pour les sorties + "standardes"
-# -------------------------------------------------------------
-#    in std mode we go further by grouping content from pdf
-#     (each raw txtline i') by its associated xml id j_win
-#   --------------------------------------------------------
 else:
-	
-	# résultat à remplir
-	rawlinegroups_by_xid = [None for j in range(nxb)]
-	
-	for i_prime, j_win in enumerate(winners):
-		if j_win is None:
-			# we *ignore* None values 
-			# => if we wanted them we need to fix them earlier
-			pass
-		# === normal case ===
-		else:
-			# nouveau morceau
-			if rawlinegroups_by_xid[j_win] is None:
-				rawlinegroups_by_xid[j_win] = rawlines[debut_zone+i_prime]
-			# morceaux de suite
+	# un match de chaque ref XML vers PDF (pour aligner)
+	# (commun au deux modes "refseg" et "cit")
+	# =======================================
+	#        link_txtlines_with_xbibs
+	# =======================================
+	print("---\nLINK PDF BIBS <=> XML BIBS", file=sys.stderr)
+
+	# get correspondance array
+	# (sequence over pdf content lines ids filled with matching xml ids)
+	winners = rag_procedures.link_txtlines_with_xbibs(
+					   rawlines[debut_zone:fin_zone+1], 
+					   xbibs, 
+					   debug=args.debug
+					   )
+
+	# affiche résultat
+	print("Les champions: %s" % winners, file=sys.stderr)
+	# exemple liste winners
+	# ----------------------------
+	# winners =[None, 0 , 0 , 1 , 1 , 2, 2, 2, 3, 3, 3, 4, 4, None, None, None, None, 4, 5, 5, 6, 6, 7,   7                 ]
+	#      i' =[  0 | 1 | 2 | 3 | 4 | ...     ...     ...     ...     ...     ...     ...     ...     | fin_zone-debut_zone ]
+
+	# NB: "None" values are either:
+	#             - failed matches
+	#             - or gaps in the list,
+	#             - or lines before 1st ref
+	#             - or lines after last ref
+
+	# TODO ici utilisation de xml_nos_map pour faire des tokens labels
+
+	# vérification si on ne doit garder que les documents qui matchent bien
+	# (quand on génère un corpus d'entraînement)
+	# voire correction si évident
+	(is_consec, new_winners) = check_align_seq_and_correct(winners)
+
+	if new_winners != winners:
+		print("Ces champions corrigés: %s" % new_winners, file=sys.stderr)
+		winners = new_winners
+
+	if not is_consec:
+		# désordre du résultat à l'étape 1
+		checklist[1] = False
+
+	print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
+
+
+	# -------====================---------------------------------
+	# boucle OUTPUT --mode refseg (objectif: alignements de bibs)
+	# -------====================---------------------------------
+	#   Relier les bibs du texte brut (opaques) avec celles du xml (connues)
+	#
+	#   use case: création training.referenceSegmenter.tei.xml pour grobid
+		
+	if args.model_type in ["refseg", "reference-segmenter"]:
+		
+		# log de la checkliste (évaluation qualité de ce qui sort)
+		# non nécessaire pour les citations (mis inline)
+		CHECKS = open("checks.refseg.tab", "a")
+
+		# header
+		header="""
+<tei type="grobid.train.refseg">
+	<teiHeader>
+		<fileDesc xml:id="%s"/>
+	</teiHeader>
+	<text xml:lang="en">
+		<listBibl>""" % DOCID
+		print (header)
+		
+		# yalla !
+		print ("~" * 80, file=sys.stderr)
+		
+		# buffer for lines of the same xml elt
+		local_grouped_lines = []
+		
+		# txtin donc len(winners) = len(rawlines)
+		if len(winners) != len(rawlines):
+			raise ValueError("wtf??")
+		
+		# ne pas oublier de rajouter un marqueur fin de lignes après ch. rawlines
+		for i, this_line in enumerate(rawlines):
+			
+			# récup de l'indice XML correspondant à la ligne
+			j_win = winners[i]
+			
+			# lookahead de l'indice suivant
+			if i+1 < npl:
+				next_win = winners[i+1]
 			else:
-				# on recolle les lignes successives d'une même bib
-				# separateur saut de ligne: '¤' ASCII 207
-				#  => format sortie citations: neutre dans les reports car matche /\W+/
-				rawlinegroups_by_xid[j_win] += "¤"+rawlines[debut_zone+i_prime]
-	
-	# log détaillé de cette étape
-	if args.debug >= 1:
-		# linked results
-		print("="*70, file=sys.stderr)
-		for j in range(nxb):
-			xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
-			if rawlinegroups_by_xid[j] is None:
-				print(xml_info + "\n<==> NONE", file=sys.stderr)
+				next_win = None
+			
+			# cas aucune ligne matchée
+			if j_win is None:
+				# on ne peut rien reporter sur cette ligne
+				# mais on la sort quand même (fidélité au flux txtin)
+				print(rag_xtools.str_escape(this_line)+"<lb/>")
+				#                           -------
+				#                           important!
 			else:
-				print(xml_info + "\n<==>\n" + rawlinegroups_by_xid[j], file=sys.stderr)
+				# nouveau morceau
+				if len(local_grouped_lines) is 0:
+					# tentative de report du label
+					xlabel = LABELS[j_win]
+					if xlabel:
+						# TODO faire une fonction à part et reserver match_citation_fields au cas citations ?
+						# -------------------8<-------------------------
+						# report du label sur chaîne de caractères réelle
+						(my_bibl_line, success) = match_citation_fields(
+													this_line,
+													label = xlabel,
+													debug = args.debug,
+												   )
+						
+						# match_cit_field n'a pas été prévu pour multiligne: TODO à part ?
+						my_bibl_line = re.sub("</bibl>$","",my_bibl_line)
+						
+						# les labels sont souvents des attributs n=int mais
+						# dans le corpus d'entraînement on les balise avec leur ponct
+						# ex: [<label>1</label>]  ==> <label>[1]</label>
+						my_bibl_line = re.sub("\[<label>(.*?)</label>\]",
+											   "<label>\[\1\]</label>",
+											   my_bibl_line)
+						# -------------------8<-------------------------
+					else:
+						my_bibl_line = "<bibl>"+ rag_xtools.str_escape(my_bibl_line)
+					
+					# >> BUFFER, dans les 2 cas
+					local_grouped_lines.append(my_bibl_line)
+
+				# morceaux de suite
+				elif next_win == j_win:
+					# ligne sans balises
+					local_grouped_lines.append(rag_xtools.str_escape(this_line))
+				# morceau de fin >> SORTIE
+				else:
+					local_grouped_lines.append(rag_xtools.str_escape(this_line)+'<lb/></bibl>')
+					#                                                ------
+					#                                               fin de la
+					#                                             dernière ligne
+					
+					# separateur saut de ligne pour les lignes internes
+					#  => sortie finale format ref-seg
+					#     -------------
+					print("<lb/>".join(local_grouped_lines))
+					
+					# empty buffer
+					local_grouped_lines = []
+		
+		# diagnostic
+		diagno_refseg = args.xmlin+"\t"+str(int(checklist[0]))+"\t"+str(int(checklist[1]))
+		print ("DIAGNOSTIC RAPIDE", diagno_refseg, file=sys.stderr)
+		
+		print ("~" * 80, file=sys.stderr)
+		print (diagno_refseg , file=CHECKS)
+		
+		CHECKS.close()
+		
+		# tail
+		tail="""
+		</listBibl>
+	</text>
+</tei>"""
+		print (tail)
+		
+		sys.exit(0)
+
+	# -------------------------------------------------------------
+	#  mode 2: boucle plus simple pour la sortie refs (citations détaillées)
+	# -------------------------------------------------------------
+	#    in refs mode we go further by grouping content from pdf
+	#     (each raw txtline i') by its associated xml id j_win
+	#   --------------------------------------------------------
+	else:
+		
+		header="""
+<tei type="grobid.train.citations">
+	<teiHeader>
+		<fileDesc xml:id="%s"/>
+	</teiHeader>
+	<text xml:lang="en">
+		<listBibl>""" % DOCID
+		print (header)
+		
+		print ("x" * 80, file=sys.stderr)
+		
+		
+		
+		# résultat à remplir
+		rawlinegroups_by_xid = [None for j in range(nxb)]
+		
+		for i_prime, j_win in enumerate(winners):
+			if j_win is None:
+				# we *ignore* None values 
+				# => if we wanted them we need to fix them earlier
+				pass
+			# === normal case ===
+			else:
+				# nouveau morceau
+				if rawlinegroups_by_xid[j_win] is None:
+					rawlinegroups_by_xid[j_win] = rawlines[debut_zone+i_prime]
+				# morceaux de suite
+				else:
+					# on recolle les lignes successives d'une même bib
+					# separateur saut de ligne: '¤' ASCII 207
+					#  => format sortie citations: neutre dans les reports car matche /\W+/
+					rawlinegroups_by_xid[j_win] += "¤"+rawlines[debut_zone+i_prime]
+		
+		# log détaillé de cette étape
+		if args.debug >= 1:
+			# linked results
 			print("="*70, file=sys.stderr)
-	
-	
-	#       ------------------------------------          =============
-	#  Enfin alignement des champs sur le texte et boucle OUTPUT mode 2
-	#       ------------------------------------          =============
-	print("---\nLINK PBIB TOKENS <=> XBIB FIELDS\n", file=sys.stderr)
-	
-	# report de chaque champ
-	bibl_found_array = []
-	
-	max_j = len(rawlinegroups_by_xid) - 1
-	
-	for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
-			
-			# la dernière est parfois vide
-			if (group_of_real_lines is None) and (j == max_j):
-				continue
-			
-			try:
-				this_xbib = xbibs[j]
-			except IndexError as ie:
-				print("Bib %i absente dans xbibs pour '%s'" % 
-				               ( j, 
-				                 group_of_real_lines ),
-				file=sys.stderr)
-				# on donne un biblStruct vide
-				this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
-			
-			xlabel = LABELS[j]
-			
-			toks = []
-			
-			if group_of_real_lines is None:
-				if args.debug > 1:
-					print("===:no lines found for xbib %i (label %s)"
-							 % (j,xlabel))
+			for j in range(nxb):
+				xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
+				if rawlinegroups_by_xid[j] is None:
+					print(xml_info + "\n<==> NONE", file=sys.stderr)
+				else:
+					print(xml_info + "\n<==>\n" + rawlinegroups_by_xid[j], file=sys.stderr)
+				print("="*70, file=sys.stderr)
+		
+		
+		#       ------------------------------------          =============
+		#  Enfin alignement des champs sur le texte et boucle OUTPUT mode 2
+		#       ------------------------------------          =============
+		print("---\nLINK PBIB TOKENS <=> XBIB FIELDS\n", file=sys.stderr)
+		
+		# report de chaque champ
+		bibl_found_array = []
+		
+		max_j = len(rawlinegroups_by_xid) - 1
+		
+		for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
 				
-				# incomplétude constatée du résultat à l'étape link_lines
-				checklist[1] = False
-				continue
-			
-			else:
-				# report des balises sur chaîne de caractères réelle
-				(my_bibl_str, success) = match_citation_fields(
-											group_of_real_lines,
-											subtree = this_xbib,
-											label   = xlabel,
-											debug   = args.debug
-										   )
-				#~ if not success:
-					#~ print("KEIN SUCCESS")
+				# la dernière est parfois vide
+				if (group_of_real_lines is None) and (j == max_j):
+					continue
 				
-				# update 3è slot checklist pour filtrage erreurs
-				# (1 info par refbib et non plus sur l'ens.)
-				checklist[2] = success
+				try:
+					this_xbib = xbibs[j]
+				except IndexError as ie:
+					print("Bib %i absente dans xbibs pour '%s'" % 
+								   ( j, 
+									 group_of_real_lines ),
+					file=sys.stderr)
+					# on donne un biblStruct vide
+					this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
 				
-				# separateur saut de ligne dans le cas 'citations' 
-				# (TODO check si c'est bien " " attendu et pas "" ?)
-				my_bibl_str = re.sub("¤"," ",my_bibl_str)
+				xlabel = LABELS[j]
 				
-				# pour la sortie : filtre ex: 111 => tout bon
-				# traduction de la checkliste en "101", "111", etc
-				out_check_trigram = "".join([str(int(boul)) 
-				                              for boul in checklist])
+				toks = []
 				
-				#  => sortie finale format 'citations'
-				#     -------------
-				print(out_check_trigram+":"+my_bibl_str)
-	
-	
-	# EXEMPLES DE SORTIE
-	# -------------------
-	# <bibl> <author>Whittaker, J.</author>   (<date>1991</date>).   <title level="a">Graphical Models in Applied Multivariate Statistics</title>.   <publisher>Chichester: Wiley</publisher>. </bibl>
+				if group_of_real_lines is None:
+					if args.debug > 1:
+						print("===:no lines found for xbib %i (label %s)"
+								 % (j,xlabel))
+					
+					# incomplétude constatée du résultat à l'étape link_lines
+					checklist[1] = False
+					continue
+				
+				else:
+					# report des balises sur chaîne de caractères réelle
+					(my_bibl_str, success) = match_citation_fields(
+												group_of_real_lines,
+												subtree = this_xbib,
+												label   = xlabel,
+												debug   = args.debug
+											   )
+					#~ if not success:
+						#~ print("KEIN SUCCESS", file=sys.stderr)
+					
+					# update 3è slot checklist pour filtrage erreurs
+					# (1 info par refbib et non plus sur l'ens.)
+					checklist[2] = success
+					
+					# separateur saut de ligne dans le cas 'citations' 
+					# (TODO check si c'est bien " " attendu et pas "" ?)
+					my_bibl_str = re.sub("¤"," ",my_bibl_str)
+					
+					# pour la sortie : filtre ex: 111 => tout bon
+					# traduction de la checkliste en "101", "111", etc
+					out_check_trigram = "".join([str(int(boul)) 
+												  for boul in checklist])
+					
+					#  => sortie finale format 'citations'
+					#     -------------
+					print(out_check_trigram+":"+my_bibl_str)
+		
+		
+		# EXEMPLES DE SORTIE
+		# -------------------
+		# <bibl> <author>Whittaker, J.</author>   (<date>1991</date>).   <title level="a">Graphical Models in Applied Multivariate Statistics</title>.   <publisher>Chichester: Wiley</publisher>. </bibl>
 
-	# <bibl> <author>Surajit Chaudhuri and Moshe Vardi</author>.  <title level="a">On the equivalence of recursive and nonrecursive data-log programs</title>.   In <title level="m">The Proceedings of the PODS-92</title>,   pages <biblScope type="pp">55-66</biblScope>,   <date>1992</date>. </bibl>
+		# <bibl> <author>Surajit Chaudhuri and Moshe Vardi</author>.  <title level="a">On the equivalence of recursive and nonrecursive data-log programs</title>.   In <title level="m">The Proceedings of the PODS-92</title>,   pages <biblScope type="pp">55-66</biblScope>,   <date>1992</date>. </bibl>
 
-	
-	# TODO: pour 'citations' ajouter aussi les non alignées != groups_by_xid comme pour l'autre
-	
-	# voilà fin mode 2
-	sys.exit(0)
+		
+		# TODO: pour 'citations' ajouter aussi les non alignées != groups_by_xid comme pour l'autre
+		
+		# voilà fin mode 3
+
+
+
+		# tail
+		tail="""
+		</listBibl>
+	</text>
+</tei>"""
+		print (tail)
+		sys.exit(0)
+
 
