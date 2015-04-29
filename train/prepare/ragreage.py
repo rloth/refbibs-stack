@@ -1374,7 +1374,7 @@ if args.model_type in ["seg", "segmentation"]:
 # =======================
 #  Recherche zone biblio
 # =======================
-	header="""
+	header="""<?xml version="1.0" ?>
 <tei type="grobid.train.segmentation">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
@@ -1407,14 +1407,14 @@ if args.model_type in ["seg", "segmentation"]:
 		esclines = [rag_xtools.str_escape(st) for st in rawlines]
 		
 		print("\t\t<body>")
-		print("<lb/>".join(esclines[0:debut_zone-1]))
+		print("<lb/>".join(esclines[0:debut_zone])+"<lb/>")
 		print("\t\t</body>")
 		print("\t\t<listBibl>")
-		print("<lb/>".join(esclines[debut_zone:fin_zone-1]))
+		print("<lb/>".join(esclines[debut_zone:fin_zone+1])+"<lb/>")
 		print("\t\t</listBibl>")
 		if (fin_zone < npl-1):
 			print("\t\t<body>")
-			print("<lb/>".join(esclines[fin_zone:npl-1]))
+			print("<lb/>".join(esclines[fin_zone+1:npl])+"<lb/>")
 			print("\t\t</body>")
 		# tail
 		tail="""
@@ -1484,7 +1484,7 @@ else:
 		CHECKS = open("checks.refseg.tab", "a")
 
 		# header
-		header="""
+		header="""<?xml version="1.0" ?>
 <tei type="grobid.train.refseg">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
@@ -1598,7 +1598,7 @@ else:
 	#   --------------------------------------------------------
 	else:
 		
-		header="""
+		header="""<?xml version="1.0" ?>
 <tei type="grobid.train.citations">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
