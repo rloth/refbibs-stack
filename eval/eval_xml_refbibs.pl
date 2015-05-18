@@ -4,9 +4,14 @@
 #         - sur corpus PM_1943 déjà annoté dans un format NXML
 #         - d'une chaine de balisage des références TEI (ex: grobid, bilbo)
 # --------------------------------------------------------------------------
-#  message /help/ en fin de ce fichier       version: 0.6 (08/04/2015)
+#  message /help/ en fin de ce fichier       version: 0.7 (18/05/2015)
 #  copyright 2014 INIST-CNRS      contact: romain dot loth at inist dot fr
 # --------------------------------------------------------------------------
+
+# changelog
+# ---------
+# version 0.6 => 0.7: prise en compte d'erreurs OCR courantes
+#                     dans clean_compare et @COMPARERS
 
 use warnings ;
 use strict ;
@@ -96,7 +101,9 @@ my @COMPARERS = (
 	#~ '\&compare_normalise_punct',
 	#~ '\&compare_normalise_space',
 	#~ '\&compare_joinaccent',
-# 	'\&compare_unaccent',
+	#~ '\&compare_unaccent',
+	'\&compare_simple_punctuation',
+	'\&compare_ocrerrors',
 	'\&compare_little_longer',  # ces 2 là forcément en dernier
 	'\&compare_little_shorter', # ces 2 là forcément en dernier
 	) ;
@@ -584,13 +591,15 @@ for my $path (sort (@xml_to_check_list)) {
 
 			# noms d'auteurs
 			my @todonames_nodes = $tbxng->findnodes('./tei:analytic/tei:author/tei:persName/tei:surname') ;
-
+			
 			# si structure monographique seule
 			if (not scalar(@todonames_nodes)) {
 				@todonames_nodes = $tbxng->findnodes('./tei:monogr/tei:author/tei:persName/tei:surname') ;
 			}
 
 			my @todonames = map {$_->to_literal()} @todonames_nodes ;
+			
+			# warn Dumper \@todonames ;
 
 			my $todopublisher = $tbxng->findvalue('tei:monogr/tei:imprint/tei:publisher') || undef ;
 
@@ -730,6 +739,10 @@ for my $path (sort (@xml_to_check_list)) {
 										} ;
 		}
 	} ## fin préboucle @todobibs ##
+	
+	# debug
+	#~ warn Dumper \@todobibs_data ;
+	#~ exit ;
 
 
 
@@ -943,7 +956,13 @@ for my $path (sort (@xml_to_check_list)) {
 
 				last ;
 			}
-
+			
+			
+			# debug
+			#~ warn Dumper join(' ',@goldnames) ;
+			#~ warn Dumper join(' ',@todonames) ;
+			#~ warn clean_compare(join(' ',@goldnames),join(' ',@todonames))?"mêmes_names\n":"names_diff\n" ;
+			
 			# tentative d'alignement par auteurs/date --------------------
 			# TODO date "2002" --> "2002a"
 			if (defined($golddate)
@@ -1658,47 +1677,68 @@ sub clean_compare {
 	# $success doit être False par défaut !
 	my $success = 0 ;
 	
+	my $glen = length($gold_str) ;
+	my $tlen = length($todo_str) ;
+	
+	# incomparable
+	return $success if ($glen == 0 or $tlen == 0) ;
+	# trop différents
+	return $success if ($glen > 2 * $tlen or $tlen > 2 * $glen) ;
+	
+	
+	# tampon du dernier opérateur effectué (pour debug, a priori non affiché)
+	my $log_stamp = "" ;
+	
+	#~ warn "G0=".$gold_str ;
+	#~ warn "T0=".$todo_str ;
+	
+	# séquence d'opérateurs de simplification de la chaîne avant comparaison
+	# ---------------------------------------------------------------------------------
+	# 3 simplifications canoniques : OCeeRs..unlig..punct
+	($success, $gold_str, $todo_str, $log_stamp) = @{compare_ocrerrors($gold_str, $todo_str)} ;
+	return $success if ($success) ;
+	($success, $gold_str, $todo_str, $log_stamp) = @{compare_unligatures($gold_str, $todo_str)} ;
+	return $success if ($success) ;
+	($success, $gold_str, $todo_str, $log_stamp) = @{compare_simple_punctuation($gold_str, $todo_str)} ;
+	return $success if ($success) ;
+	
 	my $new_gold_str = "" ;
 	my $new_todo_str = "" ;
-	my $useless = "" ;
-	
-	# séquence canonique d'opérateurs de simplification de la chaîne avant comparaison
-	# ---------------------------------------------------------------------------------
+	# Opérateurs (optionnels) sur les accents 
 	if ($UNACCENTS) {
-		# Opérateurs sur les accents (/!\ lents surtout compare_unaccent)
-		# ---------------------------------------------------------------
-		# joinacc..unlig..unacc
-		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_joinaccent($gold_str, $todo_str)} ;
+		# joinacc..unacc (/!\ lents surtout compare_unaccent)
+		($success, $new_gold_str, $new_todo_str, $log_stamp) = @{compare_joinaccent($gold_str, $todo_str)} ;
 		return $success if ($success) ;
-		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unligatures($new_gold_str, $new_todo_str)} ;
-		return $success if ($success) ;
-		($success, $new_gold_str, $new_todo_str, $useless) = @{compare_unaccent($new_gold_str, $new_todo_str)} ;
+		($success, $new_gold_str, $new_todo_str, $log_stamp) = @{compare_unaccent($new_gold_str, $new_todo_str)} ;
 		return $success if ($success) ;
 	}
-	# cas normal : pas d'opérations initiales
 	else {
 		$new_gold_str = $gold_str ;
 		$new_todo_str = $todo_str ;
 	}
 	
+	#~ warn "G1=".$new_gold_str ;
+	#~ warn "T1=".$new_todo_str ;
+	
 	# opérations supplémentaires pour comparaison radicale
 	# -----------------------------------------------------
-	
 	$new_gold_str = lc($new_gold_str) ;
 	$new_todo_str = lc($new_todo_str) ;
 	# [^a-z0-9] au lieu de \W pour éviter les caras non-ascii quelque soit la locale de \W
 	# (car les caras non-ascii sont plus souvent mal transcrits à l'ocr ou conversion)
 	$new_gold_str =~ s/[^a-z0-9]+//g ;
 	$new_todo_str =~ s/[^a-z0-9]+//g ;
-
+	
+	#~ warn "G2=".$new_gold_str ;
+	#~ warn "T2=".$new_todo_str ;
+	
 	$success = ($new_gold_str eq $new_todo_str) ;
-	return $success if ($success) ;
+	return $success if $success ;
 
-	# match regexp si les champs sont de longueurs suffisantes et comparables
-	# -----------------------------------------------------------------------
-	my $glen = length($new_gold_str) ;
-	my $tlen = length($new_todo_str) ;
-	if (($glen > 9) && ($tlen > 9) && ($glen/$tlen > 0.7) && ($glen/$tlen < 1.3)) {
+	# enfin match regexp si les champs sont de longueurs suffisantes et comparables
+	# ------------------------------------------------------------------------------
+	# on autorise 30% de chaîne en plus ou en moins sur les chaînes de plus de 5 caractères
+	if (($glen > 5) && ($tlen > 5) && ($glen/$tlen > 0.7) && ($glen/$tlen < 1.3)) {
 		$success = (($new_gold_str =~ /$new_todo_str/) || ($new_todo_str =~ /$new_gold_str/)) ;
 # 		if ($success) {
 # 			warn "MATCH: sb_longueur_proche todo avant: '$todo_str'\n" ;
@@ -1766,6 +1806,79 @@ sub compare_little_longer {
 	return \@ret_vals ;
 }
 
+# 
+sub compare_simple_punctuation {
+	my $gstr = shift ;
+	my $tstr = shift ;
+
+	for my $string ($gstr, $tstr) {
+		# tous les espaces alternatifs --> espace
+		$string =~tr/\x{00A0}\x{1680}\x{180E}\x{2000}\x{2001}\x{2002}\x{2003}\x{2004}\x{2005}\x{2006}\x{2007}\x{2008}\x{2009}\x{200A}\x{200B}\x{202F}\x{205F}\x{3000}\x{FEFF}/ / ;
+		
+		# la plupart des tirets alternatifs --> tiret normal (dit "du 6")
+		# (dans l'ordre U+002D U+2010 U+2011 U+2012 U+2013 U+2014 U+2015 U+2212 U+FE63)
+		$string =~ s/[‐‑‒–—―−﹣]/-/go ;
+		
+		# Guillemets
+		# ----------
+		# la plupart des quotes doubles --> "
+		$string =~ tr/“”„‟/"/ ;   # U+201C U+201D U+201E U+201F
+		$string =~ s/« ?/"/go ;    # U+20AB plus espace éventuel après
+		$string =~ s/ ?»/"/go ;    # U+20AB plus espace éventuel avant
+		
+		# la plupart des quotes simples --> "
+		$string =~ tr/‘’‚‛/"/ ;   # U+2018 U+2019 U+201a U+201b
+		$string =~ s/‹ ?/"/go ;    # U+2039 plus espace éventuel après
+		$string =~ s/ ?›/"/go ;    # U+203A plus espace éventuel avant
+	}
+
+	my $success = $gstr eq $tstr ;
+	my $stamp = "punct." ;
+	my @ret_vals = ($success, $gstr, $tstr, $stamp) ;
+	return \@ret_vals ;
+}
+
+# remplace les variantes OCR courantes par une des variantes (tj la même)
+# ex: s/m|rn|nn/m/g    (en fait simplifié en s/rn|nn/m/g)
+# ex: s/6|ö|é/6/g
+sub compare_ocrerrors {
+	my $gstr = shift ;
+	my $tstr = shift ;
+
+	for my $string ($gstr, $tstr) {
+		# c'est visuel... on écrase le niveau de détail des cara 
+		
+		# attention à ne pas trop écraser tout de même !
+		# par exemple G0=Munier  T0=Muller doivent rester différents
+		
+		
+		# ex: y|v -> v
+		$string =~ s/nn|rn/m/g ; # /!\ 'nn' à traiter avant 'n'
+		$string =~ s/ü|ti|fi/ii/g ; # /!\ '*i' à traiter avant 'i'
+		
+		$string =~ s/O|o|ø|C\)/0/g ;
+		$string =~ s/1|I|l|i/1/g ;
+		$string =~ s/f|t|e/c/g ;    # f|c|e ?
+		$string =~ s/y/v/g ;
+		$string =~ s/S/5/g ;
+		#~ $string =~ s/c/e/g ;
+		$string =~ s/E/B/g ;
+		$string =~ s/R/K/g ;
+		$string =~ s/n|u/a/g ;
+		$string =~ s/\]/J/g ;
+		
+		# diacritiques et cara "spéciaux"
+		$string =~ s/\[3/β/g ;
+		$string =~ s/é|ö/6/g ;
+		
+		$string =~ s/ç/q/g ;
+	}
+
+	my $success = $gstr eq $tstr ;
+	my $stamp = "OCeeRs." ;
+	my @ret_vals = ($success, $gstr, $tstr, $stamp) ;
+	return \@ret_vals ;
+}
 
 sub compare_rmhyphen {
 	my $gstr = shift ;
@@ -1906,7 +2019,8 @@ sub compare_normalise_space {
 	return \@ret_vals ;
 }
 
-
+# en l'état c'est la fonction qui prend le plus de temps 
+# cf. analyse/soft/dprofpp_out.eval_xml_refbibs.tab
 sub compare_unaccent {
 	my $gstr = shift ;
 	my $tstr = shift ;
@@ -2180,7 +2294,7 @@ sub HELP_MESSAGE {
 |                         choix = 'nlm'  (aka archivearticle)      |
 |                               = 'elsevier'                       |
 |                                                                  |
-|   -e  --extension       extension des XML à évaluer [tei.xml]    |
+|   -e  --extension       extension dans xmldir [refbibs.tei.xml]  |
 |                                                                  |
 |   -d  --debug           infos de debogage au cours du traitement |
 |   -l  --lookupdump      sortir à part une table IDS <=> FICHIERS |
