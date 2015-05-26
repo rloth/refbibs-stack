@@ -17,10 +17,12 @@ from rag_xtools import localname_of_tag, glance_xbib
 # find_bib_zone
 
 
-
 # quelques helper regexps
 # "REFERENCES" seul sur une ligne => presque certain qu'une entête de section
 re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
+
+# tentative sans ancrage (pas seul sur la ligne)
+re_REF_HEADER_LINE = re.compile(r"R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*")
 
 
 def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
@@ -308,7 +310,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	debut = None
 	fin = None
 	
-	debug=2
+	debug=1
 	
 	# var remplie ssi vu l'expression /References:?/
 	# => simplifie la recherche du début !
@@ -436,7 +438,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 		# -------------------8<-----------------------
 		# au passage si on trouve le début directement
 		# (ne fait pas partie des décomptes mais même boucle)
-		if re.match(re_REF_HEADER_LINE, tline):
+		if re.search(re_REF_HEADER_LINE, tline):
 			# on reporte ça servira plus tard
 			ref_header_i0 = i
 		# -------------------8<-----------------------
@@ -480,8 +482,8 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	# cas si on a déjà le début 
 	# --------------------------
 	if ref_header_i0 is not None:
-		# la ligne après l'entête
-		debut = ref_header_i0 + 1
+		# la ligne de l'entête (pas celle après car n'existe pas tjs)
+		debut = ref_header_i0
 	
 	else:
 		# identification début si on n'a qu'une bib
@@ -560,9 +562,9 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			# --------------
 			
 			# début
-			# i du chunk maximal
+			# i-1 du chunk maximal
 			# /!\ en cas d'ex aequo = premier max £?
-			debut = summs_by_chunk_from.index(max(summs_by_chunk_from))
+			debut = summs_by_chunk_from.index(max(summs_by_chunk_from)) - 1
 		
 		if debug >= 2:
 			print("max_chunk:", max_chunk, "\nfrom i:", debut, file=sys.stderr)
@@ -592,20 +594,24 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			else:
 				summs_shorter_lookahead[i] += all_occs[i+l]
 	
-	# curseur temporaire à l'endroit le plus court possible (si une ligne par xbib)
-	fin = debut + len(xmlbibnodes)
-	print ("Fin", fin, "   N_LINES", n_lines, file=sys.stderr)
+	# curseur temporaire à l'endroit le plus court possible 
+	fin = debut
+	# NB: on aimerait faire debut + len(xmlbibnodes) (si une ligne par xbib)
+	# mais c'est impossible car si debut trouvé > vrai debut on risque 
+	# de dépasser la fin du document !
 	
-	# prolongement portée jq vraie fin : 
-	while (fin < n_lines-1 and summs_shorter_lookahead[fin+1] > 0):
+	# prolongement portée jq vraie fin grace au petit lookahead : 
+	while (fin <= n_lines-2 and summs_shorter_lookahead[fin+1] > 0):
 		# tant que freq_suivants > 0:
 		# on suppose des continuations consécutive de la liste des biblios
 		# ==> on décale la fin
 		
+		# limite = n_lines-2 car -1 pour les index qui commencent à 0
+		#                     et -1 pour regarder toujours le suivant
+		
 		fin += 1
-	
-	if debug >= 2:
-		print("found probable end of zone at %s", fin, file=sys.stderr)
+		if (debug >= 3):
+			print ("Fin++", fin, "   N_LINES", n_lines, file=sys.stderr)
 	
 	# log résultat
 	print ("deb: ligne %s (\"%s\")\nfin: ligne %s (\"%s\")"
@@ -617,15 +623,12 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	
 	# filtre si début beaucoup trop tot
 	# comparaison len(bibs) len(rawlines)
-	if (len(xmlbibnodes) * 8 <  (fin - debut)):
-		print ("WARN ça fait trop grand, je remets deb <- None", file=sys.stderr)
+	if (len(xmlbibnodes) * 12 <  (fin - debut)):
+		print ("WARN FIND_BIB_ZONE: ça fait trop grand, je remets deb <- None", file=sys.stderr)
 		debut = None
-	
-	# filtre si un pb de fenêtre a mis fin > n_lines
-	if fin > n_lines:
-		print ("WARN fin sup dans find_bib_zone ?? ", file=sys.stderr)
-		fin = n_lines -1
-		print("nouvelle fin: ligne %s (\"%s\")" % (fin, rawtxtlines[fin]), file=sys.stderr)
+	#~ elif len(xmlbibnodes) > (fin - debut) * 10:
+		#~ print ("WARN FIND_BIB_ZONE: ça fait trop petit, je remets deb <- None", file=sys.stderr)
+		#~ debut = None
 	
 	return (debut, fin)
 
