@@ -81,7 +81,7 @@ NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
 
 
 # pour la tokenisation des lignes via re.findall
-re_TOUS = re.compile(r'\w+|[^\w\s]')
+re_TOUS = re.compile(r'\w+|[^\w\s]')  # => limites: chaque \b et chaque cara isolé type ponct
 re_CONTENUS = re.compile(r'\w+')
 re_PONCT = re.compile(r'[^\w\s]')
 
@@ -457,9 +457,9 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	                    |                  ============== /
 	                    |             (XTok.init)
 	                    |                 |
-	                    |                 |
+	                    |                 |                  -----
 	                    |              @xtoklist {xip, xtxt, /xre/, <xop>}+
-	                    |                 |
+	                    |                 |                  -----
 	        [état 0]  $remainder          |
 	                  @mtched = [] ==>   for xtok in @xtoklist:
 	                                      re.findall(/xre/, $remainder)
@@ -690,8 +690,12 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 					print("MATCH interpolé espaces:\n\tPDF:'%s'\n\tXML:'%s'" 
 					         % (le_match, tok.xtexts),
 					      file=sys.stderr)
+				elif le_match.lower() == tok.xtexts.lower():
+					print("MATCH interpolé casse:\n\tPDF:'%s'\n\tXML:'%s'" 
+					         % (le_match, tok.xtexts),
+					      file=sys.stderr)
 				else:
-					print("MATCH interpolé OCR:\n\tPDF:'%s'\n\tXML:'%s'" 
+					print("MATCH interpolé autres (OCR?):\n\tPDF:'%s'\n\tXML:'%s'" 
 					         % (le_match, tok.xtexts),
 					      file=sys.stderr)
 			# ----------------------------------8<----------------------
@@ -775,6 +779,7 @@ class XTokinfo:
 	OCR_SIMILAR_CHARACTER = {
 	  '0' : ['0', 'O'],
 	  '1' : ['1', 'l', 'I'],
+	  '2' : ['2', 'E'],
 	  '5' : ['S', '5'],
 	  'a' : ['a', 'u', 'n'],
 	  'ä' : ['ä', 'a', 'g', 'L'],
@@ -809,6 +814,7 @@ class XTokinfo:
 	  'β' : ['β', '[3', 'b', 'fl'],
 	
 	  #~ '.' : ['.', ','],       # risque de choper un séparateur en trop
+	  '·' : ['.', '·'],
 	  '—' : ['—', '--', '-'],
 	  '"' : ['"','“','”','‟'],
 	  '“' : ['"','“','”','‟'],
@@ -963,7 +969,14 @@ class XTokinfo:
 	# préparation d'une regexp pour un *string* donné
 	#          (ne pas tenir compte du self)
 	def str_pre_regexp(self, anystring):
-		"""Just the raw regexp string without capture"""
+		""""Just" the raw regexp string to use later within captures etc
+		     |
+		     |-> escaped
+		     |-> potential extra spaces
+		     |-> potential hyphens
+		     |-> potential newlines
+		     |-> with interpolated ocr-variants via char classes
+		"""
 		
 		strlen = len(anystring)
 		
@@ -971,64 +984,86 @@ class XTokinfo:
 		# --------------------------
 		subtokens = re_TOUS.findall(anystring)
 		
-		# £TODO params
+		# £TODO use those params below in r_INTER_*
 		do_cesure=True
 		do_espace=True
+		do_newline=True
 		do_char_classes=True
+		
+		r_INTER_WORD = '[¤ ]{0,2}'      # autorise saut de ligne, espace
+		r_INTER_CHAR = '[-¤ ]{0,3}'     # autorise césure, saut de ligne, espace
 		
 		# on ne fait pas la césure pour les locutions courtes
 		if (not do_cesure or strlen < 6):
 			# re: chaîne de base 
 			# ------------------
-			# autorisant un ou des passage-s à la ligne à ch. espace entre ch. mot
-			my_re_str = '[\W¤]{0,10}'.join(r"%s" % u for u in subtokens)
+			# autorisant un ou des passage-s à la ligne à chaque limite 
+			# limites selon re_FINDALL = (\b et/ou bords de ch. ponct)
+			my_re_str = r_INTER_WORD.join(r"%s" % re.escape(u) for u in subtokens)
 		
-		# expression plus complexe pour permettre une césure inattendue
+		# expression + sioux pour permettre césure inattendue et erreurs OCR
 		else:
 			minlen = strlen
 			# on permet 3 caractères en plus tous les 80 caractères
 			maxlen = strlen + ((strlen // 80)+1) * 3
 			
-			# exprime la contrainte de longueur de la regex qui suivra
+			# lookahead sur /./ ==> exprime la contrainte de longueur de la regex qui suivra
 			re_length_prefix = r"(?=.{%i,%i})" % (minlen, maxlen)
 			
-			# on va ajouter /-?/ après ch. caractère...
-			# version avec sauts de lignes et espaces : on ajouterait /[-¤ ]{0,3}/
-			virtually_hyphenated_esctokens = []
+			interpolated_tokens = []
 			
-			# ... de ch token...
+			# interpolations dans chaque token...
 			for u in subtokens:
-				v_h_word=""
-				# ... donc pour ch. caractère !
+				interpold_word=""
+				array_c_re = []
+				
+				# ... donc pour chaque **caractère**
+				#          =========================
 				for c in u:
-					if not do_char_classes or (c not in XTokinfo.OCR_CLASSES):
-						v_h_word += re.escape(c) + '[- ]?'
+					# each character regexp
+					c_re = ""
 					
+					# cas simple sans traitement OCR
+					# ----------
+					if not do_char_classes or (c not in XTokinfo.OCR_CLASSES):
+						# esc !
+						c_re = re.escape(c)
+						
+						# store
+						array_c_re.append(c_re)
+					
+					# cas avec OCR: sub/caractère/groupe de caractères 'semblables'/g
+					# -------------
 					else:
-						# todo ici classes de caractères 'semblables'
 						c_matchables = XTokinfo.OCR_SIMILAR_CHARACTER[c]
+						# esc + joined alternatives
 						c_alter = '|'.join(map(re.escape,c_matchables))
 						
 						# ex : regexp = '(?:i|l)'
-						v_h_word += '(?:' + c_alter + ')' + '-?'
+						c_re += '(?:' + c_alter + ')'
+						
+						# store
+						array_c_re.append(c_re)
+					
+					# dans les 2 cas: césure
+					# ----------------------
+					# on va ajouter /-?/ entre ch. "regexp caractère" (ou re_INTER_CHAR)
+					interpold_word = r_INTER_CHAR.join(array_c_re)
 				
-				virtually_hyphenated_esctokens.append(v_h_word)
+				interpolated_tokens.append(interpold_word)
 				
-				my_re_str = re_length_prefix+'[\W¤]*'.join(r"%s" % u 
-				                       for u in virtually_hyphenated_esctokens)
+				my_re_str = re_length_prefix + r_INTER_WORD.join(r"%s" % u 
+				                       for u in interpolated_tokens)
+				
+				# exemple
+				# ====x_str==== Oxidation of Metals
+				# ====re_str==== (?=.{19,22})(?:O|0))[-¤ ]{0,3}x[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:d|cl)[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}t[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:o|c)[-¤ ]{0,3}n[¤ ]{0,2}(?:o|c)[-¤ ]{0,3}(?:f|t)[¤ ]{0,2}M[-¤ ]{0,3}(?:e|c)[-¤ ]{0,3}t[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}(?:1|l|i|I|\]|\/|Z)[-¤ ]{0,3}s
 			
-			# ex: ['M[- ]?o[- ]?l[- ]?e[- ]?c[- ]?u[- ]?l[- ]?a[- ]?r[- ]?',
-			#      '\\&', 'C[- ]?e[- ]?l[- ]?l[- ]?u[- ]?l[- ]?a[- ]?r[- ]?',
-			#      'E[- ]?n[- ]?d[- ]?o[- ]?c[- ]?r[- ]?i[- ]?
-			#      n[- ]?o[- ]?l[- ]?o[- ]?g[- ]?y[- ]?']
-			#
-			# <title level="j">Molecular &amp; Cellular Endocrinology</title>
 			
-			#~ print('====V_H_Toks====', virtually_hyphenated_esctokens, file=sys.stderr)
-		
-		
-		#~ print("====x_str====", anystring, file=sys.stderr)
-		#~ print("====re_str====", my_re_st file=sys.stderr)
+		if args.debug >= 1 :
+			print("pre_regexp:", file=sys.stderr)
+			print("  ====x_str====", anystring, file=sys.stderr)
+			print("  ====re_str====", my_re_str, file=sys.stderr)
 		
 		
 		# B) Décision du format des limites gauche et droite pour les \b
@@ -1075,7 +1110,7 @@ class XTokinfo:
 				# non capturing
 				alternatives.append("(?:"+re_combi+")")
 			
-			# -or- using regex pipe
+			# combi1 -OR- combi2... (using regex pipe)
 			re_str = "|".join(alternatives)
 		
 		# enfin ajout de balises de capture extérieures
@@ -1180,6 +1215,7 @@ print ("N xbibs: %i" % nxb, file=sys.stderr)
 nxb_traitables = len(xbibs)
 nxbof = nxb - nxb_traitables
 
+# £TODO: prise en compte <bibl> si mode in [bibzone,biblines] et exception critique sinon
 # si présence de <bibl>
 if (nxbof > 0):
 	print("WARN: %i entrées dont  %i <bibl> (non traitées)" %
