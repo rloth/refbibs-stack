@@ -1,8 +1,5 @@
 #! /usr/bin/python3
 """
-TODOS préalables : feuille RSC (et Nat à part)
-
-
 ragreage.py: Reconstruction de refbibs réelles
              (métadonnées + chaîne d'origine)
              pour créer un corpus d'entraînement
@@ -110,7 +107,8 @@ def prepare_arg_parser():
 		               refbibs (NB lent: ~ 2 doc/s sur 1 thread)""",
 		usage="""ragreage.py 
 		          -x ech/tei.xml/oup_Human_Molecular_Genetics_ddp278.xml
-		          -p ech/pdf/oup_Human_Molecular_Genetics_ddp278.pdf""",
+		          -p ech/pdf/oup_Human_Molecular_Genetics_ddp278.pdf
+		          -m [bibzone|biblines|bibfields|authornames]""",
 		epilog="- © 2014-15 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
 		)
 	
@@ -151,7 +149,7 @@ def prepare_arg_parser():
 		metavar='name-of-model',
 		help="""format output as a valid tei's 'listBibl' (default)
 		        or tailored to a Grobid crf model pseudotei input among:
-		        {'seg', 'refseg', 'refs'}""",
+		        {'bibzone', 'biblines', 'bibfields', 'authornames'}""",
 		type=str,
 		default='listBibl' ,
 		action='store')
@@ -171,7 +169,6 @@ def prepare_arg_parser():
 		action='store_true')
 	
 	return parser
-
 
 
 
@@ -368,7 +365,13 @@ def biblStruct_elts_to_match_tokens(xml_elements, debug=0):
 
 		# les noms/prénoms à prendre ensemble quand c'est possible...
 		#    pour cela on les traite non pas dans les enfants feuilles
-		#    mais le + haut possible ici à (analytic|monogr)/(author|editor)   
+		#    mais le + haut possible ici à (analytic|monogr)/(author|editor)
+		
+		# £TODO prévoir le cas -m authornames où l'on veut le détail
+		#       - ajouter if ici
+		#       - ajouter traduction dans STRUCT_TO_BIBL
+		#       - cas de figure dans match_citation_fields ?
+		
 		elif loc_name in ['author','editor']:
 			# du coup l'arg s du token est différent: str[] et pas str
 			str_list = [s for s in xelt.itertext()]
@@ -710,15 +713,16 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	
 	# c'est ce "remainder" qu'on affichera si args.mask
 	new_xml = remainder
-
+	
 	# sinon ré-insertion des matchs échappés eux aussi ET balisés
 	if not args.mask:
 		for (k, rendu) in enumerate(mtched):
-			renvoi = "###%i###" % (k + 1)
+			renvoi = "###%i-[a-z]+###" % (k + 1)
 			# ==================================
 			new_xml = re.sub(renvoi, rendu,
 									 new_xml)
 			
+		
 		# correctif label  => TODO à part dans une matcheuse que pour label?
 		# ---------------
 		#   Les labels sont souvents des attributs n=int mais
@@ -1124,8 +1128,8 @@ if args.pdfin == None and args.txtin == None :
 	args.pdfin = re.sub(r'xml', r'pdf', temp)
 	print("PDFIN?: essai de %s" % args.pdfin, file=sys.stderr)
 
-# vérification cohérence
-if (args.model_type in ["refseg", "reference-segmenter", "refs", "cits", "citations"] 
+# vérification cohérence pour les 2 modèles internets, nécessitant des flux texte spéciaux
+if (args.model_type in ["biblines", "bibfields"] 
 	and not args.txtin):
 	print("""L'arg -m '%s' requiert un -t ad hoc (utiliser les cibles createTraining* de grobid-trainer)"""
 		  % args.model_type,
@@ -1370,11 +1374,11 @@ fin_zone = npl - 1
 # -------==========----------------------------------------
 # boucle --mode seg (objectif: repérage macro zone de bibs)
 # -------==========----------------------------------------
-if args.model_type in ["seg", "segmentation"]:
+if args.model_type == "bibzone":
 # =======================
 #  Recherche zone biblio
 # =======================
-	header="""<?xml version="1.0" ?>
+	header="""<?xml version="1.0" encoding="UTF-8?>
 <tei type="grobid.train.segmentation">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
@@ -1382,7 +1386,7 @@ if args.model_type in ["seg", "segmentation"]:
 	<text xml:lang="en">""" % DOCID
 	print (header)
 
-	print("---\nFIND PDF BIBS", file=sys.stderr)
+	print("---\nFIND PDF BIB ZONE", file=sys.stderr)
 	
 	(debut_zone, fin_zone) = rag_procedures.find_bib_zone(
 									 xbibs_plus,
@@ -1394,17 +1398,22 @@ if args.model_type in ["seg", "segmentation"]:
 	#  !!         donc nos slices utiliseront fin+1         !!
 	#                      ------             -----
 	
+	
+	# le matériau ligne par ligne échappé pour sortie XML seg
+	esclines = [rag_xtools.str_escape(st) for st in rawlines]
+	
 	# rarement
 	if ((debut_zone == None) or  (fin_zone == None)):
-		print("ERR: trop difficile de trouver la zone biblio dans ce rawtexte '%s'" % args.pdfin, file=sys.stderr)
-		sys.exit(1)
+		print("ERR: trop difficile de trouver la zone biblio dans ce rawtexte '%s': je mets tout en <body>" % args.pdfin, file=sys.stderr)
+		print("\t\t<body>")
+		print("<lb/>".join(esclines[0:npl])+"<lb/>")
+		print("\t\t</body>")
 	# cas normal
 	else:
 		# £TODO ajouter éventuellement quelquechose
 		# pour générer des balises <page> et le <front>
 		# (si l'entraînement se passe mal sans)
 		
-		esclines = [rag_xtools.str_escape(st) for st in rawlines]
 		
 		print("\t\t<body>")
 		print("<lb/>".join(esclines[0:debut_zone])+"<lb/>")
@@ -1416,8 +1425,8 @@ if args.model_type in ["seg", "segmentation"]:
 			print("\t\t<body>")
 			print("<lb/>".join(esclines[fin_zone+1:npl])+"<lb/>")
 			print("\t\t</body>")
-		# tail
-		tail="""
+	# tail
+	tail="""
 	</text>
 </tei>"""
 	print (tail)
@@ -1477,14 +1486,14 @@ else:
 	#
 	#   use case: création training.referenceSegmenter.tei.xml pour grobid
 		
-	if args.model_type in ["refseg", "reference-segmenter"]:
+	if args.model_type == "biblines":
 		
 		# log de la checkliste (évaluation qualité de ce qui sort)
 		# non nécessaire pour les citations (mis inline)
 		CHECKS = open("checks.refseg.tab", "a")
 
 		# header
-		header="""<?xml version="1.0" ?>
+		header="""<?xml version="1.0" encoding="UTF-8?>
 <tei type="grobid.train.refseg">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
@@ -1596,9 +1605,9 @@ else:
 	#    in refs mode we go further by grouping content from pdf
 	#     (each raw txtline i') by its associated xml id j_win
 	#   --------------------------------------------------------
-	else:
+	elif args.model_type == "bibfields":
 		
-		header="""<?xml version="1.0" ?>
+		header="""<?xml version="1.0" encoding="UTF-8?>
 <tei type="grobid.train.citations">
 	<teiHeader>
 		<fileDesc xml:id="%s"/>
@@ -1608,8 +1617,6 @@ else:
 		print (header)
 		
 		print ("x" * 80, file=sys.stderr)
-		
-		
 		
 		# résultat à remplir
 		rawlinegroups_by_xid = [None for j in range(nxb)]
@@ -1711,20 +1718,16 @@ else:
 					#     -------------
 					print(out_check_trigram+":"+my_bibl_str)
 		
-		
 		# EXEMPLES DE SORTIE
 		# -------------------
-		# <bibl> <author>Whittaker, J.</author>   (<date>1991</date>).   <title level="a">Graphical Models in Applied Multivariate Statistics</title>.   <publisher>Chichester: Wiley</publisher>. </bibl>
+		# 111:<bibl> <author>Whittaker, J.</author>   (<date>1991</date>).   <title level="a">Graphical Models in Applied Multivariate Statistics</title>.   <publisher>Chichester: Wiley</publisher>. </bibl>
 
-		# <bibl> <author>Surajit Chaudhuri and Moshe Vardi</author>.  <title level="a">On the equivalence of recursive and nonrecursive data-log programs</title>.   In <title level="m">The Proceedings of the PODS-92</title>,   pages <biblScope type="pp">55-66</biblScope>,   <date>1992</date>. </bibl>
-
+		# 111:<bibl> <author>Surajit Chaudhuri and Moshe Vardi</author>.  <title level="a">On the equivalence of recursive and nonrecursive data-log programs</title>.   In <title level="m">The Proceedings of the PODS-92</title>,   pages <biblScope type="pp">55-66</biblScope>,   <date>1992</date>. </bibl>
 		
 		# TODO: pour 'citations' ajouter aussi les non alignées != groups_by_xid comme pour l'autre
 		
 		# voilà fin mode 3
-
-
-
+		
 		# tail
 		tail="""
 		</listBibl>
@@ -1732,5 +1735,36 @@ else:
 </tei>"""
 		print (tail)
 		sys.exit(0)
-
+	
+	elif args.model_type == "authornames":
+		# header
+		header="""<?xml version="1.0" encoding="UTF-8"?>
+<tei type="grobid.train.names">
+	<teiHeader>
+		<fileDesc xml:id="%s">
+			<sourceDesc>
+				<biblStruct>
+					<analytic>""" % DOCID
+		print (header)
+		
+		# boucle £TODO
+			# "<author><forename>C.-Y.</forename> <lastname>Lu</lastname> et al.</author>"
+		
+		# tail
+		tail="""
+					</analytic>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+</TEI>"""
+		print (tail)
+		
+		raise NotImplementedError("le modèle authornames n'est pas implémenté: tokenisation à modifier, puis match")
+		
+		sys.exit(1)
+	
+	else:
+		print("Le modèle que vous avez choisi '%s' est inconnu. Les modèles connus sont 'bibzone', 'biblines', 'bibfields' et 'authornames'" % args.model_type)
+		sys.exit(1)
 

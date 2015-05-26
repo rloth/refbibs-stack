@@ -155,6 +155,8 @@ def localname_of_tag(etxmltag):
 	"""
 	Strip etree tag from namespace à la xsl:local-name()
 	"""
+	
+	# £TODO utiliser la class QName de http://lxml.de/tutorial.html#namespaces
 	return re.sub(r"{[^}]+}","",etxmltag)
 
 
