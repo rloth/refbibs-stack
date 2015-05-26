@@ -4,17 +4,18 @@
 export MY_NEW_SAMP=$1       # ex: "seg-a-40"
 export MODEL_type=citation        # ex: "segmentation"
 export eps=$4               # ex: "e-5"
-export GB_BASENAME="g033f"
+export GB_BASENAME="g034a"
 
 # (Dirs)
 # grobid annotation tool
-export GB=$2           # ex:   "/applis/istex/home/grobid"
+export GB=$2           # ex:   "/home/loth/refbib/grobid" "/applis/istex/home/grobid"
 export GB_NAME=${GB_BASENAME}.${eps}
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 
 
 # result's structured backup => "coltrane" dir
 export CoLTrAnE=$3            # ex: "/applis/istex/home/tests/entrainements_coltrane"
+# export CoLTrAnE=/home/loth/refbib/analyses/coltrane
 
 export CRFTRAINEDID=${GB_NAME}_${MY_NEW_SAMP}
 
@@ -75,7 +76,7 @@ cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $CoLTrAnE/run/$CRFTRAINEDI
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
 mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
 mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-
+export LC_ALL=fr_FR.UTF-8
 
 # === === === === ===
 # 4 - envoi infos

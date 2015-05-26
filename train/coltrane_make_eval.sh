@@ -7,7 +7,7 @@
 export MY_NEW_SAMP=$1       # ex: "seg-a-40" ou "vanilla"
 export MODEL_type=citation        # ex: "segmentation"
 
-export GB_BASENAME="g033f"
+export GB_BASENAME="g034a"
 export eps=$4           # ex: "e-5"
 export GB_NAME=${GB_BASENAME}.${eps}
 
@@ -83,7 +83,7 @@ fi
 pushd $GB/grobid-service/
 mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war 2>> gb-service.log &
 SERVICE_PID=$!
-sleep 25 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch
+sleep 100 # normalement plutôt ~ 20s mais parfois il essaye de D/L qqch
          # (cf. ~/.m2/settings pour le proxy)
 popd
 
@@ -102,7 +102,7 @@ split -nl/${NCPU} temp.docs.ls
 PIDS=()
 i=0
 for liste in xa* ;
-  do bash client_passe_liste.sh < $liste 2>> clients.curl.log & PIDS[$i]=$! ;
+  do bash client_passe_liste.sh < $liste 2>> clients.curl.${liste}.log & PIDS[$i]=$! ;
      i=$((i+1)) ;
  done
 
