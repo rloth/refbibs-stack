@@ -19,7 +19,7 @@ from rag_xtools import localname_of_tag, glance_xbib
 
 # quelques helper regexps
 # "REFERENCES" seul sur une ligne => presque certain qu'une entête de section
-re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
+# re_REF_HEADER_LINE = re.compile(r"^R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*$")
 
 # tentative sans ancrage (pas seul sur la ligne)
 re_REF_HEADER_LINE = re.compile(r"R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[Ee] ?[Ss]?s*:?\s*")
