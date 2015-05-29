@@ -171,8 +171,6 @@ def prepare_arg_parser():
 	return parser
 
 
-
-
 def check_align_seq_and_correct(array_of_xidx):
 	"""
 	Diagnostics sur les champions par ligne issus des scores_pl_xb ?
@@ -396,14 +394,37 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 	return toklist
 
 
+def reintegrate_matches(match_array, remainder_str):
+	""" Réintègre des matchs transformés (chaine capturée, échappée, balisée)
+	    dans leur chaîne originale, via des renvois de la forme:
+	      #(#3-tit#)#
+	    
+	    (3ème match, de type titre)
+	    
+	    see also tok_match_record() for the reverse operation
+	"""
+	work_str = remainder_str
+	
+	for (k, rendu) in enumerate(match_array):
+		renvoi = "#\(#%i-[a-z]+#\)#" % (k + 1)
+		# ==================================
+		work_str = re.sub(renvoi, rendu, work_str)
+	
+	return work_str
+
+
 def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 	"""When an xml token matched a pdf substr, it
-	   is recorded by this function in the array
-	   'mtched' aka 'matchlist'... It is also removed
-	   from the original pdf string (and replaced by 
-	   a ref therein) for further tok <=> substr matches.
+	   is recorded by this function in the 'matchlist'
+	   
+	   It is also removed from the original pdf string 
+	   (and replaced by a ref of the form: "#(#1-reftype#)#"
+	   for further tok <=> substr matches.
 	   
 	   Returns the updated list of substrings + the remainder
+	   
+	   see also reintegrate_matches() for the reverse operation
+	   
 	"""
 	pstr_infostr = matched_substr
 	xtok_infostr = re.sub(r'<([^<>"]{1,3})\w*(?: \w+="([^<>"]{1,3})\w*")?>',
@@ -420,13 +441,14 @@ def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 	i = len(matchlist)
 	
 	# -c- effacement dans le remainder
-	# (substitution par un renvoi à la \4 ex: ###4###)
-	remainder_str = re.sub(xtoken.re, "###%i-%s###" % (i, xtok_infostr), remainder_str)
+	# (substitution par un renvoi à la \4 ex: #(#4#)#)
+	# £todo!!! : interdire matches dans les renvois précédents (exemple n° volume == n° de renvoi) !
+	remainder_str = re.sub(xtoken.re, "#(#%i-%s#)#" % (i, xtok_infostr), remainder_str)
 	
 	return(matchlist, remainder_str)
 
 
-def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
+def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	"""Matches field info in raw txt string
 	   returns(output_xml_string, success_bool)
 	   
@@ -439,8 +461,8 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	
 	   TODO cohérence arguments -m "citations" et -r
 	
-	Séquence :      FLUXTEXTE         XMLNODES
-	               grouped_raw         subtree (ou xlabel seul)
+	Séquence :      FLUXTEXTE            XMLNODES
+	               grouped_raw         list(subtrees) (ou xlabel seul)
 	                    |                 |
 	                    |               (iter)
 	                    |                 |
@@ -487,26 +509,28 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	                                 return(newxml, warnings)
 	"""
 	# vérification des arguments
-	if subtree is None and label == "":
-		raise ValueError("match_citation_fields()"
+	if subtrees is None and label == "":
+		raise ValueError("match_fields()"
 		 +" il faut au moins un label ou une branche XML à reporter")
-	elif subtree is None:
+	elif subtrees is None:
 		just_label = True
 	else:
 		just_label = False
-	
 	
 	# - log -
 	if debug > 0:
 		print("\n"+"="*50, file=sys.stderr)
 		
 		# rappel input XML
-		if subtree is not None:
-			xmlentry = rag_xtools.glance_xbib(subtree)
-			print("XML entry:", xmlentry
-		        + "\ncontenus texte xmlbib %i" % j, file=sys.stderr)
-			print(etree.tostring(subtree, pretty_print=True).decode("ascii")
-		        + ("-"*50), file=sys.stderr)
+		if subtrees is not None:
+			nxt = len(subtrees)
+			print("match_fields: got %i subtree%s to match" % (nxt, 's' if nxt>1 else ''), file=sys.stderr)
+			for subtree in subtrees:
+				xmlentry = rag_xtools.glance_xbib(subtree)
+				print("XML entry:", xmlentry
+				   + "\ncontenus texte xmlbib %i" % j, file=sys.stderr)
+				print(etree.tostring(subtree, pretty_print=True).decode("ascii")
+				   + ("-"*50), file=sys.stderr)
 		else:
 			xmlentry = "__no_xbib__"
 			print("XML entry:", xmlentry, file=sys.stderr)
@@ -539,14 +563,17 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		
 		# NB on ne prend pas le label qui n'est pas concerné par citations
 		# mais on pourrait (en reprenant le début de liste du cas préc.) 
-		# si on voulait faire un mode 'match intégral'
+		# si on voulait faire un mode 'match intégral' (zone + ligne + label + fields + auteurs)
 		
 		# parcours de l'arbre
 		# -------------------
-		# on utilise iter() et pas itertext() qui ne donne pas les chemins
+		# on utilise iter() et pas itertext() qui ne donnerait pas les chemins!
 		# + on le fait sous la forme iter(tag=elt) pour avoir les éléments
 		#   et pas les commentaires
-		subelts = [xelt_s for xelt_s in subtree.iter(tag=etree.Element)]
+		subelts = []
+		for subtree in subtrees:
+			for xelt_s in subtree.iter(tag=etree.Element):
+				subelts.append(xelt_s)
 		
 		# la boucle part des éléments xml (contenus attendus) pour
 		# créer une liste de tokens avec à réintégrer à l'autre flux:
@@ -554,17 +581,18 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 		#                  => génère une expression régulière à trouver
 		#   - leur balise  => décrit *ce que* l'on va réintégrer comme infos
 		#                  => obtenue par table corresp selon relpath actuel
+		
 		# - - - - - - -
-		# methode 1 : appel fonction de correspondance cas par cas
-		#                    (elle crée les objets "token")
-		# TODO liaison (pp debut) (pp last) pour anticiper aphérèse des secondes
-		#      ex: 00992399_v16i9_S0099239906818911
+		# ON/ methode 1 : (appel fonction de correspondance cas par cas)
+		#                 Crée objets "xtoken" avec qqs règles ad hoc:
+		#                  - traduction de tags ad hoc pour les bibl
+		#                  - récup texte d'attrs au lieu de contenus
 		toklist += biblStruct_elts_to_match_tokens(
 		                   subelts, 
 		                     model=args.model_type, debug=debug)
 		
 		# - - - - - - -
-		# méthode 2 générique (remettra le même tag qu'en entrée)
+		# OFF/ méthode 2 générique (remettra tj le même tag qu'en entrée)
 		#~ toklist = [XTokinfo(
 					  #~ s=xelt.text,
 					  #~ xip=rag_xtools.simple_path(
@@ -573,7 +601,8 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
 		
-		# print("TOKLIST", toklist)
+		if debug >= 1:
+			print("TOKLIST", toklist, file=sys.stderr)
 	
 	
 	# le flux PDFTXT non encore matché
@@ -640,18 +669,17 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 			if tok.req:
 				unrecognized = True
 				if debug >= 2:
-					print("WARN: '%s' (%s) matches too many times (%i)" %
+					print("WARN: '%s' (%s) matches too many times (x%i)" %
 							 (tok.xtexts, tok.relpath, n_matchs),
 							 file=sys.stderr)
 			
 			continue
-			
 		
 		# si deux matchs => :/       (ex: date or city?)
 		# we choose arbitrarily one of the 2 matches TODO better
 		elif n_matchs == 2:
-			if debug >= 2:
-				print("WARN: '%s' (%s) matched twice" %
+			if debug >= 1:
+				print("WARN: '%s' (%s) matched twice => choosing randomly" %
 						 (tok.xtexts, tok.relpath),
 						 file=sys.stderr)
 			
@@ -717,115 +745,103 @@ def match_citation_fields(grouped_raw_lines, subtree=None, label="", debug=0):
 	# traitement du remainder => résultat visible avec option -r (mask)
 	remainder = rag_xtools.str_escape(remainder)
 	
-	# affiche la pile récupérée
-	#~ print("====MATCHED====", mtched, file=sys.stderr)
+	# SORTIE (str)
+	output = None
 	
+	# si l'utilisateur ne veut que le masque 
+	# (aka remainder : tout sauf les matchs, sans post-traitements)
+	if args.mask:
+		output = remainder
 	
-	# SORTIE 
-	
-	# c'est ce "remainder" qu'on affichera si args.mask
-	new_xml = remainder
-	
-	#~ # debg
-	#~ print("args.mask:", args.mask, file=sys.stderr)
-	#~ print("new_xml:", new_xml, file=sys.stderr)
-	
-	# sinon ré-insertion des matchs échappés eux aussi ET balisés
-	if not args.mask and args.model_type == "bibfields":
-		for (k, rendu) in enumerate(mtched):
-			renvoi = "###%i-[a-z]+###" % (k + 1)
-			# ==================================
-			new_xml = re.sub(renvoi, rendu,
-									 new_xml)
+	# sinon cas normal
+	else:
+		# réinsertion ch. match interpolé de subtrees IN
+		#  ==> (chaîne verbatim re-balisée, xmlescaped)
+		# ----------------------------------------------
+		output = reintegrate_matches(mtched, remainder)
+		# ----------------------------------------------
+		
+		# PUIS:
+		# post-traitements selon les cas de sortie voulue
+		# ----------------
+		# cas 1 : sélection de la partie auteurs seule
+		if args.model_type == "authornames":
+			au_str = None
+			# cette version marche uniquement par regexp sur *names...
+			# £TODO utiliser plutôt les 2 niveaux de markup
+			#                       (tei:author et tei:*names)
+			# car problèmes actuels comme :
+			#   <authors><lastname>World Bank</lastname>. Accelerated
+			#   development in sub-Saharan Africa: An agenda for <lb/>
+			#   action. Washington DC, <lastname>World Bank</lastname>
+			#   </authors>
 			
-		#~ # debg
-		#~ print("new_xml:", new_xml, file=sys.stderr)
-		
-		# correctif label  => TODO à part dans une matcheuse que pour label?
-		# ---------------
-		#   Les labels sont souvents des attributs n=int mais
-		#   dans le corpus d'entraînement on les balise avec leur ponct
-		#   ex: [<label>1</label>]  ==> <label>[1]</label>
-		new_xml = re.sub("\[<label>(.*?)</label>\]",
-							 "<label>[\g<1>]</label>",
-							   new_xml)
-		
-		#~ # debg
-		#~ print("new_xml:", new_xml, file=sys.stderr)
-		
-		# dernier correctif: groupements de tags
-		# ------------------
-		
-		# -a- pages collées pour le modèle citation
-		new_xml = re.sub(r'<pp>', r'<biblScope type="pp">',
-				  re.sub(r'</pp>', r'</biblScope>',
-				 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
-				new_xml)))
-		
-		# -b- auteurs groupés
-		# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
-		#        => <author>Ageta, H., Arai, Y.</author>
-		new_xml = re.sub(r'(<author>.*</author>)',
-							  rag_xtools.strip_inner_tags, 
-							new_xml)
-		new_xml = re.sub(r'(<editor>.*</editor>)',
-							  rag_xtools.strip_inner_tags,
-							new_xml)
-	
-	elif not args.mask and args.model_type == "authornames":
-		for (k, rendu) in enumerate(mtched):
-			renvoi = "###%i-[a-z]+###" % (k + 1)
-			# ==================================
-			new_xml = re.sub(renvoi, rendu,
-									 new_xml)
+			if unrecognized:
+				au_str = "" # <= on n'a rien trouvé
+			else:
+				# selection du segment MAXIMAL contenant les noms
+				got = re.match(r"[^<>]*(<\w*name>.*</\w*name>)[^<>]", output)
+				
+				#~ version avec trailing punctuations
+				#~ r"[^<>]*(<\w*name>.*</\w*name>)[^<>]\W*"
+				
+				
+				# pas de capture => anormal
+				if got is None:
+					# on annule le succès
+					unrecognized = True
+					# on signale le problème
+					print("WW: no names in '%s'"%bibstr_with_au, file=sys.stderr)
+					au_str = "" # <= on a rien trouvé
+				# cas normal
+				else:
+					au_str = got.groups()[0]
 			
-		#~ # debg
-		#~ print("new_xml:", new_xml, file=sys.stderr)
+			# ajout tag extérieur
+			# -------------------
+			new_xml = "<authors>"+au_str+"</authors>"   # ?TODO editors idem ?
 		
-		# on supprime tout avant <author>
-		new_xml = re.sub("^.*<author>",
-							 "<author>",
-							   new_xml)
-		
-		# ... et tout ce qui vient après </author>
-		new_xml = re.sub("</author>.*$",
-							 "</author>",
-							   new_xml)
-		
-		#~ # debg
-		#~ print("new_xml:", new_xml, file=sys.stderr)
-		
-		# dernier correctif: groupements de tags
-		# ------------------
-		
-		# -a- pages collées pour le modèle citation
-		new_xml = re.sub(r'<pp>', r'<biblScope type="pp">',
-				  re.sub(r'</pp>', r'</biblScope>',
-				 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
-				new_xml)))
-		
-		# -b- auteurs groupés
-		# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
-		#        => <author>Ageta, H., Arai, Y.</author>
-		#~ new_xml = re.sub(r'(<author>.*</author>)',
-							  #~ rag_xtools.strip_inner_tags, 
-							#~ new_xml)
-		#~ new_xml = re.sub(r'(<editor>.*</editor>)',
-							  #~ rag_xtools.strip_inner_tags,
-							#~ new_xml)
-		
-		print ("hello authors")
+		# cas 2 : bibfields (modèle grobid = "citations")
+		elif args.model_type == "bibfields":
+			
+			# correctif label  => TODO à part dans une matcheuse que pour label?
+			# ---------------
+			#   Les labels sont souvents des attributs n=int mais
+			#   dans le corpus d'entraînement on les balise avec leur ponct
+			#   ex: [<label>1</label>]  ==> <label>[1]</label>
+			output = re.sub("\[<label>(.*?)</label>\]",
+								 "<label>[\g<1>]</label>",
+								   output)
+			
+			# dernier correctif: groupements de tags
+			# ------------------
+			
+			# -a- pages collées si possible pour le modèle citation
+			#                   grace astuce amont: marquage tempo <pp>
+			output = re.sub(r'<pp>', r'<biblScope type="pp">',
+					  re.sub(r'</pp>', r'</biblScope>',
+					 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
+					output)))
+			
+			# -b- auteurs groupés
+			# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
+			#        => <author>Ageta, H., Arai, Y.</author>
+			output = re.sub(r'(<author>.*</author>)',
+								  rag_xtools.strip_inner_tags, 
+								output)
+			output = re.sub(r'(<editor>.*</editor>)',
+								  rag_xtools.strip_inner_tags,
+								output)
+			
+			# ajout tag extérieur
+			# -------------------
+			new_xml = "<bibl>"+output+"</bibl>"
 	
-	# ajout d'un éventuel tag extérieur
-	# ----------------------------------
-	new_xml = "<bibl>"+new_xml+"</bibl>"
-	
-	# ==> (new_xml, success_bool)
 	return(new_xml, not(unrecognized))
+	# autrement dit ==> (new_xml, success_bool)
 
 
 # --------------------------------------------------------
-
 # --------------------------------------------------------
 
 
@@ -858,7 +874,7 @@ class XTokinfo:
 	  'n' : ['n', 'rt', 'll'],
 	  'o' : ['o', 'c'],
 	  'ø' : ['ø', 'o'],
-	  'ö' : ['ö', 'o', '6', 'b', '~'],
+	  'ö' : ['ö', 'o', '6', 'S', 'b', '~'],
 	  't' : ['t', 'f', '¹', 'r'],
 	  'ü' : ['ü', 'u', 'ii', 'ti', 'fi'],
 	  'v' : ['v', 'y'],
@@ -1640,10 +1656,10 @@ else:
 					# tentative de report du label
 					xlabel = LABELS[j_win]
 					if xlabel:
-						# TODO faire une fonction à part et reserver match_citation_fields au cas citations ?
+						# TODO faire une fonction à part et reserver match_fields au cas citations ?
 						# -------------------8<-------------------------
 						# report du label sur chaîne de caractères réelle
-						(my_bibl_line, success) = match_citation_fields(
+						(my_bibl_line, success) = match_fields(
 													this_line,
 													label = xlabel,
 													debug = args.debug,
@@ -1708,7 +1724,7 @@ else:
 	#    in refs mode we go further by grouping content from pdf
 	#     (each raw txtline i') by its associated xml id j_win
 	#   --------------------------------------------------------
-	elif args.model_type in ["bibfields","authornames"]:
+	elif args.model_type == "bibfields":
 		
 		header="""<?xml version="1.0" encoding="UTF-8"?>
 <tei type="grobid.train.citations">
@@ -1795,9 +1811,9 @@ else:
 				
 				else:
 					# report des balises sur chaîne de caractères réelle
-					(my_bibl_str, success) = match_citation_fields(
+					(my_bibl_str, success) = match_fields(
 												group_of_real_lines,
-												subtree = this_xbib,
+												subtrees = [this_xbib],
 												label   = xlabel,
 												debug   = args.debug
 											   )
@@ -1815,7 +1831,7 @@ else:
 					# pour la sortie : filtre ex: 111 => tout bon
 					# traduction de la checkliste en "101", "111", etc
 					out_check_trigram = "".join([str(int(boul)) 
-												  for boul in checklist])
+												 for boul in checklist])
 					
 					#  => sortie finale format 'citations'
 					#     -------------
@@ -1829,7 +1845,7 @@ else:
 		
 		# TODO: pour 'citations' ajouter aussi les non alignées != groups_by_xid comme pour l'autre
 		
-		# voilà fin mode 3
+		# voilà fin mode 2
 		
 		# tail
 		tail="""
@@ -1838,33 +1854,169 @@ else:
 </tei>"""
 		print (tail)
 		sys.exit(0)
-	
-	#~ elif args.model_type == "authornames":
-		#~ # header
-		#~ header="""<?xml version="1.0" encoding="UTF-8"?>
-#~ <tei type="grobid.train.names">
-	#~ <teiHeader>
-		#~ <fileDesc xml:id="%s">
-			#~ <sourceDesc>
-				#~ <biblStruct>
-					#~ <analytic>""" % DOCID
-		#~ print (header)
-		#~ 
-		#~ # boucle £TODO
-			#~ # "<author><forename>C.-Y.</forename> <lastname>Lu</lastname> et al.</author>"
-		#~ 
-		#~ # tail
-		#~ tail="""
-					#~ </analytic>
-				#~ </biblStruct>
-			#~ </sourceDesc>
-		#~ </fileDesc>
-	#~ </teiHeader>
-#~ </TEI>"""
-		#~ print (tail)
-		#~ sys.exit(0)
+	# ------------------------------------------------------------------
+	#  mode 3: names: presque la même que en mode 2
+	#                 mais garde 'forename', 'lastname' lors de XELT2TOK
+	#                 et supprime tout le reste !
+	#   --------------------------------------------------------
+	elif args.model_type == "authornames":
+		# le header est un peu différent que pour les bibfields
+		header="""<?xml version="1.0" encoding="UTF-8"?>
+<tei type="grobid.train.names">
+	<teiHeader>
+		<fileDesc xml:id="%s">
+			<sourceDesc>
+				<biblStruct>
+					<analytic>""" % DOCID
+		print (header)
+		
+		print ("∤" * 80, file=sys.stderr)
+		
+		# ∤∤∤∤∤∤∤∤∤∤ ensuite comme pour les bibfields ∤∤∤∤∤∤∤∤∤∤
+		# résultat à remplir
+		rawlinegroups_by_xid = [None for j in range(nxb)]
+		
+		for i_prime, j_win in enumerate(winners):
+			if j_win is None:
+				# we *ignore* None values 
+				# => if we wanted them we need to fix them earlier
+				pass
+			# === normal case ===
+			else:
+				# nouveau morceau
+				if rawlinegroups_by_xid[j_win] is None:
+					rawlinegroups_by_xid[j_win] = rawlines[debut_zone+i_prime]
+				# morceaux de suite
+				else:
+					# on recolle les lignes successives d'une même bib
+					# separateur saut de ligne: '¤' ASCII 207
+					#  => format sortie citations: neutre dans les reports car matche /\W+/
+					rawlinegroups_by_xid[j_win] += "¤"+rawlines[debut_zone+i_prime]
+		
+		# log détaillé de cette étape
+		if args.debug >= 1:
+			# linked results
+			print("="*70, file=sys.stderr)
+			for j in range(nxb):
+				xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
+				if rawlinegroups_by_xid[j] is None:
+					print(xml_info + "\n<==> NONE", file=sys.stderr)
+				else:
+					print(xml_info + "\n<==>\n" + rawlinegroups_by_xid[j], file=sys.stderr)
+				print("="*70, file=sys.stderr)
+		
+		
+		#  ------------------------------           ===================
+		#  Projection champs sur le texte et boucle OUTPUT mode auteurs
+		#  ------------------------------           ===================
+		print("---\nLINK PBIB TOKENS <=> XBIB FIELDS\n", file=sys.stderr)
+		
+		# report de chaque champ
+		bibl_found_array = []
+		
+		max_j = len(rawlinegroups_by_xid) - 1
+		
+		for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
+				
+				# la dernière est parfois vide
+				if (group_of_real_lines is None) and (j == max_j):
+					continue
+				
+				try:
+					this_xbib = xbibs[j]
+				except IndexError as ie:
+					print("Auteurs: bib %i absente dans xbibs pour '%s'" % 
+								   ( j, 
+									 group_of_real_lines ),
+					file=sys.stderr)
+					# on donne un biblStruct vide
+					this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
+				
+				xlabel = LABELS[j]
+				
+				toks = []
+				
+				if group_of_real_lines is None:
+					if args.debug > 1:
+						print("===:no lines found for xbib %i (label %s)"
+								 % (j,xlabel))
+					
+					# incomplétude constatée du résultat à l'étape link_lines
+					checklist[1] = False
+					continue
+				
+				else:
+					# £TODO ajouter editors ici ou à part
+					
+					au_groups = this_xbib.findall("tei:analytic/tei:author", namespaces={'tei': "http://www.tei-c.org/ns/1.0"})
+					
+					# debug
+					#~ print("groupes_bib_%i:"%j,au_groups, file=sys.stderr)
+					
+					my_work_line = group_of_real_lines
+					
+					# --------------------------------------------------
+					# report des balises sur chaîne de caractères réelle
+					# --------------------------------------------------
+					(authors_str, success) = match_fields(
+												my_work_line,
+												subtrees = au_groups,
+												debug   = args.debug
+											   )
+					
+					# update 3è slot checklist pour filtrage erreurs
+					checklist[2] = success
+					
+
+					
+					# pour la sortie : filtre ex: 111 => tout bon
+					# traduction de la checkliste en "101", "111", etc
+					out_check_trigram = "".join([str(int(boul))
+												  for boul in checklist])
+					
+					# séparateur saut de ligne dans le cas 'auteurs'
+					authors_str = re.sub("¤","<lb/>",authors_str)
+					
+					
+					#  => sortie finale au_str format 'auteurs'
+					#     -------------
+					print("<!--bib_%i:au:"%j+out_check_trigram+"-->"+authors_str)
+		
+		# EXEMPLES DE SORTIE
+		# -------------------
+		# <!--bib_14:au:111--><lastname>Barraquer-Ferre</lastname>, <forename>L.</forename>
+		# <!--bib_15:au:111--><lastname>Millichap</lastname>, <forename>J. G.</forename>, <lastname>Lombroso</lastname>, <forename>C. T.</forename>, and <lastname>Len-nox</lastname>, <forename>W. G.</forename>
+		# (...)
+		
+		
+		# £TODO: problème si match sur toute la group_of_real_lines
+		#        => la workline devrait être un segment auteur|éditeur
+		#           déjà issu de bibfields et non pas toute la bib de biblines
+		# exemple du pb
+		# --------------
+		# <lastname>Amenta</lastname> <forename>PS</forename>,
+		# <lastname>Gil</lastname> <forename>J</forename>,
+		# and <lastname>Martinez-Hernandez</lastname>
+		# <forename>A</forename> (1988) Connective tissue of rat 
+		# lung II: Ultrastructural localization of collagen types III,
+		# IV, and VI. <forename>J</forename>
+		#             ^^^^^^^^^^^^^^^^^^^^^^
+		
+		
+		
+		# voilà fin mode 3
+		
+		# tail
+		tail="""
+					</analytic>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+</TEI>"""
+		print (tail)
+		sys.exit(0)
 	
 	else:
 		print("Le modèle que vous avez choisi '%s' est inconnu. Les modèles connus sont 'bibzone', 'biblines', 'bibfields' et 'authornames'" % args.model_type)
 		sys.exit(1)
-

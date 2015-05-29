@@ -37,7 +37,7 @@ reference-segmenter)
 citation)
   tgt='train_citation'
   ;;
-name/citation)
+name)
   tgt='train_name_citation'
   ;;
 *)
@@ -70,7 +70,15 @@ mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" generate-resources -P ${tgt} \
 # === === === === === === ===
 # 3 - RECUP MODELE ET LOG
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type
-cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type/.
+case $MODEL_type in
+name)
+  # une profondeur en plus pour les modèles name/citation
+  cp -p $GB/grobid-home/models/$MODEL_type/citation/model.wapiti $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type/citation/.
+  ;;
+*)
+  cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type/.
+  ;;
+esac
 
 # logs
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
