@@ -83,13 +83,13 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 			
 			# décompte de cooccurrences (pl.bow <=> xb.bow)
 			for ptok in pdf_w_tokens:
-				if debug >= 3:
+				if debug >= 4:
 					print("match essai frag pdf du i=%i: '%s'" %(i , re.escape(ptok)), file=sys.stderr)
 				
 				reptok = re.compile(r"\b%s\b" % re.escape(ptok))
 				
 				for xtext in xbib.itertext():
-					if debug >= 4:
+					if debug >= 5:
 						print("\tsur frag xml du j=%i: %s" % (j, xtext), file=sys.stderr)
 					
 					# MATCH !
@@ -97,14 +97,14 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 						# count count count count count count count count count count count count count
 						scores_pl_xb[i][j] += 1
 						# + d'un match de même ptok sur le même xtxt n'est pas intéressant
-						if debug >= 4:
+						if debug >= 5:
 							print("\t\tMATCH (i=%i, j=%i)!" % (i,j), file=sys.stderr)
 						
 						break
 	
 	# pour log
 	# --------
-	if debug >= 2:
+	if debug >= 1:
 		# reboucle: affichage détaillé pour log de la matrice des scores
 		print("link_scores[pdfline,xmlbib]", file=sys.stderr)
 		for i in range(len(pdfbibzone)):
@@ -150,7 +150,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 			# cas à noter: la ligne est pratiquement vide
 			if the_max_val == 0:
 				champions[i] = None
-				if debug >= 1:
+				if debug >= 2:
 					print( "l.%i %-90s: NONE tout à 0" % (i, pdfbibzone[i]), file=sys.stderr)
 			
 			# cas rare: attribution raisonnable au précédent
@@ -173,7 +173,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 				champions[i] = argmax_j
 				
 				# log
-				if debug >= 1:
+				if debug >= 2:
 					ma_bS = xmlbibnodes[argmax_j]
 					infostr = glance_xbib(ma_bS)
 					print( "l.%i %-90s: WINs suite XML %s %s (max=%s) (repêchage parmi %s ex aequo)" % (
@@ -188,7 +188,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 			# cas générique ex aequo: *match pas concluant*
 			# - - - - - - - - - - - - - - - - - - - - - - -
 			else:
-				if debug >= 1:
+				if debug >= 2:
 					print("l.%i %-90s: NONE exaequo bibs %s (maxs=%i)"  % (
 						  i,
 						  pdfbibzone[i],
@@ -220,7 +220,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 				
 				# match pas folichon
 				if the_max_val < 5 :
-					if debug >= 1:
+					if debug >= 2:
 						print("l.%i %-90s: WEAK (max=%i) (x vide? ou cette ligne p vide ?)" % (i, pdfbibzone[i], the_max_val), file=sys.stderr)
 					# oublier résultat incertain
 					argmax_j = None
@@ -231,7 +231,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 					champions[i] = argmax_j
 					
 					# log
-					if debug >= 1:
+					if debug >= 2:
 						ma_bS = xmlbibnodes[argmax_j]
 						infostr = glance_xbib(ma_bS, longer=True)
 						print( "l.%i %-90s: WIN1 entrée XML %s %s (max=%i)" % (
@@ -256,7 +256,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 					champions[i] = argmax_j
 					
 					# log
-					if debug >= 1:
+					if debug >= 2:
 						ma_bS = xmlbibnodes[argmax_j]
 						infostr = glance_xbib(ma_bS, longer=True)
 						print( "l.%i %-90s: WINs suite XML %s %s (max=%i vs d=%f) " % (
@@ -270,7 +270,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 							file=sys.stderr)
 				else:
 					# TODO mettre une info "__WEAK__" dans champions[i] pour diagnostics
-					if debug >= 1:
+					if debug >= 2:
 						print("l.%i %-90s: WEAK (max=%i vs d=%f)" % (
 							  i,
 							  pdfbibzone[i],

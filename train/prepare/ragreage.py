@@ -378,8 +378,8 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 		
 		loc_name = rag_xtools.localname_of_tag(xelt.tag)
 		
-		if debug >= 2:
-			print("***XELT2TOK***", file=sys.stderr)
+		if debug >= 3:
+			print("xelt2tok:", file=sys.stderr)
 			print("\tbase_path   :", base_path, file=sys.stderr)
 			print("\ttext content:", xelt.text, file=sys.stderr)
 		
@@ -452,8 +452,8 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 		# normalement on a déjà traité tous les cas avec texte vide et
 		# ayant un attribut intéressant => ne reste que des "texte vide inintéressants"
 		elif xelt.text is None:
-			if debug >= 1:
-				print ("XELT2TOK: skip non terminal <%s>:'%s'"%(base_path, xelt.text), file=sys.stderr)
+			if debug >= 3:
+				print ("xelt2tok: skip non terminal <%s>:'%s'"%(base_path, xelt.text), file=sys.stderr)
 			continue
 
 		# === cas normal === (enfin !)
@@ -592,7 +592,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	
 	# - log -
 	if debug >= 2 :
-		print("\nmatch_fields:"+"="*50, file=sys.stderr)
+		print("MATCH_FIELDS:"+"="*50, file=sys.stderr)
 		
 		# rappel input XML
 		if subtrees is not None:
@@ -676,7 +676,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
 		
 		if debug >= 1:
-			print("TOKLIST", toklist, file=sys.stderr)
+			print("\nTOKLIST", toklist, file=sys.stderr)
 	
 	
 	# le flux PDFTXT non encore matché
@@ -701,8 +701,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		my_path = None
 
 		# debug
-		if debug >= 2:
-			print("XTOK",l,tok, file=sys.stderr)
+		if debug >= 3:
+			print("xtok",l,tok, file=sys.stderr)
 		
 		# sanity check A : the xmlstr we just found
 		if tok.xtexts is None:
@@ -721,8 +721,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		# print("===mgroups==>", mgroups, file=sys.stderr)  #    |
 		
 		#debg
-		if debug >= 2:
-			print ("n_matchs:", n_matchs, "(tok.req=", tok.req, ")", file=sys.stderr)
+		if debug >= 3:
+			print ("\t%i match" % n_matchs, "(req)" if tok.req else "", file=sys.stderr)
 		
 		
 		# 4) on traite le succès ou non du match -----------------  
@@ -745,7 +745,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 				if debug >= 2:
 					print("WARN: '%s' (%s) matches too many times (x%i)" %
 							 (tok.xtexts, tok.relpath, n_matchs),
-							 file=sys.stderr)
+							 file=sys.stderr) 
 			
 			continue
 		
@@ -1155,8 +1155,12 @@ class XTokinfo:
 		do_newline=True
 		do_char_classes=True
 		
-		r_INTER_WORD = '[¤ ]{0,2}'      # autorise saut de ligne, espace
-		r_INTER_CHAR = '[-¤ ]{0,3}'     # autorise césure, saut de ligne, espace
+		# autorise saut de ligne, espace et toutes poncts
+		# (ex: ',' entre nom et prénom)     -------------
+		r_INTER_WORD = '[¤ \W]{0,4}'
+		
+		# autorise césure, saut de ligne, espace
+		r_INTER_CHAR = '[-¤ ]{0,3}'
 		
 		# on ne fait pas la césure pour les locutions courtes
 		if (not do_cesure or strlen < 6):
@@ -1225,10 +1229,10 @@ class XTokinfo:
 				# ====re_str==== (?=.{19,22})(?:O|0))[-¤ ]{0,3}x[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:d|cl)[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}t[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:o|c)[-¤ ]{0,3}n[¤ ]{0,2}(?:o|c)[-¤ ]{0,3}(?:f|t)[¤ ]{0,2}M[-¤ ]{0,3}(?:e|c)[-¤ ]{0,3}t[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}(?:1|l|i|I|\]|\/|Z)[-¤ ]{0,3}s
 			
 			
-		if args.debug >= 2 :
+		if args.debug >= 3 :
 			print("pre_regexp:", file=sys.stderr)
-			print("  ====x_str====", anystring, file=sys.stderr)
-			print("  ====re_str====", my_re_str, file=sys.stderr)
+			print("\t=x_str=", anystring, file=sys.stderr)
+			print("\t=re_str=", my_re_str, file=sys.stderr)
 		
 		
 		# B) Décision du format des limites gauche et droite pour les \b
@@ -1285,8 +1289,7 @@ class XTokinfo:
 	
 	
 	def __str__(self):
-		return "%s : '%s' : %s" % (self.relpath, self.xtexts, self.tagout)
-		# return "'%s' : %s" % (self.xtexts, self.tagout)
+		return "%s: '%s'" % (self.tagout, self.xtexts)
 	
 	def __repr__(self):
 		return "<%s>" % self.__str__()
@@ -1424,16 +1427,17 @@ for item in xml_no_strs_map:
 
 if args.debug >= 1:
 	print("IDs:", xml_ids_map, file=sys.stderr)
-	print("NOs:", xml_no_ints_map, file=sys.stderr)
-	print("NO_strs:", xml_no_strs_map, file=sys.stderr)
-	if FLAG_STD_MAP:
-		print("GOOD: numérotation ID <> LABEL traditionnelle",
-				 file=sys.stderr)
-	else:
-		# todo préciser le type de lacune observée :
-		# (pas du tout de labels, ID avec plusieurs ints, ou gap dans la seq)
-		print("WARN: la numérotation XML:ID non incrémentale ou consécutive",
-				 file=sys.stderr)
+	if args.debug >= 2:
+		print("NOs:", xml_no_ints_map, file=sys.stderr)
+		print("NO_strs:", xml_no_strs_map, file=sys.stderr)
+		if FLAG_STD_MAP:
+			print("GOOD: numérotation ID <> LABEL traditionnelle",
+					 file=sys.stderr)
+		else:
+			# todo préciser le type de lacune observée :
+			# (pas du tout de labels, ID avec plusieurs ints, ou gap dans la seq)
+			print("WARN: la numérotation XML:ID non incrémentale ou consécutive",
+					 file=sys.stderr)
 
 # // fin lecture xml bibs
 
@@ -1685,7 +1689,7 @@ else:
 			
 			accumulated_buff_size = len(l_buff)
 			if args.debug >= 3:
-				print("-x-x-x-x-BIBLINES-------------x-x-x-x-")
+				print("-x-x-x-x-biblines-------------x-x-x-x-")
 				print("buffer accumulated size:", accumulated_buff_size, file=sys.stderr)
 				print("j_win:", j_win, "next_win:", next_win, file=sys.stderr)
 				print("label:", LABELS[j_win] if j_win is not None else "__no_label__")
@@ -1799,7 +1803,6 @@ else:
 	</text>
 </tei>"""
 		print (tail)
-		
 		sys.exit(0)
 	
 	
@@ -1844,7 +1847,7 @@ else:
 					rawlinegroups_by_xid[j_win] += "¤"+rawlines[debut_zone+i_prime]
 		
 		# log détaillé de cette étape
-		if args.debug >= 1:
+		if args.debug >= 3:
 			# linked results
 			print("="*70, file=sys.stderr)
 			for j in range(nxb):
@@ -1940,6 +1943,9 @@ else:
 </tei>"""
 		print (tail)
 		sys.exit(0)
+	
+	
+	
 	# ------------------------------------------------------------------
 	#  mode 3: names: presque la même que en mode 2
 	#                 mais garde 'forename', 'lastname' lors de XELT2TOK
