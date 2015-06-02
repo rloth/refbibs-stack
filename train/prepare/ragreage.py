@@ -94,7 +94,7 @@ FLAG_STD_MAP = False
 # said endings 1,2,3 (if present) for label retrieval
 # utilise l'attribut "n" quand il est présent
 # (dans la feuille elsevier il reprenait value-of sb:label)
-LABELS = None
+LABELS = []
 
 # --------------------------------------------------------
 # --------------------------------------------------------
@@ -169,6 +169,79 @@ def prepare_arg_parser():
 		action='store_true')
 	
 	return parser
+
+def get_xlabels(xbibs):
+	""" Takes an array of xml biblStruct elements
+	    and reports their labels of 2 kinds: numbers and QName ids
+	"""
+	
+	# our array length
+	nxb = len(xbibs)
+	
+	# initialisation IDs et NOs
+	xml_ids_map = [None for j in range(nxb)]
+	xml_no_strs_map = [None for j in range(nxb)]
+	xml_no_ints_map = [None for j in range(nxb)]
+
+	# remplissage selon xpaths @id et @n
+	for j, xbib in enumerate(xbibs):
+		
+		# il devrait toujours y avoir un ID, mais en réalité parfois absent
+		xbib_id_nodes = xbib.xpath("@xml:id") ;
+		
+		# si présent, l'attribut "@n" reprend le label (devrait toujours être numérique ?)
+		xbib_no_nodes = xbib.xpath("@n") ;
+		
+		found_id = (len(xbib_id_nodes) == 1)
+		found_no = (len(xbib_no_nodes) == 1 
+					  and re.match(r'^[\[\]\.0-9 ]+$', str(xbib_no_nodes[0])))
+		
+		# récup id et numérotation
+		if found_id and found_no:
+			# lecture attributs XML
+			thisbib_id = xbib_id_nodes.pop()
+			thisbib_no_str = xbib_no_nodes.pop()
+			thisbib_no_int = int(re.sub("[^0-9]+","", thisbib_no_str))
+		
+		# récup id et astuce numérotation attendue en fin d'ID 
+		elif found_id and not found_no:
+			thisbib_id = xbib_id_nodes.pop()
+			
+			# on cherche le dernier nombre pour mettre dans xml_nos_map
+			# par ex: 1,2 ou 3 dans DDP278C1 DDP278C2 DDP278C3
+			postfix_num_match = re.search(r"[0-9]+$", thisbib_id)
+			
+			if postfix_num_match:
+				thisbib_no_str = postfix_num_match.group(0)
+				thisbib_no_int = postfix_num_match.group(0)
+			else:
+				# rien trouvé pour le no: on mettra None dans xml_nos_map
+				thisbib_no_str = None
+				thisbib_no_int = None
+		
+		# les 2 cas restants: trouvé no sans id OU trouvé aucun
+		else:
+			thisbib_id = None
+			thisbib_no_str = None
+			thisbib_no_int = None
+		
+		# stockage des labels/bibids trouvés
+		# -----------------------------------
+		xml_ids_map[j] = thisbib_id
+		xml_no_strs_map[j] = thisbib_no_str
+		xml_no_ints_map[j] = thisbib_no_int
+		
+
+	# check consecutivity
+	# (ce diagnostic pourrait aussi être fait dès la boucle) 
+	FLAG_STD_MAP = True # temporaire
+	for j, no in enumerate(xml_no_ints_map):
+		if (no is None) or (int(no) != j+1):
+			FLAG_STD_MAP = False
+	
+	
+	return (xml_ids_map, xml_no_strs_map, xml_no_ints_map, FLAG_STD_MAP)
+
 
 
 def check_align_seq_and_correct(array_of_xidx):
@@ -518,8 +591,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		just_label = False
 	
 	# - log -
-	if debug > 0:
-		print("\n"+"="*50, file=sys.stderr)
+	if debug >= 2 :
+		print("\nmatch_fields:"+"="*50, file=sys.stderr)
 		
 		# rappel input XML
 		if subtrees is not None:
@@ -529,6 +602,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 				xmlentry = rag_xtools.glance_xbib(subtree)
 				print("XML entry:", xmlentry
 				   + "\ncontenus texte xmlbib %i" % j, file=sys.stderr)
+				# affiche élément XML pretty
 				print(etree.tostring(subtree, pretty_print=True).decode("ascii")
 				   + ("-"*50), file=sys.stderr)
 		else:
@@ -553,7 +627,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	if just_label:
 		# ajout du label en 1er token
 		toklist = [XTokinfo(s=str(label),xip="label", req=False)]
-		#~ print ("je cherche %s" % label)
+		#~ print ("cherchons le label %s avec la toklist %s" % (label,toklist))
 	
 	# sinon tous les autres tokens:
 	else:
@@ -658,10 +732,10 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			if tok.req:
 				# problème
 				unrecognized = True
-				if debug >= 2:
-					print("WARN: no raw match for XToken '%s' (%s) aka re /%s/" %
-							 (tok.xtexts, tok.relpath, tok.re.pattern),
-							 file=sys.stderr)
+			if debug >= 2:
+				print("WARN: no raw match for XToken '%s' (%s) aka re /%s/ (required = %s)" %
+						 (tok.xtexts, tok.relpath, tok.re.pattern, tok.req),
+						 file=sys.stderr)
 			continue
 		
 		# si "beaucoup trop" de matchs => :(
@@ -746,12 +820,12 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	remainder = rag_xtools.str_escape(remainder)
 	
 	# SORTIE (str)
-	output = None
+	new_xml = None
 	
 	# si l'utilisateur ne veut que le masque 
 	# (aka remainder : tout sauf les matchs, sans post-traitements)
 	if args.mask:
-		output = remainder
+		new_xml = remainder
 	
 	# sinon cas normal
 	else:
@@ -761,11 +835,18 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		output = reintegrate_matches(mtched, remainder)
 		# ----------------------------------------------
 		
+		#~ print ("output:", output, file=sys.stderr)
+		
+		
 		# PUIS:
 		# post-traitements selon les cas de sortie voulue
 		# ----------------
-		# cas 1 : sélection de la partie auteurs seule
-		if args.model_type == "authornames":
+		# cas 1 : si mode label seul (quelquesoit le model_type courant)
+		if just_label:
+			new_xml = output
+		
+		# cas 2 : sélection de la partie auteurs seule
+		elif args.model_type == "authornames":
 			au_str = None
 			# cette version marche uniquement par regexp sur *names...
 			# £TODO utiliser plutôt les 2 niveaux de markup
@@ -780,6 +861,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 				au_str = "" # <= on n'a rien trouvé
 			else:
 				# selection du segment MAXIMAL contenant les noms
+				# £TODO éviter les chaînes intercalées trop longues ?
 				got = re.match(r"[^<>]*(<\w*name>.*</\w*name>)[^<>]", output)
 				
 				#~ version avec trailing punctuations
@@ -801,7 +883,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			# -------------------
 			new_xml = "<authors>"+au_str+"</authors>"   # ?TODO editors idem ?
 		
-		# cas 2 : bibfields (modèle grobid = "citations")
+		# cas 3 : bibfields (modèle grobid = "citations")
 		elif args.model_type == "bibfields":
 			
 			# correctif label  => TODO à part dans une matcheuse que pour label?
@@ -958,7 +1040,7 @@ class XTokinfo:
 	   #£ TODO cas particulier thèse ou rapport => <note type="report">
 	  'note/p' :                            '<note>',
 	  'monogr/idno' :                       '<idno>',
-	  'analytic/idno' :                     '<editor>',
+	  'analytic/idno' :                     '<idno>',
 	  'note/ref' :                          '<ptr type="web">',
 	  'ref' :                               '<ptr type="web">',
 	  
@@ -1255,6 +1337,8 @@ if (args.model_type in ["biblines", "bibfields"]
 	sys.exit(1)
 
 
+
+
 #    INPUT XML
 # ================
 print("LECTURE XML", file=sys.stderr)
@@ -1321,70 +1405,14 @@ if (nxb == 0):
 
 # préalable: passage en revue des XML ~> diagnostics IDs
 # ----------
-# initialisation IDs et NOs
-xml_ids_map = [None for j in range(nxb)]
-xml_no_strs_map = [None for j in range(nxb)]
-xml_no_ints_map = [None for j in range(nxb)]
-
-# remplissage selon xpaths @id et @n
-for j, xbib in enumerate(xbibs):
-	
-	# il devrait toujours y avoir un ID, mais en réalité parfois absent
-	xbib_id_nodes = xbib.xpath("@xml:id") ;
-	
-	# si présent, l'attribut "@n" reprend le label (devrait toujours être numérique ?)
-	xbib_no_nodes = xbib.xpath("@n") ;
-	
-	found_id = (len(xbib_id_nodes) == 1)
-	found_no = (len(xbib_no_nodes) == 1 
-				  and re.match(r'^[\[\]\.0-9 ]+$', str(xbib_no_nodes[0])))
-	
-	# récup id et numérotation
-	if found_id and found_no:
-		# lecture attributs XML
-		thisbib_id = xbib_id_nodes.pop()
-		thisbib_no_str = xbib_no_nodes.pop()
-		thisbib_no_int = int(re.sub("[^0-9]+","", thisbib_no_str))
-	
-	# récup id et astuce numérotation attendue en fin d'ID 
-	elif found_id and not found_no:
-		thisbib_id = xbib_id_nodes.pop()
-		
-		# on cherche le dernier nombre pour mettre dans xml_nos_map
-		# par ex: 1,2 ou 3 dans DDP278C1 DDP278C2 DDP278C3
-		postfix_num_match = re.search(r"[0-9]+$", thisbib_id)
-		
-		if postfix_num_match:
-			thisbib_no_str = postfix_num_match.group(0)
-			thisbib_no_int = postfix_num_match.group(0)
-		else:
-			# rien trouvé pour le no: on mettra None dans xml_nos_map
-			thisbib_no_str = None
-			thisbib_no_int = None
-	
-	# les 2 cas restants: trouvé no sans id OU trouvé aucun
-	else:
-		thisbib_id = None
-		thisbib_no_str = None
-		thisbib_no_int = None
-	
-	# stockage des labels/bibids trouvés
-	# -----------------------------------
-	xml_ids_map[j] = thisbib_id
-	xml_no_strs_map[j] = thisbib_no_str
-	xml_no_ints_map[j] = thisbib_no_int
-	
-
-# verif incrément normal a posteriori 
-# (ce diagnostic pourrait aussi être fait dès la boucle) 
-FLAG_STD_MAP = True # temporaire
-for j, no in enumerate(xml_no_ints_map):
-	if (no is None) or (int(no) != j+1):
-		FLAG_STD_MAP = False
-
+(xml_ids_map,         # ex: ['BIB1', 'BIB2', ...] 
+                      # ou: ['pscr214821bib1', 'pscr214821bib2', ...]
+ xml_no_strs_map,     # ex: ['1.', '2.', ...] ou ['[1]', '[2]', ...]
+ xml_no_ints_map,     # ex:  [1, 2, ...]
+ FLAG_STD_MAP         # ex:  True (si consécutifs)
+ ) = get_xlabels(xbibs)
 
 # écriture dans variable globale pour matcher les labels réels en sortie
-LABELS = []
 for item in xml_no_strs_map:
 	if item is None:
 		LABELS.append(None)
@@ -1404,7 +1432,7 @@ if args.debug >= 1:
 	else:
 		# todo préciser le type de lacune observée :
 		# (pas du tout de labels, ID avec plusieurs ints, ou gap dans la seq)
-		print("WARN: la numérotation XML:ID non incrémentale",
+		print("WARN: la numérotation XML:ID non incrémentale ou consécutive",
 				 file=sys.stderr)
 
 # // fin lecture xml bibs
@@ -1436,7 +1464,13 @@ elif args.pdfin:
 		print("LIB ERR: Echec pdftotxt: cmdcall: '%s'\n  ==> failed (file not found?)" % e.cmd, file=sys.stderr)
 		# print(e.output, file=sys.stderr)
 		sys.exit(1)
-	# got our pdf text!
+	
+	# we got our pdf text! -----------
+	
+	# remove form feed (page break marker)
+	pdftxt= re.sub(r'\f', '\n', pdftxt)
+	
+	# split in lines
 	rawlines = [line for line in pdftxt.split("\n")]
 
 else:
@@ -1551,7 +1585,10 @@ if args.model_type == "bibzone":
 	print (tail)
 	sys.exit(0)
 
+
+# pour tous les autres modes: [biblines, bibfields, authornames]
 else:
+	
 	# un match de chaque ref XML vers PDF (pour aligner)
 	# (commun au deux modes "refseg" et "cit")
 	# =======================================
@@ -1566,7 +1603,7 @@ else:
 					   xbibs, 
 					   debug=args.debug
 					   )
-
+	
 	# affiche résultat
 	print("Les champions: %s" % winners, file=sys.stderr)
 	# exemple liste winners
@@ -1586,18 +1623,20 @@ else:
 	# (quand on génère un corpus d'entraînement)
 	# voire correction si évident
 	(is_consec, new_winners) = check_align_seq_and_correct(winners)
-
+	
 	if new_winners != winners:
 		print("Ces champions corrigés: %s" % new_winners, file=sys.stderr)
 		winners = new_winners
-
+	
 	if not is_consec:
 		# désordre du résultat à l'étape 1
 		checklist[1] = False
-
+	
 	print("simple checklist so far:" , checklist[0:2], file=sys.stderr)
-
-
+	
+	
+	
+	
 	# -------====================---------------------------------
 	# boucle OUTPUT --mode refseg (objectif: alignements de bibs)
 	# -------====================---------------------------------
@@ -1624,8 +1663,8 @@ else:
 		# yalla !
 		print ("~" * 80, file=sys.stderr)
 		
-		# buffer for lines of the same xml elt
-		local_grouped_lines = []
+		# line buffer (when several lines of the same xml elt)
+		l_buff = []
 		
 		# txtin donc len(winners) = len(rawlines)
 		if len(winners) != len(rawlines):
@@ -1635,6 +1674,7 @@ else:
 		for i, this_line in enumerate(rawlines):
 			
 			# récup de l'indice XML correspondant à la ligne
+			# NB les indices sont 0-based et les labels souvent 1-based
 			j_win = winners[i]
 			
 			# lookahead de l'indice suivant
@@ -1643,62 +1683,106 @@ else:
 			else:
 				next_win = None
 			
+			accumulated_buff_size = len(l_buff)
+			if args.debug >= 3:
+				print("-x-x-x-x-BIBLINES-------------x-x-x-x-")
+				print("buffer accumulated size:", accumulated_buff_size, file=sys.stderr)
+				print("j_win:", j_win, "next_win:", next_win, file=sys.stderr)
+				print("label:", LABELS[j_win] if j_win is not None else "__no_label__")
+			
+			
+			
 			# cas aucune ligne matchée
 			if j_win is None:
-				# on ne peut rien reporter sur cette ligne
+				# on ne peut pas reporter "<bibl>...</bibl>" sur la ligne
 				# mais on la sort quand même (fidélité au flux txtin)
 				print(rag_xtools.str_escape(this_line)+"<lb/>")
-				#                           -------
-				#                           important!
+				#                  -------
+				#                 important!
+				
 			else:
+				# ------------------------------------------------------
+				# 2 tests, 4 possibilités
+				# -----------------------
+				#                accumulated_buffer==0   j_win==next_win
+				# 1 ligne seule       True                     False
+				# ligne initiale      True                     True
+				# ligne de contin.    False                    True
+				# ligne de finbib     False                    False
+				# ------------------------------------------------------
+				# actions:
+				# --------
+				# si   acc_buff == 0  => préfixer avec "<bibl>"
+				#                     => chercher label si xlabel
+				#
+				# si j_win==next_win  => accumuler >> buffer
+				# si j_win!=next_win  => "<lb/>".joindre +"<lb/></bibl>"
+				#                     => imprimer
+				#                     => vider buffer
+				# ------------------------------------------------------
 				# nouveau morceau
-				if len(local_grouped_lines) is 0:
+				if accumulated_buff_size == 0:
 					# tentative de report du label
 					xlabel = LABELS[j_win]
+					
 					if xlabel:
-						# TODO faire une fonction à part et reserver match_fields au cas citations ?
+						# TODO faire une fonction à part et reserver
+						# match_fields au cas citations ?
 						# -------------------8<-------------------------
-						# report du label sur chaîne de caractères réelle
-						(my_bibl_line, success) = match_fields(
+						# report label sur chaîne de caractères réelle
+						(this_line_wlabel, success) = match_fields(
 													this_line,
 													label = xlabel,
 													debug = args.debug,
 												   )
-						
-						# match_cit_field n'a pas été prévu pour multiligne: TODO à part ?
-						my_bibl_line = re.sub("</bibl>$","",my_bibl_line)
-						
 						# les labels sont souvents des attributs n=int mais
 						# dans le corpus d'entraînement on les balise avec leur ponct
 						# ex: [<label>1</label>]  ==> <label>[1]</label>
-						my_bibl_line = re.sub("\[<label>(.*?)</label>\]",
+						this_line_wlabel = re.sub("\[<label>(.*?)</label>\]",
 											   "<label>\[\1\]</label>",
-											   my_bibl_line)
+											   this_line_wlabel)
 						# -------------------8<-------------------------
+						
+						my_bibl_line = '<bibl>'+this_line_wlabel
 					else:
-						my_bibl_line = "<bibl>"+ rag_xtools.str_escape(my_bibl_line)
+						my_bibl_line = "<bibl>"+ rag_xtools.str_escape(this_line)
 					
-					# >> BUFFER, dans les 2 cas
-					local_grouped_lines.append(my_bibl_line)
-
+					# to be continued
+					if j_win == next_win:
+						# >> BUFFER
+						l_buff.append(my_bibl_line)
+					
+					# pas de morceau suivant (cas d'une ligne seule)
+					else:
+						my_bibl_line = my_bibl_line+'<lb/></bibl>'
+						print(my_bibl_line)
+				
 				# morceaux de suite
 				elif next_win == j_win:
-					# ligne sans balises
-					local_grouped_lines.append(rag_xtools.str_escape(this_line))
-				# morceau de fin >> SORTIE
+					# ligne sans balises et sans sa fin
+					# >> buffer
+					l_buff.append(rag_xtools.str_escape(this_line))
+				
+				# morceau de fin => fermeture tag + jonction => SORTIE
 				else:
-					local_grouped_lines.append(rag_xtools.str_escape(this_line)+'<lb/></bibl>')
-					#                                                ------
-					#                                               fin de la
-					#                                             dernière ligne
-					
 					# separateur saut de ligne pour les lignes internes
 					#  => sortie finale format ref-seg
 					#     -------------
-					print("<lb/>".join(local_grouped_lines))
+					print("<lb/>".join(l_buff) 
+					   +rag_xtools.str_escape(this_line)+'<lb/></bibl>')
+					#                            ------
+					#                           fin de la
+					#                         dernière ligne
 					
-					# empty buffer
-					local_grouped_lines = []
+					# vider le buffer
+					l_buff = []
+				
+				if args.debug >= 3:
+					print('buffer', l_buff, file=sys.stderr)
+		
+		if args.debug >= 3:
+			print("-x-x-x-x----------------------x-x-x-x-")
+		
 		
 		# diagnostic
 		diagno_refseg = args.xmlin+"\t"+str(int(checklist[0]))+"\t"+str(int(checklist[1]))
@@ -1717,7 +1801,9 @@ else:
 		print (tail)
 		
 		sys.exit(0)
-
+	
+	
+	
 	# -------------------------------------------------------------
 	#  mode 2: boucle plus simple pour la sortie refs (citations détaillées)
 	# -------------------------------------------------------------
@@ -2001,8 +2087,6 @@ else:
 		# lung II: Ultrastructural localization of collagen types III,
 		# IV, and VI. <forename>J</forename>
 		#             ^^^^^^^^^^^^^^^^^^^^^^
-		
-		
 		
 		# voilà fin mode 3
 		
