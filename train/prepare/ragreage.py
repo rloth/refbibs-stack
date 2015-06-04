@@ -77,8 +77,11 @@ import rag_procedures  # find_bib_zone, link_txtlines_with_xbibs
 # --------------------------------------------------------
 # my global vars
 
+# namespace
 NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
 
+# sert pour recombiner des tokens séparés: par ex " " ou ""
+BLANK = " "
 
 # pour la tokenisation des lignes via re.findall
 re_TOUS = re.compile(r'\w+|[^\w\s]')  # => limites: chaque \b et chaque cara isolé type ponct
@@ -373,6 +376,11 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 	"""
 	
 	toklist = []
+	
+	# pour se souvenir de la forme de la page de début si présente
+	# (utile pour calculer les formes possibles de la page de fin)
+	mem_fpp = None
+	
 	for xelt in xml_elements:
 		base_path = rag_xtools.simple_path(xelt, relative_to = "biblStruct")
 		
@@ -402,27 +410,50 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 				              xip="%s/@%s" % (base_path, 'when') )
 				toklist.append(tok)
 
-		# cas particuliers *pagination*: 
-		elif loc_name == 'biblScope' and xelt.get('unit') in ['page','pp']:
-			# soit un biblScope normal
-			if xelt.text:
-				tok = XTokinfo( s=xelt.text,
-				              xip='%s[@unit="pp"]' % base_path )
-				toklist.append(tok)
-			# soit 2 tokens dans les attributs
-			else:
-				tok1 = XTokinfo( s=xelt.get('from'),
-				               xip='%s[@unit="pp"]/@from' % base_path)
-				tok2 = XTokinfo( s=xelt.get('to'),
-				               xip='%s[@unit="pp"]/@to' % base_path )
-				toklist.append(tok1, tok2)
-
+		# cas particuliers *pagination* groupés
+		##     soit 2 tokens dans les attributs
+		elif loc_name == 'biblScope' and xelt.get('unit') in ['page','pp'] and "from" in xelt.attrib and "to" in xelt.attrib:
+			
+			fpp_str = xelt.get('from')
+			mem_fpp = fpp_str
+			tok1 = XTokinfo( s=fpp_str,
+			   xip='%s[@unit="pp"]' % base_path)
+			toklist.append(tok1)
+			
+			# dernière page : variantes ['1645', '45']
+			lpp_str = xelt.get('to')
+			all_alternatives = lpp_variants(lpp_str, context=fpp_str)
+			tok2 = XTokinfo(s= all_alternatives,
+			   xip='%s[@unit="pp"]' % base_path )
+			toklist.append(tok2)
+		
+		
+		# cas à memoize *pagination* page de début seule => variable
+		elif loc_name == 'biblScope' and xelt.get('unit') in ['page','pp'] and "from" in xelt.attrib:
+			# enregistrement
+			fpp_str = xelt.text if xelt.text else xelt.get('from')
+			mem_fpp = fpp_str
+			# tokenisation standard
+			tok = XTokinfo( s=fpp_str,
+			              xip='%s[@unit="pp"]' % base_path )
+			toklist.append(tok)
+			# print('----\nxelt2tok:fpp "%s" %s' % (fpp_str, base_path), file=sys.stderr)
+		
+		# cas particuliers *pagination* page finale seule =+> variantes
+		elif loc_name == 'biblScope' and xelt.get('unit') in ['page','pp'] and "to" in xelt.attrib:
+			lpp_str = xelt.text if xelt.text else xelt.get('to')
+			all_alternatives = lpp_variants(lpp_str, context=mem_fpp)
+			tok = XTokinfo(s=all_alternatives, xip='%s[@unit="pp"]' % base_path )
+			toklist.append(tok)
+			# print("====\nXELT2TOK:lpp '%s':%s"%(lpp_str,all_alternatives), file=sys.stderr)
+		
 		# tous les autres biblScope (vol, iss...) pour préserver leur @unit
 		elif loc_name == 'biblScope':
 			my_unit = xelt.get('unit')
 			tok = XTokinfo( s=xelt.text,
 			              xip='%s[@unit="%s"]' % (base_path, my_unit) )
 			toklist.append(tok)
+			# print('----\nxelt2tok:%s[@unit="%s"]' % (base_path, my_unit), file=sys.stderr)
 
 		# les title avec leur @level
 		# NB : xelt.text is not None devrait aller de soi et pourtant... pub2tei
@@ -439,9 +470,15 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 			# les noms/prénoms à prendre ensemble quand c'est possible...
 			#    pour cela on les traite non pas dans les enfants feuilles
 			#    mais le + haut possible ici à (analytic|monogr)/(author|editor)
-				# du coup l'arg s du token est différent: str[] et pas str
-				str_list = [s for s in xelt.itertext()]
-				nametok = XTokinfo( s=str_list,   # <----- ici liste
+				subelts_str_list = [s for s in xelt.itertext()]
+				all_orders_str_list = []
+				for substr_combi in permutations(subelts_str_list):
+					str_combi = BLANK.join(substr_combi)
+					all_orders_str_list.append(str_combi)
+				
+				# du coup XTokinfo passe en multimode préparé ici
+				# (ie l'arg s du token est différent: str[] et pas str)
+				nametok = XTokinfo( s=all_orders_str_list,   # <----- ici liste
 								  xip=base_path)
 				toklist.append(nametok)
 
@@ -461,10 +498,50 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 		else:
 			tok = XTokinfo(s=xelt.text, xip=base_path)
 			toklist.append(tok)
+			# print("====\nXELT2TOK:normal '%s'"%base_path, file=sys.stderr)
 	
 	
-	# XTokinfo array
+	# our XTokinfo array
 	return toklist
+
+
+def lpp_variants(lpp_str, context):
+	""" Construit une  chaîne variante "aphérèse"
+	    pour les éléments LAST PAGE.
+	    
+	    context: la 1ère page (pour faire le diff)
+	    
+	    ex: ['1245','245'] <= lpp_variants("1245", context="1120")
+	    ex: ['1245','45']  <= lpp_variants("1245", context="1200")
+	    
+	    Prévu pour alimenter en "multimode" un attribut s=str[] pour un XTokinfo.
+	"""
+	n_chars = len(lpp_str)
+	
+	# on a toujours au moins la chaîne complète dans les matchables
+	suffixes = [lpp_str]
+	
+	if context and (len(context) == n_chars):
+		# sous-chaine commune
+		k_common_chars = 0
+		for i in range(0,n_chars):
+			if lpp_str[i] == context[i]:
+				k_common_chars += 1
+		
+		if k_common_chars != 0:
+			# génération d'un seul suffixe de la bonne longueur
+			suffixes.append(lpp_str[k_common_chars : n_chars])
+	
+	# pas de contexte connu => on tente toutes les aphérèses possibles
+	else:
+		for i in range(1,n_chars):
+			#                       fin--        fin
+			suffixes.append(lpp_str[n_chars-i : n_chars])
+	
+	# print('--------(ctxt:%s, lpp:%s => suff:%s)--------'%(context,lpp_str,suffixes), file=sys.stderr)
+	
+	# valeurs à renvoyer [lpp_str, variante_calculée]
+	return suffixes
 
 
 def reintegrate_matches(match_array, remainder_str):
@@ -507,6 +584,7 @@ def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 	
 	# -a- préparation du substitut balisé en xml
 	#      £ pseudo_out == 'rendu'
+	# debg
 	pseudo_out = xtoken.tagout+rag_xtools.str_escape(matched_substr)+xtoken.endout
 	
 	# -b- enregistrement
@@ -710,20 +788,26 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			unrecognized = True
 			continue
 		
-		# 3) on matche -------------------------------------------
-		#  £TODO procéder par ordre inverse de longueur (mais \b)|
-		#  £TODO faire les tok.req=False en dernier              |
-		#  £TODO rendre impossible matchs dans les renvois  sinon la sortie peut contenir des horreurs comme: 
-		#         ..."immune responses</title>. ###<biblScope type="issue">5</biblScope>-tit### <date>1988</date>;"...
-		# print("RAW: {'%s'}" % remainder)                       |
-		mgroups = re.findall( tok.re,  remainder )    #          | <<== MATCH
-		n_matchs = len(mgroups)                          #       |
-		# print("===mgroups==>", mgroups, file=sys.stderr)  #    |
+		# print("RAW: {'%s'}" % remainder)
+		
+		# --------------------------------------------------------------
+		# 3) on matche ------------------------------------------------|
+		#  £TODO ?procéder par ordre inverse de longueur (mais \b)     |
+		# ------------------------------------------------------------ |
+		mtuples= re.findall( tok.re,  remainder )    #   <<== MATCH    |
+		#                                                              |
+		#  2 possibilités capture: en début ligne ou dans le milieu    |
+		#        mais alors pas à l'intérieur des renvois #(#..#)#     |
+		#   ==> tuples à 2 valeurs dont 1 vide == '' que l'on vire     |
+		mgroups= [st for tup in mtuples for st in tup if st != '']    #|
+		# print("===mgroups==>", mgroups, file=sys.stderr)            #|
+		# -------------------------------------------------------------|
+		n_matchs = len(mgroups)                                       #|
+		# --------------------------------------------------------------
 		
 		#debg
 		if debug >= 3:
 			print ("\t%i match" % n_matchs, "(req)" if tok.req else "", file=sys.stderr)
-		
 		
 		# 4) on traite le succès ou non du match -----------------  
 		
@@ -791,7 +875,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			if args.debug >= 1 :
 				# au passage stat comparaison facultative:
 				# chaines à erreurs OCR <=> chaines corrigées
-				if tok.combimode == False and le_match != tok.xtexts:
+				if tok.multimode == False and le_match != tok.xtexts:
 					if re.sub('-','',le_match) == re.sub('-','',tok.xtexts):
 						print("MATCH interpolé tiret:\n\tPDF:'%s'\n\tXML:'%s'" 
 								 % (le_match, tok.xtexts),
@@ -929,10 +1013,6 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 
 class XTokinfo:
 	"""Groups infos about a str token found in the source XML"""
-	
-	# sert pour recombiner des tokens séparés: par ex " " ou ""
-	BLANK = " "
-	
 	# pour matcher malgré des erreurs OCR
 	OCR_SIMILAR_CHARACTER = {
 	  '0' : ['0', 'O'],
@@ -950,7 +1030,7 @@ class XTokinfo:
 	  'è' : ['è', 'e', 'Q'],
 	  'f' : ['f', 't'],
 	  'h' : ['h', 'b'],
-	  'i' : ['i', ';'],
+	  'i' : ['i', ';', 'l'],
 	  'l' : ['1', 'l', 'i','I', ']', '/', 'Z'],
 	  'm' : ['m', 'rn', 'nn'],   # comment faire les règles inverses 2->1 :/ ?
 	  'n' : ['n', 'rt', 'll'],
@@ -1024,6 +1104,7 @@ class XTokinfo:
 	  'monogr/imprint/date/@when' :               '<date>',
 	  'monogr/title[@level="j"]' :                '<title level="j">',
 	  'monogr/title[@level="m"]' :                '<title level="m">',
+	  'monogr/imprint/title[@level=""]' :         '<title level="m">',  # wtf ?
 	  'monogr/imprint/biblScope[@unit="vol"]' :      '<biblScope type="vol">',
 	  'monogr/imprint/biblScope[@unit="issue"]':     '<biblScope type="issue">',
 	  'monogr/imprint/biblScope[@unit="part"]' :     '<biblScope type="chapter">',
@@ -1075,14 +1156,16 @@ class XTokinfo:
 		# 1 token = 1 str (<= usually text content of the xml elt)
 		if type(s) == str:
 			self.xtexts = s
-			self.combimode = False
+			self.multimode = False
 		
 		# -b- 
-		# 1 token = k strings together in any order
-		# initialisation combinée avec une liste str (ex: nom + prénom)
+		# 1 token = k strings as alternatives
+		# initialisation combinée avec une liste str DIY
+		# (ex: self.xtexts = ["124-128", "124-28", "124-8"])
+		# (ex: self.xtexts = ["NomBLANKPrénom", "PrénomBLANKNom"])
 		elif type(s) == list:
 			self.xtexts = s
-			self.combimode = True
+			self.multimode = True
 		
 		else:
 			raise TypeError(type(s), "str or str[] expected for newtok.s at %s" % self.relpath)
@@ -1099,7 +1182,7 @@ class XTokinfo:
 		#  si tiret autorisé encore + complexe:
 		#               ==> r'(?=^.{11,15}$)J(\W+)A[-¤]{0,2}p[-¤]{0,2}p[-¤]\ #
 		#                     {0,2}l(\W+)P[-¤]{0,2}h[-¤]{0,2}y[-¤]{0,2}s'
-		# => les chaînes "combimode" seront matchables dans les 2 ordres possibles
+		# => les chaînes "multimode" seront matchables dans les 2 ordres possibles
 		# ex: /nom\W*prénom/ et /prénom\W*nom/
 		self.re = self.tok_full_regexp()
 		
@@ -1257,34 +1340,44 @@ class XTokinfo:
 	# =================================================
 	# construction de l'expression régulière à partir
 	# de toutes sortes de strings seuls ou couplés
-	def tok_full_regexp(self):
+	def tok_full_regexp(self, case=False):
 		"""The precompiled regexp with alternatives and parentheses around"""
 		re_str=""
 		
 		# => cas normal : une seule chaîne dans self.xtexts
-		if not self.combimode:
+		if not self.multimode:
 			# récup d'une seule chaîne échappée
 			re_str = self.str_pre_regexp(self.xtexts)
 		
-		# => plusieurs chaînes matchables dans les 2 ordres possibles
-		# (quand les XML n'ont pas préservé l'ordre)
-		elif self.combimode:
+		# => plusieurs chaînes matchables à alimenter avec:
+		#   - permuts de 2 elts + BLANK (DIY) quand
+		#     les XML  n'ont pas préservé l'ordre
+		#   - listes de possibilité (à préparer avant)
+		#     quand variantes multiples
+		elif self.multimode:
 			alternatives = []
-			# ex: ['nom', 'prénom'] => /((?:nom\W*prénom)|(?:prénom\W*nom))/
-			for substr_combi in permutations(self.xtexts):
-				# jonction par un espace ou toute valeur de XTokinfo.BLANK
-				str_combi = XTokinfo.BLANK.join(substr_combi)
-				re_combi = self.str_pre_regexp(str_combi)
+			# ex: ['nom prénom', 'prénom nom'] => /((?:nom\W*prénom)|(?:prénom\W*nom))/
+			# ex: ['PP1-PP2', 'PP1-P2', 'PP1-2'] => /((?:PP1-PP2)|(?:PP1-P2)|(?:PP1-2))/
+			for single_text in self.xtexts:
+				# pre_regexp ajoute les interpolations
+				# INTERWORD et INTERCHAR pour ch. chaîne
+				re_single = self.str_pre_regexp(single_text)
 				
-				# non capturing
-				alternatives.append("(?:"+re_combi+")")
+				# capsule "non capturing"
+				alternatives.append("(?:"+re_single+")")
 			
 			# combi1 -OR- combi2... (using regex pipe)
 			re_str = "|".join(alternatives)
 		
 		# enfin ajout de balises de capture extérieures
-		# et compilation CASE INSENSITIve !
-		my_regexp_object = re.compile("("+re_str+")", re.IGNORECASE)
+		# et compilation (en case insensitive sauf exceptions)
+		# -----------------------------------------------------
+		#  2 possibilités capture: en début ligne ou dans le milieu
+		#        mais alors pas à l'intérieur des renvois #(#..#)#
+		if not case:
+			my_regexp_object = re.compile("(?:^("+re_str+"))|(?:(?<!#\(#)("+re_str+"))", re.IGNORECASE)
+		else:
+			my_regexp_object = re.compile("(?:^("+re_str+"))|(?:(?<!#\(#)("+re_str+"))")
 		return my_regexp_object
 	
 	
@@ -1416,6 +1509,8 @@ if (nxb == 0):
  ) = get_xlabels(xbibs)
 
 # écriture dans variable globale pour matcher les labels réels en sortie
+# £TODO : sauter les <bibl> et garder uniquement les biblStruct sinon 
+#         indices décalés => IndexError "list index out of range"
 for item in xml_no_strs_map:
 	if item is None:
 		LABELS.append(None)
@@ -1892,7 +1987,7 @@ else:
 				if group_of_real_lines is None:
 					if args.debug > 1:
 						print("===:no lines found for xbib %i (label %s)"
-								 % (j,xlabel))
+								 % (j,xlabel), file=sys.stderr)
 					
 					# incomplétude constatée du résultat à l'étape link_lines
 					checklist[1] = False
