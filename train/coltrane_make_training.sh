@@ -67,6 +67,8 @@ mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" generate-resources -P ${tgt} \
 
 # ça tourne...
 
+export LC_ALL=fr_FR.UTF-8
+
 # === === === === === === ===
 # 3 - RECUP MODELE ET LOG
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/model/$MODEL_type
@@ -84,7 +86,7 @@ esac
 mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
 mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
 mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-export LC_ALL=fr_FR.UTF-8
+
 
 # === === === === ===
 # 4 - envoi infos

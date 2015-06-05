@@ -17,14 +17,25 @@ export GB=$2           # ex:   "/home/loth/refbib/grobid"
 export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 #~ export GB_GIT_ID="30305f9"
 
-# (Corpus d'évaluation)
-export CORPUS_NAME="BI-10kELS-s1"
-export CORPUS_SHORTNAME="s1"
-export CORPUS_PATH=$5            # ex: /home/loth/refbib/corpus/bibistex/05_docs/s1/
-
 # (Où et qui)
 # structured backup for results
 export CoLTrAnE=$3               # ex: "/home/loth/refbib/analyses/coltrane"
+# (Paramètres de balisage)
+
+# dossier gold pour eval xml
+export EXF=${CORPUS_PATH}/B.1-xmls_flat/
+
+# dossier à baliser pdf
+export EPF=${CORPUS_PATH}/A.0-pdfs_flat/
+
+# -------------changing stuff
+# (Corpus d'évaluation)
+export CORPUS_NAME="BI-10kELS-s1"
+export CORPUS_SHORTNAME="s1"
+export CORPUS_PATH=$5            
+# ex: export CORPUS_PATH=/home/loth/refbib/corpus/bibistex/05_docs/s1
+
+
 export EVALID=${CORPUS_SHORTNAME}-${GB_NAME}_${MY_NEW_SAMP}
 
 # a new home
@@ -33,13 +44,7 @@ export OUTDIR="$NEWDIR/TEI-back_done"
 
 echo "$MY_NEW_SAMP / $MODEL_type [$GB] / outdir:$OUTDIR"
 
-# (Paramètres de balisage)
 
-# dossier gold pour eval xml
-export EXF=${CORPUS_PATH}/C-xmls_flat/
-
-# dossier à baliser pdf
-export EPF=${CORPUS_PATH}/A-pdfs_flat/
 
 # nombre de proc au balisage
 export NCPU=5
