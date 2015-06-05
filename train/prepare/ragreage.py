@@ -1470,19 +1470,20 @@ xbibs_plus = dom.xpath(
 			 namespaces=NSMAP
 			)
 
-nxb = len(xbibs_plus)
+# nombre de xbibs traitables
+nxb = len(xbibs)
 print ("N xbibs: %i" % nxb, file=sys.stderr)
 
 # pour logs
 # ---------
-nxb_traitables = len(xbibs)
-nxbof = nxb - nxb_traitables
+nxb_plus = len(xbibs_plus)
+nxbof = nxb_plus - nxb
 
 # £TODO: prise en compte <bibl> si mode in [bibzone,biblines] et exception critique sinon
 # si présence de <bibl>
 if (nxbof > 0):
 	print("WARN: %i entrées dont  %i <bibl> (non traitées)" %
-			 (nxb, nxbof),
+			 (nxb_plus, nxbof),
 			 file=sys.stderr )
 	
 	# incomplétude du résultat à l'étape 0
@@ -1973,13 +1974,15 @@ else:
 				try:
 					this_xbib = xbibs[j]
 				except IndexError as ie:
-					print("Bib %i absente dans xbibs pour '%s'" % 
+					print("Bib j=%i absente dans xbibs pour '%s'" % 
 								   ( j, 
 									 group_of_real_lines ),
 					file=sys.stderr)
 					# on donne un biblStruct vide
 					this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
 				
+				
+				# les indices sont ici les mêmes que ceux de xbibs
 				xlabel = LABELS[j]
 				
 				toks = []
