@@ -28,6 +28,9 @@ re_REF_HEADER_LINE = re.compile(r"R ?[Ee] ?[Ff] ?[Ee] ?[Rr] ?[Ee] ?[Nn] ?[Cc] ?[
 def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 	"""Trouver quelle biblStruct correspond le mieux à ch. ligne dans zone ?
 	   (~ reference-segmenter)
+	   
+	   TODO : longest span
+	   
 	"""
 	
 	m_xnodes = len(xmlbibnodes)
@@ -77,9 +80,6 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 		# print(pdf_w_tokens, file=sys.stderr)
 		
 		for j, xbib in enumerate(xmlbibnodes):
-			
-			if localname_of_tag(xbib.tag) == "bibl":
-				print("========================= >>>>>>>>> bibl pas struct <<<<<<<<< =========================", file=sys.stderr)
 			
 			# décompte de cooccurrences (pl.bow <=> xb.bow)
 			for ptok in pdf_w_tokens:
@@ -299,7 +299,7 @@ def link_txtlines_with_xbibs(pdfbibzone, xmlbibnodes, debug=0):
 
 # --------------------------------------------------------
 
-def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
+def find_bib_zone (xmlbibnodes, rawtxtlines, debug=3):
 	"""Trouve la zone de bibs dans du texte brut
 	       - en utilisant les infos de la bibl structurée XML 
 	         supposée dispo (ça aide beaucoup)
@@ -309,8 +309,6 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	# integers to be found (indices)
 	debut = None
 	fin = None
-	
-	debug=1
 	
 	# var remplie ssi vu l'expression /References:?/
 	# => simplifie la recherche du début !
@@ -325,6 +323,14 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 
 	# n = nombre de lignes
 	n_lines = len(rawtxtlines)
+	
+	# longueur moyenne des lignes sans coupure
+	# intéressante pour le grand span: s'il y a beaucoup de sauts de 
+	# lignes impromptus il devrait aller vers 4 sinon vers 2
+	sum_lens = sum([len(tline) for tline in rawtxtlines])
+	sum_avg = sum_lens / len(rawtxtlines)
+	
+	print("Longueur moyenne des lignes = %.03f" % sum_avg)
 	
 	# --------------
 	# xmlelts tokens
@@ -362,7 +368,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	# cf. ech/tei.xml/oup_Geophysical_Journal_International_-2010_v1-v183_gji121_3_gji121_3xml_121-3-789.xml
 	
 	if debug >= 2:
-		print (search_toks, "<== Those are the searched tokens", file=sys.stderr)
+		print ("BIBZONE:", search_toks, "<== Those are the searched tokens", file=sys.stderr)
 	
 	
 	# -------------
@@ -389,7 +395,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	re_doi = re.compile(r"\bdoi: ?10\.[\S]+")
 	
 	# re_init <=> intéressants seulement en début de ligne -> re.match
-	re_initlabel = re.compile(r"\[.{1,4}\]")
+	re_initlabel = re.compile(r"(?:\[.{1,4}\]|[0-9]{1,3}\. )")
 	re_initcapncap = re.compile(r"(?:\[.{1,4}\])\s*[A-Z].*?\b[A-Z]")
 	
 	# -------------------
@@ -444,7 +450,7 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 		# -------------------8<-----------------------
 		
 		# listing d'observation détaillée
-		if debug >= 2:
+		if debug >= 3:
 			print("-"*20+"\n"+"line n. "+str(i)+" : "+tline, file=sys.stderr)
 			print("found %i known text fragments from XML content" %  tl_match_occs[i], file=sys.stderr)
 			print("found %i typical bibl formats from helper toks" % pdc_match_occs[i] + "\n"+"-"*20, file=sys.stderr)
@@ -453,10 +459,10 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 	all_occs = [(tl_match_occs[i] + pdc_match_occs[i]) for i in range(n_lines)]
 	
 	# log: show arrays
-	if debug >= 3:
+	if debug >= 2:
 		print("tl_match_occs\n",tl_match_occs, file=sys.stderr)
 		print("pdc_match_occs\n",pdc_match_occs, file=sys.stderr)
-	if debug >= 2:
+	if debug >= 1:
 		print("all_match_occs\n",all_occs, file=sys.stderr)
 	
 		# type de résultat obtenu dans tl_match_occs (seq de totaux par ligne):
@@ -521,9 +527,17 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			# -----------------------------------------------------
 			# large sliding lookahead window over sums in all_occs
 			desired_chunk_span = int(3 * len(xmlbibnodes))+1
+			
 			# param 3.2 fixé après quelques essais sur pdftotxt qui contient
 			# pas mal de sauts de lignes intercalaires qui allongent la zone
 			# cf. dans doc/tables/test_pdf_bib_zone-pour_ragreage.ods
+			
+			
+			# TODO en fait il est proportionnel au nombre de lignes courtes
+			# (aka sauts de lignes impromptus) cad inversement proportionnel
+			# à la longueur de ligne moyenne
+			
+			# ex: 00052760_v876i1_0005276086903279 beaucoup de coupures
 			
 			# essais aussi avec param à 2 pour flux grobid createTrainingSegmentation
 			# qui sont plus compacts ?
@@ -566,8 +580,8 @@ def find_bib_zone (xmlbibnodes, rawtxtlines, debug=0):
 			# /!\ en cas d'ex aequo = premier max £?
 			debut = summs_by_chunk_from.index(max(summs_by_chunk_from)) - 1
 		
-		if debug >= 2:
-			print("max_chunk:", max_chunk, "\nfrom i:", debut, file=sys.stderr)
+			if debug >= 2:
+				print("max_chunk:", max_chunk, "\nfrom i:", debut, file=sys.stderr)
 		
 	# LA FIN
 	# ======

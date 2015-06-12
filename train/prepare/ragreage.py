@@ -49,7 +49,7 @@ __author__      = "R. Loth"
 __status__      = "Development"
 __version__     = "1.0"
 
-# TODO strip_tags pour tags trop fins groupés (authors et pp)
+# TODO bug sur la valeur des labels quand il y en a: crochets échappés ?
 
 # IMPORTS
 # =======
@@ -876,12 +876,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 				# au passage stat comparaison facultative:
 				# chaines à erreurs OCR <=> chaines corrigées
 				if tok.multimode == False and le_match != tok.xtexts:
-					if re.sub('-','',le_match) == re.sub('-','',tok.xtexts):
-						print("MATCH interpolé tiret:\n\tPDF:'%s'\n\tXML:'%s'" 
-								 % (le_match, tok.xtexts),
-							  file=sys.stderr)
-					elif re.sub('[- ]','',le_match) == re.sub('[- ]','',tok.xtexts):
-						print("MATCH interpolé espaces:\n\tPDF:'%s'\n\tXML:'%s'" 
+					if re.sub('[- ¤]','',le_match) == re.sub('[- ¤]','',tok.xtexts):
+						print("MATCH interpolé espaces, tirets et/ou sauts de lignes:\n\tPDF:'%s'\n\tXML:'%s'" 
 								 % (le_match, tok.xtexts),
 							  file=sys.stderr)
 					elif le_match.lower() == tok.xtexts.lower():
@@ -927,7 +923,12 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		# ----------------
 		# cas 1 : si mode label seul (quelquesoit le model_type courant)
 		if just_label:
-			new_xml = output
+			# les labels sont souvents des attributs n=int mais
+			# dans le corpus d'entraînement on les balise avec leur ponct
+			# ex: "[<label>1</label>]"  ==> "<label>[1]</label>"
+			new_xml = re.sub("\[<label>(.*?)</label>\]",
+						   "<label>\[\1\]</label>",
+						   output)
 		
 		# cas 2 : sélection de la partie auteurs seule
 		elif args.model_type == "authornames":
@@ -1002,6 +1003,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			# ajout tag extérieur
 			# -------------------
 			new_xml = "<bibl>"+output+"</bibl>"
+	
+	
 	
 	return(new_xml, not(unrecognized))
 	# autrement dit ==> (new_xml, success_bool)
@@ -1470,34 +1473,56 @@ xbibs_plus = dom.xpath(
 			 namespaces=NSMAP
 			)
 
-# nombre de xbibs traitables
+test_bibs = dom.xpath(
+			"//*[local-name()='bibl' or local-name()='biblStruct']",
+			 namespaces=NSMAP
+			)
+
+#~ xbibs_plus = test_bibs
+
+# nombre de xbibs traitables si bibfields ou names
 nxb = len(xbibs)
-print ("N xbibs: %i" % nxb, file=sys.stderr)
+
+# nombre de xbibs traitables si biblines ou bibzone
+nxb_plus = len(xbibs_plus)
 
 # pour logs
-# ---------
-nxb_plus = len(xbibs_plus)
 nxbof = nxb_plus - nxb
 
-# £TODO: prise en compte <bibl> si mode in [bibzone,biblines] et exception critique sinon
-# si présence de <bibl>
-if (nxbof > 0):
-	print("WARN: %i entrées dont  %i <bibl> (non traitées)" %
-			 (nxb_plus, nxbof),
-			 file=sys.stderr )
+# prise en compte <bibl>+<biblStruct> ou <biblStruct> ?
+if args.model_type in ["bibzone", "biblines"]:
+	print ("N xbibs: %i" % nxb_plus, file=sys.stderr)
+	# plus besoin de maintenir la différence entre les 2 ensembles
+	xbibs = xbibs_plus
+	nxb = nxb_plus
 	
-	# incomplétude du résultat à l'étape 0
-	checklist[0] = False
-	
-	
-	# TODO : traiter les <bibl> ssi sortie refseg 
-	# + les prendre en compte dans le décompte de enumerate(xbibs)
+	# exception critique si aucune bib
+	if (nxb == 0):
+		print("ERR: aucune xbib <bibl> ni <biblStruct> dans ce xml natif !",
+				 file=sys.stderr)
+		sys.exit(1)
 
-# exception si aucune <biblStruct>
-if (nxb == 0):
-	print("ERR: aucune xbib <biblStruct> dans ce xml natif !",
-			 file=sys.stderr)
-	sys.exit(1)
+else:
+	print ("N xbibs: %i" % nxb, file=sys.stderr)
+	
+	# si présence de <bibl>
+	if (nxbof > 0):
+		print("WARN: %i entrées dont  %i <bibl> (non traitées)" %
+				 (nxb_plus, nxbof),
+				 file=sys.stderr )
+		
+		# incomplétude du résultat à l'étape 0
+		checklist[0] = False
+		
+		
+		# TODO : traiter les <bibl> ssi sortie refseg 
+		# + les prendre en compte dans le décompte de enumerate(xbibs)
+
+	# exception critique si aucune <biblStruct>
+	if (nxb == 0):
+		print("ERR: aucune xbib <biblStruct> dans ce xml natif !",
+				 file=sys.stderr)
+		sys.exit(1)
 
 
 # préalable: passage en revue des XML ~> diagnostics IDs
@@ -1642,7 +1667,7 @@ if args.model_type == "bibzone":
 	print("---\nFIND PDF BIB ZONE", file=sys.stderr)
 	
 	(debut_zone, fin_zone) = rag_procedures.find_bib_zone(
-									 xbibs_plus,
+									 xbibs,
 									 rawlines,
 									 debug=args.debug
 							  )
@@ -1700,7 +1725,7 @@ else:
 	# (sequence over pdf content lines ids filled with matching xml ids)
 	winners = rag_procedures.link_txtlines_with_xbibs(
 					   rawlines[debut_zone:fin_zone+1], 
-					   xbibs, 
+					   xbibs,    # todo check si les bibl passent bien ? 
 					   debug=args.debug
 					   )
 	
@@ -1716,8 +1741,6 @@ else:
 	#             - or gaps in the list,
 	#             - or lines before 1st ref
 	#             - or lines after last ref
-
-	# TODO ici utilisation de xml_nos_map pour faire des tokens labels
 
 	# vérification si on ne doit garder que les documents qui matchent bien
 	# (quand on génère un corpus d'entraînement)
@@ -1769,6 +1792,10 @@ else:
 		# txtin donc len(winners) = len(rawlines)
 		if len(winners) != len(rawlines):
 			raise ValueError("wtf??")
+		
+		
+		# keep count of what we wrote
+		n_wbibl = 0
 		
 		# ne pas oublier de rajouter un marqueur fin de lignes après ch. rawlines
 		for i, this_line in enumerate(rawlines):
@@ -1833,19 +1860,13 @@ else:
 						(this_line_wlabel, success) = match_fields(
 													this_line,
 													label = xlabel,
-													debug = args.debug,
+													debug = args.debug -1,
 												   )
-						# les labels sont souvents des attributs n=int mais
-						# dans le corpus d'entraînement on les balise avec leur ponct
-						# ex: [<label>1</label>]  ==> <label>[1]</label>
-						this_line_wlabel = re.sub("\[<label>(.*?)</label>\]",
-											   "<label>\[\1\]</label>",
-											   this_line_wlabel)
 						# -------------------8<-------------------------
 						
 						my_bibl_line = '<bibl>'+this_line_wlabel
 					else:
-						my_bibl_line = "<bibl>"+ rag_xtools.str_escape(this_line)
+						my_bibl_line = '<bibl>'+ rag_xtools.str_escape(this_line)
 					
 					# to be continued
 					if j_win == next_win:
@@ -1856,6 +1877,8 @@ else:
 					else:
 						my_bibl_line = my_bibl_line+'<lb/></bibl>'
 						print(my_bibl_line)
+						n_wbibl += 1
+						
 				
 				# morceaux de suite
 				elif next_win == j_win:
@@ -1868,12 +1891,13 @@ else:
 					# separateur saut de ligne pour les lignes internes
 					#  => sortie finale format ref-seg
 					#     -------------
-					print("<lb/>".join(l_buff) 
-					   +rag_xtools.str_escape(this_line)+'<lb/></bibl>')
-					#                            ------
-					#                           fin de la
-					#                         dernière ligne
-					
+					preceding = '<lb/>'.join(l_buff)
+					current_l =  rag_xtools.str_escape(this_line)
+					print(preceding+'<lb/>'+current_l+'<lb/></bibl>')
+					#                ----             ------
+					#                               fin de la
+					#                             dernière ligne
+					n_wbibl += 1
 					# vider le buffer
 					l_buff = []
 				
@@ -1883,10 +1907,13 @@ else:
 		if args.debug >= 3:
 			print("-x-x-x-x----------------------x-x-x-x-")
 		
+		# post-diagnostic critique
+		if nxb < n_wbibl:
+			checklist[1] = False 
 		
 		# diagnostic
-		diagno_refseg = args.xmlin+"\t"+str(int(checklist[0]))+"\t"+str(int(checklist[1]))
-		print ("DIAGNOSTIC RAPIDE", diagno_refseg, file=sys.stderr)
+		diagno_refseg = str(int(checklist[0]))+str(int(checklist[1]))
+		print ("<!--diagno_biblines:"+ diagno_refseg +"-->")
 		
 		print ("~" * 80, file=sys.stderr)
 		print (diagno_refseg , file=CHECKS)
@@ -1899,6 +1926,7 @@ else:
 	</text>
 </tei>"""
 		print (tail)
+		
 		sys.exit(0)
 	
 	

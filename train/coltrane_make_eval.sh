@@ -20,13 +20,6 @@ export GB_GIT_ID=`git --git-dir=$GB/.git log --pretty=format:'%h' -n1`
 # (Où et qui)
 # structured backup for results
 export CoLTrAnE=$3               # ex: "/home/loth/refbib/analyses/coltrane"
-# (Paramètres de balisage)
-
-# dossier gold pour eval xml
-export EXF=${CORPUS_PATH}/B.1-xmls_flat/
-
-# dossier à baliser pdf
-export EPF=${CORPUS_PATH}/A.0-pdfs_flat/
 
 # -------------changing stuff
 # (Corpus d'évaluation)
@@ -35,6 +28,11 @@ export CORPUS_SHORTNAME="s1"
 export CORPUS_PATH=$5            
 # ex: export CORPUS_PATH=/home/loth/refbib/corpus/bibistex/05_docs/s1
 
+# dossier gold pour eval xml
+export EXF=${CORPUS_PATH}/B.1-xmls_flat/
+
+# dossier à baliser pdf
+export EPF=${CORPUS_PATH}/A.0-pdfs_flat/
 
 export EVALID=${CORPUS_SHORTNAME}-${GB_NAME}_${MY_NEW_SAMP}
 
