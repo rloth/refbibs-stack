@@ -50,8 +50,7 @@ tar -xzvf grobid.tgz -C $DIR_CIBLE --strip-components 1
 # Installation/Compilation
 # =========================
 # Création d'un .m2/settings.xml ad hoc
-cat > ~/.m2/settings.xml
-<settings>
+echo "<settings>
   <!-- mon proxy inist -->
   <proxies>
    <proxy>
@@ -83,7 +82,7 @@ cat > ~/.m2/settings.xml
     </profile>
   </profiles>
 </settings>
-
+" > ~/.m2/settings.xml
 
 # build
 # -------
