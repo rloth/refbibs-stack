@@ -9,7 +9,6 @@ __version__   = "0.1"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
-
 import sys
 import json
 import argparse
@@ -58,9 +57,18 @@ def prepare_arg_parser():
 	return parser
 
 
+def get(my_url):
+	"""Get remote url *that contains a json* and parse it"""
+	remote_file = urlopen(my_url)
+	result_str = remote_file.read().decode('UTF-8')
+	remote_file.close()
+	json_values = json.loads(result_str)
+	return json_values
+
+
 def api_search(q, config=my_config, limit=None):
 	"""
-	Get decoded json results of a lucene query on ISTEX api.
+	Get concatenated hits array from json results of a lucene query on ISTEX api.
 	
 	Keyword arguments:
 	   q       -- a lucene query
@@ -86,23 +94,41 @@ def api_search(q, config=my_config, limit=None):
 	# construction de l'URL:
 	# 'https://' + $HOST + $SEARCH_ROUTE 
 	#  + '?q=' + LUCENE_QUERY + '&output=' + OUT_FIELDS
+	base_url = 'https:' + '//' + config['api_host'] + config['search_route'] + '?' + 'q=' + safe_lucene_query + '&output=' + "fulltext,title"
 	
-	my_url = 'https:' + '//' + config['api_host'] + config['search_route'] + '?' + 'q=' + safe_lucene_query + '&output=' + "corpusName,pubdate,fulltext,title"
+	# requête initiale pour le décompte
+	count_url = base_url + '&size=1'
+	resp_values = get(count_url)
+	n_docs = int(resp_values['total'])
+	print('%s documents trouvés' % n_docs)
 	
-	if limit is not None and isinstance(limit, int):
-		my_url += '&size=%i' % limit
+	# limitation éventuelle fournie par le switch --maxi
+	if limit is not None:
+		n_docs = limit
+	
+	# la liste des résultats à renvoyer
+	all_hits = []
+	
+	# ensuite 2 cas de figure : 1 requête ou plusieurs
+	if n_docs <= 5000:
+		# requête simple
+		my_url = base_url + '&size=%i' % n_docs
+		resp_values = get(my_url)
+		all_hits = resp_values['hits']
+	
 	else:
-		my_url += '&size=%i' % 2000000
+		# requêtes paginées pour les tailles > 5000
+		print("Collecting result hits... ")
+		for k in range(0, n_docs, 5000):
+			print("%i..." % k)
+			my_url = base_url + '&size=5000' + "&from=%i" % k
+			resp_values = get(my_url)
+			all_hits += resp_values['hits']
+		
+		# si on avait une limite par ex 7500 et qu'on est allés jusqu'à 10000
+		all_hits = all_hits[0:n_docs]
 	
-	print ("URL:", my_url)
-	input ('ok? ')
-	
-	remote_file = urlopen(my_url)
-	result_str = remote_file.read().decode('UTF-8')
-	remote_file.close()
-	resp_values = json.loads(result_str)
-	
-	return(resp_values)
+	return(all_hits)
 
 
 def get_grobid_bibs(istex_id):
@@ -153,39 +179,34 @@ if __name__ == '__main__':
 	parser = prepare_arg_parser()
 	args = parser.parse_args(sys.argv[1:])
 	
-	
-	response = api_search(q=args.query, limit=args.maxi)
+	hits = api_search(q=args.query, limit=args.maxi)
 
-	n_docs = response['total']
-	n_got = len(response['hits'])
+	n_got = len(hits)
 	
 	# grande liste d'identifiants
 	ids_ok = []
 	ids_sans_pdf = []
 	
 	# on lit/vérifie les réponses et on les mets dans la liste
-	for hit in response['hits']:
+	for hit in hits:
 		mon_id = hit['id']
-		
 		has_pdf = False
 		# vérification s'il y a du PDF ?
 		for file_meta in hit['fulltext']:
 			if file_meta['extension'] == 'pdf':
 				has_pdf = True
 				break
-		
 		if has_pdf:
 			ids_ok.append(mon_id)
 		else:
 			ids_sans_pdf.append(mon_id)
 	
-	print('%s documents trouvés\n  dont %s retenus pour traitement\n  dont %s sans pdf\n ==> %s restant à traiter' % (n_docs, n_got, len(ids_sans_pdf), len(ids_ok)))
+	print('dont %s retenus pour traitement\n  dont %s sans pdf\n ==> %s restant à traiter' % (n_got, len(ids_sans_pdf), len(ids_ok)))
 	
 	utilisateur = input("ok pour lancer le traitement ? ")
 	
-	if utilisateur == 'q':
+	if utilisateur in ['N', 'n', 'q']:
 		exit()
 	else:
 		process_pool = Pool(my_config['ncpu'])
 		process_pool.map(get_grobid_bibs, ids_ok)
-
