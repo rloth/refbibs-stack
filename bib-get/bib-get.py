@@ -186,6 +186,6 @@ if __name__ == '__main__':
 	if utilisateur == 'q':
 		exit()
 	else:
-		with Pool(my_config['ncpu']) as process_pool:
-			process_pool.map(get_grobid_bibs, ids_ok)
+		process_pool = Pool(my_config['ncpu'])
+		process_pool.map(get_grobid_bibs, ids_ok)
 
