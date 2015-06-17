@@ -10,6 +10,7 @@ __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 import sys
+import re
 import json
 import argparse
 from urllib.parse import quote
@@ -157,6 +158,12 @@ def get_grobid_bibs(istex_id):
 		result = grobid_answer_content.read()
 		grobid_answer_content.close()
 		result_tei = result.decode('UTF-8')
+		
+		# on remplace l'entête
+		if len(result_tei):
+			result_tei = re.sub('<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" \n xmlns:mml="http://www.w3.org/1998/Math/MathML">', 
+			                    '<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="istex-%s">' % istex_id,
+			                    result_tei)
 		
 		# SORTIE > fichier tei individuel  ID.refbibs.tei.xml
 		out_file = open(my_config['dir']+'/'+istex_id+'.refbibs.tei.xml', 'w')
