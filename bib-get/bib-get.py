@@ -12,21 +12,24 @@ __status__    = "Dev"
 # TODO search with proxy transmettre params de conf => gro
 
 from sys             import argv, stderr
+from os              import path, makedirs
+from argparse        import ArgumentParser
+from configparser    import ConfigParser
+
 from re              import sub
 from json            import loads
-from argparse        import ArgumentParser
-from os              import path
-from configparser    import ConfigParser
+
 from urllib.parse    import quote
 from urllib.request  import urlopen
 from urllib.error    import HTTPError
+
 from multiprocessing import Pool
 
 def my_parse_args():
-	"""Preparation argument parser de l'input pour main"""
+	"""Preparation du hash des arguments ligne de commande pour main()"""
 	
 	parser = ArgumentParser(
-		description="Client for bibliographical annotator grobid-service",
+		description="An ISTEX client for grobid-service, the bibliographical annotator.",
 		usage="bib-get.py -q 'lucene query'",
 		epilog="- © 2014-15 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
 		)
@@ -48,9 +51,17 @@ def my_parse_args():
 	
 	parser.add_argument('-m','--maxi',
 		metavar='100',
-		help="a maximum limit of processed docs (if the query returned more hits, the remainder will be ignored",
+		help="a maximum limit of processed docs (if the query returned more hits, the remainder will be ignored)",
 		type=int,
-		default=None ,  # cf juste en dessous
+		default=None ,
+		action='store')
+	
+	parser.add_argument('-c','--config',
+		dest="config_path",
+		metavar='path/to/alternate_config.ini',
+		help="option to specify an alternate config file (default path is: <script_dir>/bib-get.ini)",
+		type=str,
+		default=None ,
 		action='store')
 	
 	args = parser.parse_args(argv[1:])
@@ -197,23 +208,34 @@ def get_grobid_bibs(istex_id):
 	
 
 
-
-
-########################################################################
 ########################################################################
 ########################################################################
 if __name__ == '__main__':
 	
-	# lecture de fichier config: ./bib-get.ini
-	CONF = ConfigParser()
-	script_dir = path.dirname(path.realpath(__file__))
-	conf_file = open(path.join(script_dir, 'bib-get.ini'), 'r')
-	CONF.read_file(conf_file)
-	
 	# arguments ligne de commande
 	args = my_parse_args()
 	
-	# grande liste d'identifiants
+	# lecture de fichier config
+	CONF = ConfigParser()
+	
+	# emplacement par défaut: ./bib-get.ini
+	if args.config_path is None:
+		script_dir = path.dirname(path.realpath(__file__))
+		conf_path = path.join(script_dir, 'bib-get.ini')
+	else:
+		# emplacement spécifié par l'utilisateur
+		conf_path = args.config_path
+	
+	conf_file = open(conf_path, 'r')
+	CONF.read_file(conf_file)
+	conf_file.close()
+	
+	# vérification de l'existence du dossier de sortie
+	if not path.isdir(CONF['output']['dir']):
+		print ("Please create the output dir '%s'." % CONF['output']['dir'], file=stderr)
+		exit(1)
+	
+	# liste de travail: grand tableau d'identifiants
 	ids_ok = []
 	
 	################################################
@@ -248,7 +270,9 @@ if __name__ == '__main__':
 		filehandle = open(args.list_in)
 		ids_ok = [line.rstrip() for line in filehandle]
 		filehandle.close()
+	#######
 	
+	# dans tous les cas : traitement de la liste ids_ok
 	print(' ==> %s documents à traiter' % len(ids_ok))
 	
 	utilisateur = input("ok pour lancer le traitement ? (y/n) ")
@@ -263,3 +287,4 @@ if __name__ == '__main__':
 		# =========================================
 		
 		process_pool.close()
+	
