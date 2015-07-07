@@ -9,36 +9,41 @@ __version__   = "0.1"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
-import sys
-import re
-import json
-import argparse
-from urllib.parse import quote
-from urllib.request import urlopen
-from urllib.error import HTTPError
+# TODO search with proxy transmettre params de conf => gro
+
+from sys             import argv, stderr
+from re              import sub
+from json            import loads
+from argparse        import ArgumentParser
+from os              import path
+from configparser    import ConfigParser
+from urllib.parse    import quote
+from urllib.request  import urlopen
+from urllib.error    import HTTPError
 from multiprocessing import Pool
 
-# temporairement: la config en dur
-my_config = dict()
-my_config['api_host']     = "api.istex.fr"
-my_config['search_route'] = "/document/"
-my_config['ncpu']   = 7
-my_config['dir']   = 'mes_sorties_bib_tei'
-
-
-def prepare_arg_parser():
+def my_parse_args():
 	"""Preparation argument parser de l'input pour main"""
-	parser = argparse.ArgumentParser(
+	
+	parser = ArgumentParser(
 		description="Client for bibliographical annotator grobid-service",
 		usage="bib-get.py -q 'lucene query'",
 		epilog="- © 2014-15 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
 		)
 	
-	parser.add_argument('-q','--query',
+	parser.add_argument('-q',
+		dest="query",
 		metavar='"hawking AND corpusName:nature AND pubdate:[1970 TO *]"',
-		help="a lucene query to pass to the api, for retrieval of all bibs of all hits",
+		help="normal input: a lucene query to pass to the api, for retrieval of all bibs of all hits",
 		type=str,
-		required=True,
+		required=False,
+		action='store')
+	
+	parser.add_argument('-l','--list_in',
+		metavar='ID_list.txt',
+		help="an alternative input: a list of IDs of the pdfs to be retrieved from api.istex.fr and processed",
+		type=str,
+		required=False,
 		action='store')
 	
 	parser.add_argument('-m','--maxi',
@@ -48,14 +53,15 @@ def prepare_arg_parser():
 		default=None ,  # cf juste en dessous
 		action='store')
 	
-	parser.add_argument('-d','--debug',
-		metavar=1,
-		type=int,
-		help='logging level for debug info in [0-3]',
-		default=0,
-		action='store')
+	args = parser.parse_args(argv[1:])
 	
-	return parser
+	# coherence checks:
+	#  we want a single input option
+	if (bool(args.query) + bool(args.list_in) != 1):
+		print ("Please provide a single input option : --query or --list_in", file=stderr)
+	
+	
+	return args
 
 
 def get(my_url):
@@ -63,23 +69,24 @@ def get(my_url):
 	remote_file = urlopen(my_url)
 	result_str = remote_file.read().decode('UTF-8')
 	remote_file.close()
-	json_values = json.loads(result_str)
+	json_values = loads(result_str)
 	return json_values
 
 
-def api_search(q, config=my_config, limit=None):
+def api_search(q, limit=None):
 	"""
 	Get concatenated hits array from json results of a lucene query on ISTEX api.
 	
 	Keyword arguments:
 	   q       -- a lucene query
 	              ex: "hawking AND corpusName:nature AND pubdate:[1970 TO *]"
-	   config  -- dict of config values as per 'bib-get.config' file (ini-like)
 	
-	the config dict should contain all 3 following values:
-	   config[api_host]      -- ex: "api.istex.fr"
-	   config[search_route]  -- ex: "/document/"
-	   config[out_fields]    -- ex: "corpusName,pubdate,fulltext,title"
+	Global var:
+	   CONF    -- dict of config sections/values as in './bib-get.ini'
+	
+	the config dict should contain at least the 2 following values:
+	   CONF['istex-api']['host']    -- ex: "api.istex.fr"
+	   CONF['istex-api']['route']   -- ex: "document"
 	
 	Output format is a parsed json with a total value and a hit list:
 	{ 'hits': [ { 'id': '21B88F4EFBA46DC85E863709CA9824DEED7B7BFC',
@@ -90,17 +97,16 @@ def api_search(q, config=my_config, limit=None):
 	  'total': 2}
 	"""
 	
-	safe_lucene_query = quote(q)
+	# préparation requête
+	url_encoded_lucene_query = quote(q)
 	
-	# construction de l'URL:
-	# 'https://' + $HOST + $SEARCH_ROUTE 
-	#  + '?q=' + LUCENE_QUERY + '&output=' + OUT_FIELDS
-	base_url = 'https:' + '//' + config['api_host'] + config['search_route'] + '?' + 'q=' + safe_lucene_query + '&output=' + "fulltext,title"
+	# construction de l'URL
+	base_url = 'https:' + '//' + CONF['istex-api']['host']  + '/' + CONF['istex-api']['route'] + '/' + '?' + 'q=' + url_encoded_lucene_query + '&output=' + "fulltext,title"
 	
 	# requête initiale pour le décompte
 	count_url = base_url + '&size=1'
-	resp_values = get(count_url)
-	n_docs = int(resp_values['total'])
+	json_values = get(count_url)
+	n_docs = int(json_values['total'])
 	print('%s documents trouvés' % n_docs)
 	
 	# limitation éventuelle fournie par le switch --maxi
@@ -114,8 +120,8 @@ def api_search(q, config=my_config, limit=None):
 	if n_docs <= 5000:
 		# requête simple
 		my_url = base_url + '&size=%i' % n_docs
-		resp_values = get(my_url)
-		all_hits = resp_values['hits']
+		json_values = get(my_url)
+		all_hits = json_values['hits']
 	
 	else:
 		# requêtes paginées pour les tailles > 5000
@@ -123,8 +129,8 @@ def api_search(q, config=my_config, limit=None):
 		for k in range(0, n_docs, 5000):
 			print("%i..." % k)
 			my_url = base_url + '&size=5000' + "&from=%i" % k
-			resp_values = get(my_url)
-			all_hits += resp_values['hits']
+			json_values = get(my_url)
+			all_hits += json_values['hits']
 		
 		# si on avait une limite par ex 7500 et qu'on est allés jusqu'à 10000
 		all_hits = all_hits[0:n_docs]
@@ -145,14 +151,28 @@ def get_grobid_bibs(istex_id):
 	Returns the TEI generated by grobid-service annotator
 	"""
 	
+	# ID => PDF URL sur l'api
+	the_pdf_url = "https://%s/%s/%s/fulltext/pdf" % (
+	          CONF['istex-api']['host'], 
+	          CONF['istex-api']['route'],
+	          istex_id
+	         )
 	
-	# construction requête grobid en GET
-	tei_url = "http://vp-istex-grobid.intra.inist.fr:8080/processReferencesViaUrl?pdf_url=https://api.istex.fr/document/%s/fulltext/pdf" % istex_id
+	# route pour interroger grobid
+	grobid_base = "http://%s:%s/%s" % (
+	          CONF['grobid-service']['host'], 
+	          CONF['grobid-service']['port'], 
+	          CONF['grobid-service']['route']
+	          )
+	
+	# requête à envoyer à grobid
+	get_tei_url = "%s?pdf_url=%s" % (grobid_base, the_pdf_url)
+	
 	
 	try:
-		# interrogation ========================
-		grobid_answer_content = urlopen(tei_url)
-		# ======================================
+		# interrogation ============================
+		grobid_answer_content = urlopen(get_tei_url)
+		# ==========================================
 		
 		# urlopen a renvoyé un objet file-like
 		result = grobid_answer_content.read()
@@ -161,18 +181,19 @@ def get_grobid_bibs(istex_id):
 		
 		# on remplace l'entête
 		if len(result_tei):
-			result_tei = re.sub('<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" \n xmlns:mml="http://www.w3.org/1998/Math/MathML">', 
+			result_tei = sub('<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" \n xmlns:mml="http://www.w3.org/1998/Math/MathML">', 
 			                    '<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="istex-%s">' % istex_id,
 			                    result_tei)
 		
 		# SORTIE > fichier tei individuel  ID.refbibs.tei.xml
-		out_file = open(my_config['dir']+'/'+istex_id+'.refbibs.tei.xml', 'w')
+		out_path = CONF['output']['dir']+'/'+istex_id+CONF['output']['tei_ext']
+		out_file = open(out_path, 'w')
 		out_file.write(result_tei)
 		out_file.close()
 		
 	except HTTPError as e:
 		print ("HTTP error %s on %s: skip" % (e.code, istex_id),
-		        file=sys.stderr)
+		        file=stderr)
 	
 
 
@@ -183,37 +204,62 @@ def get_grobid_bibs(istex_id):
 ########################################################################
 if __name__ == '__main__':
 	
-	parser = prepare_arg_parser()
-	args = parser.parse_args(sys.argv[1:])
+	# lecture de fichier config: ./bib-get.ini
+	CONF = ConfigParser()
+	script_dir = path.dirname(path.realpath(__file__))
+	conf_file = open(path.join(script_dir, 'bib-get.ini'), 'r')
+	CONF.read_file(conf_file)
 	
-	hits = api_search(q=args.query, limit=args.maxi)
-
-	n_got = len(hits)
+	# arguments ligne de commande
+	args = my_parse_args()
 	
 	# grande liste d'identifiants
 	ids_ok = []
-	ids_sans_pdf = []
 	
-	# on lit/vérifie les réponses et on les mets dans la liste
-	for hit in hits:
-		mon_id = hit['id']
-		has_pdf = False
-		# vérification s'il y a du PDF ?
-		for file_meta in hit['fulltext']:
-			if file_meta['extension'] == 'pdf':
-				has_pdf = True
-				break
-		if has_pdf:
-			ids_ok.append(mon_id)
-		else:
-			ids_sans_pdf.append(mon_id)
+	################################################
+	# Mode 1 : an ES query gets us the input IDs
+	if args.query:
+		hits = api_search(q=args.query, limit=args.maxi)
+
+		n_got = len(hits)
+		
+		ids_sans_pdf = []
+		
+		# on lit/vérifie les réponses et on les mets dans la liste
+		for hit in hits:
+			mon_id = hit['id']
+			has_pdf = False
+			# vérification s'il y a du PDF ?
+			for file_meta in hit['fulltext']:
+				if file_meta['extension'] == 'pdf':
+					has_pdf = True
+					break
+			if has_pdf:
+				ids_ok.append(mon_id)
+			else:
+				ids_sans_pdf.append(mon_id)
+		
+		print("%s hits retenus\n  dont %s sans pdf" % (n_got, len(ids_sans_pdf)))
 	
-	print('dont %s retenus pour traitement\n  dont %s sans pdf\n ==> %s restant à traiter' % (n_got, len(ids_sans_pdf), len(ids_ok)))
+	################################################
+	# Mode 2 : the IDs are provided on external list
+	#          (no checks)
+	elif args.list_in:
+		filehandle = open(args.list_in)
+		ids_ok = [line.rstrip() for line in filehandle]
+		filehandle.close()
 	
-	utilisateur = input("ok pour lancer le traitement ? ")
+	print(' ==> %s documents à traiter' % len(ids_ok))
+	
+	utilisateur = input("ok pour lancer le traitement ? (y/n) ")
 	
 	if utilisateur in ['N', 'n', 'q']:
 		exit()
 	else:
-		process_pool = Pool(my_config['ncpu'])
+		process_pool = Pool(int(CONF['process']['ncpu']))
+		
+		# = get_grobid_bibs() en parallèle ========
 		process_pool.map(get_grobid_bibs, ids_ok)
+		# =========================================
+		
+		process_pool.close()
