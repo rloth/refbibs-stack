@@ -58,8 +58,8 @@ def my_parse_args():
 	# coherence checks:
 	#  we want a single input option
 	if (bool(args.query) + bool(args.list_in) != 1):
-		print ("Please provide a single input option : --query or --list_in", file=stderr)
-	
+		print ("Please provide a single input option : -q 'a lucene query' OR -l an_ID_list.txt", file=stderr)
+		exit(1)
 	
 	return args
 
