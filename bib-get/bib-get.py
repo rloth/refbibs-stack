@@ -1,0 +1,290 @@
+#! /usr/bin/python3
+"""
+Client for bibliographical annotator grobid-service
+"""
+__author__    = "Romain Loth"
+__copyright__ = "Copyright 2015 INIST-CNRS (ISTEX project)"
+__license__   = "LGPL ? TODO vérifier"
+__version__   = "0.1"
+__email__     = "romain.loth@inist.fr"
+__status__    = "Dev"
+
+# TODO search with proxy transmettre params de conf => gro
+
+from sys             import argv, stderr
+from os              import path, makedirs
+from argparse        import ArgumentParser
+from configparser    import ConfigParser
+
+from re              import sub
+from json            import loads
+
+from urllib.parse    import quote
+from urllib.request  import urlopen
+from urllib.error    import HTTPError
+
+from multiprocessing import Pool
+
+def my_parse_args():
+	"""Preparation du hash des arguments ligne de commande pour main()"""
+	
+	parser = ArgumentParser(
+		description="An ISTEX client for grobid-service, the bibliographical annotator.",
+		usage="bib-get.py -q 'lucene query'",
+		epilog="- © 2014-15 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
+		)
+	
+	parser.add_argument('-q',
+		dest="query",
+		metavar='"hawking AND corpusName:nature AND pubdate:[1970 TO *]"',
+		help="normal input: a lucene query to pass to the api, for retrieval of all bibs of all hits",
+		type=str,
+		required=False,
+		action='store')
+	
+	parser.add_argument('-l','--list_in',
+		metavar='ID_list.txt',
+		help="an alternative input: a list of IDs of the pdfs to be retrieved from api.istex.fr and processed",
+		type=str,
+		required=False,
+		action='store')
+	
+	parser.add_argument('-m','--maxi',
+		metavar='100',
+		help="a maximum limit of processed docs (if the query returned more hits, the remainder will be ignored)",
+		type=int,
+		default=None ,
+		action='store')
+	
+	parser.add_argument('-c','--config',
+		dest="config_path",
+		metavar='path/to/alternate_config.ini',
+		help="option to specify an alternate config file (default path is: <script_dir>/bib-get.ini)",
+		type=str,
+		default=None ,
+		action='store')
+	
+	args = parser.parse_args(argv[1:])
+	
+	# coherence checks:
+	#  we want a single input option
+	if (bool(args.query) + bool(args.list_in) != 1):
+		print ("Please provide a single input option : -q 'a lucene query' OR -l an_ID_list.txt", file=stderr)
+		exit(1)
+	
+	return args
+
+
+def get(my_url):
+	"""Get remote url *that contains a json* and parse it"""
+	remote_file = urlopen(my_url)
+	result_str = remote_file.read().decode('UTF-8')
+	remote_file.close()
+	json_values = loads(result_str)
+	return json_values
+
+
+def api_search(q, limit=None):
+	"""
+	Get concatenated hits array from json results of a lucene query on ISTEX api.
+	
+	Keyword arguments:
+	   q       -- a lucene query
+	              ex: "hawking AND corpusName:nature AND pubdate:[1970 TO *]"
+	
+	Global var:
+	   CONF    -- dict of config sections/values as in './bib-get.ini'
+	
+	the config dict should contain at least the 2 following values:
+	   CONF['istex-api']['host']    -- ex: "api.istex.fr"
+	   CONF['istex-api']['route']   -- ex: "document"
+	
+	Output format is a parsed json with a total value and a hit list:
+	{ 'hits': [ { 'id': '21B88F4EFBA46DC85E863709CA9824DEED7B7BFC',
+				  'title': 'Recovering information borne by quanta that '
+						   'crossed the black hole event horizon'},
+				{ 'id': 'C095E6F0A43EBE3E98E2E6E17DD8775617636034',
+				  'title': 'Holographic insights and puzzles'}],
+	  'total': 2}
+	"""
+	
+	# préparation requête
+	url_encoded_lucene_query = quote(q)
+	
+	# construction de l'URL
+	base_url = 'https:' + '//' + CONF['istex-api']['host']  + '/' + CONF['istex-api']['route'] + '/' + '?' + 'q=' + url_encoded_lucene_query + '&output=' + "fulltext,title"
+	
+	# requête initiale pour le décompte
+	count_url = base_url + '&size=1'
+	json_values = get(count_url)
+	n_docs = int(json_values['total'])
+	print('%s documents trouvés' % n_docs)
+	
+	# limitation éventuelle fournie par le switch --maxi
+	if limit is not None:
+		n_docs = limit
+	
+	# la liste des résultats à renvoyer
+	all_hits = []
+	
+	# ensuite 2 cas de figure : 1 requête ou plusieurs
+	if n_docs <= 5000:
+		# requête simple
+		my_url = base_url + '&size=%i' % n_docs
+		json_values = get(my_url)
+		all_hits = json_values['hits']
+	
+	else:
+		# requêtes paginées pour les tailles > 5000
+		print("Collecting result hits... ")
+		for k in range(0, n_docs, 5000):
+			print("%i..." % k)
+			my_url = base_url + '&size=5000' + "&from=%i" % k
+			json_values = get(my_url)
+			all_hits += json_values['hits']
+		
+		# si on avait une limite par ex 7500 et qu'on est allés jusqu'à 10000
+		all_hits = all_hits[0:n_docs]
+	
+	return(all_hits)
+
+
+def get_grobid_bibs(istex_id):
+	"""
+	Calls grobid-service GET route /processReferencesViaUrl?pdf_url= allowing to process remote PDFs (eg from istex api)
+	
+	The pdfs urls always have the form:
+	https://api.istex.fr/document/<HERE_ISTEX_ID>/fulltext/pdf
+	
+	Unique non-kw argument:
+	   istex_id  -- ex:21B88F4EFBA46DC85E863709CA9824DEED7B7BFC
+	
+	Returns the TEI generated by grobid-service annotator
+	"""
+	
+	# ID => PDF URL sur l'api
+	the_pdf_url = "https://%s/%s/%s/fulltext/pdf" % (
+	          CONF['istex-api']['host'], 
+	          CONF['istex-api']['route'],
+	          istex_id
+	         )
+	
+	# route pour interroger grobid
+	grobid_base = "http://%s:%s/%s" % (
+	          CONF['grobid-service']['host'], 
+	          CONF['grobid-service']['port'], 
+	          CONF['grobid-service']['route']
+	          )
+	
+	# requête à envoyer à grobid
+	get_tei_url = "%s?pdf_url=%s" % (grobid_base, the_pdf_url)
+	
+	
+	try:
+		# interrogation ============================
+		grobid_answer_content = urlopen(get_tei_url)
+		# ==========================================
+		
+		# urlopen a renvoyé un objet file-like
+		result = grobid_answer_content.read()
+		grobid_answer_content.close()
+		result_tei = result.decode('UTF-8')
+		
+		# on remplace l'entête
+		if len(result_tei):
+			result_tei = sub('<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" \n xmlns:mml="http://www.w3.org/1998/Math/MathML">', 
+			                    '<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="istex-%s">' % istex_id,
+			                    result_tei)
+		
+		# SORTIE > fichier tei individuel  ID.refbibs.tei.xml
+		out_path = CONF['output']['dir']+'/'+istex_id+CONF['output']['tei_ext']
+		out_file = open(out_path, 'w')
+		out_file.write(result_tei)
+		out_file.close()
+		
+	except HTTPError as e:
+		print ("HTTP error %s on %s: skip" % (e.code, istex_id),
+		        file=stderr)
+	
+
+
+########################################################################
+########################################################################
+if __name__ == '__main__':
+	
+	# arguments ligne de commande
+	args = my_parse_args()
+	
+	# lecture de fichier config
+	CONF = ConfigParser()
+	
+	# emplacement par défaut: ./bib-get.ini
+	if args.config_path is None:
+		script_dir = path.dirname(path.realpath(__file__))
+		conf_path = path.join(script_dir, 'bib-get.ini')
+	else:
+		# emplacement spécifié par l'utilisateur
+		conf_path = args.config_path
+	
+	conf_file = open(conf_path, 'r')
+	CONF.read_file(conf_file)
+	conf_file.close()
+	
+	# vérification de l'existence du dossier de sortie
+	if not path.isdir(CONF['output']['dir']):
+		print ("Please create the output dir '%s'." % CONF['output']['dir'], file=stderr)
+		exit(1)
+	
+	# liste de travail: grand tableau d'identifiants
+	ids_ok = []
+	
+	################################################
+	# Mode 1 : an ES query gets us the input IDs
+	if args.query:
+		hits = api_search(q=args.query, limit=args.maxi)
+
+		n_got = len(hits)
+		
+		ids_sans_pdf = []
+		
+		# on lit/vérifie les réponses et on les mets dans la liste
+		for hit in hits:
+			mon_id = hit['id']
+			has_pdf = False
+			# vérification s'il y a du PDF ?
+			for file_meta in hit['fulltext']:
+				if file_meta['extension'] == 'pdf':
+					has_pdf = True
+					break
+			if has_pdf:
+				ids_ok.append(mon_id)
+			else:
+				ids_sans_pdf.append(mon_id)
+		
+		print("%s hits retenus\n  dont %s sans pdf" % (n_got, len(ids_sans_pdf)))
+	
+	################################################
+	# Mode 2 : the IDs are provided on external list
+	#          (no checks)
+	elif args.list_in:
+		filehandle = open(args.list_in)
+		ids_ok = [line.rstrip() for line in filehandle]
+		filehandle.close()
+	#######
+	
+	# dans tous les cas : traitement de la liste ids_ok
+	print(' ==> %s documents à traiter' % len(ids_ok))
+	
+	utilisateur = input("ok pour lancer le traitement ? (y/n) ")
+	
+	if utilisateur in ['N', 'n', 'q']:
+		exit()
+	else:
+		process_pool = Pool(int(CONF['process']['ncpu']))
+		
+		# = get_grobid_bibs() en parallèle ========
+		process_pool.map(get_grobid_bibs, ids_ok)
+		# =========================================
+		
+		process_pool.close()
+	
