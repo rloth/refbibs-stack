@@ -1,18 +1,18 @@
 BIB-GET.PY
 ==========
-**An ISTEX client for _grobid-service_, the bibliographical annotator.**  
+**An ISTEX client for *grobid-service*, the bibliographical annotator.**  
+
  1. Sends a query to the ISTEX-API  
  2. Retrieves a list of documents  
  3. Feeds each document to _grobid_ for pdftoxml preprocessing, bibzone identification, CRF tagging  
- 4. Returns one tei file per document, with all extracted bibliographies  
-
-© 2014-15 Inist-CNRS (ISTEX)  
+ 4. Returns one TEI XML file per document, with all extracted bibliographies  
 
 Usage
 ------
 **`bib-get.py -q 'any lucene query' [--maxi 100]`**  
-**`bib-get.py -l some_ID_list.txt`**
-
+**`bib-get.py -l some_ID_list.txt`**  
+  
+  
 ### Optional arguments
  - **`-h`** or **`--help`**  
    show a help message and exit
@@ -25,10 +25,12 @@ Usage
  - **`-c`** `path/to/alternate_config.ini` or **`--config`** `path/to/alternate_config.ini`    
    option to specify an alternate config file (default path is: `<script_dir>/bib-get.ini`)
 
+
 Config
 -------
 Here is an example of a configuration file **`bib-get.ini`**
-```
+
+```INI
 [istex-api]
 host=api.istex.fr
 route=document
@@ -43,18 +45,21 @@ tei_ext=.refbibs.tei.xml
 ncpu=7
 ```
 
+
 Install
 -------
-Install steps are as follows:
-  1. Prerequisites
+
+ 1. Prerequisites : 
     - a `python3` interpreter
     - a working `grobid-service` (see [the script from **bib-install-vp**](https://git.istex.fr/loth/refbibs_stack/blob/master/bib-install-vp/install_grobid.sh "install_grobid.sh"))
-  2. Get the current package
-    - `git clone https://git.istex.fr/git/loth/bib-get.git`
-  3. Run script!
-    - `python bib-get/bib-get.py -q "agile" -m 5`
+ 2. Get the current package : `git clone https://git.istex.fr/git/loth/bib-get.git`
+
+That should be it! You can run the script with `-m` for a small test: `python3 bib-get.py -q "agile" -m 5`
+
 
 Contacts
 ---------
-`romain.loth` at `inist.fr`   
-`istex` at `inist.fr`
+romain.loth at inist.fr  
+istex at inist.fr
+
+© 2014-15 Inist-CNRS (ISTEX)
