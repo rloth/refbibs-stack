@@ -58,7 +58,7 @@ echo "<settings>
       <protocol>http</protocol>
       <host>proxyout.inist.fr</host>
       <port>8080</port>
-      <nonProxyHosts>*.inist.fr</nonProxyHosts>
+      <nonProxyHosts>*.inist.fr|*.istex.fr</nonProxyHosts>
     </proxy>
   </proxies>
   
