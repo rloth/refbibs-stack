@@ -68,6 +68,7 @@ case $1 in
 		if [ $running == true ]
 			then
 			kill $GB_PID
+			rm -fr ~/grobid-service.pid
 			echo "Service grobid (PID $GB_PID) stoppé !"
 			exit 0
 		else
