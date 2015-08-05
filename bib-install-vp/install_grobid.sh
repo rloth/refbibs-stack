@@ -10,27 +10,45 @@
 # cf. http://grobid.readthedocs.org/en/latest/ #
 ################################################
 
-# Dépôt du fork istex de grobid
-export MON_DEPOT="https://github.com/rloth/grobid/archive/grobid-parent-0.3.4_istex-bib.tar.gz"
-export DIR_CIBLE="grobid-istex"
+# Dépôt où repose le tarball du "release istex" de grobid
+export MON_DEPOT="https://codeload.github.com/rloth/grobid/tar.gz/grobid-parent-0.3.4_istex-bib"
+export NOM_DIR="grobid-istex"
+export ICI=`pwd`
+export DIR_CIBLE=${ICI}/${NOM_DIR}
+
+echo "Grobid (version ISTEX) sera téléchargé et installé dans:"
+echo " --> $DIR_CIBLE"
+read -p "Est-ce que ça vous va ? (y/n) : " -n 1 -r
+echo
+if [[ ! $REPLY =~ ^[OoYy]$ ]]
+then
+    exit 1
+fi
 
 # Préalables
 # ==========
 # variables d'environnement INIST
 # --------------------------------
+# todo distinguer 2 cas proxy et GROBID_HOME
 if ! grep -q "istex-bib"  ~/.bashrc ;
   then echo '# section specifique pour istex-bib'                 >> ~/.bashrc ;
        echo 'export http_proxy="http://proxyout.inist.fr:8080"'   >> ~/.bashrc ;
        echo 'export https_proxy="https://proxyout.inist.fr:8080"' >> ~/.bashrc ;
-       echo "export GB=$DIR_CIBLE" >> ~/.bashrc ;
+       echo "export GROBID_HOME=$DIR_CIBLE" >> ~/.bashrc ;
        source ~/.bashrc
 fi
 
 # paquets maven
 # -------------
 # une jdk >= 7 et maven sont essentiels pour compiler grobid
-sudo apt-get install openjdk-7-jdk   # ou inist-oracle-jdk8 ?
-sudo apt-get install maven
+if ! dpkg -l | egrep -q "^ii +openjdk-.-jdk|^ii +inist-oracle-jdk." ;
+  then echo "mot de passe sudo pour installation JDK (CTRL+C pour skipper)" ;
+       sudo apt-get install openjdk-7-jdk   # ou inist-oracle-jdk8
+fi
+if ! dpkg -l | egrep -q "^ii +maven" ;
+  then echo "mot de passe sudo pour installation maven (CTRL+C pour skipper)" ;
+       sudo apt-get install maven
+fi
 
 # espace temporaire dédié dans la RAM
 # ------------------------------------
@@ -40,11 +58,13 @@ rm -fr /run/shm/mon_grobid_tmp/*
 # récupération de la version testée
 # ---------------------------------
 # tarball     ?? TODO rendre possible git clone ??
+echo "Téléchargement $MON_DEPOT"
 curl $MON_DEPOT > grobid.tgz
 
 # /!\ crée un dossier nommé "grobid-istex"
+echo "Extraction dans $DIR_CIBLE"
 mkdir -p $DIR_CIBLE
-tar -xzvf grobid.tgz -C $DIR_CIBLE --strip-components 1
+tar -xzf grobid.tgz -C $DIR_CIBLE --strip-components 1
 
 
 # Installation/Compilation
@@ -86,12 +106,13 @@ echo "<settings>
 
 # build
 # -------
+cd $DIR_CIBLE
 mvn -Dmaven.test.skip=true clean compile install
 
 # Lancement du service
 # =====================
-cd $DIR_CIBLE/grobid-service
+cd ${DIR_CIBLE}/grobid-service
 nohup mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war & echo $! > ~/grobid-service.pid &
-cd ~
-export GB_PID=`cat grobid-service.pid`
+cd $ICI
+export GB_PID=`cat ~/grobid-service.pid`
 echo "Service grobid lancé via Jetty sur PID $GB_PID"
