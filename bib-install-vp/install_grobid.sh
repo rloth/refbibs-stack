@@ -11,7 +11,7 @@
 ################################################
 
 # Dépôt du fork istex de grobid
-export MON_DEPOT="https://codeload.github.com/rloth/grobid/tar.gz/istex-bib-stable"
+export MON_DEPOT="https://github.com/rloth/grobid/archive/grobid-parent-0.3.4_istex-bib.tar.gz"
 export DIR_CIBLE="grobid-istex"
 
 # Préalables
