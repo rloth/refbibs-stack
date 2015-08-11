@@ -96,6 +96,8 @@ class Corpus:
 	 -self.cols
 	 -self.fileids
 	"""
+	home_dir = path.join(GCONF['workshop']['HOME'],GCONF['workshop']['CORPUS_HOME'])
+	
 	# TODO absolument une dir extraite de s1 sous la forme read_dir
 	def __init__(self, ko_name, new_infos=None, read_dir=False):
 		"""
@@ -120,6 +122,20 @@ class Corpus:
 			          ---------    ---------     ---------     ---------
 		"""
 		
+		if not path.exists(Corpus.home_dir):
+			user_reply = input(
+"""
+PAUSE: Vos paramètres de config ont le dossier '%s'
+comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
+
+  => Voulez-vous le créer maintenant ? (y/n) """ % Corpus.home_dir)
+			
+			if user_reply[0] in ['Y','y','O','o']:
+				mkdir(Corpus.home_dir)
+			else:
+				exit(1)
+		
+		
 		# VAR 1: >> name << almost free except should be usable in a fs
 		if type(ko_name) == str and match(r'^[\w-]+$', ko_name):
 			self.name = ko_name
@@ -127,11 +143,8 @@ class Corpus:
 			raise TypeError("new Corpus() needs a name str matching /^[0-9A-Za-z_-]+$/ as 1st arg")
 		
 		# VAR 2: **cdir** new dir for this corpus and subdirs ----------
-		conf = GCONF['workshop']
-		root_corpora_dir = path.join(conf['HOME'],conf['CORPUS_HOME'])
-
 		if not read_dir:
-			self.cdir = path.join(root_corpora_dir, ko_name)
+			self.cdir = path.join(Corpus.home_dir, ko_name)
 			mkdir(self.cdir)
 			mkdir(self.cdir+"/data")    # pour les documents
 			mkdir(self.cdir+"/meta")    # pour les tables etc.
@@ -143,9 +156,9 @@ class Corpus:
 				read_root='.'
 			
 			# check correct corpora dir
-			if not path.samefile(read_root, root_corpora_dir):
+			if not path.samefile(read_root, home_dir):
 				print("WARN: reading a corpus in dir '%s' instead of default '%s'"
-				      % (read_root, root_corpora_dir) )
+				      % (read_root, home_dir) )
 			
 			# check correct corpus dir name
 			if read_subdir != ko_name:
@@ -295,7 +308,7 @@ class Corpus:
 		ou dans un éventuel autre dossier dtd_prefix
 		"""
 		if not dtd_prefix:
-			our_root = GCONF['workshop']['HOME']
+			our_root = Corpus.home_dir
 			dtd_subdir = GCONF['workshop']['CORPUS_DTDS']
 			dtd_prefix = path.join(our_root,dtd_subdir)
 			
