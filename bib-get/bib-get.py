@@ -6,8 +6,8 @@ Client for bibliographical annotator grobid-service
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2015 INIST-CNRS (ISTEX project)"
-__license__   = "LGPL ? TODO vérifier"
-__version__   = "0.1"
+__license__   = "LGPL"
+__version__   = "0.2"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -22,7 +22,7 @@ from json            import loads, dumps
 
 from urllib.parse    import quote
 from urllib.request  import urlopen
-from urllib.error    import HTTPError
+from urllib.error    import HTTPError, URLError
 
 from multiprocessing import Pool
 
@@ -203,7 +203,7 @@ def api_search(q, limit=None):
 				else:
 					tempfile.write(dumps(hit)+"\n")
 	
-	# file now contains one json hit (id + fulltext infos) per line
+	# cache file now contains one json hit (id + fulltext infos) per line
 	tempfile.close()
 	
 	return(tempfile.name)
@@ -335,10 +335,25 @@ if __name__ == '__main__':
 	CONF.read_file(conf_file)
 	conf_file.close()
 	
+	# plus simple :
+	# CONF = ConfigParser()
+	# conf_file = open('bib-get.ini', 'r')
+	# CONF.read_file(conf_file)
+	# conf_file.close()
+	
 	# vérification de l'existence du dossier de sortie
 	if not path.isdir(CONF['output']['dir']):
 		print ("Please create the output dir '%s'." % CONF['output']['dir'], file=stderr)
 		exit(1)
+	
+	# vérification de la connectivité avec un service grobid
+	gbcf = CONF['grobid-service']
+	gburl = "http://%s:%s/%s" % (gbcf['host'],gbcf['port'])
+	
+	try:
+		urlopen(gburl)
+	except URLError as url_e:
+		print("No connection with grobid-service. Please check it is running on %s" % gburl)
 	
 	# liste de travail: grand tableau d'identifiants
 	# (taille RAM: ~ 1GB pour 10 millions de doc)
