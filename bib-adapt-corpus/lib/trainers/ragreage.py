@@ -1468,17 +1468,12 @@ xbibs = dom.findall(
 			"tei:text/tei:back//tei:listBibl/tei:biblStruct",
 			namespaces=NSMAP
 			)
+
+# toutes les bibls ou biblStruct
 xbibs_plus = dom.xpath(
 			"tei:text/tei:back//tei:listBibl/*[local-name()='bibl' or local-name()='biblStruct']",
 			 namespaces=NSMAP
 			)
-
-test_bibs = dom.xpath(
-			"//*[local-name()='bibl' or local-name()='biblStruct']",
-			 namespaces=NSMAP
-			)
-
-#~ xbibs_plus = test_bibs
 
 # nombre de xbibs traitables si bibfields ou names
 nxb = len(xbibs)
@@ -1504,6 +1499,8 @@ if args.model_type in ["bibzone", "biblines"]:
 
 else:
 	print ("N xbibs: %i" % nxb, file=sys.stderr)
+	
+	# £TODO ICI cas (bibfields ou authors) MAIS avec special bibl Nature|Wiley
 	
 	# si présence de <bibl>
 	if (nxbof > 0):
@@ -1721,6 +1718,8 @@ else:
 	# =======================================
 	print("---\nLINK PDF BIBS <=> XML BIBS", file=sys.stderr)
 
+
+
 	# get correspondance array
 	# (sequence over pdf content lines ids filled with matching xml ids)
 	winners = rag_procedures.link_txtlines_with_xbibs(
@@ -1852,6 +1851,10 @@ else:
 					# tentative de report du label
 					xlabel = LABELS[j_win]
 					
+					# ?TODO par ici :  possible de tester ce passage sur
+					# des bibl trainerlike (sans ragreage, juste transfo)
+					# en les comparant <note rend="LABEL"> <=> <label> => LABELS[j]
+					
 					if xlabel:
 						# TODO faire une fonction à part et reserver
 						# match_fields au cas citations ?
@@ -1967,7 +1970,8 @@ else:
 				else:
 					# on recolle les lignes successives d'une même bib
 					# separateur saut de ligne: '¤' ASCII 207
-					#  => format sortie citations: neutre dans les reports car matche /\W+/
+					#  conséquence sur format sortie dans les reports: 
+					#        => NEUTRE car matche /\W+/
 					rawlinegroups_by_xid[j_win] += "¤"+rawlines[debut_zone+i_prime]
 		
 		# log détaillé de cette étape
@@ -1993,6 +1997,8 @@ else:
 		
 		max_j = len(rawlinegroups_by_xid) - 1
 		
+		# itération simultanée sur les xbibs et les rawlines qui leur ont été associées
+		#             (index j => this_xbib)
 		for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
 				
 				# la dernière est parfois vide
@@ -2008,7 +2014,6 @@ else:
 					file=sys.stderr)
 					# on donne un biblStruct vide
 					this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
-				
 				
 				# les indices sont ici les mêmes que ceux de xbibs
 				xlabel = LABELS[j]
@@ -2134,6 +2139,9 @@ else:
 		
 		max_j = len(rawlinegroups_by_xid) - 1
 		
+		# comme au précédent mode...
+		# itération simultanée sur les xbibs et les rawlines qui leur ont été associées
+		#             (index j => this_xbib)
 		for j, group_of_real_lines in enumerate(rawlinegroups_by_xid):
 				
 				# la dernière est parfois vide
@@ -2164,8 +2172,6 @@ else:
 					continue
 				
 				else:
-					# £TODO ajouter editors ici ou à part
-					
 					au_groups = this_xbib.findall("tei:analytic/tei:author", namespaces={'tei': "http://www.tei-c.org/ns/1.0"})
 					
 					# debug
