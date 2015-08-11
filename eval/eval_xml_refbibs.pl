@@ -45,14 +45,6 @@ use Encode ;
 #~ my $debug = $opts->{d} || 0 ;
 my $debug = 0 ;
 
-# (option -f) Format des XML à évaluer en entrée
-# possibilités : 'tei-grobid' 'tei-bilbo" 'nlm'
-my $todo_format = "tei-grobid" ;
-
-# (option -g) Format des XML de référence en entrée
-# possibilités : 'nlm' 'elsevier'
-my $gold_format = "nlm" ;
-
 # (option --refdir) Dossier des données de référence, dites "gold"
 my $ref_dir = "/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/" ;
 
@@ -79,9 +71,6 @@ my $SUBSTR_INFO = 0 ;
 # booléen (global): activer la désaccentuation avant match des chaînes 
 my $UNACCENTS = 0 ;
 
-# booléen (global): activer $UNACCENTS et le prétraitement des namespaces elsevier gold à la v 0.5
-my $COMPAT = 0 ;
-
 # booléen activer compteur du défilement des docs en cours sur STDERR
 my $numcount = 0 ;
 
@@ -95,11 +84,11 @@ my $CC_PARTICULES = "a |abu |af |al |am |an |av |auf |ben |el |d'|da |dal |dall'
 
 # Fonctions de comparaison
 my @COMPARERS = (
-	#~ '\&compare_rmhyphen',
-	#~ '\&compare_joinhyphen',
-	#~ '\&compare_unligatures',
-	#~ '\&compare_normalise_punct',
-	#~ '\&compare_normalise_space',
+	'\&compare_rmhyphen',
+	'\&compare_joinhyphen',
+	'\&compare_unligatures',
+	'\&compare_normalise_punct',
+	'\&compare_normalise_space',
 	#~ '\&compare_joinaccent',
 	#~ '\&compare_unaccent',
 	'\&compare_simple_punctuation',
@@ -111,8 +100,6 @@ my @COMPARERS = (
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  GetOptions ("debug"        => \$debug,        # optional bool
 			 "extension:s"  => \$ext,          # optional str
-			 "format:s"     => \$todo_format,  # optional str
-			 "gformat:s"    => \$gold_format,  # optional str
 			 "xmldir=s"     => \$xml_dir,      # required str
 			 "refdir=s"     => \$ref_dir,      # str required unless ref_list
 			 "thereflist=s" => \$ref_list,     # str
@@ -120,14 +107,10 @@ my @COMPARERS = (
 			 "lookupdump"   => \$dump_lookup,  # optional bool
 			 "substrinfo"   => \$SUBSTR_INFO,  # optional bool
 			 "unaccents"    => \$UNACCENTS,    # optional bool (changes results slightly)
-			 "compat"       => \$COMPAT,       # optional bool (changes results slightly)
 			 "numcount"     => \$numcount,     # optional bool
 			 "help"         => \&HELP_MESSAGE,
 			 ) ;
 
-
-# --compat implique 2 choses: --unaccents et aussi les ns elseviers plus loin
-$UNACCENTS = 1 if ($COMPAT) ;
 
 ###############################################################
 #######                    MAIN                      ##########
@@ -141,7 +124,7 @@ warn "RELU_d : $M fichiers $ext dans le dossier à évaluer\n" ;
 
 my @gold_paths_list = () ;
 my $N = 0 ;
-my $gold_extension = ($gold_format eq "nlm") ? "nxml" : "xml" ;
+my $gold_extension = "xml" ;
 
 if ($ref_list) {
 	open (REFLIST, "< $ref_list") || die "impossible d'ouvrir le fichier $ref_list" ;
@@ -308,14 +291,7 @@ for my $path (sort (@xml_to_check_list)) {
 		chomp $tline ;
 		# use Encode ;
 		$tline = decode('UTF-8', $tline);
-		if ($todo_format eq 'nlm') {
-			# suppression du header non-xml de cermine
-			push(@todoxml, $tline) unless ($tline =~ /\[Element:/) ;
-		}
-		# aucune correction pour grobid
-		else {
-			push(@todoxml, $tline)
-		}
+		push(@todoxml, $tline)
 	}
 	close (TODO) ;
 
@@ -343,23 +319,9 @@ for my $path (sort (@xml_to_check_list)) {
 	## Récup liste @refbibs = <tododoc>//listBibl/biblStruct
 	my $todoroot = $tododoc->documentElement();
 	my $todoxng  = XML::LibXML::XPathContext->new($todoroot);
-	if ($todo_format =~ /^tei/) {
-		$todoxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
-	}
+	$todoxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
 
-	my @todobibs = () ;
-	if ($todo_format eq 'tei-grobid') {
-		@todobibs = $todoxng->findnodes('/tei:TEI//tei:back//tei:listBibl/tei:biblStruct') ;
-	}
-	elsif ($todo_format eq 'tei-bilbo') {
-		@todobibs = $todoxng->findnodes('//tei:listBibl/tei:bibl') ;
-	}
-	elsif ($todo_format eq 'nlm') {
-		@todobibs = $todoxng->findnodes('/article/back/ref-list/ref/*[contains(name(), "citation")]') ;
-	}
-	else {
-		die "Format inconnu '$todo_format'\n" ;
-	}
+	my @todobibs = $todoxng->findnodes('/tei:TEI/tei:text/tei:back//tei:listBibl/tei:biblStruct') ;
 
 	my $nb_todobibs = scalar(@todobibs) ;
 	warn "TODO : $nb_todobibs réfbibs\n" if $debug ;
@@ -382,60 +344,6 @@ for my $path (sort (@xml_to_check_list)) {
 		chomp $gline ;
 		# use Encode ;
 		$gline = decode('UTF-8', $gline);
-		if($gold_format =~ /^els/) {
-			# ajout des namespaces à la volée pour elsevier
-			
-			# default: new namespace correction
-			if (not $COMPAT) {
-				my $els_ns_decl = 'xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"' ;
-
-				# corrections des namespaces à la volée pour elsevier
-				# (peu importe que le fichier les aie déjà, les aie partiellement ou ne les aie pas :
-				#  on enlève tout ce qu'il y a et on remet la liste complète)
-				$gline =~ s!xmlns:[a-z]+=["'][^"']+["']!!g ;
-				$gline =~ s!<converted-article +!<converted-article $els_ns_decl ! ;
-				$gline =~ s!<article +!<article $els_ns_decl ! ;
-				$gline =~ s!<simple-article +!<simple-article $els_ns_decl ! ;
-				$gline =~ s!<book-review +!<book-review $els_ns_decl ! ;
-			}
-			
-			# --compat switch: old-style elsevier namespace correction if count coherence needed with counts from pre-0.6 version
-			else {
-				if ($gline !~ /xmlns/) {
-					$gline =~ s!<converted-article!<converted-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-					$gline =~ s!<article!<article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-					$gline =~ s!<simple-article!<simple-article xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd"
-					xmlns:xlink="http://www.w3.org/1999/xlink"! ;
-				}
-				elsif ($gline =~ m!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!) {
-					$gline =~ s!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" docsubtype="fla">!<article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xml:lang="en" docsubtype="fla">! ;
-				}
-			}
-			
-			
-			# décodage des entités
-			# 1/3 on garde pour plus tard les importants faisant partie des balises
-			$gline =~ s/</_=_monlt_=_/g ;
-			$gline =~ s/>/_=_mongt_=_/g ;
-			$gline =~ s/'/_=_monsq_=_/g ;
-			$gline =~ s/"/_=_mondq_=_/g ;
-
-			# 2/3 décoder tous les autres...
-			# use HTML::HTML5::Entities ;
-			$gline = decode_entities($gline);
-			# ...sauf les unsafe qu'il aurait créés (ne faisant donc pas partie des balises)
-			$gline = encode_entities($gline, '<>&');
-
-			# 3/3 retour des importants faisant partie des balises
-			$gline =~ s/_=_monlt_=_/</g ;
-			$gline =~ s/_=_mongt_=_/>/g ;
-			$gline =~ s/_=_monsq_=_/'/g ;
-			$gline =~ s/_=_mondq_=_/"/g ;
-
-			$gline = encode('UTF-8', $gline) ;
-		}
 		push(@goldxml, $gline) ;
 	}
 	close (GOLD) ;
@@ -449,70 +357,38 @@ for my $path (sort (@xml_to_check_list)) {
 		$matchable_docs -- unless ($got_txerr) ;
 		warn "  XMLERR: doc de référence $checkname ($goldpath)\n" ;
 		warn (errlog($@,$goldpath)) ;
-
-
-		# affinée pour diagnostic entêtes elsevier
-		warn $@."\n" ;
-		my $ficlen = scalar(@goldxml) ;
-		my @entete = () ;
-		warn "          ==== entête du fichier ====\n" ;
-		warn "longueur fic XML = $ficlen lignes\n" ;
-		if ($ficlen == 1) {
-			my $entete = substr($goldxml[0],0, 400) ;
-			$entete =~ s/</\n</g ;
-			@entete = split(/\n/,$entete) ;
-		} else {
-			my $max = ($ficlen > 11) ? 10 : $ficlen ;
-			@entete = @goldxml[0 .. $max] ;
-		}
-		for my $l (@entete) {
-			warn "          ".$l."\n" ;
-		}
-		warn "          ===========================\n" ;
 		
 		# il n'ajoutera plus rien aux décomptes et le todobib à déjà été compté
 		warn "GOLD : 0 réfbibs erreur parsing\n" if $debug ;
 		next()
 	}
-	my $goldroot = $golddoc->documentElement();
-	my $goldxng  = XML::LibXML::XPathContext->new($goldroot);
 
 	### récup liste des nodes
 	# # ---------------------
 	my @goldbibs = () ;
+	
+	## Récup liste @refbibs = <tododoc>//listBibl/biblStruct
+	my $goldroot = $golddoc->documentElement();
+	my $goldxng  = XML::LibXML::XPathContext->new($goldroot);
+	$goldxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
+	
+	eval {@goldbibs = $goldxng->findnodes('/tei:TEI/tei:text/tei:back//tei:listBibl/tei:biblStruct') ; } ;
+	
+	# gestion d'erreurs (on saute le doc si erreur xpath)
+	if ($@) {
+		$errs ++ ;
+		warn "  XP_ERR: XPATH sur doc gold no $doc_j ($path)\n" ;
+		warn (errlog($@,$path)) ;
 
-	if ($gold_format eq 'nlm') {
-		# Les biblios nxml ont 3 noms variés (cf. $nxml_tag):
-		#    - ref-list/ref/element-citation
-		#    - ref-list/ref/mixed-citation
-		#    - ref-list/ref/citation
-		@goldbibs = $goldxng->findnodes('/article/back/ref-list/ref/*[contains(name(), "citation")]') ;
+		# il n'ajoutera plus rien aux décomptes et le todobib à déjà été compté
+		warn "GOLD : 0 réfbibs erreur xpath\n" if $debug ;
+		next() ;
 	}
-	elsif ($gold_format =~ /^els/) {
-		$goldxng->registerNs('sb', "http://www.elsevier.com/xml/common/struct-bib/dtd") ;
-		#~ @goldbibs = $goldxng->findnodes('/converted-article/tail/ce:bibliography/ce:bibliography-sec/ce:bib-reference/sb:reference') ;
-
-		eval { @goldbibs = $goldxng->findnodes('//sb:reference') ; } ;
-
-		# gestion d'erreurs (on saute le doc si erreur xpath)
-		if ($@) {
-			$errs ++ ;
-			warn "  XP_ERR: XPATH ELS sur doc gold no $doc_j ($path)\n" ;
-			warn (errlog($@,$path)) ;
-
-			# il n'ajoutera plus rien aux décomptes et le todobib à déjà été compté
-			warn "GOLD : 0 réfbibs erreur xpath\n" if $debug ;
-			next()
-		}
-
-	}
-	else { die "format '$gold_format' non reconnu !" ; }
 
 	my $nb_goldbibs = scalar(@goldbibs) ;
 	warn "GOLD : $nb_goldbibs réfbibs\n" if $debug ;
 	$K += $nb_goldbibs ;
 	$matchable_K += $nb_goldbibs unless ($got_txerr) ;
-
 
 	# ------------------------------------------------------------------
 	# 1C) appariement todobibs <=> goldbibs
@@ -572,172 +448,68 @@ for my $path (sort (@xml_to_check_list)) {
 	for my $todobib (@todobibs) {
 		$todobib_l++ ;
 		next if ($todobib_l == 0) ;   # on a un cycle vide car [1..[
-
+		
+		# récup des champs et ajout de l'ID de la bib
+		#~ my $info = retrieve_bibfields($todobib) ;
+		
+		#~ $info->{"_tb_id"} = $docnostr.sprintf("-tb%03d", $todobib_l),
+				
+		# enregistrement local (pour la durée du doc ou plus si bruit)
+		#~ $todobibs_data[$todobib_l] = $info ;
+		# ------------------------8<-----------------------------------------------------------------------
 		my $tbxng  = XML::LibXML::XPathContext->new($todobib);
-		$tbxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") if ($todo_format =~ /^tei/) ;
+		$tbxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
+		my $has_analytic = $tbxng->exists('tei:analytic') ;
 
-		# TODO utiliser $has_analytic pour les choix titre, names
-		if ($todo_format eq 'tei-grobid') {
-			my $has_analytic = $tbxng->exists('tei:analytic') ;
+		# RECUP du titre à évaluer
+		my $todotitl = $tbxng->findvalue('.//tei:title[@level="a"]')
+					|| $tbxng->findvalue('.//tei:title[@level="c"]')
+					|| $tbxng->findvalue('.//tei:title[@level="m"]')
+					|| undef ;
 
-			# RECUP du titre à évaluer
-			my $todotitl = $tbxng->findvalue('tei:analytic/tei:title[@level="a"]')
-						|| $tbxng->findvalue('tei:monogr/tei:title[@level="m"]')
-						|| undef ;
+		# date à évaluer
+		# TODO prendre un 5ème charactère ssi c'est une lettre [a-e]
+		my $tododate = substr($tbxng->findvalue('tei:monogr/tei:imprint/tei:date/@when'),0,4) || undef ;
 
-			# date à évaluer
-			# TODO prendre un 5ème charactère ssi c'est une lettre [a-e]
-			my $tododate = substr($tbxng->findvalue('tei:monogr/tei:imprint/tei:date/@when'),0,4) || undef ;
-
-			# noms d'auteurs
-			my @todonames_nodes = $tbxng->findnodes('./tei:analytic/tei:author/tei:persName/tei:surname') ;
-			
-			# si structure monographique seule
-			if (not scalar(@todonames_nodes)) {
-				@todonames_nodes = $tbxng->findnodes('./tei:monogr/tei:author/tei:persName/tei:surname') ;
-			}
-
-			my @todonames = map {$_->to_literal()} @todonames_nodes ;
-			
-			# warn Dumper \@todonames ;
-
-			my $todopublisher = $tbxng->findvalue('tei:monogr/tei:imprint/tei:publisher') || undef ;
-
-			my ($todojournal, $todovolume, $todoissue, $todofpage, $todolpage) ;
-			if ($has_analytic) {
-				# ne marche que pour les refbib analytiques (articles de journaux etc)
-				$todojournal   = $tbxng->findvalue('tei:monogr/tei:title[@level="j"]') || undef ;
-				$todovolume    = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="volume"]') || undef ;
-				$todoissue     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="issue"]') || undef ;
-				$todofpage     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@from') || undef ;
-				$todolpage     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@to') || undef ;
-			}
-
-			# enregistrement local (pour la durée du doc, ou plus si bruit)
-			$todobibs_data[$todobib_l] = { "tit"   => $todotitl,
-										"date"  => $tododate,
-										"names" => \@todonames,
-										"j"     => $todojournal,
-										"vol"   => $todovolume,
-										"iss"   => $todoissue,
-										"fpg"   => $todofpage,
-										"lpg"   => $todolpage,
-										"psher" => $todopublisher,
-										"_tb_id"   => $docnostr.sprintf("-tb%03d", $todobib_l),
-										# spécifique aux todobibs
-										"_has_analytic"  => $has_analytic ? "avec_analytique":"monogr_seul",
-										} ;
+		# noms d'auteurs
+		my @todonames_nodes = $tbxng->findnodes('./tei:analytic/tei:author//tei:surname') ;
+		
+		# si structure monographique seule
+		if (not scalar(@todonames_nodes)) {
+			@todonames_nodes = $tbxng->findnodes('./tei:monogr/tei:author//tei:surname') ;
 		}
-		elsif ($todo_format eq 'tei-bilbo') {
-			# RECUP du titre à évaluer
-			my $todotitl = $tbxng->findvalue('.//tei:title[@level="a"]')
-						|| $tbxng->findvalue('.//tei:title[@level="m"]')
-						|| undef ;
 
-			# date à évaluer
-			# TODO prendre un 5ème charactère ssi c'est une lettre [a-e]
-			my $tododate = substr($tbxng->findvalue('.//tei:date'),0,4) || undef ;
+		my @todonames = map {$_->to_literal()} @todonames_nodes ;
+		
+		# warn Dumper \@todonames ;
 
-			# noms d'auteurs
-			my @todonames_nodes = $tbxng->findnodes('.//tei:surname') ;
+		my $todopublisher = $tbxng->findvalue('.//tei:publisher') || undef ;
 
-			my @todonames = map {$_->to_literal()} @todonames_nodes ;
-
-			my $todopublisher = $tbxng->findvalue('.//tei:publisher') || undef ;
-
-			# ne marche que pour les refbib analytiques (articles de journaux etc) mais
-			# elles ne sont pas mises à part par bilbo !
-			my $todojournal   = $tbxng->findvalue('.//tei:title[@level="j"]') || undef ;
-
-			# dans la sortie bilbo, parfois l'attribut s'appelle 'unit', parfois 'type'
-			my $todovolume    = $tbxng->findvalue('.//tei:biblScope[@unit="volume"]')
-								|| $tbxng->findvalue('.//tei:biblScope[@unit="volume"]')
-								|| undef ;
-			my $todoissue     = $tbxng->findvalue('.//tei:biblScope[@unit="issue"]')
-								|| $tbxng->findvalue('.//tei:biblScope[@unit="issue"]')
-								|| undef ;
-
-			# le plus souvent forme avec tiret ex <biblScope unit="pp">567–70</biblScope>
-			my $todopp_str = $tbxng->findvalue('.//tei:biblScope[@unit="pp"]')
-							|| $tbxng->findvalue('.//tei:biblScope[@unit="pp"]')
-							|| undef ;
-			my ($left, $right) ;
-			if (defined $todopp_str) {
-				($left, $right) = split(/[‐‑‒–—―−﹣]/,$todopp_str) ;
-
-				my $llen = length($left) ;
-				my $rlen = length($right) ;
-
-				if ($llen && $rlen && ($rlen < $llen)) {
-					my $prefixe = substr($left, 0, $llen - $rlen) ;
-# 					warn "gauche= $left, droite = AVANT: $right\n" ;
-					$right = $prefixe.$right ;
-# 					warn "                        APRES: $right\n" ;
-				}
-			}
-
-			# le plus souvent obtenu à partir du précédent, très rarement déjà présents de façon séparée avec attribut 'type'
-			my $todofpage = $left || $tbxng->findvalue('.//tei:biblScope[@unit="fpage"]') ||  undef ;
-			my $todolpage = $right || $tbxng->findvalue('.//tei:biblScope[@unit="rpage"]') || undef ;
-
-			# enregistrement local (pour la durée du doc, ou plus si bruit)
-			$todobibs_data[$todobib_l] = { "tit"   => $todotitl,
-										"date"  => $tododate,
-										"names" => \@todonames,
-										"j"     => $todojournal,
-										"vol"   => $todovolume,
-										"iss"   => $todoissue,
-										"fpg"   => $todofpage,
-										"lpg"   => $todolpage,
-										"psher" => $todopublisher,
-										"_tb_id"   => $docnostr.sprintf("-tb%03d", $todobib_l),
-										# spécifique aux todobibs
-										"_has_analytic"  => "un",
-										} ;
+		my ($todojournal, $todovolume, $todoissue, $todofpage, $todolpage) ;
+		if ($has_analytic) {
+			# ne marche que pour les refbib analytiques (articles de journaux etc)
+			$todojournal   = $tbxng->findvalue('.//tei:title[@level="j"]') || undef ;
+			$todovolume    = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="vol"]|tei:monogr/tei:imprint/tei:biblScope[@unit="volume"]') || undef ;
+			$todoissue     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="issue"]|tei:monogr/tei:imprint/tei:biblScope[@unit="iss"]') || undef ;
+			$todofpage     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@from|tei:monogr/tei:imprint/tei:biblScope[@unit="pp"]/@from') || undef ;
+			$todolpage     = $tbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@to|tei:monogr/tei:imprint/tei:biblScope[@unit="pp"]/@to') || undef ;
 		}
-		elsif ($todo_format eq 'nlm') {
 
-			my $has_2_titles_diagnostic_string = (scalar(@{$tbxng->findnodes('./article_title')}) > 1) ? "2+_titles" : "0:1_title" ;
-
-			# RECUP du titre à évaluer : attention si 'book' Cermine a tendance à en mettre 2
-			my $todotitl = $tbxng->findvalue('./article-title[1]')
-						|| undef ;
-
-			# date à évaluer
-			# TODO prendre un 5ème charactère ssi c'est une lettre [a-e]
-			my $tododate =  substr($tbxng->findvalue('./year'),0,4) || undef ;
-
-			# noms d'auteurs
-			my @todonames = map {$_->to_literal()} $tbxng->findnodes('./string-name/surname') ;
-
-# 			warn Dumper \@todonames ;
-
-			my $todopublisher = $tbxng->findvalue('./publisher-name') || undef ;
-
-			my ($todojournal, $todovolume, $todoissue, $todofpage, $todolpage) ;
-				# ne marche que pour les refbib analytiques (articles de journaux etc)
-			$todojournal = $tbxng->findvalue('./source') || undef ;
-			$todovolume  = $tbxng->findvalue('./volume') || undef ;
-			$todoissue   = $tbxng->findvalue('./issue')  || undef ;
-			$todofpage   = $tbxng->findvalue('./fpage')  || undef ;
-			$todolpage   = $tbxng->findvalue('./lpage')  || undef ;
-
-			# enregistrement local (pour la durée du doc, ou plus si bruit)
-			$todobibs_data[$todobib_l] = { "tit"   => $todotitl,
-										"date"  => $tododate,
-										"names" => \@todonames,
-										"j"     => $todojournal,
-										"vol"   => $todovolume,
-										"iss"   => $todoissue,
-										"fpg"   => $todofpage,
-										"lpg"   => $todolpage,
-										"psher" => $todopublisher,
-										"_tb_id"   => $docnostr.sprintf("-tb%03d", $todobib_l),
-										# spécifique aux todobibs
-										# TODO: adapter le nom aux possibilités cermine
-										"_has_analytic"  => $has_2_titles_diagnostic_string ,
-										} ;
-		}
+		# enregistrement local (pour la durée du doc, ou plus si bruit)
+		$todobibs_data[$todobib_l] = { "tit"   => $todotitl,
+									"date"  => $tododate,
+									"names" => \@todonames,
+									"j"     => $todojournal,
+									"vol"   => $todovolume,
+									"iss"   => $todoissue,
+									"fpg"   => $todofpage,
+									"lpg"   => $todolpage,
+									"psher" => $todopublisher,
+									"_tb_id"   => $docnostr.sprintf("-tb%03d", $todobib_l),
+									"_has_analytic"  => $has_analytic ? "avec_analytique":"monogr_seul",
+									} ;
+		# ------------------------8<-----------------------------------------------------------------------
+		
 	} ## fin préboucle @todobibs ##
 	
 	# debug
@@ -774,92 +546,51 @@ for my $path (sort (@xml_to_check_list)) {
 		# Récup données de référence
 		# ---------------------------
 		# variables en accès direct pour tests dans la boucle
-		my (@goldnames, $goldtitl, $golddate, $goldjournal, $goldvolume, $goldissue, $goldfpage, $goldlpage, $goldpublisher) ;
+		#~ my (@goldnames, $goldtitl, $golddate, $goldjournal, $goldvolume,
+		    #~ $goldissue, $goldfpage, $goldlpage, $goldpublisher) ;
 		my $pub_type = "" ;
 
 		# persistence des variables pour stockage des matchs
 		my $goldbib_data = {} ;
+		
+		my $gbxng  = XML::LibXML::XPathContext->new($goldbib);
+		$gbxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
 
-		if ($gold_format eq 'nlm') {
-			# (depuis format NLM aka NXML aka archivearticle)
-			# toujours 3 tags possibles : <citation>, <element-citation>, <mixed-citation>
-			my $nxml_tag = $goldbib->nodeName() ;
+	my $has_analytic = $gbxng->exists('tei:analytic') ;
 
-			# $pub_type vaudra "journal" ou "book", etc.
-			$pub_type = ($nxml_tag eq "citation")?$goldbib->findvalue('@citation-type'):$goldbib->findvalue('@publication-type') ;
-
-			# TODO faire dépendre de $pub_type
-			$goldtitl = $goldbib->findvalue('./article-title')
-				|| $goldbib->findvalue('./source')
+	# RECUP du titre à évaluer
+	my $goldtitl = $gbxng->findvalue('.//tei:title[@level="a"]')
+				|| $gbxng->findvalue('.//tei:title[@level="c"]')
+				|| $gbxng->findvalue('.//tei:title[@level="m"]')
 				|| undef ;
 
-			if ($pub_type eq 'journal') {
-				$goldjournal = $goldbib->findvalue('./source') || undef ;
-				$goldvolume  = $goldbib->findvalue('./volume') || undef ;
-				$goldissue   = $goldbib->findvalue('./issue')  || undef ;
-				$goldfpage   = $goldbib->findvalue('./fpage')  || undef ;
-				$goldlpage   = $goldbib->findvalue('./lpage')  || undef ;
-			}
+	# date à évaluer
+	# gold prendre un 5ème charactère ssi c'est une lettre [a-e]
+	my $golddate = substr($gbxng->findvalue('.//tei:imprint/tei:date/@when'),0,4) || undef ;
 
-			$golddate = substr($goldbib->findvalue('./year'),0,4) || undef ;
+	# noms d'auteurs
+	my @goldnames_nodes = $gbxng->findnodes('./tei:analytic/tei:author//tei:surname') ;
+	
+	# si structure monographique seule
+	if (not scalar(@goldnames_nodes)) {
+		@goldnames_nodes = $gbxng->findnodes('./tei:monogr/tei:author//tei:surname') ;
+	}
 
-			@goldnames = () ;
-			if ($goldbib->exists('./person-group[@person-group-type="author"]')) {
-				@goldnames = map {$_->to_literal()} $goldbib->findnodes('./person-group[@person-group-type="author"]/name/surname') ;
-			}
-			else {
-				@goldnames = map {$_->to_literal()} $goldbib->findnodes('./name/surname') ;
-			}
+	my @goldnames = map {$_->to_literal()} @goldnames_nodes ;
+	
+	# warn Dumper \@goldnames ;
 
-			$goldpublisher = $goldbib->findvalue('./publisher-name')  || undef ;
+	my $goldpublisher = $gbxng->findvalue('.//tei:publisher') || undef ;
 
-			# enregistrement local (pour la durée du goldbib, ou plus si silence)
-			$goldbib_data = { "tit"   => $goldtitl,
-							  "date"  => $golddate,
-							  "names" => \@goldnames,
-							  "j"     => $goldjournal,
-							  "vol"   => $goldvolume,
-							  "iss"   => $goldissue,
-							  "fpg"   => $goldfpage,
-							  "lpg"   => $goldlpage,
-							  "psher" => $goldpublisher,
-							  "_gb_id"   => $docnostr.sprintf("-gb%03d", $goldbib_k),
-							  # spécifique aux goldbibs
-							  "_type"  => $pub_type,
-							} ;
-		}
-		elsif ($gold_format =~ /^els/) {
-
-			my $gbxng  = XML::LibXML::XPathContext->new($goldbib);
-			$gbxng->registerNs('sb',"http://www.elsevier.com/xml/common/struct-bib/dtd") ;
-			$gbxng->registerNs('ce',"http://www.elsevier.com/xml/common/dtd") ;
-			$gbxng->registerNs('tb',"http://www.elsevier.com/xml/common/table/dtd") ;
-
-			# $pub_type vaudra "journal" ou "book", etc.
-			# £TODO
-			$pub_type = "journal" ;
-
-			$goldtitl = $gbxng->findvalue('./sb:contribution/sb:title/sb:maintitle')
-					|| $gbxng->findvalue('./sb:host/sb:book/sb:title/sb:maintitle')
-					|| $gbxng->findvalue('./sb:host/sb:edited-book/sb:title/sb:maintitle')
-					|| undef ;
-
-			$goldjournal = $gbxng->findvalue('./sb:host/sb:issue/sb:series/sb:title/sb:maintitle')
-						|| undef ;
-			$goldvolume  = $gbxng->findvalue('./sb:host/sb:issue/sb:series/sb:volume-nr')
-						|| undef ;
-			#~ $goldissue   = $gbxng->findvalue('./sb:host/sb:issue/sb:issue-nr') || undef ;
-			$goldissue   = $gbxng->findvalue('.//sb:issue-nr') || undef ;
-			$goldfpage   = $gbxng->findvalue('./sb:host/sb:pages/sb:first-page') || undef ;
-			$goldlpage   = $gbxng->findvalue('./sb:host/sb:pages/sb:last-page') || undef ;
-
-			$golddate = $gbxng->findvalue('.//sb:date') || undef ;
-
-			@goldnames = () ;
-
-			@goldnames = map {$_->to_literal()} $gbxng->findnodes('./sb:contribution/sb:authors/sb:author/ce:surname') ;
-
-			$goldpublisher = $gbxng->findvalue(".//sb:publisher") || undef ;
+	my ($goldjournal, $goldvolume, $goldissue, $goldfpage, $goldlpage) ;
+	if ($has_analytic) {
+		# ne marche que pour les refbib analytiques (articles de journaux etc)
+		$goldjournal   = $gbxng->findvalue('.//tei:title[@level="j"]') || undef ;
+		$goldvolume    = $gbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="vol"]|tei:monogr/tei:imprint/tei:biblScope[@unit="volume"]') || undef ;
+		$goldissue     = $gbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="issue"]|tei:monogr/tei:imprint/tei:biblScope[@unit="iss"]') || undef ;
+		$goldfpage     = $gbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@from|tei:monogr/tei:imprint/tei:biblScope[@unit="pp"]/@from') || undef ;
+		$goldlpage     = $gbxng->findvalue('tei:monogr/tei:imprint/tei:biblScope[@unit="page"]/@to|tei:monogr/tei:imprint/tei:biblScope[@unit="pp"]/@to') || undef ;
+	}
 
 			# enregistrement local
 			$goldbib_data = { "tit"   => $goldtitl,
@@ -872,19 +603,19 @@ for my $path (sort (@xml_to_check_list)) {
 							  "lpg"   => $goldlpage,
 							  "psher" => $goldpublisher,
 							  "_gb_id"   => $docnostr.sprintf("-gb%03d", $goldbib_k),
-							  # spécifique aux goldbibs
-							  "_type"  => $pub_type,
+							  "_has_analytic"  => $has_analytic ? "avec_analytique":"monogr_seul",
 							} ;
-
-			# debug
-			#~ warn Dumper $goldbib_data ;
-		}
-		else { die "format '$gold_format' non reconnu !" }
-
+		# debug
+		#~ warn Dumper $goldbib_data ;
+		#~ if ($doc_j > 1) {
+			#~ exit ;
+		#~ }
+		
+		
 		# on court-circuite la suite si on a déjà trouvé $nb_todobibs:
 		# (ça veut dire qu'il faut juste stocker les silences mais qu'on ne peut plus espérer de match)
 		if ($local_found == $nb_todobibs) {
-# 			warn Dumper $goldbib_data ;
+ 			#~ warn Dumper $goldbib_data ;
 			$silence_bibs->{$goldbib_k} = $goldbib_data ;
 			next ;
 		}
@@ -905,6 +636,7 @@ for my $path (sort (@xml_to_check_list)) {
 
 			# debug
 			#~ warn Dumper $todobib_data ;
+			#~ exit ;
 
 			# Récup données à évaluer (déjà préparées)
 			# ----------------------------------------
@@ -1044,6 +776,10 @@ for my $path (sort (@xml_to_check_list)) {
 			# ----------------------------------
 			# TODO supprimer si double emploi avec alignement titre+date depuis que clean_compare() est compris dans son test
 			# tentative d'alignement approximatif sur indices : titre comme substring + date et un autre indice (names ou fpage)
+			
+			#~ warn("GOLDTITLE --------------------------------------- $goldtitl");
+			#~ warn("TODOTITLE --------------------------------------- $todotitl");
+			
 			if (defined($goldtitl) && defined($todotitl)
 				&& defined($golddate) && defined($tododate)
 				&& (scalar(@todonames) || defined($todofpage))) {
@@ -1209,10 +945,7 @@ warn "          _ _ _ _ _ _ _ _ _ _ _ _\n" ;
 warn "         | => Précision = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($L != 0) ;
 warn "------------------------------------------\n" ;
 
-if ($COMPAT) {
-	warn "[mode --compat v0.5 dont --unaccents]\n" ;
-}
-elsif ($UNACCENTS) {
+if ($UNACCENTS) {
 	warn "[mode --unaccents]\n" ;
 }
 
@@ -1249,6 +982,7 @@ if ($dump_lookup) {
 ###############################################################
 #######                    SUBS                      ##########
 ###############################################################
+
 
 # créatuion d'une string csv sans aucune comparaison
 # pour faire état des bibs non alignées (bruit ou silence)
@@ -1341,7 +1075,7 @@ sub non_aligned_str {
 	# les 4 colonnes de diagnostic names supplémentaires n'ont pas non plus de sens ici
 	push (@csv_values, ('___')x4 ) ;
 
-	return join("\t",@csv_values) ;
+	return join("\t",map {$_ = '' if not(defined($_))} @csv_values) ;
 }
 
 
@@ -1526,7 +1260,7 @@ sub fields_pair_str {
 	# pour les auteurs: comparaison supplémentaire et édition d'une colonne de résumé
 	my $nb_g_names = scalar(@{$gb_data->{'names'}}) ;
 	my $nb_t_names = scalar(@{$tb_data->{'names'}}) ;
-
+	
 	# marqueurs des cas résolus (pas forcément succès strict car match relaché y sera inscrit)
 	my @t_names_done = (0) x ($nb_t_names) ;
 # 	my @g_names_done = (0) x ($nb_g_names) ; # pour debugA
@@ -1543,88 +1277,24 @@ sub fields_pair_str {
 
 	# boucle (goldnames)
 	for my $gname (@{$gb_data->{'names'}}) {
-		# tname précédent pour pouvoir vérifier si le nom n'a pas été coupé en 2
+		# tname précédent pour pouvoir vérifier si le nom n'a pas été cxitoupé en 2
 		my $tprevious_clean = "" ;
 
 		# sous-boucle (todonames)
 		my $tnid = -1 ;
 		for my $tname (@{$tb_data->{'names'}}) {
+			
+			#debug
+			#~ warn("Comparaison: G'$gname' | T'$tname'") ;
 
 			$tnid++ ;
 			next if $t_names_done[$tnid] ;
 			# comparaison principale : suffit pour rappel et précision
 			# ---------------------------------------------------------
-			if ($gname eq $tname) {
+			if (clean_compare($gname, $tname)) {
 				$t_names_done[$tnid] = 1 ;
 				$nb_ok_names ++ ;
 				last ;
-			}
-			# comparaisons relachées pour erreurs reconnaissables
-			# ---------------------------------------------------
-			# TODO: permettre différentes combinaisons (pour l'instant le lc et le nettoie sont les seuls en commun)
-			#
-			else {
-				my $gname_lc = lc($gname) ;
-				my $tname_lc = lc($tname) ;
-
-				# 1) cas de figure d'une majuscule différente
-				# ex: gnames = ['McDowell','Courtney']
-				#     tnames = ['Mcdowell','Courtney']
-				if ($gname_lc eq $tname_lc) {
-					$t_names_done[$tnid] = 1 ;
-					$nb_capzdiff ++ ;
-					last ;
-				}
-				#~
-				#~ my $gname_clean = nettoie($gname_lc) ;
-				#~ my $tname_clean = nettoie($tname_lc) ;
-				#~
-				#~ my $tname_re = quotemeta($tname_clean) ;
-				#~
-				#~ # 2) cas de figure d'un caractère de contrôle ou d'espace
-				#~ # ex: gnames = ['Strain']
-				#~ #     tnames = ["Strain\x{2002}"]
-				#~ if ($gname_clean eq $tname_clean) {
-					#~ $t_names_done[$tnid] = 1 ;
-					#~ $nb_weirdchar ++ ;
-					#~ last ;
-				#~ }
-				#~
-				#~ # 3) cas de figure d'un nom coupé dans t_names
-				#~ # ex: gnames = ['Edwards','Shortridge-Baggett']
-				#~ #     tnames = ['Edwards','Shortridge-','Baggett']
-				#~ elsif ($gname_clean eq "${tprevious_clean}${tname_clean}") {
-					#~ $t_names_done[$tnid] = 1 ;
-					#~ $nb_cutfield ++ ;
-					#~ last ;
-				#~ }
-				#~
-				#~ # 4) cas de figure d'une particule oubliée
-				#~ # ex: gnames = ['Castelein','van der Gaag','Bruggeman']
-				#~ #     tnames = ['Castelein','Gaag','Bruggeman']
-				#~ # => matcher le début de gname sur la liste des particules
-				#~ elsif ($gname_clean =~ m/^(${CC_PARTICULES})${tname_re}$/i) {
-					#~
-#~ # 					my $part = $1 ;
-#~ # 					warn "PARTICULE MATCHÉE!! '$part' sur g=$gname et t=$tname\n" ;
-					#~ $t_names_done[$tnid] = 1 ;
-					#~ $nb_particule ++ ;
-					#~ last ;
-				#~ }
-				#~
-				#~ else {
-					#~ # ici TODO nb_diff++
-				#~ }
-
-			# OUF... 4 colonnes rien que pour ça...
-			#   1675    > sum(tbib$capzkonames, na.rm=T)
-			#    885    > sum(tbib$cutfieldkonames, na.rm=T)
-			#   1552    > sum(tbib$particulekonames, na.rm=T)
-			#     34    > sum(tbib$weirdcharkonames, na.rm=T)
-			# -----------------------------------------------
-			# 272645    > sum(tbib$gnames, na.rm=T)
-
-
 			}
 		# pour le (3) de la sous-boucle suivante
 		#~ $tprevious_clean = nettoie(lc($tname))
@@ -1635,19 +1305,19 @@ sub fields_pair_str {
 	push (@result, ($nb_g_names, $nb_t_names, $nb_ok_names, $nb_capzdiff, $nb_weirdchar, $nb_cutfield, $nb_particule)) ;
 
 	# détail du processus pour debug
-# 	warn "GOLDNAMES: ---------------------------------------------\n" ;
-# 	warn Dumper $gb_data->{'names'} ;
-# 	warn Dumper \@g_names_done ;
-# 	warn "TODONAMES: -----------\n" ;
-# 	warn Dumper $tb_data->{'names'} ;
-# 	warn Dumper \@t_names_done ;
+ 	warn "GOLDNAMES: ---------------------------------------------\n" ;
+ 	warn Dumper $gb_data->{'names'} ;
+ 	#~ warn Dumper \@g_names_done ;
+ 	warn "TODONAMES: -----------\n" ;
+ 	warn Dumper $tb_data->{'names'} ;
+ 	#~ warn Dumper \@t_names_done ;
 
 	# ===========================================================================================
 	# ===========================================================================================
 
 
 	# production d'un résumé pour les champs ayant une profondeur de plus
-	return join("\t",@result) ;
+	return join("\t", map {$_ = '' if not(defined($_))} @result) ;
 }
 
 
@@ -2270,12 +1940,12 @@ sub errlog {
 sub HELP_MESSAGE {
 	print <<EOT;
 --------------------------------------------------------------------
-|  Évaluation de refbibs obtenues TEI sur un corpus "gold" en NXML |
+|  Évaluation de refbibs obtenues TEI sur un corpus gold TEI aussi |
 |------------------------------------------------------------------|
 | Usage                                                            |
 | =====                                                            |
 |   eval_xml_refbibs.pl -x TEI-XMLs/à/évaluer/                     |
-|                       -r NXMLs/de/référence/ > resultats.tab     |
+|                       -r TEI-XMLs/de/référence/ > resultats.tab  |
 |                                                                  |
 |  NB: il faut les mêmes noms de fichiers (sauf .ext) des 2 côtés  |
 |                                                                  |
@@ -2284,16 +1954,6 @@ sub HELP_MESSAGE {
 |   -h  --help            afficher cet écran                       |
 |   -x  --xmldir path/    dossier des XML à évaluer (sortie outil) |
 |   -r  --refdir path/    dossier du corpus de référence           |
-|                                                                  |
-|   -f  --format tei      format des XML à évaluer                 |
-|                         choix = 'tei-grobid'                     |
-|                               = 'tei-bilbo'                      |
-|                               = 'nlm'  (aka archivearticle)      |
-|                                                                  |
-|   -g  --gformat nlm     format des XML de référence              |
-|                         choix = 'nlm'  (aka archivearticle)      |
-|                               = 'elsevier'                       |
-|                                                                  |
 |   -e  --extension       extension dans xmldir [refbibs.tei.xml]  |
 |                                                                  |
 |   -d  --debug           infos de debogage au cours du traitement |
@@ -2302,10 +1962,6 @@ sub HELP_MESSAGE {
 |   -u  --unaccents       activer la désaccentuation préalable aux |
 |                         comparaisons de chaînes (+ ~.1 R & ~.3 P)|
 |                         mais temps de traitement x 2             |
-|   -c  --compat          traitement des namespaces elsevier comme |
-|                         dans la v0.5 et -u déclenché pour obtenir|
-|                         des décomptes proches de la v0.5         |
-|                                                                  |
 |   -n  --numcount        afficher un compteur durant traitement   |
 |                                                                  |
 | Sortie:                                                          |
