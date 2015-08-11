@@ -65,7 +65,7 @@ case $1 in
 			# choix optimisé (si beaucoup de RAM)
 			# -----------------------------------------
 			nohup mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war & echo $! > ~/grobid-service.pid &
-			# (RAM moyenne utilisée = Nombre de CPU faisant le traitement X la taille moyenne d'un PDF traité X 2)
+			# (supplément à la RAM moyenne utilisée = Nombre de CPU faisant le traitement X la taille moyenne d'un PDF traité X 2)
 			
 			cd ~
 			export GB_PID=`cat grobid-service.pid`
