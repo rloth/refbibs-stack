@@ -1,0 +1,54 @@
+# identification --------------------------------
+		zip_path = zip_dir+'/'+my_ko.bnames[i]+'.zip'
+		zip_i = ZipFile(zip_path)
+		
+		the_xml = None
+		the_pdf = None
+		
+		# let's check the files we got
+		# (there's no unique convention for the main PDF and XML files)
+		arc_ls = zip_i.namelist()
+		
+		xml_candidates = [fname for fname in arc_ls if search(r'[xX][mM][lL]', fname)]
+		pdf_candidates = [fname for fname in arc_ls if search(r'[pP][dD][fF]', fname)]
+		
+		# Identifying the main xml file
+		if len(xml_candidates) == 1:
+			the_xml = xml_candidates[0]
+			print("ok 1 xml %s in %s" % (the_xml, my_bname))
+		else:
+			# xml name heuristics
+			for arc_fname in xml_candidates:
+				if search(r'Meta|main\.xml', arc_fname):
+					print("ok xml %s in %s" % (the_xml, my_bname))
+					the_xml = arc_fname
+		
+		# Identifying the main PDF file
+		if len(pdf_candidates) == 1:
+			the_pdf = pdf_candidates[0]
+			print("ok 1 pdf %s in %s" % (the_pdf, my_bname))
+			the_pdf = arc_fname
+		else:
+			# pdf name heuristics
+			for arc_fname in pdf_candidates:
+				if search(r'main\.pdf', arc_fname):
+					print("ok pdf %s in %s" % (the_pdf, my_bname))
+					the_pdf = arc_fname
+		
+		if the_xml is None or the_pdf is None:
+			print("!skip: Impossible d'identifier les fichiers de l'archive %s"
+			       % zip_path, file=stderr)
+			errs += 1
+			continue
+		else:
+			zip_i.extract(the_xml, tgt_xml_dir)
+			rename(
+				path.join(tgt_xml_dir, the_xml),
+				path.join(tgt_xml_dir, my_bname +'.xml') # £shext
+			)
+			zip_i.extract(the_pdf, tgt_pdf_dir)
+			rename(
+				path.join(tgt_pdf_dir, the_pdf),
+				path.join(tgt_pdf_dir, my_bname +'.pdf') # £shext
+			)
+		# -----------------------------------------------
