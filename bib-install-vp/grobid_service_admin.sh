@@ -12,14 +12,16 @@
 #
 # Outil commandé: "Grobid" de Patrice Lopez
 #        cf. http://grobid.readthedocs.org/
+#
 
 
 ## prérequis : le dossier de grobid dans GB
-if [ -z "$GB" ]; then
-    echo "La variable d'environnement \$GB n'est pas fixée (dossier grobid)"
+if [ -z "$GROBID_HOME" ]; then
+    echo -e "La variable d'environnement \$GROBID_HOME n'est pas fixée.\nVeuillez la créer et lui donner comme valeur le chemin du dossier de grobid."
     exit 1
 fi
 
+GB=$GROBID_HOME
 
 ## diagnostic préalable : simple grep sur la liste des processus
 mes_pids=`ps -Af | grep "java.*grobid.*jetty:run-war" | grep -v "grep" | tr -s ' ' | cut -f2 -d' '`
@@ -54,7 +56,17 @@ case $1 in
 		if [ $running != true ]
 			then
 			cd $GB/grobid-service
+			
+			# choix normal (plus lent mais prend moins de RAM)
+			# --------------------------------------------------------
+			# nohup mvn jetty:run-war & echo $! > ~/grobid-service.pid &
+			
+			
+			# choix optimisé (si beaucoup de RAM)
+			# -----------------------------------------
 			nohup mvn -Djava.io.tmpdir="/run/shm/mon_grobid_tmp/" jetty:run-war & echo $! > ~/grobid-service.pid &
+			# (RAM moyenne utilisée = Nombre de CPU faisant le traitement X la taille moyenne d'un PDF traité X 2)
+			
 			cd ~
 			export GB_PID=`cat grobid-service.pid`
 			echo "Service grobid lancé via Jetty sur PID $GB_PID"
