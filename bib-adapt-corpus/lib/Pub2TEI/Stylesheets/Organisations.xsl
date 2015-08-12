@@ -21,7 +21,6 @@
                 <xsl:text>laboratory</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:message>Org inconnue: <xsl:value-of select="$theOrg"/></xsl:message>
                 <xsl:text></xsl:text>
             </xsl:otherwise>
         </xsl:choose>

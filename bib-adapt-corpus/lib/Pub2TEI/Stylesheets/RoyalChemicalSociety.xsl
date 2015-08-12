@@ -8,7 +8,6 @@
     <!-- Le format de la RCS utilise essentiellement des composant NLM en ayant pris le soin (!) de définir ses propres constructions ici el là. -->
     <!-- On sent le travail visionaire du grouillot... -->
     <xsl:template match="article[art-admin]">
-        <xsl:message>RoyalChemicalSociety.xsl</xsl:message>
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -90,7 +89,7 @@
                         <xsl:attribute name="type">letter</xsl:attribute>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:message terminate="no">Article-type inconnu: <xsl:value-of
+                        <xsl:message terminate="no">XSL: (ed:rsc) Article-type inconnu: <xsl:value-of
                                 select="$articleType"/></xsl:message>
                     </xsl:otherwise>
                 </xsl:choose>
@@ -107,9 +106,7 @@
                 <title level="j" type="main">Royal Chemical Society</title>
                 <imprint>
                     <xsl:for-each select="article-meta/pub-date">
-                        <xsl:message>Current: <xsl:value-of select="@pub-type"/></xsl:message>
                         <xsl:if test="year != '' and year !='0000'">
-                            <xsl:message>Pubdate year: <xsl:value-of select="year"/></xsl:message>
                             <xsl:apply-templates select="."/>
                         </xsl:if>
                     </xsl:for-each>

@@ -175,8 +175,8 @@
             </xsl:variable>
             <xsl:variable name="journalEntry"
                 select="$journalList/descendant::tei:row[tei:cell/text()=$ISSNCode]"/>
-            <xsl:message>ISSN: <xsl:value-of select="$ISSNCode"/></xsl:message>
-            <xsl:message>Journal: <xsl:value-of select="$journalEntry/tei:cell[@role='Journal']"
+            <xsl:message>XSL: ISSN: <xsl:value-of select="$ISSNCode"/></xsl:message>
+            <xsl:message>XSL: Journal: <xsl:value-of select="$journalEntry/tei:cell[@role='Journal']"
                 /></xsl:message>
             <idno type="ISSN">
                 <xsl:value-of select="$ISSNCode"/>

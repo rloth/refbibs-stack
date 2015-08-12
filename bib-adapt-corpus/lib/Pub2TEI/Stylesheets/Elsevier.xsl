@@ -341,7 +341,6 @@
                         <xsl:text>corresp</xsl:text>
                     </xsl:attribute>
                 </xsl:if>
-                <xsl:message>Identifier: <xsl:value-of select="."/></xsl:message>
             </xsl:for-each>
 
             <persName>
@@ -353,7 +352,6 @@
 
             <xsl:choose>
                 <xsl:when test="../ce:affiliation[not(@id)]">
-                    <xsl:message>Affiliation sans identifiant</xsl:message>
                     <xsl:for-each select="../ce:affiliation">
                         <affiliation>
                             <xsl:call-template name="parseAffiliation">
@@ -365,13 +363,11 @@
                     </xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:message>On parcourt les affiliations</xsl:message>
                     <xsl:for-each select="$structId">
                         <xsl:variable name="localId">
                             <xsl:value-of select="."/>
                         </xsl:variable>
                         <xsl:if test="//ce:affiliation[@id=$localId]">
-                            <xsl:message>Trouvé: <xsl:value-of select="$localId"/></xsl:message>
                             <affiliation>
                                 <xsl:call-template name="parseAffiliation">
                                     <xsl:with-param name="theAffil">
@@ -392,7 +388,6 @@
                 <xsl:if test="//ce:correspondence[@id=$localId2]">
                     <xsl:variable name="codePays"
                         select="/els:article/els:item-info/ce:doctopics/ce:doctopic[@role='coverage']/ce:text"/>
-                    <xsl:message>Pays Elsevier: <xsl:value-of select="$codePays"/></xsl:message>
                     <!-- PL: test to avoid empy country block -->
 
                     <xsl:if test="$codePays">
@@ -438,9 +433,6 @@
     <xsl:template name="parseAffiliation">
         <xsl:param name="theAffil"/>
         <xsl:param name="inAddress" select="false()"/>
-        <xsl:for-each select="$theAffil">
-            <xsl:message>Un bout: <xsl:value-of select="."/></xsl:message>
-        </xsl:for-each>
         <xsl:variable name="avantVirgule">
             <xsl:choose>
                 <xsl:when test="contains($theAffil,',')">

@@ -70,45 +70,45 @@
     <xsl:template match="/">
         <xsl:choose>
             <xsl:when test="metadata">
-                <xsl:message>Converting a BMJ article</xsl:message>
+                <xsl:message>XSL:Converting a BMJ article</xsl:message>
             </xsl:when>
             <xsl:when test="article_set">
                 <!-- <article_set dtd_version="4.1.2"> -->
-                <xsl:message>Converting a ScholarOne compatible article (e.g. OUP, Taylor,
+                <xsl:message>XSL:Converting a ScholarOne compatible article (e.g. OUP, Taylor,
                     Wiley)</xsl:message>
             </xsl:when>
             <xsl:when test="article[front]">
-                <xsl:message>Converting an NLM 2.2 article</xsl:message>
+                <xsl:message>XSL:Converting an NLM 2.2 article</xsl:message>
             </xsl:when>
             <xsl:when test="els:article[els:item-info] | els:converted-article[els:item-info]">
-                <xsl:message>Converting an Elsevier article</xsl:message>
+                <xsl:message>XSL:Converting an Elsevier article</xsl:message>
             </xsl:when>
             <xsl:when test="nihms-submit">
-                <xsl:message>Converting a Nature article</xsl:message>
+                <xsl:message>XSL:Converting a Nature article</xsl:message>
             </xsl:when>
             <xsl:when test="ArticleSet">
-                <xsl:message>Converting an NLM 2.0 article</xsl:message>
+                <xsl:message>XSL:Converting an NLM 2.0 article</xsl:message>
             </xsl:when>
             <xsl:when test="SAGEmeta">
-                <xsl:message>Converting a Sage article</xsl:message>
+                <xsl:message>XSL:Converting a Sage article</xsl:message>
             </xsl:when>
             <xsl:when test="EDPSArticle">
-                <xsl:message>Converting an EDPS article</xsl:message>
+                <xsl:message>XSL:Converting an EDPS article</xsl:message>
             </xsl:when>
             <xsl:when test="edp-article">
-                <xsl:message>Converting an EDPS backfile article</xsl:message>
+                <xsl:message>XSL:Converting an EDPS backfile article</xsl:message>
             </xsl:when>
             <xsl:when test="Article/ArticleInfo">
-                <xsl:message>Converting a Springer stage 2 article</xsl:message>
+                <xsl:message>XSL:Converting a Springer stage 2 article</xsl:message>
             </xsl:when>
             <xsl:when test="Publisher/PublisherInfo and not(Publisher/Series/Book/descendant::Chapter)">
-                <xsl:message>Converting a Springer stage 3 article</xsl:message>
+                <xsl:message>XSL:Converting a Springer stage 3 article</xsl:message>
             </xsl:when>
             <xsl:when test="count(Publisher/Series/Book/descendant::Chapter)=1">
-                <xsl:message>Converting a Springer book chapter</xsl:message>
+                <xsl:message>XSL:Converting a Springer book chapter</xsl:message>
             </xsl:when>
             <xsl:when test="article/art-admin">
-                <xsl:message>Converting a Royal Chemical Society article</xsl:message>
+                <xsl:message>XSL:Converting a Royal Chemical Society article</xsl:message>
             </xsl:when>
             
             <!-- bibistex: nouveau cas Nature -->
@@ -116,12 +116,12 @@
                          or starts-with(/article/pubfm/cpg/cpn, 'Macmillan')
                          or starts-with(/headerx/pubfm/cpg/cpn, 'Nature')
                          or starts-with(/headerx/pubfm/cpg/cpn, 'Macmillan')">
-                <xsl:message>Converting an Nature Publishing Group article</xsl:message>
+                <xsl:message>XSL:Converting an Nature Publishing Group article</xsl:message>
             </xsl:when>
             
             <!-- bibistex: nouveau cas Wiley -->
             <xsl:when test="wil:component[@type='serialArticle']">
-                <xsl:message>Converting a Wiley article</xsl:message>
+                <xsl:message>XSL:Converting a Wiley article</xsl:message>
             </xsl:when>
             
             <!-- générique: nouveau cas IOP -->
@@ -131,11 +131,11 @@
                 or contains(/article/article-metadata/jnl-data/jnl-imprint, 'Institute of Physics')
                 )
                 and /article/article-metadata/article-data/article-type[@sort='regular']">
-                <xsl:message>Converting an IOP regular article</xsl:message>
+                <xsl:message>XSL:Converting an IOP regular article</xsl:message>
             </xsl:when>
             
             <xsl:otherwise>
-                <xsl:message>Converting a non-identified article: - name: <xsl:value-of
+                <xsl:message>XSL:Converting a non-identified article: - name: <xsl:value-of
                         select="name(*)"/> - local-name: <xsl:value-of select="local-name(*)"/> -
                     namespace-uri: <xsl:value-of select="namespace-uri(*)"/>
                 </xsl:message>

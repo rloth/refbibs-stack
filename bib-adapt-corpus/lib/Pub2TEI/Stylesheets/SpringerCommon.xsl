@@ -183,7 +183,6 @@
 
     <xsl:template name="createSpringerAffiliations">
         <xsl:param name="restAff"/>
-        <xsl:message>Affiliations: <xsl:value-of select="$restAff"/></xsl:message>
         <xsl:choose>
             <xsl:when test=" contains($restAff,' ')">
                 <xsl:apply-templates select="../Affiliation[@ID=substring-before($restAff,' ')]"/>

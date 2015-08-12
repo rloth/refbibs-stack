@@ -180,8 +180,6 @@
                 select="$countryCodes/descendant::tei:row[tei:cell/text()=$country]/tei:cell[@role='a2code']"
             />
         </xsl:variable>
-        <xsl:message>Country: <xsl:value-of select="$country"/> - Code: <xsl:value-of
-                select="$resultCode"/></xsl:message>
         <xsl:value-of select="$resultCode"/>
     </xsl:template>
 
@@ -192,8 +190,6 @@
                 select="$countryCodes/descendant::tei:row[tei:cell/text()=$country]/tei:cell[@role='name' and @xml:lang='en']"
             />
         </xsl:variable>
-        <xsl:message>Country: <xsl:value-of select="$country"/> - normalized: <xsl:value-of
-                select="$resultCode"/></xsl:message>
         <xsl:value-of select="$resultCode"/>
     </xsl:template>
 
