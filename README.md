@@ -16,7 +16,7 @@ Usage
 ### Optional arguments
  - **`-h`** or **`--help`**  
    show a help message and exit
- - **`-q`** `"hawking AND corpusName:nature AND pubdate:[1970 TO *]"`  
+ - **`-q`** `"corpusName:nature AND publicationDate:[1970 TO *] AND genre:article"`  
    "normal" input mode: triggers retrieval of all bibliographies of all hits of a lucene query passed to the API
  -  **`-g`**   or   **`--group_output`** `some_ID_list.txt`  
    "teiCorpus" output mode: groups all single TEI output files into one TEICorpus file at end of run (a posteriori)
@@ -26,6 +26,8 @@ Usage
    optional maximum limit of processed docs (if the query returned more hits, the remainder will be ignored)
  - **`-c`** `path/to/alternate_config.ini` or **`--config`** `path/to/alternate_config.ini`    
    option to specify an alternate config file (default path is: `<script_dir>/bib-get.ini`)
+ - **`-p`** or **`--print_config`**    
+   print out the actual configuration file and exit
 
 
 Config
@@ -47,11 +49,6 @@ tei_ext=.refbibs.tei.xml
 ncpu=7
 ```
 
-/!\  Ne fonctionne que depuis l'INIST ou une IP  /!\
-     autorisée car la machine grobid doit avoir
-/!\  accès aux routes fulltext/pdf de l'API.     /!\
-
-
 Install
 -------
 
@@ -62,6 +59,11 @@ Install
 
 That should be it! You can run the script with `-m` for a small test: `python3 bib-get.py -q "agile" -m 5`
 
+```
+    /!\  Ne fonctionne que depuis l'INIST ou une IP  /!\  
+         autorisée car la machine grobid doit avoir  
+    /!\  accès aux routes fulltext/pdf de l'API.     /!\  
+```
 
 Contacts
 ---------
