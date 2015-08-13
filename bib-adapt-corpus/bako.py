@@ -14,7 +14,7 @@ bib-adapt-corpus ou bako
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.1"
+__version__   = "0.2"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -22,26 +22,28 @@ __status__    = "Dev"
 from os              import path, mkdir, rename
 from sys             import stderr, argv
 from configparser    import ConfigParser
-from site            import addsitedir  # pour imports locaux
+from site            import addsitedir     # pour imports locaux
 from re              import search, match
+from subprocess      import PIPE, Popen    # pour l'appel de grobid
+                                           # en training proprement dit
+from argparse  import ArgumentParser, RawTextHelpFormatter
+
 
 # imports locaux
 addsitedir('lib')
 
-# lib istex-rd "consulte"
-import sampler
+# "libconsulte" istex-rd
 import api
-
-# Corpus => bnames, cdir, cols, shelfs...
+import sampler
 from corpusdirs import Corpus
-
+                     # Corpus => bnames, cdir, cols, shelfs...
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
-LCONF = ConfigParser()
+CONF = ConfigParser()
 conf_path = 'local_conf.ini'
 conf_file = open(conf_path, 'r')
-LCONF.read_file(conf_file)
+CONF.read_file(conf_file)
 conf_file.close()
 
 # ----------------------------------------------------------------------
@@ -55,10 +57,37 @@ BSHELFS = {
 }
 # valeurs sous ['d'] ==> nom des dossiers dans corpora/<nom_corpus>/data
 
+# Noms "humains" des structures de base et de training
+SHELF_NAMES = {
+	# basic set -------------------------------------
+	'PDF0' : "PDFs originaux",
+	'XMLN' : "XMLs natifs",
+	'GTEI' : "TEI-XMLs gold",
+	
+	# bibzone = segmentation -------------------------
+	'BZRTX': "RAW TEXTS pour bibzone",
+	'BZRTK': "RAW TOKENS pour bibzone",
+	'BZTEI': "TRAIN TEIs pour bibzone",
+	
+	# biblines = referenceSegmentation ---------------
+	'BLRTX': "RAW TEXTS pour biblines",
+	'BLRTK': "RAW TOKENS pour biblines",
+	'BLTEI': "TRAIN TEIs pour biblines",
+	
+	# bibfields = citations --------------------------
+	'BFRTX': "RAW TEXTS pour bibfields",
+	'BFTEI': "TRAIN TEIs pour bibfields",
+	
+	# authornames = name/citation ---------------------
+	'AURTX': "RAW TEXTS pour authornames",
+	'AUTEI': "TRAIN TEIs pour authornames",
+	}
+
+
 # ----------------------------------------------------------------------
 # Fonctions principales
 
-def make_set(corpus_name, tab_path=None, size=None, constraint=None):
+def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=None):
 	"""
 	Initialisation d'un corpus basique et remplissage de ses fulltexts
 	
@@ -76,11 +105,22 @@ def make_set(corpus_name, tab_path=None, size=None, constraint=None):
 	  - .xml (natif) 
 	  - et .tei.xml (pub2tei)
 	
+	
+	
 	Position dans le système de fichier
 	 cf sous lib/global_conf.ini
 	                -> variable CORPUS_HOME 
 	                     -> mise par défaut à ./corpora/
 	"""
+	
+	# test de base avant de tout mettre dans le dossier
+	# (le seul dossier qu'on n'écrase jamais)
+	future_dir = path.join(Corpus.home_dir, corpus_name)
+	if path.exists(future_dir):
+		print("ERR:'%s'\nLe nom '%s' est déjà pris dans le dossier des corpus." % 
+		       (future_dir, corpus_name), file=stderr)
+		exit(1)
+	
 	# (1/4) echantillon initial (juste la table) -------------------------
 	
 	# soit on a déjà une table
@@ -120,125 +160,208 @@ def make_set(corpus_name, tab_path=None, size=None, constraint=None):
 	# (2/4) notre classe corpus ------------------------------------------
 	
 	# Corpus
-	my_ko = Corpus(corpus_name, my_tab)
+	cobj = Corpus(corpus_name, my_tab)
 	
 	# (3/4) téléchargement des fulltexts ---------------------------------
 	
-	ids = my_ko.cols['istex_id']
+	ids = cobj.cols['istex_id']
 	
 	for the_shelf in ['PDF0', 'XMLN']:
-		tgt_dir = my_ko.shelf_path(the_shelf)
-		print("mkdir: %s" % tgt_dir,
-		      file=stderr)
+		the_api_type = BSHELFS[the_shelf]['api']
+		the_ext      = BSHELFS[the_shelf]['ext']
+		tgt_dir = cobj.shelf_path(the_shelf)
+		
+		print("mkdir: %s" % tgt_dir,file=stderr)
 		mkdir(tgt_dir)
 	
 		for (i, ID) in enumerate(ids):
-			the_api_type = BSHELFS[the_shelf]['api']
-			the_ext = BSHELFS[the_shelf]['ext']
-			
 			api.write_fulltexts(
 				ID,
-				api_conf  = LCONF['istex-api'],
-				tgt_dir   = my_ko.shelf_path(the_shelf),
-				base_name = my_ko.bnames[i],
+				api_conf  = CONF['istex-api'],
+				tgt_dir   = cobj.shelf_path(the_shelf),
+				base_name = cobj.bnames[i],
 				api_types = [the_api_type]
 				)
-			print("GETDOC: %s" % my_ko.bnames[i]+BSHELFS[the_shelf]['ext'],
+			print("GETDOC: %s" % cobj.bnames[i]+the_ext,
 			  file=stderr)
 	
-	my_ko.assert_fulltexts('XMLN')
-	my_ko.assert_fulltexts('PDF0')
+	cobj.assert_fulltexts('XMLN')
+	cobj.assert_fulltexts('PDF0')
 	
 	# (4/4) conversion tei (type gold biblStruct) ------------------------
 	
 	# copie en changeant les pointeurs dtd
 	print("***DTD LINKING***")
-	my_ko.dtd_repair()
+	cobj.dtd_repair()
 	
 	print("***XML => TEI.XML CONVERSION***")
 	
 	# créera le dossier C-goldxmltei
-	my_ko.pub2tei(bibl_type='biblStruct')      # conversion
+	cobj.pub2goldtei()      # conversion
 	
-	my_ko.assert_fulltexts('GTEI')
+	cobj.assert_fulltexts('GTEI')
 	
 	# we return the new filled corpus for further work or display
-	return my_ko
+	return cobj
 
 
-def make_trainers(a_corpus_obj, model_types=None):
-	print("NOW TRAINERS")
-	# model_types est une liste de modèles parmi les 4 possibles
-	# ('bibzone', 'biblines', 'bibfields', 'authornames')
+
+
+
+PREP_TEI_FROM_TXT = {
+					'bibzone' : {'from': 'BZRTX', 'to': 'BZTEI'},
+					'biblines' : {'from': 'BLRTX', 'to': 'BLTEI'},
+					'bibfields' : {'from': 'BFRTX', 'to': 'BFTEI'},
+					'authornames' : {'from': 'AURTX', 'to': 'AUTEI'},
+					}
+
+def make_trainers(cobj, model_types=None, just_rag=False):
+	"""
+	Préparation des corpus d'entraînement => dans dossiers D-*
 	
+	model_types est une todoliste de modèles parmi les 4 possibles
+	     ('bibzone', 'biblines', 'bibfields', 'authornames')
+	
+	NB: bibzone et biblines ont des fichiers 'rawtoks' supplémentaires
+	    qui correspondent à l'input tokenisé vu par un CRF ("features")
+	"""
+	# on lit la liste des modèles à faire dans le fichier config
 	if not model_types:
-		model_types = LCONF['training']['model_types'].split(',')
+		model_types = CONF['training']['model_types'].split(',')
 	
-	print("cof: model_types", model_types)
 	
+	# (1/2) createTrainingFulltexts ============================
+	
+	# trainers : RAWTXT pour tous 
+	#                      (et RAWTOKS pour bibzone et biblines)
 	for tgt_model in model_types:
-		a_corpus_obj.grobid_create_training(tgt_model)
-
-	#~ for tgt_model in model_types:
-		#~ # traitement purement par ragréage
-		#~ if tgt_model in ['bibzone','biblines']:
-			#~ 
-		#~ 
-		#~ 
-		#~ 
-		#~ elif tgt_model in ['bibfields','authornames']:
-			#~ # pour ces 2 modèles on n'aura pas besoin de 'corpus/raw' 
-			#~ #                                           (aka #rawtoks#)
-			#~ 
-			#~ # de plus pour wiley et nature le ragreage n'est pas
-			#~ # nécessaire, il suffit de faire XSLT avec le param 
-			#~ # teiBiblType fixé à 'bibl'
-			#~ 
-			#~ # mais pour les autres lots on veut quand même des #rawtxts#
-
-			#~ #  => on est obligés de mettre les wiley et nature à part 
-			#~ #     pour utiliser -dIn sur les autres en corpusTraining
-			#~ temp_dir = path.join(a_corpus_obj.cdir,'data', 'D-trainers', 'temp_xsl_in')
-			#~ if not path.exists(temp_dir):
-				#~ mkdir(temp_dir)
-			#~ 
-			#~ # puis lors du ragreage (qui est lancé doc par doc)
-			#~ # on peut faire un filtre sur le trigramme de lot
-			#~ for i, bname in enumerate(a_corpus_obj.bnames):
-				#~ lot = a_corpus_obj.cols['corpus'][i]
-				#~ if lot in ['wil', 'nat']:
-					#~ # ici move TEMP_DIR_TO_REXSLT
-					#~ pass
-				#~ else:
-					#~ ragreage.run(model_type...)
-					#~ pass
 		
+		
+		src_shelf = PREP_TEI_FROM_TXT[tgt_model]['from']
+		src_shelf_name = SHELF_NAMES[src_shelf]
+		
+		if src_shelf not in cobj.fulltextsh():
+			# raws ++++
+			cobj.grobid_create_training(tgt_model)
+		
+		else:
+			print("<= %s (reprise précédemment créés" % src_shelf_name)
+		
+		# =================(2/2) better training pTEIs =========
+		cobj.construct_training_tei(tgt_model)
+		# ======================================================
 	
+	# nouveau paquet (corpus+model_type) prêt pour make_training
+	return cobj
+
+
+def make_training(a_corpus_obj, model_type):
+	""" 
+	Entraînement proprement dit
 	
-	pass
+	(appel de grobid-trainer)
+	  - appel système
+	  - commande shell équivalente
+	      mvn generate-resources -P train_<model_type>
+	      
+	  Chaîne d'invocation réelle:
+	     bako => shell => maven => grobid-trainer => wapiti
+	
+	/!\ La commande shell ne renvoit pas le modèle
+	    mais va aller l'écrire directement dans grobid-home/models
+	    
+	    Quant à nous, on le récupère a posteriori pour le ranger.
+	
+	/!\ Ici un seul model_type"""
+	
+		# 1) substitution dossiers   SHELF_TRAIN => GB_HOME/grobid-trainer/resources/dataset/$model_name
+		
+		# 2) _call_grobid_trainer
+	
+def _call_grobid_trainer():
+	"""
+	ICI Appel traininf principal
+	"""
+	model_name = 'train_name_citation'
+	
+	mon_process = Popen(
+	  ['mvn',
+	  '-X',
+	  'generate-resources',
+	  '-P', model_name
+	  ], stdout=PIPE, stderr=PIPE, 
+	cwd=path.join(CONF['grobid']['GROBID_HOME'],"grobid-trainer")
+	)
+
+	for line in mon_process.stderr:
+		print(line.decode('UTF-8').rstrip())
 
 
 
 ########################################################################
 if __name__ == '__main__':
-	# Ok
-	#~ a_corpus_obj = make_set(corpus_name = argv[1], tab_path = argv[2])
-	a_corpus_obj = make_set("stest", size = 5)
 	
+	#~ print(vars(args))  # <== après réintégration argparse
+	
+	# -------------
+	# SIMPLES TESTS  : task 1 sampling et pub2tei (make_set)  
+	#                  task 2 préparation trainers (make_trainers)
+	
+	# si lecture d'une dir pré-existante
+	# 
+	
+	inname = input("choisissez un nom (si possible sans espaces...) pour initialiser un nouveau dossier corpus sous /corpora :")
+	
+	if len(inname):
+		# todo ttype="gold" (défaut) ou "train" ?
+		a_corpus_obj = make_set(corpus_name = inname.rstrip() , size = 10)
+	
+	else:
+		print("mode lecture ==> futur take_set() sur %s")
+		a_corpus_obj = Corpus("truc", read_dir="corpora/truc")
+
+	input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
+	
+	# par défaut: avec les modèles de local_conf.ini['training']
 	make_trainers(a_corpus_obj)
+
+	# make_trainers(a_corpus_obj, ['bibfields', 'bibzone'])
 	
-	# ou lecture de la dir précédente
-	#~ a_corpus_obj = Corpus("cent_éval", read_dir="corpora/cent_éval")
 	
+	# TODO immédiat
+	# ----------------
+	# make_training  /model_type/ /sample/ <=> ci-dessus _call_grobid_trainer
+	# ----------------
+	
+	print("BAKO: all tasks successful for '%s' corpus" % a_corpus_obj.name)
+	print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
+	for this_shelf in a_corpus_obj.fulltextsh():
+		print("  - %s" % SHELF_NAMES[this_shelf])
+	print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
+	
+	
+	
+	# ------------------------------
+	#     Remarques sur la suite 
+	#     ----------------------
+	
+	# pour models pick | install
+	# --------------------------
+	# cf. en bash:
+	# > cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $STORE/trained/$CRFTRAINEDID/model/$MODEL_type/.
+	# > mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
+	# > mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
+	# > mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
+
+
+	# stats et eval proprement dites
+	# -------------------------------
 	# balisage initial d'un sample GOLD
 	# mkdir(Z-evalxmltei)
 	# grobid -exe processReferences -dIn A-pdfs/ -dOut ZZ-evalxmltei/
-	
-	# tout de suite une éval => shb grep => meta/mon_sample_gold.vanilla.score
+	# ------------------------------------------------------------------------
+	# tout de suite une éval => shb grep => meta/mon_sample_gold.vanilla.score    <= baseline
 	# ------------------------------------------------------------------------
 	# eval_xml_refbibs_multiformat.pl -g elsevier -f tei-grobid -r B-xmlnatifs -x C-goldxmltei/ -e xml > eval_via_B.tab
 	# eval_xml_refbibs_tei.pl -x ZZ-evalxmltei/ -r C-goldxmltei/ -e references.tei.xml -n > eval_via_C-tei.tab
 	
-	print("LOG des sous-dossiers data/.\n%s" % a_corpus_obj.fulltextsh())
-	
-	print("BAKO: all tasks successful for '%s' corpus" % a_corpus_obj.name)

@@ -71,8 +71,6 @@ import rag_xtools # str_escape, strip_inner_tags, glance_xbib,
 # mes procédures
 import rag_procedures  # find_bib_zone, link_txtlines_with_xbibs
 
-
-
 # --------------------------------------------------------
 # --------------------------------------------------------
 # my global vars
@@ -97,7 +95,8 @@ FLAG_STD_MAP = False
 # said endings 1,2,3 (if present) for label retrieval
 # utilise l'attribut "n" quand il est présent
 # (dans la feuille elsevier il reprenait value-of sb:label)
-LABELS = []
+
+LABELS = []   # £TODO global var mais pas constante => pb?
 
 # --------------------------------------------------------
 # --------------------------------------------------------
@@ -599,7 +598,11 @@ def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 	return(matchlist, remainder_str)
 
 
-def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
+
+# NB ici model_type est utilisé seulement dans le cas label
+def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfields', do_mask=False, 
+                      debug_lvl=0):
+
 	"""Matches field info in raw txt string
 	   returns(output_xml_string, success_bool)
 	   
@@ -659,6 +662,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	                                          |
 	                                 return(newxml, warnings)
 	"""
+	
 	# vérification des arguments
 	if subtrees is None and label == "":
 		raise ValueError("match_fields()"
@@ -669,7 +673,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		just_label = False
 	
 	# - log -
-	if debug >= 2 :
+	if debug_lvl >= 2 :
 		print("MATCH_FIELDS:"+"="*50, file=sys.stderr)
 		
 		# rappel input XML
@@ -679,7 +683,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			for subtree in subtrees:
 				xmlentry = rag_xtools.glance_xbib(subtree)
 				print("XML entry:", xmlentry
-				   + "\ncontenus texte xmlbib %i" % j, file=sys.stderr)
+				   + "\ncontenus texte xmlbib", file=sys.stderr)
 				# affiche élément XML pretty
 				print(etree.tostring(subtree, pretty_print=True).decode("ascii")
 				   + ("-"*50), file=sys.stderr)
@@ -741,7 +745,8 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		#                  - récup texte d'attrs au lieu de contenus
 		toklist += biblStruct_elts_to_match_tokens(
 		                   subelts, 
-		                     model=args.model_type, debug=debug)
+		                     model=model_type, 
+		                       debug=debug_lvl)
 		
 		# - - - - - - -
 		# OFF/ méthode 2 générique (remettra tj le même tag qu'en entrée)
@@ -753,7 +758,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
 		
-		if debug >= 1:
+		if debug_lvl >= 1:
 			print("\nTOKLIST", toklist, file=sys.stderr)
 	
 	
@@ -779,7 +784,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		my_path = None
 
 		# debug
-		if debug >= 3:
+		if debug_lvl >= 3:
 			print("xtok",l,tok, file=sys.stderr)
 		
 		# sanity check A : the xmlstr we just found
@@ -806,7 +811,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 		# --------------------------------------------------------------
 		
 		#debg
-		if debug >= 3:
+		if debug_lvl >= 3:
 			print ("\t%i match" % n_matchs, "(req)" if tok.req else "", file=sys.stderr)
 		
 		# 4) on traite le succès ou non du match -----------------  
@@ -816,7 +821,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			if tok.req:
 				# problème
 				unrecognized = True
-			if debug >= 2:
+			if debug_lvl >= 2:
 				print("WARN: no raw match for XToken '%s' (%s) aka re /%s/ (required = %s)" %
 						 (tok.xtexts, tok.relpath, tok.re.pattern, tok.req),
 						 file=sys.stderr)
@@ -833,10 +838,10 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			
 			continue
 		
-		# si deux matchs => :/       (ex: date or city?)
+		# si deux matchs => :/       (ex: volume or label?)
 		# we choose arbitrarily one of the 2 matches TODO better
 		elif n_matchs == 2:
-			if debug >= 1:
+			if debug_lvl >= 1:
 				print("WARN: '%s' (%s) matched twice => choosing randomly" %
 						 (tok.xtexts, tok.relpath),
 						 file=sys.stderr)
@@ -872,7 +877,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			
 			
 			# ----------------------------------8<----------------------
-			if args.debug >= 1 :
+			if debug_lvl >= 1 :
 				# au passage stat comparaison facultative:
 				# chaines à erreurs OCR <=> chaines corrigées
 				if tok.multimode == False and le_match != tok.xtexts:
@@ -904,7 +909,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 	
 	# si l'utilisateur ne veut que le masque 
 	# (aka remainder : tout sauf les matchs, sans post-traitements)
-	if args.mask:
+	if do_mask:
 		new_xml = remainder
 	
 	# sinon cas normal
@@ -931,7 +936,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 						   output)
 		
 		# cas 2 : sélection de la partie auteurs seule
-		elif args.model_type == "authornames":
+		elif model_type == "authornames":
 			au_str = None
 			# cette version marche uniquement par regexp sur *names...
 			# £TODO utiliser plutôt les 2 niveaux de markup
@@ -969,7 +974,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", debug=0):
 			new_xml = "<authors>"+au_str+"</authors>"   # ?TODO editors idem ?
 		
 		# cas 3 : bibfields (modèle grobid = "citations")
-		elif args.model_type == "bibfields":
+		elif model_type == "bibfields":
 			
 			# correctif label  => TODO à part dans une matcheuse que pour label?
 			# ---------------
@@ -1022,6 +1027,7 @@ class XTokinfo:
 	  '1' : ['1', 'l', 'I'],
 	  '2' : ['2', 'E'],
 	  '5' : ['S', '5'],
+	  '8' : ['8', 'B'],
 	  'a' : ['a', 'u', 'n'],
 	  'b' : ['b', 'h'],
 	  'ä' : ['ä', 'a', 'g', 'L'],
@@ -1035,7 +1041,7 @@ class XTokinfo:
 	  'h' : ['h', 'b'],
 	  'i' : ['i', ';', 'l'],
 	  'l' : ['1', 'l', 'i','I', ']', '/', 'Z'],
-	  'm' : ['m', 'rn', 'nn'],   # comment faire les règles inverses 2->1 :/ ?
+	  'm' : ['m', 'rn', 'nn', 'ni'],#commentfairelesrèglesinverses 2->1 :/ ?
 	  'n' : ['n', 'rt', 'll'],
 	  'o' : ['o', 'c'],
 	  'ø' : ['ø', 'o'],
@@ -1044,6 +1050,7 @@ class XTokinfo:
 	  'ü' : ['ü', 'u', 'ii', 'ti', 'fi'],
 	  'v' : ['v', 'y'],
 	  'y' : ['y', 'v'],
+	  'B' : ['B', '8'],
 	  'D' : ['D', 'I)'],
 	  'E' : ['E', 'B'],
 	  'F' : ['F', 'E'],
@@ -1056,7 +1063,7 @@ class XTokinfo:
 	  'Y' : ['Y', 'V'],
 	  'β' : ['β', '[3', 'b', 'fl'],
 	
-	  #~ '.' : ['.', ','],       # risque de choper un séparateur en trop
+	  #~ '.' : ['.', ','],       # risque d'attraper un séparateur en trop
 	  '·' : ['.', '·'],
 	  '—' : ['—', '--', '-'],
 	  '"' : ['"','“','”','‟'],
@@ -1219,7 +1226,7 @@ class XTokinfo:
 	# =================================================
 	# préparation d'une regexp pour un *string* donné
 	#          (ne pas tenir compte du self)
-	def str_pre_regexp(self, anystring):
+	def str_pre_regexp(self, anystring, debug_lvl = 0):
 		""""Just" the raw regexp string to use later within captures etc
 		     |
 		     |-> escaped
@@ -1315,7 +1322,7 @@ class XTokinfo:
 				# ====re_str==== (?=.{19,22})(?:O|0))[-¤ ]{0,3}x[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:d|cl)[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}t[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:o|c)[-¤ ]{0,3}n[¤ ]{0,2}(?:o|c)[-¤ ]{0,3}(?:f|t)[¤ ]{0,2}M[-¤ ]{0,3}(?:e|c)[-¤ ]{0,3}t[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}(?:1|l|i|I|\]|\/|Z)[-¤ ]{0,3}s
 			
 			
-		if args.debug >= 3 :
+		if debug_lvl >= 3 :
 			print("pre_regexp:", file=sys.stderr)
 			print("\t=x_str=", anystring, file=sys.stderr)
 			print("\t=re_str=", my_re_str, file=sys.stderr)
@@ -1394,8 +1401,9 @@ def run(the_model_type = "bibzone",
 		the_pdfin  = None ,        # chemin fichier PDF
 		the_txtin  = None ,        # chemin fichier TXT
 		the_xmlin  = None ,        # chemin fichier XML
-		checklist  = None ,
-		debug_lvl = False
+		do_mask    = False,
+		checklist  = [True, True, True],
+		debug_lvl = 0
 		):
 	"""
 	Full run mis dans une fonction pour appel plus commode.
@@ -1577,10 +1585,7 @@ def run(the_model_type = "bibzone",
 
 	print ("N lignes: %i" % npl, file=sys.stderr)
 
-
-
-
-
+	
 	# """ coeur du main
 	#     -------------
 	#    on a un doc XML structuré et un PDF ou un texte issu de PDF non-structuré 
@@ -1831,7 +1836,8 @@ def run(the_model_type = "bibzone",
 							(this_line_wlabel, success) = match_fields(
 														this_line,
 														label = xlabel,
-														debug = debug_lvl -1,
+														debug_lvl = debug_lvl -1,
+														model_type = the_model_type
 													   )
 							# -------------------8<-------------------------
 							
@@ -1998,7 +2004,9 @@ def run(the_model_type = "bibzone",
 													group_of_real_lines,
 													subtrees = [this_xbib],
 													label   = xlabel,
-													debug   = debug_lvl
+													debug_lvl   = debug_lvl,
+													# bibfields
+													model_type = the_model_type
 												   )
 						#~ if not success:
 							#~ print("BIBFIELDS NO SUCCESS", file=sys.stderr)
@@ -2147,7 +2155,9 @@ def run(the_model_type = "bibzone",
 						(authors_str, success) = match_fields(
 													my_work_line,
 													subtrees = au_groups,
-													debug   = debug_lvl
+													debug_lvl = debug_lvl,
+													# authornames
+													model_type = the_model_type,
 												   )
 						
 						# update 3è slot checklist pour filtrage erreurs
@@ -2223,7 +2233,6 @@ def run(the_model_type = "bibzone",
 ###############################################################
 
 if __name__ == "__main__":
-
 	# diagnostic
 	# ===========
 	# les bools de la checkliste de diagno
@@ -2235,6 +2244,7 @@ if __name__ == "__main__":
 	# ====================
 	parser = prepare_arg_parser()
 	args = parser.parse_args(sys.argv[1:])
+
 
 	# défault pdfin
 	if args.pdfin == None and args.txtin == None :
@@ -2262,6 +2272,7 @@ if __name__ == "__main__":
 				the_pdfin      = args.pdfin,
 				the_txtin      = args.txtin,
 				the_xmlin      = args.xmlin,
+				do_mask        = args.mask,
 				checklist = hope,
 				debug_lvl     = args.debug,
 			)
