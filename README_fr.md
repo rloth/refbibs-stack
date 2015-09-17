@@ -88,12 +88,10 @@ route=processReferencesViaUrl
 [output]
 dir=output_bibs.dir
 tei_ext=.refbibs.tei.xml
-# if grouped output
 corpusfile=output_bibs.teiCorpus.xml
 
 [process]
-# max = ncpu of grobid-service
-ncpu=9
+service-ncpu=9
 
 ```
 
@@ -105,7 +103,7 @@ La section `[grobid-service]` permet au client **de récupérer les résultats T
 
 La section `[output]` permet à l'utilisateur de changer le nom des fichiers sauvegardés en sortie.
 
-La section `[process]` contient le paramètre ncpu (nombre de requêtes simultanées envoyées par le client).
+La section `[process]` contient le paramètre service-ncpu (nombre de requêtes simultanées optimales acceptées par le service, a ajuster en fonction du paramètre correspondant sur le serveur, sous grobid-home/config/grobid.properties => org.grobid.max.connections).
 
 Contacts
 ---------
