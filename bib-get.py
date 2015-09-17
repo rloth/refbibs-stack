@@ -7,13 +7,13 @@ Client for bibliographical annotator grobid-service
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2015 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.3"
+__version__   = "0.5"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Integration"
 
 # TODO search with proxy transmettre params de conf => gro
 from sys             import argv, stderr
-from os              import path, makedirs, remove
+from os              import path, mkdir, remove
 from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 from configparser    import ConfigParser
 from tempfile        import NamedTemporaryFile
@@ -24,11 +24,15 @@ from urllib.parse    import quote
 from urllib.request  import urlopen
 from urllib.error    import HTTPError, URLError
 
+# Pool pour le traitement multitache lui-même
 from multiprocessing import Pool
 
-from datetime        import datetime
-from lxml            import etree    # pour lecture des configs models
+# + Value et Lock et c_int pour le compteur global
+from multiprocessing import Value, Lock
+from ctypes          import c_int
 
+from datetime        import datetime
+from lxml            import etree    # pour lecture des infos de modèles
 
 # for identification of empty returns
 void_listBibl = compile(r"<listBibl>[\n\s]+</listBibl>", MULTILINE)
@@ -97,15 +101,6 @@ An ISTEX client for grobid-service, the bibliographical annotator.
 		default=False,
 		required=False,
 		action='store_true') # bool
-	
-	# éventuellement todo implémenter avec fichiers locaux
-	#parser.add_argument('-d','--dirglob_in',
-	#	metavar='mes_docs_locaux/*.pdf',
-	#	help='a local input: a list of local documents as a filesystem "glob expression" (glob expr = troncature avec "jokers" comme *)',
-	#	type=str,
-	#	required=False,
-	#	action='store')
-	
 	
 	args = parser.parse_args(argv[1:])
 	
@@ -187,7 +182,7 @@ def api_search(q, limit=None):
 	count_url = base_url + '&size=1'
 	json_values = get(count_url)
 	n_docs = int(json_values['total'])
-	print('%s documents found' % n_docs, file=stderr)
+	print('%s documents trouvés' % n_docs, file=stderr)
 	
 	# limitation éventuelle fournie par le switch --maxi
 	if limit is not None:
@@ -213,7 +208,7 @@ def api_search(q, limit=None):
 	
 	else:
 		# requêtes paginées pour les tailles > 5000
-		print("Collecting result hits... ", file=stderr)
+		print("Récupération des IDS et métadonnées... ", file=stderr)
 		local_counter = 0
 		for k in range(0, n_docs, 5000):
 			print("%i..." % k, file=stderr)
@@ -236,23 +231,49 @@ def api_search(q, limit=None):
 
 def seconds_to_pstr(sec):
 	"""
+	seconds => human readable delay string
+	
+	NB: arrondis de + en + grands
+	     plus d'une minute => à 10 secondes près
+	     plus d'une heure  => à 2 min près
+	     plus d'un jour    => à 20 min près
+	
 	Ex:
 	25     => '25s'
+	70     => '1m10s'
+	72     => '1m10s'
+	80     => '1m20s'
 	350    => '5m50s'
-	222222 => '61h45m'
+	72500  => '20h08m'
+	72600  => '20h10m'
+	223859 => '62h00m'
+	223860 => '62h20m'
 	"""
 	
 	sec = int(sec)
 	m, s = divmod(sec, 60)
 	h, m = divmod(m, 60)
 	
+	# print(h, m, s)
+	
 	if sec < 60:
 		return str(sec)+'s'
-	# NB: arrondis légers pour chiffres ronds
-	elif sec > 3600:
-		return "%dh%02dm" % (h, 5*round(m/5))
+	elif sec >= 60 and sec < 3600:
+		if s < 55:
+			return "%im%02is" % (m, 10*round(s/10))
+		# threshold case where local rounding influences upper unit (=> minutes + 1)
+		else:
+			return "%sm00s" % str(m+1)
+	elif sec >= 3600 and sec < 86400:
+		if m < 59:
+			return "%ih%02im" % (h, 2*round(m/2))
+		else:
+			return "%sh00m" % str(h+1)
 	else:
-		return "%dm%02ds" % (m, 10*round(s/10))
+		if m < 50:
+			return "%ih%02im" % (h, 20*round(m/20))
+		else:
+			return "%sh00m" % str(h+1)
 
 
 
@@ -321,7 +342,6 @@ def get_grobid_bibs_on_api_docs(istex_id):
 	# requête à envoyer à grobid
 	get_tei_url = "%s?pdf_url=%s" % (grobid_base, the_pdf_url)
 	
-	
 	try:
 		# interrogation ============================
 		grobid_answer_content = urlopen(get_tei_url)
@@ -331,7 +351,6 @@ def get_grobid_bibs_on_api_docs(istex_id):
 		result = grobid_answer_content.read()
 		grobid_answer_content.close()
 		result_tei = result.decode('UTF-8')
-		
 		
 		# --- post-traitements optionels sur chaque TEI ---------->8-----
 		# on simplifie l'entête avant d'écrire le fichier
@@ -350,7 +369,7 @@ def get_grobid_bibs_on_api_docs(istex_id):
 		
 		# SORTIE > fichier tei individuel  ID.refbibs.tei.xml
 		out_path = path.join(
-							CONF['output']['dir'],
+							outdir,
 							istex_id + CONF['output']['tei_ext']
 						)
 		out_file = open(out_path, 'w')
@@ -361,16 +380,20 @@ def get_grobid_bibs_on_api_docs(istex_id):
 		print ("HTTP error %s on %s: skip" % (e.code, istex_id),
 		        file=stderr)
 	
+	# ++ shared counter with lock
+	increment()
+	if counter.value%500 == 0:
+		print("done: %i" % counter.value)
 
 
 ########################################################################
 ########################################################################
 if __name__ == '__main__':
 	
-	# arguments ligne de commande
+	# -- arguments ligne de commande -------------------------------
 	args = my_parse_args()
 	
-	# lecture de fichier config
+	# -- lecture de fichier config ---------------------------------
 	CONF = ConfigParser()
 	
 	# emplacement par défaut: ./bib-get.ini
@@ -390,12 +413,20 @@ if __name__ == '__main__':
 		print(conf_str)
 		exit(0)
 	
-	# vérification de l'existence du dossier de sortie
-	if not path.isdir(CONF['output']['dir']):
-		print ("Please create the output dir '%s'." % CONF['output']['dir'], file=stderr)
-		exit(1)
+	# -- vérification de l'existence de lieux de sortie ------------
+	timestamp = datetime.now().strftime("%Y-%m-%d_%Hh%M")
 	
-	# vérification de la connectivité avec un service grobid
+	outdir = "%s-%s" % (timestamp, CONF['output']['dir'])
+	if not path.isdir(outdir):
+		print ("Création du dossier de sortie '%s'." % outdir, file=stderr)
+		mkdir(outdir)
+	
+	outfile = None
+	if args.group_output:
+		outfile = "%s-%s" % (timestamp, CONF['output']['corpusfile'])
+		print ("Fichier groupé de sortie: '%s'." % outdir, file=stderr)
+	
+	# -- vérification de la connectivité avec un service grobid ----
 	gbcf = CONF['grobid-service']
 	gburl = "http://%s:%s" % (gbcf['host'],gbcf['port'])
 	
@@ -403,18 +434,25 @@ if __name__ == '__main__':
 		gb_resp = urlopen(gburl)
 		gb_resp.close()
 	except URLError as url_e:
-		print("No connection with grobid-service. Please check it is running on %s" % gburl)
+		print("Impossible de se connecter au service grobid. Veuillez vérifier qu'il tourne bien sur %s" % gburl)
 		exit(1)
 	
-	print("Connection with grobid-service on %s" % gbcf['host'])
+	print("Connection au service grobid sur #%s#" % gbcf['host'])
 	
-	# liste de travail: grand tableau d'identifiants
-	# (taille RAM: ~ 1GB pour 10 millions de doc)
+	# -- todo list: large ID + meta file ---------------------------
+	# (RAM: ~ 1GB for 10 millions docs)
 	ids_ok = []
 	
+	# -- init global counter ---------------------------------------
+	counter = Value(c_int)  # defaults to 0
+	# borrowed from stackoverflow.com/questions/1233222/
+	counter_lock = Lock()
+	def increment():
+		with counter_lock:
+			counter.value += 1
 	
-	################################################
-	# Mode 1 : an ES query gets us the input IDs
+	# -- input list preparation ------------------------------------
+	#  > Mode 1: an ES query gets us the input IDs
 	if args.query:
 		hit_file_path = api_search(q=args.query, limit=args.maxi)
 		
@@ -439,40 +477,46 @@ if __name__ == '__main__':
 			else:
 				ids_sans_pdf.append(mon_id)
 		
-		print("%s retrieved hits\n  of which %s without pdf" % 
-			(n_got,             len(ids_sans_pdf)), file=stderr)
+		print("%s récupérés\n  dont %s sans pdf" % 
+			  (n_got,           len(ids_sans_pdf)), file=stderr)
 		
 		# fermeture et suppression définitive du fichier tempo
 		hit_file.close()
 		remove(hit_file_path)
 	
-	################################################
-	# Mode 2 : the IDs are provided on external list
-	#          (no checks)
+	#  > Mode 2: the IDs are provided on external list
+	#             (no checks)
 	elif args.list_in:
 		filehandle = open(args.list_in)
 		ids_ok = [line.rstrip() for line in filehandle]
 		filehandle.close()
-	#######
 	
-	n_docs = len(ids_ok)
+	# -- runtime details -------------------------------------------
 	
+	# basic info
+	n_docs       = len(ids_ok)
+	model_names  = grobid_models_info()
 	
-	# quelques infos utiles
-	timestamp = datetime.now().strftime("%Y-%m-%d_%Hh%M")
-	model_names = grobid_models_info()
-	group_switch = "OUI dans mon.teiCorpus.xml" if args.group_output else "NON"
-	print('---\nRUN INFOS:')
+	# estimated processing time = n_docs / (ncpu * avg_docs_per_sec_per_cpu)
+	estim_ptime = n_docs/(int(CONF['process']['service-ncpu']) * 1.025)
+	
+	# output format details
+	out_mode = None
+	if args.group_output:
+		out_mode = "1 grand fichier groupé \n                     > %s-output_bibs.teiCorpus.xml" % timestamp
+	else:
+		out_mode = "1 fichier par document \n                     > %s-output_bibs_dir/* " % timestamp
+	
+	print('--------------------------')
+	print('    R U N    I N F O S')
+	print('--------------------------')
 	print('-> %s document%s à traiter' % (n_docs, "s" if n_docs !=1 else ""))
-	print("-> regroupement teiCorpus:   %s" % group_switch)
 	print("-> modèles de balisage: \n    %s" % "\n    ".join(model_names))
-	print("-> timestamp : %s" % timestamp)
-	print("-> temps de traitement approx: %s" % seconds_to_pstr(n_docs/9))
-	print("---")
+	print("-> type de sortie:   %s" % out_mode)
+	print('--------------------------')
+	print("TEMPS DE TRAITEMENT APPROXIMATIF: %s" % seconds_to_pstr(estim_ptime))
 	
-	# dans tous les cas : traitement de la liste ids_ok
-
-	
+	# ask user for approval before run
 	if args.yes:
 		utilisateur = "y"
 	else:
@@ -480,10 +524,20 @@ if __name__ == '__main__':
 	
 	if utilisateur in ['y', 'Y', 'yes']:
 		
-		# lancement
+		# dans tous les cas: traitement de la liste ids_ok
 		
-		# ===== get_grobid_bibs_on_api_docs() en parallèle =============
-		process_pool = Pool(int(CONF['process']['ncpu']))
+		# lancement ################################
+		
+		# NB : le lancement en parallèle sur ncpu processus
+		#      est à dimensionner selon les processeurs alloués
+		#      au grobid-service plutôt que ceux de la machine client !!!
+		#
+		#    Par exemple si j'ai ncpu = 5 sur le grobid-service et
+		#    seulement 2 processeurs sur la machine client, je mets
+		#    service-ncpu = 5 dans la config !!!
+		
+		# ===== get_grobid_bibs_on_api_docs()  =============
+		process_pool = Pool(int(CONF['process']['service-ncpu']))
 		process_pool.map(get_grobid_bibs_on_api_docs, ids_ok)
 		process_pool.close()
 		# ==================================================
@@ -495,11 +549,19 @@ if __name__ == '__main__':
 	
 	# a posteriori: optional concatenation of XMLs >> TEICorpus
 	if args.group_output:
-		teico = open("mon.teiCorpus.xml", "w")
+		
+		model_infos = "models:" + "/".join(model_names)
+		source_infos = None
+		if args.list_in:
+			source_infos = "%s documents obtenus par liste d'identifiants préparé (sous %s)" % (n_docs, args.list_in)
+		else:
+			source_infos = "%s documents obtenus par requête sur l'API ISTEX (q=%s)" % (n_docs, args.query)
+		
+		teico = open(outfile, "w")
 		# un header pour tous
 		global_header = """<?xml version="1.0" encoding="UTF-8" ?>
 <teiCorpus xml:id="%s">
- <teiHeader>
+ <teiHeader type="corpus">
   <fileDesc>
    <titleStmt>
     <respStmt>
@@ -509,6 +571,7 @@ if __name__ == '__main__':
        %s
      </name>
     </respStmt>
+    <extent>%s</extent>
    </titleStmt>
    <publicationStmt>
     <distributor>ISTEX</distributor>
@@ -516,19 +579,14 @@ if __name__ == '__main__':
   </fileDesc>
  </teiHeader>""" % ("refbibs-enrich-"+timestamp,
                     __version__,
-                    timestamp
-                    +  "\n       models:" 
-                    + "/".join(model_names))
+                    model_infos, source_infos)
 		print(global_header, file=teico)
 		for idi in ids_ok:
-			this_path = path.join(
-							CONF['output']['dir'],
-							idi + CONF['output']['tei_ext']
-						)
+			this_path = path.join(outdir, idi+CONF['output']['tei_ext'])
 			try:
 				this_tei = open(this_path, 'r')
 			except FileNotFoundError as fnfe:
-				# ECRITURE <TEI/> VIDE SI DOCUMENT ABSENT
+				# ECRITURE BALISE <TEI/> VIDE SI DOCUMENT ABSENT
 				print(" <TEI xml:id=\"istex-%s\"/>" % idi, file=teico)
 				continue
 			# COPIE SI DOCUMENT PLEIN
@@ -542,10 +600,8 @@ if __name__ == '__main__':
 		teico.close()
 		
 		print("OK:")
-		print("  teiCorpus créé avec succès ---> mon.teiCorpus.xml")
-		print("  (Le dossier mes_sorties_bib_tei)")
-		print("  (peut dorénavant être supprimé.)")
+		print("  teiCorpus créé avec succès ----> %s" % outfile)
+		print("  (le dossier %s peut dorénavant être supprimé)" % outdir)
 		
 		# il n'est pas nécessaire de garder le dossier des
-		# tei individuels, mais il pourrait être dangereux
-		# de le supprimer
+		# tei individuels
