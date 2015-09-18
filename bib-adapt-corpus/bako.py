@@ -201,6 +201,9 @@ def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=No
 	
 	cobj.assert_fulltexts('GTEI')
 	
+	# persistence du statut des 3 dossiers créés
+	cobj.save_shelves_status()
+	
 	# we return the new filled corpus for further work or display
 	return cobj
 
@@ -250,6 +253,9 @@ def make_trainers(cobj, model_types=None, just_rag=False):
 		# =================(2/2) better training pTEIs =========
 		cobj.construct_training_tei(tgt_model)
 		# ======================================================
+	
+	# persistence du statut des différents dossiers trainers créés
+	cobj.save_shelves_status()
 	
 	# nouveau paquet (corpus+model_type) prêt pour make_training
 	return cobj
@@ -314,13 +320,16 @@ if __name__ == '__main__':
 	
 	if len(inname):
 		# todo ttype="gold" (défaut) ou "train" ?
-		a_corpus_obj = make_set(corpus_name = inname.rstrip() , size = 10)
+		a_corpus_obj = make_set(corpus_name = inname.rstrip() , size = 15)
 	
 	else:
 		print("mode lecture ==> futur take_set() sur %s")
-		a_corpus_obj = Corpus("truc", read_dir="corpora/truc")
-
-	input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
+		a_corpus_obj = Corpus("nv", read_dir="corpora/nv")
+	
+	
+	#~ exit()
+	
+	#~ input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
 	
 	# par défaut: avec les modèles de local_conf.ini['training']
 	make_trainers(a_corpus_obj)
@@ -333,7 +342,7 @@ if __name__ == '__main__':
 	# make_training  /model_type/ /sample/ <=> ci-dessus _call_grobid_trainer
 	# ----------------
 	
-	print("BAKO: all tasks successful for '%s' corpus" % a_corpus_obj.name)
+	print("BAKO: all tasks DONE for '%s' prepared corpus" % a_corpus_obj.name)
 	print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
 	for this_shelf in a_corpus_obj.fulltextsh():
 		print("  - %s" % SHELF_NAMES[this_shelf])

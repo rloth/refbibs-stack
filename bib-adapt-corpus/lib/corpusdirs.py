@@ -43,7 +43,7 @@ SHELF_STRUCT = {
 	# basic set --------------------------------------
 	'PDF0' : {'d':'A-pdfs',       'ext':'.pdf'},
 	'XMLN' : {'d':'B-xmlnatifs',  'ext':'.xml'},
-	'GTEI' : {'d':'C-goldxmltei', 'ext':'.xml'},   # TODO modifier pub2goldtei pour qu'il écrive des tei.xml
+	'GTEI' : {'d':'C-goldxmltei', 'ext':'.tei.xml'},
 	# ------------------------------------------------
 	
 	# bibzone = segmentation -------------------------
@@ -213,9 +213,7 @@ ERROR -- Corpus(__init__ from dir):
 			# initialize shelfs from meta shelf_triggers.json
 			try:
 				triggrs = open(trig_path,'r')
-				print('INITSH', self.shelfs)
 				self.shelfs = load(triggrs)     # json.load
-				print('INITSH', self.shelfs)
 				triggrs.close()
 			# or old way: initialize shelfs from subdir presence
 			except:
@@ -226,9 +224,7 @@ ERROR -- Corpus(__init__ from dir):
 					else:
 						self.shelfs[shname] = False
 				# this time we save it
-				triggrs = open(trig_path,'w')
-				dump(self.shelfs, triggrs)     # json.dump
-				triggrs.close()
+				self.save_shelves_status()
 		
 		else:
 			# initialize empty
@@ -381,11 +377,23 @@ ERROR -- Corpus(__init__ from dir):
 		if shname in SHELF_STRUCT:
 			self.shelfs[shname] = True
 	
+	def save_shelves_status(self):
+		"""
+		Persistance for asserted shelves
+		"""
+		trig_path = path.join(self.cdir,'meta','shelf_triggers.json')
+		triggrs = open(trig_path,'w')
+		dump(self.shelfs, triggrs)     # json.dump
+		triggrs.close()
+	
 	def fulltextsh(self):
 		"""
 		The list of present fulltexts shelves.
 		"""
-		return [sh for sh, bol in self.shelfs.items() if bol]
+		
+		all_sorted = sorted(SHELF_STRUCT, key=lambda x:SHELF_STRUCT[x]['d'])
+		got_shelves = [sh for sh in all_sorted if self.shelfs[sh]]
+		return got_shelves
 	
 	
 	# ------------------------------------------------------------
@@ -495,12 +503,22 @@ ERROR -- Corpus(__init__ from dir):
 			"-xsl:%s" % p2t_path,
 			"-s:%s" % xml_dirpath,
 			"-o:%s" % gtei_dirpath,
-			"-warnings:'silent'",
-			"teiBiblType='biblStruct'"   # notre param pour les gold
+			# notre param pour les gold
+			"teiBiblType=biblStruct",
+			# éviter les simples quotes dans l'arg
 			]
+			
+			# debug
+			# print("XSLdbg: appel=%s" % call_args)
 			
 			# subprocess.call -----
 			retval= call(call_args)
+			
+			# renommage en .tei.xml comme attendu par fileids()
+			for fid in self.bnames:
+				move(path.join(gtei_dirpath, fid+'.xml'),
+				     path.join(gtei_dirpath, fid+'.tei.xml'))
+			
 		return retval
 
 	# -----------------------------------------------------------------
@@ -586,6 +604,9 @@ ERROR -- Corpus(__init__ from dir):
 			# temporary output_dir, elle aussi commune aux deux formes
 			temp_dir_out = path.join(self.cdir, "temp_raws_%s" % tgt_model)
 			
+			if not path.exists(temp_dir_out):
+				mkdir(temp_dir_out)
+				print("TMP: création dossier %s" % temp_dir_out)
 			
 			
 			grobid_prepare_args = ["java", "-jar",  my_jar_path,
@@ -603,27 +624,27 @@ ERROR -- Corpus(__init__ from dir):
 			# subprocess.call ++++++++++++++++++++++ appel système
 			gb_errs = check_output(grobid_prepare_args, stderr=STDOUT)
 			
-			# print("GB:STDERR", gb_errs)
+			print("GB:STDERR", gb_errs)
 			
 			print("%s ok... storing new docs in trainer dirs:" % tgt_model)
 			
 			# a posteriori
 			for shelf in self.PREP_TEI_FROM_TXT[tgt_model]['tgt_shelves']:
-					shdir = self.shelf_path(shelf)
-					shext = SHELF_STRUCT[shelf]['ext']
-					
-					if not path.exists(shdir):
-							mkdir(shdir)
-					
-					# vérif et rangement
-					for bn in self.bnames:
-							just_created = path.join(temp_dir_out, bn+shext)
-							tgt_in_shelf = path.join(shdir, bn+shext)
-							if not path.exists(just_created):
-									print("WARN: doc %s not done for model %s (skip)"
-												  % (bn, tgt_model) )
-							else:
-									move(just_created, tgt_in_shelf)
+				shdir = self.shelf_path(shelf)
+				shext = SHELF_STRUCT[shelf]['ext']
+				
+				if not path.exists(shdir):
+					mkdir(shdir)
+				
+				# vérif et rangement
+				for bn in self.bnames:
+					just_created = path.join(temp_dir_out, bn+shext)
+					tgt_in_shelf = path.join(shdir, bn+shext)
+					if not path.exists(just_created):
+						print("WARN: doc %s not done for model %s (skip)"
+							  % (bn, tgt_model) )
+					else:
+						move(just_created, tgt_in_shelf)
 					
 					# on signale qu'on a réussi #£TODO test poussé
 					self.assert_fulltexts(shelf)
@@ -640,18 +661,18 @@ ERROR -- Corpus(__init__ from dir):
 				shtodir = self.shelf_path(shto)
 					
 				if not path.exists(shtodir):
-						mkdir(shtodir)
+					mkdir(shtodir)
 				
 				# lecture "from", transfo vers "to"
 				for bn in self.bnames:
-						new_shfrom = path.join(temp_dir_out, bn+shfrom_ext)
-						tgt_in_shto = path.join(shtodir, bn+shto_ext)
-						if not path.exists(new_shfrom):
-								print("WARN: doc %s not done for model %s (skip)"
-											  % (bn, tgt_model) )
-						# sauvegarde >> .shto.rawtxt
-						else:
-								_strip_tei_save_txt(new_shfrom, tgt_in_shto)
+					new_shfrom = path.join(temp_dir_out, bn+shfrom_ext)
+					tgt_in_shto = path.join(shtodir, bn+shto_ext)
+					if not path.exists(new_shfrom):
+						print("WARN: doc %s not done for model %s (skip)"
+								  % (bn, tgt_model) )
+					# sauvegarde >> .shto.rawtxt
+					else:
+						_strip_tei_save_txt(new_shfrom, tgt_in_shto)
 		
 				# on signale aussi qu'on a réussi
 				self.assert_fulltexts(shto)
@@ -683,7 +704,7 @@ ERROR -- Corpus(__init__ from dir):
 	                    (conversion en exemplaires directe, à part)
 		"""
 		
-		just_rag = True   # <--------- config/expé ?
+		just_rag = False   # <--------- config/expé ?
 		
 		print("******** PREPARATION specTEI pour %s ********" % tgt_model)
 		
@@ -709,6 +730,24 @@ ERROR -- Corpus(__init__ from dir):
 				# possibilité: 
 				# appel Pub2TEI  param teiBiblType fixé à 'bibl'
 				# _tei_trainerlike_substitution(une_tei_lue, modele_visé)
+				
+				print("TODO cas trainerlike")
+				#    c'est possible grace au produit des feuilles trainerlike
+				#     => pour le modèle citations
+				#         - supprimer tous les sauts de ligne interne
+				#         - supprimer @rend='LB et LABEL'
+				#         - supprimer @rend='DEL'
+				#         - grouper @rend='GRP'
+				#         - grouper les pages ET leur délimiteur non parsé
+				#         - remplacer @unit par @type dans les biblScope
+				#     => pour le modèle authornames
+				#         - ne garder que chaque groupe auteur ou éditeur
+				#         - garder les DEL
+				#     
+				#     NB pour le modèle refseg ce serait aussi envisageable
+				#         - juste LABELS si présents, et tout le reste groupé 
+				#           sauf rend=LB
+				#         - mais actuellement pas alignable sur tokens...  
 				pass
 			
 			# ici: modèles à rawtokens et/ou choix just_rag
@@ -728,9 +767,10 @@ ERROR -- Corpus(__init__ from dir):
 				
 				my_train_tei_path = self.fileid(bname, tgt_tei_shelf)
 				
+				# écriture de chaque ligne ragrégée
 				ttei_xml = open(my_train_tei_path, 'w')
 				for tline in line_gen:
-					ttei_xml.write(tline+"\n")  # todo vérifier newline
+					ttei_xml.write(tline+"\n")
 				ttei_xml.close()
 			
 			self.assert_fulltexts(tgt_tei_shelf)
