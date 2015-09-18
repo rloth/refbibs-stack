@@ -49,7 +49,7 @@ __author__      = "R. Loth"
 __status__      = "Development"
 __version__     = "1.0"
 
-# TODO bug sur la valeur des labels quand il y en a: crochets échappés ?
+# TODO bug sur la valeur des readed_label quand il y en a: crochets échappés ?
 
 # IMPORTS
 # =======
@@ -73,7 +73,7 @@ import rag_procedures  # find_bib_zone, link_txtlines_with_xbibs
 
 # --------------------------------------------------------
 # --------------------------------------------------------
-# my global vars
+# my global CONSTANTS
 
 # namespace
 NSMAP = {'tei': "http://www.tei-c.org/ns/1.0"}
@@ -86,17 +86,6 @@ re_TOUS = re.compile(r'\w+|[^\w\s]')  # => limites: chaque \b et chaque cara iso
 re_CONTENUS = re.compile(r'\w+')
 re_PONCT = re.compile(r'[^\w\s]')
 
-
-# each diagnostic whether the xml:ids end with 1,2,3... 
-# (TODO: autres diagnostics :
-#     -> absents, non numériques, consécutifs avec début != 1 etc)
-FLAG_STD_MAP = False
-
-# said endings 1,2,3 (if present) for label retrieval
-# utilise l'attribut "n" quand il est présent
-# (dans la feuille elsevier il reprenait value-of sb:label)
-
-LABELS = []   # £TODO global var mais pas constante => pb?
 
 # --------------------------------------------------------
 # --------------------------------------------------------
@@ -172,9 +161,9 @@ def prepare_arg_parser():
 	
 	return parser
 
-def get_xlabels(xbibs):
+def get_xreaded_label(xbibs):
 	""" Takes an array of xml biblStruct elements
-	    and reports their labels of 2 kinds: numbers and QName ids
+	    and reports their readed_label of 2 kinds: numbers and QName ids
 	"""
 	
 	# our array length
@@ -213,9 +202,13 @@ def get_xlabels(xbibs):
 			# par ex: 1,2 ou 3 dans DDP278C1 DDP278C2 DDP278C3
 			postfix_num_match = re.search(r"[0-9]+$", thisbib_id)
 			
+			# todo pour les cas comme "1.", "2." 
+			# => re.search(r"([0-9]+)[^0-9]*$")
+			#    avec match.group(1)
+			
 			if postfix_num_match:
 				thisbib_no_str = postfix_num_match.group(0)
-				thisbib_no_int = postfix_num_match.group(0)
+				thisbib_no_int = int(postfix_num_match.group(0))
 			else:
 				# rien trouvé pour le no: on mettra None dans xml_nos_map
 				thisbib_no_str = None
@@ -227,7 +220,7 @@ def get_xlabels(xbibs):
 			thisbib_no_str = None
 			thisbib_no_int = None
 		
-		# stockage des labels/bibids trouvés
+		# stockage des readed_label/bibids trouvés
 		# -----------------------------------
 		xml_ids_map[j] = thisbib_id
 		xml_no_strs_map[j] = thisbib_no_str
@@ -236,13 +229,13 @@ def get_xlabels(xbibs):
 
 	# check consecutivity
 	# (ce diagnostic pourrait aussi être fait dès la boucle) 
-	FLAG_STD_MAP = True # temporaire
+	flag_std_map = True # temporaire
 	for j, no in enumerate(xml_no_ints_map):
 		if (no is None) or (int(no) != j+1):
-			FLAG_STD_MAP = False
+			flag_std_map = False
 	
 	
-	return (xml_ids_map, xml_no_strs_map, xml_no_ints_map, FLAG_STD_MAP)
+	return (xml_ids_map, xml_no_strs_map, xml_no_ints_map, flag_std_map)
 
 
 
@@ -709,7 +702,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 	if just_label:
 		# ajout du label en 1er token
 		toklist = [XTokinfo(s=str(label),xip="label", req=False)]
-		#~ print ("cherchons le label %s avec la toklist %s" % (label,toklist))
+		# print ("cherchons le label %s avec la toklist %s" % (label,toklist))
 	
 	# sinon tous les autres tokens:
 	else:
@@ -928,7 +921,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 		# ----------------
 		# cas 1 : si mode label seul (quelquesoit le model_type courant)
 		if just_label:
-			# les labels sont souvents des attributs n=int mais
+			# les readed_label sont souvents des attributs n=int mais
 			# dans le corpus d'entraînement on les balise avec leur ponct
 			# ex: "[<label>1</label>]"  ==> "<label>[1]</label>"
 			new_xml = re.sub("\[<label>(.*?)</label>\]",
@@ -978,7 +971,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 			
 			# correctif label  => TODO à part dans une matcheuse que pour label?
 			# ---------------
-			#   Les labels sont souvents des attributs n=int mais
+			#   Les readed_label sont souvents des attributs n=int mais
 			#   dans le corpus d'entraînement on les balise avec leur ponct
 			#   ex: [<label>1</label>]  ==> <label>[1]</label>
 			output = re.sub("\[<label>(.*?)</label>\]",
@@ -1414,9 +1407,22 @@ def run(the_model_type = "bibzone",
 	Sortie anciennement "stdout" renvoyée sur yield pour 
 	impression par le main ou par toute fonction appelante.
 	"""
+	
+	# each diagnostic whether the xml:ids end with 1,2,3... 
+	# (TODO: autres diagnostics :
+	#     -> absents, non numériques, consécutifs avec début != 1 etc)
+	flag_std_map = False
+
+	# said endings 1,2,3 (if present) for label retrieval
+	# utilise l'attribut "n" quand il est présent
+	# (dans la feuille elsevier il reprenait value-of sb:label)
+
+	readed_label = []   # £TODO global var mais pas constante => pb?
+	
+	
 	#    INPUT XML
 	# ================
-	print("LECTURE XML", file=sys.stderr)
+	print("LECTURE XML %s" % the_xmlin, file=sys.stderr)
 
 	parser = etree.XMLParser(remove_blank_text=True)
 	
@@ -1505,19 +1511,19 @@ def run(the_model_type = "bibzone",
 						  # ou: ['pscr214821bib1', 'pscr214821bib2', ...]
 	 xml_no_strs_map,     # ex: ['1.', '2.', ...] ou ['[1]', '[2]', ...]
 	 xml_no_ints_map,     # ex:  [1, 2, ...]
-	 FLAG_STD_MAP         # ex:  True (si consécutifs)
-	 ) = get_xlabels(xbibs)
+	 flag_std_map         # ex:  True (si consécutifs)
+	 ) = get_xreaded_label(xbibs)
 
-	# écriture dans variable globale pour matcher les labels réels en sortie
+	# écriture dans variable globale pour matcher les readed_label réels en sortie
 	# £TODO : sauter les <bibl> et garder uniquement les biblStruct sinon 
 	#         indices décalés => IndexError "list index out of range"
 	for item in xml_no_strs_map:
 		if item is None:
-			LABELS.append(None)
+			readed_label.append(None)
 		else:
 			# remove padding 0s
 			no = re.sub("^0+", "", item)
-			LABELS.append(no)
+			readed_label.append(no)
 
 
 	if debug_lvl >= 1:
@@ -1525,12 +1531,12 @@ def run(the_model_type = "bibzone",
 		if debug_lvl >= 2:
 			print("NOs:", xml_no_ints_map, file=sys.stderr)
 			print("NO_strs:", xml_no_strs_map, file=sys.stderr)
-			if FLAG_STD_MAP:
+			if flag_std_map:
 				print("GOOD: numérotation ID <> LABEL traditionnelle",
 						 file=sys.stderr)
 			else:
 				# todo préciser le type de lacune observée :
-				# (pas du tout de labels, ID avec plusieurs ints, ou gap dans la seq)
+				# (pas du tout de readed_label, ID avec plusieurs ints, ou gap dans la seq)
 				print("WARN: la numérotation XML:ID non incrémentale ou consécutive",
 						 file=sys.stderr)
 
@@ -1604,7 +1610,7 @@ def run(the_model_type = "bibzone",
 	#    >> train.references.tei.xml            (--mode refs)
 	# 
 	# # pour le use case "segmentation" on veut la zone des refbibs
-	# # pour le use case "refseg" on veut les lignes PDF de chaque refbib XML et les labels
+	# # pour le use case "refseg" on veut les lignes PDF de chaque refbib XML et les readed_label
 	# # pour le use case "refs" on veut les champs dans chaque refbib
 	# 
 	# 
@@ -1770,10 +1776,14 @@ def run(the_model_type = "bibzone",
 			n_wbibl = 0
 			
 			# ne pas oublier de rajouter un marqueur fin de lignes après ch. rawlines
+			
+			# £dbg
+			print(readed_label)
+			
 			for i, this_line in enumerate(rawlines):
 				
 				# récup de l'indice XML correspondant à la ligne
-				# NB les indices sont 0-based et les labels souvent 1-based
+				# NB les indices sont 0-based et les readed_label souvent 1-based
 				j_win = winners[i]
 				
 				# lookahead de l'indice suivant
@@ -1787,7 +1797,7 @@ def run(the_model_type = "bibzone",
 					print("-x-x-x-x-biblines-------------x-x-x-x-", file=sys.stderr)
 					print("buffer accumulated size:", accumulated_buff_size, file=sys.stderr)
 					print("j_win:", j_win, "next_win:", next_win, file=sys.stderr)
-					print("label:", LABELS[j_win] if j_win is not None else "__no_label__", file=sys.stderr)
+					print("label:", readed_label[j_win] if j_win is not None else "__no_label__", file=sys.stderr)
 				
 				
 				
@@ -1822,11 +1832,11 @@ def run(the_model_type = "bibzone",
 					# nouveau morceau
 					if accumulated_buff_size == 0:
 						# tentative de report du label
-						xlabel = LABELS[j_win]
+						xlabel = readed_label[j_win]
 						
 						# ?TODO par ici :  possible de tester ce passage sur
 						# des bibl trainerlike (sans ragreage, juste transfo)
-						# en les comparant <note rend="LABEL"> <=> <label> => LABELS[j]
+						# en les comparant <note rend="LABEL"> <=> <label> => readed_label[j]
 						
 						if xlabel:
 							# TODO faire une fonction à part et reserver
@@ -1985,7 +1995,7 @@ def run(the_model_type = "bibzone",
 						this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
 					
 					# les indices sont ici les mêmes que ceux de xbibs
-					xlabel = LABELS[j]
+					xlabel = readed_label[j]
 					
 					toks = []
 					
@@ -2128,7 +2138,7 @@ def run(the_model_type = "bibzone",
 						# on donne un biblStruct vide
 						this_xbib = etree.Element('biblStruct', type="__xbib_non_listée__")
 					
-					xlabel = LABELS[j]
+					xlabel = readed_label[j]
 					
 					toks = []
 					
