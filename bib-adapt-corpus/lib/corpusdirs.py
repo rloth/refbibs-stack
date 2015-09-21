@@ -183,7 +183,7 @@ comme lieu de stockage de tous les corpus... mais il n'existe pas encore (néces
 			# check correct corpora dir
 			if not path.samefile(read_root, Corpus.home_dir):
 				print("WARN: reading a corpus in dir '%s' instead of default '%s'"
-				      % (read_root, home_dir) )
+				      % (read_root, Corpus.home_dir) )
 			
 			# check correct corpus dir name
 			if read_subdir != ko_name:
@@ -672,7 +672,10 @@ ERROR -- Corpus(__init__ from dir):
 								  % (bn, tgt_model) )
 					# sauvegarde >> .shto.rawtxt
 					else:
-						_strip_tei_save_txt(new_shfrom, tgt_in_shto)
+						if tgt_model == "bibfields":
+							_strip_tei_save_txt(new_shfrom, tgt_in_shto, start_tag="listBibl")
+						elif tgt_model == "authornames":
+							_strip_tei_save_txt(new_shfrom, tgt_in_shto, start_tag="biblStruct")
 		
 				# on signale aussi qu'on a réussi
 				self.assert_fulltexts(shto)
@@ -687,7 +690,7 @@ ERROR -- Corpus(__init__ from dir):
 
 	
 	# TRAINING TEI ET RAGREAGE
-	def construct_training_tei(self, tgt_model):
+	def construct_training_tei(self, tgt_model, just_rag = False, debug_lvl=0):
 		"""
 		Generic call to ragreage.py
 		or 
@@ -703,8 +706,6 @@ ERROR -- Corpus(__init__ from dir):
 	                      déjà des bibl dans un markup acceptable
 	                    (conversion en exemplaires directe, à part)
 		"""
-		
-		just_rag = False   # <--------- config/expé ?
 		
 		print("******** PREPARATION specTEI pour %s ********" % tgt_model)
 		
@@ -763,6 +764,7 @@ ERROR -- Corpus(__init__ from dir):
 							# chemins
 							the_txtin  = my_raw_txt_path,
 							the_xmlin  = my_gold_tei_path,
+							debug_lvl = debug_lvl
 						   )
 				
 				my_train_tei_path = self.fileid(bname, tgt_tei_shelf)
@@ -799,6 +801,9 @@ def _strip_tei_save_txt(tei_path_in, txt_path_out, start_tag="listBibl"):
 	tei_in = open(tei_path_in, 'r')
 	all_lines = []
 	on = False
+	
+	
+	print("hello strip %s" % tei_path_in )
 	
 	# first : diagnosis
 	for line in tei_in.readlines():

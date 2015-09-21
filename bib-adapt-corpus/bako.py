@@ -26,7 +26,7 @@ from site            import addsitedir     # pour imports locaux
 from re              import search, match
 from subprocess      import PIPE, Popen    # pour l'appel de grobid
                                            # en training proprement dit
-from argparse  import ArgumentParser, RawTextHelpFormatter
+from argparse  import ArgumentParser, RawDescriptionHelpFormatter
 
 
 # imports locaux
@@ -83,16 +83,161 @@ SHELF_NAMES = {
 	'AUTEI': "TRAIN TEIs pour authornames",
 	}
 
+# ----------------------------------------------------------------------
+# Fonction CLI
+
+def bako_sub_args(arglist=None):
+	"""
+	Preparation du namespace args contenant les  arguments de 
+	la ligne de commande pour main()
+	"""
+	top_parser = ArgumentParser(
+		formatter_class=RawDescriptionHelpFormatter,
+		description="""
+-----------------------------------------------------------
+ A corpus manager and training operator for grobid-trainer
+-----------------------------------------------------------""",
+		#~ usage="""
+	#~ bako make_set /corpus_name/ /size/ [/specific api query/]
+	#~ bako make_set --from_table chemin/d/une/metatable
+	#~ bako take_set /corpus_name/
+	#~ 
+	#~ bako make_trainers /corpus_name/ --for /model1/ [/model2/ ...]
+	#~ bako make_training --corpora /corpus/ [/corpus2/ ...]
+	                   #~ --target /model1/ [model2 model3...]
+	#~ bako models pick
+	#~ bako models eval  /modelname/
+	#~ bako models install
+		#~ """,
+		epilog="""
+© 2015 :: romain.loth at inist.fr :: Inist-CNRS (ISTEX)
+"""
+		)
+	
+	sub_args = top_parser.add_subparsers(
+		title='subcommands',
+		help='additional help')
+	
+	# MAKE_SET ---- sous-commande (1) ----
+	args_mkset = sub_args.add_parser(
+		'make_set',
+		usage="""
+  bako make_set corpus_name [--size 20] [--constraint "lucene query"]
+  bako make_set corpus_name --from_table infos_table_prealable.tab
+		""",
+		help="préparer un corpus")
+	
+	# pour savoir quelle commande ça lance
+	args_mkset.set_defaults(func=make_set)
+	
+	# mode normal
+	# argument positionnel (obligatoire) : le nom du corpus
+	args_mkset.add_argument(
+		'corpus_name',
+		type=str,
+		help="nom du nouveau corpus à créer"
+	)
+	
+	# option 1: la taille
+	args_mkset.add_argument(
+		'--size',
+		type=int,
+		required=False,
+		help="taille du nouveau corpus à créer (par déf: 10)"
+	)
+	
+	# option 2: contrainte lucene
+	args_mkset.add_argument(
+		'--constraint',
+		metavar='qualityIndicators.refBibsNative:true',
+		type=int,
+		help="requête lucene comme contrainte sur le corpus"
+	)
+	
+	# ??? souhaitable ???
+	#~ args_mkset.add_argument(
+		#~ '--type',
+		#~ metavar='gold',
+		#~ choices="gold|train",
+		#~ help="type du corpus à créer (par défaut = gold) "
+		#~ )
+	
+	# mode "import" avec une table
+	args_mkset.add_argument(
+		'--from_table',
+		type=str,
+		help='mode "import": table d\'un corpus préexistant'
+	)
+	
+	# TAKE_SET ---- sous-commande (2) ----
+	args_tkset = sub_args.add_parser('take_set', help="lire un corpus")
+	
+	# pour savoir quelle commande ça lance
+	args_tkset.set_defaults(func=take_set)
+	
+	# un seul argument positionnel : le nom du corpus
+	args_tkset.add_argument(
+		'corpus_name',
+		type=str,
+		help="nom du corpus à reprendre"
+	)
+	
+	# def make_trainers(corpus_name, model_types=None, just_rag=False):
+	
+	# MAKE_TRAINERS ---- sous-commande (3) ----
+	args_mktrs = sub_args.add_parser('make_trainers', help="préparer des corpus d'entraînement (dossiers D-*)")
+	
+	# pour savoir quelle commande ça lance
+	args_mktrs.set_defaults(func=make_trainers)
+	
+	# un seul argument positionnel : le nom du corpus
+	args_mktrs.add_argument(
+		'corpus_name',
+		type=str,
+		help="nom du corpus de travail"
+	)
+	
+	args_mktrs.add_argument(
+		'--model_types',
+		type=str,
+		nargs='+',
+		metavar="bibfields",
+		choices=['bibzone','biblines','bibfields','authornames'],
+		help="modèles à préparer (bibzone, biblines...)"
+	)
+	
+	
+	####
+	
+	top_parser.add_argument('-d', '--debug',
+		help="niveau de débogage",
+		metavar=1,
+		type=int,
+		default=0,
+		action='store')
+	
+	args = top_parser.parse_args(argv[1:])
+	
+	# --- checks and pre-propagation --------
+	# pass
+	# ----------------------------------------
+	
+	return(args)
 
 # ----------------------------------------------------------------------
 # Fonctions principales
 
-def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=None):
+def make_set(corpus_name,
+			from_table=None, 
+			size=None, 
+			constraint=None,
+			# non utilisé encore
+			debug=0):
 	"""
 	Initialisation d'un corpus basique et remplissage de ses fulltexts
 	
 	3 façons de l'appeler :
-	  - soit on fournit un tab (chemin fs)
+	  - soit on fournit une table de métadonnées infos.tab (chemin fs)
 	  - soit on fournit une taille (sampling directement avec l'API)
 	  - soit on ne fournit rien et il fait un sampling de 10 docs
 	
@@ -124,19 +269,19 @@ def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=No
 	# (1/4) echantillon initial (juste la table) -------------------------
 	
 	# soit on a déjà une table
-	if tab_path and size:
+	if from_table and size:
 		print("""ERR bako.make_set:
-		         fournir au choix 'tab_path' ou 'size', mais pas les 2.""",
+		         fournir au choix 'from_table' ou 'size', mais pas les 2.""",
 		         file=stderr)
 		exit(1)
 
-	if tab_path:
-		if path.exists(tab_path):
-			fic = open(tab_path)
+	if from_table:
+		if path.exists(from_table):
+			fic = open(from_table)
 			my_tab = fic.readlines()
 			fic.close()
 		else:
-			print("ERR bako.make_set: je ne trouve pas le fichier '%s'" % tab_path, file=stderr)
+			print("ERR bako.make_set: je ne trouve pas le fichier '%s'" % from_table, file=stderr)
 			exit(1)
 	
 	# sinon sampling
@@ -154,7 +299,7 @@ def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=No
 								)
 		else:
 			print("ERR bako.make_set: 'size' doit être un entier'%s'" 
-			       % tab_path, file=stderr)
+			       % from_table, file=stderr)
 			exit(1)
 	
 	# (2/4) notre classe corpus ------------------------------------------
@@ -208,7 +353,16 @@ def make_set(corpus_name, ttype="train", tab_path=None, size=None, constraint=No
 	return cobj
 
 
-
+def take_set(corpus_name,
+			# non utilisé
+			debug=0):
+	"""
+	Reprise d'un corpus créé auparavant
+	
+	Appel: on fournit le nom d'un corpus déjà sous CORPUS_HOME
+	"""
+	
+	return Corpus(corpus_name, read_dir="corpora/%s" % corpus_name)
 
 
 PREP_TEI_FROM_TXT = {
@@ -218,7 +372,7 @@ PREP_TEI_FROM_TXT = {
 					'authornames' : {'from': 'AURTX', 'to': 'AUTEI'},
 					}
 
-def make_trainers(cobj, model_types=None, just_rag=False):
+def make_trainers(corpus_name, model_types=None, debug=0):
 	"""
 	Préparation des corpus d'entraînement => dans dossiers D-*
 	
@@ -228,6 +382,12 @@ def make_trainers(cobj, model_types=None, just_rag=False):
 	NB: bibzone et biblines ont des fichiers 'rawtoks' supplémentaires
 	    qui correspondent à l'input tokenisé vu par un CRF ("features")
 	"""
+	
+	# Récupération du corpus par son nom
+	cobj = take_set(corpus_name)
+	
+	just_rag = True   # <--------- config/expé ?
+	
 	# on lit la liste des modèles à faire dans le fichier config
 	if not model_types:
 		model_types = CONF['training']['model_types'].split(',')
@@ -251,11 +411,11 @@ def make_trainers(cobj, model_types=None, just_rag=False):
 			print("<= %s (reprise précédemment créés" % src_shelf_name)
 		
 		# =================(2/2) better training pTEIs =========
-		cobj.construct_training_tei(tgt_model)
+		cobj.construct_training_tei(tgt_model, just_rag, debug)
 		# ======================================================
 	
-	# persistence du statut des différents dossiers trainers créés
-	cobj.save_shelves_status()
+		# persist. du statut des nvx dossiers "trainers" après ch. étape
+		cobj.save_shelves_status()
 	
 	# nouveau paquet (corpus+model_type) prêt pour make_training
 	return cobj
@@ -303,39 +463,29 @@ def _call_grobid_trainer():
 		print(line.decode('UTF-8').rstrip())
 
 
-
-########################################################################
-if __name__ == '__main__':
+def assistant():
+	"""
+	Séquence standard de commandes lancée si
+	l'utilisateur n'a donné aucune commande spécifique...
 	
-	#~ print(vars(args))  # <== après réintégration argparse
+	task 1 sampling et pub2tei (make_set)
 	
-	# -------------
-	# SIMPLES TESTS  : task 1 sampling et pub2tei (make_set)  
-	#                  task 2 préparation trainers (make_trainers)
+	task 2 préparation trainers (make_trainers)
+	"""
 	
-	# si lecture d'une dir pré-existante
-	# 
-	
+	# nom du nouveau corpus
 	inname = input("choisissez un nom (si possible sans espaces...) pour initialiser un nouveau dossier corpus sous /corpora :")
 	
 	if len(inname):
-		# todo ttype="gold" (défaut) ou "train" ?
-		a_corpus_obj = make_set(corpus_name = inname.rstrip() , size = 15)
+		a_corpus_obj = make_set(
+				corpus_name = inname.rstrip(),
+				size = 15
+			)
 	
-	else:
-		print("mode lecture ==> futur take_set() sur %s")
-		a_corpus_obj = Corpus("nv", read_dir="corpora/nv")
-	
-	
-	#~ exit()
-	
-	#~ input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
+	input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
 	
 	# par défaut: avec les modèles de local_conf.ini['training']
-	make_trainers(a_corpus_obj)
-
-	# make_trainers(a_corpus_obj, ['bibfields', 'bibzone'])
-	
+	make_trainers(a_corpus_obj.name)
 	
 	# TODO immédiat
 	# ----------------
@@ -347,6 +497,30 @@ if __name__ == '__main__':
 	for this_shelf in a_corpus_obj.fulltextsh():
 		print("  - %s" % SHELF_NAMES[this_shelf])
 	print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
+	
+
+
+########################################################################
+if __name__ == '__main__':
+	
+	# lecture des arguments cli
+	# (dont la fonction associée par la sous-commande)
+	args = bako_sub_args()
+	
+	# pour debug cli
+	# --------------
+	# print("ARGUMENTS LUS: %s " % vars(args))
+	# exit()
+	
+	# APPEL de la sous-commande voulue
+	# On déballe les args (c-à-d un Namespace pris comme dict)
+	# directement dans la fonction associée (args["func"])
+	mes_arguments = vars(args)
+	ma_fonction = mes_arguments.pop("func")
+	ma_fonction(**mes_arguments)
+	# NB: ça nécessite que la fonction appelée (ex: args.func=make_set)
+	#   par ch. sous-parseur ait EXACTEMENT le même nombre d'arguments
+	#   AVEC les mêmes noms que les options du sous-parseur...
 	
 	
 	

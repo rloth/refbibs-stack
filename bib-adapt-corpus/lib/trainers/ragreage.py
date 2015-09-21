@@ -378,10 +378,10 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 		
 		loc_name = rag_xtools.localname_of_tag(xelt.tag)
 		
-		if debug >= 3:
+		if debug >= 2:
 			print("xelt2tok:", file=sys.stderr)
 			print("\tbase_path   :", base_path, file=sys.stderr)
-			print("\ttext content:", xelt.text, file=sys.stderr)
+			print("\ttext content: '%s'" % xelt.text, file=sys.stderr)
 		
 		
 		# PLUSIEURS CAS PARTICULIERS spécifiques aux biblios
@@ -483,6 +483,14 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 		elif xelt.text is None:
 			if debug >= 3:
 				print ("xelt2tok: skip non terminal <%s>:'%s'"%(base_path, xelt.text), file=sys.stderr)
+			continue
+
+		# cas très rare d'un texte non vide mais non intéressant
+		# ex: <publisher>&#x3000;</publisher> 
+		#     trouvé dans els-0204CEAD3C2FF062A7EB4E8E2906925EFFB54CE2
+		elif re.match("\u3000", xelt.text, re.UNICODE):
+			if debug >= 3:
+				print ("xelt2tok: skip terminal texte quasi vide <%s>:'%s'"%(base_path, xelt.text), file=sys.stderr)
 			continue
 
 		# === cas normal === (enfin !)
@@ -595,7 +603,6 @@ def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 # NB ici model_type est utilisé seulement dans le cas label
 def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfields', do_mask=False, 
                       debug_lvl=0):
-
 	"""Matches field info in raw txt string
 	   returns(output_xml_string, success_bool)
 	   
@@ -956,7 +963,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 					# on annule le succès
 					unrecognized = True
 					# on signale le problème
-					print("WW: no names in '%s'"%bibstr_with_au, file=sys.stderr)
+					print("WW: no names in '%s'" % au_str, file=sys.stderr)
 					au_str = "" # <= on a rien trouvé
 				# cas normal
 				else:
@@ -1314,7 +1321,11 @@ class XTokinfo:
 				# ====x_str==== Oxidation of Metals
 				# ====re_str==== (?=.{19,22})(?:O|0))[-¤ ]{0,3}x[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:d|cl)[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}t[-¤ ]{0,3}(?:i|\;|l)[-¤ ]{0,3}(?:o|c)[-¤ ]{0,3}n[¤ ]{0,2}(?:o|c)[-¤ ]{0,3}(?:f|t)[¤ ]{0,2}M[-¤ ]{0,3}(?:e|c)[-¤ ]{0,3}t[-¤ ]{0,3}(?:a|u|n)[-¤ ]{0,3}(?:1|l|i|I|\]|\/|Z)[-¤ ]{0,3}s
 			
-			
+		
+		
+		if debug_lvl >= 2 :
+			print("SUBTOKS", subtokens)
+		
 		if debug_lvl >= 3 :
 			print("pre_regexp:", file=sys.stderr)
 			print("\t=x_str=", anystring, file=sys.stderr)
@@ -1417,7 +1428,7 @@ def run(the_model_type = "bibzone",
 	# utilise l'attribut "n" quand il est présent
 	# (dans la feuille elsevier il reprenait value-of sb:label)
 
-	readed_label = []   # £TODO global var mais pas constante => pb?
+	readed_label = []
 	
 	
 	#    INPUT XML
