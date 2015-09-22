@@ -26,10 +26,10 @@ addsitedir('lib/trainers')
 import ragreage
 
 # ----------------------------------------------------------------------
-# read-in global config values (workshop dirs, api conf, grobid home)
+# read-in bib-adapt config values (workshop dirs, api conf, grobid home)
 CONF = ConfigParser()
 
-# default location: ./global_conf.ini (relative to corpus.py)
+# default location: ../local_conf.ini (relative to this module)
 script_dir = path.dirname(path.realpath(__file__))
 conf_path = path.join(script_dir, '..', 'local_conf.ini')
 conf_file = open(conf_path, 'r')
