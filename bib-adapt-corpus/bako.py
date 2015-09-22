@@ -10,6 +10,13 @@ bib-adapt-corpus ou bako
  #TODO train_and_store(model, modeltype)  <= grobid-trainer, store in models dir
  #TODO eval_report(model)                 <= eval_xml_refbibs_lite, eval_results_lite.r
  #TODO suggest_install_to_vp(model)       <= juste un echo de la ligne rsync adéquate
+ 
+ 
+ Rappel :
+ 
+ compilation grobid
+ mvn  -Dmaven.test.skip=true clean compile  install
+ 
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
@@ -24,19 +31,22 @@ from sys             import stderr, argv
 from configparser    import ConfigParser
 from site            import addsitedir     # pour imports locaux
 from re              import search, match
-from subprocess      import PIPE, Popen    # pour l'appel de grobid
-                                           # en training proprement dit
 from argparse  import ArgumentParser, RawDescriptionHelpFormatter
 
 
-# imports locaux
+# pour les 4 imports locaux + field_values
+# (tel quel: dépendant du lieu de lancement de bako !)
 addsitedir('lib')
 
 # "libconsulte" istex-rd
 import api
 import sampler
+
+# Corpus => bnames, cdir, cols, shelfs...
 from corpusdirs import Corpus
-                     # Corpus => bnames, cdir, cols, shelfs...
+
+# CRFModel => mid, recipy, storing_path
+from grobid_models import CRFModel
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
@@ -103,8 +113,7 @@ def bako_sub_args(arglist=None):
 	#~ bako take_set /corpus_name/
 	#~ 
 	#~ bako make_trainers /corpus_name/ --for /model1/ [/model2/ ...]
-	#~ bako make_training --corpora /corpus/ [/corpus2/ ...]
-	                   #~ --target /model1/ [model2 model3...]
+	#~ bako make_training /model/ --corpora /corpus/ [/corpus2/ ...]
 	#~ bako models pick
 	#~ bako models eval  /modelname/
 	#~ bako models install
@@ -169,8 +178,14 @@ def bako_sub_args(arglist=None):
 		help='mode "import": table d\'un corpus préexistant'
 	)
 	
+	
 	# TAKE_SET ---- sous-commande (2) ----
-	args_tkset = sub_args.add_parser('take_set', help="lire un corpus")
+	args_tkset = sub_args.add_parser(
+		'take_set',
+		usage="""
+  bako.py take_set corpus_name""",
+		help="lire un corpus"
+	)
 	
 	# pour savoir quelle commande ça lance
 	args_tkset.set_defaults(func=take_set)
@@ -184,8 +199,14 @@ def bako_sub_args(arglist=None):
 	
 	# def make_trainers(corpus_name, model_types=None, just_rag=False):
 	
+	
 	# MAKE_TRAINERS ---- sous-commande (3) ----
-	args_mktrs = sub_args.add_parser('make_trainers', help="préparer des corpus d'entraînement (dossiers D-*)")
+	args_mktrs = sub_args.add_parser(
+		'make_trainers',
+		usage="""
+  bako make_trainers corpus_name --model_types model1 [model2 ...]""",
+		help="préparer des jeux d'entraînement pour un corpus (dossiers D-*) "
+		)
 	
 	# pour savoir quelle commande ça lance
 	args_mktrs.set_defaults(func=make_trainers)
@@ -201,9 +222,37 @@ def bako_sub_args(arglist=None):
 		'--model_types',
 		type=str,
 		nargs='+',
-		metavar="bibfields",
+		metavar="model",
 		choices=['bibzone','biblines','bibfields','authornames'],
 		help="modèles à préparer (bibzone, biblines...)"
+	)
+	
+	
+	# MAKE_TRAINING ---- sous-commande (4) ----
+	args_mktrg = sub_args.add_parser(
+		'make_training',
+		usage="""
+  bako make_training mon_modèle --corpora corpus1 [corpus2...]""",
+		help="préparer un modèle à partir d'un ou plusieurs corpus"
+		)
+	
+	# pour savoir quelle commande ça lance
+	args_mktrg.set_defaults(func=make_training)
+	
+	# un seul argument positionnel : le type du modèle
+	args_mktrg.add_argument(
+		'model_type',
+		type=str,
+		choices=['bibzone','biblines','bibfields','authornames'],
+		help="modèle à entraîner (mon_modèle)"
+	)
+	
+	args_mktrg.add_argument(
+		'--corpora',
+		type=str,
+		nargs='+',
+		metavar="corpus_name",
+		help="un ou plusieurs corpus d'entraînement"
 	)
 	
 	
@@ -430,9 +479,11 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 	return cobj
 
 
-def make_training(a_corpus_obj, model_type):
+def make_training(model_type, corpora=None, debug=0):
 	""" 
 	Entraînement proprement dit
+	
+	/!\ Ici un seul model_type, plusieurs corpus potentiels /!\
 	
 	(appel de grobid-trainer)
 	  - appel système
@@ -447,29 +498,24 @@ def make_training(a_corpus_obj, model_type):
 	    
 	    Quant à nous, on le récupère a posteriori pour le ranger.
 	
-	/!\ Ici un seul model_type"""
-	
-		# 1) substitution dossiers   SHELF_TRAIN => GB_HOME/grobid-trainer/resources/dataset/$model_name
-		
-		# 2) _call_grobid_trainer
-	
-def _call_grobid_trainer():
 	"""
-	ICI Appel traininf principal
-	"""
-	model_name = 'train_name_citation'
 	
-	mon_process = Popen(
-	  ['mvn',
-	  '-X',
-	  'generate-resources',
-	  '-P', model_name
-	  ], stdout=PIPE, stderr=PIPE, 
-	cwd=path.join(CONF['grobid']['GROBID_HOME'],"grobid-trainer")
-	)
-
-	for line in mon_process.stderr:
-		print(line.decode('UTF-8').rstrip())
+	# 1) substitution dossiers   
+	#                  n X SHELF_TRAIN 
+	#                  n X SHELF_TRAIN } => symlinks => GB_HOME/grobid-trainer/resources/dataset/$model_name
+	#                  n X SHELF_TRAIN
+	
+	# 2) train_params = _call_grobid_trainer()
+	# 3) new CRFModel(train_params)   ...dont pick()
+	
+	# initialisation du modèle
+	mon_modele = CRFModel(model_type, corpora, debug_lvl=debug)
+	
+	# lancement grobid-trainer
+	mon_modele.call_grobid_trainer()
+	
+	# récupération du modèle
+	mon_modele.pick_n_store()
 
 
 def assistant():
