@@ -362,7 +362,16 @@ def take_set(corpus_name,
 	Appel: on fournit le nom d'un corpus déjà sous CORPUS_HOME
 	"""
 	
-	return Corpus(corpus_name, read_dir="corpora/%s" % corpus_name)
+	expected_dir = path.join(Corpus.home_dir, corpus_name)
+	
+	try:
+		cobj = Corpus(corpus_name, read_dir=expected_dir)
+	except FileNotFoundError as fnf_err:
+		print("Je ne trouve pas %s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, Corpus.home_dir),
+		file=stderr)
+		return None
+	
+	return cobj
 
 
 PREP_TEI_FROM_TXT = {

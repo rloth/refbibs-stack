@@ -196,7 +196,11 @@ ERROR -- Corpus(__init__ from dir):
 				
 				# read corresponding infos
 				infos_path = path.join(self.cdir,'meta','infos.tab')
-				fi = open(infos_path,'r')    # todo idem pour triggers
+				try:
+					fi = open(infos_path,'r')    # todo idem pour triggers
+				except FileNotFoundError as fnf_err:
+					fnf_err.pi_mon_rel_path = path.join(ko_name, 'meta','infos.tab')
+					raise fnf_err
 				new_infos = fi.readlines()
 				fi.close()
 			
