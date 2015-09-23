@@ -124,7 +124,7 @@ warn "RELU_d : $M fichiers $ext dans le dossier à évaluer\n" ;
 
 my @gold_paths_list = () ;
 my $N = 0 ;
-my $gold_extension = "xml" ;
+my $gold_extension = "tei.xml" ;
 
 if ($ref_list) {
 	open (REFLIST, "< $ref_list") || die "impossible d'ouvrir le fichier $ref_list" ;
@@ -214,8 +214,9 @@ my $empty_todobib = 0 ;    # nb de docs todo sans erreurs XML mais sans aucune r
 
 # ... et de sous-boucles
 my $K = 0 ;                   # nb de refbibs gold lues (base de travail)
-my $matchable_K = 0 ;         # nb de refbibs gold lues sans errs XML dans le todo d'en face (assiette max)
+my $matchable_K = 0 ;         # nb de refbibs gold lues sans errs XML dans le todo d'en face (assiette max pour le silence)
 my $L = 0 ;                   # nb de refbibs todo lues (bibs générées) (= base - silence + bruit)
+my $matchable_L = 0 ;         # nb de refbibs todo lues sans errs bibl non struct dans le gold d'en face (assiette max pour le bruit)
 my $total_found_title = 0 ;   # nb refbibs bien alignées via le titre
 my $total_found_issue = 0 ;   # nb refbibs bien alignées via journal+date+vol+fasc
 my $total_found_names = 0 ;   # nb refbibs bien alignées via les Noms des auteurs
@@ -326,6 +327,7 @@ for my $path (sort (@xml_to_check_list)) {
 	my $nb_todobibs = scalar(@todobibs) ;
 	warn "TODO : $nb_todobibs réfbibs\n" if $debug ;
 	$L += $nb_todobibs ;
+	$matchable_L += $nb_todobibs ;
 
 	# toute todobib est initialement "suspecte d'être du bruit" :
 	# (on la décomptera ensuite si alignement)
@@ -367,12 +369,22 @@ for my $path (sort (@xml_to_check_list)) {
 	# # ---------------------
 	my @goldbibs = () ;
 	
+	# gold bibs éventuellement mal positionnées
+	my @goldbibs_ubi = () ;
+	
+	# gold bibs non structurées # TODO influence sur les décomptes
+	my @goldbibs_dont_bibl = () ;
+	
 	## Récup liste @refbibs = <tododoc>//listBibl/biblStruct
 	my $goldroot = $golddoc->documentElement();
 	my $goldxng  = XML::LibXML::XPathContext->new($goldroot);
 	$goldxng->registerNs('tei',"http://www.tei-c.org/ns/1.0") ;
 	
 	eval {@goldbibs = $goldxng->findnodes('/tei:TEI/tei:text/tei:back//tei:listBibl/tei:biblStruct') ; } ;
+	eval {@goldbibs_ubi = $goldxng->findnodes('//tei:listBibl/tei:biblStruct') ; } ;
+	eval {@goldbibs_dont_bibl = $goldxng->findnodes('//tei:listBibl/tei:bibl|//tei:listBibl/tei:biblStruct') ; } ;
+	#~ eval {@goldbibs_ubi = $goldxng->findnodes('//*[local-name()="listBibl"]/*[local-name()="biblStruct"]') ; } ;
+	#~ eval {@goldbibs_dont_bibl = $goldxng->findnodes('//*[local-name()="listBibl"]/*[local-name()="bibl"]') ; } ;
 	
 	# gestion d'erreurs (on saute le doc si erreur xpath)
 	if ($@) {
@@ -384,12 +396,51 @@ for my $path (sort (@xml_to_check_list)) {
 		warn "GOLD : 0 réfbibs erreur xpath\n" if $debug ;
 		next() ;
 	}
-
+	
 	my $nb_goldbibs = scalar(@goldbibs) ;
-	warn "GOLD : $nb_goldbibs réfbibs\n" if $debug ;
+	my $nb_goldbibs_ubi = scalar(@goldbibs_ubi) ;
+	my $nb_goldbibs_dont_bibl = scalar(@goldbibs_dont_bibl) ;
+
+	warn "GOLD : $nb_goldbibs réfbibs struct au bon endroit\n" if $debug ;
+	warn "GOLD : $nb_goldbibs_ubi réfbibs struct dans un listBibl\n" if $debug ;
+	warn "GOLD : $nb_goldbibs_dont_bibl réfbibs dont non struct dans un listBibl (delta => décomptées assiette P)\n" if $debug ;
+	
+	# secours gold si besoin est (TEI mal structurée par XSLT mais refbibs présentes)
+	if ($nb_goldbibs_ubi > $nb_goldbibs) {
+		@goldbibs = @goldbibs_ubi ;
+		$nb_goldbibs = $nb_goldbibs_ubi ;
+	}
+	
+	# effet de bord sur l'assiette des todobibl matchable (£TODO les identifier quand on écrit les lignes bruit !)
+	my $nb_non_matchable_g_non_struct = $nb_goldbibs_dont_bibl - $nb_goldbibs ;
+	
+	if ($nb_non_matchable_g_non_struct > 0) {
+		warn "SEMISTRU: doc gold $docnostr a $nb_non_matchable_g_non_struct bibl gold non matchables (et $nb_goldbibs matchables)\n" ;
+	}
+	
+	$matchable_L = $matchable_L - $nb_non_matchable_g_non_struct ;
+	
+	warn "L: $L vs matchable_L: $matchable_L\n" if $debug ;
+	
+	# début des décomptes d'éval
 	$K += $nb_goldbibs ;
 	$matchable_K += $nb_goldbibs unless ($got_txerr) ;
-
+	
+	# premiers tests de bon sens
+	# --------------------------
+	# on envoie des warnings mais on continue malgré tout
+	# (pour exhaustivité des décomptes bruit/silence et lignes csv sorties)
+	if ($nb_goldbibs == 0) {
+		$empty_goldbib ++ ;
+		warn "EMPTYSRC: doc gold no $docnostr ($checkname)\n" ;
+	}
+	# ceci n'est pas un else: décompte $empty_todobib distinct
+	if ($nb_todobibs == 0 and not($got_txerr)) {
+		$empty_todobib ++ ;
+		warn "EMPTYTGT: doc à évaluer no $docnostr ($checkname)\n" ;
+	}
+	
+	
 	# ------------------------------------------------------------------
 	# 1C) appariement todobibs <=> goldbibs
 	# ------------------------------------------------------------------
@@ -421,19 +472,6 @@ for my $path (sort (@xml_to_check_list)) {
 	my @todobibs_data = (undef) ;
 	# NB : l'équivalent $goldbib_data est fait un par un en 1C pendant la boucle
 
-	# premiers tests de bon sens
-	# --------------------------
-	# on envoie des warnings mais on continue malgré tout
-	# (pour exhaustivité des décomptes bruit/silence et lignes csv sorties)
-	if ($nb_goldbibs == 0) {
-		$empty_goldbib ++ ;
-		warn "EMPTYSRC: doc gold no $docnostr ($checkname)\n" ;
-	}
-	# ceci n'est pas un else: décompte $empty_todobib distinct
-	if ($nb_todobibs == 0 and not($got_txerr)) {
-		$empty_todobib ++ ;
-		warn "EMPTYTGT: doc à évaluer no $docnostr ($checkname)\n" ;
-	}
 
 	# ===================================================
 	# 1D) Pré-boucle sur les todobibs éléments à évaluer
@@ -548,7 +586,6 @@ for my $path (sort (@xml_to_check_list)) {
 		# variables en accès direct pour tests dans la boucle
 		#~ my (@goldnames, $goldtitl, $golddate, $goldjournal, $goldvolume,
 		    #~ $goldissue, $goldfpage, $goldlpage, $goldpublisher) ;
-		my $pub_type = "" ;
 
 		# persistence des variables pour stockage des matchs
 		my $goldbib_data = {} ;
@@ -732,10 +769,9 @@ for my $path (sort (@xml_to_check_list)) {
 			}
 
 			# tentative d'alignement par journal/volume/page  ------------
-			if (($pub_type eq 'journal')
-				&& defined($goldjournal) && defined($goldvolume) && defined($goldfpage)
+			if (   defined($goldjournal) && defined($goldvolume) && defined($goldfpage)
 				&& defined($todojournal) && defined($todovolume) && defined($todofpage) ) {
-
+				
 				if (clean_compare($todojournal,$goldjournal)
 					&& ($todovolume eq $goldvolume)
 					&&  ($todofpage eq $goldfpage)) {
@@ -851,7 +887,11 @@ for my $path (sort (@xml_to_check_list)) {
 	# ==================================
 	# 1F) a posteriori dans chaque doc
 	# ==================================
-
+	# £TODO ici identifier celles qui correspondent aux bibl non struct dans le gold
+	# (au moins on les décompte => ces items ne sont pas du vrai gold)
+	$semble_bruit -= $nb_non_matchable_g_non_struct ;
+	
+	
 	# on re-passe aussi sur les $todobib pour garder de côté ceux qui n'ont pas d'alignement
 	# ---------------------------------------------------------------------------------------
 	for my $l_prime (1..$nb_todobibs) {
@@ -940,9 +980,11 @@ warn "          | => Rappel = ".sprintf("%.3f |",$total_found/$K)."\n" if ($K !=
 warn "          | => R_asst = ".sprintf("%.3f |",$total_found/$matchable_K)."\n" if ($matchable_K != 0) ;
 warn "------------------------------------------\n" ;
 warn " #refbibs 'todo' ...............".sprintf("% ${nbchar2}d",$L)."\n" ;
+warn "  dont #assiette ...............".sprintf("% ${nbchar2}d",$matchable_L)."\n" ;
 warn "  dont #non-alignées (bruit) ...".sprintf("% ${nbchar2}d",$semble_bruit)."\n" ;
 warn "          _ _ _ _ _ _ _ _ _ _ _ _\n" ;
-warn "         | => Précision = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($L != 0) ;
+warn "       | => Précision  = ".sprintf("%.3f  |",$total_found/$L)."\n" if ($L != 0) ;
+warn "       | => P_assiette = ".sprintf("%.3f  |",$total_found/$matchable_L)."\n" if ($L != 0) ;
 warn "------------------------------------------\n" ;
 
 if ($UNACCENTS) {
@@ -1305,11 +1347,11 @@ sub fields_pair_str {
 	push (@result, ($nb_g_names, $nb_t_names, $nb_ok_names, $nb_capzdiff, $nb_weirdchar, $nb_cutfield, $nb_particule)) ;
 
 	# détail du processus pour debug
- 	warn "GOLDNAMES: ---------------------------------------------\n" ;
- 	warn Dumper $gb_data->{'names'} ;
+ 	#~ warn "GOLDNAMES: ---------------------------------------------\n" ;
+ 	#~ warn Dumper $gb_data->{'names'} ;
  	#~ warn Dumper \@g_names_done ;
- 	warn "TODONAMES: -----------\n" ;
- 	warn Dumper $tb_data->{'names'} ;
+ 	#~ warn "TODONAMES: -----------\n" ;
+ 	#~ warn Dumper $tb_data->{'names'} ;
  	#~ warn Dumper \@t_names_done ;
 
 	# ===========================================================================================
