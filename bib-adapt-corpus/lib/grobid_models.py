@@ -134,7 +134,8 @@ class CRFModel:
 	
 	if existing_mds:
 		# alors on prendra plutôt la plus grande des valeurs existantes
-		model_idno = int(max([sub(r".*-([0-9]+)$",r"\1",md) for md in existing_mds]))
+		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds]
+		model_idno = max(actuels_nos)
 	
 	model_map = {
 			'bibzone' : { 
