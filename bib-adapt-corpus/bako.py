@@ -14,7 +14,7 @@ bib-adapt-corpus ou bako
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.3"
+__version__   = "0.4"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -108,22 +108,18 @@ def bako_sub_args(arglist=None):
 	top_parser = ArgumentParser(
 		formatter_class=RawDescriptionHelpFormatter,
 		description="""
------------------------------------------------------------
- A corpus manager and training operator for grobid-trainer
------------------------------------------------------------""",
-		#~ usage="""
-	#~ bako make_set /corpus_name/ /size/ [/specific api query/]
-	#~ bako make_set --from_table chemin/d/une/metatable
-	#~ bako take_set /corpus_name/
-	#~ 
-	#~ bako make_trainers /corpus_name/ --for /model1/ [/model2/ ...]
-	#~ bako make_training /model/ --corpora /corpus/ [/corpus2/ ...]
-	#~ bako models pick
-	#~ bako models eval  /modelname/
-	#~ bako models install
-		#~ """,
+----------------------------------------------------------------------
+      A corpus manager and training operator for grobid-trainer
+----------------------------------------------------------------------""",
+		usage="""
+  bako make_set       corpus_name  [-s size] [-q specific api query]
+  bako take_set       corpus_name
+  bako make_trainers  corpus_name  [-m model  [model2...]]
+  bako run_training   model_type   [-c corpus_name [corpus_name2...]]
+  bako model_eval     [-m model_name] [-e evalcorpus_name] [-s] [-g]
+""",
 		epilog="""
-© 2015 :: romain.loth at inist.fr :: Inist-CNRS (ISTEX)
+------- (c) 2015 :: romain.loth@inist.fr :: Inist-CNRS (ISTEX) -------
 """
 		)
 	
@@ -153,7 +149,7 @@ def bako_sub_args(arglist=None):
 	
 	# option 1: la taille
 	args_mkset.add_argument(
-		'--size',
+		'-s', '--size',
 		type=int,
 		required=False,
 		help="taille du nouveau corpus à créer (par déf: 10)"
@@ -161,9 +157,9 @@ def bako_sub_args(arglist=None):
 	
 	# option 2: contrainte lucene
 	args_mkset.add_argument(
-		'--constraint',
-		metavar='qualityIndicators.refBibsNative:true',
-		type=int,
+		'-q', '--constraint',
+		metavar='refBibsNative:true',
+		type=str,
 		help="requête lucene comme contrainte sur le corpus"
 	)
 	
@@ -211,7 +207,7 @@ def bako_sub_args(arglist=None):
 		'make_trainers',
 		usage="""
   bako make_trainers corpus_name --model_types model1 [model2 ...]""",
-		help="préparer des jeux d'entraînement pour un corpus (dossiers D-*) "
+		help="préparer un jeu d'entraînement pour un corpus"
 		)
 	
 	# pour savoir quelle commande ça lance
@@ -225,7 +221,7 @@ def bako_sub_args(arglist=None):
 	)
 	
 	args_mktrs.add_argument(
-		'--model_types',
+		'-m', '--model_types',
 		type=str,
 		nargs='+',
 		metavar="model",
@@ -236,14 +232,14 @@ def bako_sub_args(arglist=None):
 	
 	# MAKE_TRAINING ---- sous-commande (4) ----
 	args_mktrg = sub_args.add_parser(
-		'make_training',
+		'run_training',
 		usage="""
-  bako make_training mon_modèle --corpora corpus1 [corpus2...]""",
-		help="préparer un modèle à partir d'un ou plusieurs corpus"
+  bako run_training mon_modèle --corpora corpus1 [corpus2...]""",
+		help="créer un modèle depuis un ou plusieurs corpus"
 		)
 	
 	# pour savoir quelle commande ça lance
-	args_mktrg.set_defaults(func=make_training)
+	args_mktrg.set_defaults(func=run_training)
 	
 	# un seul argument positionnel : le type du modèle
 	args_mktrg.add_argument(
@@ -254,13 +250,53 @@ def bako_sub_args(arglist=None):
 	)
 	
 	args_mktrg.add_argument(
-		'--corpora',
+		'-c', '--corpora',
 		type=str,
 		nargs='+',
+		required=False,  # sans rien mode vanilla...
 		metavar="corpus_name",
 		help="un ou plusieurs corpus d'entraînement"
 	)
 	
+	# EVAL_MODEL ---- sous-commande (5) ----
+	args_evalm = sub_args.add_parser(
+		'eval_model',
+		usage="""
+  bako.py eval_model [-m model_name]  [-e evalcorpus_name] [-s] [-g]
+""",
+		help="évaluer le dernier modèle (ou autre selon -m)"
+	)
+	
+	# pour savoir quelle commande ça lance
+	args_evalm.set_defaults(func=model_eval)
+	
+	# aucun argument obligatoire
+	args_evalm.add_argument(
+		'-m','--model_name',
+		required=False,
+		type=str,
+		help="nom du modèle à reprendre"
+	)
+	# option: un autre jeu d'évaluation que dans la config
+	args_evalm.add_argument(
+		'-e', '--eval_set',
+		metavar='cent_eval5',
+		required=False,
+		type=str,
+		help="nom d'un corpus comme jeu d'évaluation alternatif"
+	)
+	
+	args_evalm.add_argument('-s', '--save_tab',
+		help="enregistrer une ligne d'éval dans le tableau de suivi",
+		required=False,
+		default=False,
+		action='store_true')
+	
+	args_evalm.add_argument('-g', '--do_graphs',
+		help="générer les graphiques d'évaluation",
+		required=False,
+		default=False,
+		action='store_true')
 	
 	####
 	
@@ -482,11 +518,11 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 		# persist. du statut des nvx dossiers "trainers" après ch. étape
 		cobj.save_shelves_status()
 	
-	# nouveau paquet (corpus+model_type) prêt pour make_training
+	# nouveau paquet (corpus+model_type) prêt pour run_training
 	return cobj
 
 
-def make_training(model_type, corpora, debug=0):
+def run_training(model_type, corpora, debug=0):
 	""" 
 	Entraînement proprement dit
 	
@@ -566,6 +602,7 @@ def make_training(model_type, corpora, debug=0):
 	stored_location = new_model.pick_n_store()
 	print("new model %s stored into dir %s" % (new_model.mid, stored_location), file=stderr)
 
+
 def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	"""
 	symlinks dans GB_HOME/grobid-trainer/
@@ -613,7 +650,7 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 			# src_shelf: exemple BZRTK ou BZTEI
 			src_shelf = PREP_DATASET[new_model.mtype][subdir]
 			for cobj in corpora:
-				lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl)
+				_lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl)
 	
 	# --- modèles citation et authornames: juste tei spécifiques --
 	else:
@@ -623,10 +660,10 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 		# src_shelf: exemple BFTEI
 		src_shelf = PREP_DATASET[new_model.mtype][src_subdir]
 		for cobj in corpora:
-			lns(cobj, src_shelf, resrc_corpusdir, src_subdir, debug_lvl)
+			_lns(cobj, src_shelf, resrc_corpusdir, src_subdir, debug_lvl)
 
 
-def lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
+def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 	"""
 	Création de symlink depuis une shelf
 	vers un dossier extérieur (ex: dataset)
@@ -682,6 +719,16 @@ def lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 											file=stderr)
 	print(" => %s documents liés" % linked_docs, file=stderr)
 
+
+def model_eval(model_name=None, eval_set=CONF['eval']['CORPUS_NAME'], 
+               save_tab=True, do_graphs=False):
+	"""
+	Lancement indirect de eval_xml_refbibs.pl
+	(si pas de model_name, on évalue le dernier modèle)
+	"""
+	pass
+
+
 def assistant():
 	"""
 	Séquence standard de commandes lancée si
@@ -708,7 +755,7 @@ def assistant():
 	
 	# TODO immédiat
 	# ----------------
-	# make_training  /model_type/ /sample/ <=> ci-dessus _call_grobid_trainer
+	# run_training  /model_type/ /sample/ <=> ci-dessus _call_grobid_trainer
 	# ----------------
 	
 	print("BAKO: all tasks DONE for '%s' prepared corpus" % a_corpus_obj.name)
