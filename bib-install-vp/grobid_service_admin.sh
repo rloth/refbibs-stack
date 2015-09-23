@@ -70,6 +70,8 @@ case $1 in
 			cd ~
 			export GB_PID=`cat grobid-service.pid`
 			echo "Service grobid lancé via Jetty sur PID $GB_PID"
+			echo "Attente de 15s obligatoire (soit ~ temps de chargement)"
+			sleep 15
 			exit 0
 		else
 			echo "Service grobid déjà lancé (PID $GB_PID)"
