@@ -5,7 +5,7 @@ Common corpus management
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.1"
+__version__   = "0.2"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -52,11 +52,9 @@ SHELF_STRUCT = {
 			},
 	'BZRTK': {'d':  'D.1.b-trainers-bibzone_rawtok',
 			  'ext':'.training.segmentation',
-			  'tgt':['segmentation','corpus','raw']
 			},
 	'BZTEI': {'d':  'D.1.z-trainers-bibzone_tei',
 			  'ext':'.training.segmentation.tei.xml',
-			  'tgt':['segmentation','corpus','tei']
 			},
 	
 	# biblines = referenceSegmentation ---------------
@@ -65,11 +63,9 @@ SHELF_STRUCT = {
 			},
 	'BLRTK': {'d':  'D.2.b-trainers-biblines_rawtok',
 			  'ext':'.training.referenceSegmenter',
-			  'tgt':['reference-segmenter','corpus','raw']
 			},
 	'BLTEI': {'d':  'D.2.z-trainers-biblines_tei',
 			  'ext':'.training.referenceSegmenter.tei.xml',
-			  'tgt':['reference-segmenter','corpus','tei']
 			},
 	
 	# bibfields = citations --------------------------
@@ -78,7 +74,6 @@ SHELF_STRUCT = {
 			},
 	'BFTEI': {'d':  'D.3.z-trainers-bibfields_tei', 
 			  'ext':'.training.references.tei.xml',
-			  'tgt':['citation','corpus']
 			},
 	
 	# authornames = name/citation ---------------------
@@ -87,7 +82,6 @@ SHELF_STRUCT = {
 			},
 	'AUTEI': {'d':  'D.4.z-trainers-authornames_tei', 
 			  'ext':'.training.citations.authors.tei.xml',
-			  'tgt':['name', 'citation','corpus']
 			},
 	}
 
@@ -97,6 +91,7 @@ PREP_TEI_FROM_TXT = {
 					'bibfields' : {'from': 'BFRTX', 'to': 'BFTEI'},
 					'authornames' : {'from': 'AURTX', 'to': 'AUTEI'},
 					}
+
 # NB:relations attendues par grobid entre les extensions dans D-trainers
 #     '.XXX' pour les rawtoks implique automatiquement:
 #     '.XXX.rawtxt' pour les rawtxt
@@ -161,8 +156,8 @@ comme lieu de stockage de tous les corpus... mais il n'existe pas encore (néces
 				exit(1)
 		
 		
-		# VAR 1: >> name << almost free except should be usable in a fs
-		if type(ko_name) == str and match(r'^[\w-]+$', ko_name):
+		# VAR 1: >> name << should be usable in a fs and without accents (for saxonb-xslt)
+		if type(ko_name) == str and match(r'^[0-9A-Za-z_-]+$', ko_name):
 			self.name = ko_name
 		else:
 			raise TypeError("new Corpus() needs a name str matching /^[0-9A-Za-z_-]+$/ as 1st arg")
@@ -321,11 +316,23 @@ ERROR -- Corpus(__init__ from dir):
 			return shpath
 		else:
 			return None
-
+	
+	def filext(self, the_bname, the_shelf, shext=None):
+		"""
+		basename + shelf extension
+		£TODO : à mettre partout là où l'on a fait bname + shext à la main
+		"""
+		# file extension
+		if not shext:
+			shext = SHELF_STRUCT[the_shelf]['ext']
+		
+		# relative file id
+		return the_bname+shext
+	
 	def fileid(self, the_bname, the_shelf, shext=None, shpath=None):
 		"""
 		Filesystem path of a given doc in a shelf
-		(nb: doesn'r at all check if doc is there)
+		(nb: doesn't check if doc is there)
 		
 		A utiliser en permanence
 		"""
@@ -715,6 +722,8 @@ ERROR -- Corpus(__init__ from dir):
 		
 		src_txt_shelf = PREP_TEI_FROM_TXT[tgt_model]['from']
 		tgt_tei_shelf = PREP_TEI_FROM_TXT[tgt_model]['to']
+		
+		print("SRC shelf", src_txt_shelf)
 		
 		# new folder
 		new_dir = self.shelf_path(tgt_tei_shelf)

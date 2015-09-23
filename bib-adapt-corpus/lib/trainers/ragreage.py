@@ -831,7 +831,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 		elif n_matchs > 2:
 			if tok.req:
 				unrecognized = True
-				if debug >= 2:
+				if debug_lvl >= 2:
 					print("WARN: '%s' (%s) matches too many times (x%i)" %
 							 (tok.xtexts, tok.relpath, n_matchs),
 							 file=sys.stderr) 
