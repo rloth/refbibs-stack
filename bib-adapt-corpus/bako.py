@@ -10,23 +10,17 @@ bib-adapt-corpus ou bako
  #TODO train_and_store(model, modeltype)  <= grobid-trainer, store in models dir
  #TODO eval_report(model)                 <= eval_xml_refbibs_lite, eval_results_lite.r
  #TODO suggest_install_to_vp(model)       <= juste un echo de la ligne rsync adéquate
- 
- 
- Rappel :
- 
- compilation grobid
- mvn  -Dmaven.test.skip=true clean compile  install
- 
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.2"
+__version__   = "0.3"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 # imports
-from os              import path, mkdir, rename
+from os              import path, makedirs, rename, symlink, stat
+from shutil          import rmtree, copytree
 from sys             import stderr, argv
 from configparser    import ConfigParser
 from site            import addsitedir     # pour imports locaux
@@ -91,6 +85,15 @@ SHELF_NAMES = {
 	# authornames = name/citation ---------------------
 	'AURTX': "RAW TEXTS pour authornames",
 	'AUTEI': "TRAIN TEIs pour authornames",
+	}
+
+# dossiers nécessaires pour constituer un dataset grobid
+# dans _prepare_dirs()
+PREP_DATASET = {
+	'bibzone' : {'raw': 'BZRTK', 'tei': 'BZTEI'},
+	'biblines' : {'raw': 'BLRTK', 'tei': 'BLTEI'},
+	'bibfields' : {'tei': 'BFTEI'},
+	'authornames' : {'tei': 'AUTEI'},
 	}
 
 # ----------------------------------------------------------------------
@@ -175,7 +178,9 @@ def bako_sub_args(arglist=None):
 	args_mkset.add_argument(
 		'--from_table',
 		type=str,
-		help='mode "import": table d\'un corpus préexistant'
+		help="""mode "import": table d\'un corpus préexistant
+		.....colonnes attendues: istex_id	corpus
+		4D0BA8757489B4B057B12BFACC797E9A7864B661	els"""
 	)
 	
 	
@@ -365,8 +370,8 @@ def make_set(corpus_name,
 		the_ext      = BSHELFS[the_shelf]['ext']
 		tgt_dir = cobj.shelf_path(the_shelf)
 		
-		print("mkdir: %s" % tgt_dir,file=stderr)
-		mkdir(tgt_dir)
+		print("mkdir -p: %s" % tgt_dir,file=stderr)
+		makedirs(tgt_dir)
 	
 		for (i, ID) in enumerate(ids):
 			api.write_fulltexts(
@@ -479,7 +484,7 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 	return cobj
 
 
-def make_training(model_type, corpora=None, debug=0):
+def make_training(model_type, corpora, debug=0):
 	""" 
 	Entraînement proprement dit
 	
@@ -500,23 +505,138 @@ def make_training(model_type, corpora=None, debug=0):
 	
 	"""
 	
-	# 1) substitution dossiers   
-	#                  n X SHELF_TRAIN 
-	#                  n X SHELF_TRAIN } => symlinks => GB_HOME/grobid-trainer/resources/dataset/$model_name
-	#                  n X SHELF_TRAIN
+	# cas normal
+	if corpora is not None:
+		# reprise (et vérif existence) des corpus
+		try:
+			corpora_objs = [take_set(c_name) for c_name in corpora]
+		except Exception as e:
+			print(e)
+			exit()
+		# initialisation modele
+		new_model = CRFModel(
+			model_type,
+			# NB ce sont juste les noms mais à présent vérifiés
+			the_samples=corpora,
+			debug_lvl=debug
+			)
+		# !! symlinks de substitution dossiers !!
+		_prepare_dirs(new_model, corpora_objs, debug_lvl=debug)
+	
+	# cas vanilla: on entraîne sur les dataset existants
+	else:
+		print("/!\\ TRAINING VANILLA MODEL /!\\", file=stderr)
+		# juste modèle
+		new_model = CRFModel(model_type,debug_lvl=debug)
 	
 	# 2) train_params = _call_grobid_trainer()
-	# 3) new CRFModel(train_params)   ...dont pick()
-	
-	# initialisation du modèle
-	mon_modele = CRFModel(model_type, corpora, debug_lvl=debug)
 	
 	# lancement grobid-trainer
-	mon_modele.call_grobid_trainer()
+	print("training new model %s" % new_model.mid)
+	new_model.call_grobid_trainer()
 	
-	# récupération du modèle
-	mon_modele.pick_n_store()
+	new_model.ran = True
+	
+	# 3) pick_n_store : récupération du modèle
+	stored_location = new_model.pick_n_store()
+	print("new model %s stored into dir %s" % (new_model.mid, stored_location), file=stderr)
 
+def _prepare_dirs(new_model, corpora, debug_lvl = 0):
+	"""
+	symlinks dans GB_HOME/grobid-trainer/
+	pour chaque corpus source, avant training
+	
+	n X SHELF_TRAIN 
+	n X SHELF_TRAIN } => resources/dataset/$model_name
+	n X SHELF_TRAIN
+	"""
+	
+	gb_model = new_model.gb_mdltype_long()
+	
+	base_resrc_elts = [CONF['grobid']['GROBID_HOME'],'grobid-trainer','resources','dataset']
+	model_path_elts = CRFModel.model_map[new_model.mtype]['gbpath'].split('/')
+	
+	full_resrc_elts = base_resrc_elts + model_path_elts + ['corpus']
+	resrc_corpusdir = path.join(*full_resrc_elts)
+	
+	# |#### S U B S T I T U T I O N S  ####|
+	# |corpora trainers                    |
+	# |corpora trainers }~~> grobid dataset|
+	# |corpora trainers                    |
+	# |####################################|
+	
+	# --- dossiers cibles -----------------------------------------
+	# stockage model_type s'il n'y en a pas déjà
+	if not path.isdir(resrc_corpusdir +'.bak'):
+		copytree(resrc_corpusdir, resrc_corpusdir +'.bak')
+	
+	# suppression anciens dataset 
+	# (corpus uniquement: les templates et eval peuvent rester)
+	rmtree(resrc_corpusdir)
+	
+	# nouveau(x) dossier(s) (corpus et eventuels sous-dirs)
+	makedirs(resrc_corpusdir)
+	
+	empty_trainer_tei = 0
+	linked_docs = 0
+	
+	# --- modèles à rawtokens ET tei spécifiques ------------------
+	if new_model.mtype in ['bibzone', 'biblines']:
+		# 'tei' et 'raw' (tokens)
+		for subdir in PREP_DATASET[new_model.mtype]:
+			tgt_dataset_dir = path.join(resrc_corpusdir,subdir)
+			makedirs(tgt_dataset_dir)
+			# exemple BZRTK ou BZTEI
+			src_shelf = PREP_DATASET[new_model.mtype][subdir]
+			for cobj in corpora:
+				for filename in cobj.bnames:
+					src = cobj.fileid(filename, src_shelf)
+					# ---
+					# mini filtre à améliorer
+					if subdir == 'tei' and (stat(src).st_size == 0):
+						print("%s tei vide : ignoré" % src,file=stderr)
+						empty_trainer_tei += 1
+						continue
+					# ---
+					tgt = path.join(
+						tgt_dataset_dir,
+						cobj.filext(filename, src_shelf)
+						)
+					symlink(src, tgt)
+					linked_docs += 1
+					if debug_lvl >= 2:
+						print("symlink %s -> %s" % (src, tgt),file=stderr)
+	
+	# --- modèles citation et authornames: juste tei spécifiques --
+	else:
+		# pas de subdir cette fois-ci: 
+		#  les tei seront directement sous dataset/<model>/corpus
+		for in_dir in input_dirs:
+			tgt_dataset_dir = resrc_corpusdir
+			src_shelf = PREP_DATASET[new_model.mtype]['tei']
+			for cobj in corpora:
+				for filename in cobj.bnames:
+					src = cobj.fileid(filename, src_shelf)
+					# ---
+					# mini filtre à améliorer
+					if(stat(src).st_size == 0):
+						print("%s tei vide : ignoré" % src,file=stderr)
+						empty_trainer_tei += 1
+						continue
+					# ---
+					tgt = path.join(
+						tgt_dataset_dir,
+						cobj.filext(filename, src_shelf)
+						)
+					symlink(src, tgt)
+					linked_docs += 1
+					if debug_lvl >= 2:
+						print("symlink %s -> %s" % (src, tgt),file=stderr)
+	
+	print("dossiers traités %s" % PREP_DATASET[new_model.mtype].keys(), file=stderr)
+	print("documents liés %s" % linked_docs, file=stderr)
+	print("documents tei vides ignorés %s" % empty_trainer_tei, file=stderr)
+	
 
 def assistant():
 	"""

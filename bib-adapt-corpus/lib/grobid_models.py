@@ -1,6 +1,11 @@
 #! /usr/bin/python3
 """
 Simple CRF model fs management
+
+ Rappel :
+ 
+ compilation grobid
+ mvn  -Dmaven.test.skip=true clean compile  install
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
@@ -9,8 +14,8 @@ __version__   = "0.1"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
-from os              import makedirs, path, symlink, stat, listdir
-from shutil          import copy
+from os              import makedirs, path, stat, listdir
+from shutil          import copy, copytree
 from re              import sub
 from sys             import stderr
 from configparser    import ConfigParser
@@ -113,7 +118,7 @@ class CRFModel:
 	
 	Usual slots:
 	 -self.id
-	 -self.model_type
+	 -self.mtype
 	 -self.storing_path
 	"""
 	
@@ -155,26 +160,28 @@ class CRFModel:
 			}
 	
 	# ------------------------------------------------------------
-	#             C O R P U S    I N I T
+	#             M O D E L    I N I T
 	# ------------------------------------------------------------
 
-	def __init__(self, the_model_type, samples_list, gb_name="g03test", eps="10^-3", debug_lvl = 0):
+	def __init__(self, the_model_type, the_samples=['vanilla'], debug_lvl = 0):
 		"""
-		IN: SAMPLE(S) + grobid infos
+		IN: MODEL_TYPE + SAMPLE(S) + grobid infos
+		    si samples = None => vanilla
 		
 		OUT: Model instance with:
 			self.mid
 			--------
 			   =  <gb_name>[.<eps>]-<samp_id>
 			
+			self.samples
+			------------
+			   = corpora_names (list of strings)
+			
 			self.recipy
 			------------
-			   =  {
-			       samples_list (??? corpusdirs)
-			       train_params
-			       }
+			   =  {train_params} # rempli lors du run
 			
-			self.model_type
+			self.mtype
 			----------------
 			   =  bibzone|biblines|bibfields|authornames
 				 - traduction 1 => self.gb_mdltype_long()
@@ -202,17 +209,26 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		# solution incrément TEMPORAIRE => TODO mieux
 		self.model_idno += 1
 		# exemple authornames-0.3.4-411696A-42
-		self.mid = "-".join([the_model_type,GB_VERSION,GB_GIT_ID,str(self.model_idno)])
+		self.mid = "-".join([
+			 the_model_type,
+			 GB_VERSION,GB_GIT_ID,
+			 '.'.join([name[0:4] for name in the_samples]),
+			 str(self.model_idno)
+			])
 		
 		# VAR 2: model_type
-		self.model_type = the_model_type
+		self.mtype = the_model_type
 		
 		# VAR 3: storing_path
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		self.storing_path = path.join(CRFModel.home_dir, self.mid)
 		
-		# VAR 4: recipy
+		# VAR 4: source samples names (list of strs)
+		self.samples = the_samples
+		
+		# VAR 5: recipy
 		self.recipy = None
+		# TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
 		
 		# flags de statut
 		self.ran = False
@@ -229,7 +245,7 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		exemple:
 		  "segmentation"
 		"""
-		return CRFModel.model_map[self.model_type]['gbstd']
+		return CRFModel.model_map[self.mtype]['gbpath']
 	
 	
 	# ------------------------------------------------------
@@ -239,21 +255,17 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		"""
 		ICI Appel training principal
 		!!! Ne vérifie pas que les fichiers src sont au bon endroit !!!
+		!!! Les TEI doivent être au moins non-vides !!!
 		"""
 		
-		return None
-		
 		# exemple: "train_name_citation"
-		model_cmd = CRFModel.model_map[self.model_type]['gbcmd']
+		model_cmd = CRFModel.model_map[self.mtype]['gbcmd']
 		
 		# on travaillera directement là-bas
 		work_dir = path.join(CONF['grobid']['GROBID_HOME'],"grobid-trainer")
 		
-		
 		# !!! locale = C !!!
-		lc_time_backup = getlocale(LC_TIME)
 		lc_numeric_backup = getlocale(LC_NUMERIC)
-		setlocale(LC_TIME, 'C')
 		setlocale(LC_NUMERIC, 'C')
 		
 		mon_process = Popen(
@@ -272,13 +284,12 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 			print(line.decode('UTF-8').rstrip())
 		
 		# on remet la locale comme avant
-		setlocale(LC_TIME, lc_time_backup)
 		setlocale(LC_NUMERIC, lc_numeric_backup)
 	
 	# ------------------------------------------------------
 	#         M O D E L   < = >   F I L E S Y S T E M
 	# ------------------------------------------------------
-	# filesystem interaction: prepare pick, store, install_to_prod
+	# filesystem interaction: pick, store, install_to_prod
 	
 	def pick_n_store(self, debug_lvl = 1):
 		"""
@@ -289,7 +300,7 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		# the standard place for models created by grobid
 		# ------------------------------------------------
 		base_path_elts = [CONF['grobid']['GROBID_HOME'],'grobid-home','models']
-		model_path_elts = CRFModel.model_map[self.model_type]['gbpath'].split('/')
+		model_path_elts = CRFModel.model_map[self.mtype]['gbpath'].split('/')
 		
 		full_path_elts = base_path_elts + model_path_elts + ['model.wapiti']
 		the_path = path.join(*full_path_elts)
@@ -329,6 +340,9 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		
 		
 		self.picked = True
+		
+		# the stored location
+		return new_model_dir
 
 
 	# ------------------------------------------------------
