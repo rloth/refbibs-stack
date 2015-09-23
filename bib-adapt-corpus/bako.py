@@ -25,7 +25,8 @@ from sys             import stderr, argv
 from configparser    import ConfigParser
 from site            import addsitedir     # pour imports locaux
 from re              import search, match
-from argparse  import ArgumentParser, RawDescriptionHelpFormatter
+from argparse        import ArgumentParser, RawDescriptionHelpFormatter
+from collections     import defaultdict
 
 
 # pour les 4 imports locaux + field_values
@@ -419,6 +420,7 @@ def take_set(corpus_name,
 	expected_dir = path.join(Corpus.home_dir, corpus_name)
 	
 	try:
+		print("=======  %s  =======" % corpus_name)
 		cobj = Corpus(corpus_name, read_dir=expected_dir)
 	except FileNotFoundError as fnf_err:
 		print("Je ne trouve pas %s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, Corpus.home_dir),
@@ -513,6 +515,27 @@ def make_training(model_type, corpora, debug=0):
 		except Exception as e:
 			print(e)
 			exit()
+		
+		# dict de vérification local
+		dedup_check = dict()
+		for cobj in corpora_objs:
+			# liste rattachée par objet
+			cobj.temp_ignore = defaultdict(lambda: False)
+			for filename in cobj.bnames:
+				if filename not in dedup_check:
+					# le premier arrivé à gagné
+					dedup_check[filename] = cobj.name
+				else:
+					print("DOUBLON entre %s et %s: %s" % (
+							dedup_check[filename],
+							cobj.name,
+							filename
+							)
+						)
+					# stockage temporaire
+					cobj.temp_ignore[filename] = True
+		
+		
 		# initialisation modele
 		new_model = CRFModel(
 			model_type,
@@ -524,8 +547,10 @@ def make_training(model_type, corpora, debug=0):
 		_prepare_dirs(new_model, corpora_objs, debug_lvl=debug)
 	
 	# cas vanilla: on entraîne sur les dataset existants
+	#              use case rare pour comparer avec repository
+	#              (contrairement à une eval vanilla qui est fréquente)
 	else:
-		print("/!\\ TRAINING VANILLA MODEL /!\\", file=stderr)
+		print("/!\\ RE-TRAINING VANILLA MODEL /!\\", file=stderr)
 		# juste modèle
 		new_model = CRFModel(model_type,debug_lvl=debug)
 	
@@ -533,7 +558,7 @@ def make_training(model_type, corpora, debug=0):
 	
 	# lancement grobid-trainer
 	print("training new model %s" % new_model.mid)
-	new_model.call_grobid_trainer()
+	#~ new_model.call_grobid_trainer()
 	
 	new_model.ran = True
 	
@@ -551,6 +576,7 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	n X SHELF_TRAIN
 	"""
 	
+	# modèle central
 	gb_model = new_model.gb_mdltype_long()
 	
 	base_resrc_elts = [CONF['grobid']['GROBID_HOME'],'grobid-trainer','resources','dataset']
@@ -577,66 +603,84 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	# nouveau(x) dossier(s) (corpus et eventuels sous-dirs)
 	makedirs(resrc_corpusdir)
 	
-	empty_trainer_tei = 0
-	linked_docs = 0
-	
 	# --- modèles à rawtokens ET tei spécifiques ------------------
 	if new_model.mtype in ['bibzone', 'biblines']:
 		# 'tei' et 'raw' (tokens)
 		for subdir in PREP_DATASET[new_model.mtype]:
+			# ici tgt_subdirs à créer
 			tgt_dataset_dir = path.join(resrc_corpusdir,subdir)
 			makedirs(tgt_dataset_dir)
-			# exemple BZRTK ou BZTEI
+			# src_shelf: exemple BZRTK ou BZTEI
 			src_shelf = PREP_DATASET[new_model.mtype][subdir]
 			for cobj in corpora:
-				for filename in cobj.bnames:
-					src = cobj.fileid(filename, src_shelf)
-					# ---
-					# mini filtre à améliorer
-					if subdir == 'tei' and (stat(src).st_size == 0):
-						print("%s tei vide : ignoré" % src,file=stderr)
-						empty_trainer_tei += 1
-						continue
-					# ---
-					tgt = path.join(
-						tgt_dataset_dir,
-						cobj.filext(filename, src_shelf)
-						)
-					symlink(src, tgt)
-					linked_docs += 1
-					if debug_lvl >= 2:
-						print("symlink %s -> %s" % (src, tgt),file=stderr)
+				lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl)
 	
 	# --- modèles citation et authornames: juste tei spécifiques --
 	else:
-		# pas de subdir cette fois-ci: 
-		#  les tei seront directement sous dataset/<model>/corpus
-		for in_dir in input_dirs:
-			tgt_dataset_dir = resrc_corpusdir
-			src_shelf = PREP_DATASET[new_model.mtype]['tei']
-			for cobj in corpora:
-				for filename in cobj.bnames:
-					src = cobj.fileid(filename, src_shelf)
-					# ---
-					# mini filtre à améliorer
-					if(stat(src).st_size == 0):
-						print("%s tei vide : ignoré" % src,file=stderr)
-						empty_trainer_tei += 1
-						continue
-					# ---
-					tgt = path.join(
-						tgt_dataset_dir,
-						cobj.filext(filename, src_shelf)
-						)
-					symlink(src, tgt)
-					linked_docs += 1
-					if debug_lvl >= 2:
-						print("symlink %s -> %s" % (src, tgt),file=stderr)
+		# les tei sources sont à mettre
+		# directement sous <model>/corpus
+		src_subdir = 'tei'
+		# src_shelf: exemple BFTEI
+		src_shelf = PREP_DATASET[new_model.mtype][src_subdir]
+		for cobj in corpora:
+			lns(cobj, src_shelf, resrc_corpusdir, src_subdir, debug_lvl)
+
+
+def lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
+	"""
+	Création de symlink depuis une shelf
+	vers un dossier extérieur (ex: dataset)
+	avec vérifications fichier tei vides
+	"""
 	
-	print("dossiers traités %s" % PREP_DATASET[new_model.mtype].keys(), file=stderr)
-	print("documents liés %s" % linked_docs, file=stderr)
-	print("documents tei vides ignorés %s" % empty_trainer_tei, file=stderr)
+	# stats
+	linked_docs = 0
+	null_trainer_tei = 0
+	null_duplicated = 0
+	null_absent = 0
 	
+	print("---( corpus %s : étagère %s )---" % (cobj.name, src_shelf), file=stderr)
+	
+	# boucle par fichier à lier
+	for filename in cobj.bnames:
+		# ---
+		# mini filtre selon notre liste de dédoublonnage précédente
+		if cobj.temp_ignore[filename]:
+			if debug_lvl >= 2:
+				print("     doublon ignoré: %s" % filename,file=stderr)
+			null_duplicated += 1
+		# ---
+		# cas normal
+		else:
+			src = cobj.fileid(filename, src_shelf)
+			# ---
+			# mini filtre fichiers absents
+			if not path.exists(src):
+				if debug_lvl >= 2:
+					print("     fichier absent ignoré: %s dans %s" % (filename, src_shelf),file=stderr)
+			# ---
+			# ---
+			# mini filtre fichiers vides
+			elif subdir == 'tei' and (stat(src).st_size == 0):
+				if debug_lvl >= 2:
+					print("     training.tei vide ignoré: %s" % filename,file=stderr)
+				null_trainer_tei += 1
+			# ---
+			else:
+				tgt = path.join(
+					tgt_dataset_dir,
+					cobj.filext(filename, src_shelf)
+					)
+				symlink(src, tgt)
+				linked_docs += 1
+			# print("symlink %s -> %s" % (src, tgt),file=stderr)
+	if debug_lvl >= 1:
+		print(" => %s docs ignorés (%s absents, %s vides, %s doublons)" % (
+									null_absent+null_trainer_tei+null_duplicated,
+									null_absent ,null_trainer_tei ,null_duplicated
+									),
+											file=stderr)
+	print(" => %s documents liés" % linked_docs, file=stderr)
 
 def assistant():
 	"""
