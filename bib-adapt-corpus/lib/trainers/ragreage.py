@@ -415,6 +415,7 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 			# dernière page : variantes ['1645', '45']
 			lpp_str = xelt.get('to')
 			all_alternatives = lpp_variants(lpp_str, context=fpp_str)
+			print(all_alternatives)
 			tok2 = XTokinfo(s= all_alternatives,
 			   xip='%s[@unit="pp"]' % base_path )
 			toklist.append(tok2)
@@ -521,7 +522,12 @@ def lpp_variants(lpp_str, context):
 	# on a toujours au moins la chaîne complète dans les matchables
 	suffixes = [lpp_str]
 	
-	if context and (len(context) == n_chars):
+	# cas spécifique : même page
+	if lpp_str == context:
+		suffixes.append(lpp_str)
+	
+	# cas lpp_str = 1234 et context = 1250
+	elif context and (len(context) == n_chars):
 		# sous-chaine commune
 		k_common_chars = 0
 		for i in range(0,n_chars):
@@ -532,7 +538,7 @@ def lpp_variants(lpp_str, context):
 			# génération d'un seul suffixe de la bonne longueur
 			suffixes.append(lpp_str[k_common_chars : n_chars])
 	
-	# pas de contexte connu => on tente toutes les aphérèses possibles
+	# cas sans contexte connu => on tente toutes les aphérèses possibles
 	else:
 		for i in range(1,n_chars):
 			#                       fin--        fin
