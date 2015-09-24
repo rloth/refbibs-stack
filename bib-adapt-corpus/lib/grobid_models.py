@@ -113,7 +113,7 @@ except Exception as e:
 # ----------------
 class CRFModel:
 	"""
-	A wapiti CRF model with its locatation
+	A wapiti CRF model with its location
 	and standard operations/methods
 	
 	Usual slots:
@@ -164,10 +164,17 @@ class CRFModel:
 	#             M O D E L    I N I T
 	# ------------------------------------------------------------
 
-	def __init__(self, the_model_type, the_samples=['vanilla'], debug_lvl = 0):
+	def __init__(self, the_model_type, existing_mid=None,
+	             the_samples=['vanilla'], debug_lvl = 0):
 		"""
-		IN: MODEL_TYPE + SAMPLE(S) + grobid infos
+		en création:
+		------------
+		 IN: MODEL_TYPE + SAMPLE(S) + grobid infos
 		    si samples = None => vanilla
+		
+		ou en import:
+		   ----------
+		 IN: MODEL_TYPE + model_id
 		
 		OUT: Model instance with:
 			self.mid
@@ -194,48 +201,52 @@ class CRFModel:
 		"""
 		
 		if not path.exists(CRFModel.home_dir):
-			user_reply = input(
-"""
-PAUSE: Vos paramètres de config ont le dossier '%s'
-comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'existe pas encore (nécessaire pour continuer)).
-
-  => Voulez-vous le créer maintenant ? (y/n) """ % CRFModel.home_dir)
+			# suggérer bako assistant_installation à l'utilisateur ?
+			raise FileNotFoundError(CRFModel.home_dir)
+		
+		# MODE CREATION #
+		if existing_mid == None:
+			# VAR 1: id
+			# solution incrément TEMPORAIRE => TODO mieux
+			self.model_idno += 1
+			# exemple authornames-0.3.4-411696A-42
+			self.mid = "-".join([
+				 the_model_type,
+				 GB_VERSION,GB_GIT_ID,
+				 '.'.join([name[0:4] for name in the_samples]),
+				 str(self.model_idno)
+				])
 			
-			if user_reply[0] in ['Y','y','O','o']:
-				makedirs(CRFModel.home_dir)
+			# VAR 2: model_type
+			self.mtype = the_model_type
+			
+			# VAR 3: storing_path
+			# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
+			self.storing_path = path.join(CRFModel.home_dir, self.mid)
+			
+			# VAR 4: source samples names (list of strs)
+			self.samples = the_samples
+			
+			# VAR 5: recipy
+			self.recipy = None
+			# TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
+			
+			# flags de statut
+			self.ran = False
+			self.picked = False
+			self.evaluated = False
+		
+		# MODE IMPORT #
+		else:
+			self.mid = existing_mid
+			tentative_path = path.join(CRFModel.home_dir, self.mid)
+			if not path.isdir(tentative_path):
+				raise FileNotFoundError(tentative_path)
 			else:
-				exit(1)
-		
-		# VAR 1: id
-		# solution incrément TEMPORAIRE => TODO mieux
-		self.model_idno += 1
-		# exemple authornames-0.3.4-411696A-42
-		self.mid = "-".join([
-			 the_model_type,
-			 GB_VERSION,GB_GIT_ID,
-			 '.'.join([name[0:4] for name in the_samples]),
-			 str(self.model_idno)
-			])
-		
-		# VAR 2: model_type
-		self.mtype = the_model_type
-		
-		# VAR 3: storing_path
-		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
-		self.storing_path = path.join(CRFModel.home_dir, self.mid)
-		
-		# VAR 4: source samples names (list of strs)
-		self.samples = the_samples
-		
-		# VAR 5: recipy
-		self.recipy = None
-		# TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
-		
-		# flags de statut
-		self.ran = False
-		self.picked = False
-		self.evaluated = False
-		
+				self.storing_path = tentative_path
+				self.mtype = re.search(r'^[^-]+', self.mid).group()
+			
+			# TODO recipy et samples d'après méta ou log
 	
 	# ------------------------------------------------------
 	#         M O D E L    I N F O    M E T H O D S
@@ -298,7 +309,13 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 	# ------------------------------------------------------
 	#         M O D E L   < = >   F I L E S Y S T E M
 	# ------------------------------------------------------
-	# filesystem interaction: pick, store, install_to_prod
+	# filesystem interaction: import, pick_n_store, install
+	
+	def vanilla_import(self):
+		"""
+		Import grobid current models
+		"""
+		pass
 	
 	def pick_n_store(self, mvn_log_lines, crf_log_lines, debug_lvl = 1):
 		"""

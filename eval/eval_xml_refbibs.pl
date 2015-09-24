@@ -4,12 +4,13 @@
 #         - sur corpus PM_1943 déjà annoté dans un format NXML
 #         - d'une chaine de balisage des références TEI (ex: grobid, bilbo)
 # --------------------------------------------------------------------------
-#  message /help/ en fin de ce fichier       version: 0.7 (18/05/2015)
-#  copyright 2014 INIST-CNRS      contact: romain dot loth at inist dot fr
+#  message /help/ en fin de ce fichier       version: 0.8 (23/09/2015)
+#  copyright 2014-15 INIST-CNRS    contact: romain dot loth at inist dot fr
 # --------------------------------------------------------------------------
 
 # changelog
 # ---------
+# version 0.7 => 0.8: tout TEI et assiette de précision
 # version 0.6 => 0.7: prise en compte d'erreurs OCR courantes
 #                     dans clean_compare et @COMPARERS
 

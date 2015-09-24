@@ -143,24 +143,14 @@ class Corpus:
 		"""
 		
 		if not path.exists(Corpus.home_dir):
-			user_reply = input(
-"""
-PAUSE: Vos paramètres de config ont le dossier '%s'
-comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
-
-  => Voulez-vous le créer maintenant ? (y/n) """ % Corpus.home_dir)
-			
-			if user_reply[0] in ['Y','y','O','o']:
-				mkdir(Corpus.home_dir)
-			else:
-				exit(1)
-		
+			# suggérer bako assistant_installation à l'utilisateur ?
+			raise FileNotFoundError(Corpus.home_dir)
 		
 		# VAR 1: >> name << should be usable in a fs and without accents (for saxonb-xslt)
-		if type(ko_name) == str and match(r'^[0-9A-Za-z_-]+$', ko_name):
+		if type(ko_name) == str and match(r'[_0-9A-Za-z-]+', ko_name):
 			self.name = ko_name
 		else:
-			raise TypeError("new Corpus() needs a name str matching /^[0-9A-Za-z_-]+$/ as 1st arg")
+			raise TypeError("new Corpus('%s') needs a name str matching /^[0-9A-Za-z_-]+$/ as 1st arg" % ko_name)
 		
 		# VAR 2: **cdir** new dir for this corpus and subdirs ----------
 		if not read_dir:

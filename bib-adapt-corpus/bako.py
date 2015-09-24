@@ -27,6 +27,7 @@ from site            import addsitedir     # pour imports locaux
 from re              import search, match
 from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 from collections     import defaultdict
+from subprocess      import PIPE, Popen
 
 
 # pour les 4 imports locaux + field_values
@@ -116,7 +117,7 @@ def bako_sub_args(arglist=None):
   bako take_set       corpus_name
   bako make_trainers  corpus_name  [-m model  [model2...]]
   bako run_training   model_type   [-c corpus_name [corpus_name2...]]
-  bako model_eval     [-m model_name] [-e evalcorpus_name] [-s] [-g]
+  bako eval_model     [-m model_name] [-e evalcorpus_name] [-s] [-g]
 """,
 		epilog="""
 ------- (c) 2015 :: romain.loth@inist.fr :: Inist-CNRS (ISTEX) -------
@@ -268,7 +269,7 @@ def bako_sub_args(arglist=None):
 	)
 	
 	# pour savoir quelle commande ça lance
-	args_evalm.set_defaults(func=model_eval)
+	args_evalm.set_defaults(func=eval_model)
 	
 	# aucun argument obligatoire
 	args_evalm.add_argument(
@@ -737,50 +738,117 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 	print(" => %s documents liés" % linked_docs, file=stderr)
 
 
-def model_eval(model_name=None, eval_set=CONF['eval']['CORPUS_NAME'], 
-               save_tab=True, do_graphs=False):
+def eval_model(model_name=None, eval_set=None, 
+               save_tab=True, do_graphs=False, debug = 0):
 	"""
 	Lancement indirect de eval_xml_refbibs.pl
 	(si pas de model_name, on évalue le dernier modèle)
 	"""
-	pass
+	
+	# (1) lancer balisage
+	
+		# for liste in xa* ;   do bash client_passe_liste.sh < $liste 2>> clients.curl.${liste}.log & PIDS[$i]=$! ;      i=$((i+1)) ;  done
+	
+	tagged_path = './TEI-back_done/'
+	
+	# (2) évaluer
+	which_eval_script = CONF['eval']['SCRIPT_PATH']
+	
+	if eval_set is None:
+		eval_set = CONF['eval']['CORPUS_NAME']
+	
+	eval_corpus = take_set(eval_set)
+	
+	# cas où l'on évalue les modèles courants
+	# dont initialement vanilla: modèles pré-existants
+	if model_name is None:
+		# use case courant: une eval vanilla qui est fréquente
+		#                   pour "calibrer" les attentes
+		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
+		# juste modèles courants
+		
+		mon_process = Popen(
+		  ['perl', which_eval_script,
+		  '-r',  eval_corpus.shelf_path('GTEI'),
+		  '-x', tagged_path
+		  ], 
+		  stdout=PIPE, stderr=PIPE,
+		  #~ cwd=work_dir
+		)
+		
+		for line in mon_process.stderr:
+			print(line.decode('UTF-8').rstrip())
+	
+	# cas avec un modèle donné
+	else:
+		model_object = CRFModel(existing_mid=model_name)
+		# TODO
+		raise NotImplementedError()
 
 
-def assistant():
+def assistant_installation():
 	"""
-	Séquence standard de commandes lancée si
-	l'utilisateur n'a donné aucune commande spécifique...
+	Séquence standard de commandes lancées à la mise en place
 	
-	task 1 sampling et pub2tei (make_set)
-	
-	task 2 préparation trainers (make_trainers)
+	task 1 initialisation des dossiers corpora, models, evals
+	task 2 import des modèles grobid courants
+	task 3 sampling d'un premier corpus eval (+ make_set)
+	task 4 première évaluation "vanilla"
 	"""
 	
+	# --- initialisation des dossiers --------------------------
+	choix1 = input(
+	"""
+Vos paramètres de configuration ont le dossier '%s'
+comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
+  => Voulez-vous le créer maintenant ? (y/n) """ % Corpus.home_dir)
+	if choix1[0] in ['Y','y','O','o']:
+		mkdir(Corpus.home_dir)
+	else:
+		exit(1)
+	
+	if not path.exists(CRFModel.home_dir):
+		choix2 = input(
+	"""
+De même, nous aurons besoin du dossier '%s' pour les modèles CRF ("CRF Store")
+  => Voulez-vous aussi le créer maintenant ? (y/n) """ % CRFModel.home_dir)
+	if choix2[0] in ['Y','y','O','o']:
+		makedirs(CRFModel.home_dir)
+	else:
+		exit(1)
+	
+	# --- import des modèles grobid courants (aka 'vanilla') ---
+	
+	
+	
+	# --- premier corpus d'évaluation --------------------------
 	# nom du nouveau corpus
-	inname = input("choisissez un nom (si possible sans espaces...) pour initialiser un nouveau dossier corpus sous /corpora :")
+	eval_c_name = CONF['eval']['CORPUS_NAME']
+	# taille
+	eval_size = input("choisissez la taille du corpus d'évaluation par défaut pour initialiser un nouveau dossier corpus '%s' sous /corpora [défaut:100]: " % eval_c_name).rstrip()
 	
-	if len(inname):
+	if not match(r'[0-9]*', eval_size):
+		exit(1)
+	else:
+		if len(eval_size):
+			the_size = int(eval_size)
+		else:
+			the_size = 100
+		# >> initialisation <<
 		a_corpus_obj = make_set(
-				corpus_name = inname.rstrip(),
-				size = 15
-			)
-	
-	input("appuyez sur entrée pour lancer le createTraining puis le ragreage")
-	
-	# par défaut: avec les modèles de local_conf.ini['training']
-	make_trainers(a_corpus_obj.name)
-	
-	# TODO immédiat
-	# ----------------
-	# run_training  /model_type/ /sample/ <=> ci-dessus _call_grobid_trainer
-	# ----------------
+					corpus_name = eval_c_name,
+					size = the_size
+				)
+		print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
+		for this_shelf in a_corpus_obj.fulltextsh():
+			print("  - %s" % SHELF_NAMES[this_shelf])
+		print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
 	
 	print("BAKO: all tasks DONE for '%s' prepared corpus" % a_corpus_obj.name)
-	print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
-	for this_shelf in a_corpus_obj.fulltextsh():
-		print("  - %s" % SHELF_NAMES[this_shelf])
-	print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
 	
+	
+	# --- première évaluation ----------------------------------
+	input('appuyez sur entrée pour lancer la première évaluation (avec juste les modèles grobid courants, dits aussi "vanilla")')
 
 
 ########################################################################
