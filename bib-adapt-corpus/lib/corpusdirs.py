@@ -119,7 +119,7 @@ class Corpus:
 	# ------------------------------------------------------------
 
 	# TODO absolument une dir extraite de s1 sous la forme read_dir
-	def __init__(self, ko_name, new_infos=None, read_dir=False):
+	def __init__(self, ko_name, new_infos=None, read_dir=False, verbose=False):
 		"""
 		IN: new_infos : a metadata table (eg sampler output)
 		                (no fulltexts yet, no workdir needed)
@@ -199,7 +199,8 @@ ERROR -- Corpus(__init__ from dir):
 				new_infos = fi.readlines()
 				fi.close()
 			
-			print("DID READ INFOS FROM %s" % infos_path)
+			if verbose:
+				print(".rawinfos << %s" % infos_path)
 
 
 		# VAR 7: >> shelfs <<   (index de flags pour "sous-dossiers par format")
@@ -253,6 +254,12 @@ ERROR -- Corpus(__init__ from dir):
 			#       for column access
 			self.cols = self._read_columns()
 			
+			if verbose:
+				print(".cols:")
+				print("  ├──['pub_year'] --> %s" % self.cols['pub_year'][0:3] + '..')
+				print("  ├──['title']    --> %s" % [s[0:10]+'..' for s in self.cols['title'][0:3]] + '..')
+				print("  └──%s --> ..." % [cname for cname in self.cols if cname not in ['pub_year','title']])
+			
 			# ----- fileids
 			# VARS 5: >> bnames << basenames for persistance slots
 			my_ids = self.cols['istex_id']
@@ -290,13 +297,15 @@ ERROR -- Corpus(__init__ from dir):
 			self.bnames = None
 		
 		# print triggers
-		triggers_dirs = []
-		for shelf, bol in self.shelfs.items():
-			on_off = 'on' if bol else 'off'
-			ppdir = SHELF_STRUCT[shelf]['d']
-			triggers_dirs.append([ppdir,on_off])
-		for td in sorted(triggers_dirs):
-			print("> %-3s  --- %s" % (td[1], td[0]))
+		if verbose:
+			print(".shelfs:")
+			triggers_dirs = []
+			for shelf, bol in self.shelfs.items():
+				on_off = ' ON' if bol else 'off'
+				ppdir = SHELF_STRUCT[shelf]['d']
+				triggers_dirs.append([ppdir,on_off])
+			for td in sorted(triggers_dirs):
+				print("  > %-3s  --- %s" % (td[1], td[0]))
 	
 
 	# ------------------------------------------------------------

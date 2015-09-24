@@ -457,11 +457,12 @@ def take_set(corpus_name,
 	
 	try:
 		print("=======  %s  =======" % corpus_name)
-		cobj = Corpus(corpus_name, read_dir=expected_dir)
+		cobj = Corpus(corpus_name, read_dir=expected_dir, verbose=True)
 	except FileNotFoundError as fnf_err:
-		print("Je ne trouve pas %s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, Corpus.home_dir),
+		print("Je ne trouve pas '%s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, Corpus.home_dir),
 		file=stderr)
-		return None
+		fnf_err.corpus_name = corpus_name
+		raise(fnf_err)
 	
 	return cobj
 
@@ -499,7 +500,6 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 	# trainers : RAWTXT pour tous 
 	#                      (et RAWTOKS pour bibzone et biblines)
 	for tgt_model in model_types:
-		
 		
 		src_shelf = PREP_TEI_FROM_TXT[tgt_model]['from']
 		src_shelf_name = SHELF_NAMES[src_shelf]
@@ -543,15 +543,34 @@ def run_training(model_type, corpora, debug=0):
 	
 	"""
 	
-	# cas normal
-	if corpora is not None:
-		# reprise (et vérif existence) des corpus
-		try:
-			corpora_objs = [take_set(c_name) for c_name in corpora]
-		except Exception as e:
-			print(e)
-			exit()
+	# cas vanilla: on entraîne sur les dataset existants
+	if corpora is None:
+		# use case rare (ex: pour comparer avec repository)
+		# (contrairement à une eval vanilla qui est fréquente)
+		print("/!\\ RE-TRAINING VANILLA MODEL /!\\", file=stderr)
+		# juste modèle
+		new_model = CRFModel(model_type,debug_lvl=debug)
+	
+	# cas normal avec liste de corpus à reprendre
+	else:
+		corpora_objs = []
+		# (1) vérif existence
+		for c_name in corpora:
+			try:
+				corpora_objs.append(take_set(c_name))
+			except FileNotFoundError as e:
+				print("ERR: Le corpus '%s' n'existe pas." % e.corpus_name,file=stderr)
+				exit(1)
 		
+		# (2) vérif étagère(s) requise(s)
+		for c_obj in corpora_objs:
+			for tgtdir in PREP_DATASET[model_type]:
+				needed_sh = PREP_DATASET[model_type][tgtdir]
+				if not c_obj.shelfs[needed_sh]:
+					print("ERR: Le corpus '%s' n'a pas d'étagère %s pour %s" % (c_obj.name,needed_sh,model_type) ,file=stderr)
+					exit(1)
+		
+		# (3) vérif doublons
 		# dict de vérification local
 		dedup_check = dict()
 		for cobj in corpora_objs:
@@ -571,8 +590,7 @@ def run_training(model_type, corpora, debug=0):
 					# stockage temporaire
 					cobj.temp_ignore[filename] = True
 		
-		
-		# initialisation modele
+		# --- initialisation modele -----------------------------
 		new_model = CRFModel(
 			model_type,
 			# NB ce sont juste les noms mais à présent vérifiés
@@ -582,24 +600,22 @@ def run_training(model_type, corpora, debug=0):
 		# !! symlinks de substitution dossiers !!
 		_prepare_dirs(new_model, corpora_objs, debug_lvl=debug)
 	
-	# cas vanilla: on entraîne sur les dataset existants
-	#              use case rare pour comparer avec repository
-	#              (contrairement à une eval vanilla qui est fréquente)
-	else:
-		print("/!\\ RE-TRAINING VANILLA MODEL /!\\", file=stderr)
-		# juste modèle
-		new_model = CRFModel(model_type,debug_lvl=debug)
 	
 	# 2) train_params = _call_grobid_trainer()
 	
 	# lancement grobid-trainer
 	print("training new model %s" % new_model.mid)
-	#~ new_model.call_grobid_trainer()
+	
+	# ==================================================#
+	#  E N T R A I N E M E N T    G R O B I D    C R F  #
+	# ==================================================#
+	(mvnlog, crflog) = new_model.call_grobid_trainer()  #
+	# ==================================================#
 	
 	new_model.ran = True
 	
 	# 3) pick_n_store : récupération du modèle
-	stored_location = new_model.pick_n_store()
+	stored_location = new_model.pick_n_store(mvnlog, crflog)
 	print("new model %s stored into dir %s" % (new_model.mid, stored_location), file=stderr)
 
 
@@ -616,7 +632,8 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	# modèle central
 	gb_model = new_model.gb_mdltype_long()
 	
-	base_resrc_elts = [CONF['grobid']['GROBID_HOME'],'grobid-trainer','resources','dataset']
+	base_resrc_elts = [CONF['grobid']['GROBID_HOME'],
+						'grobid-trainer','resources','dataset']
 	model_path_elts = CRFModel.model_map[new_model.mtype]['gbpath'].split('/')
 	
 	full_resrc_elts = base_resrc_elts + model_path_elts + ['corpus']

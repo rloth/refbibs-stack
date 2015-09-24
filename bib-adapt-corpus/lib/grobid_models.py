@@ -4,8 +4,8 @@ Simple CRF model fs management
 
  Rappel :
  
- compilation grobid
- mvn  -Dmaven.test.skip=true clean compile  install
+ compilation rapide grobid
+   mvn --offline -Dmaven.test.skip=true clean compile install
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
@@ -81,31 +81,31 @@ except Exception as e:
 
 # S T R U C T U R E    D E    R A N G E M E N T 
 # (à la coltrane)
-TIDY_STRUCT = {
-	# échantillon de travail
-	'SAMP': {
-		'_id' : "<mdltype>-<name>-<nfiles>",
-		'data': "<mdltype_long>",
-		'meta': "<_id.readme>"
-		},
-	
-	# resultat d'un run d'entraînement
-	'MODL': {
-		'_id'  : "<gb_name>[.<eps>]-<samp_id>",
-		'log'  : ["<_id>.crf.log", "<_id>.mvn.log"],
-		'model': {"<mdltype_long>":'model.wapiti'}
-		},
-	
-	# résultat d'une évaluation
-	'EVAL': {
-		'_id' : "<corpus_shortname>-<gb_name>_<samp_id>+",
-		'version.log':None,
-		'gb_eval_<_id>.log':None,
-		'gb_eval_<_id>.tab':None,
-		'gb_eval_<_id>.shb':None,
-		'TEI-back_done': "%res_tei%"
-		},
-	}
+#~ TIDY_STRUCT = {
+	#~ # échantillon de travail
+	#~ 'SAMP': {
+		#~ '_id' : "<mdltype>-<name>-<nfiles>",
+		#~ 'data': "<mdltype_long>",
+		#~ 'meta': "<_id.readme>"
+		#~ },
+	#~ 
+	#~ # resultat d'un run d'entraînement
+	#~ 'MODL': {
+		#~ '_id'  : "<gb_name>[.<eps>]-<samp_id>",
+		#~ 'log'  : ["<_id>.crf.log", "<_id>.mvn.log"],
+		#~ 'model': {"<mdltype_long>":'model.wapiti'}
+		#~ },
+	#~ 
+	#~ # résultat d'une évaluation
+	#~ 'EVAL': {
+		#~ '_id' : "<corpus_shortname>-<gb_name>_<samp_id>+",
+		#~ 'version.log':None,
+		#~ 'gb_eval_<_id>.log':None,
+		#~ 'gb_eval_<_id>.tab':None,
+		#~ 'gb_eval_<_id>.shb':None,
+		#~ 'TEI-back_done': "%res_tei%"
+		#~ },
+	#~ }
 
 # ----------------------------------------------------------------------
 # ----------------------------------------------------------------------
@@ -271,6 +271,7 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		
 		mon_process = Popen(
 			  ['mvn',
+			  '--offline',
 			  '-X',
 			  'generate-resources',
 			  '-P', model_cmd
@@ -280,22 +281,29 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 		)
 		
 		self.ran = True
-
+		
+		crflog_lines = []
+		
 		for line in mon_process.stderr:
 			print(line.decode('UTF-8').rstrip())
+			crflog_lines.append(line.decode('UTF-8').rstrip())
+		
+		mvnlog_lines = [l.decode('UTF-8').rstrip() for l in mon_process.stdout]
 		
 		# on remet la locale comme avant
 		setlocale(LC_NUMERIC, lc_numeric_backup)
+		
+		return (mvnlog_lines, crflog_lines)
 	
 	# ------------------------------------------------------
 	#         M O D E L   < = >   F I L E S Y S T E M
 	# ------------------------------------------------------
 	# filesystem interaction: pick, store, install_to_prod
 	
-	def pick_n_store(self, debug_lvl = 1):
+	def pick_n_store(self, mvn_log_lines, crf_log_lines, debug_lvl = 1):
 		"""
-		Recovers the new model from its standard grobid location and
-		stores it in the structured models home_dir with ID and creation info.
+		Recovers the new model from its standard grobid location and its logs
+		+ stores it in the structured models home_dir with ID and creation info.
 		"""
 		# WHERE DO WE PICK FROM ?
 		# the standard place for models created by grobid
@@ -311,34 +319,31 @@ comme lieu de stockage de tous les modèles CRF ("CRF Store")... mais il n'exist
 			statinfo = stat(the_path)
 			MB_size = statinfo.st_size/1048576
 			ctime = strftime("%Y-%m-%d %H:%M:%S", localtime(statinfo.st_ctime))
-			print("WILL PICK MODEL:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime), file=stderr)
-		
-		
-		print("SSP", self.storing_path)
+			print("PICK MODEL:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime), file=stderr)
 		
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		new_base_dir = self.storing_path
-		new_log_dir = path.join(new_base_dir, 'log')
 		
 		model_dir_elts = [new_base_dir, 'model'] + model_path_elts
 		new_model_dir = path.join(*model_dir_elts)
 		
-		# exemples
-		# /home/jeanpaul/models/authornames-0.3.4-411696A-42
-		# /home/jeanpaul/models/authornames-0.3.4-411696A-42/log
-		# /home/jeanpaul/models/authornames-0.3.4-411696A-42/model/name/citation
-		
+		# ex: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		makedirs(new_base_dir)
-		makedirs(new_log_dir)
+		# ex: /home/jeanpaul/models/authornames-0.3.4-411696A-42/model/name/citation
 		makedirs(new_model_dir)
 		
 		copy(the_path, path.join(new_model_dir, 'model.wapiti'))
  
-		#~ # logs
-		#~ mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
-		#~ mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-		#~ mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-		
+		# logs
+		# ex: /home/jeanpaul/models/authornames-0.3.4-411696A-42/log
+		new_log_dir = path.join(new_base_dir, 'log')
+		makedirs(new_log_dir)
+		mvn_lfile = open(path.join(new_log_dir, 'training.mvn.log'),'w')
+		mvn_lfile.write('\n'.join(mvn_log_lines))
+		mvn_lfile.close()
+		crf_lfile = open(path.join(new_log_dir, 'training.crf.log'),'w')
+		crf_lfile.write('\n'.join(crf_log_lines))
+		crf_lfile.close()
 		
 		self.picked = True
 		
