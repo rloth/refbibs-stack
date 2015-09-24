@@ -789,14 +789,14 @@ def eval_model(model_name=None, eval_set=None,
 		if debug > 0:
 			debug_flag = "-d"
 		
-		mon_process = Popen(
+		mon_process = call(
 		  ['perl', which_eval_script,
 		   debug_flag,
 		  '-r',  eval_corpus.shelf_path('GTEI'),
 		  '-x', tagged_path,
 		  '-e', 'references.tei.xml'
 		  ], 
-		  stdout=PIPE, stderr=PIPE,
+		  # stdout=PIPE, stderr=PIPE,
 		  #~ cwd=work_dir
 		)
 		

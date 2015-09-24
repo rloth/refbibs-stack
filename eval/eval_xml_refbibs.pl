@@ -84,13 +84,13 @@ my @CANON_KEYS  = ('tit','date','j','vol','iss','fpg','lpg','psher') ;
 my @COMPARERS = (
 	'\&compare_rmhyphen',
 	'\&compare_joinhyphen',
-	'\&compare_unligatures',
-	'\&compare_normalise_punct',
-	'\&compare_normalise_space',
+	# '\&compare_unligatures',
+	# '\&compare_normalise_punct',
+	# '\&compare_normalise_space',
 	#~ '\&compare_joinaccent',
 	#~ '\&compare_unaccent',
 	'\&compare_simple_punctuation',
-	'\&compare_ocrerrors',
+	# '\&compare_ocrerrors',
 	'\&compare_little_longer',  # ces 2 là forcément en dernier
 	'\&compare_little_shorter', # ces 2 là forcément en dernier
 	) ;

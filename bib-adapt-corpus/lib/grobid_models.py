@@ -282,7 +282,7 @@ class CRFModel:
 		
 		mon_process = Popen(
 			  ['mvn',
-			  '--offline',
+			  # '--offline',
 			  '-X',
 			  'generate-resources',
 			  '-P', model_cmd
