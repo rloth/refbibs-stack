@@ -80,9 +80,6 @@ my $numcount = 0 ;
 my @CANON_KEYS  = ('tit','date','j','vol','iss','fpg','lpg','psher') ;
 # NB : 'names' avec les auteurs est traité à part car un degré d'emboîtement supplémentaire
 
-# classe de formes pour la regexp de comparaison relachée des noms de famille
-my $CC_PARTICULES = "a |abu |af |al |am |an |av |auf |ben |el |d'|da |dal |dall'|das |de |de la |de las |de les |de los |degli |del |dei |dell'|della|des |di |dos |du |ibn |im |la |le |lo |mac |mc |o'|'t |t'|te |ten |ter |van |van den |van der |von der |von |vom |y |zu |zum |zur " ;
-
 # Fonctions de comparaison
 my @COMPARERS = (
 	'\&compare_rmhyphen',
@@ -116,7 +113,6 @@ my @COMPARERS = (
 ###############################################################
 #######                    MAIN                      ##########
 ###############################################################
-
 
 # Liste des fichiers *à évaluer*
 my @xml_to_check_list = map {decode('UTF-8', $_)} glob("$xml_dir/*.$ext") ;
@@ -194,9 +190,7 @@ print join($separateur,
 	'gfields','tfields',        # nombre de champs de part et d'autre (hormis les noms)
 	(map {"F".$_} @CANON_KEYS), # on préfixe 'F' (field) au nom des champs
 	'gnames','tnames','oknames',      # nombre de sous-champs auteurs/nom et nb d'entre eux alignés
-	'capzkonames', 'weirdcharkonames',   # 4 cols pour les nbs d'erreurs reconnaissables dans les noms
-	'cutfieldkonames','particulekonames')
-	)."\n" ;
+	))."\n" ;
 
 
 # VARIABLES
@@ -545,7 +539,7 @@ for my $path (sort (@xml_to_check_list)) {
 									"lpg"   => $todolpage,
 									"psher" => $todopublisher,
 									"_tb_id"   => $docnostr.sprintf("-tb%03d", $todobib_l),
-									"_has_analytic"  => $has_analytic ? "avec_analytique":"monogr_seul",
+									"_has_analytic"  => $has_analytic ? "an+mo":"mo",
 									} ;
 		# ------------------------8<-----------------------------------------------------------------------
 		
@@ -641,7 +635,7 @@ for my $path (sort (@xml_to_check_list)) {
 							  "lpg"   => $goldlpage,
 							  "psher" => $goldpublisher,
 							  "_gb_id"   => $docnostr.sprintf("-gb%03d", $goldbib_k),
-							  "_has_analytic"  => $has_analytic ? "avec_analytique":"monogr_seul",
+							  "_has_analytic"  => $has_analytic ? "an+mo":"mo",
 							} ;
 		# debug
 		#~ warn Dumper $goldbib_data ;
@@ -712,7 +706,7 @@ for my $path (sort (@xml_to_check_list)) {
 						 'gbib_id' => $goldbib_k,
 						 'tbib_id' => $todobib_l,
 						 'alignement' => 'aligné',
-						 'match_rule'  => 'strict:titre+date',
+						 'match_rule'  => 'strict:ti+date',
 						 'gbib_fields' => $goldbib_data,
 						 'tbib_fields' => $todobib_data,
 						} );
@@ -754,7 +748,7 @@ for my $path (sort (@xml_to_check_list)) {
 						 'gbib_id' => $goldbib_k,
 						 'tbib_id' => $todobib_l,
 						 'alignement' => 'aligné',
-						 'match_rule'  => 'strict:auteurs+date',
+						 'match_rule'  => 'strict:au+date',
 						 'gbib_fields' => $goldbib_data,
 						 'tbib_fields' => $todobib_data,
 						} );
@@ -785,6 +779,8 @@ for my $path (sort (@xml_to_check_list)) {
 
 					# report des infos
 					$goldpairs->[$goldbib_k] = $todobib_l ;
+					
+					
 					# comparaison micro
 					my $csv_line = fields_pair_str(
 							{
@@ -792,7 +788,7 @@ for my $path (sort (@xml_to_check_list)) {
 							'gbib_id' => $goldbib_k,
 							'tbib_id' => $todobib_l,
 							'alignement' => 'aligné',
-							'match_rule'  => 'strict:journal+vol+p',
+							'match_rule'  => 'strict:j+vol+p',
 							'gbib_fields' => $goldbib_data,
 							'tbib_fields' => $todobib_data,
 							} );
@@ -811,8 +807,8 @@ for my $path (sort (@xml_to_check_list)) {
 
 			# un test d'apparillage heuristique
 			# ----------------------------------
-			# TODO supprimer si double emploi avec alignement titre+date depuis que clean_compare() est compris dans son test
-			# tentative d'alignement approximatif sur indices : titre comme substring + date et un autre indice (names ou fpage)
+			# Match titre + fort que clean_compare car $todotitl_poor =~ /$goldtitl_poor/
+			# TODO transformer (date + un autre indice) en (2 indices convergents mais quelconques)
 			
 			#~ warn("GOLDTITLE --------------------------------------- $goldtitl");
 			#~ warn("TODOTITLE --------------------------------------- $todotitl");
@@ -850,7 +846,7 @@ for my $path (sort (@xml_to_check_list)) {
 							'gbib_id' => $goldbib_k,
 							'tbib_id' => $todobib_l,
 							'alignement' => 'aligné',
-							'match_rule'  => 'heuris:titre+autres',
+							'match_rule'  => 'heuri:ti+autres',
 							'gbib_fields' => $goldbib_data,
 							'tbib_fields' => $todobib_data,
 							} );
@@ -912,6 +908,7 @@ for my $path (sort (@xml_to_check_list)) {
 							'bib_fields' => $silence_bibs->{$stray_k},
 							'nature'     => 'silence',
 						} ;
+		#~ warn Dumper $print_info ;
 		print non_aligned_str($print_info) ."\n" ;
 	}
 	for my $stray_l (sort {$a <=> $b} keys %$noise_bibs) {
@@ -921,6 +918,7 @@ for my $path (sort (@xml_to_check_list)) {
 							'bib_fields' => $noise_bibs->{$stray_l},
 							'nature'     => 'bruit',
 						} ;
+		#~ warn Dumper $print_info ;
 		print non_aligned_str($print_info) ."\n" ;
 	}
 
@@ -1067,7 +1065,7 @@ sub non_aligned_str {
 		               '___',                        # xxx       todo_b_id
 		               'silence',                    # "silence"  match
 		               '___',                        # xxx       match rule
-		               $b_data->{'_type'},           # oui       gold_pubtype
+		               $b_data->{'_has_analytic'},   # oui       gold_analy
 		               '___',                        # xxx       tei_has_analytic
 		               $nb_def_fields,               # oui       nb_gfields
 		               '___',                        # xxx       nb_tfields
@@ -1081,8 +1079,8 @@ sub non_aligned_str {
 		               $b_id,                        # oui     todo_b_id
 		               'bruit',                      # "bruit"  match
 		               '___',                        # xxx     match rule
-		               '___',                        # xxx     gold_pubtype
-		               $b_data->{'_has_analytic'},   # oui     has_analytic
+		               '___',                        # xxx     
+		               $b_data->{'_has_analytic'},   # oui     todo_analy
 		               '___',                        # xxx     nb_gfields
 		               $nb_def_fields,               # oui     nb_tfields
 		               ) ;
@@ -1115,10 +1113,8 @@ sub non_aligned_str {
 		#                   nb_gnames   nb_tnames    nb_oknames
 		push (@csv_values, ('___',      $nb_names ,  '0' )       ) ;
 	}
-	# les 4 colonnes de diagnostic names supplémentaires n'ont pas non plus de sens ici
-	push (@csv_values, ('___')x4 ) ;
-
-	return join("\t",map {$_ = '' if not(defined($_))} @csv_values) ;
+	
+	return join("\t", @csv_values) ;
 }
 
 
@@ -1154,7 +1150,7 @@ sub fields_pair_str {
 	#   2 cols nombre de champs extraits de part et d'autre
 	my @result = ($doc_id,  $gb_k,  $tb_l,
 				  $alignement,  $match_rule,
-				  $gb_data->{'_type'},  $tb_data->{'_has_analytic'},
+				  $gb_data->{'_has_analytic'},  $tb_data->{'_has_analytic'},
 				  $nb_def_gf,$nb_def_tf) ;
 
 	# colonnes suivantes : comparaison champ par champ (hormis les noms cf. plus loin)
@@ -1249,11 +1245,11 @@ sub fields_pair_str {
 						for my $operation (@{$combo}) {
 							$nb_oper ++ ;
 
-							# TODO 1 : eval dangereux ?
+							# £TODO 1 : eval dangereux ?
 							# TODO 2 : eval renvoie une ref de ref bien que chaque
 							#          fonction renvoie directement l'array ?
 							my @send_args = ($test_goldfield, $test_todofield) ;
-# 							warn $operation ;
+ 							# warn $operation ;
 							my $res_arrayref = ${eval("$operation(\@send_args)")};
 							die $@ if $@;
 
@@ -1290,16 +1286,16 @@ sub fields_pair_str {
 
 			} # fin else
 
-			warn "(d$doc_id) g:$gb_k, t:$tb_l [".sprintf("%4s",$key)."] => $diagnostic_str\n" if $debug ;
+			warn "(doc-$doc_id) g:$gb_k, t:$tb_l [".sprintf("%4s",$key)."] => $diagnostic_str\n" if $debug ;
+			
 			push (@result, $diagnostic_str) ;
 		}
 	}
 
-
-	# ===========================================================================================
-	# ===========================================================================================
+	# =================================================================
+	# =================================================================
 	# TODO isoler la procédure names ci-dessous
-	# ===========================================================================================
+	# =================================================================
 	# pour les auteurs: comparaison supplémentaire et édition d'une colonne de résumé
 	my $nb_g_names = scalar(@{$gb_data->{'names'}}) ;
 	my $nb_t_names = scalar(@{$tb_data->{'names'}}) ;
@@ -1310,13 +1306,6 @@ sub fields_pair_str {
 
 	# résultats principaux (nb vraiment aligné) pour rappel et précision
 	my $nb_ok_names = 0 ;
-
-	# codes supplémentaires si erreurs reconnaissables (=> 4 colonnes de diagnostic)
-	my $nb_capzdiff  = 0 ;
-	my $nb_weirdchar = 0 ;
-	my $nb_cutfield  = 0 ;
-	my $nb_particule = 0 ;
-
 
 	# boucle (goldnames)
 	for my $gname (@{$gb_data->{'names'}}) {
@@ -1339,13 +1328,11 @@ sub fields_pair_str {
 				$nb_ok_names ++ ;
 				last ;
 			}
-		# pour le (3) de la sous-boucle suivante
-		#~ $tprevious_clean = nettoie(lc($tname))
 		}
 
 	}
-	# 3 colonnes de diagnostic principal et 4 colonnes comptant les erreurs reconnaissables
-	push (@result, ($nb_g_names, $nb_t_names, $nb_ok_names, $nb_capzdiff, $nb_weirdchar, $nb_cutfield, $nb_particule)) ;
+	# 3 colonnes de diagnostic principal
+	push (@result, ($nb_g_names, $nb_t_names, $nb_ok_names)) ;
 
 	# détail du processus pour debug
  	#~ warn "GOLDNAMES: ---------------------------------------------\n" ;
@@ -1355,12 +1342,13 @@ sub fields_pair_str {
  	#~ warn Dumper $tb_data->{'names'} ;
  	#~ warn Dumper \@t_names_done ;
 
-	# ===========================================================================================
-	# ===========================================================================================
+	# =================================================================
+	
+	# détail du résultat pour toute la refbib =========================
+	#~ warn Dumper \@result ;  # =========================================
 
-
-	# production d'un résumé pour les champs ayant une profondeur de plus
-	return join("\t", map {$_ = '' if not(defined($_))} @result) ;
+	# join("\t", map {$_ = '' if not(defined($_))} @result) ;
+	return join("\t",@result) ; 
 }
 
 
@@ -1481,8 +1469,8 @@ sub compare_little_shorter {
 	else {
 		my $todo_re = quotemeta($tstr) ;
 
-		# TEST
-		my $success = ((length($gstr) <= (length($tstr) + 2)) && ($gstr =~ /$todo_re/)) ;
+		# TEST proportionnel : on autorise un caractère en plus pour chaque 5 caractères de longueur totale
+		my $success = ((length($gstr) <= (length($tstr) + int(length($tstr)/5))) && ($gstr =~ /$todo_re/)) ;
 
 		my $stamp = $SUBSTR_INFO ? "raccourci(".length($gstr)."-".(length($gstr) - length($tstr)).")." : "raccourci." ;
 
@@ -1508,8 +1496,8 @@ sub compare_little_longer {
 	else {
 		my $gold_re = quotemeta($gstr) ;
 
-		# TEST
-		my $success = ((length($tstr) <= (length($gstr) + 2)) && ($tstr =~ /$gold_re/)) ;
+		# TEST proportionnel : on autorise un caractère en plus pour chaque 5 caractères de longueur totale
+		my $success = ((length($tstr) <= (length($gstr) + int(length($gstr)/5)   )) && ($tstr =~ /$gold_re/)) ;
 
 
 		my $stamp = $SUBSTR_INFO ? "allongé(".length($gstr)."+".(length($tstr) - length($gstr)).")." : "allongé." ;

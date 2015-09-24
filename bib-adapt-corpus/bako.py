@@ -27,7 +27,7 @@ from site            import addsitedir     # pour imports locaux
 from re              import search, match
 from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 from collections     import defaultdict
-from subprocess      import PIPE, Popen
+from subprocess      import PIPE, Popen, call
 
 
 # pour les 4 imports locaux + field_values
@@ -42,7 +42,7 @@ import sampler
 from corpusdirs import Corpus
 
 # CRFModel => mid, recipy, storing_path
-from grobid_models import CRFModel
+from grobid_models import CRFModel, FULL_GB_VERSION
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
@@ -741,23 +741,41 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 def eval_model(model_name=None, eval_set=None, 
                save_tab=True, do_graphs=False, debug = 0):
 	"""
-	Lancement indirect de eval_xml_refbibs.pl
+	Stats et eval proprement dites
+	1 - balisage initial d'un sample GOLD
+	2 - lancement indirect de eval_xml_refbibs.pl
 	(si pas de model_name, on évalue le dernier modèle)
 	"""
 	
-	# (1) lancer balisage
-	
-		# for liste in xa* ;   do bash client_passe_liste.sh < $liste 2>> clients.curl.${liste}.log & PIDS[$i]=$! ;      i=$((i+1)) ;  done
-	
-	tagged_path = './TEI-back_done/'
-	
-	# (2) évaluer
-	which_eval_script = CONF['eval']['SCRIPT_PATH']
-	
+	# récupération du corpus
 	if eval_set is None:
 		eval_set = CONF['eval']['CORPUS_NAME']
 	
 	eval_corpus = take_set(eval_set)
+	
+	# (1) lancer balisage
+	tagged_path = path.join("evaluations","output_bibs.dir")
+	if not path.isdir(tagged_path):
+		makedirs(tagged_path)
+	jarfile = 'grobid-core-'+FULL_GB_VERSION+'.one-jar.jar'
+	print ('vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv', file = stderr)
+	print ('--- Balisage en cours sur %s ---' % eval_corpus.name , file = stderr)
+	baliseur = call(
+		  ['java',
+		  '-Xmx1024m',
+		  '-jar', path.join(CONF['grobid']['GROBID_HOME'], 'grobid-core','target', jarfile),
+		  '-gH', path.join(CONF['grobid']['GROBID_HOME'],'grobid-home'),
+		  '-gP', path.join(CONF['grobid']['GROBID_HOME'],'grobid-home','config','grobid.properties'),
+		  '-exe', 'processReferences',
+		  '-dIn',eval_corpus.shelf_path('PDF0'),
+		  '-dOut',path.join("evaluations","output_bibs.dir")
+		  ]
+		  )
+	print ('--- Balisage terminé ---', file = stderr)
+	print ('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^', file = stderr)
+	
+	# (2) évaluer
+	which_eval_script = CONF['eval']['SCRIPT_PATH']
 	
 	# cas où l'on évalue les modèles courants
 	# dont initialement vanilla: modèles pré-existants
@@ -767,10 +785,16 @@ def eval_model(model_name=None, eval_set=None,
 		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
 		# juste modèles courants
 		
+		debug_flag = ""
+		if debug > 0:
+			debug_flag = "-d"
+		
 		mon_process = Popen(
 		  ['perl', which_eval_script,
+		   debug_flag,
 		  '-r',  eval_corpus.shelf_path('GTEI'),
-		  '-x', tagged_path
+		  '-x', tagged_path,
+		  '-e', 'references.tei.xml'
 		  ], 
 		  stdout=PIPE, stderr=PIPE,
 		  #~ cwd=work_dir
@@ -873,29 +897,5 @@ if __name__ == '__main__':
 	#   par ch. sous-parseur ait EXACTEMENT le même nombre d'arguments
 	#   AVEC les mêmes noms que les options du sous-parseur...
 	
-	
-	
-	# ------------------------------
-	#     Remarques sur la suite 
-	#     ----------------------
-	
-	# pour models pick | install
-	# --------------------------
-	# cf. en bash:
-	# > cp -p $GB/grobid-home/models/$MODEL_type/model.wapiti $STORE/trained/$CRFTRAINEDID/model/$MODEL_type/.
-	# > mkdir -p $CoLTrAnE/run/$CRFTRAINEDID/log
-	# > mv -v $MY_NEW_SAMP.$eps.trainer.mvn.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-	# > mv -v $MY_NEW_SAMP.$eps.trainer.crf.log $CoLTrAnE/run/$CRFTRAINEDID/log/.
-
-
-	# stats et eval proprement dites
-	# -------------------------------
-	# balisage initial d'un sample GOLD
-	# mkdir(Z-evalxmltei)
-	# grobid -exe processReferences -dIn A-pdfs/ -dOut ZZ-evalxmltei/
-	# ------------------------------------------------------------------------
-	# tout de suite une éval => shb grep => meta/mon_sample_gold.vanilla.score    <= baseline
-	# ------------------------------------------------------------------------
-	# eval_xml_refbibs_multiformat.pl -g elsevier -f tei-grobid -r B-xmlnatifs -x C-goldxmltei/ -e xml > eval_via_B.tab
-	# eval_xml_refbibs_tei.pl -x ZZ-evalxmltei/ -r C-goldxmltei/ -e references.tei.xml -n > eval_via_C-tei.tab
+	#£TODO lancement assistant la 1ère fois
 	

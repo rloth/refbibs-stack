@@ -59,14 +59,14 @@ conf_file.close()
 # (pour rangement/suivi des modèles entraînés avec)
 
 GB_HOME = CONF['grobid']['GROBID_HOME']
-
+FULL_GB_VERSION = ""
 try:
 	gb_pom = [CONF['grobid']['GROBID_HOME'],'grobid-trainer','pom.xml']
 	# print("CHEMIN POM de GB",path.join(*gb_pom))
 	pom_xml = etree.parse(path.join(*gb_pom))
 	version_elt = pom_xml.xpath('/*[local-name()="project"]/*[local-name()="version"]')[0]
-	version_elt.text = sub("-SNAPSHOT","",version_elt.text)
-	GB_VERSION = "GB_"+version_elt.text
+	FULL_GB_VERSION = version_elt.text
+	GB_VERSION = "GB_"+sub("-SNAPSHOT","",FULL_GB_VERSION)
 except Exception as e:
 	print("Problem while parsing %s: grobid version UNKNOWN" % gb_pom)
 	GB_VERSION = 'GB_UNKNOWN'
