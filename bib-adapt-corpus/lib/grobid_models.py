@@ -2,19 +2,26 @@
 """
 Simple CRF model fs management
 
+TODO : 
+  - model.backup_from_gb() => reprise depuis grobid courant, store sous nos models et lien là-bas 
+  - model.restore_vanilla => dans grobid courant sous home/models + dans properties
+  - model.push_to_gb() => dans grobid courant sous home/models + dans properties
+  - mécanisme install_prod  => .push_to_gb
+                            => git branch
+                            => git commit & push
+
  Rappel :
- 
  compilation rapide grobid
    mvn --offline -Dmaven.test.skip=true clean compile install
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.1"
+__version__   = "0.2"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
-from os              import makedirs, path, stat, listdir
+from os              import makedirs, path, stat, listdir, symlink
 from shutil          import copy, copytree
 from re              import sub
 from sys             import stderr
@@ -30,7 +37,9 @@ from lxml            import etree
 # pour informer sur la date de création d'un modèle
 from time            import localtime, strftime
 
+
 # ----------------------------------------------------------------------
+#                       [[ O U R    C O N F  ]]
 # ----------------------------------------------------------------------
 # read-in bib-adapt config values (model home dir, grobid home)
 
@@ -47,97 +56,37 @@ CONF.read_file(conf_file)
 conf_file.close()
 
 # ----------------------------------------------------------------------
+#                    [[ G R O B I D    I N F O S  ]]
 # ----------------------------------------------------------------------
-# Global constants
-# ----------------
+# as global constants #
 
-# G R O B I D    I N F O S
 # Valeurs stables de l'installation grobid 
-#  | GB_HOME    (exemple: "/home/jeanpaul/grobid")
-#  | GB_VERSION (exemple: "GB_0.3.4")
-#  | GB_GIT_ID  (exemple: "4116965")
+#  | GB_DIR          (exemple: "/home/jeanpaul/grobid-integration-istex")
+#  | GB_RAW_VERSION   (exemple: "0.3.4-SNAPSHOT")
+#  | GB_VERSION       (exemple: "GB_0.3.4")
+#  | GB_GIT_ID        (exemple: "4116965" ou "no_git")
 # (pour rangement/suivi des modèles entraînés avec)
 
-GB_HOME = CONF['grobid']['GROBID_HOME']
-FULL_GB_VERSION = ""
+GB_DIR = CONF['grobid']['GROBID_DIR']
+
+GB_RAW_VERSION = ""
 try:
-	gb_pom = [CONF['grobid']['GROBID_HOME'],'grobid-trainer','pom.xml']
+	gb_pom = [CONF['grobid']['GROBID_DIR'],'grobid-trainer','pom.xml']
 	# print("CHEMIN POM de GB",path.join(*gb_pom))
 	pom_xml = etree.parse(path.join(*gb_pom))
 	version_elt = pom_xml.xpath('/*[local-name()="project"]/*[local-name()="version"]')[0]
-	FULL_GB_VERSION = version_elt.text
-	GB_VERSION = "GB_"+sub("-SNAPSHOT","",FULL_GB_VERSION)
+	GB_RAW_VERSION = version_elt.text
+	GB_VERSION = "GB_"+sub("-SNAPSHOT","",GB_RAW_VERSION)
 except Exception as e:
-	print("Problem while parsing %s: grobid version UNKNOWN" % gb_pom)
-	GB_VERSION = 'GB_UNKNOWN'
+	print("Problem while parsing %s: grobid version UNKNOWN, your grobid install is incomplete" % gb_pom)
+	exit(1)
 
 try:
-	GB_GIT_ID = 'git_'+check_output(['git','--git-dir',GB_HOME+"/.git", 'log', '--pretty=format:%h', '-n1']).decode('UTF-8')
+	GB_GIT_ID = 'git_'+check_output(['git','--git-dir',GB_DIR+"/.git", 'log', '--pretty=format:%h', '-n1']).decode('UTF-8')
 except Exception as e:
-	print("Problem while looking for grobid git commit id in %s: UNKNOWN" % GB_HOME)
-	GB_GIT_ID = 'git_unknown'
+	GB_GIT_ID = 'no_git'
 
-
-
-# S T R U C T U R E    D E    R A N G E M E N T 
-# (à la coltrane)
-#~ TIDY_STRUCT = {
-	#~ # échantillon de travail
-	#~ 'SAMP': {
-		#~ '_id' : "<mdltype>-<name>-<nfiles>",
-		#~ 'data': "<mdltype_long>",
-		#~ 'meta': "<_id.readme>"
-		#~ },
-	#~ 
-	#~ # resultat d'un run d'entraînement
-	#~ 'MODL': {
-		#~ '_id'  : "<gb_name>[.<eps>]-<samp_id>",
-		#~ 'log'  : ["<_id>.crf.log", "<_id>.mvn.log"],
-		#~ 'model': {"<mdltype_long>":'model.wapiti'}
-		#~ },
-	#~ 
-	#~ # résultat d'une évaluation
-	#~ 'EVAL': {
-		#~ '_id' : "<corpus_shortname>-<gb_name>_<samp_id>+",
-		#~ 'version.log':None,
-		#~ 'gb_eval_<_id>.log':None,
-		#~ 'gb_eval_<_id>.tab':None,
-		#~ 'gb_eval_<_id>.shb':None,
-		#~ 'TEI-back_done': "%res_tei%"
-		#~ },
-	#~ }
-
-# ----------------------------------------------------------------------
-# ----------------------------------------------------------------------
-# our Model class
-# ----------------
-class CRFModel:
-	"""
-	A wapiti CRF model with its location
-	and standard operations/methods
-	
-	Usual slots:
-	 -self.id
-	 -self.mtype
-	 -self.storing_path
-	"""
-	
-	home_dir = path.join(CONF['workshop']['HOME'],CONF['workshop']['MODELS_HOME'])
-	
-	# pour compter les instances => model ID
-	
-	# valeur par défaut
-	model_idno = 0
-	
-	# s'il y a déjà des dossier modèles
-	existing_mds = listdir(home_dir)
-	
-	if existing_mds:
-		# alors on prendra plutôt la plus grande des valeurs existantes
-		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds]
-		model_idno = max(actuels_nos)
-	
-	model_map = {
+GB_MODEL_MAP = {
 			'bibzone' : { 
 				'gbpath': 'segmentation',
 				'gbcmd' : 'train_segmentation',
@@ -159,13 +108,96 @@ class CRFModel:
 				'short' : 'au',
 				}
 			}
+
+GB_CONF = ConfigParser()
+gb_prop_path = path.join(GB_DIR,'grobid-home','config','grobid.properties')
+gb_prop_file = open(gb_prop_path, 'r')
+gb_conf_lines = ["[top]"] + [gb_property for gb_property in gb_prop_file]
+GB_CONF.read_file(gb_conf_lines)
+gb_prop_file.close()
+
+def gb_model_dir(model_type = None):
+	"""
+	Expected dir of the active model.wapiti for model_type 
+	(full path into the integration-grobid folders)
+	"""
+	base_path_elts = [CONF['grobid']['GROBID_DIR'],'grobid-home','models']
+	tgt_path = None
+	
+	if model_type is None:
+		raise ArgumentError("No model_type specified for gb_model_dir : bibzone, biblines, etc ?")
+	else:
+		# the full model path
+		model_path_elts = GB_MODEL_MAP[model_type]['gbpath'].split('/')
+		full_path_elts = base_path_elts + model_path_elts
+		tgt_path = path.join(*full_path_elts)
+	return tgt_path
+
+def gb_model_import(model_type, to = None):
+	if model_type is None:
+		raise ArgumentError("No model_type specified for gb_model_import : bibzone, biblines, etc ?")
+	elif to is None:
+		raise ArgumentError("No target folder specified ? where are your models stored ?")
+	else:
+		# get mid !!!
+		try:
+			ID = GB_CONF['top']["models.%s" % GB_MODEL_MAP[model_type]['short']]
+		except KeyError as ke:
+			print("Out-of-the-box model had no name, calling it 'vanilla-%s'" % model_type)
+			ID = "vanilla-%s" % model_type
+
+		mon_modele = CRFModel(model_type, existing_mid = ID, the_samples = ['vanilla'])
+		import_log = Logfile("vanilla.import",
+							("importé par grobid_models.py %s" % __version__,
+							 "mid='%s'" % ID))
+		
+		# ICI IMPORT --------------------------------------
+		new_dir = mon_modele.pick_n_store(logs=[import_log])
+		
+		# on fait un lien qui permettra aux évaluations etc de restaurer le modèle
+		
+		symlink(path.join(new_dir,'model.wapiti'),
+				path.join(gb_model_dir(model_type),'model.wapiti.vanilla'))
+
+
+
+# ----------------------------------------------------------------------
+#                    [[ M O D E L    S T O R E ]]
+# ----------------------------------------------------------------------
+class CRFModel:
+	"""
+	A wapiti CRF model with its location
+	and standard operations/methods
+	
+	Usual slots:
+	 -self.id
+	 -self.mtype
+	 -self.storing_path
+	"""
+	
+	home_dir = path.join(CONF['workshop']['HOME'],CONF['workshop']['MODELS_HOME'])
+	
+	# pour compter les instances => model ID
+	
+	# valeur par défaut
+	model_idno = 0
+	
+	# s'il y a déjà des dossier modèles
+	existing_mds = []
+	if path.isdir(home_dir):
+		existing_mds = listdir(home_dir)
+	
+	if existing_mds:
+		# alors on prendra plutôt la plus grande des valeurs existantes
+		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds]
+		model_idno = max(actuels_nos)
 	
 	# ------------------------------------------------------------
 	#             M O D E L    I N I T
 	# ------------------------------------------------------------
 
 	def __init__(self, the_model_type, existing_mid=None,
-	             the_samples=['vanilla'], debug_lvl = 0):
+	             the_samples=[], debug_lvl = 0):
 		"""
 		en création:
 		------------
@@ -204,49 +236,43 @@ class CRFModel:
 			# suggérer bako assistant_installation à l'utilisateur ?
 			raise FileNotFoundError(CRFModel.home_dir)
 		
+		# VAR 1: id
+		# exemple authornames-0.3.4-411696A-42
+			
 		# MODE CREATION #
 		if existing_mid == None:
-			# VAR 1: id
-			# solution incrément TEMPORAIRE => TODO mieux
 			self.model_idno += 1
-			# exemple authornames-0.3.4-411696A-42
 			self.mid = "-".join([
 				 the_model_type,
 				 GB_VERSION,GB_GIT_ID,
 				 '.'.join([name[0:4] for name in the_samples]),
 				 str(self.model_idno)
 				])
-			
-			# VAR 2: model_type
-			self.mtype = the_model_type
-			
-			# VAR 3: storing_path
-			# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
-			self.storing_path = path.join(CRFModel.home_dir, self.mid)
-			
-			# VAR 4: source samples names (list of strs)
-			self.samples = the_samples
-			
-			# VAR 5: recipy
-			self.recipy = None
-			# TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
-			
-			# flags de statut
-			self.ran = False
-			self.picked = False
-			self.evaluated = False
-		
 		# MODE IMPORT #
 		else:
+			# £todo check espaces et accents sur existing_mid
 			self.mid = existing_mid
-			tentative_path = path.join(CRFModel.home_dir, self.mid)
-			if not path.isdir(tentative_path):
-				raise FileNotFoundError(tentative_path)
-			else:
-				self.storing_path = tentative_path
-				self.mtype = re.search(r'^[^-]+', self.mid).group()
-			
-			# TODO recipy et samples d'après méta ou log
+		
+		# VAR 2: model_type
+		self.mtype = the_model_type
+		
+		# VAR 3: storing_path
+		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
+		self.storing_path = path.join(CRFModel.home_dir, self.mid)
+		
+		# VAR 4: source samples names (list of strs)
+		self.samples = the_samples
+		
+		# VAR 5: recipy
+		self.recipy = None
+		# £TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
+		
+		# flags de statut
+		self.ran = False
+		self.picked = False
+		self.evaluated = False
+	
+	
 	
 	# ------------------------------------------------------
 	#         M O D E L    I N F O    M E T H O D S
@@ -257,7 +283,8 @@ class CRFModel:
 		exemple:
 		  "segmentation"
 		"""
-		return CRFModel.model_map[self.mtype]['gbpath']
+		return GB_MODEL_MAP[self.mtype]['gbpath']
+	
 	
 	
 	# ------------------------------------------------------
@@ -271,10 +298,10 @@ class CRFModel:
 		"""
 		
 		# exemple: "train_name_citation"
-		model_cmd = CRFModel.model_map[self.mtype]['gbcmd']
+		model_cmd = GB_MODEL_MAP[self.mtype]['gbcmd']
 		
 		# on travaillera directement là-bas
-		work_dir = path.join(CONF['grobid']['GROBID_HOME'],"grobid-trainer")
+		work_dir = path.join(CONF['grobid']['GROBID_DIR'],"grobid-trainer")
 		
 		# !!! locale = C !!!
 		lc_numeric_backup = getlocale(LC_NUMERIC)
@@ -304,20 +331,20 @@ class CRFModel:
 		# on remet la locale comme avant
 		setlocale(LC_NUMERIC, lc_numeric_backup)
 		
-		return (mvnlog_lines, crflog_lines)
+		# => le modèle est à l'endroit habituel (cf. gb_model_dir())
+		# => on ne renvoie donc que les logs         ----------------
+		return (Logfile("training.mvn", mvnlog_lines),
+				Logfile("training.crf", crflog_lines))
+	
+	
 	
 	# ------------------------------------------------------
 	#         M O D E L   < = >   F I L E S Y S T E M
 	# ------------------------------------------------------
 	# filesystem interaction: import, pick_n_store, install
 	
-	def vanilla_import(self):
-		"""
-		Import grobid current models
-		"""
-		pass
 	
-	def pick_n_store(self, mvn_log_lines, crf_log_lines, debug_lvl = 1):
+	def pick_n_store(self, logs=[], debug_lvl = 1):
 		"""
 		Recovers the new model from its standard grobid location and its logs
 		+ stores it in the structured models home_dir with ID and creation info.
@@ -325,11 +352,7 @@ class CRFModel:
 		# WHERE DO WE PICK FROM ?
 		# the standard place for models created by grobid
 		# ------------------------------------------------
-		base_path_elts = [CONF['grobid']['GROBID_HOME'],'grobid-home','models']
-		model_path_elts = CRFModel.model_map[self.mtype]['gbpath'].split('/')
-		
-		full_path_elts = base_path_elts + model_path_elts + ['model.wapiti']
-		the_path = path.join(*full_path_elts)
+		the_path = path.join(gb_model_dir(self.mtype), 'model.wapiti')
 		
 		if debug_lvl >= 1:
 			# infos complémentaires : taille et date de création
@@ -341,8 +364,14 @@ class CRFModel:
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		new_base_dir = self.storing_path
 		
-		model_dir_elts = [new_base_dir, 'model'] + model_path_elts
-		new_model_dir = path.join(*model_dir_elts)
+		# dossier cible
+		new_model_dir = path.join(
+			new_base_dir,
+			'model',
+			# la même fin d'arborescence que
+			# dans les dossiers originaux grobid
+			GB_MODEL_MAP[self.mtype]['gbpath']
+			)
 		
 		# ex: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		makedirs(new_base_dir)
@@ -355,19 +384,39 @@ class CRFModel:
 		# ex: /home/jeanpaul/models/authornames-0.3.4-411696A-42/log
 		new_log_dir = path.join(new_base_dir, 'log')
 		makedirs(new_log_dir)
-		mvn_lfile = open(path.join(new_log_dir, 'training.mvn.log'),'w')
-		mvn_lfile.write('\n'.join(mvn_log_lines))
-		mvn_lfile.close()
-		crf_lfile = open(path.join(new_log_dir, 'training.crf.log'),'w')
-		crf_lfile.write('\n'.join(crf_log_lines))
-		crf_lfile.close()
 		
+		# import log OR (mvn log + crf log)
+		for log in logs:
+			log.print_to_file(path.join(new_log_dir, '%s.log' % log.name))
+			if debug_lvl >= 1:
+				print("Wrote log %s" % log.name)
+		
+		# pour l'instant inutilisé ?
 		self.picked = True
 		
 		# the stored location
 		return new_model_dir
-
-
+	
+	
 	# ------------------------------------------------------
 	#            M O D E L    E V A L U A T I O N
 	# ------------------------------------------------------
+	#     actuellement tout est dans bako.eval_model()
+	# ------------------------------------------------------
+
+
+
+
+# ------------------------------------------------------------
+#   [[ M I N I C L A S S    F O R    M O D E L    L O G S ]]
+# ------------------------------------------------------------
+class Logfile():
+	"Simple et efficace"
+	def __init__(self, logname, loglines):
+		self.name = logname
+		self.lines = loglines
+	
+	def print_to_file(self, fpath):
+		lfile = open(fpath,'w')
+		lfile.write('\n'.join(self.lines))
+		lfile.close()

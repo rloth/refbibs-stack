@@ -42,7 +42,7 @@ import sampler
 from corpusdirs import Corpus
 
 # CRFModel => mid, recipy, storing_path
-from grobid_models import CRFModel, FULL_GB_VERSION
+from grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
@@ -101,7 +101,7 @@ PREP_DATASET = {
 # ----------------------------------------------------------------------
 # Fonction CLI
 
-def bako_sub_args(arglist=None):
+def bako_sub_args(next_sys_args=None):
 	"""
 	Preparation du namespace args contenant les  arguments de 
 	la ligne de commande pour main()
@@ -301,6 +301,7 @@ def bako_sub_args(arglist=None):
 	
 	####
 	
+	# commun à tous
 	top_parser.add_argument('-d', '--debug',
 		help="niveau de débogage",
 		metavar=1,
@@ -308,13 +309,32 @@ def bako_sub_args(arglist=None):
 		default=0,
 		action='store')
 	
-	args = top_parser.parse_args(argv[1:])
+	# cas où aucune de ces sous-commandes n'est présente
+	if not search(r'make_set|take_set|make_trainers|run_training|eval_model', " ".join(next_sys_args)):
+		print(""" ===================================================================
+  /!\\  Vous avez lancé bako sans aucune de ses sous-commandes  /!\\
+ ===================================================================
+
+En temps normal il faut écrire par exemple 'bako make_set mon_corpus'
+""", file=stderr)
+		top_parser.print_usage()
+		choix = input("""
+ ===================================================================
+   Voulez-vous lancer l'assistant d'installation ?
+      -> vérifiera les dossiers de travail
+      -> importera les modèles actuels de grobid (dits "vanilla")
+      -> créera un premier corpus d'évaluation
+      -> lancera une première évaluation (dite "vanilla baseline")
+(Y/[N]) """)
+		if len(choix) and choix[0] in ['Y','y','O','o']:
+			assistant_installation()
+		else:
+			exit(1)
 	
-	# --- checks and pre-propagation --------
-	# pass
-	# ----------------------------------------
-	
-	return(args)
+	# cas normal avec sous-commandes
+	else:
+		args = top_parser.parse_args(next_sys_args)
+		return(args)
 
 # ----------------------------------------------------------------------
 # Fonctions principales
@@ -613,16 +633,24 @@ def run_training(model_type, corpora, debug=0):
 	(mvnlog, crflog) = new_model.call_grobid_trainer()  #
 	# ==================================================#
 	
-	new_model.ran = True
+	# vérification simple
+	# si le CRF n'a pas été lancé c'est que le maven a planté
+	if not len(crflog.lines):
+		print("!!!--------- ERREUR GROBID-TRAINER ---------!!!", file=stderr)
+		print("\n".join(mvnlog.lines), file=stderr)
+		exit(1)
+	# cas normal ------------------------------------------------------
+	else:
+		new_model.ran = True
 	
 	# 3) pick_n_store : récupération du modèle
-	stored_location = new_model.pick_n_store(mvnlog, crflog)
+	stored_location = new_model.pick_n_store(logs = [mvnlog, crflog])
 	print("new model %s stored into dir %s" % (new_model.mid, stored_location), file=stderr)
 
 
 def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	"""
-	symlinks dans GB_HOME/grobid-trainer/
+	symlinks dans GB_DIR/grobid-trainer/
 	pour chaque corpus source, avant training
 	
 	n X SHELF_TRAIN 
@@ -633,9 +661,9 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	# modèle central
 	gb_model = new_model.gb_mdltype_long()
 	
-	base_resrc_elts = [CONF['grobid']['GROBID_HOME'],
+	base_resrc_elts = [CONF['grobid']['GROBID_DIR'],
 						'grobid-trainer','resources','dataset']
-	model_path_elts = CRFModel.model_map[new_model.mtype]['gbpath'].split('/')
+	model_path_elts = GB_MODEL_MAP[new_model.mtype]['gbpath'].split('/')
 	
 	full_resrc_elts = base_resrc_elts + model_path_elts + ['corpus']
 	resrc_corpusdir = path.join(*full_resrc_elts)
@@ -757,15 +785,15 @@ def eval_model(model_name=None, eval_set=None,
 	tagged_path = path.join("evaluations","output_bibs.dir")
 	if not path.isdir(tagged_path):
 		makedirs(tagged_path)
-	jarfile = 'grobid-core-'+FULL_GB_VERSION+'.one-jar.jar'
+	jarfile = 'grobid-core-'+GB_RAW_VERSION+'.one-jar.jar'
 	print ('vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv', file = stderr)
 	print ('--- Balisage en cours sur %s ---' % eval_corpus.name , file = stderr)
 	baliseur = call(
 		  ['java',
 		  '-Xmx1024m',
-		  '-jar', path.join(CONF['grobid']['GROBID_HOME'], 'grobid-core','target', jarfile),
-		  '-gH', path.join(CONF['grobid']['GROBID_HOME'],'grobid-home'),
-		  '-gP', path.join(CONF['grobid']['GROBID_HOME'],'grobid-home','config','grobid.properties'),
+		  '-jar', path.join(CONF['grobid']['GROBID_DIR'], 'grobid-core','target', jarfile),
+		  '-gH', path.join(CONF['grobid']['GROBID_DIR'],'grobid-home'),
+		  '-gP', path.join(CONF['grobid']['GROBID_DIR'],'grobid-home','config','grobid.properties'),
 		  '-exe', 'processReferences',
 		  '-dIn',eval_corpus.shelf_path('PDF0'),
 		  '-dOut',path.join("evaluations","output_bibs.dir")
@@ -815,35 +843,39 @@ def assistant_installation():
 	Séquence standard de commandes lancées à la mise en place
 	
 	task 1 initialisation des dossiers corpora, models, evals
-	task 2 import des modèles grobid courants
+	task 2 import des modèles grobid courants "vanilla"
 	task 3 sampling d'un premier corpus eval (+ make_set)
-	task 4 première évaluation "vanilla"
+	task 4 première évaluation "baseline vanilla"
 	"""
 	
 	# --- initialisation des dossiers --------------------------
-	choix1 = input(
-	"""
-Vos paramètres de configuration ont le dossier '%s'
+	corpora_dir = Corpus.home_dir
+	models_dir = CRFModel.home_dir
+	print("hello")
+	if not path.exists(corpora_dir):
+		choix1 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
-  => Voulez-vous le créer maintenant ? (y/n) """ % Corpus.home_dir)
-	if choix1[0] in ['Y','y','O','o']:
-		mkdir(Corpus.home_dir)
-	else:
-		exit(1)
+  => Voulez-vous le créer maintenant ? (y/n) """ % corpora_dir)
+		if choix1[0] in ['Y','y','O','o']:
+			mkdir(corpora_dir)
+		else:
+			exit(1)
 	
-	if not path.exists(CRFModel.home_dir):
-		choix2 = input(
-	"""
-De même, nous aurons besoin du dossier '%s' pour les modèles CRF ("CRF Store")
-  => Voulez-vous aussi le créer maintenant ? (y/n) """ % CRFModel.home_dir)
-	if choix2[0] in ['Y','y','O','o']:
-		makedirs(CRFModel.home_dir)
-	else:
-		exit(1)
+	if not path.exists(models_dir):
+		print("hello2")
+		choix2 = input("""De même, nous aurons besoin du dossier '%s' pour les modèles CRF ("CRF Store")
+  => Voulez-vous aussi le créer maintenant ? (y/n) """ % models_dir)
+		if choix2[0] in ['Y','y','O','o']:
+			makedirs(models_dir)
+		else:
+			exit(1)
 	
 	# --- import des modèles grobid courants (aka 'vanilla') ---
 	
-	
+	gb_model_import(model_type = 'bibzone', to = models_dir)
+	gb_model_import(model_type = 'biblines', to = models_dir)
+	gb_model_import(model_type = 'bibfields', to = models_dir)
+	gb_model_import(model_type = 'authornames', to = models_dir)
 	
 	# --- premier corpus d'évaluation --------------------------
 	# nom du nouveau corpus
@@ -859,20 +891,20 @@ De même, nous aurons besoin du dossier '%s' pour les modèles CRF ("CRF Store")
 		else:
 			the_size = 100
 		# >> initialisation <<
-		a_corpus_obj = make_set(
-					corpus_name = eval_c_name,
-					size = the_size
-				)
+		make_set(corpus_name = eval_c_name, size = the_size)
 		print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
 		for this_shelf in a_corpus_obj.fulltextsh():
 			print("  - %s" % SHELF_NAMES[this_shelf])
 		print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
 	
-	print("BAKO: all tasks DONE for '%s' prepared corpus" % a_corpus_obj.name)
 	
+	# --- première évaluation ----------(aka 'baseline vanilla') ---
+	input('BASELINE VANILLA:\nappuyez sur entrée pour lancer la première évaluation (avec juste les modèles grobid courants, dits aussi "vanilla")')
 	
-	# --- première évaluation ----------------------------------
-	input('appuyez sur entrée pour lancer la première évaluation (avec juste les modèles grobid courants, dits aussi "vanilla")')
+	# --- evaluation des modèles courants 
+	
+	(rappel, precision, eval_details_path) = eval_model(model_name=None, eval_set=eval_c_name)
+	
 
 
 ########################################################################
@@ -880,7 +912,7 @@ if __name__ == '__main__':
 	
 	# lecture des arguments cli
 	# (dont la fonction associée par la sous-commande)
-	args = bako_sub_args()
+	args_namespace = bako_sub_args(next_sys_args=argv[1:])
 	
 	# pour debug cli
 	# --------------
@@ -890,12 +922,12 @@ if __name__ == '__main__':
 	# APPEL de la sous-commande voulue
 	# On déballe les args (c-à-d un Namespace pris comme dict)
 	# directement dans la fonction associée (args["func"])
-	mes_arguments = vars(args)
+	mes_arguments = vars(args_namespace)
+	
+	# lancement d'une sous-commande
 	ma_fonction = mes_arguments.pop("func")
 	ma_fonction(**mes_arguments)
 	# NB: ça nécessite que la fonction appelée (ex: args.func=make_set)
 	#   par ch. sous-parseur ait EXACTEMENT le même nombre d'arguments
 	#   AVEC les mêmes noms que les options du sous-parseur...
-	
-	#£TODO lancement assistant la 1ère fois
-	
+
