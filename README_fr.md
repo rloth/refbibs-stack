@@ -35,14 +35,14 @@ Déroulement du traitement
 Fichiers résultats
 --------------------
 bib-get crée un dossier pour les résultats nommé:  
-**<timestamp>-output_bibs.dir**
+**`<timestamp>-output_bibs.dir`**
 
 En mode "group_output", le dossier est aussi créé, puis après le traitement tous les fichiers sont regroupés dans un fichier teiCorpus nommé:  
-**<timestamp>-output_bibs.teiCorpus.xml**
+**`<timestamp>-output_bibs.teiCorpus.xml`**
 
 (Ces noms peuvent être changés dans le fichier de configuration)
 
-Les <timestamp> sont de la forme : YYYY-MM-DD_HHhmm
+Les `<timestamp>` sont de la forme : YYYY-MM-DD_HHhmm
 
 Utilisation détaillée
 -----------------------
@@ -75,6 +75,7 @@ Configuration avancée
 Les paramètres peuvent être fixés via le petit fichier de configuration **`bib-get.ini`**
 
 **Exemple**
+
 ```INI
 [istex-api]
 host=api.istex.fr
