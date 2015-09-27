@@ -661,8 +661,7 @@ def _prepare_dirs(new_model, corpora, debug_lvl = 0):
 	# modèle central
 	gb_model = new_model.gb_mdltype_long()
 	
-	base_resrc_elts = [CONF['grobid']['GROBID_DIR'],
-						'grobid-trainer','resources','dataset']
+	base_resrc_elts = [CONF['grobid']['GROBID_DIR'], 'grobid-trainer','resources','dataset']
 	model_path_elts = GB_MODEL_MAP[new_model.mtype]['gbpath'].split('/')
 	
 	full_resrc_elts = base_resrc_elts + model_path_elts + ['corpus']
@@ -930,4 +929,3 @@ if __name__ == '__main__':
 	# NB: ça nécessite que la fonction appelée (ex: args.func=make_set)
 	#   par ch. sous-parseur ait EXACTEMENT le même nombre d'arguments
 	#   AVEC les mêmes noms que les options du sous-parseur...
-
