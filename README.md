@@ -35,10 +35,10 @@ Runtime flow
 Result files
 -------------
 bib-get creates a result directory named:  
-**<timestamp>-output_bibs.dir**
+**`<timestamp>-output_bibs.dir`**
 
 In "group_output" mode, the directory is also created and after the process all files are grouped in a teiCorpus file named:  
-**<timestamp>-output_bibs.teiCorpus.xml**
+**`<timestamp>-output_bibs.teiCorpus.xml`**
 
 (These names can be changed in the configuration file)
 
@@ -75,6 +75,7 @@ Advanced config
 All parameters are set throught the configuration file **`bib-get.ini`**
 
 **Exemple**
+
 ```INI
 [istex-api]
 host=api.istex.fr
