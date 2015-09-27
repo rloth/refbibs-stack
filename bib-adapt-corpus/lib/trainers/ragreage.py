@@ -49,7 +49,6 @@ __author__      = "R. Loth"
 __status__      = "Development"
 __version__     = "1.0"
 
-# TODO bug sur la valeur des readed_label quand il y en a: crochets échappés ?
 
 # IMPORTS
 # =======
@@ -2310,5 +2309,3 @@ if __name__ == "__main__":
 			print("LINE A NONE===========================================")
 			print("LINE A NONE===========================================", file=sys.stderr)
 		print(line)
-
-
