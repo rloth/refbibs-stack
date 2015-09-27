@@ -1247,15 +1247,23 @@ class XTokinfo:
 		# --------------------------
 		subtokens = re_TOUS.findall(anystring)
 		
-		# £TODO use those params below in r_INTER_*
+		# £TODO now read those params in conf
 		do_cesure=True
 		do_espace=True
 		do_newline=True
 		do_char_classes=True
 		
-		# autorise saut de ligne, espace et toutes poncts
-		# (ex: ',' entre nom et prénom)     -------------
-		r_INTER_WORD = '[¤ \W]{0,4}'
+		
+		if do_espace and do_newline:
+		    # autorise 1 saut de ligne, 2 espaces et 1x toutes poncts
+		    # (ex: ',' entre nom et prénom)             -------------
+		    r_INTER_WORD = '[¤ \W]{0,4}'
+		elif do_espace:
+		    r_INTER_WORD = '[ \W]{0,3}'
+		elif do_newline:
+		    r_INTER_WORD = '[¤\W]{0,2}'
+		else:
+		    r_INTER_WORD = '[\W]?'
 		
 		# autorise césure, saut de ligne, espace
 		r_INTER_CHAR = '[-¤ ]{0,3}'
