@@ -23,7 +23,7 @@ __status__    = "Dev"
 
 from os              import makedirs, path, stat, listdir, symlink
 from shutil          import copy, copytree
-from re              import sub
+from re              import sub, search
 from sys             import stderr
 from configparser    import ConfigParser
 
@@ -151,12 +151,17 @@ def gb_model_import(model_type, to = None):
 							("importé par grobid_models.py %s" % __version__,
 							 "mid='%s'" % ID))
 		
-		# ICI IMPORT --------------------------------------
-		new_dir = mon_modele.pick_n_store(logs=[import_log])
+		# ICI IMPORT ------( sauf si a déjà eu lieu )------
+		skip_import = False
+		try:
+			new_dir = mon_modele.pick_n_store(logs=[import_log])
+		except FileExistsError as fee:
+			skip_import = True
+			print("  skip_import: %s dir (unchecked) already exists in models dir" % ID)
 		
-		# on fait un lien qui permettra aux évaluations etc de restaurer le modèle
-		
-		symlink(path.join(new_dir,'model.wapiti'),
+		if not skip_import:
+			# on fait un lien qui permettra aux évaluations etc de restaurer le modèle
+			symlink(path.join(new_dir,'model.wapiti'),
 				path.join(gb_model_dir(model_type),'model.wapiti.vanilla'))
 
 
@@ -189,7 +194,7 @@ class CRFModel:
 	
 	if existing_mds:
 		# alors on prendra plutôt la plus grande des valeurs existantes
-		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds]
+		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds if search(r".*-([0-9]+)$",md)]
 		model_idno = max(actuels_nos)
 	
 	# ------------------------------------------------------------
@@ -359,7 +364,7 @@ class CRFModel:
 			statinfo = stat(the_path)
 			MB_size = statinfo.st_size/1048576
 			ctime = strftime("%Y-%m-%d %H:%M:%S", localtime(statinfo.st_ctime))
-			print("PICK MODEL:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime), file=stderr)
+			print("Modèle trouvé:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime), file=stderr)
 		
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		new_base_dir = self.storing_path
