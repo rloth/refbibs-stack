@@ -46,7 +46,7 @@ use Encode ;
 #~ my $debug = $opts->{d} || 0 ;
 my $debug = 0 ;
 
-# (option --refdir) Dossier des données de référence, dites "gold"
+# (option --golddir) Dossier des données de référence, dites "gold"
 my $ref_dir = "/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/" ;
 
 # (option --thereflist) Liste des fichiers aux données de référence, dits "gold"
@@ -61,6 +61,13 @@ my $ext = "refbibs.tei.xml" ;
 
 # limite au nombre de docs à traiter pour les tests
 my $maxref = 0 ;
+
+# chemin -l pour le résumé d'éval comme append dans un fichier tabulé
+my $eval_log_path = "" ;
+
+# option -r pour le précédent, pour donner un nom à la ligne de résumé d'éval
+my $register_id = "";
+
 
 # booléen: sortir un fichier supplémentaire "lookup_ids.csv"
 #           avec une liste à 2 colonnes : identifiant <=> nom de fichier évalué
@@ -99,10 +106,12 @@ my @COMPARERS = (
  GetOptions ("debug"        => \$debug,        # optional bool
 			 "extension:s"  => \$ext,          # optional str
 			 "xmldir=s"     => \$xml_dir,      # required str
-			 "refdir=s"     => \$ref_dir,      # str required unless ref_list
+			 "golddir=s"    => \$ref_dir,      # str required unless ref_list
+			 "logreport=s"  => \$eval_log_path,# optional str
+			 "regreport=s"  => \$register_id,  # optional str
 			 "thereflist=s" => \$ref_list,     # str
 			 "maxtemp:i"    => \$maxref,       # optional int
-			 "lookupdump"   => \$dump_lookup,  # optional bool
+			 "iddump"       => \$dump_lookup,  # optional bool
 			 "substrinfo"   => \$SUBSTR_INFO,  # optional bool
 			 "unaccents"    => \$UNACCENTS,    # optional bool (changes results slightly)
 			 "numcount"     => \$numcount,     # optional bool
@@ -143,7 +152,7 @@ else {
 
 # REGISTRES avec contenus
 # ------------------------
-# NB: utilisés seulement en debug et lookupdump
+# NB: utilisés seulement en debug et iddump
 
 # table de hash dont les clefs sont les basenames des
 # fichiers de réf et les valeurs sont les données d'évaluation
@@ -954,7 +963,7 @@ my $total_found = $total_found_title
 				+ $total_found_names
 				+ $total_found_h_tit_substr ;
 
-# rapport
+# rapport affiché
 warn "------ stats évaluation corpus nxml ------\n" ;
 warn "  #docs dossier gold ..........".sprintf("% ${nbchar1}d",$N)."\n" ;
 warn "  #docs dossier todo ..........".sprintf("% ${nbchar1}d",$M)."\n" ;
@@ -992,6 +1001,34 @@ if ($UNACCENTS) {
 
 # Sorties supplémentaires et posttraitements
 # ------------------------------------------
+# option : rapport ajouté à une table
+if($eval_log_path) {
+	open (EVAL_REPORT_TO_APPEND, ">>", $eval_log_path)
+	 || die "Par contre impossible d'ajouter ce rapport d'éval au fichier $eval_log_path (échec écriture)" ;
+	warn "Ajout de ce rapport d'éval dans >> $eval_log_path \n" ;
+	if ($register_id) {
+		warn "  cols: EVAL_ID NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date\n";
+	}
+	else {
+		warn "  cols: NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date\n";
+	}
+	
+	if ($register_id) {
+		$register_id =~ s/[^a-zA-Z0-9]/_/g ;
+		print EVAL_REPORT_TO_APPEND $register_id."\t" ;
+	}
+	
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar1}d",$aligned_docs)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$K)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_K)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_L)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_title)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_issue)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_names)."\n" ;
+	
+	close EVAL_REPORT_TO_APPEND ;
+}
+
 # Dump lookup table DOCID <=> DOCNAME
 if ($dump_lookup) {
 	# lignes de couples
@@ -1019,6 +1056,11 @@ if ($dump_lookup) {
 	}
 	close IDDUMP ;
 }
+
+
+
+
+
 
 ###############################################################
 #######                    SUBS                      ##########
@@ -1350,6 +1392,11 @@ sub fields_pair_str {
 	# join("\t", map {$_ = '' if not(defined($_))} @result) ;
 	return join("\t",@result) ; 
 }
+
+
+
+
+
 
 
 # Fonctions de comparaisons de 2 chaines
@@ -1984,11 +2031,13 @@ sub HELP_MESSAGE {
 | ====================                                             |
 |   -h  --help            afficher cet écran                       |
 |   -x  --xmldir path/    dossier des XML à évaluer (sortie outil) |
-|   -r  --refdir path/    dossier du corpus de référence           |
+|   -g  --golddir path/   dossier du corpus de référence           |
 |   -e  --extension       extension dans xmldir [refbibs.tei.xml]  |
 |                                                                  |
 |   -d  --debug           infos de debogage au cours du traitement |
-|   -l  --lookupdump      sortir à part une table IDS <=> FICHIERS |
+|   -l  --logreport fic   ajouter 1 ligne de rapport-éval dans fic |
+|   -r  --regreport eID   si logreport, mentionner un identifiant  |
+|   -i  --iddump          sortir à part une table IDS <=> FICHIERS |
 |   -s  --substrinfo      infos supplémentaires si match substr    |
 |   -u  --unaccents       activer la désaccentuation préalable aux |
 |                         comparaisons de chaînes (+ ~.1 R & ~.3 P)|

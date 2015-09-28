@@ -3,13 +3,15 @@
 bib-adapt-corpus ou bako
 ------------------------
 5 commands:
- make_set(corpus_name)                    <= sampler, corpus conversion
- make_trainers(corpus, GB, [modeltype])   <= grobid.createTraining, ragreage, install in resources
- 
- # à l'avenir commandes suivante dans le cycle (pour l'instant en shell)
- #TODO train_and_store(model, modeltype)  <= grobid-trainer, store in models dir
- #TODO eval_report(model)                 <= eval_xml_refbibs_lite, eval_results_lite.r
- #TODO suggest_install_to_vp(model)       <= juste un echo de la ligne rsync adéquate
+  bako make_set       corpus_name  [-s size] [-q specific api query]
+  bako take_set       corpus_name
+  bako make_trainers  corpus_name  [-m model  [model2...]]
+  bako run_training   model_type   [-c corpus_name [corpus_name2...]]
+  bako eval_model     [-m model_name] [-e evalcorpus_name] [-s] [-g]
+  
+TODO : éval de plusieurs modèles => eval_id
+       avec une sorte de modèles_triggers => substitutionsles
+  
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
@@ -19,19 +21,19 @@ __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 # imports
-from os              import path, makedirs, rename, symlink, stat
+from os              import path, makedirs, symlink, stat
 from shutil          import rmtree, copytree
 from sys             import stderr, argv
 from configparser    import ConfigParser
-from site            import addsitedir     # pour imports locaux
 from re              import search, match
 from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 from collections     import defaultdict
-from subprocess      import PIPE, Popen, call
+from subprocess      import call, check_output
 
 
 # pour les 4 imports locaux + field_values
-# (tel quel: dépendant du lieu de lancement de bako !)
+from site            import addsitedir
+# (/!\ relatif du lieu de lancement de bako !)
 addsitedir('lib')
 
 # "libconsulte" istex-rd
@@ -53,16 +55,6 @@ CONF.read_file(conf_file)
 conf_file.close()
 
 # ----------------------------------------------------------------------
-# Structure de base du corpus ("shelf" pour "étagère")
-BSHELFS = {
-  # basic set ----------------------------------------------------------
-  'PDF0': {'d':'A-pdfs',       'ext':'.pdf',      'api':'fulltext/pdf'},
-  'XMLN': {'d':'B-xmlnatifs',  'ext':'.xml',      'api':'metadata/xml'},
-  'GTEI': {'d':'C-goldxmltei', 'ext':'.tei.xml'},
-  # --------------------------------------------------------------------
-}
-# valeurs sous ['d'] ==> nom des dossiers dans corpora/<nom_corpus>/data
-
 # Noms "humains" des structures de base et de training
 SHELF_NAMES = {
 	# basic set -------------------------------------
@@ -781,9 +773,10 @@ def eval_model(model_name=None, eval_set=None,
 	eval_corpus = take_set(eval_set)
 	
 	# (1) lancer balisage
-	tagged_path = path.join("evaluations","output_bibs.dir")
-	if not path.isdir(tagged_path):
-		makedirs(tagged_path)
+	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
+	newbibs_path = path.join(evals_dir,"output_bibs.dir")
+	if not path.isdir(newbibs_path):
+		makedirs(newbibs_path)
 	jarfile = 'grobid-core-'+GB_RAW_VERSION+'.one-jar.jar'
 	print ('vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv', file = stderr)
 	print ('--- Balisage en cours sur %s ---' % eval_corpus.name , file = stderr)
@@ -795,7 +788,7 @@ def eval_model(model_name=None, eval_set=None,
 		  '-gP', path.join(CONF['grobid']['GROBID_DIR'],'grobid-home','config','grobid.properties'),
 		  '-exe', 'processReferences',
 		  '-dIn',eval_corpus.shelf_path('PDF0'),
-		  '-dOut',path.join("evaluations","output_bibs.dir")
+		  '-dOut',newbibs_path
 		  ]
 		  )
 	print ('--- Balisage terminé ---', file = stderr)
@@ -803,6 +796,10 @@ def eval_model(model_name=None, eval_set=None,
 	
 	# (2) évaluer
 	which_eval_script = CONF['eval']['SCRIPT_PATH']
+	# NB si existe >> append
+	report_table = CONF['eval']['TABLE_PATH']
+	
+	resultat_eval = bytes()
 	
 	# cas où l'on évalue les modèles courants
 	# dont initialement vanilla: modèles pré-existants
@@ -810,31 +807,36 @@ def eval_model(model_name=None, eval_set=None,
 		# use case courant: une eval vanilla qui est fréquente
 		#                   pour "calibrer" les attentes
 		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
+		
+		
 		# juste modèles courants
+		mon_eval_id = 'vanilla-'+eval_corpus.name
 		
 		debug_flag = ""
 		if debug > 0:
 			debug_flag = "-d"
 		
-		mon_process = call(
+		resultat_eval = check_output(
 		  ['perl', which_eval_script,
 		   debug_flag,
-		  '-r',  eval_corpus.shelf_path('GTEI'),
-		  '-x', tagged_path,
-		  '-e', 'references.tei.xml'
-		  ], 
-		  # stdout=PIPE, stderr=PIPE,
-		  #~ cwd=work_dir
+		  '-x', newbibs_path,
+		  '-g',  eval_corpus.shelf_path('GTEI'),
+		  '-e', 'references.tei.xml',
+		  '--logreport', report_table,
+		  '--regreport', mon_eval_id
+		  ],
 		)
-		
-		for line in mon_process.stderr:
-			print(line.decode('UTF-8').rstrip())
+		#£TODO IF résumé d'éval à écrire à part 
+		#   si save_tab => dans eval_xml option --logline )
+		#   sinon       => s'affichera d'elle-même sur STDERR
 	
 	# cas avec un modèle donné
 	else:
 		model_object = CRFModel(existing_mid=model_name)
-		# TODO
+		# £TODO substitutions dossier
 		raise NotImplementedError()
+	
+	resultat_eval.decode("UTF-8")
 
 
 def assistant_installation():
@@ -850,23 +852,35 @@ def assistant_installation():
 	# --- initialisation des dossiers --------------------------
 	corpora_dir = Corpus.home_dir
 	models_dir = CRFModel.home_dir
-	print("hello")
-	if not path.exists(corpora_dir):
+	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
+	if not path.isdir(corpora_dir):
 		choix1 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
   => Voulez-vous le créer maintenant ? (y/n) """ % corpora_dir)
 		if choix1[0] in ['Y','y','O','o']:
 			mkdir(corpora_dir)
 		else:
+			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration CORPUS_HOME et relancer l\'assistant.', file=stderr)
 			exit(1)
 	
-	if not path.exists(models_dir):
-		print("hello2")
-		choix2 = input("""De même, nous aurons besoin du dossier '%s' pour les modèles CRF ("CRF Store")
-  => Voulez-vous aussi le créer maintenant ? (y/n) """ % models_dir)
+	if not path.isdir(models_dir):
+		choix2 = input("""Vos paramètres de configuration ont le dossier '%s'
+comme lieu de stockage pour les modèles CRF ("CRF Store")
+  => Voulez-vous le créer maintenant ? (y/n) """ % models_dir)
 		if choix2[0] in ['Y','y','O','o']:
 			makedirs(models_dir)
 		else:
+			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration MODELS_HOME et relancer l\'assistant.', file=stderr)
+			exit(1)
+	
+	if not path.isdir(evals_dir):
+		choix3 = input("""Vos paramètres de configuration ont le dossier '%s'
+comme lieu de stockage pour les évaluations
+  => Voulez-vous le créer maintenant ? (y/n) """ % models_dir)
+		if choix3[0] in ['Y','y','O','o']:
+			makedirs(evals_dir)
+		else:
+			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration EVALS_HOME et relancer l\'assistant.', file=stderr)
 			exit(1)
 	
 	# --- import des modèles grobid courants (aka 'vanilla') ---
@@ -879,22 +893,28 @@ comme lieu de stockage de tous les corpus... mais il n'existe pas encore (néces
 	# --- premier corpus d'évaluation --------------------------
 	# nom du nouveau corpus
 	eval_c_name = CONF['eval']['CORPUS_NAME']
-	# taille
-	eval_size = input("choisissez la taille du corpus d'évaluation par défaut pour initialiser un nouveau dossier corpus '%s' sous /corpora [défaut:100]: " % eval_c_name).rstrip()
 	
-	if not match(r'[0-9]*', eval_size):
-		exit(1)
+	if path.isdir(path.join(Corpus.home_dir,eval_c_name)):
+		print("== Reprise du corpus d'évaluation existant déjà sous %s ==" % Corpus.home_dir, file=stderr)
+	
 	else:
-		if len(eval_size):
-			the_size = int(eval_size)
+		# taille nouveau corpus
+		eval_size = input("choisissez la taille du corpus d'évaluation par défaut pour initialiser un nouveau dossier corpus '%s' sous /corpora [défaut:100]: " % eval_c_name).rstrip()
+		
+		if not match(r'[0-9]*', eval_size):
+			print('taille incorrecte: veuillez relancer et entrer un nombre', file=stderr)
+			exit(1)
 		else:
-			the_size = 100
-		# >> initialisation <<
-		make_set(corpus_name = eval_c_name, size = the_size)
-		print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
-		for this_shelf in a_corpus_obj.fulltextsh():
-			print("  - %s" % SHELF_NAMES[this_shelf])
-		print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
+			if len(eval_size):
+				the_size = int(eval_size)
+			else:
+				the_size = 100
+			# >> initialisation <<
+			make_set(corpus_name = eval_c_name, size = the_size)
+			print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
+			for this_shelf in a_corpus_obj.fulltextsh():
+				print("  - %s" % SHELF_NAMES[this_shelf])
+			print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
 	
 	
 	# --- première évaluation ----------(aka 'baseline vanilla') ---
@@ -902,8 +922,9 @@ comme lieu de stockage de tous les corpus... mais il n'existe pas encore (néces
 	
 	# --- evaluation des modèles courants 
 	
-	(rappel, precision, eval_details_path) = eval_model(model_name=None, eval_set=eval_c_name)
+	eval_model(model_name=None, eval_set=eval_c_name)
 	
+	print("L'assistant d'installation bako a fini l'évaluation initiale baseline", file=stderr)
 
 
 ########################################################################
