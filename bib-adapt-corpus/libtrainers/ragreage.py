@@ -64,11 +64,10 @@ from random import randint
 from subprocess import check_output
 
 # mes méthodes XML
-import rag_xtools # str_escape, strip_inner_tags, glance_xbib, 
-                  # simple_path, localname_of_tag
+from libtrainers.rag_xtools import str_escape, strip_inner_tags, glance_xbib, simple_path, localname_of_tag
 
 # mes procédures
-import rag_procedures  # find_bib_zone, link_txtlines_with_xbibs
+from libtrainers.rag_procedures import find_bib_zone, link_txtlines_with_xbibs
 
 # --------------------------------------------------------
 # --------------------------------------------------------
@@ -373,9 +372,9 @@ def biblStruct_elts_to_match_tokens(xml_elements, model="bibfields", debug=0):
 	mem_fpp = None
 	
 	for xelt in xml_elements:
-		base_path = rag_xtools.simple_path(xelt, relative_to = "biblStruct")
+		base_path = simple_path(xelt, relative_to = "biblStruct")
 		
-		loc_name = rag_xtools.localname_of_tag(xelt.tag)
+		loc_name = localname_of_tag(xelt.tag)
 		
 		if debug >= 2:
 			print("xelt2tok:", file=sys.stderr)
@@ -590,7 +589,7 @@ def tok_match_record(matchlist, remainder_str, xtoken, matched_substr):
 	# -a- préparation du substitut balisé en xml
 	#      £ pseudo_out == 'rendu'
 	# debg
-	pseudo_out = xtoken.tagout+rag_xtools.str_escape(matched_substr)+xtoken.endout
+	pseudo_out = xtoken.tagout+str_escape(matched_substr)+xtoken.endout
 	
 	# -b- enregistrement
 	matchlist.append(pseudo_out)
@@ -686,7 +685,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 			nxt = len(subtrees)
 			print("match_fields: got %i subtree%s to match" % (nxt, 's' if nxt>1 else ''), file=sys.stderr)
 			for subtree in subtrees:
-				xmlentry = rag_xtools.glance_xbib(subtree)
+				xmlentry = glance_xbib(subtree)
 				print("XML entry:", xmlentry
 				   + "\ncontenus texte xmlbib", file=sys.stderr)
 				# affiche élément XML pretty
@@ -757,9 +756,9 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 		# OFF/ méthode 2 générique (remettra tj le même tag qu'en entrée)
 		#~ toklist = [XTokinfo(
 					  #~ s=xelt.text,
-					  #~ xip=rag_xtools.simple_path(
+					  #~ xip=simple_path(
 					  #~    xelt, 
-					  #~    relative_to = rag_xtools.localname_of_tag(subtree.tag)
+					  #~    relative_to = localname_of_tag(subtree.tag)
 					  #~    )
 					  #~ ) for xelt in subelts if xelt.text not in [None, ""]]
 		
@@ -907,7 +906,7 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 	# print("@mtched   :", mtched, file=sys.stderr)
 	
 	# traitement du remainder => résultat visible avec option -r (mask)
-	remainder = rag_xtools.str_escape(remainder)
+	remainder = str_escape(remainder)
 	
 	# SORTIE (str)
 	new_xml = None
@@ -997,17 +996,17 @@ def match_fields(grouped_raw_lines, subtrees=None, label="", model_type='bibfiel
 			#                   grace astuce amont: marquage tempo <pp>
 			output = re.sub(r'<pp>', r'<biblScope type="pp">',
 					  re.sub(r'</pp>', r'</biblScope>',
-					 re.sub(r'(<pp>.*</pp>)',rag_xtools.strip_inner_tags,
+					 re.sub(r'(<pp>.*</pp>)',strip_inner_tags,
 					output)))
 			
 			# -b- auteurs groupés
 			# ex <author>Ageta, H.</author>, <author>Arai, Y.</author> 
 			#        => <author>Ageta, H., Arai, Y.</author>
 			output = re.sub(r'(<author>.*</author>)',
-								  rag_xtools.strip_inner_tags, 
+								  strip_inner_tags, 
 								output)
 			output = re.sub(r'(<editor>.*</editor>)',
-								  rag_xtools.strip_inner_tags,
+								  strip_inner_tags,
 								output)
 			
 			# ajout tag extérieur
@@ -1667,7 +1666,7 @@ def run(the_model_type = "bibzone",
 
 		print("---\nFIND PDF BIB ZONE", file=sys.stderr)
 		
-		(debut_zone, fin_zone) = rag_procedures.find_bib_zone(
+		(debut_zone, fin_zone) = find_bib_zone(
 										 xbibs,
 										 rawlines,
 										 debug=debug_lvl
@@ -1679,7 +1678,7 @@ def run(the_model_type = "bibzone",
 		
 		
 		# le matériau ligne par ligne échappé pour sortie XML seg
-		esclines = [rag_xtools.str_escape(st) for st in rawlines]
+		esclines = [str_escape(st) for st in rawlines]
 		
 		# rarement
 		if ((debut_zone == None) or  (fin_zone == None)):
@@ -1725,7 +1724,7 @@ def run(the_model_type = "bibzone",
 
 		# get correspondance array
 		# (sequence over pdf content lines ids filled with matching xml ids)
-		winners = rag_procedures.link_txtlines_with_xbibs(
+		winners = link_txtlines_with_xbibs(
 						   rawlines[debut_zone:fin_zone+1], 
 						   xbibs,    # todo check si les bibl passent bien ? 
 						   debug=debug_lvl
@@ -1829,7 +1828,7 @@ def run(the_model_type = "bibzone",
 				if j_win is None:
 					# on ne peut pas reporter "<bibl>...</bibl>" sur la ligne
 					# mais on la sort quand même (fidélité au flux txtin)
-					yield(rag_xtools.str_escape(this_line)+"<lb/>")
+					yield(str_escape(this_line)+"<lb/>")
 					#                  -------
 					#                 important!
 					
@@ -1877,7 +1876,7 @@ def run(the_model_type = "bibzone",
 							
 							my_bibl_line = '<bibl>'+this_line_wlabel
 						else:
-							my_bibl_line = '<bibl>'+ rag_xtools.str_escape(this_line)
+							my_bibl_line = '<bibl>'+ str_escape(this_line)
 						
 						# to be continued
 						if j_win == next_win:
@@ -1895,7 +1894,7 @@ def run(the_model_type = "bibzone",
 					elif next_win == j_win:
 						# ligne sans balises et sans sa fin
 						# >> buffer
-						l_buff.append(rag_xtools.str_escape(this_line))
+						l_buff.append(str_escape(this_line))
 					
 					# morceau de fin => fermeture tag + jonction => SORTIE
 					else:
@@ -1903,7 +1902,7 @@ def run(the_model_type = "bibzone",
 						#  => sortie finale format ref-seg
 						#     -------------
 						preceding = '<lb/>'.join(l_buff)
-						current_l =  rag_xtools.str_escape(this_line)
+						current_l =  str_escape(this_line)
 						yield(preceding+'<lb/>'+current_l+'<lb/></bibl>')
 						#                ----             ------
 						#                               fin de la
@@ -1982,7 +1981,7 @@ def run(the_model_type = "bibzone",
 				# linked results
 				print("="*70, file=sys.stderr)
 				for j in range(nxb):
-					xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
+					xml_info = glance_xbib(xbibs[j], longer = True)
 					if rawlinegroups_by_xid[j] is None:
 						print(xml_info + "\n<==> NONE", file=sys.stderr)
 					else:
@@ -2125,7 +2124,7 @@ def run(the_model_type = "bibzone",
 				# linked results
 				print("="*70, file=sys.stderr)
 				for j in range(nxb):
-					xml_info = rag_xtools.glance_xbib(xbibs[j], longer = True)
+					xml_info = glance_xbib(xbibs[j], longer = True)
 					if rawlinegroups_by_xid[j] is None:
 						print(xml_info + "\n<==> NONE", file=sys.stderr)
 					else:

@@ -10,8 +10,6 @@ __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 # TODOSPLIT update_triggers
-# TODOSPLIT home_dir update depuis CONF
-
 
 from glob            import glob
 from os              import mkdir, path
@@ -20,14 +18,9 @@ from re              import match, search, sub
 from subprocess      import check_output, STDOUT
 from configparser    import ConfigParser
 
-from site            import addsitedir     # pour imports locaux
-
-# pour lib trainers.ragreage
-addsitedir('lib/trainers')
-import ragreage
-
-# remplir au fur et à mesure des besoins
-from corpusdirs import Corpus, SHELF_STRUCT
+# imports locaux
+import libtrainers.ragreage
+from libconsulte.corpusdirs import Corpus, BSHELVES
 
 
 # ----------------------------------------------------------------------
@@ -40,13 +33,16 @@ conf_path = path.join(script_dir, '..', 'local_conf.ini')
 conf_file = open(conf_path, 'r')
 CONF.read_file(conf_file)
 conf_file.close()
+
+MY_CORPUS_HOME = path.join(CONF['workshop']['HOME'],CONF['workshop']['CORPUS_HOME'])
+
 # ----------------------------------------------------------------------
 # Globals
 
 # Extension des infos structurelles de corpus
 # aux besoins grobid-trainer
 # ("shelf" pour "étagère")
-GBTRAIN_SHELF_STRUCT = {
+GBTRAIN_UPDATED_SHELVES = {
 	# bibzone = segmentation -------------------------
 	'BZRTX': {'d':  'D.1.a-trainers-bibzone_rawtxt',
 			  'ext':'.training.segmentation.rawtxt',
@@ -86,71 +82,108 @@ GBTRAIN_SHELF_STRUCT = {
 			},
 	}
 
-# copie de la SHELF_STRUCT basique depuis corpusdirs
-NEW_SHELF_STRUCT = SHELF_STRUCT.copy()
-NEW_SHELF_STRUCT.update(GBTRAIN_SHELF_STRUCT)
-SHELF_STRUCT = NEW_SHELF_STRUCT    # scope à tester # scope à tester
+# copie de la UPDATED_SHELVES basique depuis corpusdirs
+UPDATED_SHELVES = BSHELVES.copy()
+UPDATED_SHELVES.update(GBTRAIN_UPDATED_SHELVES)
 
-	# -----------------------------------------------------------------
-	#    C O R P U S   P R E - T R A I N I N G   C O N V E R T E R S
-	# -----------------------------------------------------------------
 
+
+# PREP_TEI_FROM_TXT
+# grobid_create_training implique naturellement un traitement commun
+# mais les accès ensuite et l'usage des documents seront distincts..
+PREP_TEI_FROM_TXT = {
+'bibzone': {'from': 'BZRTX', 'to': 'BZTEI',
+			'prep_exe':  'createTrainingSegmentation',
+			'tgt_shelves': ['BZRTX','BZRTK'],
+			},
+
+'biblines': {
+			'from': 'BLRTX', 'to': 'BLTEI',
+			'prep_exe': 'createTrainingReferenceSegmentation',
+			'tgt_shelves': ['BLRTX','BLRTK'],
+			},
+
+# /!\ les sh_tgt pour bibfields et authornames ne donnent pas de txt
+#	 on le créera depuis les tei de prépa => £TODO modif grobid
+'bibfields': {'from': 'BFRTX', 'to': 'BFTEI',
+			'prep_exe': 'createTrainingFulltext',
+			# 'tgt_shelves' :   ['BFRTX'], # idéalement modif GB
+			
+			# autrement "hack" pour obtenir BFRTX
+			'tgt_shelves' :   [],
+			'sh_mktxt': {'from':'BFTEI', 'to':'BFRTX'},
+			},
+
+'authornames': {'from': 'AURTX', 'to': 'AUTEI',
+			'prep_exe': 'createTrainingFulltext', 
+			# 'tgt_shelves' :   ['AURTX'], # idéalement modif GB
+			
+			# autrement "hack" pour obtenir AURTX
+			'tgt_shelves' :   [],
+			'sh_mktxt': {'from':'AUTEI', 'to':'AURTX'},
+			},
+}
+
+# ---------------------------------------------------------------------
+# C O R P U S    A V E C    D E S    E T A G È R E S    E N    P L U S
+# ---------------------------------------------------------------------
 class TrainingCorpus(Corpus):
 	"""
-	Un corpus dir avec quelques fonctions en plus:
+	Un corpus dir avec 
+	
+	des étagères mises à jour : fulltexts d'entraînement en plus
+	
+	et quelques fonctions en plus pour bako.make_trainers
 	  flux txt et tok              ---> grobid_create_training
 	  flux tei + 'bonnes réponses' ---> construct_training_tei
 	"""
 	
-	# TODOSPLIT vérifier scope
-	home_dir = path.join(CONF['workshop']['HOME'],CONF['workshop']['CORPUS_HOME'])
-	
-	#~ def __init__(args):
-		#~ """
-		#~ Initialisation théoriquement inchangée
-		#~ """
-		#~ super.__init__(*args)
+	def __init__(self, corpus_name):
+		"""
+		Initialisation globalement comme read_dir d'un corpusdir.Corpus normal,
+		mais avec vérification qu'on est dans le dossier fixe de la conf de bako
+		
+		cf. aussi bako.take_set() qui a inspiré ces lignes
+		"""
+		
+		# doit être là
+		expected_dir = path.join(MY_CORPUS_HOME, corpus_name)
+		try:
+			print("=======  %s  =======" % corpus_name)
+			# initialisation (mode read_dir)
+			# ----------------------------------------------
+			seed = Corpus(corpus_name, 
+					read_dir = expected_dir,
+					corpus_type = 'train',
+					verbose  = True,
+					new_home = MY_CORPUS_HOME,
+					shelves_struct  = UPDATED_SHELVES)
+			# ----------------------------------------------
+		except FileNotFoundError as fnf_err:
+			print("Je ne trouve pas '%s dans le dossier attendu %s\n" % (
+						fnf_err.pi_mon_rel_path,
+						MY_CORPUS_HOME
+						))
+			fnf_err.corpus_name = corpus_name
+			raise(fnf_err)
+		
+		# si on est là self contiendra toutes les méthodes de Corpus
+		# mais il faut encore transférer les variables
+		
+		self._home    = seed._home
+		self._shtruct = seed._shtruct
+		
+		self.name   = seed.name
+		self.cdir   = seed.cdir
+		self.shelfs = seed.shelfs
+		self.meta   = seed.meta
+		self.cols   = seed.cols
+		self.bnames = seed.bnames
+		self.size   = seed.size
+		
+		# et voilà !
 
 
-
-	# TRAINING RAWTXT instructions pour corpus.grobid_create_training()
-	
-	# PREP_TEI_FROM_TXT
-	# grobid_create_training implique naturellement un traitement commun
-	# mais les accès ensuite et l'usage des documents seront distincts..
- 
-	# /!\ les sh_tgt pour bibfields et authornames ne donnent pas de txt
-	#	 on le créera depuis les tei de prépa => £TODO modif grobid
- 
-	# /!\ dans ts les cas on ne conserve pas les tei de prépa (non gold)
-	#	 => n'apparaissent pas dans sh_tgt
-	PREP_TEI_FROM_TXT = {
-			'bibzone': {'prep_exe':  'createTrainingSegmentation',
-									'tgt_shelves': ['BZRTX','BZRTK'],
-								  },
- 
-			'biblines': {'prep_exe': 'createTrainingReferenceSegmentation',
-									'tgt_shelves': ['BLRTX','BLRTK'],
-								  },
- 
-			'bibfields': {'prep_exe': 'createTrainingFulltext',
-									# 'tgt_shelves' :   ['BFRTX'], # idéalement modif GB
-									
-									# autrement "hack" pour obtenir BFRTX
-									'tgt_shelves' :   [],
-									'sh_mktxt': {'from':'BFTEI', 'to':'BFRTX'},
-								  },
- 
-			'authornames': {'prep_exe': 'createTrainingFulltext', 
-									# 'tgt_shelves' :   ['AURTX'], # idéalement modif GB
-									
-									# autrement "hack" pour obtenir AURTX
-									'tgt_shelves' :   [],
-									'sh_mktxt': {'from':'AUTEI', 'to':'AURTX'},
-								  },
-			}
-	
-	
 	# TRAINING RAWTXT central
 	# todo skip if (wiley or nature) and (bibfields ou authornames)
 	def grobid_create_training(self, tgt_model):
@@ -174,7 +207,7 @@ class TrainingCorpus(Corpus):
 							
 			NB: ici seule utilisation de PREP_TEI_FROM_TXT /?\
 			"""
-			gb_d = CONF['grobid']['GROBID_HOME']
+			gb_d = CONF['grobid']['GROBID_DIR']
 			gb_h = path.join(gb_d,'grobid-home')
 			gb_p = path.join(gb_h,'grobid-home','config','grobid.properties')
 			
@@ -187,7 +220,7 @@ class TrainingCorpus(Corpus):
 			
 			
 			# commun aux formes rawtxts et aux éventuels rawtoks
-			exe_process = self.PREP_TEI_FROM_TXT[tgt_model]['prep_exe']
+			exe_process = PREP_TEI_FROM_TXT[tgt_model]['prep_exe']
 			
 			# temporary output_dir, elle aussi commune aux deux formes
 			temp_dir_out = path.join(self.cdir, "temp_raws_%s" % tgt_model)
@@ -198,11 +231,11 @@ class TrainingCorpus(Corpus):
 			
 			
 			grobid_prepare_args = ["java", "-jar",  my_jar_path,
-											"-gH",   gb_h,
-											"-gP",   gb_p,
-											"-exe",  exe_process,
-											"-dIn",  pdf_dir_in,
-											"-dOut", temp_dir_out]
+				"-gH",   gb_h,
+				"-gP",   gb_p,
+				"-exe",  exe_process,
+				"-dIn",  pdf_dir_in,
+				"-dOut", temp_dir_out]
 			
 			
 			print("******** PREPARATION RAWTXTs pour %s ********" % tgt_model)
@@ -217,9 +250,9 @@ class TrainingCorpus(Corpus):
 			print("%s ok... storing new docs in trainer dirs:" % tgt_model)
 			
 			# a posteriori
-			for shelf in self.PREP_TEI_FROM_TXT[tgt_model]['tgt_shelves']:
+			for shelf in PREP_TEI_FROM_TXT[tgt_model]['tgt_shelves']:
 				shdir = self.shelf_path(shelf)
-				shext = SHELF_STRUCT[shelf]['ext']
+				shext = UPDATED_SHELVES[shelf]['ext']
 				
 				if not path.exists(shdir):
 					mkdir(shdir)
@@ -235,17 +268,17 @@ class TrainingCorpus(Corpus):
 						move(just_created, tgt_in_shelf)
 					
 					# on signale qu'on a réussi #£TODO test poussé
-					self.assert_fulltexts(shelf)
+					self.assert_docs(shelf)
 					
 					
 			# ---------------------->8----------------------------------
 			# hack pour les rawtxt non générables: bibfields authornames
-			if 'sh_mktxt' in self.PREP_TEI_FROM_TXT[tgt_model]:
-				shfrom = self.PREP_TEI_FROM_TXT[tgt_model]['sh_mktxt']['from']
-				shto = self.PREP_TEI_FROM_TXT[tgt_model]['sh_mktxt']['to']
+			if 'sh_mktxt' in PREP_TEI_FROM_TXT[tgt_model]:
+				shfrom = PREP_TEI_FROM_TXT[tgt_model]['sh_mktxt']['from']
+				shto = PREP_TEI_FROM_TXT[tgt_model]['sh_mktxt']['to']
 				
-				shfrom_ext = SHELF_STRUCT[shfrom]['ext']
-				shto_ext = SHELF_STRUCT[shto]['ext']
+				shfrom_ext = UPDATED_SHELVES[shfrom]['ext']
+				shto_ext = UPDATED_SHELVES[shto]['ext']
 				shtodir = self.shelf_path(shto)
 					
 				if not path.exists(shtodir):
@@ -266,16 +299,21 @@ class TrainingCorpus(Corpus):
 							_strip_tei_save_txt(new_shfrom, tgt_in_shto, start_tag="biblStruct")
 		
 				# on signale aussi qu'on a réussi
-				self.assert_fulltexts(shto)
+				self.assert_docs(shto)
+			
+			# /!\ dans ts les cas on ne conserve pas les tei de prépa (non gold)
+			#	 => n'apparaissent pas dans sh_tgt
 			# ---------------------->8----------------------------------
 			
 			# nettoyage
 			rmtree(temp_dir_out)
 			
 			return None
-
-
-
+	
+	
+	# -----------------------------------------------------------------
+	#    C O R P U S   P R E - T R A I N I N G   C O N V E R T E R S
+	# -----------------------------------------------------------------
 	
 	# TRAINING TEI ET RAGREAGE
 	def construct_training_tei(self, tgt_model, just_rag = False, debug_lvl=0):
@@ -348,7 +386,7 @@ class TrainingCorpus(Corpus):
 				my_raw_txt_path  = self.fileid(bname, src_txt_shelf)
 				
 				# générateur ("yield line" dans ragreage)
-				line_gen = ragreage.run(
+				line_gen = libtrainers.ragreage.run(
 							# modèle
 							the_model_type = tgt_model,
 							# chemins
@@ -365,10 +403,9 @@ class TrainingCorpus(Corpus):
 					ttei_xml.write(tline+"\n")
 				ttei_xml.close()
 			
-			self.assert_fulltexts(tgt_tei_shelf)
+			self.assert_docs(tgt_tei_shelf)
 
 		return None
-
 
 
 # -----------------------------------------------------------------------------------
@@ -391,9 +428,6 @@ def _strip_tei_save_txt(tei_path_in, txt_path_out, start_tag="listBibl"):
 	tei_in = open(tei_path_in, 'r')
 	all_lines = []
 	on = False
-	
-	
-	print("hello strip %s" % tei_path_in )
 	
 	# first : diagnosis
 	for line in tei_in.readlines():

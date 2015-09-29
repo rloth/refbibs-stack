@@ -44,8 +44,8 @@ from argparse  import ArgumentParser, RawTextHelpFormatter
 
 # imports locaux
 try:
-	import api
-	import field_value_lists
+	from libconsulte import api
+	from libconsulte import field_value_lists
 	# =<< target_language_values, target_scat_values,
 	#     target_genre_values, target_date_ranges
 except ImportError:

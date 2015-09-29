@@ -30,21 +30,16 @@ from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 from collections     import defaultdict
 from subprocess      import call, check_output
 
-
-# pour les 4 imports locaux + field_values
-from site            import addsitedir
-# (/!\ relatif du lieu de lancement de bako !)
-addsitedir('lib')
-
 # "libconsulte" istex-rd
-import api
-import sampler
+from libconsulte import api
+from libconsulte import sampler
 
 # Corpus => bnames, cdir, cols, shelfs...
-from corpusdirs import Corpus
+from libconsulte.corpusdirs import Corpus, BSHELVES
 
 # CRFModel => mid, recipy, storing_path
-from grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import
+from libtrainers.grobid_corpusdirs import TrainingCorpus
+from libtrainers.grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import, GB_MODEL_MAP
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
@@ -54,8 +49,10 @@ conf_file = open(conf_path, 'r')
 CONF.read_file(conf_file)
 conf_file.close()
 
-# ----------------------------------------------------------------------
-# Noms "humains" des structures de base et de training
+MY_CORPUS_HOME = path.join(CONF['workshop']['HOME'],CONF['workshop']['CORPUS_HOME'])
+
+# -----------------------------------------------------------------------------
+# Noms "humains" des étagères de base (Corpus) et pour grobid (TrainingCorpus)
 SHELF_NAMES = {
 	# basic set -------------------------------------
 	'PDF0' : "PDFs originaux",
@@ -157,12 +154,12 @@ def bako_sub_args(next_sys_args=None):
 	)
 	
 	# ??? souhaitable ???
-	#~ args_mkset.add_argument(
-		#~ '--type',
-		#~ metavar='gold',
-		#~ choices="gold|train",
-		#~ help="type du corpus à créer (par défaut = gold) "
-		#~ )
+	args_mkset.add_argument(
+		'--type',
+		metavar='gold',
+		choices="gold|train",
+		help="type du corpus à créer (par défaut = gold) "
+		)
 	
 	# mode "import" avec une table
 	args_mkset.add_argument(
@@ -335,7 +332,7 @@ def make_set(corpus_name,
 			from_table=None, 
 			size=None, 
 			constraint=None,
-			# non utilisé encore
+			type='gold',
 			debug=0):
 	"""
 	Initialisation d'un corpus basique et remplissage de ses fulltexts
@@ -364,7 +361,7 @@ def make_set(corpus_name,
 	
 	# test de base avant de tout mettre dans le dossier
 	# (le seul dossier qu'on n'écrase jamais)
-	future_dir = path.join(Corpus.home_dir, corpus_name)
+	future_dir = path.join(MY_CORPUS_HOME, corpus_name)
 	if path.exists(future_dir):
 		print("ERR:'%s'\nLe nom '%s' est déjà pris dans le dossier des corpus." % 
 		       (future_dir, corpus_name), file=stderr)
@@ -409,15 +406,20 @@ def make_set(corpus_name,
 	# (2/4) notre classe corpus ------------------------------------------
 	
 	# Corpus
-	cobj = Corpus(corpus_name, my_tab)
+	# initialisation (mode tab seul, éventuellement ajouter verbose ?)
+	cobj = Corpus(corpus_name,
+					new_infos = my_tab, 
+					new_home  = MY_CORPUS_HOME,
+					verbose = (debug>0),
+					type=type)
 	
 	# (3/4) téléchargement des fulltexts ---------------------------------
 	
 	ids = cobj.cols['istex_id']
 	
 	for the_shelf in ['PDF0', 'XMLN']:
-		the_api_type = BSHELFS[the_shelf]['api']
-		the_ext      = BSHELFS[the_shelf]['ext']
+		the_api_type = BSHELVES[the_shelf]['api']
+		the_ext      = BSHELVES[the_shelf]['ext']
 		tgt_dir = cobj.shelf_path(the_shelf)
 		
 		print("mkdir -p: %s" % tgt_dir,file=stderr)
@@ -434,23 +436,27 @@ def make_set(corpus_name,
 			print("GETDOC: %s" % cobj.bnames[i]+the_ext,
 			  file=stderr)
 	
-	cobj.assert_fulltexts('XMLN')
-	cobj.assert_fulltexts('PDF0')
+	cobj.assert_docs('PDF0')
+	cobj.assert_docs('XMLN')
+	
+	# persistence du statut des 2 dossiers créés
+	cobj.save_shelves_status()
+
 	
 	# (4/4) conversion tei (type gold biblStruct) ------------------------
 	
 	# copie en changeant les pointeurs dtd
 	print("***DTD LINKING***")
-	cobj.dtd_repair()
+	cobj.dtd_repair(debug_lvl = debug)
 	
 	print("***XML => TEI.XML CONVERSION***")
 	
 	# créera le dossier C-goldxmltei
-	cobj.pub2goldtei()      # conversion
+	cobj.pub2goldtei(debug_lvl = debug)      # conversion
 	
-	cobj.assert_fulltexts('GTEI')
+	cobj.assert_docs('GTEI')
 	
-	# persistence du statut des 3 dossiers créés
+	# persistence du statut du dossier créé
 	cobj.save_shelves_status()
 	
 	# we return the new filled corpus for further work or display
@@ -466,13 +472,19 @@ def take_set(corpus_name,
 	Appel: on fournit le nom d'un corpus déjà sous CORPUS_HOME
 	"""
 	
-	expected_dir = path.join(Corpus.home_dir, corpus_name)
+	# todo lecture shelf_map au lieu de shelf_triggers => corpus type
+	
+	expected_dir = path.join(MY_CORPUS_HOME, corpus_name)
 	
 	try:
+		# initialisation (mode read_dir et avec verbose)
 		print("=======  %s  =======" % corpus_name)
-		cobj = Corpus(corpus_name, read_dir=expected_dir, verbose=True)
+		cobj = Corpus(corpus_name, 
+						read_dir = expected_dir,
+						new_home = MY_CORPUS_HOME,
+						verbose  = True)
 	except FileNotFoundError as fnf_err:
-		print("Je ne trouve pas '%s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, Corpus.home_dir),
+		print("Je ne trouve pas '%s dans le dossier attendu %s\n  (peut-être avez-vous changé de dossier corpusHome ?)" % (fnf_err.pi_mon_rel_path, MY_CORPUS_HOME),
 		file=stderr)
 		fnf_err.corpus_name = corpus_name
 		raise(fnf_err)
@@ -499,7 +511,8 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 	"""
 	
 	# Récupération du corpus par son nom
-	cobj = take_set(corpus_name)
+	# (comme un take_set avec cast Corpus => TrainingCorpus)
+	gcobj = TrainingCorpus(corpus_name)
 	
 	just_rag = True   # <--------- config/expé ?
 	
@@ -517,22 +530,22 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 		src_shelf = PREP_TEI_FROM_TXT[tgt_model]['from']
 		src_shelf_name = SHELF_NAMES[src_shelf]
 		
-		if src_shelf not in cobj.fulltextsh():
+		if src_shelf not in gcobj.got_shelves():
 			# raws ++++
-			cobj.grobid_create_training(tgt_model)
+			gcobj.grobid_create_training(tgt_model)
 		
 		else:
 			print("<= %s (reprise précédemment créés" % src_shelf_name)
 		
 		# =================(2/2) better training pTEIs =========
-		cobj.construct_training_tei(tgt_model, just_rag, debug)
+		gcobj.construct_training_tei(tgt_model, just_rag, debug)
 		# ======================================================
 	
 		# persist. du statut des nvx dossiers "trainers" après ch. étape
-		cobj.save_shelves_status()
+		gcobj.save_shelves_status()
 	
-	# nouveau paquet (corpus+model_type) prêt pour run_training
-	return cobj
+	# nouveau paquet (grobid_corpus+model_type) prêt pour run_training
+	return gcobj
 
 
 def run_training(model_type, corpora, debug=0):
@@ -570,7 +583,7 @@ def run_training(model_type, corpora, debug=0):
 		# (1) vérif existence
 		for c_name in corpora:
 			try:
-				corpora_objs.append(take_set(c_name))
+				corpora_objs.append(TrainingCorpus(c_name))
 			except FileNotFoundError as e:
 				print("ERR: Le corpus '%s' n'existe pas." % e.corpus_name,file=stderr)
 				exit(1)
@@ -850,7 +863,7 @@ def assistant_installation():
 	"""
 	
 	# --- initialisation des dossiers --------------------------
-	corpora_dir = Corpus.home_dir
+	corpora_dir = MY_CORPUS_HOME
 	models_dir = CRFModel.home_dir
 	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
 	if not path.isdir(corpora_dir):
@@ -858,7 +871,7 @@ def assistant_installation():
 comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
   => Voulez-vous le créer maintenant ? (y/n) """ % corpora_dir)
 		if choix1[0] in ['Y','y','O','o']:
-			mkdir(corpora_dir)
+			makedirs(corpora_dir)
 		else:
 			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration CORPUS_HOME et relancer l\'assistant.', file=stderr)
 			exit(1)
@@ -894,8 +907,8 @@ comme lieu de stockage pour les évaluations
 	# nom du nouveau corpus
 	eval_c_name = CONF['eval']['CORPUS_NAME']
 	
-	if path.isdir(path.join(Corpus.home_dir,eval_c_name)):
-		print("== Reprise du corpus d'évaluation existant déjà sous %s ==" % Corpus.home_dir, file=stderr)
+	if path.isdir(path.join(MY_CORPUS_HOME,eval_c_name)):
+		print("== Reprise du corpus d'évaluation existant déjà sous %s ==" % MY_CORPUS_HOME, file=stderr)
 	
 	else:
 		# taille nouveau corpus
@@ -912,7 +925,7 @@ comme lieu de stockage pour les évaluations
 			# >> initialisation <<
 			make_set(corpus_name = eval_c_name, size = the_size)
 			print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
-			for this_shelf in a_corpus_obj.fulltextsh():
+			for this_shelf in a_corpus_obj.got_shelves():
 				print("  - %s" % SHELF_NAMES[this_shelf])
 			print("+  Tableau récapitulatif dans %s/meta/infos.tab" % a_corpus_obj.cdir)
 	

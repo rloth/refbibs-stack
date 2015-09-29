@@ -4,7 +4,7 @@ import re
 import sys
 
 from lxml import etree
-from rag_xtools import localname_of_tag, glance_xbib
+from libtrainers.rag_xtools import localname_of_tag, glance_xbib
 
 
 # -------------------------------------------------------
