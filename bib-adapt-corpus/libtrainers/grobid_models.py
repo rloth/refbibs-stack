@@ -17,24 +17,26 @@ TODO :
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.2"
+__version__   = "0.3"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
-from os              import makedirs, path, stat, listdir, symlink
-from shutil          import copy
-from re              import sub, search
+from os              import makedirs, path, stat, listdir, symlink, remove
+from re              import sub, search, match
 from configparser    import ConfigParser
 
 # pour l'appel de grobid en training
 from subprocess      import check_output, PIPE, Popen
-from locale  import getlocale, setlocale, LC_NUMERIC
+from locale          import getlocale, setlocale, LC_NUMERIC
 
 # pour lire la version grobid
 from lxml            import etree
 
 # pour informer sur la date de création d'un modèle
 from time            import localtime, strftime
+
+# pour notre fichier de suivi models_situation.json
+from json            import dump, load
 
 
 # ----------------------------------------------------------------------
@@ -54,16 +56,21 @@ conf_file = open(conf_path, 'r')
 BAKO_CONF.read_file(conf_file)
 conf_file.close()
 
+MY_MODELS_HOME = path.join(
+	BAKO_CONF['workshop']['HOME'],
+	BAKO_CONF['workshop']['MODELS_HOME']
+)
+
 # ----------------------------------------------------------------------
-#                    [[ G R O B I D    I N F O S  ]]
+#                   [[  G R O B I D    I N F O S  ]]
 # ----------------------------------------------------------------------
 # as global constants #
 
-# Valeurs stables de l'installation grobid 
+# Valeurs stables de l'installation grobid ---------------------------
 #  | GB_DIR          (exemple: "/home/jeanpaul/grobid-integration-istex")
-#  | GB_RAW_VERSION   (exemple: "0.3.4-SNAPSHOT")
-#  | GB_VERSION       (exemple: "GB_0.3.4")
-#  | GB_GIT_ID        (exemple: "4116965" ou "no_git")
+#  | GB_RAW_VERSION  (exemple: "0.3.4-SNAPSHOT")
+#  | GB_VERSION      (exemple: "GB_0.3.4")
+#  | GB_GIT_ID       (exemple: "21713db" ou "no_git")
 # (pour rangement/suivi des modèles entraînés avec)
 
 GB_DIR = BAKO_CONF['grobid']['GROBID_DIR']
@@ -71,20 +78,30 @@ GB_DIR = BAKO_CONF['grobid']['GROBID_DIR']
 GB_RAW_VERSION = ""
 try:
 	gb_pom = [BAKO_CONF['grobid']['GROBID_DIR'],'grobid-trainer','pom.xml']
-	# print("CHEMIN POM de GB",path.join(*gb_pom))
+	# print("Lecture pom.xml de grobid sur chemin:",path.join(*gb_pom))
 	pom_xml = etree.parse(path.join(*gb_pom))
-	version_elt = pom_xml.xpath('/*[local-name()="project"]/*[local-name()="version"]')[0]
+	# noeud XML contenant par ex: "0.3.4-SNAPSHOT"
+	version_elt = pom_xml.xpath(
+		'/*[local-name()="project"]/*[local-name()="version"]'
+		)[0]
 	GB_RAW_VERSION = version_elt.text
+	# ex: "GB_0.3.4"
 	GB_VERSION = "GB_"+sub("-SNAPSHOT","",GB_RAW_VERSION)
+	
 except Exception as e:
 	print("Problem while parsing %s: grobid version UNKNOWN, your grobid install is incomplete" % gb_pom)
 	exit(1)
 
 try:
-	GB_GIT_ID = 'git_'+check_output(['git','--git-dir',GB_DIR+"/.git", 'log', '--pretty=format:%h', '-n1']).decode('UTF-8')
+	# ex: "21713db"
+	GB_GIT_ID = 'git_'+check_output(
+		['git','--git-dir',GB_DIR+"/.git",
+		'log', '--pretty=format:%h', '-n1']
+		).decode('UTF-8')
 except Exception as e:
 	GB_GIT_ID = 'no_git'
 
+# --------------------------------------------------------------------
 # associe les noms de dossiers (gbpath) 
 # aux commandes grobid-trainer (gbcmd)
 GB_MODEL_MAP = {
@@ -110,12 +127,17 @@ GB_MODEL_MAP = {
 				}
 			}
 
+# grobid.properties --------------------------------------------------
+GB_PROP_PATH = path.join(GB_DIR,'grobid-home','config','grobid.properties')
 GB_CONF = ConfigParser()
-gb_prop_path = path.join(GB_DIR,'grobid-home','config','grobid.properties')
-gb_prop_file = open(gb_prop_path, 'r')
+gb_prop_file = open(GB_PROP_PATH, 'r')
 gb_conf_lines = ["[top]"] + [gb_property for gb_property in gb_prop_file]
 GB_CONF.read_file(gb_conf_lines)
 gb_prop_file.close()
+
+# ----------------------------------------------------------------------
+#  [[  G R O B I D - R E L A T E D    S T A T I C    H E L P E R S  ]]
+# ----------------------------------------------------------------------
 
 def gb_model_dir(model_type = None):
 	"""
@@ -134,8 +156,7 @@ def gb_model_dir(model_type = None):
 		tgt_path = path.join(*full_path_elts)
 	return tgt_path
 
-
-def gb_model_import(model_type, to = None):
+def gb_model_import(model_type, to = MY_MODELS_HOME):
 	"""
 	Imports an existing grobid model.wapiti file into a CRFModel class instance
 	"""
@@ -148,8 +169,8 @@ def gb_model_import(model_type, to = None):
 		try:
 			ID = GB_CONF['top']["models.%s" % GB_MODEL_MAP[model_type]['short']]
 		except KeyError as ke:
-			print("Out-of-the-box model had no name, calling it 'vanilla-%s'" % model_type)
-			ID = "vanilla-%s" % model_type
+			print("Out-of-the-box model had no name, calling it '%s-vanilla'" % model_type)
+			ID = "%s-vanilla" % model_type
 
 		mon_modele = CRFModel(model_type, existing_mid = ID, the_samples = ['vanilla'])
 		import_log = Logfile("vanilla.import",
@@ -165,14 +186,24 @@ def gb_model_import(model_type, to = None):
 			print("  skip_import: %s dir (unchecked) already exists in models dir" % ID)
 		
 		if not skip_import:
-			# on fait un lien qui permettra aux évaluations etc de restaurer le modèle
-			symlink(path.join(new_dir,'model.wapiti'),
-				path.join(gb_model_dir(model_type),'model.wapiti.vanilla'))
+			# (persistance dans un json en amont pour tous les modèles)
+			status_json = mon_modele.situation_read(models_home = to)
+			# modif
+			status_json['vanilla'][model_type] = mon_modele.mid
+			# écriture
+			CRFModel.situation_write(status_json, models_home = to)
+			
+			# explication: ça note qu'on a fait un nouveau modèle vanilla pour
+			#              pouvoir le restaurer (par ex. si évals un par un)
 
 
+#  petit fichier qui conservera les infos sur les jeux de modèles 
+	#  - les modèles initiaux (vanilla_bibzone, vanilla_biblines, ...)
+	#  - les modèles courants (last_bibzone, last_biblines, ...)
+	#  - les meilleurs modèles (best_bibzone, best_biblines, ...)
 
 # ----------------------------------------------------------------------
-#                    [[ M O D E L    S T O R E ]]
+#                   [[  M O D E L    S T O R E  ]]
 # ----------------------------------------------------------------------
 class CRFModel:
 	"""
@@ -180,12 +211,14 @@ class CRFModel:
 	and standard operations/methods
 	
 	Usual slots:
+	 -self._home
 	 -self.id
 	 -self.mtype
 	 -self.storing_path
 	"""
 	
-	home_dir = path.join(BAKO_CONF['workshop']['HOME'],BAKO_CONF['workshop']['MODELS_HOME'])
+	# TODO: est-ce bien nécessaire ??
+	home_dir = MY_MODELS_HOME
 	
 	# pour compter les instances => model ID
 	
@@ -200,7 +233,12 @@ class CRFModel:
 	if existing_mds:
 		# alors on prendra plutôt la plus grande des valeurs existantes
 		actuels_nos = [int(sub(r".*-([0-9]+)$",r"\1",md)) for md in existing_mds if search(r".*-([0-9]+)$",md)]
-		model_idno = max(actuels_nos)
+		if len(actuels_nos):
+			model_idno = max(actuels_nos)
+		else:
+			# il y a un ou plusieurs modèles non-numérotés
+			# (hérités d'une version antérieure)
+			model_idno = 1
 	
 	# ------------------------------------------------------------
 	#             M O D E L    I N I T
@@ -237,14 +275,21 @@ class CRFModel:
 				 - traduction 1 => self.gb_mdltype_long()
 				 - ? traduction 2 => self.gb_mdltype_short()
 			
+			self._home
+			-----------------
+			   =  CRFModel.home_dir à l'initialisation
+			
 			self.storing_path
 			-----------------
-			   =  path.join(home_dir, 'run', model_id, 'model', 'model_type_long')
+			   =  path.join(self._home, 'run', model_id, 'model', 'model_type_long')
 		"""
 		
 		if not path.exists(CRFModel.home_dir):
 			# suggérer bako assistant_installation à l'utilisateur ?
 			raise FileNotFoundError(CRFModel.home_dir)
+		
+		# copie valeur telle qu'à l'initialisation
+		self._home = path.abspath(CRFModel.home_dir)
 		
 		# VAR 1: id
 		# exemple authornames-0.3.4-411696A-42
@@ -268,7 +313,7 @@ class CRFModel:
 		
 		# VAR 3: storing_path
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
-		self.storing_path = path.join(CRFModel.home_dir, self.mid)
+		self.storing_path = path.join(self._home, self.mid)
 		
 		# VAR 4: source samples names (list of strs)
 		self.samples = the_samples
@@ -284,18 +329,152 @@ class CRFModel:
 	
 	
 	
+	# -----------------------------------------------------------
+	#   M E T H O D S    F O R    T H E    H O L E    C L A S S
+	# -----------------------------------------------------------
+	# these methods are relevant to all models taken together
+	
+	@staticmethod
+	def situation_init():
+		"""
+		Creates a models-wide situation report with:
+		  - initial models (vanilla imported from grobid)
+		  - current models (installed in grobid)
+		  # TODO - best models so far (in relation with bako.eval_models)
+		
+		the report is a dict object (to be saved as json)
+		"""
+		#  petit dict qui conservera les infos sur les jeux de modèles 
+		#  - les modèles initiaux (vanilla_bibzone, vanilla_biblines, ...)
+		#  - les modèles courants (last_bibzone, last_biblines, ...)
+		#  - les meilleurs modèles (best_bibzone, best_biblines, ...)
+		empty_report = {
+		'vanilla' : {'bibzone':  None, 'biblines':   None,
+		             'bibfields':None, 'authornames':None},
+		'last' :    {'bibzone':  None, 'biblines':   None,
+		             'bibfields':None, 'authornames':None},
+		'best' :    {'bibzone':  None, 'biblines':   None,
+		             'bibfields':None, 'authornames':None},
+		}
+		print("MODELS: new empty status report")
+		return empty_report
+	
+	@classmethod
+	def situation_read(cls, models_home=MY_MODELS_HOME):
+		"""
+		Reads the json all-models-wide situation report
+		"""
+		# (a) path de la sauvegarde
+		bak_path = path.join(models_home,
+							'models_situation.json')
+		
+		# si première fois
+		if not path.exists(bak_path):
+			print("MODELS: can't find any previous status report at %s" % bak_path)
+			return cls.situation_init()
+		else:
+			# (b) lecture
+			bak_read = open(bak_path,'r')
+			models_situation_json = load(bak_read)
+			bak_read.close()
+			return models_situation_json
+
+	@staticmethod
+	def situation_write(models_situation_json, models_home=MY_MODELS_HOME):
+		"""
+		(Re-)writes the json situation report (usually after a change)
+		"""
+		bak_path = path.join(models_home,
+							'models_situation.json')
+		bak_write = open(bak_path,'w')
+		# json.dump
+		dump(models_situation_json, bak_write)
+		bak_write.close()
+
+
 	# ------------------------------------------------------
 	#         M O D E L    I N F O    M E T H O D S
 	# ------------------------------------------------------
-	def gb_mdltype_long(self):
+	def gb_mdltype_long(self, gb_model_map = GB_MODEL_MAP):
 		"""
 		Returns the grobid subdir of a model (str)
 		exemple:
 		  "segmentation"
 		"""
-		return GB_MODEL_MAP[self.mtype]['gbpath']
+		return gb_model_map[self.mtype]['gbpath']
 	
 	
+	def gb_mdltype_short(self, gb_model_map = GB_MODEL_MAP):
+		"""
+		Returns the grobid shortname of a model (str)
+		exemple:
+		  "seg"
+		"""
+		return gb_model_map[self.mtype]['gbpath']
+	
+	
+	def gb_register_model_in_config(self, gb_prop_path = GB_PROP_PATH):
+		"""
+		Rewrites grobid properties to register a newly installed model
+		(as parameter:value INI pair)
+		
+		Exemple :
+		models.seg=g034a.e-3_seg-grosto-478
+		
+		or:
+		models.cit=bibfields-vanilla
+		
+		or:
+		models.refseg=biblines-GB_0.3.4-git_4116965-bidu-479
+		
+		NB: ConfigParser can't do that because it requires subsections
+			in the written output, which grobid doesn't want
+			==> we do it by regexp
+		"""
+		
+		# 'seg', 'refseg', 'cit' ou 'au'
+		model_short_name = self.gb_mdltype_short()
+		
+		# ex: models.refseg=biblines-GB_0.3.4-git_4116965-bidu-479
+		property_to_add = 'models.'+model_short_name+'='+self.name
+		
+		# exemple: '^models\.refseg *= *([^ ]+) *$'
+		re_to_match = r'^models\.' + model_short_name + r' *= *([^ ]+) *$'
+		
+		# notre sortie
+		modified_lines = []
+		n_found = 0
+		
+		# lecture des propriétés actuelles
+		gb_prop_file = open(gb_prop_path, 'r')
+		for line in gb_prop_file:
+			# on cherche mention pré-existante éventuelle
+			found = match(searched_model_re, gb_prop_lines)
+			
+			if found:
+				n_found += 1
+				previous_model_name = found.groups()[0]
+				# replace
+				changed_line = sub(found.string, property_to_add)
+				print("MODELS: %s registered in grobid.properties (by replacing previous:'%s')" % (self.name, previous_model_name))
+				modified_lines.append(changed_line)
+			else:
+				modified_lines.append(line)
+		gb_prop_file.close()
+		
+		if n_found > 1:
+			raise TypeError("MODELS: gb_register_model_in_config a trouvé %i mentions du même modèle => mise à jour du modèle compromise !!")
+		elif n_found == 0:
+			# on ajoute simplement une ligne à la fin
+			# (il n'y avait rien de mentionné auparavant, 
+			#   mais à présent ce sera le cas)
+			modified_lines.append(property_to_add)
+		
+		# écriture
+		gb_prop_file = open(gb_prop_path, 'w')
+		gb_prop_file.write("\n".join(modified_lines)+"\n")
+		gb_prop_file.close()
+
 	
 	# ------------------------------------------------------
 	#         M A I N    M O D E L    T R A I N I N G
@@ -319,6 +498,7 @@ class CRFModel:
 		
 		mon_process = Popen(
 			  ['mvn',
+			  # offline est intéressant *sauf la première fois*
 			  # '--offline',
 			  '-X',
 			  'generate-resources',
@@ -351,10 +531,10 @@ class CRFModel:
 	# ------------------------------------------------------
 	#         M O D E L   < = >   F I L E S Y S T E M
 	# ------------------------------------------------------
-	# filesystem interaction: import, pick_n_store, install
+	# filesystem interaction: import, pick_n_store, push_to_gb
 	
 	
-	def pick_n_store(self, logs=[], debug_lvl = 1):
+	def pick_n_store(self, logs=[], debug_lvl = 0):
 		"""
 		Recovers a new model from its standard grobid location and its logs
 		+ stores it in the structured models home_dir with ID and creation info.
@@ -407,7 +587,62 @@ class CRFModel:
 		# the stored location
 		return new_model_dir
 	
-	
+	def push_to_gb(self, debug_lvl = 1):
+		"""
+		Installs a model from the model store into grobid
+		   /!\\ overwriting the previous /!\\
+		   /!\\      active model        /!\\
+		
+		Registers the model as current in:
+		   - workshop_home/models/models_situation.json
+		   - grobid-home/config/grobid.properties
+		
+		NB: if the previous active model was grobid's vanilla one,
+		    it has normally been imported in the workshop under
+		    vanilla-<modeltype>
+		  
+		   otherwise if it's a model we created then it is in 
+		   the workshop models too
+		  
+		  in case of major mess-up, it should be still possible
+		  to restore the original models from the git or tar
+		  source of the grobid version used
+		
+		(reverse of pick_n_store)
+		"""
+		
+		# target
+		# -------
+		tgt_dir = gb_model_dir(self.mtype)
+		if not path.isdir(tgt_dir):
+			print("MODELS.push_to_gb: Erreur: la destination paramétrée est absente et/ou n'est pas un dossier grobid-home/models normal ('%s'" % tgt_dir)
+			pass
+		else:
+			tgt_path = path.join(tgt_dir, 'model.wapiti')
+		
+		# source
+		# -------
+		current_model_path = path.join(
+			self.storing_path,
+			'model',
+			# toujours la même fin d'arborescence
+			GB_MODEL_MAP[self.mtype]['gbpath'],
+			'model.wapiti'
+			)
+		
+		if not path.exists(current_model_path):
+			raise FileNotFoundError
+		else:
+			# /!\ symlink en écrasant /!\
+			remove(tgt_path)
+			symlink(src_path, tgt_path)
+			
+			# enregistrement de la substitution au niveau du conteneur home
+			json_status = CRFModel.situation_read(models_home = self._home)
+			json_status['last'][self.mtype] = self.name
+			CRFModel.situation_write(json_status, models_home = self._home)
+		
+		
 	# ------------------------------------------------------
 	#            M O D E L    E V A L U A T I O N
 	# ------------------------------------------------------
