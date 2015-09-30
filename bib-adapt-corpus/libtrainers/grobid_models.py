@@ -503,7 +503,7 @@ class CRFModel:
 		model_short_name = self.gb_mdltype_short()
 		
 		# ex: models.refseg=biblines-GB_0.3.4-git_4116965-bidu-479
-		property_to_add = 'models.'+model_short_name+'='+self.name
+		property_to_add = 'models.'+model_short_name+'='+self.mid
 		
 		# exemple: '^models\.refseg *= *([^ ]+) *$'
 		re_to_match = r'^models\.' + model_short_name + r' *= *([^ ]+) *$'
@@ -516,7 +516,7 @@ class CRFModel:
 		gb_prop_file = open(gb_prop_path, 'r')
 		for line in gb_prop_file:
 			# on cherche mention pré-existante éventuelle
-			found = match(searched_model_re, gb_prop_lines)
+			found = match(re_to_match, line)
 			
 			if found:
 				n_found += 1
@@ -710,7 +710,7 @@ class CRFModel:
 		
 		# source
 		# -------
-		current_model_path = path.join(
+		src_path = path.join(
 			self.storing_path,
 			'model',
 			# toujours la même fin d'arborescence
@@ -718,7 +718,7 @@ class CRFModel:
 			'model.wapiti'
 			)
 		
-		if not path.exists(current_model_path):
+		if not path.exists(src_path):
 			raise FileNotFoundError
 		else:
 			# /!\ symlink en écrasant /!\
@@ -727,7 +727,7 @@ class CRFModel:
 			
 			# enregistrement de la substitution au niveau du conteneur home
 			json_status = CRFModel.situation_read(models_home = self._home)
-			json_status['last'][self.mtype] = self.name
+			json_status['last'][self.mtype] = self.mid
 			CRFModel.situation_write(json_status, models_home = self._home)
 			
 			# enregistrement aussi au niveau de grobid

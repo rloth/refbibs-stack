@@ -54,9 +54,9 @@ class Corpus(object):
 
 	# £TODO absolument une dir extraite de s1 sous la forme read_dir
 	def __init__(self, ko_name, new_infos=None, 
-					read_dir=False, 
+					read_dir=False, corpus_type='gold',
 						verbose=False, new_home=None,
-							shelves_struct=BSHELVES):
+							shelves_struct=None):
 		"""
 		2 INPUT modes
 		  -IN: *new_infos* : a metadata table (eg sampler output)
@@ -96,37 +96,40 @@ class Corpus(object):
 		self._home = path.abspath(new_home)
 		
 		# VAR 2: **shtruct** our absolute container address ----------
-		# (structure <=> map)
+		# (structure for each possible shelf of this instance)
 		
-		# si lecture: reprise table persistante (comme pour triggers plus loin)
-		if read_dir:
-			map_path = path.join(self.cdir,'meta','shelves_map.json')
-			# initialize struct from meta shelves_map.json
-			# 'shelves_map.json' <=> structure for each possible shelf of this instance
+		# 4 possibilités ici :(
+		# (1/4) si lecture ET l'argument shelves_struct est à None:
+		# => on a une lecture simple comme take_set
+		if read_dir and not shelves_struct:
+			# reprise table persistante shelves_map telle qu'elle était la dernière fois
+			# mini-TODO: factoriser la vérif de read_dir qui est plus loin pour cdir...
+			map_path = path.join(read_dir,'meta','shelves_map.json')
 			shmap = open(map_path,'r')
-			self._shtruct = load(shmap)     # json.load
+			self._shtruct = load(shmap)
 			shmap.close()
-			
-			if verbose and (self._shtruct.keys() != BSHELVES.keys()):
-				# signalement si corpus étendu 
-				# => dépasse de la structure basique
-				# (sans doute objet fille de Corpus)
-				print("READCORPUS: corpus étendu /!\\")
-				xtra_shelves = [mapdsh for mapdsh in self._shtruct if mapdsh not in BSHELVES]
-				print(" => %i étagères supplémentaires:\n  %s" % (
-						len(xtra_shelves),
-						','.join(xtra_shelves)
-						)
-					)
 		
-		# si init nouveau: la table a dû être fournie à l'initialisation
-		else:
+		# (2/4) ==> on a une lecture + extension
+		#           (le corpus pourra avoir de nouvelles étagères)
+		#           (on est sans doute appelés comme super.__init__())
+		elif read_dir and shelves_struct:
+			# la table la plus récente a dû être fournie
 			self._shtruct = shelves_struct
-			
-			# statique sauf si init objet fille
-			save_shelves_map()
-		 
 		
+		# (3/4) et (4/4)
+		# => *initialisations* avec ou sans valeur fournie
+		else:
+			# initialisation standard
+			if not shelves_struct:
+				# on prend la valeur par défaut
+				self._shtruct = BSHELVES
+			
+			# initialisation directement étendue
+			else:
+				self._shtruct = shelves_struct
+
+
+
 		# VAR 3: >> name << should be usable in a fs and without accents (for saxonb-xslt)
 		if type(ko_name) == str and match(r'[_0-9A-Za-z-]+', ko_name):
 			self.name = ko_name
@@ -172,8 +175,8 @@ ERROR -- Corpus(__init__ from dir):
 			
 			if verbose:
 				print(".rawinfos << %s" % infos_path)
-
-
+		
+		
 		# VAR 5: >> shelfs <<   (index de flags pour "sous-dossiers par format")
 		#                           shelfs refer to dirs of docs
 		#                           of a given format
@@ -197,6 +200,12 @@ ERROR -- Corpus(__init__ from dir):
 						self.shelfs[shname] = False
 				# persistence of shelf presence/absence flags
 				self.save_shelves_status()
+			
+			# ajout pour un corpus étendu:
+			# initialize all other new shelves as empty
+			for shname in self._shtruct:
+				if shname not in self.shelfs:
+					self.shelfs[shname] = False
 		
 		else:
 			# initialize empty
@@ -258,7 +267,7 @@ ERROR -- Corpus(__init__ from dir):
 				triggrs = open(trig_path,'w')
 				dump(self.shelfs, triggrs)     # json.dump
 				triggrs.close()
-				
+		
 				# £TODO ici tree.json DATE x PUB
 			
 			# VARS 9: >> size <<  (nombre de docs dans 1 étagère)
@@ -285,8 +294,14 @@ ERROR -- Corpus(__init__ from dir):
 			for shelf, bol in self.shelfs.items():
 				on_off = ' ON' if bol else 'off'
 				ppdir = self._shtruct[shelf]['d']
+				triggers_dirs.append([ppdir,on_off])
 			for td in sorted(triggers_dirs):
 				print("  > %-3s  --- %s" % (td[1], td[0]))
+		
+		
+		# si on a eu un extension
+		# (sera différente si et seulement si init objet fille)
+		self._save_shelves_map()
 		
 		print("\n===( CORPUS SIZE: %i docs )===\n" % self.size)
 
@@ -306,7 +321,8 @@ ERROR -- Corpus(__init__ from dir):
 			shpath = path.join(self.cdir, 'data', shsubdir)
 			return shpath
 		else:
-			return None
+			print(self._shtruct) # pour debug
+			raise KeyError("Unknown shelf %s" % my_shelf)
 	
 	def filext(self, the_shelf):
 		"""
@@ -392,14 +408,14 @@ ERROR -- Corpus(__init__ from dir):
 	
 	def save_shelves_status(self):
 		"""
-		Persistence for asserted shelves
+		Persistence for asserted shelves and their map
 		"""
 		trig_path = path.join(self.cdir,'meta','shelf_triggers.json')
 		triggrs = open(trig_path,'w')
 		dump(self.shelfs, triggrs)     # json.dump
 		triggrs.close()
 	
-	def save_shelves_map(self):
+	def _save_shelves_map(self):
 		"""
 		Persistence for possible shelves and their structural info.
 		"""
@@ -408,7 +424,6 @@ ERROR -- Corpus(__init__ from dir):
 		shmap = open(map_path,'w')
 		dump(self._shtruct, shmap)      # json.dump
 		shmap.close()
-			
 	
 	
 	def got_shelves(self):

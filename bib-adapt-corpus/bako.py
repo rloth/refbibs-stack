@@ -101,6 +101,7 @@ def bako_sub_args(next_sys_args=None):
 	"""
 	top_parser = ArgumentParser(
 		formatter_class=RawDescriptionHelpFormatter,
+		add_help=False,
 		description="""
 ----------------------------------------------------------------------
       A corpus manager and training operator for grobid-trainer
@@ -111,7 +112,7 @@ def bako_sub_args(next_sys_args=None):
   bako take_set       corpus_name
   bako make_trainers  corpus_name  [-m model  [model2...]]
   bako run_training   model_type   [-c corpus_name [corpus_name2...]]
-  bako eval_model     [-m model_name] [-e evalcorpus_name] [-s] [-g]
+  bako eval_model     [-m model_name] [-e evalcorpus_name]
 """,
 		epilog="""
 ------- (c) 2015 :: romain.loth@inist.fr :: Inist-CNRS (ISTEX) -------
@@ -285,17 +286,17 @@ def bako_sub_args(next_sys_args=None):
 		help="nom d'un corpus comme jeu d'évaluation alternatif"
 	)
 	
-	args_evalm.add_argument('-s', '--save_tab',
-		help="enregistrer une ligne d'éval dans le tableau de suivi",
-		required=False,
-		default=False,
-		action='store_true')
-	
-	args_evalm.add_argument('-g', '--do_graphs',
-		help="générer les graphiques d'évaluation",
-		required=False,
-		default=False,
-		action='store_true')
+	# args_evalm.add_argument('-s', '--save_tab',
+		# help="enregistrer une ligne d'éval dans le tableau de suivi",
+		# required=False,
+		# default=True,
+		# action='store_true')
+	# 
+	# args_evalm.add_argument('-g', '--do_graphs',
+		# help="générer les graphiques d'évaluation",
+		# required=False,
+		# default=False,
+		# action='store_true')
 	
 	####
 	
@@ -307,27 +308,26 @@ def bako_sub_args(next_sys_args=None):
 		default=0,
 		action='store')
 	
+	top_parser.add_argument('-h', '--help',
+		help="affiche l'aide",
+		action='help')
+	
 	# cas où aucune de ces sous-commandes n'est présente
-	if not search(r'make_set|take_set|make_trainers|run_training|eval_model', " ".join(next_sys_args)):
+	if not search(r'--help|-h|make_set|take_set|make_trainers|run_training|eval_model|new_workshop', " ".join(next_sys_args)):
 		print(""" ===================================================================
   /!\\  Vous avez lancé bako sans aucune de ses sous-commandes  /!\\
  ===================================================================
 
-En temps normal il faut écrire par exemple 'bako make_set mon_corpus'
+  Exemple d'une commande entière: bako make_set mon_corpus
+
+  NB: Pour afficher l'aide spécifique à une sous-commande,
+      vous pouvez mettre par ex.: bako make_set --help
+                                  bako take_set --help
+                                  bako run_training --help
+                                  etc.
 """, file=stderr)
-		top_parser.print_usage()
-		choix = input("""
- ===================================================================
-   Voulez-vous lancer l'assistant d'installation ?
-      -> vérifiera les dossiers de travail
-      -> importera les modèles actuels de grobid (dits "vanilla")
-      -> créera un premier corpus d'évaluation
-      -> lancera une première évaluation (dite "vanilla baseline")
-(Y/[N]) """)
-		if len(choix) and choix[0] in ['Y','y','O','o']:
-			new_workshop()
-		else:
-			exit(1)
+		top_parser.print_help()
+		exit(1)
 	
 	# cas normal avec sous-commandes
 	else:
@@ -341,7 +341,6 @@ def make_set(corpus_name,
 			from_table=None, 
 			size=None, 
 			constraint=None,
-			type='gold',
 			debug=0):
 	"""
 	Initialisation d'un corpus basique et remplissage de ses fulltexts
@@ -415,12 +414,15 @@ def make_set(corpus_name,
 	# (2/4) notre classe corpus ------------------------------------------
 	
 	# Corpus
-	# initialisation (mode tab seul, éventuellement ajouter verbose ?)
+	# initialisation
+	#  - mode tab seul => fera un dossier meta/ et un data/ vide,
+	#  - le corpus_type est mis en dur à 'gold' ce qui signale
+	#    simplement qu'on ne change pas les étagères par défaut)
 	cobj = Corpus(corpus_name,
 					new_infos = my_tab, 
 					new_home  = MY_CORPUS_HOME,
 					verbose = (debug>0),
-					type=type)
+					corpus_type='gold')
 	
 	# (3/4) téléchargement des fulltexts ---------------------------------
 	
@@ -786,6 +788,13 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 	print(" => %s documents liés" % linked_docs, file=stderr)
 
 
+def activate_model(model_name=None, debug=0):
+	"""
+	Active le modèle choisi en l'installant depuis le model store vers grobid
+	"""
+	
+
+
 def eval_model(model_name=None, eval_set=None, 
                save_tab=True, do_graphs=False, debug = 0):
 	"""
@@ -795,17 +804,42 @@ def eval_model(model_name=None, eval_set=None,
 	(si pas de model_name, on évalue le dernier modèle)
 	"""
 	
-	# récupération du corpus
+	# (1) récupération du corpus ---------------------------
 	if eval_set is None:
 		eval_set = CONF['eval']['CORPUS_NAME']
 	
 	eval_corpus = take_set(eval_set)
 	
-	# (1) lancer balisage
+	# (2) préparer eval_id et activer le ou les modèles ----
+	
+	# cas où l'on évalue les modèles courants
+	# dont initialement vanilla: modèles pré-existants
+	if model_name is None:
+		# use case courant: une eval vanilla qui est fréquente
+		#                   pour "calibrer" les attentes
+		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
+		
+		
+		# juste modèles courants
+		mon_eval_id = 'vanilla-'+eval_corpus.name
+		
+	# cas avec un modèle donné
+	else:
+		model_type = search(r'^([^-]+)-', model_name).groups()[0]
+		model_object = CRFModel(model_type, existing_mid=model_name)
+		model_object.push_to_gb(debug_lvl=debug)
+		
+		mon_eval_id = model_name+"-"+eval_corpus.name
+	
+	
+	# (3) lancer balisage -----------------------------------------------
 	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
-	newbibs_path = path.join(evals_dir,"output_bibs.dir")
+	
+	# pour l'instant les refbibs résultantes sont toujours au même endroit
+	newbibs_path = path.join(evals_dir,"temp.output_bibs.dir")
 	if not path.isdir(newbibs_path):
 		makedirs(newbibs_path)
+	
 	jarfile = 'grobid-core-'+GB_RAW_VERSION+'.one-jar.jar'
 	print ('vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv', file = stderr)
 	print ('--- Balisage en cours sur %s ---' % eval_corpus.name , file = stderr)
@@ -823,52 +857,42 @@ def eval_model(model_name=None, eval_set=None,
 	print ('--- Balisage terminé ---', file = stderr)
 	print ('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^', file = stderr)
 	
-	# (2) évaluer
+	# (4) évaluer
 	which_eval_script = CONF['eval']['SCRIPT_PATH']
 	# NB si existe >> append
 	report_table = CONF['eval']['TABLE_PATH']
 	
 	resultat_eval = bytes()
 	
-	# cas où l'on évalue les modèles courants
-	# dont initialement vanilla: modèles pré-existants
-	if model_name is None:
-		# use case courant: une eval vanilla qui est fréquente
-		#                   pour "calibrer" les attentes
-		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
-		
-		
-		# juste modèles courants
-		mon_eval_id = 'vanilla-'+eval_corpus.name
-		
-		debug_flag = ""
-		if debug > 0:
-			debug_flag = "-d"
-		
-		resultat_eval = check_output(
-		  ['perl', which_eval_script,
-		   debug_flag,
-		  '-x', newbibs_path,
-		  '-g',  eval_corpus.shelf_path('GTEI'),
-		  '-e', 'references.tei.xml',
-		  '--logreport', report_table,
-		  '--regreport', mon_eval_id
-		  ],
-		)
-		#£TODO IF résumé d'éval à écrire à part 
-		#   si save_tab => dans eval_xml option --logline )
-		#   sinon       => s'affichera d'elle-même sur STDERR
+	# appel basique
+	eval_call_elts = ['perl', which_eval_script, '-x', newbibs_path, '-g',  eval_corpus.shelf_path('GTEI'), '-e', 'references.tei.xml']
 	
-	# cas avec un modèle donné
-	else:
-		model_object = CRFModel(existing_mid=model_name)
-		# £TODO substitutions dossier
-		raise NotImplementedError()
+	if debug > 0:
+		eval_call_elts += ["-d"]
 	
-	resultat_eval.decode("UTF-8")
+	if save_tab:
+		eval_call_elts += ['--logreport',report_table,'--regreport', mon_eval_id]
+	
+	if debug > 1:
+		print("APPEL eval:", eval_call_elts)
+	
+	# ---------- run eval -----------------------
+	resultat_eval = check_output(eval_call_elts)
+	
+	resultat_eval = resultat_eval.decode("UTF-8")
+	
+	
+	# (5) stocker
+	this_eval_dir = path.join(evals_dir,"mon_eval_id")
+	if not path.isdir(this_eval_dir):
+		makedirs(this_eval_dir)
+	
+	output = open(path.join(this_eval_dir, 'tableau_detail_eval.tab'), 'w')
+	output.write(resultat_eval)
+	output.close()
 
 
-def new_workshop(override_dir=None):
+def new_workshop(override_dir=None, debug=0):
 	"""
 	Séquence standard de commandes lancées à la mise en place
 	d'un nouveau dossier de travail
@@ -879,6 +903,17 @@ def new_workshop(override_dir=None):
 	task 4 première évaluation "baseline vanilla" (via eval_models)
 	"""
 	
+	choix_debut = input("""
+ ===================================================================
+   Voulez-vous lancer l'assistant d'installation ?
+      -> vérifiera les dossiers de travail
+      -> importera les modèles actuels de grobid (dits "vanilla")
+      -> créera un premier corpus d'évaluation
+      -> lancera une première évaluation (dite "vanilla baseline")
+(Y/[N]) """)
+	if not len(choix_debut) or not choix_debut[0] in ['Y','y','O','o']:
+		exit(1)
+
 	# --- initialisation des dossiers --------------------------
 	if override_dir and override_dir != CONF['workshop']['HOME']:
 		print("Vous avez choisi un nouveau dossier de travail par défaut %s" % override_dir)
@@ -887,7 +922,7 @@ def new_workshop(override_dir=None):
 		evals_dir = path.join(override_dir, CONF['workshop']['EVALS_HOME'])
 		if not path.isdir(override_dir):
 			choix0 = input("Il n'existe pas encore. Souhaitez-vous le créer (nécessaire pour continuer)?")
-			if choix0[0] in ['Y','y','O','o']:
+			if len(choix0) and  choix0[0] in ['Y','y','O','o']:
 				makedirs(override_dir)
 			else:
 				print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration sous %s et relancer l\'assistant.' % CONF_PATH)
@@ -904,7 +939,7 @@ def new_workshop(override_dir=None):
 		choix1 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
   => Voulez-vous le créer maintenant ? (y/n) """ % corpora_dir)
-		if choix1[0] in ['Y','y','O','o']:
+		if len(choix1) and  choix1[0] in ['Y','y','O','o']:
 			makedirs(corpora_dir)
 		else:
 			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration CORPUS_HOME et relancer l\'assistant.', file=stderr)
@@ -914,7 +949,7 @@ comme lieu de stockage de tous les corpus... mais il n'existe pas encore (néces
 		choix2 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage pour les modèles CRF ("CRF Store")
   => Voulez-vous le créer maintenant ? (y/n) """ % models_dir)
-		if choix2[0] in ['Y','y','O','o']:
+		if len(choix2) and choix2[0] in ['Y','y','O','o']:
 			makedirs(models_dir)
 		else:
 			print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration MODELS_HOME et relancer l\'assistant.', file=stderr)
@@ -923,7 +958,7 @@ comme lieu de stockage pour les modèles CRF ("CRF Store")
 	if not path.isdir(evals_dir):
 		choix3 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage pour les évaluations
-  => Voulez-vous le créer maintenant ? (y/n) """ % models_dir)
+  => Voulez-vous le créer maintenant ? (y/n) """ % evals_dir)
 		if choix3[0] in ['Y','y','O','o']:
 			makedirs(evals_dir)
 		else:
@@ -958,6 +993,9 @@ comme lieu de stockage pour les évaluations
 				the_size = 100
 			# >> initialisation <<
 			make_set(corpus_name = eval_c_name, size = the_size)
+			
+			# on teste volontairement au passage take_set
+			a_corpus_obj = take_set(eval_c_name)
 			print("=> Sous-dossiers obtenus dans %s/data/" % a_corpus_obj.cdir)
 			for this_shelf in a_corpus_obj.got_shelves():
 				print("  - %s" % SHELF_NAMES[this_shelf])
@@ -972,6 +1010,8 @@ comme lieu de stockage pour les évaluations
 	eval_model(model_name=None, eval_set=eval_c_name)
 	
 	print("L'assistant d'installation bako a fini l'évaluation initiale baseline", file=stderr)
+	
+	
 
 
 ########################################################################

@@ -178,9 +178,6 @@ class TrainingCorpus(Corpus):
 		self._home    = seed._home
 		self._shtruct = seed._shtruct
 		
-		# persistance de la table _shtruct (= shelves_struct)
-		self.save_shelves_map()
-		
 		self.name   = seed.name
 		self.cdir   = seed.cdir
 		self.shelfs = seed.shelfs
@@ -195,6 +192,9 @@ class TrainingCorpus(Corpus):
 		touch_type = open(path.join(self.cdir,"meta","corpus_type.txt"), 'w')
 		print(self.ctype+'\n', file=touch_type)
 		touch_type.close()
+		
+		# persistance de la table _shtruct (= shelves_struct)
+		self._save_shelves_map()
 		
 		# et voilà !
 
@@ -267,6 +267,7 @@ class TrainingCorpus(Corpus):
 			# a posteriori
 			for shelf in PREP_TEI_FROM_TXT[tgt_model]['tgt_shelves']:
 				shdir = self.shelf_path(shelf)
+				print("shdir self %s" %shdir)
 				shext = UPDATED_SHELVES[shelf]['ext']
 				
 				if not path.exists(shdir):
