@@ -48,8 +48,8 @@ from libtrainers.grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import,
 #             sur les contenus: corpus, modèles, évals)
 script_dir = path.dirname(path.realpath(__file__))
 CONF = ConfigParser()
-conf_path = path.join(script_dir, 'bako_config.ini')
-conf_file = open(conf_path, 'r')
+CONF_PATH = path.join(script_dir, 'bako_config.ini')
+conf_file = open(CONF_PATH, 'r')
 CONF.read_file(conf_file)
 conf_file.close()
 
@@ -106,6 +106,7 @@ def bako_sub_args(next_sys_args=None):
       A corpus manager and training operator for grobid-trainer
 ----------------------------------------------------------------------""",
 		usage="""
+  bako new_workshop   [-d workshop/home/dir]
   bako make_set       corpus_name  [-s size] [-q specific api query]
   bako take_set       corpus_name
   bako make_trainers  corpus_name  [-m model  [model2...]]
@@ -121,6 +122,18 @@ def bako_sub_args(next_sys_args=None):
 		title='subcommands',
 		help='additional help')
 	
+	# NEW_WORKSHOP---- sous-commande (0) ----
+	args_nwshop = sub_args.add_parser(
+		'new_workshop',
+		usage="""
+  bako new_workshop  [--dir path_to_a_container_dir]
+		""",
+		help="créer un dossier de travail avec ses sous-dossiers corpus, modèles, évaluations, et importer les modèles grobid courants (pour évaluation baseline initiale)")
+	
+	# >> func = quelle commande() ça lance <<
+	args_nwshop.set_defaults(func=new_workshop)
+	
+	
 	# MAKE_SET ---- sous-commande (1) ----
 	args_mkset = sub_args.add_parser(
 		'make_set',
@@ -130,7 +143,7 @@ def bako_sub_args(next_sys_args=None):
 		""",
 		help="préparer un corpus")
 	
-	# pour savoir quelle commande ça lance
+	# >> la commande() <<
 	args_mkset.set_defaults(func=make_set)
 	
 	# mode normal
@@ -183,7 +196,7 @@ def bako_sub_args(next_sys_args=None):
 		help="lire un corpus"
 	)
 	
-	# pour savoir quelle commande ça lance
+	# >> la commande() <<
 	args_tkset.set_defaults(func=take_set)
 	
 	# un seul argument positionnel : le nom du corpus
@@ -232,7 +245,7 @@ def bako_sub_args(next_sys_args=None):
 		help="créer un modèle depuis un ou plusieurs corpus"
 		)
 	
-	# pour savoir quelle commande ça lance
+	# >> la commande() <<
 	args_mktrg.set_defaults(func=run_training)
 	
 	# un seul argument positionnel : le type du modèle
@@ -261,7 +274,7 @@ def bako_sub_args(next_sys_args=None):
 		help="évaluer le dernier modèle (ou autre selon -m)"
 	)
 	
-	# pour savoir quelle commande ça lance
+	# >> la commande() <<
 	args_evalm.set_defaults(func=eval_model)
 	
 	# aucun argument obligatoire
@@ -320,7 +333,7 @@ En temps normal il faut écrire par exemple 'bako make_set mon_corpus'
       -> lancera une première évaluation (dite "vanilla baseline")
 (Y/[N]) """)
 		if len(choix) and choix[0] in ['Y','y','O','o']:
-			assistant_installation()
+			new_workshop()
 		else:
 			exit(1)
 	
@@ -863,20 +876,38 @@ def eval_model(model_name=None, eval_set=None,
 	resultat_eval.decode("UTF-8")
 
 
-def assistant_installation():
+def new_workshop(override_dir=None):
 	"""
 	Séquence standard de commandes lancées à la mise en place
+	d'un nouveau dossier de travail
 	
 	task 1 initialisation des dossiers corpora, models, evals
-	task 2 import des modèles grobid courants "vanilla"
-	task 3 sampling d'un premier corpus eval (+ make_set)
-	task 4 première évaluation "baseline vanilla"
+	task 2 import des modèles grobid courants => considérés comme "vanilla"
+	task 3 sampling d'un premier corpus eval (via make_set)
+	task 4 première évaluation "baseline vanilla" (via eval_models)
 	"""
 	
 	# --- initialisation des dossiers --------------------------
-	corpora_dir = MY_CORPUS_HOME
-	models_dir = CRFModel.home_dir
-	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
+	if override_dir and override_dir != CONF['workshop']['HOME']:
+		print("Vous avez choisi un nouveau dossier de travail par défaut %s" % override_dir)
+		corpora_dir = path.join(override_dir, CONF['workshop']['CORPUS_HOME'])
+		models_dir = path.join(override_dir, CONF['workshop']['MODELS_HOME'])
+		evals_dir = path.join(override_dir, CONF['workshop']['EVALS_HOME'])
+		if not path.isdir(override_dir):
+			choix0 = input("Il n'existe pas encore. Souhaitez-vous le créer (nécessaire pour continuer)?")
+			if choix0[0] in ['Y','y','O','o']:
+				makedirs(override_dir)
+			else:
+				print('Assistant "baseline" interrompu. Vous pouvez ajuster la configuration sous %s et relancer l\'assistant.' % CONF_PATH)
+			exit(1)
+		
+		change_conf = input("Souhaitez-vous changer la configuration sous %s pour refléter ce nouveau dossier de travail ?" % CONF_PATH)
+		
+	else:
+		corpora_dir = MY_CORPUS_HOME
+		models_dir = CRFModel.home_dir
+		evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
+	
 	if not path.isdir(corpora_dir):
 		choix1 = input("""Vos paramètres de configuration ont le dossier '%s'
 comme lieu de stockage de tous les corpus... mais il n'existe pas encore (nécessaire pour continuer)).
