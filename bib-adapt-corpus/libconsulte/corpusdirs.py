@@ -54,8 +54,8 @@ class Corpus(object):
 
 	# £TODO absolument une dir extraite de s1 sous la forme read_dir
 	def __init__(self, ko_name, new_infos=None, 
-					read_dir=False, corpus_type='gold',
-						 verbose=False, new_home=None,
+					read_dir=False, 
+						verbose=False, new_home=None,
 							shelves_struct=BSHELVES):
 		"""
 		2 INPUT modes
@@ -271,6 +271,8 @@ ERROR -- Corpus(__init__ from dir):
 			self.size = 0
 		
 		# VARS 10: >> ctype << (type de corpus)
+		# (trace volontairement en dur à l'initialisation)
+		# (à réécrire si et seulement si réinstancié en corpus étendu)
 		self.ctype = corpus_type
 		touch_type = open(path.join(self.cdir,"meta","corpus_type.txt"), 'w')
 		print(self.ctype+'\n', file=touch_type)

@@ -160,7 +160,6 @@ class TrainingCorpus(Corpus):
 			# ----------------------------------------------
 			seed = Corpus(corpus_name, 
 					read_dir = expected_dir,
-					corpus_type = 'train',
 					verbose  = True,
 					new_home = MY_CORPUS_HOME,
 					shelves_struct  = UPDATED_SHELVES)
@@ -189,6 +188,13 @@ class TrainingCorpus(Corpus):
 		self.cols   = seed.cols
 		self.bnames = seed.bnames
 		self.size   = seed.size
+		
+		# par contre le type change (corpus étendu)
+		# (trace human-readable toujours en dur à l'initialisation)
+		self.ctype = 'gold+gb_train'
+		touch_type = open(path.join(self.cdir,"meta","corpus_type.txt"), 'w')
+		print(self.ctype+'\n', file=touch_type)
+		touch_type.close()
 		
 		# et voilà !
 

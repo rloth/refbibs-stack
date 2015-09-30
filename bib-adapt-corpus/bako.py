@@ -157,13 +157,7 @@ def bako_sub_args(next_sys_args=None):
 		help="requête lucene comme contrainte sur le corpus"
 	)
 	
-	# ??? souhaitable ???
-	args_mkset.add_argument(
-		'--type',
-		metavar='gold',
-		choices="gold|train",
-		help="type du corpus à créer (par défaut = gold) "
-		)
+	# NB type: écrit en dur lors de l'initialisation ou cast
 	
 	# mode "import" avec une table
 	args_mkset.add_argument(
@@ -192,8 +186,6 @@ def bako_sub_args(next_sys_args=None):
 		type=str,
 		help="nom du corpus à reprendre"
 	)
-	
-	# def make_trainers(corpus_name, model_types=None, just_rag=False):
 	
 	
 	# MAKE_TRAINERS ---- sous-commande (3) ----
