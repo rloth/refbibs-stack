@@ -17,11 +17,12 @@ TODO :
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.3"
+__version__   = "0.4"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 from os              import makedirs, path, stat, listdir, symlink, remove
+from shutil          import copy
 from re              import sub, search, match
 from configparser    import ConfigParser
 
@@ -35,12 +36,14 @@ from lxml            import etree
 # pour informer sur la date de création d'un modèle
 from time            import localtime, strftime
 
-# pour notre fichier de suivi models_situation.json
+# pour nos fichiers de suivi 
 from json            import dump, load
+# (suivi global) MODELS_HOME/models_situation.json
+# (suivi modèle) MODELS_HOME/model_name/recipy.json
 
 
 # ----------------------------------------------------------------------
-#                       [[ O U R    C O N F  ]]
+#                      [[  O U R    C O N F  ]]
 # ----------------------------------------------------------------------
 # read-in bib-adapt config values (model home dir, grobid home)
 
@@ -64,7 +67,10 @@ MY_MODELS_HOME = path.join(
 # ----------------------------------------------------------------------
 #                   [[  G R O B I D    I N F O S  ]]
 # ----------------------------------------------------------------------
-# as global constants #
+# as global constants
+# TODO mettre dans une fonction gb_get_infos()
+#      lancée juste après un run_training
+#      pour être sûr d'avoir des valeurs fraiches ?
 
 # Valeurs stables de l'installation grobid ---------------------------
 #  | GB_DIR          (exemple: "/home/jeanpaul/grobid-integration-istex")
@@ -156,6 +162,7 @@ def gb_model_dir(model_type = None):
 		tgt_path = path.join(*full_path_elts)
 	return tgt_path
 
+
 def gb_model_import(model_type, to = MY_MODELS_HOME):
 	"""
 	Imports an existing grobid model.wapiti file into a CRFModel class instance
@@ -188,13 +195,26 @@ def gb_model_import(model_type, to = MY_MODELS_HOME):
 		if not skip_import:
 			# (persistance dans un json en amont pour tous les modèles)
 			status_json = mon_modele.situation_read(models_home = to)
-			# modif
+			# modif: c'est à la fois le modèle initial et le dernier en date
 			status_json['vanilla'][model_type] = mon_modele.mid
+			status_json['last'][model_type] = mon_modele.mid
 			# écriture
 			CRFModel.situation_write(status_json, models_home = to)
 			
 			# explication: ça note qu'on a fait un nouveau modèle vanilla pour
 			#              pouvoir le restaurer (par ex. si évals un par un)
+			
+			# (persistance dans un json local pour les infos essentielles)
+			mon_modele.recipy = {
+				'model_id' : mon_modele.mid,
+				'model_type' : mon_modele.mtype,
+				'samples'   : ['INCONNUS'],
+				'gb_infos' : {'gb_dir'     : GB_DIR,
+				              'gb_version' : GB_VERSION,
+				              'gb_git_id'  : GB_GIT_ID,
+				              'import' : True}
+				}
+			mon_modele.save_recipy()
 
 
 #  petit fichier qui conservera les infos sur les jeux de modèles 
@@ -244,8 +264,9 @@ class CRFModel:
 	#             M O D E L    I N I T
 	# ------------------------------------------------------------
 
-	def __init__(self, the_model_type, existing_mid=None,
-	             the_samples=[], debug_lvl = 0):
+	def __init__(self, the_model_type, the_samples=[],
+	              existing_mid=None, existing_recipy=None,
+	               debug_lvl = 0):
 		"""
 		en création:
 		------------
@@ -256,6 +277,11 @@ class CRFModel:
 		   ----------
 		 IN: MODEL_TYPE + model_id
 		
+		ou en lecture:
+		   -----------
+		 IN: MODEL_TYPE + model_id + existing_recipy_path
+		
+		
 		OUT: Model instance with:
 			self.mid
 			--------
@@ -265,9 +291,14 @@ class CRFModel:
 			------------
 			   = corpora_names (list of strings)
 			
+			self.gb_info
+			------------
+			   =  {grobid_params} # rempli lors du run
+			
 			self.recipy
 			------------
-			   =  {train_params} # rempli lors du run
+			   =  {fields} # rempli lors du pick_n_store
+			               # sauvegardé au même moment
 			
 			self.mtype
 			----------------
@@ -291,42 +322,78 @@ class CRFModel:
 		# copie valeur telle qu'à l'initialisation
 		self._home = path.abspath(CRFModel.home_dir)
 		
-		# VAR 1: id
-		# exemple authornames-0.3.4-411696A-42
-			
-		# MODE CREATION #
-		if existing_mid == None:
-			self.model_idno += 1
-			self.mid = "-".join([
-				 the_model_type,
-				 GB_VERSION,GB_GIT_ID,
-				 '.'.join([name[0:4] for name in the_samples]),
-				 str(self.model_idno)
-				])
-		# MODE IMPORT #
-		else:
-			# £todo check espaces et accents sur existing_mid
+		
+		# MODE LECTURE : model_id et recipy.json #
+		if existing_recipy:
 			self.mid = existing_mid
+			self.load_recipy()
+			rmid = self.recipy['model_id']
+			if rmid != self.mid:
+				raise ValueError("ID mismatch recipy: %s <=> call: %s" %(rmid,self.mid))
+			if self.recipy['model_type'] in GB_MODEL_MAP:
+				self.mtype = self.recipy['model_type']
+			else:
+				raise TypeError("Unknown model_type '%s'" % self.recipy['model_type'])
+			# /!\ pas de checks
+			self.samples = self.recipy['samples']
+			self.gb_infos = self.recipy['gb_infos']
+		else:
+			# MODE CREATION #
+			# VAR 1: id
+			# exemple authornames-0.3.4-411696A-42
+			if existing_mid == None:
+				self.model_idno += 1
+				self.mid = "-".join([
+					 the_model_type,
+					 GB_VERSION,GB_GIT_ID,
+					 '.'.join([name[0:4] for name in the_samples]),
+					 str(self.model_idno)
+					])
+			# MODE IMPORT : model_id seul #
+			else:
+				# £todo check espaces et accents sur existing_mid
+				self.mid = existing_mid
 		
-		# VAR 2: model_type
-		self.mtype = the_model_type
-		
-		# VAR 3: storing_path
-		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
-		self.storing_path = path.join(self._home, self.mid)
-		
-		# VAR 4: source samples names (list of strs)
-		self.samples = the_samples
-		
-		# VAR 5: recipy
-		self.recipy = None
-		# £TODO remplir (lors du run?) avec gb_name, eps, win et self.samples
+			# VAR 2: model_type
+			self.mtype = the_model_type
+			
+			# VAR 3: storing_path
+			# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
+			self.storing_path = path.join(self._home, self.mid)
+			
+			# VAR 4: source samples names (list of strs)
+			self.samples = the_samples
+			
+			# VAR 5: gb_infos
+			# ne sera rempli que lors du run
+			self.gb_infos = None
+			
+			# VAR 6: recipy
+			# ne sera rempli que lors de pick_n_store
+			self.recipy = None
+			
+			# VAR 7: score_ceterisparibus
+			#        ("toutes_choses_egales_par_ailleurs")
+			# ne sera rempli que lors de l'évaluation
+			self.score_cp = None
 		
 		# flags de statut
-		self.ran = False
-		self.picked = False
-		self.evaluated = False
+		# remplacées par présence/absence des métas, respectivement:
+		# initialisation <=> self.mtype, self.samples, self.storing_path
+		# self.ran       <=> self.gb_infos
+		# self.picked    <=> self.recipy + écriture des logs
+		# self.evaluated <=> TODO self.score_cp
 	
+	# -----------------------------------------------------------
+	#     C L A S S M E T H O D    M O D E L    R E A D E R
+	# -----------------------------------------------------------
+	@classmethod
+	def take_from_store(cls, model_name, models_home=MY_MODELS_HOME):
+		"""
+		Reads model parameters from the model store
+		and initializes a CRFModel object
+		"""
+		model_obj = cls(existing_mid = model_name)
 	
 	
 	# -----------------------------------------------------------
@@ -508,8 +575,6 @@ class CRFModel:
 			  cwd=work_dir
 		)
 		
-		self.ran = True
-		
 		crflog_lines = []
 		
 		for line in mon_process.stderr:
@@ -520,6 +585,17 @@ class CRFModel:
 		
 		# on remet la locale comme avant
 		setlocale(LC_NUMERIC, lc_numeric_backup)
+		
+		
+		# self.ran = True
+		# >> Le moment est venu de remplir self.infos <<
+		# temporairement à partir des variables globales
+		# £TODO mettre dans une fonction gb_get_infos()
+		self.gb_infos = {
+			'gb_dir'     : GB_DIR,
+			'gb_version' : GB_VERSION,
+			'gb_git_id'  : GB_GIT_ID
+			}
 		
 		# => le modèle est à l'endroit habituel (cf. gb_model_dir())
 		# => on ne renvoie donc que les logs         ----------------
@@ -581,8 +657,20 @@ class CRFModel:
 			if debug_lvl >= 1:
 				print("Wrote log %s" % log.name)
 		
-		# pour l'instant inutilisé ?
-		self.picked = True
+		
+		# self.picked = True
+		# >> Le moment est venu de remplir self.recipy <<
+		
+		# self.recipy est une meta qui sauvegarde: 
+		#  - tout ce qu'il faut pour initialiser sauf storing_path
+		#  - toutes infos complémentaires éventuelles
+		self.recipy = {
+			'model_id' : self.mid,
+			'model_type' : self.mtype,
+			'samples'   : self.samples,
+			'gb_infos' : self.gb_infos
+			}
+		self.save_recipy()
 		
 		# the stored location
 		return new_model_dir
@@ -641,6 +729,9 @@ class CRFModel:
 			json_status = CRFModel.situation_read(models_home = self._home)
 			json_status['last'][self.mtype] = self.name
 			CRFModel.situation_write(json_status, models_home = self._home)
+			
+			# enregistrement aussi au niveau de grobid
+			self.gb_register_model_in_config()
 		
 		
 	# ------------------------------------------------------
@@ -648,7 +739,29 @@ class CRFModel:
 	# ------------------------------------------------------
 	#     actuellement tout est dans bako.eval_model()
 	# ------------------------------------------------------
-
+	
+	
+	# ------------------------------------------------------
+	#           M E T A D A T A    P I C K L E
+	# ------------------------------------------------------
+	def save_recipy(self):
+		"""
+		Persistence for recipy (write all the object init/run details)
+		"""
+		recipy_path = path.join(self.storing_path,'recipy.json')
+		recipy_file = open(recipy_path,'w')
+		dump(self.recipy, recipy_file)     # json.dump
+		recipy_file.close()
+	
+	def load_recipy(self):
+		"""
+		Persistence for recipy (used to read back the object)
+		"""
+		recipy_path = path.join(self.storing_path,'recipy.json')
+		recipy_file = open(recipy_path,'r')
+		# /!\ no checks /!\ £TODO
+		self.recipy = load(self.recipy, recipy_file)     # json.load
+		recipy_file.close()
 
 
 
