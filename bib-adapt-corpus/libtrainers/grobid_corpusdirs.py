@@ -5,11 +5,9 @@ Grobid-specific corpus management
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.1"
+__version__   = "0.2"
 __email__     = "romain.loth@inist.fr"
-__status__    = "Dev"
-
-# TODOSPLIT update_triggers
+__status__    = "Test"
 
 from glob            import glob
 from os              import mkdir, path
@@ -22,19 +20,21 @@ from configparser    import ConfigParser
 import libtrainers.ragreage
 from libconsulte.corpusdirs import Corpus, BSHELVES
 
-
 # ----------------------------------------------------------------------
 # read-in bib-adapt config values (workshop dirs, api conf, grobid home)
-CONF = ConfigParser()
+BAKO_CONF = ConfigParser()
 
 # default location: ../local_conf.ini (relative to this module)
 script_dir = path.dirname(path.realpath(__file__))
-conf_path = path.join(script_dir, '..', 'local_conf.ini')
+conf_path = path.join(script_dir, '..', 'bako_config.ini')
 conf_file = open(conf_path, 'r')
-CONF.read_file(conf_file)
+BAKO_CONF.read_file(conf_file)
 conf_file.close()
 
-MY_CORPUS_HOME = path.join(CONF['workshop']['HOME'],CONF['workshop']['CORPUS_HOME'])
+MY_CORPUS_HOME = path.join(
+	BAKO_CONF['workshop']['HOME'],
+	BAKO_CONF['workshop']['CORPUS_HOME']
+)
 
 # ----------------------------------------------------------------------
 # Globals
@@ -89,7 +89,7 @@ UPDATED_SHELVES.update(GBTRAIN_UPDATED_SHELVES)
 
 
 # PREP_TEI_FROM_TXT
-# grobid_create_training implique naturellement un traitement commun
+# create_raw_streams implique naturellement un traitement commun
 # mais les accès ensuite et l'usage des documents seront distincts..
 PREP_TEI_FROM_TXT = {
 'bibzone': {'from': 'BZRTX', 'to': 'BZTEI',
@@ -129,13 +129,19 @@ PREP_TEI_FROM_TXT = {
 # ---------------------------------------------------------------------
 class TrainingCorpus(Corpus):
 	"""
-	Un corpus dir avec 
+	Un objet corpusdir.Corpus avec en plus: 
 	
-	des étagères mises à jour : fulltexts d'entraînement en plus
+	(1) 10 nouvelles étagères : 
+	   - qui contiendront les rawtexts, rawtokens et teis d'entraînement
+	   - et qui sont ajoutées dans triggers.json à l'initialisation
+	   - les instances embarquent la structure d'étagères étendue 
+	     (aka UPDATED_SHELVES) 
 	
-	et quelques fonctions en plus pour bako.make_trainers
-	  flux txt et tok              ---> grobid_create_training
-	  flux tei + 'bonnes réponses' ---> construct_training_tei
+	(2) quelques fonctions en plus pour générer tout ça
+	   - flux txt et tokens           ---> create_raw_streams
+	   - flux tei + 'bonnes réponses' ---> construct_training_tei
+	   
+	     (ces fonctions seront utilisées dans bako.make_trainers())
 	"""
 	
 	def __init__(self, corpus_name):
@@ -186,7 +192,7 @@ class TrainingCorpus(Corpus):
 
 	# TRAINING RAWTXT central
 	# todo skip if (wiley or nature) and (bibfields ou authornames)
-	def grobid_create_training(self, tgt_model):
+	def create_raw_streams(self, tgt_model):
 			"""
 			Appel de grobid createTraining (pour les rawtoks et les rawtxts)
 			
@@ -205,9 +211,9 @@ class TrainingCorpus(Corpus):
 					  'sh_mktxt': pointe une étagère permettant de refaire le texte
 								si sh_tgt ne peut créer directement le ..RTX
 							
-			NB: ici seule utilisation de PREP_TEI_FROM_TXT /?\
+			NB: PREP_TEI_FROM_TXT utilisé ici et par bako.make_trainers()
 			"""
-			gb_d = CONF['grobid']['GROBID_DIR']
+			gb_d = BAKO_CONF['grobid']['GROBID_DIR']
 			gb_h = path.join(gb_d,'grobid-home')
 			gb_p = path.join(gb_h,'grobid-home','config','grobid.properties')
 			

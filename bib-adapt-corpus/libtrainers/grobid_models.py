@@ -2,8 +2,7 @@
 """
 Simple CRF model fs management
 
-TODO : 
-  - model.backup_from_gb() => reprise depuis grobid courant, store sous nos models et lien là-bas 
+TODO :
   - model.restore_vanilla => dans grobid courant sous home/models + dans properties
   - model.push_to_gb() => dans grobid courant sous home/models + dans properties
   - mécanisme install_prod  => .push_to_gb
@@ -12,6 +11,7 @@ TODO :
 
  Rappel :
  compilation rapide grobid
+   cd GB_DIR/grobid-trainer
    mvn --offline -Dmaven.test.skip=true clean compile install
 """
 __author__    = "Romain Loth"
@@ -22,14 +22,13 @@ __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
 from os              import makedirs, path, stat, listdir, symlink
-from shutil          import copy, copytree
+from shutil          import copy
 from re              import sub, search
-from sys             import stderr
 from configparser    import ConfigParser
 
 # pour l'appel de grobid en training
 from subprocess      import check_output, PIPE, Popen
-from locale  import getlocale, setlocale, LC_TIME, LC_NUMERIC
+from locale  import getlocale, setlocale, LC_NUMERIC
 
 # pour lire la version grobid
 from lxml            import etree
@@ -46,13 +45,13 @@ from time            import localtime, strftime
 # NB la conf n'est essentielle *que* pour CRFModel.home_dir
 #    (tout le reste pourrait être passé come arg)
 
-CONF = ConfigParser()
+BAKO_CONF = ConfigParser()
 
 # default location: ./global_conf.ini (relative to corpus.py)
 script_dir = path.dirname(path.realpath(__file__))
-conf_path = path.join(script_dir, '..', 'local_conf.ini')
+conf_path = path.join(script_dir, '..', 'bako_config.ini')
 conf_file = open(conf_path, 'r')
-CONF.read_file(conf_file)
+BAKO_CONF.read_file(conf_file)
 conf_file.close()
 
 # ----------------------------------------------------------------------
@@ -67,11 +66,11 @@ conf_file.close()
 #  | GB_GIT_ID        (exemple: "4116965" ou "no_git")
 # (pour rangement/suivi des modèles entraînés avec)
 
-GB_DIR = CONF['grobid']['GROBID_DIR']
+GB_DIR = BAKO_CONF['grobid']['GROBID_DIR']
 
 GB_RAW_VERSION = ""
 try:
-	gb_pom = [CONF['grobid']['GROBID_DIR'],'grobid-trainer','pom.xml']
+	gb_pom = [BAKO_CONF['grobid']['GROBID_DIR'],'grobid-trainer','pom.xml']
 	# print("CHEMIN POM de GB",path.join(*gb_pom))
 	pom_xml = etree.parse(path.join(*gb_pom))
 	version_elt = pom_xml.xpath('/*[local-name()="project"]/*[local-name()="version"]')[0]
@@ -86,6 +85,8 @@ try:
 except Exception as e:
 	GB_GIT_ID = 'no_git'
 
+# associe les noms de dossiers (gbpath) 
+# aux commandes grobid-trainer (gbcmd)
 GB_MODEL_MAP = {
 			'bibzone' : { 
 				'gbpath': 'segmentation',
@@ -118,10 +119,10 @@ gb_prop_file.close()
 
 def gb_model_dir(model_type = None):
 	"""
-	Expected dir of the active model.wapiti for model_type 
+	Expected dir of the active model.wapiti file for model_type 
 	(full path into the integration-grobid folders)
 	"""
-	base_path_elts = [CONF['grobid']['GROBID_DIR'],'grobid-home','models']
+	base_path_elts = [BAKO_CONF['grobid']['GROBID_DIR'],'grobid-home','models']
 	tgt_path = None
 	
 	if model_type is None:
@@ -133,7 +134,11 @@ def gb_model_dir(model_type = None):
 		tgt_path = path.join(*full_path_elts)
 	return tgt_path
 
+
 def gb_model_import(model_type, to = None):
+	"""
+	Imports an existing grobid model.wapiti file into a CRFModel class instance
+	"""
 	if model_type is None:
 		raise ArgumentError("No model_type specified for gb_model_import : bibzone, biblines, etc ?")
 	elif to is None:
@@ -180,7 +185,7 @@ class CRFModel:
 	 -self.storing_path
 	"""
 	
-	home_dir = path.join(CONF['workshop']['HOME'],CONF['workshop']['MODELS_HOME'])
+	home_dir = path.join(BAKO_CONF['workshop']['HOME'],BAKO_CONF['workshop']['MODELS_HOME'])
 	
 	# pour compter les instances => model ID
 	
@@ -207,7 +212,7 @@ class CRFModel:
 		en création:
 		------------
 		 IN: MODEL_TYPE + SAMPLE(S) + grobid infos
-		    si samples = None => vanilla
+		    si samples = None => vanilla (= modèle baseline pré-existant)
 		
 		ou en import:
 		   ----------
@@ -284,7 +289,7 @@ class CRFModel:
 	# ------------------------------------------------------
 	def gb_mdltype_long(self):
 		"""
-		Returns the grobid long name of a model (str)
+		Returns the grobid subdir of a model (str)
 		exemple:
 		  "segmentation"
 		"""
@@ -299,14 +304,14 @@ class CRFModel:
 		"""
 		ICI Appel training principal
 		!!! Ne vérifie pas que les fichiers src sont au bon endroit !!!
-		!!! Les TEI doivent être au moins non-vides !!!
+		!!! Les TEI doivent être au moins non-vides et valides !!!
 		"""
 		
 		# exemple: "train_name_citation"
 		model_cmd = GB_MODEL_MAP[self.mtype]['gbcmd']
 		
 		# on travaillera directement là-bas
-		work_dir = path.join(CONF['grobid']['GROBID_DIR'],"grobid-trainer")
+		work_dir = path.join(BAKO_CONF['grobid']['GROBID_DIR'],"grobid-trainer")
 		
 		# !!! locale = C !!!
 		lc_numeric_backup = getlocale(LC_NUMERIC)
@@ -351,7 +356,7 @@ class CRFModel:
 	
 	def pick_n_store(self, logs=[], debug_lvl = 1):
 		"""
-		Recovers the new model from its standard grobid location and its logs
+		Recovers a new model from its standard grobid location and its logs
 		+ stores it in the structured models home_dir with ID and creation info.
 		"""
 		# WHERE DO WE PICK FROM ?
@@ -364,7 +369,7 @@ class CRFModel:
 			statinfo = stat(the_path)
 			MB_size = statinfo.st_size/1048576
 			ctime = strftime("%Y-%m-%d %H:%M:%S", localtime(statinfo.st_ctime))
-			print("Modèle trouvé:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime), file=stderr)
+			print("Modèle trouvé:\n  %s\n  (%.1f MB) (created %s)" % (the_path, MB_size, ctime))
 		
 		# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
 		new_base_dir = self.storing_path
@@ -422,6 +427,7 @@ class Logfile():
 		self.lines = loglines
 	
 	def print_to_file(self, fpath):
+		"Le path est à fabriquer soi-même (à partir de self.name)"
 		lfile = open(fpath,'w')
 		lfile.write('\n'.join(self.lines))
 		lfile.close()

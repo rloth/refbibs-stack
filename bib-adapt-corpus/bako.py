@@ -16,7 +16,7 @@ TODO : éval de plusieurs modèles => eval_id
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.4"
+__version__   = "0.5"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -38,13 +38,17 @@ from libconsulte import sampler
 from libconsulte.corpusdirs import Corpus, BSHELVES
 
 # CRFModel => mid, recipy, storing_path
-from libtrainers.grobid_corpusdirs import TrainingCorpus
+from libtrainers.grobid_corpusdirs import TrainingCorpus, PREP_TEI_FROM_TXT
 from libtrainers.grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import, GB_MODEL_MAP
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
+# v 0.5 : dépend dorénavant de l'installation bako
+#         (=> devient *indépendant* des dossiers de travail 
+#             sur les contenus: corpus, modèles, évals)
+script_dir = path.dirname(path.realpath(__file__))
 CONF = ConfigParser()
-conf_path = 'local_conf.ini'
+conf_path = path.join(script_dir, 'bako_config.ini')
 conf_file = open(conf_path, 'r')
 CONF.read_file(conf_file)
 conf_file.close()
@@ -394,10 +398,10 @@ def make_set(corpus_name,
 			constraint = "qualityIndicators.refBibsNative:true AND NOT(corpusName:bmj)"
 		if isinstance(size, int):
 			my_tab, my_log = sampler.full_run(
-									['-n', str(size), 
-									 '--outmode', 'tab', 
-									 '--with', constraint]
-								)
+					['-n', str(size), 
+					 '--outmode', 'tab', 
+					 '--with', constraint]
+				)
 		else:
 			print("ERR bako.make_set: 'size' doit être un entier'%s'" 
 			       % from_table, file=stderr)
@@ -418,28 +422,32 @@ def make_set(corpus_name,
 	ids = cobj.cols['istex_id']
 	
 	for the_shelf in ['PDF0', 'XMLN']:
-		the_api_type = BSHELVES[the_shelf]['api']
-		the_ext      = BSHELVES[the_shelf]['ext']
-		tgt_dir = cobj.shelf_path(the_shelf)
+		the_api_type = cobj.origin(the_shelf)
+		the_ext      = cobj.filext(the_shelf)
+		tgt_dir      = cobj.shelf_path(the_shelf)
 		
 		print("mkdir -p: %s" % tgt_dir,file=stderr)
 		makedirs(tgt_dir)
 	
 		for (i, ID) in enumerate(ids):
+			new_name_i = cobj.bnames[i]
 			api.write_fulltexts(
 				ID,
 				api_conf  = CONF['istex-api'],
-				tgt_dir   = cobj.shelf_path(the_shelf),
-				base_name = cobj.bnames[i],
+				tgt_dir   = tgt_dir,
+				base_name = new_name_i,
 				api_types = [the_api_type]
 				)
-			print("GETDOC: %s" % cobj.bnames[i]+the_ext,
+			print("GETDOC: %s" % new_name_i+the_ext,
 			  file=stderr)
+		
+		# NB: il doit y avoir la même extension dans cobj.filext(the_shelf) que chez l'API
+		#  ou alors api.write_fulltexts doit autoriser à changer (renommer) les extensions
 	
 	cobj.assert_docs('PDF0')
 	cobj.assert_docs('XMLN')
 	
-	# persistence du statut des 2 dossiers créés
+	# persistance du statut des 2 dossiers créés
 	cobj.save_shelves_status()
 
 	
@@ -493,11 +501,11 @@ def take_set(corpus_name,
 
 
 PREP_TEI_FROM_TXT = {
-					'bibzone' : {'from': 'BZRTX', 'to': 'BZTEI'},
-					'biblines' : {'from': 'BLRTX', 'to': 'BLTEI'},
-					'bibfields' : {'from': 'BFRTX', 'to': 'BFTEI'},
-					'authornames' : {'from': 'AURTX', 'to': 'AUTEI'},
-					}
+	'bibzone' : {'from': 'BZRTX', 'to': 'BZTEI'},
+	'biblines' : {'from': 'BLRTX', 'to': 'BLTEI'},
+	'bibfields' : {'from': 'BFRTX', 'to': 'BFTEI'},
+	'authornames' : {'from': 'AURTX', 'to': 'AUTEI'},
+	}
 
 def make_trainers(corpus_name, model_types=None, debug=0):
 	"""
@@ -532,7 +540,7 @@ def make_trainers(corpus_name, model_types=None, debug=0):
 		
 		if src_shelf not in gcobj.got_shelves():
 			# raws ++++
-			gcobj.grobid_create_training(tgt_model)
+			gcobj.create_raw_streams(tgt_model)
 		
 		else:
 			print("<= %s (reprise précédemment créés" % src_shelf_name)
@@ -728,6 +736,9 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 	
 	print("---( corpus %s : étagère %s )---" % (cobj.name, src_shelf), file=stderr)
 	
+	# ex: ".tei.xml"
+	src_ext = cobj.filext(src_shelf)
+	
 	# boucle par fichier à lier
 	for filename in cobj.bnames:
 		# ---
@@ -756,7 +767,7 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 			else:
 				tgt = path.join(
 					tgt_dataset_dir,
-					cobj.filext(filename, src_shelf)
+					filename+src_ext
 					)
 				symlink(src, tgt)
 				linked_docs += 1

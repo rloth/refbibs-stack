@@ -290,18 +290,27 @@ ERROR -- Corpus(__init__ from dir):
 		else:
 			return None
 	
-	def filext(self, the_bname, the_shelf, 
-				shext=None):
+	def filext(self, the_shelf):
 		"""
-		basename + shelf extension
-		£TODO : à mettre partout là où l'on a fait bname + shext à la main
+		File extension for this shelf
 		"""
 		# file extension
-		if not shext:
-			shext = self._shtruct[the_shelf]['ext']
-		
-		# relative file id
-		return the_bname+shext
+		return self._shtruct[the_shelf]['ext']
+	
+	
+	def origin(self, the_shelf):
+		"""
+		If exists, theoretical api route origin
+		or processor command origin
+		for this shelf's contents
+		"""
+		# api_route
+		if 'api' in self._shtruct[the_shelf]:
+			return self._shtruct[the_shelf]['api']
+		elif 'cmd' in self._shtruct[the_shelf]:
+			return self._shtruct[the_shelf]['cmd']
+		else:
+			return None
 	
 	def fileid(self, the_bname, the_shelf, 
 				shext=None, shpath=None):
