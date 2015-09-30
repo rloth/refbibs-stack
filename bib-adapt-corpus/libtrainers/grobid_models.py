@@ -4,7 +4,6 @@ Simple CRF model fs management
 
 TODO :
   - model.restore_vanilla => dans grobid courant sous home/models + dans properties
-  - model.push_to_gb() => dans grobid courant sous home/models + dans properties
   - mécanisme install_prod  => .push_to_gb
                             => git branch
                             => git commit & push
@@ -477,7 +476,7 @@ class CRFModel:
 		exemple:
 		  "seg"
 		"""
-		return gb_model_map[self.mtype]['gbpath']
+		return gb_model_map[self.mtype]['short']
 	
 	
 	def gb_register_model_in_config(self, gb_prop_path = GB_PROP_PATH):
@@ -503,7 +502,7 @@ class CRFModel:
 		model_short_name = self.gb_mdltype_short()
 		
 		# ex: models.refseg=biblines-GB_0.3.4-git_4116965-bidu-479
-		property_to_add = 'models.'+model_short_name+'='+self.mid
+		new_property_line = 'models.'+model_short_name+'='+self.mid+"\n"
 		
 		# exemple: '^models\.refseg *= *([^ ]+) *$'
 		re_to_match = r'^models\.' + model_short_name + r' *= *([^ ]+) *$'
@@ -522,8 +521,8 @@ class CRFModel:
 				n_found += 1
 				previous_model_name = found.groups()[0]
 				# replace
-				changed_line = sub(found.string, property_to_add)
-				print("MODELS: %s registered in grobid.properties (by replacing previous:'%s')" % (self.name, previous_model_name))
+				changed_line = new_property_line
+				print("MODELS: %s registered in grobid.properties (by replacing previous:'%s')" % (self.mid, previous_model_name))
 				modified_lines.append(changed_line)
 			else:
 				modified_lines.append(line)
@@ -535,11 +534,11 @@ class CRFModel:
 			# on ajoute simplement une ligne à la fin
 			# (il n'y avait rien de mentionné auparavant, 
 			#   mais à présent ce sera le cas)
-			modified_lines.append(property_to_add)
+			modified_lines.append(new_property_line)
 		
 		# écriture
 		gb_prop_file = open(gb_prop_path, 'w')
-		gb_prop_file.write("\n".join(modified_lines)+"\n")
+		gb_prop_file.write(''.join(modified_lines))
 		gb_prop_file.close()
 
 	
