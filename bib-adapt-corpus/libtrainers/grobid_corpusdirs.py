@@ -179,6 +179,9 @@ class TrainingCorpus(Corpus):
 		self._home    = seed._home
 		self._shtruct = seed._shtruct
 		
+		# persistance de la table _shtruct (= shelves_struct)
+		self.save_shelves_map()
+		
 		self.name   = seed.name
 		self.cdir   = seed.cdir
 		self.shelfs = seed.shelfs

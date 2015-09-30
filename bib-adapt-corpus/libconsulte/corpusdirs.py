@@ -96,11 +96,36 @@ class Corpus(object):
 		self._home = path.abspath(new_home)
 		
 		# VAR 2: **shtruct** our absolute container address ----------
-		# (structure
-		self._shtruct = shelves_struct
-		# todo load/dump depuis json 
-		# + signalement si dépasse de la structure basique (objet fille)
+		# (structure <=> map)
 		
+		# si lecture: reprise table persistante (comme pour triggers plus loin)
+		if read_dir:
+			map_path = path.join(self.cdir,'meta','shelves_map.json')
+			# initialize struct from meta shelves_map.json
+			# 'shelves_map.json' <=> structure for each possible shelf of this instance
+			shmap = open(map_path,'r')
+			self._shtruct = load(shmap)     # json.load
+			shmap.close()
+			
+			if verbose and (self._shtruct.keys() != BSHELVES.keys()):
+				# signalement si corpus étendu 
+				# => dépasse de la structure basique
+				# (sans doute objet fille de Corpus)
+				print("READCORPUS: corpus étendu /!\\")
+				xtra_shelves = [mapdsh for mapdsh in self._shtruct if mapdsh not in BSHELVES]
+				print(" => %i étagères supplémentaires:\n  %s" % (
+						len(xtra_shelves),
+						','.join(xtra_shelves)
+						)
+					)
+		
+		# si init nouveau: la table a dû être fournie à l'initialisation
+		else:
+			self._shtruct = shelves_struct
+			
+			# statique sauf si init objet fille
+			save_shelves_map()
+		 
 		
 		# VAR 3: >> name << should be usable in a fs and without accents (for saxonb-xslt)
 		if type(ko_name) == str and match(r'[_0-9A-Za-z-]+', ko_name):
@@ -255,22 +280,13 @@ ERROR -- Corpus(__init__ from dir):
 		if verbose:
 			print("\n.shelfs:")
 			triggers_dirs = []
-			additional_shelfs = []
 			for shelf, bol in self.shelfs.items():
 				on_off = ' ON' if bol else 'off'
-				if shelf in self._shtruct:
-					ppdir = self._shtruct[shelf]['d']
-					triggers_dirs.append([ppdir,on_off])
-				else:
-					additional_shelfs.append(shelf)
+				ppdir = self._shtruct[shelf]['d']
 			for td in sorted(triggers_dirs):
 				print("  > %-3s  --- %s" % (td[1], td[0]))
-			print(" et %i étagères supplémentaires inconnues:\n  %s" % (
-					len(additional_shelfs),
-					','.join(additional_shelfs)
-					)
-				)
-			print("\n===( SIZE: %i docs )===\n" % self.size)
+		
+		print("\n===( CORPUS SIZE: %i docs )===\n" % self.size)
 
 	# ------------------------------------------------------------
 	#             C O R P U S    A C C E S S O R S
@@ -374,7 +390,7 @@ ERROR -- Corpus(__init__ from dir):
 	
 	def save_shelves_status(self):
 		"""
-		Persistance for asserted shelves
+		Persistence for asserted shelves
 		"""
 		trig_path = path.join(self.cdir,'meta','shelf_triggers.json')
 		triggrs = open(trig_path,'w')
@@ -383,8 +399,14 @@ ERROR -- Corpus(__init__ from dir):
 	
 	def save_shelves_map(self):
 		"""
-		TODO remplace le précédent et contient la shtructure en plus
+		Persistence for possible shelves and their structural info.
 		"""
+		map_path = path.join(self.cdir,'meta','shelves_map.json')
+		# write shtruct to meta/shelves_map.json
+		shmap = open(map_path,'w')
+		dump(self._shtruct, shmap)      # json.dump
+		shmap.close()
+			
 	
 	
 	def got_shelves(self):

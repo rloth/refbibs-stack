@@ -480,7 +480,7 @@ def take_set(corpus_name,
 	Appel: on fournit le nom d'un corpus déjà sous CORPUS_HOME
 	"""
 	
-	# todo lecture shelf_map au lieu de shelf_triggers => corpus type
+	# todo si signale corpus étendu => cast en TrainingCorpus
 	
 	expected_dir = path.join(MY_CORPUS_HOME, corpus_name)
 	
