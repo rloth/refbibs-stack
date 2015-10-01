@@ -32,7 +32,6 @@ __status__    = "Dev"
 
 # imports standard
 from sys       import argv, stderr
-from getpass   import getpass
 from re        import sub, search, escape
 from random    import shuffle
 from itertools import product
@@ -748,58 +747,17 @@ def full_run(arglist=None):
 		my_dir = path.join(getcwd(),my_name)
 		mkdir(my_dir)
 		
+		# two "parallel" lists
 		ids = list(got_ids_idx.keys())
+		basenames = [std_filename(one_id, got_ids_idx[one_id]) for one_id in ids]
 		
-		# test sur le premier fichier: authentification nécessaire ?
-		need_auth = False
-		try:
-			bname = std_filename(ids[0], got_ids_idx[ids[0]])
-			api.write_fulltexts(ids[0], tgt_dir=my_dir, 
-										base_name=bname,
-										api_types=['metadata/xml',
-										           'fulltext/pdf']
-										)
-			print("retrieving PDF and XML-N for doc no 1")
-		except api.AuthWarning as e:
-			print("NB: le système veut une authentification SVP...",
-					file=stderr)
-			need_auth = True
-		
-		# récupération avec ou sans authentification
-		if need_auth:
-			my_login = input(' => Nom d\'utilisateur "ia": ')
-			my_passw = getpass(prompt=' => Mot de passe: ')
-			for i, did in enumerate(ids):
-				my_bname = std_filename(did, got_ids_idx[did])
-				#          got_ids_idx[did].to_filename()    <-- todo from STD_MAP
-				print("retrieving PDF and XML-N for doc no " + str(i+1))
-				try:
-					api.write_fulltexts(did,
-										tgt_dir=my_dir,
-										login=my_login,
-										passw=my_passw,
-										base_name = my_bname,
-										api_types=['metadata/xml',
-										           'fulltext/pdf']
-										)
-				except api.AuthWarning as e:
-					print("authentification refusée :(")
-					my_login = input(' => Nom d\'utilisateur "ia": ')
-					my_passw = getpass(prompt=' => Mot de passe: ')
-		
-		else:
-			for i, did in enumerate(ids):
-				# on ne refait pas le 1er car il a marché
-				if i == 0:
-					continue
-				my_bname = std_filename(did, got_ids_idx[did])
-				print("retrieving PDF and XML-N for doc no " + str(i+1))
-				api.write_fulltexts(did,
-									tgt_dir=my_dir,
-									base_name=my_bname,
-									api_types=['metadata/xml',
-									           'fulltext/pdf']
-									)
+		# loop with interactive authentification prompt if needed
+		api.write_fulltexts_loop_interact(
+			ids, basenames,
+			tgt_dir=my_dir,
+			api_types=['metadata/xml',
+					   'fulltext/pdf']
+		)
 		
 		LOG.append("SAVE: saved docs in %s/" % my_dir)
 	

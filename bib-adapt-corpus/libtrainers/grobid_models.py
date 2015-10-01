@@ -214,12 +214,33 @@ def gb_model_import(model_type, to = MY_MODELS_HOME):
 				              'import' : True}
 				}
 			mon_modele.save_recipy()
+			# recipy =  petit fichier qui conservera les infos sur les jeux de modèles 
+				#  - les modèles initiaux (vanilla_bibzone, vanilla_biblines, ...)
+				#  - les modèles courants (last_bibzone, last_biblines, ...)
+				#  - les meilleurs modèles (best_bibzone, best_biblines, ...)
 
 
-#  petit fichier qui conservera les infos sur les jeux de modèles 
-	#  - les modèles initiaux (vanilla_bibzone, vanilla_biblines, ...)
-	#  - les modèles courants (last_bibzone, last_biblines, ...)
-	#  - les meilleurs modèles (best_bibzone, best_biblines, ...)
+def gb_vanilla_restore(model_type):
+	"""
+	Restores the pre-existing grobid model.wapiti from the store into grobid
+	but as a symlink !
+	"""
+	if model_type is None:
+		raise ArgumentError("No model_type specified for gb_model_import : bibzone, biblines, etc ?")
+	elif model_type not in GB_MODEL_MAP:
+		raise KeyError("Unknown model type %s" % model_type)
+	else:
+		# ok the model_type seems kosher!
+		
+		# a - read "situation report" to know vanilla ID
+		status_info = CRFModel.situation_read()
+		model_id_to_restore = status_info['vanilla'][model_type]
+		
+		# b - read vanilla object
+		model_object = CRFModel(model_type, existing_mid=model_id_to_restore)
+		
+		# c - restore
+		model_object.push_to_gb()
 
 # ----------------------------------------------------------------------
 #                   [[  M O D E L    S T O R E  ]]
@@ -322,6 +343,8 @@ class CRFModel:
 		self._home = path.abspath(CRFModel.home_dir)
 		
 		
+		# £TODO permettre pas de model_type en mode lecture
+		
 		# MODE LECTURE : model_id et recipy.json #
 		if existing_recipy:
 			self.mid = existing_mid
@@ -417,6 +440,7 @@ class CRFModel:
 		empty_report = {
 		'vanilla' : {'bibzone':  None, 'biblines':   None,
 		             'bibfields':None, 'authornames':None},
+		 # ? possible: supprimer last ou remplacer par current
 		'last' :    {'bibzone':  None, 'biblines':   None,
 		             'bibfields':None, 'authornames':None},
 		'best' :    {'bibzone':  None, 'biblines':   None,

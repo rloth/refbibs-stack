@@ -39,7 +39,7 @@ from libconsulte.corpusdirs import Corpus, BSHELVES
 
 # CRFModel => mid, recipy, storing_path
 from libtrainers.grobid_corpusdirs import TrainingCorpus, PREP_TEI_FROM_TXT
-from libtrainers.grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import, GB_MODEL_MAP
+from libtrainers.grobid_models import CRFModel, GB_RAW_VERSION, gb_model_import, GB_MODEL_MAP, gb_vanilla_restore
 
 # ----------------------------------------------------------------------
 # lecture de fichier config local
@@ -399,7 +399,7 @@ def make_set(corpus_name,
 			size = 10
 		
 		if not constraint:
-			constraint = "qualityIndicators.refBibsNative:true AND NOT(corpusName:bmj)"
+			constraint = "qualityIndicators.refBibsNative:true AND NOT(corpusName:bmj) AND NOT(corpusName:eebo)"
 		if isinstance(size, int):
 			my_tab, my_log = sampler.full_run(
 					['-n', str(size), 
@@ -426,7 +426,8 @@ def make_set(corpus_name,
 	
 	# (3/4) téléchargement des fulltexts ---------------------------------
 	
-	ids = cobj.cols['istex_id']
+	my_ids = cobj.cols['istex_id']
+	my_basenames = cobj.bnames
 	
 	for the_shelf in ['PDF0', 'XMLN']:
 		the_api_type = cobj.origin(the_shelf)
@@ -435,18 +436,16 @@ def make_set(corpus_name,
 		
 		print("mkdir -p: %s" % tgt_dir,file=stderr)
 		makedirs(tgt_dir)
-	
-		for (i, ID) in enumerate(ids):
-			new_name_i = cobj.bnames[i]
-			api.write_fulltexts(
-				ID,
-				api_conf  = CONF['istex-api'],
-				tgt_dir   = tgt_dir,
-				base_name = new_name_i,
-				api_types = [the_api_type]
-				)
-			print("GETDOC: %s" % new_name_i+the_ext,
-			  file=stderr)
+		
+		api.write_fulltexts_loop_interact(
+			my_ids, my_basenames,
+			api_conf  = CONF['istex-api'],
+			tgt_dir   = tgt_dir,
+			api_types = [the_api_type]
+			)
+		print("MAKE_SET: saved docs into CORPUS_HOME:%s" % cobj.name)
+		if debug > 0:
+			print("  (=> target dir:%s)" % tgt_dir)
 		
 		# NB: il doit y avoir la même extension dans cobj.filext(the_shelf) que chez l'API
 		#  ou alors api.write_fulltexts doit autoriser à changer (renommer) les extensions
@@ -795,13 +794,13 @@ def activate_model(model_name=None, debug=0):
 	
 
 
-def eval_model(model_name=None, eval_set=None, 
+def eval_model(model_names=None, eval_set=None, 
                save_tab=True, do_graphs=False, debug = 0):
 	"""
 	Stats et eval proprement dites
 	1 - balisage initial d'un sample GOLD
 	2 - lancement indirect de eval_xml_refbibs.pl
-	(si pas de model_name, on évalue le dernier modèle)
+	(si pas de model_names, on évalue le dernier modèle)
 	"""
 	
 	# (1) récupération du corpus ---------------------------
@@ -812,25 +811,35 @@ def eval_model(model_name=None, eval_set=None,
 	
 	# (2) préparer eval_id et activer le ou les modèles ----
 	
+	# suivi local
+	changed_models = {
+		'bibzone':None,
+		'biblines':None,
+		'bibfields':None,
+		'authornames':None
+		}
+	
 	# cas où l'on évalue les modèles courants
 	# dont initialement vanilla: modèles pré-existants
-	if model_name is None:
+	if model_names is None:
 		# use case courant: une eval vanilla qui est fréquente
 		#                   pour "calibrer" les attentes
 		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
 		
-		
-		# juste modèles courants
+		# juste modèles courants (= vanilla)
 		mon_eval_id = 'vanilla-'+eval_corpus.name
 		
-	# cas avec un modèle donné
+	# cas avec un ou des modèle(s) donné(s)
 	else:
-		model_type = search(r'^([^-]+)-', model_name).groups()[0]
-		model_object = CRFModel(model_type, existing_mid=model_name)
-		model_object.push_to_gb(debug_lvl=debug)
-		
-		mon_eval_id = model_name+"-"+eval_corpus.name
-	
+		mon_eval_id = eval_corpus.name+"-"+("_".join(model_names))
+		for model_name in model_names:
+			# £TODO à remplacer avec un changement dans l'init de CRFModel()
+			model_type = search(r'^([^-]+)-', model_name).groups()[0]
+			model_object = CRFModel(model_type, existing_mid=model_name)
+			model_object.push_to_gb(debug_lvl=debug)
+			
+			# suivi
+			changed_models[model_object.mtype] = True
 	
 	# (3) lancer balisage -----------------------------------------------
 	evals_dir = path.join(CONF['workshop']['HOME'], CONF['workshop']['EVALS_HOME'])
@@ -859,7 +868,21 @@ def eval_model(model_name=None, eval_set=None,
 	
 	# (4) évaluer
 	which_eval_script = CONF['eval']['SCRIPT_PATH']
-	# NB si existe >> append
+	
+	# si le script n'est pas là ?
+	if not path.exists(which_eval_script):
+		print("EVAL_MODEL: warning => can't find evaluation script in configured path %s" % which_eval_script)
+		
+		# on tente ../eval/eval_xml_refbibs.pl
+		#~ stack_default_path = path.join(path.abspath(__file__),"..","bib-eval","eval_xml_refbibs.pl")
+		stack_default_path = path.join(path.abspath(__file__),"..","eval","eval_xml_refbibs.pl")
+		if path.exists(stack_default_path):
+			print("EVAL_MODEL: warning => using refbibs-stack default path %s for evaluation script" % stack_default_path)
+			which_eval_script = stack_default_path
+		else:
+			exit(1)
+	
+	# NB si table existe >> append résultats
 	report_table = CONF['eval']['TABLE_PATH']
 	
 	resultat_eval = bytes()
@@ -890,7 +913,11 @@ def eval_model(model_name=None, eval_set=None,
 	output = open(path.join(this_eval_dir, 'tableau_detail_eval.tab'), 'w')
 	output.write(resultat_eval)
 	output.close()
-
+	
+	# (6) remettre les modèles comme avant
+	for model_type in changed_models:
+		if changed_models[model_type]:
+			gb_vanilla_restore(model_type)
 
 def new_workshop(override_dir=None, debug=0):
 	"""
