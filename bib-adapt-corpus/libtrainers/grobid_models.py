@@ -481,7 +481,7 @@ class CRFModel:
 							'models_situation.json')
 		bak_write = open(bak_path,'w')
 		# json.dump
-		dump(models_situation_json, bak_write)
+		dump(models_situation_json, bak_write, indent=2)
 		bak_write.close()
 
 
@@ -789,7 +789,7 @@ class CRFModel:
 		"""
 		recipy_path = path.join(self.storing_path,'recipy.json')
 		recipy_file = open(recipy_path,'w')
-		dump(self.recipy, recipy_file)     # json.dump
+		dump(self.recipy, recipy_file, indent=2)     # json.dump
 		recipy_file.close()
 	
 	def load_recipy(self):

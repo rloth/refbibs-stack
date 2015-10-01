@@ -165,7 +165,7 @@ def bako_sub_args(next_sys_args=None):
 	
 	# option 2: contrainte lucene
 	args_mkset.add_argument(
-		'-q', '--constraint',
+		'-c', '--constraint',
 		metavar='refBibsNative:true',
 		type=str,
 		help="requête lucene comme contrainte sur le corpus"
