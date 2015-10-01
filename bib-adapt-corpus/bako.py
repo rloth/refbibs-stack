@@ -262,7 +262,7 @@ def bako_sub_args(next_sys_args=None):
 	args_evalm = sub_args.add_parser(
 		'eval_model',
 		usage="""
-  bako.py eval_model [-m model_name]  [-e evalcorpus_name] [-s] [-g]
+  bako.py eval_model [-m model_name1 [model_name2]]  [-e evalcorpus_name]
 """,
 		help="évaluer le dernier modèle (ou autre selon -m)"
 	)
@@ -272,7 +272,8 @@ def bako_sub_args(next_sys_args=None):
 	
 	# aucun argument obligatoire
 	args_evalm.add_argument(
-		'-m','--model_name',
+		'-m','--model_names',
+		nargs='+',
 		required=False,
 		type=str,
 		help="nom du modèle à reprendre"
@@ -665,6 +666,12 @@ def run_training(model_type, corpora, debug=0):
 	# 3) pick_n_store : récupération du modèle
 	stored_location = new_model.pick_n_store(logs = [mvnlog, crflog])
 	print("new model %s stored into dir %s" % (new_model.mid, stored_location), file=stderr)
+	
+	# nouveau scénario prudent pour tout utilisateur:
+	#  on réactive chaque fois les vanilla ensuite
+	# 4) restauration a posteriori du modèle vanilla
+	restored_mid = gb_vanilla_restore(model_type)
+	print("new model %s deactivated in grobid (restored previous: %s)" % (new_model.mid, restored_mid))
 
 
 def _prepare_dirs(new_model, corpora, debug_lvl = 0):
@@ -790,11 +797,19 @@ def _lns(cobj, src_shelf, tgt_dataset_dir, subdir, debug_lvl):
 def activate_model(model_name=None, debug=0):
 	"""
 	Active le modèle choisi en l'installant depuis le model store vers grobid
-	"""
 	
+	Pour l'instant n'est jamais utilisé dans les scénarios ligne de commande
+	mais peut-être très utile en usages avancés
+	"""
+	model_object = CRFModel(model_type, existing_mid=model_name)
+	
+	# crée le symlink +  enregistre les changements 
+	# de paramètres dans le store (sous 'last') ET
+	# chez grobid (dans config/grobid.properties)
+	model_object.push_to_gb(debug_lvl=debug)
 
 
-def eval_model(model_names=None, eval_set=None, 
+def eval_model(model_names=[], eval_set=None, 
                save_tab=True, do_graphs=False, debug = 0):
 	"""
 	Stats et eval proprement dites
@@ -821,7 +836,7 @@ def eval_model(model_names=None, eval_set=None,
 	
 	# cas où l'on évalue les modèles courants
 	# dont initialement vanilla: modèles pré-existants
-	if model_names is None:
+	if not len(model_names):
 		# use case courant: une eval vanilla qui est fréquente
 		#                   pour "calibrer" les attentes
 		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
@@ -831,7 +846,7 @@ def eval_model(model_names=None, eval_set=None,
 		
 	# cas avec un ou des modèle(s) donné(s)
 	else:
-		mon_eval_id = eval_corpus.name+"-"+("_".join(model_names))
+		mon_eval_id = eval_corpus.name+"--"+("-".join(model_names))
 		for model_name in model_names:
 			# £TODO à remplacer avec un changement dans l'init de CRFModel()
 			model_type = search(r'^([^-]+)-', model_name).groups()[0]
@@ -915,6 +930,7 @@ def eval_model(model_names=None, eval_set=None,
 	output.close()
 	
 	# (6) remettre les modèles comme avant
+	print("EVAL_MODEL: restauration des modèles précédents")
 	for model_type in changed_models:
 		if changed_models[model_type]:
 			gb_vanilla_restore(model_type)

@@ -3,15 +3,15 @@
 Simple CRF model fs management
 
 TODO :
-  - model.restore_vanilla => dans grobid courant sous home/models + dans properties
-  - mécanisme install_prod  => .push_to_gb
-                            => git branch
-                            => git commit & push
-
- Rappel :
- compilation rapide grobid
-   cd GB_DIR/grobid-trainer
-   mvn --offline -Dmaven.test.skip=true clean compile install
+ - mécanisme install_prod
+   via git:
+    => .push_to_gb
+    => git branch
+    => git commit & push
+   ou via rsync:
+    => rsync GB_DIR/grobid-home/models/<GB_MODEL_MAP[mtype][gbpath]>/model.wapiti
+             login@grobid-vp-machine:VP_GB_DIR/grobid-home/models/<GB_MODEL_MAP[mtype][gbpath]>/model.wapiti
+                            
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
@@ -241,6 +241,9 @@ def gb_vanilla_restore(model_type):
 		
 		# c - restore
 		model_object.push_to_gb()
+		
+		# fyi the model we just reactivated
+		return model_object.mid
 
 # ----------------------------------------------------------------------
 #                   [[  M O D E L    S T O R E  ]]
@@ -503,7 +506,7 @@ class CRFModel:
 		return gb_model_map[self.mtype]['short']
 	
 	
-	def gb_register_model_in_config(self, gb_prop_path = GB_PROP_PATH):
+	def gb_register_model_in_config(self, gb_prop_path = GB_PROP_PATH, debug_lvl=0):
 		"""
 		Rewrites grobid properties to register a newly installed model
 		(as parameter:value INI pair)
@@ -543,10 +546,12 @@ class CRFModel:
 			
 			if found:
 				n_found += 1
-				previous_model_name = found.groups()[0]
+				previous_model_name = found.groups()[0].rstrip()
 				# replace
 				changed_line = new_property_line
-				print("MODELS: %s registered in grobid.properties (by replacing previous:'%s')" % (self.mid, previous_model_name))
+				print("MODELS: %s registered in grobid.properties" % self.mid)
+				if debug_lvl > 1:
+					print("  (by replacing previous:'%s')" % previous_model_name)
 				modified_lines.append(changed_line)
 			else:
 				modified_lines.append(line)
@@ -620,11 +625,18 @@ class CRFModel:
 			'gb_git_id'  : GB_GIT_ID
 			}
 		
+		# enregistrement lié au niveau de grobid.propertires
+		self.gb_register_model_in_config()
+		
+		# NB: l'enregistrement doit être lié à l'apparition d'un nouveau modèle
+		#     même si dans les scénarios d'appel actuels on va toujours
+		#     restaurer et ré-enregistrer vanilla juste après...
+		
+		
 		# => le modèle est à l'endroit habituel (cf. gb_model_dir())
 		# => on ne renvoie donc que les logs         ----------------
 		return (Logfile("training.mvn", mvnlog_lines),
 				Logfile("training.crf", crflog_lines))
-	
 	
 	
 	# ------------------------------------------------------
@@ -698,7 +710,7 @@ class CRFModel:
 		# the stored location
 		return new_model_dir
 	
-	def push_to_gb(self, debug_lvl = 1):
+	def push_to_gb(self, debug_lvl = 0):
 		"""
 		Installs a model from the model store into grobid
 		   /!\\ overwriting the previous /!\\
@@ -745,16 +757,20 @@ class CRFModel:
 			raise FileNotFoundError
 		else:
 			# /!\ symlink en écrasant /!\
+			if debug_lvl > 0:
+				print("MODELS.push_to_gb: SYMLINK OVERWRITING %s" % tgt_path )
 			remove(tgt_path)
 			symlink(src_path, tgt_path)
 			
-			# enregistrement de la substitution au niveau du conteneur home
+			if debug_lvl > 0:
+				print("MODELS.push_to_gb: enregistrement de la substitution au niveau du conteneur home")
 			json_status = CRFModel.situation_read(models_home = self._home)
 			json_status['last'][self.mtype] = self.mid
 			CRFModel.situation_write(json_status, models_home = self._home)
 			
-			# enregistrement aussi au niveau de grobid
-			self.gb_register_model_in_config()
+			if debug_lvl > 0:
+				print("MODELS.push_to_gb: enregistrement aussi au niveau de grobid")
+			self.gb_register_model_in_config(debug_lvl=debug_lvl)
 		
 		
 	# ------------------------------------------------------
