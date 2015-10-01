@@ -842,11 +842,12 @@ def eval_model(model_names=[], eval_set=None,
 		print("/!\\ EVALUATING CURRENT MODELS /!\\", file=stderr)
 		
 		# juste modèles courants (= vanilla)
-		mon_eval_id = 'vanilla-'+eval_corpus.name
+		mon_eval_id = 'vanilla--'+eval_corpus.name
 		
 	# cas avec un ou des modèle(s) donné(s)
 	else:
-		mon_eval_id = eval_corpus.name+"--"+("-".join(model_names))
+		all_models_str = "-".join(model_names)
+		mon_eval_id = eval_corpus.name+"--"+all_models_str
 		for model_name in model_names:
 			# £TODO à remplacer avec un changement dans l'init de CRFModel()
 			model_type = search(r'^([^-]+)-', model_name).groups()[0]
@@ -921,7 +922,7 @@ def eval_model(model_names=[], eval_set=None,
 	
 	
 	# (5) stocker
-	this_eval_dir = path.join(evals_dir,"mon_eval_id")
+	this_eval_dir = path.join(evals_dir,mon_eval_id)
 	if not path.isdir(this_eval_dir):
 		makedirs(this_eval_dir)
 	
