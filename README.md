@@ -30,8 +30,6 @@ refbibs_stack
 ### TODO
  - dockerisations
  - un bib-install-vi avec git pour un grobid utilisé en training
- - proto bib-findout
- - liens + intégrés entre bako et eval => cycles de tests mieux automatisés
  - paramètrage bako + complet (critères arrêt, params prépas ragréage/Pub2TEI, params éval)
  - readme + complet pour bako !
 
