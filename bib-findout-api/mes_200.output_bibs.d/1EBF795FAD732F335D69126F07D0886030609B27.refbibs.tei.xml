@@ -1,0 +1,758 @@
+<TEI xml:id="istex-1EBF795FAD732F335D69126F07D0886030609B27">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Brill</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">0</forename>
+    <forename type="middle">L</forename>
+    <surname>Schmidt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Crvst</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="2274" to="2281" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brt_ &apos;sset</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Donati</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Crvst</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="55" to="64" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Dave</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Opt</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="2035" to="2044" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Debye</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Coll. Chem</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="18" to="31" />
+   <date type="published" when="1947" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Debye</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Anderson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Brumberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <editor>DONAT1, J. R., PASCAL, B. &amp; RENOUPREZ. A. J.</editor>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="issue">90</biblScope>
+   <biblScope unit="page" from="679" to="683" />
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Small Angle Scattering of X-rays</title>
+  <author>
+   <persName>
+    <forename type="first">Guinier</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fournet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1955" />
+   <publisher>John Wiley</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Harkness</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Gould</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Hren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="115" to="128" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hosemann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bagchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1962" />
+   <publisher>North-Holland</publisher>
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Luzzati</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crvst</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="33" to="34" />
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Magar</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biopolymers</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="307" to="327" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M~ring</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Tchoubar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Crvst</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="153" to="165" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Mittelbach</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Koll. Z. Z. Poh&apos;m</title>
+  <imprint>
+   <biblScope unit="volume">206</biblScope>
+   <biblScope unit="page" from="152" to="159" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Mook</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="43" to="46" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Motzkus</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crvst</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="773" to="786" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Porod</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Koll. Z</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="108" to="122" />
+   <date type="published" when="1952" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Renouprez</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Imel1k</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Crvst</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="105" to="113" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Riseman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crvst</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="193" to="196" />
+   <date type="published" when="1952" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Roess</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="695" to="697" />
+   <date type="published" when="1946" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <monogr>
+  <title level="m" type="main">X-ray and Electron Methods of Analysis</title>
+  <author>
+   <persName>
+    <forename type="first">Schm1dt</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Well</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Br1ll</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1968" />
+   <publisher>Plenum</publisher>
+   <biblScope unit="page" from="86" to="100" />
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Scholten</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J F</forename>
+    <surname>Montfoort</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="85" to="92" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Shifrin</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">S</forename>
+    <surname>Perelman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">Y</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Second Interdisciplinary Conference on Electromagnetic Scattering</title>
+  <meeting>. Second Interdisciplinary Conference on Electromagnetic Scattering<address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Gordon &amp; Breach</publisher>
+   <date type="published" when="1967" />
+   <biblScope unit="page" from="131" to="167" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Soul~</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Radium</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page" from="90" to="102" />
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Tanford</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Physical Chemistry of Macromolecules</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>John Wiley</publisher>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Vonk</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Co&apos;st</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="340" to="341" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Waser</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crvst</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="1091" to="1094" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Wiiyte</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Kirklin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Gould</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W ~</forename>
+    <surname>Heineman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="407" to="415" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

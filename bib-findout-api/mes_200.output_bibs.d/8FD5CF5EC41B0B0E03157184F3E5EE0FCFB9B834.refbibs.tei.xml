@@ -1,0 +1,1393 @@
+<TEI xml:id="istex-8FD5CF5EC41B0B0E03157184F3E5EE0FCFB9B834">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Bone: formation by autoinduction</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Urist</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">150</biblScope>
+   <biblScope unit="page" from="893" to="899" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Bone morphogenetic proteins: multifunctional regulators of vertebrate development</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Hogan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genes Dev</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1580" to="1594" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Biocoating of implants with mediator molecules: surface enhancement of metals by treatment with chromosulfuric acid</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Zumbrink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Chatzinikolaidou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Steppuhn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mat.-wiss. u. Werkstofftech</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="838" to="845" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">Modification of Metal Surfaces and Biocoat- Fig. 6. Computer-models of the van der Waal&apos;s representation of the BMP-2 monomers (A) and resulting 3D-Rapid Prototyping models (B)</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Chatzinikolaidou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Rumpf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Lichtinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mu</forename>
+    <surname>Èller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Computer-Modelle der van der Waal&apos;s Darstellung der BMP-2 Untereinheiten (A) und der daraus resultierenden 3D-Rapid Prototyping Modelle (B) green ± chain A light blue ± chain B Computer models were made using WebLab Viewer 4</title>
+  <author>
+   <persName>
+    <surname>Abb</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>Molecular Simulations Inc</publisher>
+   <pubPlace>San Diego, USA</pubPlace>
+  </imprint>
+ </monogr>
+ <note>using. PDB-ID bmp3. Probe radius was 0 A Ê</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Single amino acids in the van der Waal&apos;s representation of BMP-2</title>
+  <author>
+   <persName>
+    <surname>Fig</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Darstellung einzelner Aminosa Èuren in der van der Waal&apos;s Darstellung des BMP-2</title>
+  <author>
+   <persName>
+    <surname>Abb</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Modelling ing of Implants with</title>
+ </analytic>
+ <monogr>
+  <title level="j">Mat.-wiss. u. Werkstofftech. Bone Morphogenetic Protein DVM-Bericht</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="issue">313</biblScope>
+   <biblScope unit="page" from="729" to="737" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">How cells read TGF-beta signals</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Massague</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat. Rev. Mol. Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="169" to="178" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Structure of a WW domain containing fragment of dystrophin in complex with beta-dystroglycan</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Huang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Poy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Joachimiak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Sudol</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Eck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat. Struct. Biol</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+ <note>634. ± 638</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Crystal structure of human bone morphogenetic protein-2 at 2.7 A resolution</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Scheufler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Sebald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hulsmeyer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">287</biblScope>
+   <biblScope unit="page" from="103" to="115" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">An unusual feature revealed by the crystal structure at 2.2 A resolution of human transforming growth factor-beta 2</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Schlunegger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Grutter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">358</biblScope>
+   <biblScope unit="page" from="430" to="434" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Molecular Modelling of Bone Morphogenetic Protein-2 (BMP-2) by 3D-Rapid Prototyping</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Laub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Seul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Schmachtenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mat.-wiss. u. Werkstofftech</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="926" to="930" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">General Aspects of Protein Adsorption</title>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="111" to="134" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Protein Measurement with the Folin Phenol Reagent</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">H</forename>
+    <surname>Lowry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Rosebrough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Farr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Randall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">193</biblScope>
+   <biblScope unit="page" from="265" to="275" />
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Cleavage of Structural Proteins During the Assembly of the Head of Bacteriophage T4</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <forename type="middle">K</forename>
+    <surname>Laemmli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">227</biblScope>
+   <biblScope unit="page" from="680" to="685" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Multiple ubiquitination of calmodulin results in one polyubiquitin chain linked to calmodulin</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Ziegenhagen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Goldberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">D</forename>
+    <surname>Rakutt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Letters</title>
+  <imprint>
+   <biblScope unit="volume">271</biblScope>
+   <biblScope unit="page" from="71" to="75" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">ATP-dependent Proteolysis and the Role of Ubiquitin in Rabbit Cardiac Muscle</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">P</forename>
+    <surname>Gehrke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biol. Chem. Hoppe-Seyler</title>
+  <imprint>
+   <biblScope unit="volume">368</biblScope>
+   <biblScope unit="page" from="691" to="708" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">The Protein Data Bank: a computer-based archival file for macromolecular structures</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">F</forename>
+    <surname>Koetzle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">F</forename>
+    <surname>Meyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+    <surname>Brice</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Rodgers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Kennard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Shimanouchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tasumi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="535" to="542" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">The Protein Data Bank</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Berman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Westbrook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Feng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Gilliland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Bhat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Weissig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">N</forename>
+    <surname>Shindyalov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Bourne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nucleic Acids Res</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+ <note>235. ± 242</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Protein Data Bank archives of three-dimensional macromolecular structures</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">E</forename>
+    <surname>Abola</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Sussman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Prilusky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">O</forename>
+    <surname>Manning</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Enzymol</title>
+  <imprint>
+   <biblScope unit="volume">277</biblScope>
+   <biblScope unit="page" from="556" to="571" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Parameter relation rows: a query system for protein structure function relationships</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Vriend</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Protein Eng</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="221" to="223" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Areas, volumes, packing and protein structure</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Richards</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Biophys. Bioeng</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="151" to="176" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">VMD: visual molecular dynamics</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Humphrey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dalke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Schulten</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Graph</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="33" to="38" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Molecular surface recognition: determination of geometric fit between proteins and their ligands by correlation techniques</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Katchalski-Katzir</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Shariv</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Eisenstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Friesem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Aflalo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">A</forename>
+    <surname>Vakser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc</title>
+  <imprint>
+   <biblScope unit="page" from="89" to="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Protein docking for low-resolution structures</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">A</forename>
+    <surname>Vakser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Protein Eng</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="371" to="377" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Low-resolution docking: prediction of complexes for underdetermined structures</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">A</forename>
+    <surname>Vakser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biopolymers</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="455" to="464" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Protein identification and analysis tools in the ExPASy server</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Wilkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Gasteiger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bairoch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Sanchez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Appel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Hochstrasser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="531" to="552" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">SWISS-MODEL and the Swiss- PdbViewer: an environment for comparative protein modeling</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Guex</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Peitsch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electrophoresis</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="2714" to="2723" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Handler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Hill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">R</forename>
+    <surname>Lehman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Principles of Biochemistry</title>
+  <meeting><address><addrLine>Tokyo</addrLine></address></meeting>
+  <imprint>
+   <publisher>McGraw-Hill Kogakusha</publisher>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="1134" to="1158" />
+  </imprint>
+ </monogr>
+ <note>6th. edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Binding of soluble form of fibroblast surface protein, fibronectin, to collagen</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Engvall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ruoslathi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Cancer</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="1" to="5" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Main-chain complementarity in protein-protein recognition</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">A</forename>
+    <surname>Vakser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Protein Eng</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="741" to="744" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">The WW domain: a signalling site in dystrophin?</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bork</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Sudol</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Biochem. Sci</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="531" to="533" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <surname>Holleman-Wiberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Lehrbuch der anorganischen Chemie</title>
+  <meeting><address><addrLine>Wiberg,N. ; Berlin, New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Walter de Gruyter</publisher>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">The ubiquityl-calmodulin synthetase system from rabbit reticulocytes: isolation of the calmodulin-binding second component and enzymatic properties</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Majetschak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Laub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Klocke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Steppuhn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">255</biblScope>
+   <biblScope unit="page" from="492" to="500" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <monogr>
+  <title level="m" type="main">Der Chemische Bau biologisch wichtiger Makromoleku Èle</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Tschesche</surname>
+   </persName>
+  </author>
+  <editor>Biophysik (Hoppe, W., Lohmann, W., Markl, H., Ziegler, H.</editor>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Springer-Verlag</publisher>
+   <pubPlace>Berlin, Heidelberg , New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">D-45122 Essen, Germany Received in final form: 11</title>
+  <author>
+   <persName>
+    <surname>Prof</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">H P</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jennissen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Institut fu Èr Physiologische Chemie</title>
+  <imprint>
+   <biblScope unit="page">715</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <monogr>
+  <title level="m" type="main">9 2 ± 4 Year Clinical Results with a Ceramic-on-Ceramic Articulation in a New Modular THR-System G</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <monogr>
+  <title level="m" type="main">Press-Fit Ceramic-Ceramic and Ceramic-Polyethylene Total Hip Replacement: 5 ± 7 Years Follow-Up F. Bonicoli 1.11 Do Ceramic Liners Alter the Load Transmission of Modular Hip Sockets?</title>
+  <author>
+   <persName>
+    <forename type="first">Peri-Acetabular</forename>
+    <surname>Osteolysis</surname>
+   </persName>
+  </author>
+  <editor>C. Hendrich, C. Kadkdick, H. G. Pfaff, G. Willmann 1</editor>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <monogr>
+  <title level="m" type="main">Reliability ± Clinical and Technical Aspect</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title level="m" type="main">Einschra Ènkung der Range of Motion von Hu Èftendoprothesen durch Design, Position und Pfannenabrieb R</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <monogr>
+  <title level="m" type="main">Pre-Operative Planning in THR is a Must C</title>
+  <imprint>
+   <pubPlace>Dietschi, D. Buehler</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <monogr>
+  <title level="m" type="main">wenn keramische Kugelko Èpfe bei Revisionsoperationen auf in situ belassene Scha Èfte aufgesetzt wer- den?</title>
+  <author>
+   <persName>
+    <surname>Besteht Ein Risiko</surname>
+   </persName>
+  </author>
+  <editor>G. Willmann, H. G. Richter, J. Richter, E. Steinhauser</editor>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <monogr>
+  <title level="m" type="main">Analyse der metallischen Abdru Ècke in der konischen</title>
+  <author>
+   <persName>
+    <forename type="first">Biolox Ò Ko</forename>
+    <surname>Untersuchung Von Explantierten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Èpfen</surname>
+   </persName>
+  </author>
+  <editor>Bohrung G. Willmann, A. Brodbeck, H. G. Richter</editor>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">The Status and Early Results of Modern Ceramic-Ceramic Total Hip Replacement in the United States</title>
+ </analytic>
+ <monogr>
+  <title level="j">J. P. Garino</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <monogr>
+  <title level="m" type="main">Allergic Reactions: A Problem in THR?</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <monogr>
+  <title level="m" type="main">Hypersensitivity in THR: A Case Study E. Seeber</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <monogr>
+  <title level="m" type="main">Clinical Relevance of Allergological Tests in Total Joint Re- placement</title>
+  <editor>M. Schramm, R. P. Pitto</editor>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Whole-Blood Cobalt and Chromium Levels in Patients Managed with Total Hip Replacements Involving Different Metalon-Metal Combinations C</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lhotka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Steffan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Zhuber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Szekeres</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Zweymu Èller</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+  </imprint>
+ </monogr>
+ <note>4. Biological Effects of Implanted Metallic Devices J. Black, J. J. Jacobs</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Allergological Aspects of Implant Biocompatibility Peter Thomas</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <monogr>
+  <title level="m" type="main">Advanced Materials for Bearing Surfaces in Joint Repla- cement</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Simultor</forename>
+    <surname>Testing Of The Wear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Zta-On-Polyethylene</forename>
+    <forename type="middle">A</forename>
+    <surname>Couple</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Toni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Affatato</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>Bordini. 4.2 New Generation Ceramics G. Willmann Fortsetzung auf Seite 746</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Mat.-wiss. u. Werkstofftech</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="729" to="737" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

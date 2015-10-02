@@ -1,0 +1,1007 @@
+<TEI xml:id="istex-9D55ABADB37D860E4804B763A9C980ED3CD2C018">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Report to the Atomic Energy Commission on the Reactor Licensing Program by the Internal Study Group</title>
+  <imprint>
+   <date type="published" when="1969-06" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Analysis of the improvement in safety obtained by a containment and by other safety devices for water cooled reactors Containment &amp; Siting of Nuclear Power Plant</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Keuerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Syrup</title>
+  <meeting>. Syrup<address><addrLine>Vienna ; Vienna</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1967" />
+   <biblScope unit="page">403</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Experience &amp; Conclusions from the use of water pressure testing</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Peters</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Technische Uberwachung</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">4</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">A Survey of defects in pressure vessels built to high standards of construction and its relevance to nuclear primary circuit envelopes, UKAEA Rep</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A G</forename>
+    <surname>Philips</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Warwick</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1968" />
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Development of Advanced Reactor Pressure Vessel Materials, Specialists Meeting</title>
+  <meeting><address><addrLine>Vienna</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Fracture Analysis Diagram Procedures for the Fracture Safe Design of Steel Structures</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Pellini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">P</forename>
+    <surname>Puzak</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">also in Bulletin No. 88 Welding Research Council</title>
+  <editor>Washington D.C. USA</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Porse</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. ASME J. Basic Engng</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page">743</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Duffy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Symposium on Line Pipe Research</title>
+  <meeting>. Symposium on Line Pipe Research</meeting>
+  <imprint>
+   <date type="published" when="1966" />
+   <biblScope unit="page" from="000" to="43" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Bevitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Stott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Brit. Nucl. Eng. Soc</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page">16</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Integration of metallurgical fracture mechanics concepts of transition temperature factors relating to fracture safe design for structural steels</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Peuini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Loss</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Bulletin No. 141 Welding Research Council</title>
+  <editor>Washington D.C. USA</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Low Temperature Burst Testing Equipment for Steel Pipes, The Sumitomo Search No</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mise</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hasebe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Koga</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970-11" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Aspects of the Failure of large steel vessels</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Edmondson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Formby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Jurevics</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Stagg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 2nd Int. Conf. on Fracture</title>
+  <meeting>. 2nd Int. Conf. on Fracture<address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Chapman &amp; Hail</publisher>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Fracture inith~tion in reactor structural materials [ 13] C.L. Formby, W. Charnock, The Effect of dynamic strain ageing embrittlement on pressure vessel integrity, Paper 1</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology</title>
+  <meeting>. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology<address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Roy</title>
+  <meeting>. Roy</meeting>
+  <imprint>
+   <date type="published" when="1965" />
+   <biblScope unit="page">104</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">Review of concepts and status of procedures for fracture safe design of complex welded structures involving metals of low to ultra-high strength levels</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Pellini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Goode</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">P</forename>
+    <surname>Puzak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Lange</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Huber</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1965" />
+   <pubPlace>Washington D.C., USA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title level="m" type="main">Implications of Embrittlement during Life of a Zirconium Pressure Tube Reactor, ASTM STP</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Watkins</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1967" />
+   <publisher>ASTM</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Langford</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Nucl. Mats</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page">271</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Irradiation Effects in Zirconium Alloy Pressure Tubes</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Asher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hesketh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+    <surname>Pickles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Shepperd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Wood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">4th United Nations Conf. on Peaceful Uses of Atomic Energy</title>
+  <imprint>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Precautions for Avoidance of fracture of Pressure Vessels, Paper 52</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kihara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Oba</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Susei</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology</title>
+  <meeting>. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology<address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title level="m" type="main">A Stress Concentration Approach to Fracture Mechanics</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Lrvine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Quirk</surname>
+   </persName>
+  </author>
+  <imprint>
+   <pubPlace>Paper 22, Ibid</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Irvine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Effect of Nuclear Radiation on the Fast Fracture Behaviour of Metals. This Conference, Session L6</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Specification for Carbon &amp; Low Alloy Steel Pressure Vessels for Primary Circuits of Nuclear Reactors</title>
+  <author>
+   <persName>
+    <forename type="first">British</forename>
+    <surname>Standards Institution</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">British Standard</title>
+  <imprint>
+   <biblScope unit="volume">3915</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <date type="published" when="1965-09-08" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Fracture mechanics technology as applied to thick walled nuclear pressure vessels</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">T</forename>
+    <surname>Wessel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Mager</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Paper 4 Proc. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Proposed Method of Test for Plane Strain Fracture Toughness of Metallic Materials</title>
+ </analytic>
+ <monogr>
+  <title level="j">ASTM Standards Part</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page">1969</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <surname>Draft For Development 3</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods for Plane Strain Fracture Toughness</title>
+  <imprint>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Evaluation by linear elastic fracture mechanics of radiation damage to pressurevessel steels</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Mager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Hazelton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Radiation Damage in Reactor Materials (Proc. Symp. Vienna 1969) IAEA</title>
+  <meeting><address><addrLine>Vienna</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1969" />
+   <biblScope unit="page">317</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">The Status of the Application of Fracture Mechanics to Pressure Vessels</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. of Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology</title>
+  <meeting>. of Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology<address><addrLine>London</addrLine></address></meeting>
+  <imprint/>
+ </monogr>
+ <note>To. be pu- blished</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Wells</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. Weld J</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">2</biblScope>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">The Use of Critical Crack Opening Displacement Techniques for the Selection of Fracture Resistant Materials</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Burdekin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Elliott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ingham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Practical Fracture Mechanics for Structural Steel</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Chapman &amp; Hall</publisher>
+   <date type="published" when="1969" />
+   <biblScope unit="page">1</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title level="m" type="main">Methods for Crack Opening Displacement (COD) Testing, to be published Brit</title>
+  <author>
+   <persName>
+    <surname>Draft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Development</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>Stds. Inst</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Fracture initiation in low strength steel pressure vessels</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Kirby</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. Am. Soc. Mech. Engrs Ser. B. J. Engng Ind</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page">79</biblScope>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Practical use of linearelastic and yielding fracture mechanics with particular reference to pressure vessels</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Burdekin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Dawes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Paper 5 Proc. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title level="m" type="main">Relationship between Material Fracture Toughness using Fracture Mechanics and Transition Temperature Tests</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Sailors</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">T</forename>
+    <surname>Corten</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+ <note>Paper. 3, HSST Programme 5th Annual Inform Meeting</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">AEC Proposes Fracture Toughness Standards for Reactor Coolant Systems</title>
+  <imprint>
+   <date type="published" when="1971-07-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Use of linear-elastic fracture mechanics in safety analysis of heavy section nuclear reactor pressure vessels</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Mager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Riccardella</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Paper 8 Proc. Conf. Practical Application of Fracture Mechanics to Pressure Vessel Technology Inst</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Duffy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Eiber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Maxey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Practical Fracture Mechanics for Structural Steel</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Chapman &amp; Hall</publisher>
+   <date type="published" when="1969" />
+   <biblScope unit="page">1</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <monogr>
+  <title level="m" type="main">Development &amp; Performance of Zircaloy 2 Pressure Tubes, Paper presented to IAEA Symposium on Performance of Nuclear Power Components</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Watkins</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1969" />
+   <pubPlace>Prague</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. Weld J</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="21" to="75" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <monogr>
+  <title level="m" type="main">The Desirability of Proof Testing Reactor Pressure Vessels Periodically -a Discussion, Paper presented at IAEA Meeting on Effect of Irradiation and other Time Dependent Embrittlement Phenomena on Steel Pressure Vessel Integrity</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Formby</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1971" />
+   <pubPlace>Vienna</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Evaluation of Periodic Proof Testing and Warm Prestressing for Nuclear Reactor Pressure Vessels</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Yukawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Symp. Vail Village</title>
+  <meeting>. Symp. Vail Village<address><addrLine>Colorado</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Technology of Pressure-Retaining Steel Components</publisher>
+   <date type="published" when="1970" />
+   <biblScope unit="page">250</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

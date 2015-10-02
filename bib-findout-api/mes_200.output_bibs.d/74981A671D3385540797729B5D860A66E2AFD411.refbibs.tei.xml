@@ -1,0 +1,699 @@
+<TEI xml:id="istex-74981A671D3385540797729B5D860A66E2AFD411">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Biodisposition of tertatolol in man: a review</title>
+  <author>
+   <persName>
+    <forename type="first">Db</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jc</forename>
+    <surname>Chignon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Devissaguet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ph</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="61" to="68" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Clinical pharmacokinetics of ^-adrenoceptor blocking drugs</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Johnsson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cg</forename>
+    <surname>Regardh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Pharmacokinet</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="233" to="263" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Pharmaco­ kinetics of oral propranolol in chronic renal disease</title>
+  <author>
+   <persName>
+    <forename type="first">Dt</forename>
+    <surname>Lowenthal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wa</forename>
+    <surname>Briggs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tp</forename>
+    <surname>Gibson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Pharmacol Ther</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="761" to="769" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Pharmaco­ kinetics and effect of propranolol in terminal uraemic patients and in patients undergoing regular dialysis treatment</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bianchetti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Graziani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Brancaccio</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Pharmacokinet</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="373" to="384" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Relationship between renal function and elimination kinetics of pindolol in man</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Levy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Clin Phar­ macol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="115" to="116" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Pindolol availability in hypertensive patients with normal and impaired renal function</title>
+  <author>
+   <persName>
+    <forename type="first">Np</forename>
+    <surname>Chau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ya</forename>
+    <surname>Weiss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Me</forename>
+    <surname>Safar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Pharmacol Ther</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="505" to="510" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The effect of impaired renal function on the plasma concentration and urinary excretion of metoprolol metabolites</title>
+  <author>
+   <persName>
+    <forename type="first">Kj</forename>
+    <surname>Hoffman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cg</forename>
+    <surname>Regardh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Aurell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Phar­ macokinet</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="181" to="191" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Pharmacoki­ netics of acebutolol in patients with all grades of renal failure</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Roux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Aubert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Guedon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Flouvat</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Clin Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="339" to="448" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Prediction of creatinine clear­ ance from serum creatinine</title>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Cockcroft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mh</forename>
+    <surname>Gault</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephron</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="31" to="41" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Simultaneous quantitative determination of tertatolol and its hydroxylated metabolite in human plasma and urine by gas chromatography/mass spectrometry</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Efthymiopoulos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Staveris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Weber</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Chromatogr Biomedical Application</title>
+  <imprint>
+   <biblScope unit="volume">421</biblScope>
+   <biblScope unit="page" from="360" to="366" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Le Concept de clairance en pharmacocinetique: II. Experience avec le tolamolol dans rinsuffisance renale</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Balant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Gorgia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Marmy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephrologie</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="177" to="182" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Influence of renal failure on the hepatic clearance of bufuralol in man</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Balant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Francis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tn</forename>
+    <surname>Tozer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pharmacokinet Biopharm</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="421" to="438" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Retention des metabolites d&apos;un medicament /?-bloquant, l&apos;oxprenolol en cas d&apos;insufnsance renale</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Dayer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Balant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Gorgia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Schweiz Med Wochenschr</title>
+  <imprint>
+   <biblScope unit="volume">111</biblScope>
+   <biblScope unit="page" from="1915" to="1918" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">Interaction of tertatolol with rifampicin and ranitidine in pharmacokinetics and circadian blood pressure values in hypertensives</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kirch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Milferstadt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Rocher</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>Submitted. for publication</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Pharmacokinetic and pharmacodynamic properties of metoprolol in patients with impaired renal function</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Jordo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Po</forename>
+    <surname>Attman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Aurell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Pharmacokinet</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="169" to="180" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">The influence of renal function on plasma levels and urinary excretion of acebutolol and its main N-acetyl metabolite</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kirch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kohler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Berggren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Braun</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="88" to="94" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The plasma protein binding of basic drugs</title>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Routledge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br J Clin Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="499" to="506" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Renal hemodynamic effects of tertatolol in essential hypertension</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Paillard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lantz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Leviel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Ardaillou</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="40" to="44" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Effects of tertatolol in hypertensive patients with chronic renal failure</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Beaufils</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lantz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Paillard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Richet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="50" to="54" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Deterioration in renal function after beta-blockade in patients with chronic renal failure and hypertension</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Warren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cp</forename>
+    <surname>Swainson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit Med J</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="193" to="194" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">^-blockers and renal function</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Drugs</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="195" to="206" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Effects of nadolol and propranolol on renal function in hypertensive patients with moderately impaired renal function</title>
+  <author>
+   <persName>
+    <forename type="first">Kk</forename>
+    <surname>Pun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ck</forename>
+    <surname>Yeung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mk</forename>
+    <surname>Chan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br J Clin Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="401" to="404" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,1131 @@
+<TEI xml:id="istex-6A607181886DB6B75B2CF5D9006147EB08404D6E">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Reversible inactivation of monkey superior colliculus. I. Curvature of saccadic trajectory</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Aizawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="page" from="2082" to="2096" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Functional identification of a pulvinar path from superior colliculus to cortical area MT</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Berman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="6342" to="6354" />
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The inferior parietal lobule is the target of output from the superior colliculus, hippocampus, and cerebellum</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Clower</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>West</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Lynch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">L</forename>
+    <surname>Strick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="6283" to="6291" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The blindsight saga</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">200</biblScope>
+   <biblScope unit="page" from="3" to="24" />
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Projection patterns of surviving neurons in the dorsal lateral geniculate nucleus following discrete lesions of striate cortex: implications for residual vision</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Stoerig</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="page" from="631" to="638" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Variance in transneuronal retrograde ganglion cell degeneration in monkeys after removal of striate cortex: effects of size of the cortical lesion</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Stoerig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vision Res</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="3642" to="3652" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Evolution of neocortex</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">T</forename>
+    <surname>Diamond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">C</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">164</biblScope>
+   <biblScope unit="page" from="251" to="262" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Projection of the mammalian superior colliculus upon the dorsal lateral geniculate nucleus: organization of tectogeniculate pathways in nineteen species</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Harting</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Huerta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hashikawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">P</forename>
+    <surname>Van Lieshout</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">304</biblScope>
+   <biblScope unit="page" from="275" to="306" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Modification of saccadic eye movements by GABA-related substances. I. Effect of muscimol and bicuculline in monkey superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Hikosaka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="266" to="291" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Lesion of primary visual cortex in monkey impairs the inhibitory but not the facilitatory cueing effect on saccade</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yoshida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Isa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cogn. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="1160" to="1169" />
+   <date type="published" when="2011" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Population coding of saccadic eye movements by neurons in the superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Rohrer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Sparks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">332</biblScope>
+   <biblScope unit="page" from="357" to="360" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">A disynaptic relay from superior colliculus to dorsal stream visual cortex in macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Lyon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Nassi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">M</forename>
+    <surname>Callaway</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="270" to="279" />
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Location of saccade-related neurons in the macaque superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">P</forename>
+    <surname>Ma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Graybiel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">85</biblScope>
+   <biblScope unit="page" from="21" to="35" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Autoradiographic estimation of the extent of reversible inactivation produced by microinjection of lidocaine and muscimol in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neurosci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">127</biblScope>
+   <biblScope unit="page" from="160" to="164" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Pharmacological inactivation in the analysis of the central control of movement</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Ghez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci. Methods</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page" from="145" to="159" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Deficits in saccade target selection after inactivation of superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Mcpeek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Keller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="757" to="763" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Organization of monkey superior colliculus: intermediate layer cells discharging before eye movements</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Mohler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="722" to="744" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Role of striate cortex and superior colliculus in visual guidance of saccadic eye movements in monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Mohler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="74" to="94" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Residual visual function after brain wounds involving the central visual pathways in man</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Poppel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Held</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Frost</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">243</biblScope>
+   <biblScope unit="page" from="295" to="296" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">A method of measuring eye movement using a scleral search coil in a magnetic field</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Biomed. Eng</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="137" to="145" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Afferent basis of visual response properties in area MT of the macaque. II. Effects of superior colliculus removal</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Rodman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Albright</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1154" to="1164" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Blindsight&apos;: vision in a field defect</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+    <surname>Sanders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Warrington</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Wieskrantz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="707" to="708" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Anatomical investigation of projections from thalamus to posterior parietal cortex in the rhesus monkey: a WGA-HRP and fluorescent tracer study</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Schmahmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">N</forename>
+    <surname>Pandya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">295</biblScope>
+   <biblScope unit="page" from="299" to="326" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Blindsight depends on the lateral geniculate nucleus</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Schmid</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Mrowka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Turchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Saunders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Wilke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Peters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">Q</forename>
+    <surname>Ye</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Leopold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">466</biblScope>
+   <biblScope unit="page" from="373" to="377" />
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Bypassing V1: a direct geniculate input to area MT</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+    <surname>Sincich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">F</forename>
+    <surname>Park</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Wohlgemuth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Horton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="1123" to="1128" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Translation of sensory signals into commands for control of saccadic eye movements: role of primate superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Sparks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Rev</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="118" to="171" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Size and distribution of movement fields in the monkey superior colliculus</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Sparks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Holland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Guthrie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page" from="21" to="34" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Do superior colliculus projection zones in the inferior pulvinar project to MT in primates?</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Stepniewska</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">X</forename>
+    <surname>Qi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="469" to="480" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Retinal ganglion cell inputs to the koniocellular pathway</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Szmajda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Grunert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">510</biblScope>
+   <biblScope unit="page" from="251" to="268" />
+   <date type="published" when="2008" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Neural substrate of spatial memory in the superior colliculus after damage to the primary visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takaura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yoshida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Isa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="4213" to="4220" />
+   <date type="published" when="2011" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Retinal afferents synapse with relay cells targeting the middle temporal area in the pulvinar and lateral geniculate nuclei</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Warner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Goldshmit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Bourne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Front. Neuroanat</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page">8</biblScope>
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Visual capacity in the hemianopic field following a restricted occipital ablation</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Weiskrantz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Warrington</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+    <surname>Sanders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <biblScope unit="page" from="709" to="728" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Activity of superior colliculus in behaving monkey. 3. Cells discharging before eye movements</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Goldberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="575" to="586" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Striate cortical lesions affect deliberate decision and control of saccade: implication for blindsight</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yoshida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takaura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Kato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Isa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="10517" to="10530" />
+   <date type="published" when="2008" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">European Journal of Neuroscience Federation of European Neuroscience Societies and Blackwell Publishing Ltd European Journal of Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="1952" to="1960" />
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

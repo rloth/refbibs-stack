@@ -1,0 +1,1113 @@
+<TEI xml:id="istex-5746CBF1A223C0E61CFC376CD533491819245359">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Structure of proteoheparan sulfates from fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">La</forename>
+    <surname>Fransson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">261</biblScope>
+   <biblScope unit="page" from="12079" to="12088" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Experimental photoimmunology: Immunologic ramifications of UV-induced carcinogenesis</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Daynes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">J</forename>
+    <surname>Bernhard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Gurish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Lynch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Invest. Dermatol</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="77" to="85" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">A unique heparan sulfate in the nuclei of hepatocytes: Structural changes with the growth state of the cells</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">S</forename>
+    <surname>Fedarko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Conrad</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">102</biblScope>
+   <biblScope unit="page" from="587" to="599" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Binding of transferrin to the core protein of fibroblast proteoheparan sulfate</title>
+  <author>
+   <persName>
+    <forename type="first">L-A</forename>
+    <surname>Fransson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Carlstedt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Coster</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Malmstrom</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Nat. Acad. Sci. USA</title>
+  <meeting>. Nat. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="81" to="5657" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Domain structure of proteoheparan sulphate from confluent cultures of human embryonic skin fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">L-A</forename>
+    <surname>Fransson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Coster</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Carlstedt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Malmstrom</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="volume">231</biblScope>
+   <biblScope unit="page" from="683" to="687" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The enzymatic degradation of heparin and heparitin sulfate. 111. Purification of a heparitinase and a heparinase from Flavobacteria</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hovingh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">245</biblScope>
+   <biblScope unit="page" from="6170" to="6175" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Biological implications of the structural, antithrombin affinity and anticoagulant activity relationships among vertebrate heparins and heparan sulfates</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hovingh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Piepkorn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="volume">237</biblScope>
+   <biblScope unit="page" from="573" to="581" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">The heparan sulfates of Swiss mouse 3T3 cells. The effect of transformation</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">S</forename>
+    <surname>Johnston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Keller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Keller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">583</biblScope>
+   <biblScope unit="page" from="81" to="94" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Binding of heparin and heparan sulphate to rat liver cells</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Kjellen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Oldberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rubin</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">74</biblScope>
+   <biblScope unit="page" from="126" to="133" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Cell-surface heparan sulfate. Mechanisms of proteoglycan-cell association</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Kjellen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Oldberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">255</biblScope>
+   <biblScope unit="page" from="10407" to="10413" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Cell-surface heparan sulfate: An intercalated membrane proteoglycan</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Kjellen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Pettersson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="785371" to="5375" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Oligosaccharides generated by an endoglucuronidase are intermediates in the intracellular degradation of heparan sulfate proteoglycans</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Kjellen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Pertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Oldberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">260</biblScope>
+   <biblScope unit="page" from="8416" to="8422" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Partial characterization of heparan and dermatan sulfate proteoglycans synthesized by normal rat glomeruli</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Oegema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">261</biblScope>
+   <biblScope unit="page" from="16636" to="16652" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Heparin releases heparan sulfate from the cell surface</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Kraemer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">78</biblScope>
+   <biblScope unit="page" from="1334" to="1340" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Modification of proteoglycans during maturation of fibroblast substratum adhesion sites</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Lark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Culp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="page" from="22" to="2289" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Close and focal contact adhesions of fibroblasts to a fibronectin-containing matrix</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Lark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Laterra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Culp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Fed. Proc</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="394" to="403" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The heparitin sulfates (heparan sulfates)</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hovingh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Carbohydr. Res</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="41" to="62" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Structural studies of heparitin sulfates</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hovingh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">385</biblScope>
+   <biblScope unit="page" from="324" to="333" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Heparan sulfate proteoglycans of human lung fibroblasts. Occurrence of distinct membrane, matrix and secreted forms</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Lories</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>David</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J-J</forename>
+    <surname>Cassiman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Van Den Berghe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J . Biochem</title>
+  <imprint>
+   <biblScope unit="volume">158</biblScope>
+   <biblScope unit="page" from="351" to="360" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Influence of collagen substrata on glycosaminoglycan production and distribution in cloned B16 murine melanoma cell lines exhibiting different lung colony forming efficiencies</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Luikart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Maniglia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Sartorelli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="3738" to="3742" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Collagenous substrata regulate the nature and distribution of glycosaminoglycans produced by differentiated cultures of mouse mammary epithelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Parry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">Y H</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Farson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Koval</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Bissell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="page" from="156487" to="499" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Heparin effect on DNA synthesis in a murine fibrosarcoma line: Influence of anionic density</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Piepkorn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Daynes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Natl. Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="615" to="618" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Growth-related variations in the glycosaminoglycan synthesis of ultraviolet lightinduced murine cutaneous fibrosarcoma cells</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Piepkorn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Carney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lab. Invest</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="187" to="193" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">The digestion of cell surface-associated glycosaminoglycans by crude and purified Flauobacter heparinum enzymes: Disparate effects on cell adhesion</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Piepkorn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hovingh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Barstad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Linker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">144</biblScope>
+   <biblScope unit="page" from="986" to="995" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Cell surface proteoglycan of mammary epithelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rapraeger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bernfeld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">260</biblScope>
+   <biblScope unit="page" from="4103" to="4109" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Structure and properties of an under-sulfated heparan sulfate proteoglycan synthesized by a rat hepatoma cell line</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Viti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">98</biblScope>
+   <biblScope unit="page" from="946" to="953" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Morphology and cellular origins of substrate attached material from mouse fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Rosen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Culp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="page" from="1071139" to="149" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Production and secretion of chondroitin sulfates and dermatan sulfate by established mammalian cell lines</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Saito</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">G</forename>
+    <surname>Uzman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="723" to="728" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Formation of anhydrosugars in the chemical depolymerization of heparin</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Shively</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Conrad</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="3932" to="3942" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Distinctive populations of basement membrane and cell membrane heparan sulfate proteoglycans are produced by cultured cell lines</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Stow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Farquhar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">105</biblScope>
+   <biblScope unit="page" from="529" to="539" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Variability in proteoglycan synthesis among six strains of normal human adult skin fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">G</forename>
+    <surname>Vogel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Connect. Tissue Res</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="187" to="198" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">A sensitive fluorometric assay for the determination of DNA</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Vytasek</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. Biochem</title>
+  <imprint>
+   <biblScope unit="page" from="120" to="243" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Heparan sulfate proteoglycans of rat embryo fibroblasts. A hydrophobic form may link cytoskeleton and matrixcomponents</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Woods</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Couchman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">260</biblScope>
+   <biblScope unit="page" from="10872" to="10879" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Proteoglycans synthesized by rat ovarian granulosa cells in culture. Isolation, fractionation, and characterization of proteoglycans associated with the cell layer</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yanagishita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">C</forename>
+    <surname>Hascall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">259</biblScope>
+   <biblScope unit="page" from="10260" to="10269" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Metabolism of proteoglycans in rat ovarian granulosa cell culture. Multiple intracellular degradative pathways and the effect of chloroquine</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yanagishita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">C</forename>
+    <surname>Hascall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">259</biblScope>
+   <biblScope unit="page" from="10270" to="10283" />
+   <date type="published" when="198413" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

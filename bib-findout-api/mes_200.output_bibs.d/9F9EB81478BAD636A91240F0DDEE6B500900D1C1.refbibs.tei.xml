@@ -1,0 +1,1414 @@
+<TEI xml:id="istex-9F9EB81478BAD636A91240F0DDEE6B500900D1C1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Prevalence of asthma symptoms, diagnosis, and treatment in 12-14 year old children across Great Britain (international study of asthma and allergies in childhood, ISAAC UK)</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Kaur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hr</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Austin</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">316</biblScope>
+   <biblScope unit="page" from="118" to="24" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">National Asthma Campaign, Royal College of Physicians of London, British Association of Accident and Emergency Medicine, British Paediatric Respiratory Society, Royal College of Paediatrics and Child Health. The British Guidelines on Asthma Management. 1995 Review and Position Statement</title>
+  <author>
+   <persName>
+    <forename type="first">Thoracic</forename>
+    <surname>British</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Society</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Thorax</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="1" to="21" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Atopy, bronchial responsiveness, and symptoms in wheezy 3 year olds R 4. Simons FER and the Canadian Beclomethasone Dipropionate- Salmeterol Xinafoate Study Group. A comparison of beclomethasone, salmeterol, and placebo in children with asthma</title>
+  <author>
+   <persName>
+    <forename type="first">Nm</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sb</forename>
+    <surname>Phagoo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Silverman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">67</biblScope>
+   <biblScope unit="issue">337</biblScope>
+   <biblScope unit="page" from="491" to="5" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Dose-related efficacy of budesonide administered via a dry powder inhaler in the treatment of children with moderate to severe persistent asthma</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">5</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bronsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Laforce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cf</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pediatr</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="976" to="82" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Fluticasone propionate 50µg BID versus 100µg BID in the treatment of children with persistent asthma</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">6</forename>
+    <surname>Katz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Lebas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fx</forename>
+    <surname>Medley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hv</forename>
+    <surname>Robson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fluticasone Propionate Study</forename>
+    <surname>Group</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Ther</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="424" to="37" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Growth in asthmatic children treated with fluticasone propionate</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">7</forename>
+    <surname>Allen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Db</forename>
+    <surname>Bronsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Laforce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cf</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pediatr</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="472" to="7" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Inhaled budesonide for treatment of recurrent wheezing in early childhood</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bisgaard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Munck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sl</forename>
+    <surname>Nielsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jp</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Ohlsson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sv</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">336</biblScope>
+   <biblScope unit="page" from="649" to="51" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Systemic effects of inhaled corticosteroids on growth and bone turnover in childhood asthma: a comparison of fluticasone with beclomethasone</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">9</forename>
+    <surname>Rao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gregson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rk</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ac</forename>
+    <surname>Miles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Warner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jo</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur Respir J</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="87" to="94" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Effects of long-term treatment with an inhaled corticosteroid on growth and pulmonary function in asthmatic children</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Agertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Respir Med</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="373" to="81" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Effect of continuous treatment with topical corticosteroid on episodic viral wheeze in preschool children</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Sloper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Silverman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="317" to="20" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Effect of inhaled corticosteroids on episodes of wheezing associated with viral infection in school age children: randomised double blind placebo controlled trial</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Doull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ijm</forename>
+    <surname>Lampe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fc</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Schreiber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Freezer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Holgate</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">St</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">315</biblScope>
+   <biblScope unit="page" from="858" to="62" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Treatment of acute, episodic asthma in preschool children using intermittent high dose inhaled steroids at home</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nm</forename>
+    <surname>Silverman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="407" to="10" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Prophylactic intermittent treatment with inhaled corticosteroids of asthma exacerbations due to airway infection in toddlers</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Svedmyr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Nyberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Thunqvist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Åsbrink-Nilsson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Hedlin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Paediatr</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="42" to="7" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Clinical experience with fluticasone propionate in asthma: a meta-analysis of efficacy and systemic activity compared with budesonide and beclomethasone dipropionate at half the microgram dose or less</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Barnes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nc</forename>
+    <surname>Hallett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Taj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Respir Med</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="95" to="104" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">A comparison of the efficacy and safety of inhaled corticosteroids in asthma</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Obyrne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Allergy</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="issue">39</biblScope>
+   <biblScope unit="page" from="1" to="34" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+ <note>suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Drug treatments for asthma may cause erosive tooth damage</title>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Osullivan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mej</forename>
+    <surname>Curzon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">317</biblScope>
+   <biblScope unit="page">820</biblScope>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">New perspectives on inhaled drug delivery and systemic bioactivity</title>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+    <surname>Lipworth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Thorax</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="105" to="10" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Systemic adverse effects of inhaled corticosteroid therapy</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lipworth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Intern Med</title>
+  <imprint>
+   <biblScope unit="volume">159</biblScope>
+   <biblScope unit="page" from="941" to="55" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Maturational delay and temporal growth retardation in asthmatic boys</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hauspie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Susanne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Alexander</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Allergy Clin Immunol</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="200" to="6" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Growth and childhood asthma</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Balfour-Lynn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="1049" to="55" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">A meta-analysis of the effect of oral and inhaled corticosteroids on growth</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Allen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Db</forename>
+    <surname>Mullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Allergy Clin Immunol</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="967" to="76" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Controlled study of linear growth in asthmatic children during treatment with inhaled glucocorticoids</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wolthers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Od</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">89</biblScope>
+   <biblScope unit="page" from="839" to="42" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Short term growth during treatment with inhaled fluticasone propionate and beclomethasone dipropionate</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wolthers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Od</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="673" to="6" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Short-term knemometry and urine cortisol excretion in children treated with fluticasone propionate and budesonide: a dose response study</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Agertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur Respir J</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1507" to="12" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Aerosol beclomethasone dipropionate compared with theophylline as primary treatment of chronic, mild to moderately severe asthma in children</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Tinkelman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dg</forename>
+    <surname>Reed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ce</forename>
+    <surname>Nelson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Offord</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kp</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="64" to="77" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Growth of prepubertal children with mild asthma treated with inhaled beclomethasone dipropionate</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Doull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ijm</forename>
+    <surname>Freezer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Holgate</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">St</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Respir Crit Care Med</title>
+  <imprint>
+   <biblScope unit="volume">151</biblScope>
+   <biblScope unit="page" from="1715" to="9" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Long-term effect of inhaled corticosteroids on growth rate in adolescents with asthma</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Merkus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pjfm</forename>
+    <surname>Van Essen-Zandvliet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Eem</forename>
+    <surname>Duiverman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ej</forename>
+    <surname>Van Houwelingen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hc</forename>
+    <surname>Kerrebijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kf</forename>
+    <surname>Quanjer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ph</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page" from="1121" to="6" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Attained adult height after childhood asthma: effect of glucocorticoid therapy</title>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Silverstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Yunginger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ce</forename>
+    <surname>Reed</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Allergy Clin Immunol</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="466" to="74" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Growth and adrenal suppression in asthmatic children treated with high-dose fluticasone propionate</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Todd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Dunlop</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mcnaboe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mf</forename>
+    <surname>Ryan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Carson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Shields</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">348</biblScope>
+   <biblScope unit="page" from="27" to="9" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Impaired growth in children with asthma during treatment with conventional doses of inhaled corticosteroids</title>
+  <author>
+   <persName>
+    <forename type="first">Bc</forename>
+    <surname>Thomas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Stanhope</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Db</forename>
+    <surname>Grant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Paediatr</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page" from="196" to="9" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Effect of beclomethasone dipropionate on bone mineral content assessed by X-ray densitometry in asthmatic children: a longitudinal evaluation</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Baraldi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Bollini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Marchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Zacchello</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur Respir J</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="710" to="4" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Bone mineral density in children with asthma receiving long-term treatment with inhaled budesonide</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Agertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Respir Crit Care Med</title>
+  <imprint>
+   <biblScope unit="volume">157</biblScope>
+   <biblScope unit="page" from="178" to="83" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Bone and collagen turnover during treatment with inhaled dry powder budesonide and beclomethasone dipropionate</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Birkebaek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nh</forename>
+    <surname>Esberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Andersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Wolthers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Hassager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page" from="524" to="7" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Knemometry, urine cortisol excretion, and measures of the insulinlike growth factor axis and collagen turnover in children treated with inhaled glucocorticosteroids</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wolthers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Od</forename>
+    <surname>Hansen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Juul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nielsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hk</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatr Res</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="44" to="50" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Urine cortisol excretion in children treated with high doses of inhaled corticosteroids: a comparison of budesonide and beclomethasone</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Fuglsang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur Respir J</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="433" to="5" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Posterior subcapsular cataracts, bruises and hoarseness in children with asthma receiving long-term treatment with inhaled budesonide</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Agertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fe</forename>
+    <surname>Larsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur Respir J</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="130" to="5" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Addition of salmeterol versus doubling the dose of beclomethasone in children with asthma</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Verberne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aaph</forename>
+    <surname>Frost</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Duiverman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ej</forename>
+    <surname>Grol</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mh</forename>
+    <surname>Kerrebijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kf</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dutch</forename>
+    <surname>Paediatric Asthma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Group</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Respir Crit Care Med</title>
+  <imprint>
+   <biblScope unit="volume">158</biblScope>
+   <biblScope unit="page" from="213" to="9" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Importance of the inhalation device on the effect of budesonide</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Agertoft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="130" to="3" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

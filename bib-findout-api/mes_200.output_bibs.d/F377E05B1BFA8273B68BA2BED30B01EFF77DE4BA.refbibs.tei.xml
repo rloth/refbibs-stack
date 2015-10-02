@@ -1,0 +1,1261 @@
+<TEI xml:id="istex-F377E05B1BFA8273B68BA2BED30B01EFF77DE4BA">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Nuijs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">A</forename>
+    <surname>Shuvalov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Gorkom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Plijter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">N M</forename>
+    <surname>Duysens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">850</biblScope>
+   <biblScope unit="page" from="310" to="318" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Rutherford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Heathcote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photosynth. Res</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="295" to="316" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sdtif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology</title>
+  <editor>Staehelin, L.A. and Arntzen, C.J.</editor>
+  <meeting><address><addrLine>Berlin</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer Verlag</publisher>
+   <date type="published" when="1986" />
+   <biblScope unit="page" from="476" to="486" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Golbeck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Membr. Sci</title>
+  <imprint>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Thurnauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gast</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photobiochem. Photobiophys</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="29" to="38" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Thurnauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gast</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Stehlik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Progress in Photosynthesis Research</title>
+  <editor>Biggins , J.</editor>
+  <meeting><address><addrLine>Martinus Nijhoff, Dordrecht</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1987" />
+   <biblScope unit="page" from="1" to="2" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Mansfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C W</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">190</biblScope>
+   <biblScope unit="page" from="237" to="241" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Brettel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S~tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">203</biblScope>
+   <biblScope unit="page" from="220" to="224" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Interschick-Niebler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>Lichtenthaler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Z. Naturforsch</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="276" to="283" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Takahashi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hirota</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Katoh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photosynth. Res</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="183" to="192" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">U</forename>
+    <surname>Schroeder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Lockau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">199</biblScope>
+   <biblScope unit="page" from="23" to="27" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ltoh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lwaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Ikegami</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys . Acta</title>
+  <imprint>
+   <biblScope unit="volume">893</biblScope>
+   <biblScope unit="page" from="508" to="516" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ikegami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Biggins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys . Acta</title>
+  <imprint>
+   <biblScope unit="volume">894</biblScope>
+   <biblScope unit="page" from="146" to="156" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Ikegami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Katoh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">376</biblScope>
+   <biblScope unit="page" from="588" to="592" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Ikegami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">764</biblScope>
+   <biblScope unit="page" from="70" to="79" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hiyama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">267</biblScope>
+   <biblScope unit="page" from="160" to="171" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Van Best</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rev. Sci. Instrum</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="1332" to="1335" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Brettel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">893</biblScope>
+   <biblScope unit="page" from="109" to="114" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Acker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Van</forename>
+    <surname>Best</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">503</biblScope>
+   <biblScope unit="page" from="120" to="134" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Van Best</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photochem. Photobiol</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="89" to="92" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Acker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Van</forename>
+    <surname>Best</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">545</biblScope>
+   <biblScope unit="page" from="466" to="472" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Nuijs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">A</forename>
+    <surname>Shuvalov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Gorkom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Plijter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">N M</forename>
+    <surname>Duysens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">850</biblScope>
+   <biblScope unit="page" from="310" to="318" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">301</biblScope>
+   <biblScope unit="page" from="1" to="33" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Bottom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys . Acta</title>
+  <imprint>
+   <biblScope unit="volume">808</biblScope>
+   <biblScope unit="page" from="112" to="122" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Isr. J. Chem</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="316" to="320" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Fujita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Fajer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Am. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">100</biblScope>
+   <biblScope unit="page" from="6280" to="6282" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hervo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys . Acta</title>
+  <imprint>
+   <biblScope unit="volume">638</biblScope>
+   <biblScope unit="page" from="257" to="267" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bonnerjea</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C W</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">148</biblScope>
+   <biblScope unit="page" from="313" to="316" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>V~inngsrd</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">767</biblScope>
+   <biblScope unit="page" from="404" to="414" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Hoff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Q. Rev. Biophys</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="599" to="665" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">G</forename>
+    <surname>Boxer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E D</forename>
+    <surname>Chidsey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Roelofs</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Phys. Chem</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="389" to="417" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Hoff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photochem. Photobiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="727" to="745" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C W</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">K</forename>
+    <surname>Sihra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Bolton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cammack</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">256</biblScope>
+   <biblScope unit="page" from="668" to="670" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Mclntosh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Bolton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">430</biblScope>
+   <biblScope unit="page" from="555" to="559" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <monogr>
+  <title level="m" type="main">Reference deleted</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">P</forename>
+    <surname>Palace</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Franke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Warden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">215</biblScope>
+   <biblScope unit="page" from="58" to="62" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Tang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Norris</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Phys. Lett</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="136" to="140" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>S6tif</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Quaegebeur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">681</biblScope>
+   <biblScope unit="page" from="345" to="353" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Remy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="275" to="278" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E D</forename>
+    <surname>Chidsey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Takiff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Goldstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">G</forename>
+    <surname>Boxer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="6850" to="6854" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Schenck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mathis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lutz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photochem. Photobiol</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="407" to="417" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

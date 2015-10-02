@@ -1,0 +1,514 @@
+<TEI xml:id="istex-916C5973110CD2B364393C55261DF2215C3C49A4">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Quantitative model for the effects of stimulus frequency upon synchronization of auditory nerve discharges</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="361" to="364" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Properties of &quot;two-tone inhibition&quot; in primary auditory neurons</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Arthur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Suga</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond.)</title>
+  <imprint>
+   <biblScope unit="volume">212</biblScope>
+   <biblScope unit="page" from="593" to="609" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Band-pass nonlinearities</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">M</forename>
+    <surname>Blachman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Inform. Theory. IT</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="162" to="164" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Time structure of discharges in single auditory nerve fibers of the squirrel monkey in response to complex periodic sounds</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Brugge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Hind</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page">3861401</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">A description of the LINC</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Clark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Molnar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Computers in biomedical research</title>
+  <editor>Stacy, R. W., Waxman, B.D.</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">An algorithm for the machine calculation of complex Fourier series</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Cooley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Tukey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Math. Comp</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="297" to="301" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Physiology of hearing</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Eldredge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Rev. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="281" to="310" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Model for the nonlinear characteristics of cochlear potentials</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Engebretson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Eldredge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="548" to="554" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Time domain measurements in cochlear nonlinearities using combination click stimuli</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Goblick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page">9241938</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">A system of nonlinear differential equations modeling basilar-membrane motion</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">O</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Molnar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="1517" to="1529" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Interference and two-tone inhibition</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Legouix</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Remond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Greenbaum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="409" to="419" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Distortion compensating condenser earphone driver for physiological studies</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Molnar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Loeffel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1177" to="178" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">A model for two-tone inhibition of single cochlearnerve fibers</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="1373" to="1378" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Observations of the vibration of the basilar membrane in squirrel monkeys using the M6ssbauer technique</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Rhode</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="1218" to="1231" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Observations on phase sensitive neurons of anteroventral cochlear nucleus of the cat: nonlinearity of cochlear output</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Kitzes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Gibson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Hind</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="218" to="253" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Stimulus-response relation for auditory-nerve fibers: two-tone stimuli</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Sachs</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="1025" to="1036" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Two-tone inhibition in auditory nerve fibers</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Sachs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">Y S</forename>
+    <surname>Kiang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. acoust. Soc. Amer. Prof. R. M. Arthur Washington University Biomedical Engineering Program School of Eng. and Appl</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="issue">63130</biblScope>
+   <biblScope unit="page" from="1120" to="1128" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

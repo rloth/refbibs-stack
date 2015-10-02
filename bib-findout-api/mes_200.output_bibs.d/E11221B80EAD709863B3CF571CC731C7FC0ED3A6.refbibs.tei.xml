@@ -1,0 +1,1230 @@
+<TEI xml:id="istex-E11221B80EAD709863B3CF571CC731C7FC0ED3A6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">A quantitative study of the invertebrates of the River Tees below Cow Green Reservoir</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Armitage</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Biol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="222" to="240" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Trophic basis of production among net-spinning caddisflies in a southern Appalachian stream</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C J B</forename>
+    <surname>Benke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Wallace</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="108" to="118" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Comparisons of benthic invertebrates between riffles and pools</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V P P</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Brussock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">220</biblScope>
+   <biblScope unit="page" from="99" to="108" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Macroinvertebrate utilization of leaf detritus in a riffle of the Illinois River, Arkansas</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V J P</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ricker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. ark. Acad. Sci</title>
+  <meeting>. ark. Acad. Sci</meeting>
+  <imprint>
+   <date type="published" when="1982" />
+   <biblScope unit="page" from="49" to="51" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Trophic importance of zooplankton in streams with alluvial riffle and pool geomorphometry</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Limbeck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">M D</forename>
+    <surname>Schram</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Hydrobiol</title>
+  <imprint>
+   <biblScope unit="volume">114</biblScope>
+   <biblScope unit="page" from="349" to="367" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">A vacuum benthos sampler suitable for diverse habitats</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+    <surname>Schram</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">P P</forename>
+    <surname>Brussock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">135</biblScope>
+   <biblScope unit="page" from="65" to="70" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Channel form and stream ecosystem models</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">P</forename>
+    <surname>Brussock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">J C</forename>
+    <surname>Dixon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Wat. Res. Bull</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="859" to="867" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Leaf decomposition in an Ozark cave and spring</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">P</forename>
+    <surname>Brussock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Willis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">A V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Freshwat. Ecol</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="263" to="269" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Threshold of critical power in streams</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">B</forename>
+    <surname>Bull</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. geog. Soc. Am</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page" from="453" to="464" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Seasonal and longitudinal changes in invertebrate functional groups in the Dolores River</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P J W</forename>
+    <surname>Canton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chadwick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Colorado. Freshwat. Invert. Biol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="41" to="47" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Patterns of benthic invertebrate assemblages in rivers of northwestern North America</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Corkum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Biol</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="191" to="205" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Analysis of longitudinal zonation and the river continuum concept in the Oldman-South Sasketchewan River System</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M R W</forename>
+    <surname>Culp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Davies</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Fish. aquat. Sci</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="1258" to="1266" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Trophic relations of aquatic insects</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Rev. Ent</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="183" to="206" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">R C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Stream ecosystem theory</title>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="1818" to="1827" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Filter-feeding insect distribution and planktonic food in the Montreal River</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. am. Fish. Soc</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="216" to="219" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Longitudinal and seasonal changes in functional organization of macroinvertebrate communities in four Oregon streams</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P J R</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="387" to="397" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Community structure of Trichoptera in a mountain stream: spatial patterns of production and functional organization</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D J B</forename>
+    <surname>Huryn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Wallace</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Biol</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="141" to="155" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title level="m" type="main">The Ecology of Running Waters</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B N</forename>
+    <surname>Hynes</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970" />
+   <publisher>University of Toronto Press</publisher>
+   <biblScope unit="page">555</biblScope>
+   <pubPlace>Toronto, Canada</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Die Barbenregion mitteleuropischer Fliessgewasser</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Illies</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Verh. int. Ver. Limnol</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="834" to="844" />
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Problems et methodes de la classification et de la zonation ecologique des eaux courantes considerees surtout du point de vue faunistique</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Illies</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Botosaneanu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mitt. int. Ver. Limnol</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">57</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The temperature of a small stony stream</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">T</forename>
+    <surname>Macan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="89" to="106" />
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title level="m" type="main">Geographical ecology: Patterns in the distribution of species</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Macarthur</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <publisher>Harper &amp; Row, N.Y</publisher>
+   <biblScope unit="page">269</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Structure of benthic macroinvertebrate communities in a midwestern plains stream</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Macfarlane</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Invert. Biol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="147" to="153" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Microseston dynamics in a simple Sierra Nevada lake-stream system</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A M G</forename>
+    <surname>Maciolek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Tunzi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="69" to="75" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Fish faunal &apos;breaks&apos; and stream order in the eastern and central United States</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Matthews</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Envir. Biol. Fishes</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="81" to="92" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">An Introduction to the Aquatic Insects of North America</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W K W</forename>
+    <surname>Merritt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Kendall/Hunt Publishing Company</publisher>
+   <biblScope unit="page">722</biblScope>
+   <pubPlace>Dubuque, Iowa</pubPlace>
+  </imprint>
+ </monogr>
+ <note>2nd. ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Interbiome comparison of stream ecosystem dynamics</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>Bott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">R L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecol. Monogr</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="1" to="25" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Burns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">R L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Developments in stream ecosystem theory</title>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="1045" to="1054" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Longitudinal patterns of ecosystems processes and community structure in a subarctic river continuum</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Naiman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Melillo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Lock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Ford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">S R</forename>
+    <surname>Reice</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="1139" to="1156" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Ecoregions of the conterminous United States</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Omernik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Ass. Am. Geogr</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="118" to="125" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Abundance patterns of filter feeding caddisflies (Trichoptera: Hydropsychidae) and seston in a Montana (USA) lake outlet</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Oswood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="177" to="183" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">The role of disturbance theory in stream ecology</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Pennak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">H</forename>
+    <surname>Resh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Covich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Gurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">W</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Reice</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Sheldon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Wallace</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">R</forename>
+    <surname>Wissmar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Fresh-water Invertebrates of the United States</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="433" to="455" />
+  </imprint>
+ </monogr>
+ <note>2nd. ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Stream communities and terrestrial biomes</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Hydrobiol</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="235" to="242" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">The relation between &apos;hydraulic stress&apos; and microdistribution of benthic macroinvertebrates in a lowland running water system, the Schierenseebrooks (North Germany)</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Statzner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Hydrobiol</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page" from="192" to="218" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">A method to estimate the population size of benthic macroinvertebrates in streams</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Statzner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oecologia</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="157" to="161" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Questions and comments on the river continuum concept</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">B</forename>
+    <surname>Statzner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Higler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Fish. aquat. Sci</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="1038" to="1044" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Stream hydraulics as a major determinant of benthic invertebrate zonation patterns</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">B</forename>
+    <surname>Statzner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Higler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Biol</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="127" to="139" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Food quality and Hydropsychid caddisfly density in a lake outlet stream in Glacier National Park</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M J A</forename>
+    <surname>Valett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Stanford</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Fish. aquat. Sci</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="77" to="82" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">The river continuum concept</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">C E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Fish. aquat. Sci</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="130" to="137" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Downstream fate of zooplankton from a hypolimnial release reservoir</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+    <surname>Ward</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Verh. int. Ver. Limnol</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="1798" to="1804" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Are New Zealand stream ecosystems really different? New Zealand Mar</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Winterbourne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Rounick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">B</forename>
+    <surname>Cowie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwat. Res</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="321" to="328" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

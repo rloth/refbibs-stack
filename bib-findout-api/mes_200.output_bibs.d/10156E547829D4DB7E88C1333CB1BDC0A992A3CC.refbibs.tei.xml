@@ -1,0 +1,127 @@
+<TEI xml:id="istex-10156E547829D4DB7E88C1333CB1BDC0A992A3CC">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Dureh Sinnesphysiologisehe Stsrungen</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>gt. sieh die Agnosie nieht erkl~ren. Defekte oder funktionelle M~ngel augerhalb des macul~iren Sehens zeitigen prinzipiell nieht das Ph~inomen der optisehen Agnosie</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">Es wird vorgesehlagen, am optischen Wahrnehmungsakt zu unterscheiden 1</title>
+  <imprint/>
+ </monogr>
+ <note>Es. haben sieh keine Anhaltspunkte daftir gewinnen lassen, daft die Agnosie auf einem protopathisehen Gestaltwandel, auf einer 8. das. Gestaltsehen (= Gestaltwahrnehmung), 2. die Gestalterkennung und 3. die Dingauffassung. Bei der optischen Agnosie bringt die Nichterkennung der Objektgestalt zw~ngsl~ufig die St6rung der Dingauffassung mit sieh. Das Gestaltsehen dagegen diirfte intakt sein. Optische Agnosie ist nicht eine StSrung der Gestaltwahrnehmung, sondern des Erkennungsvorganges. Beitr~g zur Frage der optischen Agnosie</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Literatur</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <surname>Allesch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Agnosie und Funktionswandel</title>
+  <meeting><address><addrLine>Berlin, GSttingen, Heidelberg</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1939" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">-CIBIS: Graefes Arch --CONRAD: Dtsch --MCDOVGALL: Aufbaukr~fte der Seele</title>
+  <author>
+   <persName>
+    <surname>Nervenheilk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Stuttgart 1947. --DVBITSCHE~: Der Schwachsinn. Leipzig 1937. --EWALD : Lehrb. d. Neurologie u. Psychiatric Psychologische Analysen hirnpathologiseher Fi~lle. Leipzig 1920. --HAvG: Die StSrungen des PersSnlichkeitsbewul3tseins</title>
+  <meeting><address><addrLine>Berlin, Miinchen ; Stuttgart</addrLine></address></meeting>
+  <imprint>
+   <publisher>Allgemeine Psychopathologic</publisher>
+   <date type="published" when="1927" />
+   <biblScope unit="page" from="107" to="302398" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Heidelberg</forename>
+    <forename type="middle">1946</forename>
+    <surname>Berlin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jv~a</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1948" />
+   <biblScope unit="page">5192</biblScope>
+  </imprint>
+ </monogr>
+ <note>Arch</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">-1KiiLL]~R-SvvR: D~s Psychisch Abnorme --MU~K: ~ber die Funktion der GroBhirnrinde</title>
+  <author>
+   <persName>
+    <surname>Psychiatr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">-KLnmT: Gehirnpathologie. Leipzig Arch. f. Psychiatr. --SA~D~: zit. nach CONRAD. --SCg~LE~: Die Stellung des Menschen im Kosmos. Miinchen 1949. --SC~EL- L~: Nerven~rzt Medizinische Psychologic. Berlin Nervenarzt Arch. Neur</title>
+  <editor>Hdb. Neurologie VII). --PSTZL: Hdb. Psychiutr. v</editor>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="issue">67</biblScope>
+   <biblScope unit="page" from="353222" to="71" />
+   <date type="published" when="1890" />
+  </imprint>
+ </monogr>
+ <note>Seelenblindheit. . Wiesbaden 1887. --Dtsch. Z. Nervenheilk. 2</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

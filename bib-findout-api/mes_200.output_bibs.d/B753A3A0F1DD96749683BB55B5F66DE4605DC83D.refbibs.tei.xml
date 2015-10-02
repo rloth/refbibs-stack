@@ -1,0 +1,796 @@
+<TEI xml:id="istex-B753A3A0F1DD96749683BB55B5F66DE4605DC83D">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Clonal growth of mammalian cells in a chemically defined, synthetic medium</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1965" />
+   <biblScope unit="page" from="288" to="293" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Cultivation of animal cells in chemically defined media, a review</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Higuchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv. Appl. Microbiol</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="111" to="136" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Clonal growth of Chinese hamster cell lines in protein-free media</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">G</forename>
+    <surname>Hamilton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In Vitro</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="537" to="547" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Methods for growth of cultured cells in serum-free medium</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Barnes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">102</biblScope>
+   <biblScope unit="page" from="255" to="270" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Improved medium for clonal growth of human diploid fibroblasts at low concentrations of serum protein</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">L</forename>
+    <surname>Mckeehan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Mckeehan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Hammond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In Vitro</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="399" to="416" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Purification of the fibroblast growth factor activity from bovine brain</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gospodarowicz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Bialecki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Greenburg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">253</biblScope>
+   <biblScope unit="page" from="3736" to="3743" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Growth control by serum factors and hormones in mammalian cells in culture</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Paul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Ristow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">T</forename>
+    <surname>Rupnick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">O</forename>
+    <surname>Messmer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Soc. Dev. Biol</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="65" to="79" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">The growth of cells in serum-free hormone supplemented media</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bottenstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Hayashi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hutchings</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Masui</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mather</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Mcclure</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ohasa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rizzino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Serrero</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wolfe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Enzymol</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="94" to="109" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Growth of rat neuroblastoma cell line in serum-free supplemented medium</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bottenstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proe. Natl. Acad. Sci. USA</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="514" to="517" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Defined media and the determination of nutritional and hormonal requirements of mammalian cells in culture</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rizzino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Rizzino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nutr. Rev</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="369" to="378" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Growth of mouse 3T3 fibroblasts in serum-free, hormone-supplemented media</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Serrero</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Mcclure</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Hormones and cell culture</title>
+  <editor>Sato, G.H.</editor>
+  <editor>Ross, R</editor>
+  <imprint>
+   <date type="published" when="1979" />
+   <biblScope unit="page" from="523" to="530" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Clonal growth of human keratinocytes with small amounts of dialyzed serum</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Peehl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In Vitro</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="526" to="540" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Proteinfree medium for C-1300 mouse neuroblastoma cells</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Agy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Shipley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In Vitro</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="671" to="680" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Rapid clonat growth and serial passage of human diploid fibroblasts in a lipidenriched , synthetic medium supplemented with EGF, insulin and dexamethasone</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Bettger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">T</forename>
+    <surname>Boyce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Walthau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="5588" to="5592" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Improved medium and culture conditions for elonal growth with minimal serum protein and for enhanced serum-free survival of Swiss 3T3 cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Shipley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In Vitro</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="656" to="670" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Multiplication of human diploid fibroblasts in a synthetic medium supplemented with EGF, insulin, and dexamethasone</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Walthall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="volume">134</biblScope>
+   <biblScope unit="page" from="303" to="311" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Mutagenicity testing in mammalian cells II. Validation of multiple drug-resistance markers having practical application for screening potential mutagens</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Carver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Adair</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Wandres</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mutat. Res</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="207" to="230" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Mutagenicity testing in mammalian cells I. Derivation of a Chinese hamster ovary cell line heterozygous for the adenine phosphoribosyltransferase and thymidine kinase loci</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Adair</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Carver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Wandres</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mutat. Res</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="187" to="205" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Preparation of large quantities of synchronized mammalian cells in late G~ in the pre-DNA replicative phase of the cell cycle</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Tobey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">A</forename>
+    <surname>Crissman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="page" from="460" to="464" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">In situ detection of mycoplasma contamination in cell cultures by fluorescent Hoechst 33258 stain</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="volume">104</biblScope>
+   <biblScope unit="page" from="255" to="262" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Induction and expression of mutations at multiple drug resistance marker loci in Chinese hamster ovary cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Adair</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Carver</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Environ. Mutagen</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="161" to="175" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Two types of ribosome in mouse-hamster hybrid cells</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Stanner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Eliceiri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Green</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">230</biblScope>
+   <biblScope unit="page" from="52" to="54" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Isolation of mutants of cultured mammalian cells</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">H</forename>
+    <surname>Thompson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Baker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in cell biology</title>
+  <editor>D.M. Prescott</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page" from="209" to="28" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Shipley for guidance and review of the manuscript. Dr. B. Casto kindly provided unpublished observations regarding the use of BSA</title>
+  <author>
+   <persName>
+    <forename type="middle">R G</forename>
+    <surname>The Authors Thank Drs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Ham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">This work was performed under the auspices of the U.S. Department of Energy by the Lawrence Livermore National Laboratory under Contract W-7405-ENG-48 and supported by the Environmental Protection Agency under Interagency Agreements IAG-D5-E681-AN and AO</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,49 @@
+<TEI xml:id="istex-5D6C023543E059E890342DB69AC6FD1FA5EE00B1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Original owned by</title>
+  <author>
+   <persName>
+    <forename type="first">Anselm</forename>
+    <surname>Jenger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Iliittenbrenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Schubert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Joseph</forename>
+    <surname>Crayon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Teltscher</surname>
+   </persName>
+  </author>
+  <editor>Frau Ida v. Schweitzer.</editor>
+  <imprint>
+   <date type="published" when="1827" />
+   <publisher>After Otto Erich Deutsch</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

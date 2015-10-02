@@ -1,0 +1,1151 @@
+<TEI xml:id="istex-69AD366DD82264D48DC671C234AA7089D1609E88">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The determination of slippage of drifters and the leeway of search and rescue targets using Interocean S4 EMCMs</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Allen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the IEEE Current Meter Conference</title>
+  <meeting>the IEEE Current Meter Conference</meeting>
+  <imprint>
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Physical oceanography of the Middle Atlantic Bight</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">C</forename>
+    <surname>Boicourt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">V</forename>
+    <surname>Hansen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Middle Atlantic Continental Shelf and the New York Bight, Special Symposium Limnology and Oceanography</title>
+  <editor>Grant Gross, M.</editor>
+  <meeting><address><addrLine>Lawrence, Kansas</addrLine></address></meeting>
+  <imprint>
+   <publisher>Allen Press</publisher>
+   <date type="published" when="1976" />
+   <biblScope unit="page">441</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The Nantucket Shoals Flux Experiment (NSFE79). Part I: A basic description of the current and temperature variability</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Chapman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">H</forename>
+    <surname>Brink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Ramp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schlitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Physical Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="713" to="748" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">Random Data</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Bendat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+    <surname>Piersol</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <publisher>Wiley</publisher>
+   <biblScope unit="page">566</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Long-term observations on the southern #ank of Georges Bank. Part I: A description of the seasonal cycle of currents, temperature, strati&quot;cation, and wind stress</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Butman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Physical Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="367" to="384" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Recent observations of the mean circulation on Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Butman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Magnell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Frye</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Vermersch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schlitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Limeburner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Noble</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Physical Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="569" to="591" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The seasonal mean circulation: observation and theory</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Butman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Loder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Georges Bank</title>
+  <editor>Backus, R.H., Bourne, D.W.</editor>
+  <meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+  <imprint>
+   <publisher>MIT Press</publisher>
+   <date type="published" when="1987" />
+   <biblScope unit="page">593</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Transport of Middle Atlantic Bight shelf water to the Gulf Stream near Cape Hatteras</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Churchill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Berger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page" from="30605" to="30621" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Horizontal convergence and dispersion over the southern #ank of Georges Bank, ICES CM</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Churchill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Manning</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <biblScope unit="page">31</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Possible factors responsible for the variable recruitment of the 1981, 1982, and 1983 year-classes of haddock (Melanogrammus aeglexnus L.) on Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">B</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Mountain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Lough</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Northwest Atlantic Fisheries Organization, SRC. Document</title>
+  <imprint>
+   <biblScope unit="volume">86110</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Statistics for Spatial Data</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">A C</forename>
+    <surname>Cressie</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>Wiley</publisher>
+   <biblScope unit="page">900</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">N</forename>
+    <surname>Flagg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The kinematics and dynamics of the New England Continental Shelf and shelf</title>
+  <meeting><address><addrLine>Woods Hole, MA</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page">208</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Hydrographic structure and variability</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">N</forename>
+    <surname>Flagg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Georges Bank</title>
+  <editor>Backus, R.H., Bourne, D.W.</editor>
+  <meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+  <imprint>
+   <publisher>MIT Press</publisher>
+   <date type="published" when="1987" />
+   <biblScope unit="page">593</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">) data report, Part II: The moored array</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">N</forename>
+    <surname>Flagg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Vermersch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">MIT New England Shelf Dynamics Experiment</title>
+  <imprint>
+   <publisher>Massachusetts Institute of Technology</publisher>
+   <biblScope unit="page">22</biblScope>
+   <date type="published" when="1974-03" />
+   <publisher>Massachusetts Institute of Technology</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">The morphology of shelfbreak eddies</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Garvine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K.-C</forename>
+    <surname>Wong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">G</forename>
+    <surname>Gawarkiewicz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Mccarthy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Houghton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Iii</forename>
+    <surname>Aikman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="15593" to="15607" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Field calibration of mixed-layer drifters</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Geyer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Atmospheric and Ocean Technology</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="333" to="342" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Spatial and temporal structure of the barotropic response of the Scotian Shelf and Gulf of Maine to surface wind stress: a model-based study</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Greenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Loder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Shen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Lynch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Naimie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">102</biblScope>
+   <biblScope unit="page" from="20897" to="20915" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">The Middle Atlantic Cold Pool: evolution of the temperature structure during summer 1979</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Houghton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schlitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Butman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Chamberlin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Physical Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="1019" to="1029" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Atlantic herring stock discreteness and abundance</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Iles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Sinclair</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">215</biblScope>
+   <biblScope unit="page" from="627" to="633" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Small-scale cyclones on the periphery of a Gulf Stream warm-core ring</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Kennelly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Joyce</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page" from="8845" to="8857" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">The distribution and abundance of larval &quot;shes in shelf water entrained by warm-core ring 82-B</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Leblanc</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Thesis</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page">143</biblScope>
+   <pubPlace>South Dartmouth, MA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Near-surface recirculation over Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Limeburner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Research II</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1547" to="1574" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">A climatology of the shelfbreak front in the Middle Atlantic Bight</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Linder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">G</forename>
+    <surname>Gawarkiewicz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page" from="18405" to="18423" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Assessment of Georges Bank recirculation from Eulerian current observations in the Great South Channel</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Manning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Research II</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1575" to="1600" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">The e!ect of a slope water intrusion and shelfbreak jet on larval advection along the southern #ank of Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Manning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Lough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Naimie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Churchill</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ICES Journal of Marine Science</title>
+  <imprint>
+   <biblScope unit="page" from="115" to="135" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title level="m" type="main">Georges Bank Winds: 1975}1997. Deep-Sea Research II</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Manning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Strout</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2001" />
+   <biblScope unit="page" from="115" to="135" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Transport of bottom water in the Romanche Fracture Zone and the Chain Fracture Zone</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Mercier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">G</forename>
+    <surname>Speer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Physical Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="779" to="790" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Wind-current coupling on the southern #ank of Georges Bank: variation with season and frequency</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Moody</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Butman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Daifuku</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Irish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Mayer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">O</forename>
+    <surname>Mofjeld</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Petrie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ramp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Atlas of Tidal Elevation and Current Observations on the Northeast American Continental Shelf and Slope</title>
+  <meeting><address><addrLine>Woods Hole, MA</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="604" to="620" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Diagnosing a meander of the shelfbreak current in the Middle Atlantic Bight</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Pickart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Torres</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Mckee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Caruso</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Przystup</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">104</biblScope>
+   <biblScope unit="page" from="3121" to="3132" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <monogr>
+  <title level="m" type="main">The interaction of warm core rings with the shelf water and shelf/slope front south of New England</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Ramp</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <publisher>Ph.D. Dissertation, University of Rhode Island</publisher>
+   <biblScope unit="page">137</biblScope>
+   <pubPlace>Kingston, Rhode Island</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Moored observations of current and temperature on the shelf and upper slope near ring 82B</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Ramp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page" from="18071" to="18087" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">The interaction of shelf water with warm-core rings</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Schlitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Geophysical Research</title>
+  <imprint>
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">A nitrogen budget for the Gulf of Maine and Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Schlitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">B</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biological Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="203" to="222" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <monogr>
+  <title level="m" type="main">Surface and bottom boundary layer dynamics on a shallow submarine bank: southern #ank of Georges Bank</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Werner</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1999" />
+   <biblScope unit="page" from="99" to="13" />
+   <pubPlace>Woods Hole, Massachusetts, MA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

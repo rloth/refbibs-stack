@@ -1,0 +1,2006 @@
+<TEI xml:id="istex-FD43761E8AB93DD9282121369244FF23D9BE5404">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Direction and orientation selectivity of neurons in visual area MT of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Albright</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page" from="1106" to="1130" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">A representation ofthe visual field in the caudal third of the middle temporal gyrus of the owl monkey (Aotus trzuirgatus)</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Allman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="85" to="105" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The organization of the second visual area (VII) in the owl monkey: A second order transformation of the visual hemifield</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Allman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="247" to="265" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Visual response properties of neurons in four extrastriate visual areas of the owl monkey (Aotus triuirgatus): A quantitative comparison of medial, dorsomedial , dorsolateral, and middle temporal areas</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Baker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Allman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="page" from="45397" to="416" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">The Neocortex of Macaca Mulatta</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bonin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Von</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Bailey</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1947" />
+   <publisher>University of Illinois Press</publisher>
+   <pubPlace>Urbana</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Visual topography of area TEO in macaques</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Boussaoud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">202</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Pathways for motion analysis: Cortical connections of the medial superior temporal and fundus of the superior temporal visual areas in the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Boussaoud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">296</biblScope>
+   <biblScope unit="page" from="462" to="495" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Processing of color, form and disparity information in visual areas VP and V2 of ventral extraetriate cortex in the macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Burkhalter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="2327" to="2351" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Anatomical and physiological asymmetries related to visual areas V3 and W in macaque extrastriate cortex</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Burkhalter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Felleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vision Res</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="63" to="80" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Effects of foveal prestriate and inferotemporal lesions on visual discrimination by rhesus monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cowey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain. Res</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="128" to="144" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Visual behavior in monkeys with inferotemporal lesions</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Dean</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Analysis of Visual Behavior</title>
+  <editor>D.J. Ingle, M.A. Goodale, and R.J.W. Mansfield</editor>
+  <meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+  <imprint>
+   <publisher>MIT Press</publisher>
+   <date type="published" when="1982" />
+   <biblScope unit="page" from="587" to="628" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Visual arcas in the temporal cortex of&apos; the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">178</biblScope>
+   <biblScope unit="page" from="363" to="380" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Visual propcities of neurons in area V4 of the macaque: Sensitivity to stimulus form</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Schein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="835" to="868" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Multiple visual areas in the caudal superior temporal sulcus of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">248</biblScope>
+   <biblScope unit="page" from="164" to="189" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">Neural mechanisms or visual processing in monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <editor>F. Boiler and J. Grafman</editor>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>Handbook of Neuropsychology Elsevier</publisher>
+   <biblScope unit="page" from="267" to="299" />
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Prestriate alfcrents to inferior temporal cortex: An HRP study</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Fleming</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">184</biblScope>
+   <biblScope unit="page" from="41" to="55" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Stimulus selective properties of inferior temporal neurons in the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Albright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Bruce</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="page" from="4" to="2051" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Contour, color and shape analysis beyond the striate cortex</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Schein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Moran</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vision Res</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="441" to="452" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Receptive field properties of neurons in the middle temporal visual area (MT) of owl monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Felleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="page" from="52" to="488" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Multiple topographic and non-topographic subdivisions of the temporal lobe revealed by the connections of area V4 in macaques</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Felleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Knierim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">1182</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Two topographically organized visual areas in ventral extrastriate cortex of the macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Felleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Deyoe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page">1246</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Organization and neuronal properties ofvisual area TEO</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Fenstemaker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Albright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Merent connections of macaque visual areas V4 and TEO</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Fenstemaker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R</forename>
+    <surname>Olson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Invest. Ophthal. Visual Sci</title>
+  <imprint>
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+ <note>Suppl. .) 25.213</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Visual ,area MT in the Cebus monkey: Location, visuotopic organization, and variability</title>
+  <author>
+   <persName>
+    <forename type="first">Jr</forename>
+    <surname>Fiorani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gattass</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G P</forename>
+    <surname>Rosa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P B</forename>
+    <surname>Sousa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="page" from="287" to="98" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Silver staining of myelin by means of physical development</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Gallyas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neurol. Res</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="903" to="209" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Visual topography of striate projection zone (MT) in posterior superior temporal sulcus of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gattass</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="621" to="638" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Visual topography of V2 in the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gattass</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Sandell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">201</biblScope>
+   <biblScope unit="page" from="519" to="539" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Visuotopic organization and extent of V3 and V4 of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gati</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P B</forename>
+    <surname>Sousa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="1831" to="1856" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Visual functions of inferotemporal cortex</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbook of Sensory Physiology</title>
+  <editor>R. Jung</editor>
+  <meeting><address><addrLine>Berlin</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1973" />
+   <biblScope unit="page">451482</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Visual properties of neurons in inferotemporal cortex of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Rocha-Miranda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Bender</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="9" to="111" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Two visual foci in the temporal lobe of monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Iwai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Neurophysiological I3asis of Learning and Behavior</title>
+  <editor>N. Yoshii and N.A. Buchwald</editor>
+  <meeting><address><addrLine>Osaka</addrLine></address></meeting>
+  <imprint>
+   <publisher>Osaka University Press</publisher>
+   <date type="published" when="1968" />
+   <biblScope unit="page" from="1" to="8" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Further evidence on the locus of the visual area in the temporal lobe of the monkey</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Iwai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="585" to="594" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Organization of the callosal connections of visual areas V1 and V2 in the macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kennedy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Dehay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bullier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page">398415</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">The locus of the posterior subdivision of the inferotemporal visual learning area in the monkey</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Kikuchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Iwai</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="page" from="198" to="347" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Occipitotemporal corticocortical connections in the rhesus monkey</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G J M</forename>
+    <surname>Kuypers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">K</forename>
+    <surname>Szwarcbart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">E</forename>
+    <surname>Rosvold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Neurol</title>
+  <imprint>
+   <biblScope unit="page" from="11245" to="262" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Metabolic mapping of higher-order visual areas in the monkey</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Macko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Brain Imaging and Brain Function</title>
+  <editor>L. Sokoloff</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Raven Press</publisher>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="73" to="86" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Visuotopic organization of the prelunate gyrus in rhesus monkey</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+    <surname>Maguire</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Baizer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="page" from="4" to="1690" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Functional properties of neurons in middle temporal visual area of the macaque monkey. I. Selectivity for stimulus direction, speed, and orientation</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="1127" to="1147" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Functional properties of neurons in the middle temporal visual area of the macaque monkey. 11. Binocular interactions and sensitivity to binocular disparity</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="page" from="49" to="1148" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">The connections of the middle temporal visual area (MT) and their relationship to a cortical hierarchy in the macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="2563" to="2586" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">A memory system in the monkey</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Trans. R. SOC. Lond. B</title>
+  <imprint>
+   <biblScope unit="volume">298</biblScope>
+   <biblScope unit="page" from="85" to="95" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Object vision and spatial vision: Two cortical pathways</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Macko</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="414" to="417" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <monogr>
+  <title level="m" type="main">Interhemispheric connections of visual cortex in the owl monkey Aotus triuirgatus, and the bushbaby</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Allman</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="194" to="209" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Ventral posterior visual area of the macaque: Visual topography and areal boundaries</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">252</biblScope>
+   <biblScope unit="page" from="139" to="153" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">Shape recognition and inferior temporal neurons</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Albright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="8035776" to="5778" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Afferent cortical connections and architectonics of the superior temporal sulcus and surrounding cortex in the rhesus monkey</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Seltzer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">N</forename>
+    <surname>Pandya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">149</biblScope>
+   <biblScope unit="page">24</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Experimental-anatomical studies on the &quot; middle temporal visual area (MT) &quot; in primates. I. Efferent corticocortical connections in the marmoset Callithrix jacchus</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">B</forename>
+    <surname>Spatz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Tigges</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">146</biblScope>
+   <biblScope unit="page">451464</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Evidence for the sequential participation of inferior temporal cortex and amygdala in the acquisition of stimulus-reward associations</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Spiegler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behav. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="303" to="317" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">The inferior temporal cortex of the macaque monkey. 1. Regional difference in response properties of cells</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tanaka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Fukada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Fukumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Saito</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page">627</biblScope>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Projections to the superior temporal sulcus from the central and peripheral field representations of V1 and V2</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">248</biblScope>
+   <biblScope unit="page" from="147" to="163" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Cortical projections of visual area MT in the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">248</biblScope>
+   <biblScope unit="page" from="190" to="222" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">The striate projection zone in the superior temporal sulcus of Macaca mulatta: Location and topographic organization</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">188</biblScope>
+   <biblScope unit="page" from="347" to="366" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <monogr>
+  <title level="m" type="main">Two cortical visual systems Analysis of Visual Behavior</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+  <editor>D.J. Ingle, M.A. Goodale, and R.J.W. Mansfield</editor>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>MIT Press</publisher>
+   <biblScope unit="page" from="549" to="586" />
+   <pubPlace>Cambridge</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Asymmetry of central and peripheral field inputs from area V4 into the temporal and parietal lobes of the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Desimone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Moran</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">Projections of area V2 in the macaque</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G</forename>
+    <surname>Ungerleider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gattass</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P B</forename>
+    <surname>Sousa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mishkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SOC. Neurosci. Abstr</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page">152</biblScope>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">The topographic organization of rhesus monkey prestriate cortex</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond.)</title>
+  <imprint>
+   <biblScope unit="page" from="277" to="193" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">The middle temporal visual area in the macaque: Myeloarchitecture, connections, functional properties and topographic organization</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Bixby</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">199</biblScope>
+   <biblScope unit="page" from="293" to="326" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">The pattern of interhemispheric connections and its relationship to extrastriate visual areas in the macaque monkey</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Bixby</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="page" from="2265" to="283" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title level="a" type="main">The projections from striate cortex (V1) to areas V2 and V3 in the macaque monkey: Asymmetries, areal boundaries, and patchy connections</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Van Essen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Newsome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H R</forename>
+    <surname>Maunsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Bixby</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="page" from="244" to="451" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <analytic>
+  <title level="a" type="main">Cortical projections of the dorsolateral visual area in owl monkeys: The prestriate relay to inferior temporal cortex</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Weller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">234</biblScope>
+   <biblScope unit="page" from="35" to="59" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">Subdivisions and connections of inferior temporal cortex in owl monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Weller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kaas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">256</biblScope>
+   <biblScope unit="page" from="137" to="172" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">Interhemispheric connections of prestriate cortex in monkey</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="63" to="75" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">Colour coding in rhesus monkey prestriate cortex</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page">422427</biblScope>
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Functional organization of a visual area in the posterior bank of the superior temporal sulcus of the rhesus monkey</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond.)</title>
+  <imprint>
+   <biblScope unit="volume">236</biblScope>
+   <biblScope unit="page" from="549" to="573" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">Uniformity and diversity of structure and function in rhesus monkey prestriate visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond.)</title>
+  <imprint>
+   <biblScope unit="volume">277</biblScope>
+   <biblScope unit="page" from="273" to="290" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <monogr>
+  <title level="m" type="main">Colour coding in the cerebral cortex: The responses of wavelength-selective and colour-coded cells in monkey visual cortex to changes in wavelength composition. Neurosci</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="9" to="767" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title level="a" type="main">Combined anatomical and electrophysiological studies on the boundary between the second and third visual areas of rhesus monkey cortex</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Zeki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Sandeman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. R. SOC. B</title>
+  <imprint>
+   <biblScope unit="volume">194</biblScope>
+   <biblScope unit="page" from="555" to="562" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

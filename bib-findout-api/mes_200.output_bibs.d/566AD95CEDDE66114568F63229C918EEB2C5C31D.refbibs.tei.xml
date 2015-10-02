@@ -1,0 +1,498 @@
+<TEI xml:id="istex-566AD95CEDDE66114568F63229C918EEB2C5C31D">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Parenting Stress Index (3rd edn) Odessa, FL: Psychological Assessment Resource American Educational Research Association American Psychological Association, and National Council on Measurement in Education Standards for educational and psychological testing. Washington, DC: Author. American Psychiatric Association Diagnostic and statistical manual of mental disorders</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Abidin</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>American Psychiatric Association</publisher>
+   <pubPlace>Washington, DC</pubPlace>
+  </imprint>
+ </monogr>
+ <note>4th. edn, text rev.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Behavior problems and parenting stress in families of three-year-old children with and without developmental delays</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Baker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Blacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Crnic</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Edelbrock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal on Mental Retardation</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="433" to="444" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Applications of item response theory to practical testing problems</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Lord</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <publisher>Lawrence Erl- baum</publisher>
+   <pubPlace>Hillsdale, NJ</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Analyzing psychopathology items: A case for nonparametric item response theory modeling</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Meijer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Baneke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychological Methods</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="354" to="368" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Nonparametric models for polytomous responses</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">W</forename>
+    <surname>Molenaar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbook of modern item response theory</title>
+  <editor>L. Hambleton</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1997" />
+   <biblScope unit="page" from="369" to="380" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Nursing research: Principles and methods (7th edn)</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Polit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Beck</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2004" />
+   <publisher>Lippincott Williams and Wilkins</publisher>
+   <pubPlace>Philadelphia</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The content validity index: Are you sure you know what&apos;s being reported?</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Polit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Beck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Critique and recommendations Research in Nursing and Health</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="489" to="497" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">TESTGRAF: A computer program for nonparametric analysis of testing data</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">O</forename>
+    <surname>Ramsay</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">A critical evaluation of the Parenting Stress Index-Short Form (PSI-SF) in a Head Start population</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Reitman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">O</forename>
+    <surname>Currier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Stickle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Clinical Child and Adolescent Psychology</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="384" to="392" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">In search of underlying dimensions: The use (and abuse) of factor analysis in</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Russell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Personality and Social Psychology Bulletin. Personality and Social Psychology Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="1629" to="1646" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">ADI-R: The Autism Diagnostic Interview-Revised</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rutter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Couteur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lord</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2003" />
+   <publisher>Western Psychological Services</publisher>
+   <pubPlace>Los Angeles, CA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Nonparametric item analyses of the Beck Depression Inventory: Examining item bias and response option weights in clinical and non-clinical samples</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Santor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">O</forename>
+    <surname>Ramsay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Zuroff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychological Assessment</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="255" to="270" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Examining scale discriminability in the BDI and CES-D as a function of depressive severity</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Santor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Zuroff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">O</forename>
+    <surname>Ramsay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cervantes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Palacios</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychological Assessment</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="131" to="139" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">The Childhood Autism Rating Scale</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Schopler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Reichler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">R</forename>
+    <surname>Renner</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <publisher>Western Psychological Services</publisher>
+   <pubPlace>Los Angeles, CA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">The relationship between behaviors exhibited by children with autism and maternal stress</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Tomanik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Intellectual and Developmental Disability</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="16" to="26" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title level="m" type="main">Measurement in nursing and health research</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">F</forename>
+    <surname>Waltz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">L</forename>
+    <surname>Strickland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Lenz</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>Springer</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+ <note>3rd. edn)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Hardiness and social support as predictors of stress in mothers of typical children, children with autism, and children with mental retardation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Weiss</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Autism</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="115" to="130" />
+   <date type="published" when="2002-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

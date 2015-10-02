@@ -1,0 +1,526 @@
+<TEI xml:id="istex-FE320864D84571CE7B6817EFF8CD70483497423A">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Inhibition of antigen-antibody reactioas</title>
+  <author>
+   <persName>
+    <forename type="first">Atceley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bhagavan</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Effect of ionic by aminocarboxylic acids</title>
+  <author>
+   <persName>
+    <forename type="first">Atchley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Bhagavan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Masouredis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">138</biblScope>
+   <biblScope unit="page" from="528" to="529" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Clin. Res. Proc</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">111</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Influence of ionic strength on the reaction between anti-D and D positive red cells</title>
+  <author>
+   <persName>
+    <forename type="first">Atchley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Bhagavan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Masouredis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">The electrophoretic properties of red blood cells: The effect of changing pH and ionic strength</title>
+  <author>
+   <persName>
+    <forename type="first">Bateman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Zellner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page" from="4" to="4" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Preservation of blood transfusions by freezing with dimethylsulfoxide and a novel washing technique (abstract)</title>
+  <author>
+   <persName>
+    <forename type="first">Huggins</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Amer. Surg. SOC</title>
+  <imprint>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The effect of pH and ionic strength on the reaction between anti-D and erythrocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Hughes-Jones</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">C</forename>
+    <surname>Gardner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Brigitte</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Telford</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rachel</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunol</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page">72</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Red cell aggregation in dextrose solutions</title>
+  <author>
+   <persName>
+    <forename type="first">Jones</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Kilpatrick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Franks</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. clin. Path</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page">161</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Thermodynamics</title>
+  <author>
+   <persName>
+    <forename type="first">Lewis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Randall</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1923" />
+   <publisher>McGraw-Hill Book Co., Inc</publisher>
+   <biblScope unit="page" from="373" to="374" />
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Reaction of 1-131 anti-Rh,(D) with enzyme treated red cells</title>
+  <author>
+   <persName>
+    <forename type="first">Masouredis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transfusion</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">363</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Physico-chemical study of hemagglutination (abstract)</title>
+  <author>
+   <persName>
+    <forename type="first">Pollack</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Toren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hager</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">AABB Annual Meeting</title>
+  <meeting><address><addrLine>Memphis</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Inhibition of the C&apos; 1 component of complement by amino acids</title>
+  <author>
+   <persName>
+    <forename type="first">Taylor</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">B</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fudenberg</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunol</title>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Studies of gas and electrolyte equilibria in blood. VII. The distribution of hydrogen, chloride, and bicarbonate ions in oxygenated and reduced blood</title>
+  <author>
+   <persName>
+    <forename type="first">Van</forename>
+    <surname>Slyke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">D</forename>
+    <surname>Hastings</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Baird</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Murray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sendroy</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page">701</biblScope>
+   <date type="published" when="1925" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">The effect of electrolytes on the Rh agglutination reaction</title>
+  <author>
+   <persName>
+    <forename type="first">Walsh</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med. J. Austr</title>
+  <imprint>
+   <biblScope unit="volume">I</biblScope>
+   <biblScope unit="page">793</biblScope>
+   <date type="published" when="1948" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Margaret</forename>
+    <surname>Elliot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Edith</forename>
+    <surname>Nossom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mary</forename>
+    <forename type="middle">Edith</forename>
+    <surname>Dupuy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Masouredis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ppt. of Med. Cancer Res. Inst</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+  </imprint>
+ </monogr>
+ <note>C. a l i f . (USA)</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

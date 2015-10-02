@@ -1,0 +1,1563 @@
+<TEI xml:id="istex-3D89184DC82BBE4663624A1855203AAAA5F3C96B">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Coupling cAMP signaling to transcription in the liver: pivotal role of CREB and CREM</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Servillo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Della</forename>
+    <surname>Fazia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Sassone-Corsi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp Cell Res</title>
+  <imprint>
+   <biblScope unit="volume">275</biblScope>
+   <biblScope unit="page" from="143" to="54" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">CREB controls hepatic lipid metabolism through nuclear hormone receptor PPAR-gamma</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Herzig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hedrick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Morantte</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">426</biblScope>
+   <biblScope unit="page" from="190" to="3" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">CREB regulates hepatic gluconeogenesis through the coactivator PGC-1</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Herzig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Long</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Us</forename>
+    <surname>Jhala</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">413</biblScope>
+   <biblScope unit="page" from="179" to="83" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Cytokines increase CRE binding but decrease CRE-mediated reporter activity in rat hepatocytes by increasing c-Jun</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Perpetua</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="1343" to="52" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Transcriptional regulation by the phosphorylationdependent factor CREB</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Mayr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Montminy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat Rev Mol Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="599" to="609" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The CREB/ATF family of transcription factors: modulation by reversible phosphorylation</title>
+  <author>
+   <persName>
+    <forename type="first">Ag</forename>
+    <surname>Papavassiliou</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anticancer Res</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="1801" to="5" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Influence of mutations in the hepatitis B virus genome on virus replication and drug resistance—implications for novel antiviral strategies</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Tacke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Manns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Trautwein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Curr Med Chem</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="2667" to="77" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">The hepatitis B virus and common mutants</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Locarnini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mcmillan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bartholomeusz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semin Liver Dis</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="5" to="20" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">A preS mutation isolated from a patient with chronic hepatitis B infection leads to virus retention and misassembly</title>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Tillmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hj</forename>
+    <surname>Maschek</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page" from="1976" to="82" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus mutations in the pre-S genome before and after liver transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Trautwein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Schrem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Tillmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="482" to="8" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Complex HBV populations with mutations in core promoter, C gene, and pre-S region are associated with development of cirrhosis in long-term renal transplant recipients</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Preikschat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gunther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Reinhold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="466" to="77" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Prevalence and significance of hepatitis B virus (HBV) pre-S mutants in serum and liver at different replicative stages of chronic HBV infection</title>
+  <author>
+   <persName>
+    <forename type="first">Yf</forename>
+    <surname>Fan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cc</forename>
+    <surname>Lu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wc</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="277" to="86" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus envelope variation after transplantation with and without hepatitis B immune globulin prophylaxis</title>
+  <author>
+   <persName>
+    <forename type="first">Wf</forename>
+    <surname>Carman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Trautwein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fj</forename>
+    <surname>Van Deursen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="489" to="93" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">A dominant hepatitis B virus population defective in virus secretion because of several S-gene mutations from a patient with fulminant hepatitis</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kalinina</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Riu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Fischer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="385" to="94" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Influence of hepatitis B virus genotypes on the development of preS deletions and advanced liver disease</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Sugauchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ohno</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Orito</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Med Virol</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="537" to="44" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Non-sequencing molecular approaches to identify preS2-defective hepatitis B virus variants proved to be associated with severe liver diseases</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Raimondo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Costantino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Caccamo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Hepatol</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="515" to="9" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The pre-S region determines the intracellular localization and appearance of hepatitis B virus</title>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Tillmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Manns</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="517" to="25" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Infection process of the hepatitis B virus depends on the presence of a defined sequence in the pre-S1 domain</title>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Seyec</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Chouteau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cannie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page" from="2052" to="7" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Role of the pre-S2 domain of the large envelope protein in hepatitis B virus assembly and infectivity</title>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Seyec</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Chouteau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cannie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="5573" to="8" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Two control elements in the hepatitis B virus S-promoter are important for full promoter activity mediated by CCAATbinding factor</title>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kubicka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Manns</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hepatology</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="1236" to="47" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Transcriptional control of hepatitis B virus</title>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Raney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Mol Med</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="303" to="14" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Regulation of transcription from the hepatitis B virus major surface antigen promoter by the Sp1 transcription factor</title>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Raney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hb</forename>
+    <surname>Le</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mclachlan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="6912" to="21" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Complex regulation of transcription from the hepatitis B virus major surface antigen promoter in human hepatoma cell lines</title>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Raney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dr</forename>
+    <surname>Milich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mclachlan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="4805" to="11" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">High affinity binding site for nuclear factor I next to the hepatitis B virus S gene promoter</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Shaul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ben</forename>
+    <surname>Levy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Medina</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">EMBO J</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="1967" to="71" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Identification and chemical synthesis of a host cell receptor binding site on hepatitis B virus</title>
+  <author>
+   <persName>
+    <forename type="first">Ar</forename>
+    <surname>Neurath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sb</forename>
+    <surname>Kent</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Strick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="429" to="36" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">The earliest steps in hepatitis B virus infection</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Paran</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Shaul</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim Biophys Acta</title>
+  <imprint>
+   <biblScope unit="volume">1614</biblScope>
+   <biblScope unit="page" from="89" to="96" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Infectious hepatitis B virus variant defective in pre-S2 protein expression in a chronic carrier</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fernholz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pr</forename>
+    <surname>Galle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Stemler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Virology</title>
+  <imprint>
+   <biblScope unit="volume">194</biblScope>
+   <biblScope unit="page" from="137" to="48" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus genomes that cannot synthesize pre-S2 proteins occur frequently and as dominant virus populations in chronic carriers in Italy</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Santantonio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Jung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schneider</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Virology</title>
+  <imprint>
+   <biblScope unit="volume">188</biblScope>
+   <biblScope unit="page" from="948" to="52" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus biology</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Seeger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ws</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microbiol Mol Biol Rev</title>
+  <imprint>
+   <biblScope unit="volume">64</biblScope>
+   <biblScope unit="page" from="51" to="68" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus infection</title>
+  <author>
+   <persName>
+    <forename type="first">Wm</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">337</biblScope>
+   <biblScope unit="page" from="1733" to="45" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Selection of hepatitis B virus polymerase mutants with enhanced replication by lamivudine treatment after liver transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Tillmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Torresi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">122</biblScope>
+   <biblScope unit="page" from="264" to="73" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Quantification of hepatic thrombopoietin mRNA transcripts in patients with chronic liver diseases shows maintained gene expression in different etiologies of liver cirrhosis</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Tacke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Trautwein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Liver</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="205" to="12" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Basal core promoter and precore mutations in the hepatitis B virus genome enhance replication efficacy of lamivudine-resistant mutants</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Tacke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Gehrke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Luedde</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">78</biblScope>
+   <biblScope unit="page" from="8524" to="35" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Expression of inducible Bcl-X(S) in myeloid leukemia: compensatory upregulation of Bcl-X(L) and Bcl-2 prevents apoptosis and chemosensitization</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Tacke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fc</forename>
+    <surname>Marini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Iii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Biol Ther</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="340" to="7" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Analysis of factors contributing to higher erythropoietin levels in patients with chronic liver disease</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Tacke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Schoffski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Luedde</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Scand J Gastroenterol</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="259" to="66" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Relevance of hepatitis B core gene deletions in patients after kidney transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Buerke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Tillmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">124</biblScope>
+   <biblScope unit="page" from="1809" to="20" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">The human caspase-8 promoter sustains basal activity through SP1 and ETS-like transcription factors and can be up-regulated by a p53-dependent mechanism</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Liedtke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Groger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Manns</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Biol Chem</title>
+  <imprint>
+   <biblScope unit="volume">278</biblScope>
+   <biblScope unit="page" from="27593" to="604" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Ras adenoviruses modulate cyclin E protein expression and DNA synthesis after partial hepatectomy</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ludde</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kubicka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Plumpe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oncogene</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="5264" to="78" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Niehof</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Manns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Trautwein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="3600" to="13" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Hepatitis B virus (HBV) promoters are regulated by the HBV enhancer in a tissue-specific manner</title>
+  <author>
+   <persName>
+    <forename type="first">Tk</forename>
+    <surname>Antonucci</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wj</forename>
+    <surname>Rutter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Virol</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="579" to="83" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">The surface gene promoter of the human hepatitis B virus displays a preference for differentiated hepatocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Hk</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lp</forename>
+    <surname>Ting</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Virology</title>
+  <imprint>
+   <biblScope unit="volume">170</biblScope>
+   <biblScope unit="page" from="176" to="83" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Characterization of the hepatitis B virus major surface antigen promoter hepatocyte nuclear factor 3 binding site</title>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Raney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mclachlan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Gen Virol</title>
+  <imprint>
+   <biblScope unit="volume">78</biblScope>
+   <biblScope unit="page" from="3029" to="38" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Characterization of the hepatitis B virus large surface antigen promoter Sp1 binding site</title>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Raney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mclachlan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Virology</title>
+  <imprint>
+   <biblScope unit="volume">208</biblScope>
+   <biblScope unit="page" from="399" to="404" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Cyclic AMP stimulates somatostatin gene transcription by phosphorylation of CREB at serine 133</title>
+  <author>
+   <persName>
+    <forename type="first">Ga</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mr</forename>
+    <surname>Montminy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="675" to="80" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">Regulation of Ets function by protein-protein interactions</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Pei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dk</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oncogene</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="6514" to="23" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">The ets gene family</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Macleod</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Leprince</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Stehelin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Biochem Sci</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="251" to="6" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">p53 activates the CD95 (APO-1/Fas) gene in response to DNA damage by anticancer drugs</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Wilder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Bannasch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Exp Med</title>
+  <imprint>
+   <biblScope unit="volume">188</biblScope>
+   <biblScope unit="page" from="2033" to="45" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Wc</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+    <surname>Shen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yg</forename>
+    <surname>Tsay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">DNA Cell Biol</title>
+  <editor>c-Jun and ATF2</editor>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="551" to="60" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Inhibition of hepatitis B virus replication in vivo by nucleoside analogues and siRNA</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ct</forename>
+    <surname>Bock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wedemeyer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="page" from="9" to="18" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <monogr>
+  <title level="m" type="main">Answer From question on page 1278 The diagnosis was splenic infarction secondary to idiopathic splenic vein thrombosis. The patient was treated with intravenous heparin for six days. Following resolution of abdominal pain and tenderness, she was converted to oral warfarin therapy. Computed tomography scan three months later demonstrated a normal spleen with complete resolution of splenic oedema and pulmonary consolidation. The splenic vein was attenuated and ill defined, with evidence of collateral vessel formation. The patient made a full clinical recovery. The principal challenge in this case was the choice of conservative treatment versus splenectomy to avert rupture. While splenectomy appears to be an effective treatment in splenic vein thrombosis, it incurs the cost of a lifelong requirement for prophylactic antibiotic therapy. Our patient represents successful management of splenic vein thrombosis by anticoagulation</title>
+  <author>
+   <persName>
+    <forename type="first">Editor</forename>
+    <forename type="middle">&apos;s Quiz: Gi Snapshot..............................................................</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Hepatitis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Pre-S2</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

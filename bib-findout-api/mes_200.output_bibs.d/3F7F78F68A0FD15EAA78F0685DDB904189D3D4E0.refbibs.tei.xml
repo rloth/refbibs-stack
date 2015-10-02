@@ -1,0 +1,317 @@
+<TEI xml:id="istex-3F7F78F68A0FD15EAA78F0685DDB904189D3D4E0">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">An improved method for the colormaetric determination of phosphate</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Berenblum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Chain</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page">295</biblScope>
+   <date type="published" when="1938" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">The chemical evaluation of antacids</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brindle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">3. Pharm. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page">692</biblScope>
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The Rat: Data and Reference Tables for the Albhw Rat and Norway Rat</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Donaldson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Memoirs Wistar Institute of Anatomy and Biology</title>
+  <imprint>
+   <biblScope unit="issue">6</biblScope>
+   <date type="published" when="1924" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">A simple method for the isolation and purification of total hpids from animal tissue</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Folch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lees</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Sloane-Stanley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. bioL Chem</title>
+  <imprint>
+   <biblScope unit="volume">226</biblScope>
+   <biblScope unit="page">497</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Short-term toxicity study of Emulsifier YN in rats</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">F</forename>
+    <surname>Gaunt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Grasso</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Gangolh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Fd Cosmet. ToxicoL</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page">623</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Muscle phospholipids. Thin-layer chromatographic studies on normal and diseased tissue</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">P</forename>
+    <surname>Hughes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">F</forename>
+    <surname>Frais</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bwchem. J</title>
+  <imprint>
+   <biblScope unit="volume">96</biblScope>
+   <biblScope unit="page">6</biblScope>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Protein measurements with the Folin phenol reagent</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">H</forename>
+    <surname>Lowry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Rosebrough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Farr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Randall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">193</biblScope>
+   <biblScope unit="page">265</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Determination of inorganic phosphate. Modification of isobutyl alcohol procedure</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Doty</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Analyt. Chem</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">965</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The incorporation of radioactive phosphorus into individual liver phosphatides of rats</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+    <surname>Ulsamer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Glenn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="page">525</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Durmschlchtchromatographie yon Phosphatiden mad Glykolipiden</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wagner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Horhammer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Wolff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Z</title>
+  <imprint>
+   <biblScope unit="volume">337</biblScope>
+   <biblScope unit="page">175</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Une dose orale unique de phosphate marqu6 au 32p a fait apparaitre une fixation tissulaire darts des proportions comparables 1 ~. 4 heures apr6s absorption On a pu d6celer la pr6sence de 32p clans les f6ces, probablement sous forme de YN marqu6, mchang~; dans I&apos;urme, sous forme de phosphate morganiquc; dans les os, prmcipalement sous forme de phosphate mmdral; dans les muscles, sous forme d&apos;esters phosphonques ; et clans le fore, en partle sous forme de phospholipides parall6hsme clans la fixation du 32p par les phospholipides des divers tlssus, 4 heures aprb.s l&apos;absorption. Ace moment, le pourcentage maximum de YN marqu6, fix6 par la totalit6 des phosphohpides Ussulaires 6talt de 1,4 %; apr6s 24 heures, d 6taJt de 3,3 %. Des 6tudes chromatographiques ont montr,~ que la composition des phospholipides marqu~ pr6sents dans le foie de rats trait~ au YN marqu6 au 32p, ne semblait diff~rcr en hen de celle des phosphohpides naturels du role. De plus, aucmae fixation directe ni aucune accumulation tissulaire de com- pos6s phosphor~s du YN n&apos;ont pu ~tre mlses en 6vldence,/t l&apos;exception de phosphate min6ral. L&apos;incubatton de YN marqu6, en presence de suc gastrique simul6, de muqueuse mtestmale homog~n~is~e, de lipase pancr6atique, de trypsine ou de chymotrypsme, a provoqu6 la hb6ra- t~on de phosphate inorgamque On peut en d~duire que l&apos;absorption du phosphate inorgamque ainsi form6 conduit fi l&apos;incorporatlon du phosphate dans le tlssu osseux, les esters phosphoriques , les phospholipldes et le reste du pool phys~ologique du phosphore min6ral et orgamque. Ces r~sultats permettront d&apos;appr~cler l&apos;innocmt6 du YN utlhs6 comme additif alimentatre; en effet, ds d~montrent que les compos6s du YN, autres que les tnglyc~rides, darts la mesure 06 ils p,~n6trent clans l&apos;organisme du rat, sont 61imin6s par les voies physiologiques Gewebeverteilungs-Untersuchungen zcigten, dass die Radloaktivi~t vorzugswelse von den Knochen, der I.¢ber und den Muskeln aufgenommen wird mad in 24 Stunden Konzentrahonen von 11 bzw. 0,7~ der Dosls. Eine a.hnhche Vertedung in den Geweben wurde 1-4 Sttmden nach emer einzelnen oralen Dosls yon [a~P]-Phosphat beobachtet, a~p wax in den Faeces wahrscheinhch ads unverandertes [z~P]-YN vorhanden, im Urm ads anorgamsches Phosphat, m den Knochen hauptsachhch ads anorganisches Phosphat, m den Muskeln ads Phosphatester und in der Leber teilwelse ads Phospholiplde</title>
+ </analytic>
+ <monogr>
+  <title level="j">Tag sanken die Konzentrationen auf</title>
+  <imprint>
+   <biblScope unit="volume">684</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="4" to="2" />
+  </imprint>
+ </monogr>
+ <note>Stoffwechselschicksal. von mit s2p maxkiertem Emulgator YN in Ratten Zusammenfassung--Das Stoffwechselschicksal der mit 32p markierten phosphorhaltigen Be.standtede yon YN in Ratten wurde untersucht, wobei einzelne orale Dosen yon 60-300 mg]kg gegeben wurden. Em wesenthcher Tell der Dosis wurde in den Faeces ausgeschieden. Eine. parallele Aufnahme von 3sp m Phospholiplden verschiedener Gewebe wurde 4 Stunden nach emer einzelnen oralen Dosis von [aW]-YN oder [zW]-Phosphat beobachtet. Bis ~;u 1. 24. Stunden nach der Verabreichung aufgenommen. Chromatographische Untersuchungen zelgten, dass die Zusammensetzung maxklerter Phosphollplde mder Leber von mit [3~P]-YN behandelten Ratten identisch mtt der naturlicher Leberphosphohpide zu sein schemt. Die direkte Absorption oder Gewebsspelcherung emes phosphorhaltigen Bestandteils von YN ausser anorgamschem Phosphat kormte nicht festgestellt werden. Die Inkubation von [3-*P]-YN mit simuliertem Magensaft, Intestinalschleimhaut-Homogenat , pankreatlscher Llpase, Trypsin oder Chymotrypsin fiahrte zur Frelsetzung yon anorganischem Phosphat. Es wird angenommen, class die Absorption des so entstandenen anorgamschen Phosphats zur Aufnahme des Phosphats in Knochen, Phosphatestern, Phospholipiden und dem Rest des physiologischen Reservoirs anorganischen und orgamschen Phosphors fuhrt. D,ese Ergebnisse stellen eme Grundlage ftir die Sicherheitsbewertung von YN ads Lebensmittelzusatz dax, da aus ihnen hervorgeht, dass d~e Bestandteile von YN, d~e mcht Triglyceride sind, auf physiologischem Wege ausgeschieden werden, wenn sie in den Kbrper der Ratte gelangen</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

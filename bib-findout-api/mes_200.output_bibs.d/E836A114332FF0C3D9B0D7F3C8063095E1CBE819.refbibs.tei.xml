@@ -1,0 +1,878 @@
+<TEI xml:id="istex-E836A114332FF0C3D9B0D7F3C8063095E1CBE819">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The microcosm&apos; a new tool for reef research</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Adey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Coral Reefs</title>
+  <imprint>
+   <biblScope unit="page" from="193" to="201" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Calcrilic values of the soft pans of the lellinid bivalve ~fncoina balrhicu (L.) as deit-rmmed by two methods</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J J</forename>
+    <surname>Beukema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">W</forename>
+    <surname>Bmin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exp. Mar. Biol. Ecol</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="19" to="30" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Manual for the Culturing of Giant Ciams</title>
+  <author>
+   <persName>
+    <forename type="middle">R D</forename>
+    <surname>Bmley</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1990" />
+   <publisher>James Cook Umversity of North Queensland Publication</publisher>
+   <pubPlace>Townsville, Qld</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Comparison of different hatchery and nursery culture methods for the giant clam Tridacna gigas Giant Clams in Asia and the Pacific</title>
+  <author>
+   <persName>
+    <forename type="middle">R D</forename>
+    <surname>Braley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Crawford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Lindsay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Nash</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Westmore</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">AC!AR Monograph</title>
+  <editor>J.W. Copland and J.S. Lucas</editor>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="1" to="14" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>Australian. Centre for International Agricultural Research, Canberra. A.C.T.</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Spawning induction, and larval and juvemle rearing of the giant clam. Tridacna gigas</title>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Crawford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Nash</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquaculture</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="28" to="295" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Dissolved nutrients in coral reef waters</title>
+  <author>
+   <persName>
+    <forename type="middle">C J</forename>
+    <surname>Crossland</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Perspectives on Coral Reefs</title>
+  <editor>D.J. Barnes</editor>
+  <imprint>
+   <date type="published" when="0200" />
+   <biblScope unit="page" from="277" to="56" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Colorimetricmethod for the determination of sugars and r&amp;ted substances</title>
+  <author>
+   <persName>
+    <forename type="middle">M</forename>
+    <surname>Dubois</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">K A</forename>
+    <surname>Gillies</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Han &apos;ton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Rebers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. Chem</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="350" to="356" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Photosynthesis and respiration in Tridocrm gigus as a function of irradiance and size</title>
+  <author>
+   <persName>
+    <surname>F~sber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Cr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">K</forename>
+    <surname>Fitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Trench</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biol. Bull</title>
+  <imprint>
+   <biblScope unit="volume">169</biblScope>
+   <biblScope unit="page" from="230" to="245" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">A simple method for the isolation and puriticaiton of total lipids from animal tissue</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>F&amp;h</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lees</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sloane-Stanley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">226</biblScope>
+   <biblScope unit="page" from="497" to="509" />
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Determination of submicromolar concentrations of ammonia in natural waters by a standard addition method using a gas-sensing electrode</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Garside</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="1073" to="1076" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Occurrence of Perktwo species (Protozoa, Apicomplexa ) in bivalves from the Great Barrier Reef</title>
+  <author>
+   <persName>
+    <forename type="first">Cl</forename>
+    <surname>Goggin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J G</forename>
+    <surname>Lester</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dis. Aqua. Org</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="113" to="17" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Contribution ofrooxanthellae to their giant clam host</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Griffith%</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Streamer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Giant Clams in Asia and the Pacific. ACIAR Monograph No. 9. Australian Centre for International Agric&amp;nral Resw-ch</title>
+  <editor>J.W. Copland and J.S. Lucas</editor>
+  <meeting><address><addrLine>Canberra, A.C.T.</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="151" to="154" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Mass culture ofgiant clams (F. Tridacnidae) in Palau</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Heslinga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+    <surname>Perron</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Orak</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquaculture</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="197" to="215" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">Giant clam farming. Pacific Fisheries Development Foundation (NMFWNOAA)</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Heslinga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">C</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Isamu</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1990" />
+   <biblScope unit="page">179</biblScope>
+   <pubPlace>Honolulu, HI</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Effects ofelevated nitrogen and phosphorus on coral reef growth</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Kinsey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Davies</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limonol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="935" to="940" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Spectrophotometric and turbidimetric methods for measuring protein</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Layne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in Enzymology</title>
+  <editor>S.P. Colowick and N.O. Kaplan</editor>
+  <meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1957" />
+   <biblScope unit="page" from="447" to="466" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The use of physiological condition indices in marine bivalve aquaculture</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Beninger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquaculture</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="187" to="200" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Environmentalinfluenceson growth and survival during the ocean-nursery rearing of giant clams, Tridacna gigas (L.)</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Nash</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Crawford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Braley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquaculture</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="45" to="6" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Tridacnn tewrm Lucas. Ledua and Braley: a recently-described species of giant clam (Bivaivia. Ttidacnidae) from Fiji and Tonga</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ledua</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Braley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nautilus</title>
+  <imprint>
+   <biblScope unit="volume">105</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="92" to="103" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">!ab test result: fertilizer speeds clam growth</title>
+ </analytic>
+ <monogr>
+  <title level="j">MMDC Bulletin MMDC Bull</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <date type="published" when="1988-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Simple charring method for determination of lipids</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Marsh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Weinstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Lipid Res</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="574" to="576" />
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Glycerol excretion by symbiotic algae from corals and T.-idacna and its control by the host</title>
+  <author>
+   <persName>
+    <forename type="middle">L</forename>
+    <surname>Muscatine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">156</biblScope>
+   <biblScope unit="page" from="516" to="519" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Growih and monality ofjuvenile giant clams ( Tridncm gigas) in relation to tidal emersion an a reef flat</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Nash</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Giant Clams in Asia and the pacitic. ACXR Monograph No. 9. Australian, Centre for International Agricultural Research</title>
+  <editor>J.W. Copland and J.S. Lucas</editor>
+  <meeting><address><addrLine>Canberra,A.C.T.</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="183" to="190" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">The influence of temperature on the maintenance of metabolic energy balance in marine invertebrates</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Newell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">N</forename>
+    <surname>Branch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv. Mar. Biol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="329" to="396" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title level="m" type="main">A Manual ofchemicaland Biologic&amp; Methods for Seawater Analysis</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Parsons</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Maita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Andlalli</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Pergamon Press</publisher>
+   <biblScope unit="page">173</biblScope>
+   <pubPlace>Oxford</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Enhanced nutrient levels in the marine environment and their effects on coral reefs</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Rasmussen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the 4th Pacific Congress on Marine Science and Technology</title>
+  <meeting>the 4th Pacific Congress on Marine Science and Technology<address><addrLine>Tokyo, Japan</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1990-07" />
+   <biblScope unit="page" from="16" to="20" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Growth of laboratory-reared giant clams under natural and laboratory conditions Giant Clams in Asia and the Pacific</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">P</forename>
+    <surname>Solis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Onate</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">M R A</forename>
+    <surname>Naguri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ACIAR Monograph Australian Centre for International Agricultural Research</title>
+  <editor>J.W. Copland and IS. Lucas</editor>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="201" to="206" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Uptake of dissolved inorganic nitrogen by the symbiotic clam Mdacna gigas and the coral Acropora sp</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">P</forename>
+    <surname>Wilkerson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Trench</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Biol. (Bed.)</title>
+  <imprint>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="93" to="237" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Temporal patterns of cell division in natural populations of endosymbiotic algae</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">P</forename>
+    <surname>Wilkerson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Muscatine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Muller-Parker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceangr</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="1009" to="1014" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title level="m" type="main">E&amp;statistical Analysis</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Zar</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Prentice-Hall International, Inc</publisher>
+   <biblScope unit="page">18</biblScope>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

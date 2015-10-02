@@ -1,0 +1,1802 @@
+<TEI xml:id="istex-487C3ACDA8E82DFFB8DEF58BBBD8288D9BA9FFCC">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Allard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Hauschildt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Alexander</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Starrfield</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>ARA&amp;A</publisher>
+   <biblScope unit="page" from="35" to="137" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Andretta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">266</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Ayres</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">C</forename>
+    <surname>Marstad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Linsky</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="247" to="545" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Ayres</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Simon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Linsky</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="279" to="197" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Baliunas</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="275" to="752" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="278" to="520" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Cardini</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">303</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Carlsson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">ASP Conf. Ser. Cool Stars, Stellar Systems and the Sun</title>
+  <editor>Giampapa M., Bookbinder J. A.</editor>
+  <meeting><address><addrLine>San Francisco</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1992" />
+   <biblScope unit="page">499</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Coluzzi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. Inf. CDS</title>
+  <imprint>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page">43</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Cook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Cheng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">L</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Antiochos</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="338" to="1176" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Del</forename>
+    <surname>Zanna</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Landini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="385" to="968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="214" to="258" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Mathioudakis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Panagi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="285" to="233" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fawzy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Rammacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ulmschneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">E</forename>
+    <surname>Musielak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Stepien</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="386" to="971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fawzy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ulmschneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Stepien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">E</forename>
+    <surname>Musielak</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>Rammacher W. A&amp;A</publisher>
+   <biblScope unit="page" from="386" to="983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fawzy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Stepien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ulmschneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Rammacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">E</forename>
+    <surname>Musielak</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="386" to="994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Fuhrmeister</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H M M</forename>
+    <surname>Schmitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Hauschildt</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="439" to="1137" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Fuhrmeister</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Liefke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H M M</forename>
+    <surname>Schmitt</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2008" />
+   <publisher>Reiners A. A&amp;A</publisher>
+   <biblScope unit="page" from="487" to="293" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Giampapa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Worden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Schneeberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">E</forename>
+    <surname>Cram</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="246" to="502" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F. F</forename>
+    <surname>Gray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Stars</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Lectures on Spectral-line Analysis</title>
+  <meeting><address><addrLine>Arva, Ontario</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Publisher</publisher>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Hartmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">K</forename>
+    <surname>Dupree</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Raymond</forename>
+    <forename type="middle">J</forename>
+    <surname>Schmidkte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Wing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">ApJ</title>
+  <imprint>
+   <date type="published" when="1979" />
+   <biblScope unit="page">69</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Multisite Continuous Spectroscopy Proc. 4th Workshop</title>
+  <meeting><address><addrLine>Beijing, China</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1995" />
+   <biblScope unit="page">179</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. IAU Symp</title>
+  <editor>Strassmeier K. G., Linsky J. L.</editor>
+  <meeting>. IAU Symp<address><addrLine>Dordrecht</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page">547</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2008" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page">1081</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. VII</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2009" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page">2133</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. XII</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">169</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. I</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">185</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. II</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">861</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. IV</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Irish Astron. J</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page">25</biblScope>
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Stempels</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">1143</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. VI</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Ko´ko´scielecki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">773</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. III</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mathioudakis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Foing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">209</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. V</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Houdebine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Junghans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Heanue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Andrews</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2009" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">929</biblScope>
+  </imprint>
+ </monogr>
+ <note>Paper. VIII</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Jevremovic</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Short</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2000" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">575</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">L</forename>
+    <surname>Kelch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Linsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Worden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">ApJ</title>
+  <imprint>
+   <date type="published" when="1979" />
+   <biblScope unit="page" from="229" to="700" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Lanzafame</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="303" to="155" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Leggett</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ApJS</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="page">351</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Linsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Andrulis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">H</forename>
+    <surname>Saar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Ayres</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Giampapa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">ASP Conf. Ser</title>
+  <editor>Caillault J. P.</editor>
+  <meeting><address><addrLine>San Francisco</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1994" />
+   <biblScope unit="page">438</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Astrophysics in the Far Ultraviolet</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lobel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Avrett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Aufdenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">ASP Conf Ser</title>
+  <editor>Sonneborn G., Moos H., Andersson B. G.</editor>
+  <meeting><address><addrLine>San Francisco</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="2006" />
+   <biblScope unit="page">171</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mathioudakis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Mullan</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1999" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">524</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J D</forename>
+    <surname>Mauas</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2000" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="539" to="858" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J D</forename>
+    <surname>Mauas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Falchi</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="281" to="129" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Monsignori</forename>
+    <surname>Fossi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">C</forename>
+    <surname>Landini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Del</forename>
+    <surname>Zanna</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <publisher>Bowyer S. ApJ</publisher>
+   <biblScope unit="page" from="466" to="427" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Osten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Hawley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Allred</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Johns-Krull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Harper</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">1349</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Pagano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Linsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Carkner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Woodgate</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2000" />
+   <biblScope unit="page">497</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Panagi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mathioudakis</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>A&amp;AS</publisher>
+   <biblScope unit="page">343</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <monogr>
+  <title level="m" type="main">Internal Publication of the Observatoire de Haute Provence: ELODIE, Programme de Réduction</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Queloz</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <pubPlace>Observatoire, France</pubPlace>
+  </imprint>
+ </monogr>
+ <note>St. Michel l</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Rammacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fawzy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ulmschneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">E</forename>
+    <surname>Musielak</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="631" to="1113" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Saxner</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">240</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Schrijver</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="189" to="163" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Schrijver</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2001" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">475</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Schrijver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Cote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Zwaan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">H</forename>
+    <surname>Saar</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="337" to="964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Schrijver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">K</forename>
+    <surname>Dobson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Radick</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="258" to="432" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+    <surname>Short</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>A&amp;a</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L5</forename>
+    <surname>331</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+    <surname>Short</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1998" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">613</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+    <surname>Short</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Doyle</forename>
+    <forename type="middle">J G</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="324" to="196" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Uitenbroek</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">360</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Uitenbroek</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page">310</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ulmschneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fawzy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">E</forename>
+    <surname>Musielak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Stepien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Apj</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L167</forename>
+    <surname>559</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">H</forename>
+    <surname>Vaughan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Baliunas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Middelkoop</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">W</forename>
+    <surname>Hartmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mihalas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Noyes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Preston</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="250" to="276" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Wade</forename>
+    <forename type="middle">R A</forename>
+    <surname>Rucinski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+   <publisher>A&amp;AS</publisher>
+   <biblScope unit="page" from="60" to="471" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

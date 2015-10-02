@@ -1,0 +1,683 @@
+<TEI xml:id="istex-164D8FDE9AC7461B3EA3FF89491AD144B34424FC">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Further properties of the human saccadic system: Eye movements and correction saccades with and without visual fixation points</title>
+  <author>
+   <persName>
+    <forename type="middle">W</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A F</forename>
+    <surname>Fuchs</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vis. Res</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="1247" to="1258" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Dissociation between mental imagery and object recognition in a brain-damaged patient Is visual imagery really visual? Overlooked evidence from neuropsychology</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Behrmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Winocur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Moscovitch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nuture Farah. M. J. Psych. Rel</title>
+  <imprint>
+   <biblScope unit="volume">359</biblScope>
+   <biblScope unit="issue">95</biblScope>
+   <biblScope unit="page" from="636" to="637" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Visual and spatial mental imagery: Dissociable systems of representation</title>
+  <author>
+   <persName>
+    <forename type="middle">M J</forename>
+    <surname>Farah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">M</forename>
+    <surname>Hammond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">N</forename>
+    <surname>Levine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Calvanio</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cognir. Psych</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="439" to="462" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Electrophysiological evidence for a shared representational medium for visual images and visual percepts Finke, R. A. Theories relating mental imagery to perception</title>
+  <author>
+   <persName>
+    <forename type="middle">M J</forename>
+    <surname>Farah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Pkronnet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Gonon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Giard</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. cup. Psych.: Gen. Psych. Bull</title>
+  <imprint>
+   <biblScope unit="volume">117</biblScope>
+   <biblScope unit="issue">98</biblScope>
+   <biblScope unit="page" from="248" to="257" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Sensorimotor transformations during eye movements to remembered targets</title>
+  <author>
+   <persName>
+    <forename type="middle">J W</forename>
+    <surname>Gnadt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Bracewell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Andersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vision Res</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="693" to="715" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Visual pathways supporting perception and action in the primate cerebral cortex</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Curr. Opin. :Veurohio</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="578" to="585" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Separate visual pathways for perception and action</title>
+  <author>
+   <persName>
+    <forename type="middle">M A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Milner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Ne~rrosci</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="2" to="25" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">A neurological dissociation between perceiving objects and grasping them</title>
+  <author>
+   <persName>
+    <forename type="middle">M A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Milner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">S</forename>
+    <surname>Jakobson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Carey</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nurure</title>
+  <imprint>
+   <biblScope unit="volume">349</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="54" to="56" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">The visual control of prehension</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Servos</surname>
+   </persName>
+  </author>
+  <editor>Arlrunces in Motor Lerrmimg trrd Cmrrcd, H. Zelaznik</editor>
+  <imprint>
+   <publisher>Human Kinetics Publishers</publisher>
+   <pubPlace>Champaign, III</pubPlace>
+  </imprint>
+ </monogr>
+ <note>(. in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Frontal lobe lesions in man cause difficulties in aupprcislnp reflexive glances and in generating goal-directed saccades Modification of saccadic eye movements by GABA-related substancea. II. Effects of muscimol in the monkey substantia nigra pars reticulata</title>
+  <author>
+   <persName>
+    <forename type="middle">D</forename>
+    <surname>Guitton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">A</forename>
+    <surname>Buchtel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Douglas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">EYp. Ertrin Ret</title>
+  <editor>19X5. Hikosaka. 0. and Wurtz, R. H.</editor>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="issue">53</biblScope>
+   <biblScope unit="page" from="455" to="472" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Factors affecting higher-order movement planning: A kinematic analysis of human prehension</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">S</forename>
+    <surname>Jakobson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">M A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">E.Yp. Bruin Res</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page" from="199" to="208" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">The timing of natural prehension movements</title>
+  <author>
+   <persName>
+    <forename type="middle">M</forename>
+    <surname>Jeannerod</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Moron Behtrr</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="235" to="254" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Tile Neural crnd Belmriourul Oryuni~urion of God-direc,rd Mortw~r~~r.~. Clarendon Press. Oxford How is grasping modified by somatosensory input&apos;?</title>
+  <author>
+   <persName>
+    <forename type="middle">M</forename>
+    <surname>Jeannerod</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Johansson. R. S</title>
+  <imprint>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>In. Morrv C&apos;mrd; C&apos;orrrpt.~ mtl I.~,vtcs. I)</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Humphrey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Freud</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dahlem Konferenzen. John Wiley. Chichester</title>
+  <imprint>
+   <biblScope unit="page" from="331" to="355" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">Gg,l: Produres fiw r</title>
+  <author>
+   <persName>
+    <forename type="middle">R E</forename>
+    <surname>Kirk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>De</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>Cole Publishing Company</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Belmont</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ca</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">Two visual systems in mental imagery: Dissociation of &quot; what &quot; and &quot; where &quot; in imagery disorders due to bilateral posterior cerebral lesions</title>
+  <author>
+   <persName>
+    <forename type="middle">D N</forename>
+    <surname>Levine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Warach</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Farah</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Separate pathways to perception and actlon</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Milner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">M A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Pro~qre.\\ 111 Brtrr~ Rr.wwh. The L&apos;isuu</title>
+  <meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+  <imprint>
+   <publisher>Elsevier</publisher>
+   <date type="published" when="1993" />
+   <biblScope unit="page" from="317" to="337" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Perception and action in &apos;Visual form agnosia&apos;</title>
+  <author>
+   <persName>
+    <forename type="middle">A D</forename>
+    <surname>Milner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">I</forename>
+    <surname>Perrett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R S</forename>
+    <surname>Johnston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">P J</forename>
+    <surname>Benson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">T R</forename>
+    <surname>Jordan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">D</forename>
+    <surname>Heelcv</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Bcttucci</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">F</forename>
+    <surname>Mortara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R</forename>
+    <surname>Mutani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">E</forename>
+    <surname>Terazzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">D L W</forename>
+    <surname>Davidson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain</title>
+  <editor>Servos, P. R.. Goodale. M. A. and Humphrey. Ci</editor>
+  <imprint>
+   <biblScope unit="volume">114</biblScope>
+   <biblScope unit="issue">428</biblScope>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">The role of binocular vision 1n prehension: A kinematic analysis</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Servos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Goodale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">L S</forename>
+    <surname>Jakohson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">C&apos;i\. Ret</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">A parametric analysis of human \accadc\ in dllTercnr experimental paradigms</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Smit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J A</forename>
+    <surname>Van Gisbergen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A R</forename>
+    <surname>Cools</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vi.\ Ku\</title>
+  <imprint>
+   <biblScope unit="volume">227</biblScope>
+   <biblScope unit="page" from="1745" to="1762" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title level="m" type="main">A Saccadlc programming and perceived location</title>
+  <author>
+   <persName>
+    <forename type="first">Mack</forename>
+    <forename type="middle">E</forename>
+    <surname>Won&amp;</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

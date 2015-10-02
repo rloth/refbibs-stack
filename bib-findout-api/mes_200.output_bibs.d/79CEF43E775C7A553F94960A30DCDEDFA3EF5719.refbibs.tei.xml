@@ -1,0 +1,1492 @@
+<TEI xml:id="istex-79CEF43E775C7A553F94960A30DCDEDFA3EF5719">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Arc</forename>
+    <surname>Ïon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Tuel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kodre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Barbier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Synchrotron Rad</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="575" to="577" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Arnoldy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Moulijn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="38" to="54" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Barbier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Tuel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Arcon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kodre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">200</biblScope>
+   <biblScope unit="page" from="106" to="116" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bart</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv. Catal</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="203" to="296" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bechara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Balloy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J-Y</forename>
+    <surname>Dauphin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Grimblot</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Mater</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="1703" to="1711" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Berge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Van</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Barradas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Van De Loosdrecht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Visagie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Erdol Erdgas Kohle</title>
+  <imprint>
+   <biblScope unit="volume">117</biblScope>
+   <biblScope unit="page" from="138" to="142" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Castner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">L</forename>
+    <surname>Dimp¯</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">SSRL Activity Report Proposal No. 628M, P. VII-57</title>
+  <meeting><address><addrLine>Stanford, CA, USA</addrLine></address></meeting>
+  <imprint>
+   <publisher>SSRL</publisher>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">I</forename>
+    <surname>Enache</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Rebours</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Roy-Auberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Revel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">205</biblScope>
+   <biblScope unit="page" from="346" to="353" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Espinoza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Visagie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Berge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Bolder</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Guczi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Bazin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Kovacs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Borko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Schay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lynch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Parent</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Lafon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Ste¯er</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Koppany</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Sajo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Top. Catal</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="129" to="139" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Hilmen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Schanke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">F</forename>
+    <surname>Hanssen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holmen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <biblScope unit="volume">186</biblScope>
+   <biblScope unit="page" from="169" to="188" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Hilmen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Schanke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holmen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Catal. Lett</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="143" to="147" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Chaney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <biblScope unit="page" from="203" to="212" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Sanchez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <biblScope unit="volume">247</biblScope>
+   <biblScope unit="page" from="335" to="343" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Racoillet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <biblScope unit="volume">233</biblScope>
+   <biblScope unit="page" from="263" to="281" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Ghadiali</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Pisanu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Pisanu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Borgna</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">E</forename>
+    <surname>Alvarez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Resasco</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">191</biblScope>
+   <biblScope unit="page" from="116" to="127" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Luo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+ <note>In. the press</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal. A</title>
+  <imprint>
+   <biblScope unit="volume">233</biblScope>
+   <biblScope unit="page" from="215" to="226" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Das</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Stud. Surf. Sci. Catal</title>
+  <imprint>
+   <biblScope unit="volume">139</biblScope>
+   <biblScope unit="page" from="415" to="422" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Jongsomjit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Panpranot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Goodwin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">204</biblScope>
+   <biblScope unit="page" from="98" to="109" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kogelbauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Goodwin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Oukaci</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">160</biblScope>
+   <biblScope unit="page" from="125" to="133" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lapidus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Krylova</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Kazanskii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Borovkov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Zaitsev</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Rathousky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Zukal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Jancalkova</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page" from="65" to="82" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Loosdrecht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Van De</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Barradas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Caricato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Berge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Visagie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. Chem. Soc. Div. Fuel Chem. Prepr</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="587" to="591" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Moen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Nicholson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Mater</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="1241" to="1247" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Newville</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ravel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Haskel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Stern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Yacoby</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <biblScope unit="page" from="154" to="156" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ravel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Synchrotron Rad</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="314" to="316" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title level="m" type="main">EXAFS Analysis Using FEFF and FEFFIT Workshop</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ravel</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2001" />
+   <biblScope unit="page">27</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Rehr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">I</forename>
+    <surname>Zabinsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Albers</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Rev. Lett</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="3397" to="3400" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title level="m" type="main">WinXAS97. Version 1.0</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ressler</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ronning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Nicholson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holmen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Catal. Lett</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="141" to="146" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">E S</forename>
+    <surname>Rygh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Nielsen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">194</biblScope>
+   <biblScope unit="page" from="401" to="409" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Schanke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Vada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Blekkan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Hilmen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holmen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">156</biblScope>
+   <biblScope unit="page" from="85" to="95" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Sexton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Hughes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Turney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <biblScope unit="page" from="390" to="406" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Tang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Tan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surf. Interf. Anal</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="155" to="158" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Vada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Adnanes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Schanke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holmen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Top. Catal</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="155" to="162" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Voss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Borgmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Wedler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Catal</title>
+  <imprint>
+   <biblScope unit="volume">212</biblScope>
+   <biblScope unit="page" from="10" to="21" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W-J</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y.-W</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Catal</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="223" to="233" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+ <note>research. papers</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

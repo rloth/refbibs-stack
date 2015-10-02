@@ -1,0 +1,2321 @@
+<TEI xml:id="istex-177041BABFFA88CBA8A4D61E451AF70B28201761">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Structural requirements of lipid A for endotoxicity and other biological activities -an overview</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kotani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Takada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Friedman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nakano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nowotny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">In: Advances in Experimental Medicine and Biology Series</title>
+  <imprint>
+   <publisher>Endotoxin Plenum Press</publisher>
+   <biblScope unit="volume">256</biblScope>
+   <biblScope unit="page" from="13" to="43" />
+   <date type="published" when="1990" />
+   <publisher>Endotoxin Plenum Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Proctor</surname>
+   </persName>
+  </author>
+  <editor>Handbook of Endotoxin (Proctor, R.A.</editor>
+  <imprint>
+   <date type="published" when="1986" />
+   <publisher>Elsevier Science Publishers B.V</publisher>
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">In£uence of ¢ne structure of lipid A on Limulus Amebocyte Lysate Clotting and Toxic activities</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R H</forename>
+    <surname>Raetz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ribi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Peterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Cantrell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wiggins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="350" to="355" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Synthetic and natural Escherichia coli free lipid A express identical endotoxic activities</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Galanos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Lu Ëderitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Westphal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Freundenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Schade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Imoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Yoshimura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Shiba</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">148</biblScope>
+   <biblScope unit="page" from="1" to="5" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Lipid A, the immunostimulatory principle of lipopolysaccharides?</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Loppnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Du Ë Rrbaum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Dinarello</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Flad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Friedman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nakano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nowotny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Advances in Experimental Medicine and Biology Series</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Endotoxin Plenum Press</publisher>
+   <date type="published" when="1990" />
+   <biblScope unit="page" from="561" to="566" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Monoclonal antibody to lipid A prevents the development of haemodynamic disorders in endotoxemia</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Shnyra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">F</forename>
+    <surname>Kalantarov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Vlasik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">N</forename>
+    <surname>Trakht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mayatnikov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ju</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Tabachnik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">V</forename>
+    <surname>Borovikov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">L</forename>
+    <surname>Golubykh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Friedman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nakano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nowotny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Advances in Experimental Medicine and Biology Series</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Endotoxin Plenum Press</publisher>
+   <date type="published" when="1990" />
+   <biblScope unit="page" from="681" to="684" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Bacterial endotoxins: molecular relationships of structure to activity and function</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kirikae</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">U</forename>
+    <surname>Schade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Mamat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schmidt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Loppnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Zahringer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Seydel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Padova</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Di</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <biblScope unit="page" from="217" to="225" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Bacterial endotoxin : chemical constitution, biological recognition, host response, and immunological detoxi¢cation</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">T</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Holst</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Muller-Leonnies</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Mamat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Zahringer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Beckmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Seydel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Brandenburg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Mattern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Heine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Schletter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Loppnow</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Curr. Top. Microbiol. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">216</biblScope>
+   <biblScope unit="page" from="39" to="81" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Structureactivity relationships of bacterial lipopolysaccharides (endotoxins ) Current and future aspects</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Zent.bl. Bakteriol. Mikrobiol . Hyg</title>
+  <imprint>
+   <biblScope unit="volume">268</biblScope>
+   <biblScope unit="page" from="151" to="179" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">IL-1-in- duction capacity of de¢ned lipopolysaccharide structures</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Loppnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Du Ë Rrbaum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Dinarello</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Flad</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">142</biblScope>
+   <biblScope unit="page" from="3229" to="3238" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Suppressive e¡ect of lipid A partial structures on lipopolysaccharide or lipid A-induced release of interleukin 1 by human monocytes</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Feist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Herzbeck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Flad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulmer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEMS Microbiol. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">64</biblScope>
+   <biblScope unit="page" from="179" to="185" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Modulation of lipopolysaccharide-induced production of tumor necrosis factor, interleukin 1, and interleukin 6 by synthetic precursor Ia of lipid A</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Feist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Musehold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Schlu Ëter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Gerdes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Herzbeck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Diamantstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Th</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Flad</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEMS Microbiol. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="73" to="89" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Soluble peptidoglycan induced monokine production can be blocked by anti-CD14 monoclonal antibodies and by lipid A partial structures</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Weidemann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">T</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Dziarski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Bazil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kusumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Flad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulmer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="4709" to="4715" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide induces hyporesponsiveness to its own action in RAW 264.7 cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Virca</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">Y</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">B</forename>
+    <surname>Glaser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulevitch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <biblScope unit="page" from="21951" to="21956" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Killing of Borrelia burgdorferi by macrophages is dependent on oxygen radicals and nitric oxide and can be enhanced by antibodies to outer surface proteins of the spirochete</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Modolell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <forename type="middle">E</forename>
+    <surname>Schaible</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rittig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Simon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunol. Lett</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="139" to="146" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Endotoxins and disease mechanisms</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Morrison</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Ryan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Med</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="417" to="432" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Production of interleukin-1 receptor antagonist during endotoxaemia</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">V</forename>
+    <surname>Granowitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Santos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">D</forename>
+    <surname>Poutsiaka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Cannon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Wilmore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Wol¡</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Dinarello</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">338</biblScope>
+   <biblScope unit="page" from="1423" to="1424" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Passive immunization against cachectin/tumor necrosis factor protects mice from lethal e¡ects of endotoxin</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Beutler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">W</forename>
+    <surname>Milsark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Cerami</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">229</biblScope>
+   <biblScope unit="page" from="869" to="871" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Mammalian nitrate biosynthesis : mouse macrophages produce nitrite and nitrate in response to Escherichia coli lipopolysaccharide</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Stuehr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Marletta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA 82</title>
+  <meeting>. Natl. Acad. Sci. USA 82</meeting>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="7738" to="7742" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Septic shock: pathogenesis</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Glauser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Zanetti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Baumgartner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">338</biblScope>
+   <biblScope unit="page" from="732" to="736" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Human endothelial cell adhesiveness for neutrophils , induced by Escherichia coli lipopolysaccharide in vitro, is inhibited by Bacterioides fragilis lipopolysaccharide</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Magnuson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Weintraub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">H</forename>
+    <surname>Pohlman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">V</forename>
+    <surname>Maier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">143</biblScope>
+   <biblScope unit="page" from="3025" to="3030" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Cytokine induction by lipopolysaccharide (LPS) corresponds to lethal toxicity and is inhibited by nontoxic Rhodobacter capsulatus LPS</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Loppnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Libby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Freudenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Krauss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Weckesser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Mayer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="3743" to="3750" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide-induced stimulation of CD11b/CD18 expression on neutrophils. Evidence of speci¢c receptor-based response and inhibition by lipid A-based antagonists</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Lynn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R H</forename>
+    <surname>Raetz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">T</forename>
+    <surname>Golenbock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">147</biblScope>
+   <biblScope unit="page" from="3072" to="3079" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Lipid A-like molecules that antagonize the e¡ects of endotoxins on human monocytes</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">T</forename>
+    <surname>Golenbock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Hampton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R H</forename>
+    <surname>Raetz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">266</biblScope>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Aybay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Imir</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEMS Immunology and Medical Microbiology</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="263" to="273" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Diphosphoryl lipid A from Rhodopseudomonas sphaeroides ATCC 17023 blocks induction of cachectin in macrophages by lipopolysaccharide</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Beutler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Kirkland</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="1336" to="1338" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Diphosphoryl lipid A derived from lipopolysaccharide (LPS) of Rhodopseudomonas sphaeroides inhibits activation of 70Z/3 cells by LPS</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Kirkland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="131" to="136" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Extraction d&apos;un complexe toxique et antige ènique a partir du bacille d&apos;Aertrycke</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Boivin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mesrobeanu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Mesrobeanu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">C.R. Soc. Biol</title>
+  <imprint>
+   <biblScope unit="volume">126</biblScope>
+   <biblScope unit="page" from="222" to="225" />
+   <date type="published" when="1933" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Chemische Erforschung von Lipopolysacchariden gram negativer Bakterien</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Westphal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Lu Ëderitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Angew. Chem</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="407" to="417" />
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">The tumor necrotizing e¡ect of lipoid A component of Escherichia coli endotoxin</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Minich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Westphal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Lu Ëderitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Neter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Soc. Exp. Biol. Med</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="816" to="819" />
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Preparation and antitumor activity of nontoxic lipid A</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ribi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Amano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Cantrell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Schwartzmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Parker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Immunol. Immunother</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="91" to="96" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide structure-function relationship in activation versus reprogramming of mouse peritoneal macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Morrison</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Leukoc. Biol</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="444" to="450" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Taurine chloramine inhibits the synthesis of nitric oxide and release of tumor necrosis factor in activated RAW 264.7 cells</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Park</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Quinn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schuller-Levis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Leukoc. Biol</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="119" to="124" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Selective inhibition by dexamethasone of induction of NO synthesis, but not of induction of L-arginine transport, in activated murine macrophage J774 cells</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Baydoun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Bogle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Mann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br. J. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">110</biblScope>
+   <biblScope unit="page" from="1401" to="1406" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Inhibition of lipopolysaccharide-induced macrophage tumor necrosis factor-K synthesis by polymyxin B sulfate</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Coyne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+    <surname>Fenwick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Vet. Res</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="305" to="314" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Macrophages rapidly internalize their tumor necrosis factor receptors in response to bacterial lipopolysaccharide</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">H</forename>
+    <surname>Ding</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Sanchez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Srimal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">F</forename>
+    <surname>Nathan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <biblScope unit="page" from="3924" to="3929" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Antigen-driven but not lipopolysaccharide-driven IL-12 production in macrophages requires triggering of CD40</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Dekruy¡</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Gieni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">T</forename>
+    <surname>Umetsu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">158</biblScope>
+   <biblScope unit="page" from="359" to="366" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide and monophosphoryl lipid A di¡erentially regulate interleukin-12, gamma interferon, and interleukin-10 mRNA production in murine macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Salkowski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Detore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">N</forename>
+    <surname>Vogel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect. Immun</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="3239" to="3247" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Interferon gamma (IFN-Q) regulates production of IL-10 and IL-12 in human herpesvirus-6(HHV-6)-infected monocyte/macrophage lineage</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">.</forename>
+    <forename type="middle">J M</forename>
+    <surname>Goodrich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Yang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin. Exp. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="421" to="425" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Multiple control elements mediate activation of the murine and human interleukin 12 p40 promotors: evidence of functional synergy between C/EBP and Rel proteins</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Plevy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Gemberling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hsu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Dorner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">T</forename>
+    <surname>Smale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Cell. Biol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="4572" to="4588" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Polymyxin B prevents lipopolysaccharide-induced release of tumor necrosis factor-a from alveolar macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Stokes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Shenep</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Fishman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">K</forename>
+    <surname>Hildner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">K</forename>
+    <surname>Bysani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Rufus</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Infect. Dis</title>
+  <imprint>
+   <biblScope unit="volume">160</biblScope>
+   <biblScope unit="page">52</biblScope>
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Binding of polymyxin B to the lipid A portion of bacterial lipopolysaccharides</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Morrison</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunochemistry</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="813" to="818" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">E¡ects of polymyxin B on superoxide anion release and priming in human polymorphonuclear leukocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Aida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Pabst</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Rademacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hatakeyama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Aono</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Leukoc. Biol</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="283" to="291" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">The role of protein kinase C in the induction of nitric oxide synthesis by murine macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Severn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J O</forename>
+    <surname>Wakelam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">Y</forename>
+    <surname>Liew</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">188</biblScope>
+   <biblScope unit="page" from="997" to="1002" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Johnston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Greisman</surname>
+   </persName>
+  </author>
+  <editor>Handbook of Endotoxin (Hinshaw, L.B.</editor>
+  <imprint>
+   <date type="published" when="1985" />
+   <publisher>Elsevier/ North-Holland</publisher>
+   <biblScope unit="page" from="359" to="401" />
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide induces hyporesponsiveness to its own action in RAW 264.7 cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Virca</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">Y</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">B</forename>
+    <surname>Glaser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Ulevitch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <biblScope unit="page" from="21951" to="21956" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Diphosphoryl lipid A derived from the lipopolysaccharide (LPS) of Rhodobacter sphaeroides ATCC 17023 is a potent competitive LPS inhibitor in murine macrophage-like J774.1 cells</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kirikae</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">U</forename>
+    <surname>Schade</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Kirikae</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Qureshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Takayama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">T</forename>
+    <surname>Rietschel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEMS Immunol. Med. Microbiol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="237" to="243" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">A rationale for the prophylactic use of monophosphoryl lipid A is sepsis and septic shock</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Gustafson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Rhodes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun. FEMSIM</title>
+  <imprint>
+   <biblScope unit="volume">182</biblScope>
+   <biblScope unit="issue">937</biblScope>
+   <biblScope unit="page" from="269" to="275" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Aybay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Imir</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEMS Immunology and Medical Microbiology</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="263" to="273" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

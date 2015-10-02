@@ -1,0 +1,74 @@
+<TEI xml:id="istex-A2949FFF55417E90FD424ACE4BC59E64B96D9ABF">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">A Critique of the Report of the Departmental Committee on Liquor Liceming</title>
+  <author>
+   <persName>
+    <forename type="first">Robinson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <publisher>Camberwell Council on Alcoholism</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>York</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1973" />
+   <publisher>Wiley</publisher>
+   <biblScope unit="page" from="323" to="328" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Br</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Psychid</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+ <note>Printed. in Great Britain</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

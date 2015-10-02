@@ -1,0 +1,260 @@
+<TEI xml:id="istex-BBA333EED61A37FF9B4CEC3C06C6F43F0A55517D">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">The Blood Supply to the Heart</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1921" />
+   <publisher>Paul B. Hoeber</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Diseases of the Blood and of the Blood Preparing Organs. Eng- lish translation of Pfaundler and Schossmann Diseases of Children</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Japha</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Philadelphia. and London</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="131" to="168" />
+   <date type="published" when="1908" />
+  </imprint>
+ </monogr>
+ <note>Lippincott</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The Course of the Blood Flow Through the Fetal Mammalian Heart</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Kellogg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Anat</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page">443</biblScope>
+   <date type="published" when="1928" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Studies on the Fetal Circulation of Mammals</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Kellogg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page">637</biblScope>
+   <date type="published" when="1929" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Die Massenverhiltnisse des menschlichen Herzens</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Miiller</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1883" />
+   <publisher>Leopold Voss</publisher>
+   <pubPlace>Hamburg u. Leipzig</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">The Normal Closure of the Fornmen Ovnle</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">M</forename>
+    <surname>Patten</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>Paper. in Prepara- tion</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Functional Limitations of the Foramen Ovale in the Human Fetal Heart Certain Measurements of the Fetal Heart and their Sigmficance</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">M</forename>
+    <surname>Patten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Sommerfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Paff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat. Rec</title>
+  <editor>8. Patten, B. M:, and Toulmin, K.</editor>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page">165</biblScope>
+   <date type="published" when="1929" />
+  </imprint>
+ </monogr>
+ <note>Paper. in preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">The Course of the Blood Through the Heart of the Fetal Mammal, with a Note on the Reptilian and Amphibian Circulations</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+    <surname>Pohlman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat. Rec</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page">75</biblScope>
+   <date type="published" when="1909" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Injection of the Vessels of the Fetus to Show Some of the Peculiarities of Its Circulation</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Reid</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Edin. Med. Surg. J</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page">11</biblScope>
+   <date type="published" when="1835" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">A Statistical Summary of the Data on the Time of Obliteration of the Foramen Ovale, Ductus Arteriosus, and Ductus Venosus in Man</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Sabatier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Scammon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Norris</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ii</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Trait6 complet d&apos;anatomie</title>
+  <imprint>
+   <date type="published" when="1918" />
+   <biblScope unit="page" from="1791" to="493" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">The Behavior of Elastic Tissue in the Postfetal Occlusion and Obliteration of the Ductus Arteriosus (Botalli) in Sus Scrofa</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Schaeffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exper. Med</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">129</biblScope>
+   <date type="published" when="1914" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,1293 @@
+<TEI xml:id="istex-5466757781003C2CADBDB2172657A06ECE602C0B">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Photobleaching of fura-2 and its effect on the determination of calcium concentrations</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">L</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Fay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J . Physiol</title>
+  <imprint>
+   <biblScope unit="volume">253</biblScope>
+   <biblScope unit="page" from="613" to="618" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Inositol trisphosphate, a novel second messenger in cellular signal transduction</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Berridge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Irvine</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="page" from="312" to="315" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Intracellular divalent cation release in pancreatic acinar cells during stimulus-secretion coupling: Use of chlortetracycline as fluorescent probe</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Chandler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Williams</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Cell Biol</title>
+  <imprint>
+   <biblScope unit="page" from="76" to="371" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Characterization of responses of isolated rat hepatocytes to ATP and ADP</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Charest</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">F</forename>
+    <surname>Blackmore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Exton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="260" to="15789" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Digital imaging of free calcium changes and of spacial gradients in growing processes in single, mammalian central nervous system cells</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Connor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1986" />
+   <biblScope unit="page" from="83" to="6179" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Spatially resolved cytosolic calcium response to angiotensin I1 and potassium in rat glomerulosa cells measured by digital imaging techniques</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Connor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Cornwall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Williams</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="262" to="2919" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Intracellular Ca2+ mobilization activated by extracellular ATP in Ehrlich ascites tumor cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Dubyak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Deyoung</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="260" to="10653" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Studies on the increase of cytosolic free Ca2+ induced by epidermal growth factor, serum and nucleotides in individual A431 cells</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">A</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Heppel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Gen. Physiol</title>
+  <imprint>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>88t25A</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The rapid desensitization of receptors for platelet derived growth factor, bradykinin and ATP: Studies on individual cells using quantitative digital video fluorescence microscopy</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">A</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Heppel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Parries</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Cell surface clustering and mobility of the liganded LDL receptor measured by digital video fluorescence microscopy</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Spectroscopic Membrane Probes. L.M. Loew</title>
+  <imprint>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">A new generation of Ca2 + indicators with greatly improved fluorescence properties</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Grynkiewicz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poenie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="260" to="3440" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Exogenous ATP raises cytoplasmic free calcium in fura-2 loaded piglet aortic endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Hallam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="page" from="207" to="95" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Epidermal growth factor stimulates the rapid accumulation of inositol (1,4,5)-trisphosphate and a rise in cytosolic calcium mobilized from intracellular stores in A431 cells</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Hepler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Nakahata</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Lovenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Diguiseppi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Herman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Earp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Harden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="262" to="2951" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">A common sequence of calcium and pH signals in the mitogenic stimulation of eukaryotic cells</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Hesketh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Moore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Morris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">V</forename>
+    <surname>Taylor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Rogers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Metcalfe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">313</biblScope>
+   <biblScope unit="page" from="481" to="484" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Serum rapidly mobilizes calcium from an intracellular pool in quiescent fibroblastic cells</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lopez-Rivas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rozengurt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="page" from="114" to="240" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Ca2+-mobilizing actions of platelet-derived growth factor differ from those of bombesin and vasopressin in Swiss 3T3 mouse cells</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lopez-Rivas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A</forename>
+    <surname>Mendoza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Nanberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Sinnett-Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rozengurt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci USA</title>
+  <meeting>. Natl. Acad. Sci USA</meeting>
+  <imprint>
+   <date type="published" when="1987" />
+   <biblScope unit="page" from="84" to="5768" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Increased free calcium in endothelial cells under stimulation with adenine nucleotides</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Luckhoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Busse</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Cell. Physiol</title>
+  <imprint>
+   <biblScope unit="page" from="126" to="414" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Cytoplasmic calcium responses of individual mouse fibroblasts to nucleotides and serum</title>
+  <author>
+   <persName>
+    <forename type="middle">K D</forename>
+    <surname>Lustie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Weisman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">A</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Gen. Physiol</title>
+  <imprint>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>88t35A</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Activation of 45Ca2+ influx and 22Na/H+ exchange by epidermal growth factor and vanadate in A431 cells is independent of phosphatidylinositol turnover and is inhibited by phorbol ester and diacylglycerol</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">G</forename>
+    <surname>Macara</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">261</biblScope>
+   <biblScope unit="page" from="9321" to="9327" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Rapid increases in cytosolic free calcium in response to muscarinic stimulation of rat parotid acinar cells</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Merritt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Rink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="262" to="4958" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Quantitative video imaging of free ionized calcium in secreting tumor mast cells</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Millard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Fewtrell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Gen. Physiol</title>
+  <imprint>
+   <biblScope unit="page" from="88" to="39" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Imaging asynchronous changes in intracellular Ca2 &apos; in individual stimulated tumor mast cells</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Millard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Fewtrell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Natl. Acad. Sci. USA</title>
+  <imprint>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Growth factors immediately raise cytoplasmic free Ca2 + in human fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Moolenaar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G J</forename>
+    <surname>Tertoolen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Delaat</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="25953068" to="8069" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">The epidermal growth factor-induced calcium signal in A431 cells</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Moolenaar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Aerts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">G J</forename>
+    <surname>Tertoolen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Delaat</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="26" to="279" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">EGF raises cytosolic Ca2+ in A431 and Swiss 3T3 cells by a dual mechanism</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Pandiella</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Malgaroli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Meldolesi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Vicentini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell Res</title>
+  <imprint>
+   <biblScope unit="page" from="70" to="175" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Sequential activation and lethal hit measured by [Ca2 + I, in individual cytolytic T cells and targets</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poenie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Schmitt-Verhulst</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">EMBO J</title>
+  <imprint>
+   <biblScope unit="page" from="6" to="2223" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">A model for receptor-regulated calcium entry</title>
+  <author>
+   <persName>
+    <forename type="first">Jr</forename>
+    <surname>Putney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell Calcium</title>
+  <imprint>
+   <biblScope unit="page" from="7" to="12" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Enhancement of calcium uptake and phosphatidylinositol turnover by epidermal growth factor in A431 cells</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">T</forename>
+    <surname>Sawyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="page" from="20" to="6280" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Ca2+-insensitive intermediate in the intracellular cleavage of fura-2</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Scanlon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Fay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Gen. Physiol</title>
+  <imprint>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>88t52a</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Sensitivity of the response of cytosolic calcium in quin-2-loaded rat hepatocytes to glucagon, adenine nucleosides, and adenine nucleotides</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">D</forename>
+    <surname>Sistare</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Picking</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Haynes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="260" to="12744" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Extracellular ATP perturbs transmembrane ion fluxes, elevates cytosolic [Ca2+ I and inhibits phagocytosis in mouse macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Sung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Young</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Origlio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Heiple</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Kaback</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">C</forename>
+    <surname>Silverstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="26" to="13442" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Inositol phosphate metabolism in bradykinin-stimulated human A431 carcinoma cells</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">C</forename>
+    <surname>Tilly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Van Paridon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Verlaan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W A</forename>
+    <surname>Wirtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Delaat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Moolenaar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="page" from="244" to="129" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Calcium homeostasis in intact lymphocytes: Cytoplasmic free calcium monitored with a new, intracellularly trapped fluorescent indicator</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Pozzan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Rink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Biol</title>
+  <imprint>
+   <biblScope unit="page" from="94" to="325" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Fluorescence ratio imaging: A new window into intracellular ionic signaling</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poenie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Biochem. Sci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="450" to="455" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Calcium gradients in single smooth muscle cells revealed by the digital imaging microscope using fura-2</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Fogarty</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Fay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="page" from="318" to="558" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Regional changes in calcium underlying contraction of single smooth muscle cells</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">L</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Fay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="page" from="235" to="1644" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

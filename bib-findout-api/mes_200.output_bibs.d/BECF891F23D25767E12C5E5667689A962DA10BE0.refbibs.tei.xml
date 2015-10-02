@@ -1,0 +1,2554 @@
+<TEI xml:id="istex-BECF891F23D25767E12C5E5667689A962DA10BE0">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Ell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Workman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page">257</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Farrow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Parker</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>Microelectron.&amp;Reliab</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Arutyunov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Keigzhyan</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <biblScope unit="page">521</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Jastrzebski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE J. Solid-State Circuits SC</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="issue">105</biblScope>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Murarka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Seidel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+    <surname>Dalton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Dishman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Read</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="issue">77</biblScope>
+   <biblScope unit="page">716</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Dishman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Haszko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Marcus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Murarka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">T</forename>
+    <surname>Sheng</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page">2689</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Hayaguji</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Shimida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kawado</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semiconductor Silicon</title>
+  <imprint>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Strack</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">R</forename>
+    <surname>Mayer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">O</forename>
+    <surname>Kolbesen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Electron</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">22</biblScope>
+   <biblScope unit="page">135</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Helmveich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Sirtl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semiconductor Silicon</title>
+  <editor>H.R. Huff and E. Sirtl</editor>
+  <imprint>
+   <publisher>Electrochem. Soc</publisher>
+   <biblScope unit="page">626</biblScope>
+   <date type="published" when="1977" />
+   <publisher>Electrochem. Soc</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Deckert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">127</biblScope>
+   <biblScope unit="page">45</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Cveki¢</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Popovi#</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 3rd Yugoslav</title>
+  <meeting>. 3rd Yugoslav<address><addrLine>Nit</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1975" />
+   <biblScope unit="page">89</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Matsumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Akao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kohiyama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Niimi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="page">1840</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Popovi~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Huff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Kriegler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Takeishi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semiconductor Silicon</title>
+  <imprint>
+   <publisher>Electrochem. Soc</publisher>
+   <biblScope unit="page">844</biblScope>
+   <date type="published" when="1981" />
+   <publisher>Electrochem. Soc</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi¢</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">2</forename>
+    <surname>Mijalkovi~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+    <surname>Dimitrijev</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 9th Yugoslav Symp. Microelectron., Ljubljana</title>
+  <meeting>. 9th Yugoslav Symp. Microelectron., Ljubljana</meeting>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page">115</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Morris</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Electron</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page">457</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+    <surname>Parrillo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Payne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Seidel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Reutlinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Post</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Field</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Electron Devices ED-28</title>
+  <imprint>
+   <biblScope unit="page">1508</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electron. Lett</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page">340</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Velchev</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Toncheva</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Dimitrov</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cryst. Latt. Defects</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page">159</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Schwuttke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page">397</biblScope>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page">1113</biblScope>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Jain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Overstraeten</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">phys. stat. sol. (a)</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page">125</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi#</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Risti#</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">phys. stat. sol. (a)</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page">83</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Risti~</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <pubPlace>Nit</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Fisher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Schnable</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <pubPlace>Princeton, New Jersey</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Bull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ashburn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Booker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">H</forename>
+    <surname>Nicholas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Electron</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page">95</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">V</forename>
+    <surname>Ravi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Varker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Volk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="issue">00</biblScope>
+   <biblScope unit="page">533</biblScope>
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Eccleston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Paper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">00</biblScope>
+   <biblScope unit="page">325</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Fizicheskie osnovy nadezhnosti integralnykh ckhem</title>
+  <author>
+   <persName>
+    <forename type="first">Yu</forename>
+    <forename type="middle">G</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sov. Radio</title>
+  <imprint>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE TFans. Reliab. R</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="issue">9</biblScope>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Crook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Schnable</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Keen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. IEEE 577</title>
+  <meeting>. IEEE 577</meeting>
+  <imprint>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Shumka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Piety</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Bolin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. ATFA-77 18th #mn. Proc. Re]lab. Phys. Symp. 12th Ann. Proc. Reliab. Phys. Symp. Stitch, 15th Ann. Proc. Reliab. Phys. Symp</title>
+  <meeting>. ATFA-77 18th #mn. . Re]lab. Phys. Symp. 12th Ann. . Reliab. Phys. Symp. Stitch, 15th Ann. . Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1974" />
+   <biblScope unit="page" from="75" to="252" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1976" />
+   <biblScope unit="page">142</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Shiono</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Hashimoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Electron Devices ED-29</title>
+  <imprint>
+   <biblScope unit="volume">361</biblScope>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Reynolds</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">9th Ann. Proc. Reliab. Phys. Symp</title>
+  <imprint>
+   <date type="published" when="1971" />
+   <biblScope unit="page">46</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">E</forename>
+    <surname>Lycoudes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Childers</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Reliab. R-29</title>
+  <imprint>
+   <biblScope unit="volume">337</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Partridge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Test. Conf</title>
+  <imprint>
+   <biblScope unit="page">397</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Black</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. IEEE</title>
+  <meeting>. IEEE</meeting>
+  <imprint>
+   <date type="published" when="1969" />
+   <biblScope unit="page">1577</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Staszevski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">E</forename>
+    <surname>Wals~ E De Reca</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Electron</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page">481</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Black</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page">233</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Paterson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Components, Hybrids and Manufacturing Technology CHMT</title>
+  <imprint>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page">422</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Berg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+    <surname>Paulson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">247</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Bart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1975" />
+   <biblScope unit="page">128</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Brambilla</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Fantini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Malberti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Mattana</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp; Reliab</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">191</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+    <surname>Paulson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Kirk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pro[. Reliab. Phys. Symp</title>
+  <imprint>
+   <biblScope unit="page">172</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Patterson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">16th Ann. Proc. Reliab. Phys. Symp</title>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page">248</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Christou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Nelson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Day</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 3rd Yugoslav Symp. Microelectron., Ni~</title>
+  <editor>513 s. Risti~ and V. Cveki¢</editor>
+  <meeting>. 3rd Yugoslav Symp. Microelectron., Ni~</meeting>
+  <imprint>
+   <date type="published" when="1975" />
+   <biblScope unit="page">66</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <monogr>
+  <title level="m" type="main">Failure physics of integrated circuits</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Moeschne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Wlodarski</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Philofsky</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Electron</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page">1391</biblScope>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>James</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Components, Hybrids and Manufacturing Technology CHMT-3</title>
+  <imprint>
+   <biblScope unit="volume">370</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">P</forename>
+    <surname>Ray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. Inst. Met. Finish</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page">168</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Patrizio</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Electrical Overstress/Electrostatic Discharge Symp</title>
+  <meeting>. Electrical Overstress/Electrostatic Discharge Symp</meeting>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page">183</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Minear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Dodson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page">138</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">S</forename>
+    <surname>Speakman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1974" />
+   <biblScope unit="page">60</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page">101</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Uetsuki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mitani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Electrical Overstress/Electrostatical Discharge Symp</title>
+  <meeting>. Electrical Overstress/Electrostatical Discharge Symp</meeting>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page">88</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page">41</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Canali</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Fantini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gaviraghi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Senin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">637</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Gallace</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">L</forename>
+    <surname>Pujol</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Schnable</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page">287</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <monogr>
+  <title level="m" type="main">Radiatsionnye effekty v poluproBodnikovykh priborakh</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">L</forename>
+    <surname>Korshunov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">V</forename>
+    <surname>Gatalskii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Ivanov</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <pubPlace>Nauka i Tekhnika, Moskva</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Khobare</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">221</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Schnable</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Comizzoli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">33</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Dawes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">F</forename>
+    <surname>Debenwick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Gregori</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE J. Solid-State Circuits SC-11</title>
+  <imprint>
+   <biblScope unit="volume">459</biblScope>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Affidabilita&apos;e fisica dei meccanismi di guasto dei semiconduttori</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Mattana</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Seminario SCIENTIFICO-TECNICO di LECCE</title>
+  <imprint>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <monogr>
+  <title level="m" type="main">From Electronics to Microelectronlcs</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Reiner</surname>
+   </persName>
+  </author>
+  <editor>W.A. Kaiser and W.E. Proebster</editor>
+  <imprint>
+   <date type="published" when="1980" />
+   <publisher>North-Holland</publisher>
+   <biblScope unit="page">156</biblScope>
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <monogr>
+  <title level="m" type="main">Military Standard Test Methods and Procedures for Microelectronics</title>
+  <author>
+   <persName>
+    <forename type="first">Mil-Std-883b</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Hnatek</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page">379</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Shappirio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">F</forename>
+    <surname>Cook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid-State Technology</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page">89</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Marcus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">T</forename>
+    <surname>Sheng Ann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Reliab. Phys. Symp</title>
+  <meeting>. Reliab. Phys. Symp</meeting>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page">269</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Jastrzebski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Levine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Fisher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Cope</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Savoye</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">N</forename>
+    <surname>Henry</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">128</biblScope>
+   <biblScope unit="page">885</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">Affidabilita&apos;e fisica dei meccanismi di guasto dei semiconduttori</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Gallesio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Pollino</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Seminario SCIENTIFICO-TECNICO di LECCE</title>
+  <imprint>
+   <biblScope unit="page">481</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Audan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Benbadis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>De Muizon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gobled</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Fiabilit~, analyse des d~faillances&quot;</title>
+  <imprint>
+   <publisher>Texas Instruments France</publisher>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <monogr>
+  <title level="m" type="main">Integrated Circuit Engineering</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">B</forename>
+    <surname>Glaser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Subak-Sharpe</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Addison-Wesley</publisher>
+   <biblScope unit="page">751</biblScope>
+   <pubPlace>Reading</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <monogr>
+  <title level="m" type="main">Reliabi]ity Tutorial</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Jensen</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+   <pubPlace>Copenhagen</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Blanks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">297</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Reynolds</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. IEEE</title>
+  <meeting>. IEEE</meeting>
+  <imprint>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <monogr>
+  <title level="m" type="main">Reliability in Electrical and Electronic Components and Systems</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Reynolds</surname>
+   </persName>
+  </author>
+  <editor>E. Laguer and J. M¢Itoft</editor>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>North-Holland</publisher>
+   <biblScope unit="page">32</biblScope>
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi~</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <pubPlace>Nig</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Busta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">A</forename>
+    <surname>Waggener</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Electrochem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">124</biblScope>
+   <biblScope unit="page">1424</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Stojadinovi~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">~</forename>
+    <surname>Mijalkovi~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+    <surname>Dimitrijev</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 10th Yugoslav Symp. Microelectron., Banja Luka</title>
+  <meeting>. 10th Yugoslav Symp. Microelectron., Banja Luka</meeting>
+  <imprint>
+   <date type="published" when="1982" />
+   <biblScope unit="page">283</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <monogr>
+  <title level="m" type="main">Physics of Semiconductor Devices</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Sze</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1969" />
+   <publisher>John Wiley&amp;Sons</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Sunami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Wada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Hashimoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">803</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Isagawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Oniyama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Azegami</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">329</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Crook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Euzend</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Electron Devices ED-26</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Fuller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Alttman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Malwah</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Electron Devices ED-26</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">H</forename>
+    <surname>Hofstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Electron Devices ED-13</title>
+  <imprint>
+   <biblScope unit="volume">222</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Snow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+    <surname>Grove</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">E</forename>
+    <surname>Deal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Sah</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="issue">66</biblScope>
+   <biblScope unit="page">1664</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+ <monogr>
+  <title level="m" type="main">Handbook of Electronic Packaging</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Harper</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1969" />
+   <publisher>McGraw-Hill</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+ <note>Chap. . 7</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Comizzoli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">K</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Schnable</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Peters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Tracy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Vibronek</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Reliab. Phys. Symp</title>
+  <imprint>
+   <biblScope unit="page">282</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+ <note>18th. Ann</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Oldberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Bozarth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microelectron.&amp;Reliab</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page">601</biblScope>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">N. Lycoudes, Solid-State Technology</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">53</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,841 @@
+<TEI xml:id="istex-768F087994EFE34A3FDFDDC9CF12B4D78AA38679">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Langurs of Mundanthurai</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Chellam</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Blackbuck</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="20" to="26" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Vocal recognition in free-ranging vervet monkeys. An/m</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Chency</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Seyfarth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behav</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="362" to="367" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Recognition of Individuals within and between gt~)ups of free-ranging vervet monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Cheney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Seyfarth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. ZooL</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="519" to="529" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Interspccific affinities among gucnons as deduced from vocalizations A Primate Radiation</title>
+  <author>
+   <persName>
+    <forename type="first">J.-P</forename>
+    <surname>Gautier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Evolutionary Biology of the African Guenons</title>
+  <editor>Gautier-Hion, A., Bourli~rc, F, and Gautier, J. P.</editor>
+  <imprint>
+   <publisher>Cambridge University Press</publisher>
+   <biblScope unit="page" from="194" to="226" />
+   <date type="published" when="1988" />
+   <publisher>Cambridge University Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Individuality in the female songs of wild Kloss gibbons (Hylobates Idossii) on Siberut Islands, Indonesia</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Haimoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Tilson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="129" to="137" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Male loud calls in Macaca silenus and Presbytis johnii</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">O</forename>
+    <surname>Herzog</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="189" to="197" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Comparative study of vocal communication in two Asian leaf monkeys, Presbytis johnii and Presbytis entellus</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page" from="27" to="57" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">Akustische Kommunikationssysteme catarrhiner Primaten</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <pubPlace>Munich</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Group fission in Nilgiri langurs (Presbytis johnii)</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Primatol</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="441" to="454" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Loud calls of male purple-faced langurs (Presbytis senex)</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="200" to="206" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Comparative analyses of age-and sex-specific patterns of vocal behavior in four species of Old World monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia Primatol</title>
+  <imprint>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Survey for Nilgiri langurs (Prcsbytisjohnii) and liontailed macaques (Macaca silenus) in selected areas of Tamil Nadu</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hohmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Wesley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Sunderraj</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+ <note>South. India. Technical report to the Tamil Nadu Forest Department</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The whooping display in Nilgiri langurs: An example of the daily fluctuations superimposed on a general trend</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Horwich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Primates</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="419" to="431" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Individual and situational differences in the vocalizations of young stumptail macaques (Macaca arctoides)</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Lillehei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Snowdon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behaviour</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="270" to="281" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Vocalizations of East-African monkeys: II. Black and white colobus</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Marler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behaviour</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="175" to="197" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Individuality in a long-range vocalization of wild chimpanzees</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Marler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Hobber</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Z. Tierpsychol</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="97" to="109" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">A phonological analysis of male gibbon singing behavior</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Mitani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Marler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behaviour</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="20" to="45" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title level="m" type="main">Inheritance and experience in the acquisition of primate acoustic behavior Primate Communication</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Newman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Symmes</surname>
+   </persName>
+  </author>
+  <editor>Snowdon, C. T., Brown, C. H., and Peterson, M. R.</editor>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>Cambridge University Press</publisher>
+   <biblScope unit="page" from="259" to="278" />
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Taxonomy and phylogeny of black-and-white colobus monkeys: Inferences from an analysis of loud call variation</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Oates</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">F</forename>
+    <surname>Trocco</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia Primatol</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="83" to="113" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">The Nilgiri langur (Presbytisjohnff) of South India</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+    <surname>Poirier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Primate Behavior</title>
+  <editor>Rosenblum, L. A.</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1970" />
+   <biblScope unit="page" from="254" to="383" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The communication matrix of the Nilgiri langur (Presbytis johnii) of South India</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+    <surname>Poirier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Folia PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="92" to="136" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Syntactic structures in the vocalization of wedge-capped capuchin monkeys (Cebus nigrivittatus olivaceus)</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behaviour</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page" from="46" to="79" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title level="m" type="main">Primates of South Asia</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Roonwal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Mohnot</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Harvard University Press</publisher>
+   <pubPlace>Cambridge, Mass</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">The function of howling in red howler monkeys (AIouatta seniculus)</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Sekulic</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behaviour</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="page" from="38" to="54" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Vocal development in vervet monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Seyfarth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Cheney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anita. Behav</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="1640" to="1658" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Communications as social interaction: Its importance in ontogeny and adult behavior</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Snowdon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Primate Vocal Communication</title>
+  <editor>Todt, D., Goedeking, P., and Symmes, D.</editor>
+  <meeting><address><addrLine>Berlin</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer Verlag</publisher>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="108" to="122" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Individual recognition of contact calls by Pygmy marmosets</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Snowdon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cleveland</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anim. Behav</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="717" to="727" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Ontogeny of primate vocalizations: Models from bird song and human speech</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Snowdon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>French</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cleveland</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Current Perspectives in Primate Social Dynamics</title>
+  <editor>Taub, D. M., and King, F. A.</editor>
+  <meeting><address><addrLine>Van Nostrand Reinhold ; New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1982" />
+   <biblScope unit="page" from="389" to="402" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title level="m" type="main">Auditory communication among vervet monkeys (Cercopithecus aethiops)</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">T</forename>
+    <surname>Struhsaker</surname>
+   </persName>
+  </author>
+  <editor>Altmann, S. T.</editor>
+  <imprint>
+   <date type="published" when="1967" />
+   <publisher>Social Communication Among Primates, University of Chicago Press</publisher>
+   <biblScope unit="page" from="281" to="324" />
+   <pubPlace>Chicago</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Maternal recognition of individual infant squirrel monkeys from isolation call playbacks</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Symmes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Biben</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. PrimatoL</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="39" to="46" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Intergroup calls of male pig-tailed langurs (Simias concolor)</title>
+  <author>
+   <persName>
+    <forename type="first">Il</forename>
+    <forename type="middle">R</forename>
+    <surname>Tenaza</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Primates &quot;</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="199" to="206" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Individual recognition, intragroup cohesion and intergroup spacing: Evidence from sound playback to forest monkeys</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Waser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anita. Behav</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page" from="28" to="74" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title level="m" type="main">The evolution of male loud calls among mangabeys and baboons Primate Communication</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Waser</surname>
+   </persName>
+  </author>
+  <editor>Snowdon, C. T., Brown, C. H., and Petersen, M. R.</editor>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>Cambridge University Press</publisher>
+   <biblScope unit="page" from="117" to="143" />
+   <pubPlace>Cambridge</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Vocally mediated reciprocity between neighboring groups of mantled howling monkeys, AIouatta palliata palliata</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Whitehead</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anita. Behav</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="1615" to="1627" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Acoustical communication among free-ranging common Indian langurs (Presbytis entellus) in two different habitats of North India</title>
+  <author>
+   <persName>
+    <forename type="first">Ch</forename>
+    <surname>Vogel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Phys. AnthropoL</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="469" to="480" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

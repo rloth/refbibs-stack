@@ -1,0 +1,945 @@
+<TEI xml:id="istex-24FA8DE67886321EED67D7EF91B3EABEA8BFC111">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Peterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Sklovan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ludbrook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Uther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">parison of isovolumetric and ejection phase indices of myocardial performance in man</title>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="1088" to="101" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Ventricular function I. Starling&apos;s law of the heart studied by means of simultaneous right and left ventricular function curves in the dog</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Sarnofl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Berglund</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="708" to="18" />
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The contractile state of the left ventricle in man: instantaneous tension-velocity-length relations in patients with and without disease of the left ventricular myocardium</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Gault</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Braunwald</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="451" to="83" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Load independence of the instantaneous pressure-volume ratio of the canine left ventricle and effects of epinephrine and heart rate on the ratio</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Suga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sagawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Shoukas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="314" to="22" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Control of ventricular contractility assessed by the pressure-volume ratio</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Suga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sagawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kostluk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Emax Cardiovasc Res</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="582" to="92" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Instantaneous pressure-volume relationships and their ratio in the excised, supported left ventricle</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Saga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sagawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="117" to="28" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Systolic pressure diameter relations in the normal conscious dog</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Mahler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Covell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cardiovasc Res</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="447" to="55" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">End-systolic oressure/volume radio: a new index of ventricular contractility</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Sagawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Suaa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>Shoukas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Bakalar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="748" to="53" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Contractile state of the left ventricle in man as evaluated from endsystolic pressure volume relation</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Grossman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Braunwald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mann 1</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Mclaurln</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Green</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="845" to="52" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Peak left ventricular systolic pressure/end-systolic volume ratio: a sensitive detector -of left ventricular disease</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Nlvatpumln</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Katz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Scheuer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="989" to="74" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Measuring and recording systemic blood pressure</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Nutter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Heart</title>
+  <editor>Hurst JW, Logue RB, Schlant R, Wenger NK</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>McGraw-Hill</publisher>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="220" to="2" />
+  </imprint>
+ </monogr>
+ <note>4th. ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Response of left ventricular volume to exercise in man assessed by radionuclide equilibrium angiography</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Slutsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Karllner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Rlccl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="585" to="72" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Left ventricular volume by eluilibrium radionuclide angiography: a new method</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Slutsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Karllner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Rlccl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="558" to="85" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Reproducibility of ejection fraction and ventricular volume by gated radionuclide angiography after myocardial infarction</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Slutsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Karllner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Battler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Pflaterer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Swanson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Ashbum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Radiology</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="153" to="9" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">angiography (abstr)</title>
+ </analytic>
+ <monogr>
+  <title level="j">J Nucl Med</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">889</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The effect of sublingual nitroglycerin on left ventricular function at rest and during spontaneous angina pectoris: assessment by a radionuclide approach</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Slutaky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Curtls</forename>
+    <forename type="middle">0</forename>
+    <surname>Battler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="1385" to="70" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">The use of biplane angiocardiography for the measurement of left ventricular volume in man</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Dodge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Sandier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ballew</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lord</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Heart J</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="782" to="771" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+    <surname>Wlner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Statistical Principles in Experimental Design</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>McGraw-Hill</publisher>
+   <date type="published" when="1971" />
+   <biblScope unit="page" from="570" to="91" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Sensitivity, specificity and predictive accuracy of radionuclide cineangiography during exercise in patients with coronary artery disease. Comparison with exercise electrocardiography</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Borer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kent</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Bacharach</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="572" to="81" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Comparative sensitivity and specificity of exercise readionuclide ventriculography and rest-exercise thallium imaging in the detection of coronary artery disease (abstr)</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Caldwell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Rltchle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hamllton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kennedy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Nucl Med</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page">887</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Correlations of rest and exercise radionuclide angiocardiographic ventricular function with the number of significantly stenosed vessels in 230 patients with coronary artery disease (abstr) The response of left ventricular ejection fraction and volume to supine exercise in patients with severe COPD (abstr)</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mcewan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Newman 0</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Portwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Nucl Med Circulation</title>
+  <editor>887. Slutsky R, Ackerman W, Hooper W</editor>
+  <imprint>
+   <biblScope unit="volume">2059</biblScope>
+   <biblScope unit="issue">8</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+ <note>Suppl. ll:ll-234</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Physiologic consequences of congenital heart disease</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Helmoholz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Wood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbook of Physiology</title>
+  <editor>Beane R</editor>
+  <meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+  <imprint>
+   <publisher>American Physiological Society</publisher>
+   <date type="published" when="1982" />
+   <biblScope unit="page" from="417" to="87" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Abnormal electrocardiographic response to exercise in patients referred for non-invasive evaluation of occlusive peripheral arterial disease</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Silvestre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Desa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Neto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Desser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Benchlmol</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="713" to="5" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Pulsatile blood flow</title>
+  <author>
+   <persName>
+    <forename type="first">Wr</forename>
+    <surname>Mllnor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">287</biblScope>
+   <biblScope unit="page" from="27" to="30" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Arterial impedance as ventricular afterload</title>
+  <author>
+   <persName>
+    <forename type="first">Wr</forename>
+    <surname>Mllnor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="585" to="7" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Effects of alterations in aottic impedance on the performance of the ventricles</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Wllcken</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Charller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hoffman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Guz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="283" to="91" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Effects of decreased aortic compliance on performance of the left ventricle</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Urschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Covell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Sonnenbllck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Braunwald</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="298" to="308" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Pressure and flow generated by the left ventricle against differences impedances</title>
+  <author>
+   <persName>
+    <surname>Elzlnga 0</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Westerhof</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="178" to="83" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

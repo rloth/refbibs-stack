@@ -1,0 +1,2811 @@
+<TEI xml:id="istex-A0B736F56135F8F116644572667A1AF89F048CA6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Ecological neighborhoods: scaling environmental patterns</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Addicott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Aho</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Antolin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Padilla</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Richardson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Soluk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oikos</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="340" to="346" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">Hypothesis testing in ecological studies of aquatic insects. The Ecology of Aquatic Insects</title>
+  <author>
+   <persName>
+    <forename type="first">Allan</forename>
+    <forename type="middle">J D</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Praeger Publishers</publisher>
+   <biblScope unit="page" from="484" to="507" />
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">SampUng and the description of spatial pattem in marine ecology</title>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <forename type="middle">N L</forename>
+    <surname>Mapstone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oceanography and Marine Biology Annual Review</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="39" to="90" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Habitat patchiness and macrobenthic community structure in an upland stream in temperate Victoria</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Barmuta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Australia. Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="233" to="236" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Interaction between the effects of substratum, velodty and location on stream benthos: an experiment</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Barmuta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Australian Journal of Marine and Freshwater Research</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="557" to="573" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Invertebrate colonization and processing of maple leaf litter in a forested and an agricultural reach of a stream</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Bird</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">K</forename>
+    <surname>Kaushik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">234</biblScope>
+   <biblScope unit="page" from="65" to="77" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">The aquatic Oligochaeta known from Australia, New Zealand, Tasmania and adjacent islands</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">O</forename>
+    <surname>Brinkhurst</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1971" />
+   <publisher>University of Queensland Papers</publisher>
+   <biblScope unit="page" from="99" to="128" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">DistribuHon of insects within riffles of streams</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">B</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Invertebrate Biology</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="2" to="11" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Ordination of functional groups and organic matter parameters from Spatial variation in the distribution of stream invertebrates 129 the Middle Fork of the Salmon River</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Bruns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Brock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Idaho. Freshwater Invertebrate Biology</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="2" to="12" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">Tributaries as modifiers of the river continuum concept: analysis by polar ordination and regression models</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Bruns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">!</forename>
+    <forename type="middle">G W</forename>
+    <surname>Minshal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Brock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Archiv fur Hydrobiohgie</publisher>
+   <biblScope unit="page" from="208" to="220" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Riffle-pool geomorphology disrupts longitudinal patterns of stream benthos</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Brussock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <publisher>Hydrobiohgia</publisher>
+   <biblScope unit="page" from="109" to="117" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Spatial and temporal variation in the macroinvertebrate fauna of streams of the northern jarrah forest. Western Australia: functional organization</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Bunn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="621" to="632" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Modified dimethyl sulfoxide (DMSO) extraction for chlorophyll analysis of phytoplankton</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">K</forename>
+    <surname>Bumison</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="729" to="733" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">Contrasting effects of nitrogen and phosphorus additions on epilithic algae in a hardwater and a softwater stream in Northern Michigan</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Burton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Oemke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Molloy</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <biblScope unit="page" from="1644" to="1653" />
+  </imprint>
+ </monogr>
+ <note>Internationale. Vereinigung fiir Theoretische und Angewandte Limnologie</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Temporal and spatial variation in dominance, diversity and biotic indices along a limestone stream receiving a trout farm effluent</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Camargo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Water, Air and Soil Pollution</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="343" to="359" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Allochthonous coarse particulate organic material in forest and pasture reaches of two southeastern Australian streams. II. Litter processing</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">C</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">James</forename>
+    <forename type="middle">K R</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">T</forename>
+    <surname>Devereaux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="353" to="366" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Seasonal and longitudinal changes in invertebrate functional groups in the Dolores River</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Canton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Chadwick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Colorado. Freshwater Invertebrate Biology</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="41" to="47" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Variation in larval black fly populations at three sites in a stream system over five years {Diptera: Simuliidae)</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Colbo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">121</biblScope>
+   <biblScope unit="page" from="77" to="82" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Stream geomorphology: effects on periphyton standing crop and primary production</title>
+  <author>
+   <persName>
+    <forename type="first">Coleman</forename>
+    <forename type="middle">R L</forename>
+    <surname>Dahm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North Ainerican Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="293" to="302" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">(I985) Disturbance and patch dynamics of subtidal marine animals on hard substrates</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Connell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Keough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Ecology of Natural Disturbance and Patch Dynamics</title>
+  <editor>S.T.A. Pickett &amp; P.S. White</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page" from="125" to="151" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">Water mites from Australia. Memoirs of the American Entomological Institute</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Cook</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <biblScope unit="page" from="1" to="568" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Patterns of benthic invertebrate assemblages in rivers of northwestern North America</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Corkum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="191" to="205" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Intrabiome distributional patterns of iotic macroinvertebrate assemblages</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Corkum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="2147" to="2157" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Spatial patterns of macroinvertebrate distribution along rivers in eastern deciduous forest and grassland biomes</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Corkum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="358" to="371" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Phosphorus and glucose uptake by seston and epilithon in boreal forest streams</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Coming</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Duthie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Paul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="123" to="133" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Key to Subfamilies of Upper Murray River Chironomidae</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cranston</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of Chironomidae Taxonomy Workshop</title>
+  <meeting>Chironomidae Taxonomy Workshop<address><addrLine>Albury, N.S.W., Australia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Murray-Darling Freshwater Research Centre</publisher>
+   <date type="published" when="1990-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Analysis of longitudinal zonation and the river continuum concept in the Oldman-South Saskatchewan River system</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Culp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Davies</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian lournal of Fisheries and Aquatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="1258" to="1266" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E C</forename>
+    <surname>Cushingc</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Stream ecosystem theory. Intemationale Vereinigung fiir Theoretische und Angewandte Ummlogie</title>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="1818" to="1827" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">A Guide to Australian Mayflies of the Family Lqjtophlebiidae</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dean</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of Ephemeroptera Taxonomy Workshop</title>
+  <meeting>Ephemeroptera Taxonomy Workshop<address><addrLine>Albury, N.S.W., Australia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Murray-Darling Freshwater Research Centre</publisher>
+   <date type="published" when="1989-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Preliminary Keys pr Identification of Late Instar Larvae of the Australian Hydropsychidae (Trichoptera )</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dean</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of Trichoptera Taxonomy Workshop</title>
+  <meeting>Trichoptera Taxonomy Workshop<address><addrLine>Albury, N.S.W., Australia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Murray-Darling Freshwater Research Centre</publisher>
+   <date type="published" when="1991-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <monogr>
+  <title level="m" type="main">Taxonomic Keys for Late Instar Larvae of the Australian Hydrobiosidae (Trichoptera) Proceedings of Trichoptera Taxonomy Workshop</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dean</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991-02" />
+   <publisher>Murray-Darling Freshwater Research Centre</publisher>
+   <pubPlace>Albury, N.S.W., Australia</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Micro-environmental characteristics of filamentous algal communities in flowing freshwaters</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">K</forename>
+    <surname>Dodds</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="199" to="209" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title level="m" type="main">A technique for assessing the composition and density of the macroinvertebrate fauna of large stones in streams</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Doeg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">S</forename>
+    <surname>Lake</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>Hydrobiohgia</publisher>
+   <biblScope unit="page" from="3" to="6" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">ColonizaHon of experimentally disturbed patches by stream macroinvertebrates in the Acheron River</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Doeg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">S</forename>
+    <surname>Lake</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Marchant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Victoria. Australian Journal of Ecology</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="207" to="220" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Aggregation, transformation, and the design of benthos sampling programs</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Downing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Schreiber the Fisheries Research Board of Canada</title>
+  <editor>B.}. Downes, P.S. Lake and E.S.G.</editor>
+  <imprint>
+   <date type="published" when="1979" />
+   <biblScope unit="page" from="1454" to="1463" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Biological heterogeneity in aquatic ecosystems Ecological Heterogeneity</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Downing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecological Studies</title>
+  <editor>J. Kolasa &amp; S.T.A. Pickett</editor>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page" from="160" to="180" />
+   <date type="published" when="1991" />
+   <publisher>Springer-Verlag</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Longitudinal and temporal changes in functional organization of macroinvertebrate communities in the Lam Tsuen River, Hong Kong</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Dudgeon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">111</biblScope>
+   <biblScope unit="page" from="207" to="217" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">The relative contribution of benthic and suspended bacteria to system biomass, production, and metabolism in a low-gradient blackwater river</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">T</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Meyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E G</forename>
+    <surname>Findlay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="216" to="228" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <monogr>
+  <title level="m" type="main">Some Methods for the Statistical Analysis of Samples of Beuthic Invertebrates</title>
+  <author>
+   <persName>
+    <forename type="first">Elliott</forename>
+    <forename type="middle">J M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Freshwater Biological Association Sdentific Publication No. 25</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">The importance of algae to stream invertebrates</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Fuller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Roeiofs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Fry</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="290" to="296" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Illustrated Keys to Late Instar Larvae of Some Australian Elmidae</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Glaister</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of Coleoptera Taxonomy Workshop</title>
+  <meeting>Coleoptera Taxonomy Workshop<address><addrLine>Albury, N.S.W., Australia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Murray-Darling Freshwater Research Centre</publisher>
+   <date type="published" when="1992-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Community organization in streams: the importance of spedes interactions, physical factors, and chance</title>
+  <author>
+   <persName>
+    <forename type="first">Hart</forename>
+    <forename type="middle">D D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oecologia</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page" from="220" to="228" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Longitudinal and seasonal changes in functional organization of macroinvertebrate communities in four Oregon streams</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="387" to="397" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <monogr>
+  <title level="m" type="main">The effect of deforestation on organic debris dams. Internationale Vereinigung fiir Theoretische und Angewandte Limnologie</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">O</forename>
+    <surname>Hedin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Mayer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Likens</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="1135" to="1141" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">Nutrient influence on a stream grazer: Orthocladius microcommunities respond to nutrient input</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Hershey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Hiltner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Huuar</forename>
+    <forename type="middle">M A J</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Vestal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Lock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Rundle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Peterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="1383" to="1392" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">DECORANA-A Fortran Program for Detrended Correspondence Analysis and Reciprocal Averaging</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">O</forename>
+    <surname>Hill</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cornell Univ</title>
+  <imprint>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Use of Nucleopore filters for counting bacteria by fluorescence microscopy</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Hobbie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Dayley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Jasper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Applied and Environmental Microbiology</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="1225" to="1228" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Pseudoreplication and the design of ecological field experiments</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">H</forename>
+    <surname>Huribert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecological Monographs</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="187" to="211" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Annotated Key to the Stonefly Nymphs (Plecoptera) of Victoria</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B N</forename>
+    <surname>Hynes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Australian Sodety of Limnology Special Publication</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Chlorophylls and carotenoids</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Jensen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbook of Phycological Methods: Physiological and Biochemical Methods</title>
+  <editor>A. Hellebust&amp; J.S. Craigie</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cambridge University Press</publisher>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="60" to="70" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Transport and retention of particulate organic matter into two low-gradient headwater streams</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Smock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="115" to="126" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">Comf&gt;etition and the structure of a benthic stream community</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Kohler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecological Monographs</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="165" to="188" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Multiple scales of patchiness and patch structure: a hierarchical framework for the study of heterogeneity</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">B</forename>
+    <surname>Kotliar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Wiens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oikos</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="253" to="260" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Determination of chlorophyll and pheo-pigments: spectrophotometric equations</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Lorenz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnology and Oceanography</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="343" to="346" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">Effects of dishirbance on benthic functional structure and production in mountain streams</title>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Lugthartg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">B</forename>
+    <surname>Wallacej</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="138" to="164" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">Structure of benthic macroinvertebrate communities in a mid western plains stream</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Macfarlane</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Invertebrate Biology</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="147" to="153" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Colonization by lotic macroinvertebrates: a review of processes and patterns</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Mackay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="616" to="628" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">Revisional notes on Australasian Simuliidae (Diptera)</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">M</forename>
+    <surname>Mackerras</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Mackerras</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the Linnean Society of New South Wales</title>
+  <meeting>the Linnean Society of New South Wales</meeting>
+  <imprint>
+   <date type="published" when="1949" />
+   <biblScope unit="page" from="372" to="405" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title level="a" type="main">The effect of beaver ponds on the nonpoint source water quality of a stream in southwestern Wyoming</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Marchant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Melbourne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Australia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Maret</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Parker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Fannin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Water Research</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="263" to="268" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+ <note>Key. to Mature Ephemeropteran Nymphs in NM V Voucher Collection. Museum of Victoria,</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <analytic>
+  <title level="a" type="main">Variation in the size of animal populations: patterns, problems and artefacts</title>
+  <author>
+   <persName>
+    <forename type="middle">H</forename>
+    <surname>Mcardleb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J H</forename>
+    <surname>Gastonk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Animal Ecology</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="439" to="454" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">Competition for space, disturbance , and the structure of a benthic stream commuruty</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Mcauliffe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="894" to="908" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">Interbiome comparison of stream ecosystem dynamics</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">L</forename>
+    <surname>Bottt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecological Monographs</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="1" to="25" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">Spedes richness in streams of different size from the same drainage basin</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Petersen</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Nimz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Naturalist</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="page" from="16" to="38" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Developments in stream ecosystem theory</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Bruns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian Journal of Fisheries and Axjuatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="1045" to="1055" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">Stream ecosystem dynamics of the Salmon River, Idaho: an 8th-order stream</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>Bott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthologieal Society</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="111" to="137" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <analytic>
+  <title level="a" type="main">Spatial variation in soft-sediment benthos</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Morrisey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Howitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Underwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Stark</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Marine Ecology Progress Series</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="page" from="197" to="204" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title level="a" type="main">Longitudinal patterns of ecosystem processes and community structure in a subarctic river continuum</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Naiman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Meliilo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Lock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Ford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Reice</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="1139" to="1156" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title level="a" type="main">Variability in the macrofauna of a single riffle in Prosser Creek, California, as indicated by the Surber sampler</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Needham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Usinger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hilgardia</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="383" to="409" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title level="a" type="main">Applied Linear Statistical Models Patch dynamics in lotic systems: the stream as a mosaic</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Neter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Wasserman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Kutner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Homestead</forename>
+    <surname>Irwin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <forename type="middle">S A</forename>
+    <surname>Illinois</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Pringle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Naiman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bretschko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Karr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Oswood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Webster</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Welcomme</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Winterboum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="503" to="524" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title level="a" type="main">Influence of regulation on environmental conditions and the macroinvertebrate community in the upper Colorado River</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Rader</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+    <surname>Ward</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Regulated Rivers: Research and Management</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="597" to="618" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">The influence of environmental predictability/disturbance characteristics on the structure of a guild of mountain stream insects</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Rader</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+    <surname>Ward</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oikos</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="107" to="116" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title level="a" type="main">The role of disturbance in stream ecology</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">H</forename>
+    <surname>Resh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Covich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Gurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">W</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Reice</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Sheldon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wallace</forename>
+    <forename type="middle">J B</forename>
+    <surname>Wissmar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="433" to="455" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <analytic>
+  <title level="a" type="main">Influence of flow regime on life history, production, and genetic structure of Baetis tricaudatis (Ephemeroptera) and Hespcroperla pacifica (Plecoptera)</title>
+  <author>
+   <persName>
+    <forename type="first">Robinson</forename>
+    <forename type="middle">C T</forename>
+    <surname>Reed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="278" to="289" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <analytic>
+  <title level="a" type="main">Stream communities and terrestrial biomes</title>
+  <author>
+   <persName>
+    <forename type="first">Ross</forename>
+    <forename type="middle">H H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Archiv fiir Hydrobiologie</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="235" to="242" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <analytic>
+  <title level="a" type="main">Colonization curves: application to stream insects on semi-natural substrates</title>
+  <author>
+   <persName>
+    <forename type="first">Sheldon</forename>
+    <forename type="middle">A L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oikos</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="256" to="261" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <monogr>
+  <title level="m" type="main">Epilithon patch structure in a boreal river</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Sinsabaugh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Weiland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Linkins</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <publisher>North American Benthological Society</publisher>
+   <biblScope unit="page" from="419" to="429" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <analytic>
+  <title level="a" type="main">Spatial and temporal variation in the growth and production of Ephoron leukon (Ephemeroptera: Polymitarcyidae)</title>
+  <author>
+   <persName>
+    <forename type="first">Cd</forename>
+    <surname>Snyder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Willis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Hendricks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North Awericau Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="57" to="67" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <analytic>
+  <title level="a" type="main">Stream hydraulics as a major determinant of benthic invertebrate zonation patterns</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Statzner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Higler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="127" to="139" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <analytic>
+  <title level="a" type="main">Assessing effects of unreplicated perturbations: no simple solutions</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Stewart-Oaten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Bence</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Osenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ecology</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page" from="13" to="1404" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <monogr>
+  <title level="m" type="main">Hyposometric (area-altitude) analysis of erosional topography</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">N</forename>
+    <surname>Strahler</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1952" />
+   <publisher>Bulletin of the Geological Society of America</publisher>
+   <biblScope unit="page" from="1117" to="1142" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <analytic>
+  <title level="a" type="main">The patch dynamics concept of stream community ecology</title>
+  <author>
+   <persName>
+    <forename type="first">Townsend</forename>
+    <forename type="middle">C R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the North American Benthological Society</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="36" to="50" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <analytic>
+  <title level="a" type="main">Spatial patterns in soft-bottom communities</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Thrush</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends in Ecology and Evolution</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="75" to="79" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <analytic>
+  <title level="a" type="main">Techniques of analysis of variance on experimental marine biology and ecology</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Underwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Oceanography and Marine Biology Annual Review</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="513" to="605" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+ <analytic>
+  <title level="a" type="main">Experiments in ecology and management: their logics, functions and interpretations</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Underwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Australian Journal of Ecology</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="365" to="389" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+ <analytic>
+  <title level="a" type="main">The river continuum concept</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Vannote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Minshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Cummins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Sedell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Cushing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="130" to="137" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+ <monogr>
+  <title level="m" type="main">Longterm comparisons of insect abundances in disturbed and undisturbed Appalachian headwater streams</title>
+  <author>
+   <persName>
+    <forename type="first">Wallace</forename>
+    <forename type="middle">J B</forename>
+    <surname>Gurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>&amp;smith-Cuffneyf</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="1224" to="1231" />
+  </imprint>
+ </monogr>
+ <note>Internationale. Vereinigung fur Theoretische und Angewandte Limnologie</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+ <monogr>
+  <title level="m" type="main">Downstream effects of a large, deep-release, high mountain reservoir on lotic zoobenthos</title>
+  <author>
+   <persName>
+    <forename type="first">Ward</forename>
+    <forename type="middle">J V</forename>
+    <surname>Voefz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="1174" to="1178" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+ <analytic>
+  <title level="a" type="main">Patterns in the distribution of heptageniid (Ephemeroptera) species in Saskatchewan</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Whiting</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Sheard</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canada. Freshwater Biology</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="143" to="157" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+ <analytic>
+  <title level="a" type="main">Spatial scaling in ecology</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Wiens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Functional Ecology</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="385" to="397" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+ <monogr>
+  <title level="m" type="main">Australian Freshwater Life</title>
+  <author>
+   <persName>
+    <forename type="first">Williams</forename>
+    <forename type="middle">W D</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <publisher>MacMillan Co</publisher>
+   <pubPlace>Melbourne, Australia</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+ <monogr>
+  <title level="m" type="main">Statistical Principles in Experimental Design</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Winer</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1971" />
+   <publisher>McGraw-Hill Kogakusha</publisher>
+   <pubPlace>Sydney</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+ <analytic>
+  <title level="a" type="main">Colonization of artificial substrates by stream insects: influence of substrate size and diversity</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Wise</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiologia</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="69" to="74" />
+   <date type="published" when="1979-02" />
+  </imprint>
+ </monogr>
+ <note>Manuscript. accepted 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+ <analytic>
+  <title level="a" type="main">Analysis of spatial variation for the thirty-five most ahundant taxa Degrees of freedom and symbols are the same as those in Table 1. Other symbols Superscripts: ^filterers; predators; -^shredders; @BULLET^scrapers; ^collector/gatherers; -^Brinkhurst (1971); ^Cook (1986); &quot;^DeanDean (1991a,b) spedes Annelida&apos;^ Naididae sp</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">S</forename>
+    <surname>Downes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">S G</forename>
+    <surname>Lake</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mv</forename>
+    <surname>Schreiber Appendix</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Museum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Victoria Voucher Number, L = Larva</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Marchant</title>
+  <meeting><address><addrLine>Cranston</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1949" />
+   <biblScope unit="page" from="1978" to="1980" />
+  </imprint>
+ </monogr>
+ <note>Austrolinwius. metasternalis (A)* Kingolus tincttis{A) Kingolus tinctus(L)&apos;* Kingolus yarrensis (h)* Diptera*^ Austrosimulium victoriae^ Empididae sp. MU2^ Thicneniatiiella sp.^ Eukiefferiella insolita Cricotopus spp,^ RJieotany tarsus ni juliae^ Orthocladinae &apos;grape th&apos; sp. Cardiocladius sp. Rit&apos;tliia sp.^ Trichoptera&quot; Smicrophylax sp, 2&apos; Asniicridea sp. l&apos; Ulmerochorema membrum</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

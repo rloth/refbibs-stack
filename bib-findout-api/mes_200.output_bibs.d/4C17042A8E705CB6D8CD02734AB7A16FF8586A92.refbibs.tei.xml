@@ -1,0 +1,412 @@
+<TEI xml:id="istex-4C17042A8E705CB6D8CD02734AB7A16FF8586A92">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Personal and Environmental Factors Associated with College Dropouts Among High Aptitude Students</title>
+  <author>
+   <persName>
+    <forename type="first">Alexander</forename>
+    <forename type="middle">W</forename>
+    <surname>Astin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Educ. Psychol</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page">219</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">William</forename>
+    <forename type="middle">F</forename>
+    <surname>Brazziel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Effects of General Education in Manpower Programs</title>
+  <imprint>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">CALIFORNIA STATE, State Bureau of Criminal Statistics Crime and Delinquency</title>
+  <imprint>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">Salary Survey of California Probation Departments Characteristics of the California Youth Authority Parole Caseload, (a) Department of the Youth Authority, State of California. Office of the California State Controller. Annual Reuort of Financial Transactions Concerning Cities of California</title>
+  <imprint>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+ <note>Support. id Local Assistance Budget, Fiscal Year 1966/67</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Deaartmental County Budgets, California Counties. _ _ -. fiscal years</title>
+  <author>
+   <persName>
+    <forename type="first">California</forename>
+    <surname>Taxpayers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Association</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1963164" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Robert</forename>
+    <forename type="middle">C</forename>
+    <surname>Crow</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Facts About Delinquency in California, Division of Delinquency Prevention, Department of the Youth Authority, State of California</title>
+  <imprint>
+   <date type="published" when="1966-06" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Study of Factors in Economic Success or Failure, (mimeo) Social Security Administration</title>
+  <author>
+   <persName>
+    <forename type="first">Phillips</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cutright</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Pilot</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1964-06" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">Measuring the Contribution of Education to Economic Growth, The Residual Factor and Economic Growth</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">F</forename>
+    <surname>Denison</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1964" />
+   <publisher>OECD</publisher>
+   <pubPlace>Paris</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The Sources of Measured Productivity Growth</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Griliches</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Politic. &amp;on</title>
+  <imprint>
+   <biblScope unit="volume">331</biblScope>
+   <date type="published" when="1940" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Education and Income</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Hauthakker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rev. econ. Statist</title>
+  <imprint>
+   <date type="published" when="1959-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Retention and Withdrawal of College Students</title>
+  <author>
+   <persName>
+    <forename type="first">Robert</forename>
+    <forename type="middle">E</forename>
+    <surname>Iffert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bulletin U.S. Department.of Health, Education, and Welfare</title>
+  <imprint>
+   <publisher>Office of Education</publisher>
+   <biblScope unit="volume">1958</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <date type="published" when="1957" />
+   <publisher>Office of Education</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">P</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lifetime</forename>
+    <surname>Income</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Economic</forename>
+    <surname>Growth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. econ. Rev. LX</title>
+  <imprint>
+   <biblScope unit="page">834</biblScope>
+   <date type="published" when="1965-09" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title level="m" type="main">The American College</title>
+  <author>
+   <persName>
+    <forename type="first">John</forename>
+    <surname>Summerskill</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1961" />
+   <publisher>John Wiley</publisher>
+   <biblScope unit="page">634</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">Retraining Under the Manpower Development Act: A Cost-Benefit Analysis, In Public Policy</title>
+  <author>
+   <persName>
+    <forename type="first">David</forename>
+    <forename type="middle">A</forename>
+    <surname>Page</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1964" />
+   <publisher>Harvard University Press</publisher>
+   <pubPlace>Cambridge, Mass</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Education and Poverty</title>
+  <author>
+   <persName>
+    <forename type="first">Thomas</forename>
+    <forename type="middle">I</forename>
+    <surname>Ribich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Brookings Institution</title>
+  <meeting><address><addrLine>Washington, D.C.</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1966-09" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Space-General</forename>
+    <surname>Corporation</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Prevention and Control of Crime and Delinquency, Final Report to the Youth and Adult Corrections Agency of the State of California</title>
+  <imprint>
+   <date type="published" when="1965-06-29" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The Challenge of Crime in a Free Society, A Report by the President&apos;s Commission on Law Enforcement and Administration of Justice</title>
+ </analytic>
+ <monogr>
+  <title level="j">U.S. Government Printing Office</title>
+  <imprint>
+   <date type="published" when="1967-02" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <forename type="middle">S</forename>
+    <surname>Federal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Bureau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Uniform</forename>
+    <surname>Investigation</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Crime</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1965-07-28" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Education and Investment in Human Capital</title>
+  <author>
+   <persName>
+    <forename type="first">Burton</forename>
+    <forename type="middle">W</forename>
+    <surname>Weisbrod</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Politic. Econ</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <date type="published" when="1962-10" />
+  </imprint>
+ </monogr>
+ <note>Suppl. .</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title level="m" type="main">External Benefits of Public Education, Industrial Relations Section</title>
+  <imprint>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">America&apos;s Resources of Specialized Talent</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Wolfle</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1954" />
+   <publisher>Harper</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

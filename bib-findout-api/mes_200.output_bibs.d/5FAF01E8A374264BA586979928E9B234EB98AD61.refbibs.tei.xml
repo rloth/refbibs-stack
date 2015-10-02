@@ -1,0 +1,336 @@
+<TEI xml:id="istex-5FAF01E8A374264BA586979928E9B234EB98AD61">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">A combined conjugate gradient quasi-Newton minimization algorithm</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematical Programming</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="200" to="210" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Extending the relationship between the conjugate gradient and BFGS algorithms</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematical Programming</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="343" to="348" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Conjugate gradient methods</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the NA TO Advanced Research Institute on Nonlinear Optimization</title>
+  <editor>M.J.D. Powell</editor>
+  <meeting>the NA TO Advanced Research Institute on Nonlinear Optimization<address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="17" to="22" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">A portable package for testing minimization algorithms</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the COAL Conference on Mathematical Programming Software</title>
+  <editor>John M. Mulvey</editor>
+  <meeting>the COAL Conference on Mathematical Programming Software<address><addrLine>Boulder, Colorado ; New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer</publisher>
+   <date type="published" when="1982" />
+   <biblScope unit="page" from="226" to="235" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Function minimization by conjugate gradients</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Fletcher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Reeves</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Computer Journal</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="163" to="168" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">A FORTRAN subroutine for minimization by the method of conjugate gradients</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Fletcher</surname>
+   </persName>
+  </author>
+  <editor>U.K.A.E.R.E., Harwe[l, England</editor>
+  <imprint>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">A relationship between the BFGS and conjugate gradient algorithms and its implications for new algorithms</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Nazareth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">SIAM Journal on Numerical Analysis</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="794" to="800" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Updating quasi-Newton matrices with limited storage</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematics of Computation</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="773" to="782" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Optimal conditioning of self-scaling variable metric algorithms</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+    <surname>Oren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Spedicato</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematical Programming</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="70" to="90" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">A modified conjugate gradient algorithm</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Perry</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Discussion paper 229</title>
+  <imprint>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Restart procedures for the conjugate gradient method</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J D</forename>
+    <surname>Powell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematical Programming</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="241" to="254" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Conjugate gradient methods with inexact searches</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Shanno</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematics of Operations Research</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="244" to="256" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Numerical comparison of several variable metric algorithms</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Shanno</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K.-H</forename>
+    <surname>Phua</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Optimization Theory and Applications</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="507" to="518" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Remark on Algorithm 500</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Shanno</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ACM Transactions on Mathematical Software</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="618" to="622" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Some numerical results using a sparse matrix updating formula in unconstrained optimization</title>
+  <author>
+   <persName>
+    <surname>Ph</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Toint</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mathematics of Computation</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="839" to="851" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

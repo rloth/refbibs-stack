@@ -1,0 +1,517 @@
+<TEI xml:id="istex-DCB30A79F7B2E756543F4C9D701BA9BF1009AA42">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">An Introduction to Electromyography</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Buchthal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gyldendal</title>
+  <imprint>
+   <biblScope unit="page">43</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Processing of electrical activity in human muscles during a gradual increase in force</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Christensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lo</forename>
+    <surname>Monaco</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Dahl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electroenceph. clin. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="230" to="239" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Motor Function in the Lower Extremity; Analyses by Electronic Instrumentation</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Close</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Thomas</title>
+  <meeting><address><addrLine>Springfield, IL</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1964" />
+   <biblScope unit="page">156</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">An analyser for use in human electromyography</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Fitch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electron. Engng</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="240" to="243" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Electrical activity and force during voluntary contraction of normal and diseased muscle</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta neurol, scand</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="1" to="60" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+ <note>Suppl. . 83</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Analysis of electrical activity of normal muscle in man at different degrees of voluntary effort</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mhnsson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="683" to="694" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Diagnostic yield of analysis of the pattern of electrical activity and of individual motor unit potentials in myopathy</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Scheel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Buchthal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="742" to="750" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Diagnostic yield of the analysis of the pattern of electrical activity of muscle and of individual motor unit potentials in neurogenic involvement</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Scheel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Buchthal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="544" to="554" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Electrical muscle activity during a gradual increase in force in patients with neuromuscular diseases</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fuglsang-Frederiksen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Dahl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lo</forename>
+    <surname>Monaco</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electroenceph. clin. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="320" to="329" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Analysis of electromyographic signals by measurement of wave duration</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Fusfeld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electroenceph. clin. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="337" to="344" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">A study of the differentiated electromyogram</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Fusfeld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Electroenceph. clin. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="511" to="515" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Turns&apos; analysis in the physiological evaluation of neuromuscular disorders</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">A</forename>
+    <surname>Garcia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Milner-Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Fisher</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1091" to="1097" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Quantitative electromyography using automatic analysis, a comparative study with fixed loads, fixed fraction of a subject&apos;s maximum effort and two levels of thresholds for analysis</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Haridasan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">H</forename>
+    <surname>Sanghvi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Jindal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">M</forename>
+    <surname>Joshi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Desai</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. neurol. Sci</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="53" to="64" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Automatic analysis of the electromyogram in patients with chronic partial denervation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hayward</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Wiuison</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. neurol. Sci</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="415" to="423" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Quantitative electromyography , comparison between manual values and computer ones on normal subjects</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hirose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Uono</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Sobue</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">EMG clin. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="305" to="320" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Quantitative electromyographic changes associated with muscular weakness</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A R</forename>
+    <surname>Lenman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="306" to="310" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Experimental studies on the effect of &apos;Laevadosin&apos; in muscular dystrophy</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Simpson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">D</forename>
+    <surname>Sanderson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Research in Muscular Dystrophy. Proc. 3rd Symp</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Pitman Medical</publisher>
+   <date type="published" when="1965" />
+   <biblScope unit="page" from="342" to="354" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Analysis of electrical activity in healthy and dystrophic muscle in man</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Willison</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurol. Neurosurg. Psychiat</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="386" to="394" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,199 @@
+<TEI xml:id="istex-410E24AAEB52BC392FB9028C6B66244A411DFE1E">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The value of histological and bacteriological examination in tuberculosis of bones and joints</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Orthopaedica Scandinavica</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page">91</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Anterior spinal fusion. A preliminary communication on the radical treatment of Pott&apos;s disease and Pott&apos;s paraplegia</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Hodgson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Et</forename>
+    <surname>Stock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">British Journalof Surgery</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page">266</biblScope>
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The ambulant treatment of spinal tuberculosis A controlled trial of ambulant outpatient treatment and inpatient rest in bed in the management of tuberculosis of the spine in young Korean patients on standard chemotherapy. A study in Masan A controlled trial of plaster-of-Paris jackets in the management of ambulant outpatient treatmentof tuberculosisof thespine in children on standard chemotherapy</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Konstam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Et</forename>
+    <surname>Blesovsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">British Journalof Surgery Medical Research Council Korea. Journalof Bone and Joint Surgery</title>
+  <imprint>
+   <publisher>Medical Research Council</publisher>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="issue">558</biblScope>
+   <biblScope unit="page">678</biblScope>
+   <date type="published" when="1962" />
+   <publisher>Medical Research Council</publisher>
+  </imprint>
+ </monogr>
+ <note>Astudy. in Pusan, Korea. Tobercle, 54,261. Tuberculosis of the spine 105</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">A controlled trial of debridement and ambulatory treatment in the management of tuberculosis of the spine in patients on standard chemotherapy. A study in Bulawayo</title>
+  <author>
+   <persName>
+    <surname>Medical Research</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Council</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rhodesia. Journal of Tropical Medicine and Hygiene</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page">72</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">A controlled trial of anterior spinal fusion and debridement in the surgical management of tuberculosis of the spine in patients on standard chemotherapy. A study in Hong Kong</title>
+  <author>
+   <persName>
+    <surname>Medical Research</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Council</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Briiish Journal of Surgery</title>
+  <imprint>
+   <biblScope unit="page">61853</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">A five-year assessment of controlled trials of inpatient and outpatient treatment and of plaster-of-Paris jackets for tuberculosis of the spine in children on standard chemotherapy</title>
+  <author>
+   <persName>
+    <surname>Medical Research</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Council</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Studies in Masan and Pusan, Korea. JournalofBone and Joint Surgery</title>
+  <imprint>
+   <biblScope unit="volume">588</biblScope>
+   <biblScope unit="page">399</biblScope>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Five-year assessments of controlled trials of ambulatory treatment, debridement and anterior spinal fusion in the management of tuberculosis of the spine. Studies in Bulawayo (Rhodesia) and in Hong Kong</title>
+  <author>
+   <persName>
+    <surname>Medical Research</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Council</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Bone and Joint Surgery</title>
+  <imprint>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

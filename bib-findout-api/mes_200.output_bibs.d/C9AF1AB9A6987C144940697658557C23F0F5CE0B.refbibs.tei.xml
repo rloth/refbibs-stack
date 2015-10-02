@@ -1,0 +1,896 @@
+<TEI xml:id="istex-C9AF1AB9A6987C144940697658557C23F0F5CE0B">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Silent myocardial ischemia</title>
+  <author>
+   <persName>
+    <forename type="first">Pf</forename>
+    <surname>Cohn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Intern Med</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="312" to="317" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Myocardial ischaemia during daily life in patients with stable angina: its relation to symptoms and heart rate changes</title>
+  <author>
+   <persName>
+    <forename type="first">Je</forename>
+    <surname>Deanfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ap</forename>
+    <surname>Selwyn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Chierchia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="753" to="758" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Mental stress and the induction of silent myocardial ischemia in pa­ tients with coronary disease</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rozanski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cn</forename>
+    <surname>Bairey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ds</forename>
+    <surname>Krantz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ν Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">318</biblScope>
+   <biblScope unit="page" from="1005" to="1012" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Circadian variation of transient myocardial ischemia in patients with coro­ nary artery disease</title>
+  <author>
+   <persName>
+    <forename type="first">Mb</forename>
+    <surname>Rocco</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Barry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="page" from="395" to="400" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Reduction of coronary reserve: a mechanism for angina pectoris in patients with atrial hypertension and normal coronary arteries</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Opherk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Mall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Zebe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circu­ lation</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="1" to="7" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Vasospastic ischemic mechanism of frequent asymptomatic transient ST-T changes during continuous electrocardiographic monitoring in selected unstable an­ gina patients</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Biagini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Heart J</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page" from="13" to="20" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Noradrenergic activ­ ity and silent ischaemia in hypertensive patients with stable angina: effect of metoprolol</title>
+  <author>
+   <persName>
+    <forename type="first">Dd-P</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kimura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Dequattro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">i</biblScope>
+   <biblScope unit="page" from="403" to="406" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Prog­ nostic significance of silent myocardial ischemia in pa­ tients with unstable angina</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Nademanee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Intarachot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Josephson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Coll Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1" to="9" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Silent ische­ mia as a marker for early unfavorable outcomes in pa­ tients with unstable angina</title>
+  <author>
+   <persName>
+    <forename type="first">So</forename>
+    <surname>Gottlieb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ml</forename>
+    <surname>Weisfeldt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ouyang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ν Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">314</biblScope>
+   <biblScope unit="page" from="1214" to="1219" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Silent ische­ mia predicts infarction and death (during 2 year followup of unstable angina</title>
+  <author>
+   <persName>
+    <forename type="first">So</forename>
+    <surname>Gottlieb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ml</forename>
+    <surname>Weisf Eldt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ouyang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Coll Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="756" to="760" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Sudden death and silent myocardial ischemia</title>
+  <author>
+   <persName>
+    <forename type="first">Ds</forename>
+    <surname>Sheps</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Heiss</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Heart J</title>
+  <imprint>
+   <biblScope unit="volume">117</biblScope>
+   <biblScope unit="page" from="177" to="184" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Role of coronary artery spasm in symptomatic and silent myocardial ischemia</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Maseri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Coll Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="249" to="262" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Coronary physiology</title>
+  <author>
+   <persName>
+    <forename type="first">Eo</forename>
+    <surname>Feigl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol Rev</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="1" to="205" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Exercise stress testing in evalua­ tion of patients with ischemic heart disease</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Bruce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tr</forename>
+    <surname>Hornsten</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Prog Car­ diovasc Dis</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="371" to="390" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Liquid-chroma tographic measurement of catecholamines and metabo­ lites in plasma and urine</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fori</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kimura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Dequattro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Chem</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="2209" to="2213" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Unrecognized myocardial infarction and hypertension: the Framing­ ham study</title>
+  <author>
+   <persName>
+    <forename type="first">Wb</forename>
+    <surname>Kannel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Al</forename>
+    <surname>Dannenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rd</forename>
+    <surname>Abbott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Heart J</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="581" to="585" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Ambulatory (Holter) electrocar­ diography and myocardial ischemia</title>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Kennedy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rd</forename>
+    <surname>Wiens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Heart J</title>
+  <imprint>
+   <biblScope unit="volume">117</biblScope>
+   <biblScope unit="page" from="164" to="176" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Silent myocardial ischemia: mechanisms and rationale for therapy</title>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Kowalchuk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rw</forename>
+    <surname>Nesto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Med</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page" from="9" to="13" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+ <note>suppl. 1A</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Dynamic mechanisms in human coronary stenosis</title>
+  <author>
+   <persName>
+    <forename type="first">Bg</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">El</forename>
+    <surname>Bolson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ht</forename>
+    <surname>Dodge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="917" to="922" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Autonomic hyperactivity in patients with vasopastic angina</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tamada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Ito</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Fukuzaki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Jpn Heart J</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="715" to="726" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Catecholamines in coronary sinus and periheral plasma during pacing-induced angina in man</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Sole</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ef</forename>
+    <surname>Vaughan-Neil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nm</forename>
+    <surname>Hussain</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="37" to="43" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Effect of low dose intra-arterial reserpine on vascular wall norepinephrine content</title>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Porter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cg</forename>
+    <surname>Reiney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Surg</title>
+  <imprint>
+   <biblScope unit="volume">182</biblScope>
+   <biblScope unit="page" from="50" to="55" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">A comparison of rates of depletion and re­ covery of noradrenaline stores of peripheral and central noradrenergic neurones after reserpine administration: importance of neuronal activity</title>
+  <author>
+   <persName>
+    <forename type="first">Ar</forename>
+    <surname>Wakade</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br J Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="93" to="98" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Specific bindings of reserpine— association with norepinephrine depletion</title>
+  <author>
+   <persName>
+    <forename type="first">Sh</forename>
+    <surname>Alpers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Shore</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="1363" to="1372" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Long-term changes in rat brain tyrosine hydroxylase following reserpine treat­ ment: a quantitative immunochemical analysis</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Labatut</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Buda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Berod</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="1375" to="1380" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Reserpine-induced supersensitivity and the proliferation of cardiac beta-adrenoceptors</title>
+  <author>
+   <persName>
+    <forename type="first">Te</forename>
+    <surname>Tenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mukherjee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rk</forename>
+    <surname>Hester</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="61" to="65" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Responses mediated via beta-1 adrenoceptors but not beta-2 adrenoceptors exhibit su­ persensitivity after chronic reserpine pretreatment</title>
+  <author>
+   <persName>
+    <forename type="first">Pf</forename>
+    <surname>Grassby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kj</forename>
+    <surname>Broadley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pharmacol Exp Ther</title>
+  <imprint>
+   <biblScope unit="volume">237</biblScope>
+   <biblScope unit="page" from="950" to="958" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Nonspecific su­ persensitivity induced by reserpine in guinea pig cardiac ventricle tissue</title>
+  <author>
+   <persName>
+    <forename type="first">Te</forename>
+    <surname>Tenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Young</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+    <surname>Riker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pharmacol Exp Ther</title>
+  <imprint>
+   <biblScope unit="volume">246</biblScope>
+   <biblScope unit="page" from="1" to="6" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Reserpine and sympathetic denervation cause an increase of postsyn­ aptic alpha-2 adrenoceptors</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R-T</forename>
+    <surname>Lai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Maeda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="105" to="108" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Angina due to coronary microvascular disease in hypertensive patients without left ventricular hypertrophy</title>
+  <author>
+   <persName>
+    <forename type="first">Je</forename>
+    <surname>Brush</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ro</forename>
+    <surname>Cannon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Iii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Schenke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ν Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">319</biblScope>
+   <biblScope unit="page" from="1302" to="1307" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

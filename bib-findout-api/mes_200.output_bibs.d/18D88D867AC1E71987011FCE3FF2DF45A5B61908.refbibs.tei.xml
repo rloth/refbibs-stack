@@ -1,0 +1,1193 @@
+<TEI xml:id="istex-18D88D867AC1E71987011FCE3FF2DF45A5B61908">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Carcinogenic properties of nuts from Cycas circinalis L. indigenous to Guam</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Laqueur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Mickelson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Whiting</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="919" to="951" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Organ-specific carcinogenesis in the digestive tract</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Druckrey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Topics in Chemical Carcinogenesis</title>
+  <editor>Nakahara,W., Takayama,S., Sugimura,T. and Odashima,S.</editor>
+  <meeting><address><addrLine>Baltimore, MD</addrLine></address></meeting>
+  <imprint>
+   <publisher>Univerity Park Press</publisher>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="73" to="101" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Colon epithelium, II: In vivo studies of colon carcinogenesis: light microscopic, histochemical and ultrastructural studies of histogenesis of azoxymethane-induced colon carcinomas in Fischer 344 rats</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">K M</forename>
+    <surname>Shamsuddin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">F</forename>
+    <surname>Trump</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="389" to="401" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Genetic differences in the induction of colorectal tumors by 1,2-dimethylhydrazine in inbred mice</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Diwan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Meier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Blackman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="455" to="458" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Differential susceptibility of four mouse strains to induction of multiple large-bowel neoplasms by 1,2-dimethylhydrazine</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">S</forename>
+    <surname>Hauschka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mittelman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page" from="999" to="1000" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Susceptibility to 1,2- dimethylhydrazine-induced colonic tumors and epithelial cell proliferation characteristics of F1, F2 and reciprocal backcrosses derived from SWR</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">E</forename>
+    <surname>Deschner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>Long</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Hakissian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="478" to="482" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Azoxymethane-induced tumors and aberrant crypt foci in mice of different genetic susceptibility</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Papanikolaou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <forename type="middle">S</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Delker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Lett</title>
+  <imprint>
+   <biblScope unit="volume">130</biblScope>
+   <biblScope unit="page" from="29" to="34" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Genetic analysis of colon cancer susceptibility in mice</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Jacoby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Hohman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Frick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Schlack</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Broda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Smutko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Elliott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genomics</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="381" to="387" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Fine mapping of colon tumor susceptibility (Scc) genes in the mouse, different from the genes known to be somatically mutated in colon cancer</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J A</forename>
+    <surname>Moen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Groot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A M</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Snoek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Demant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page" from="1082" to="1086" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Allophenic mice of multi-embryo origin</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Mintz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in Mammalian Embryology</title>
+  <editor>Daniel,J.Jr</editor>
+  <meeting><address><addrLine>San Francisco, CA</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1971" />
+   <biblScope unit="page">186</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Derivation of mouse intestinal crypts from single progenitor cells</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A J</forename>
+    <surname>Ponder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Schmidt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Wood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Monk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Reid</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">313</biblScope>
+   <biblScope unit="page" from="689" to="691" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Mutations of the Kras and p53 genes in gastric adenocarcinomas from a high-incidence region around Florence</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hongyo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">S</forename>
+    <surname>Buzard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Palli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Weghorst</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Amorasi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Galli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">E</forename>
+    <surname>Caporaso</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Fraumeni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Rice</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Italy. Cancer Res</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="2665" to="2672" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Laser capture microdissection</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Emmert-Buck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Bonner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Simith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Chuaqui</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Zhuang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Goldstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Weiss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Liotta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">274</biblScope>
+   <biblScope unit="page" from="998" to="1001" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Induction of aberrant crypts in murine colon with varying sensitivity to colon carcinogenesis</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Lett</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="209" to="214" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Differential susceptibility of AKR/J, C57BL/6J and CF1 to 1,2- dimethylhydrazine-induced colonic tumor formation predicted by proliferative characteristics of colonic epithelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">E</forename>
+    <surname>Deschner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>Long</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hakissian</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Herman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="196" to="198" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Proliferative characteristics of colonic crypt cells in C57BL/6J and A/J mice as predictors of subsequent tumor formation</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">T</forename>
+    <surname>Glickman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Suissa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Fleiszer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Res</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="4766" to="4770" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Cellular proliferation in proximal and distal rat colon during 1,2-dimethyhydrazine-induced carcinogenesis</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Mcgarrity</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">P</forename>
+    <surname>Peiffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Colony</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="37" to="42" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Early effects of a single intrarectal dose of 1,2-dimethylhydrazine in mice</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Chan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Narisawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Weisburger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Res</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="13" to="17" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Induction of cyp2e-1 protein in mouse colon</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Mankowski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Carcinogenesis</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="73" to="78" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Cytochemical localization of the acetone-inducible cytochrome P450 isoform, Cyp2e1, in murine colonic epithelium</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">C</forename>
+    <surname>Parke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">I</forename>
+    <surname>Jackman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Averill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacology</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="339" to="347" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">A comparative study of hepatic and colonic metabolic enzymes in inbred mouse lines before and after treatment with the colon carcinogen 1,2-dimethylhydrazine</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Delker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Bammler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Drug Metab. Dispos</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="408" to="413" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Initial levels of azoxymethane-induced DNA methyl adducts are not predictive of tumor susceptibility in inbred mice</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Papanikolaou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Shank</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Delker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Povey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">P</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Toxicol. Appl. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">150</biblScope>
+   <biblScope unit="page" from="196" to="203" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Chemical carcinogenesis in transposed intestinal segments</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Gennaro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Villanueva</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Sukonthaman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Vathanophas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">P</forename>
+    <surname>Rosemond</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Res</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="536" to="541" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Differences in the acute response of the various segments of rat intestine to treatment with the intestinal carcinogen, methylazoxymethanol acetate</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Zedeck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Grab</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+    <surname>Sternberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Res</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="32" to="36" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Direct examination of the clonality of carcinogen-induced colonic epithelial dysplasia in chimeric mice</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A J</forename>
+    <surname>Ponder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="967" to="976" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Immunohistochemistry in the analysis of mouse aggregation chimeras</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A J</forename>
+    <surname>Ponder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Schmidt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Histochem. J</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="217" to="227" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">An allelic difference determines reciprocal patterns of expression of binding sites for Dolichos biflorus lectin in inbred strains of mice</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Ponder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Festing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Embryol. Exp. Morphol</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="page" from="229" to="239" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Non-homogeneous marking of distal colonic mucosa using Dolichos biflorus lectin</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Rosenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer Lett</title>
+  <imprint>
+   <biblScope unit="volume">98</biblScope>
+   <biblScope unit="page" from="33" to="37" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title level="m" type="main">Lectin histochemistry Immunocytochemistry, Practical Applications in Pathology</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A J</forename>
+    <surname>Ponder</surname>
+   </persName>
+  </author>
+  <editor>Polak,J.M. and Van Noorden,S.</editor>
+  <imprint>
+   <date type="published" when="1983" />
+   <publisher>John Wiley</publisher>
+   <biblScope unit="page" from="129" to="142" />
+   <pubPlace>Bristol, UK</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Primary monoclonal and secondary polyclonal growth of colon neoplastic lesions in C3H-dimethylhydrazine: immunohistochemical detection of C3H strain-specific antigen and simple sequence length polymorphism analysis of DNA</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tatematsu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Masui</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Fukami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Yamamoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Nakanishi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K.-I</forename>
+    <surname>Inada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kusakabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sakakura</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Cancer</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="issue">66</biblScope>
+   <biblScope unit="page" from="234" to="238" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

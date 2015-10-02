@@ -1,0 +1,741 @@
+<TEI xml:id="istex-D76803CF4CD37A4D7E300FF295640BAD5AC285D7">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Labor and the rise of complex hunter-gatherers</title>
+  <author>
+   <persName>
+    <forename type="first">Jeanne</forename>
+    <forename type="middle">E</forename>
+    <surname>Arnold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Anthropological Archaeology</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="75" to="119" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">The Cape herders: a history of the Khoikhoi of southern Africa. Cape Town and</title>
+  <author>
+   <persName>
+    <forename type="first">Emile</forename>
+    <surname>Boonzaier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Candy</forename>
+    <surname>Malherbe</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Andrew Smith &amp; Penny Berens David Philip Elphick Yale University Press</publisher>
+   <pubPlace>Johannesburg ; Kraal and Castle. New Haven, CT</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Khoikhoi and the founding of white South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Richard</forename>
+    <surname>Elphick</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page">Raven</biblScope>
+   <pubPlace>Johannesburg</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Archaeology of the Oakhurst shelter</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Goodwin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>John</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">George. Transactions of the Royal Society of South Africa</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="229" to="324" />
+   <date type="published" when="1938" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Nimrods, piscators, pluckers, and planters: the emergence of food production</title>
+  <author>
+   <persName>
+    <forename type="first">Brian</forename>
+    <surname>Hayden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Anthropological Archaeology</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="31" to="69" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Hunting and feasting: health and demographic consequences</title>
+  <author>
+   <persName>
+    <forename type="first">Brian</forename>
+    <surname>Hayden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Before Farming</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="166" to="176" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">A revised chronology for pastoralism in southernmost Africa: new evidence of sheep at c. 2000 b.p. from Blombos Cave, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Christopher</forename>
+    <surname>Henshilwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Antiquity</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="945" to="9" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Mussel drying and food storage in the late Holocene, south-west Cape, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Christopher</forename>
+    <surname>Henshilwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Peter</forename>
+    <surname>Nilssen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">John</forename>
+    <forename type="middle">E</forename>
+    <surname>Parkington</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of ~Teld Archaeology</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="103" to="9" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Symbols in Action: ethnoarchaeological studies of material culture</title>
+  <author>
+   <persName>
+    <forename type="first">Ian</forename>
+    <surname>Hodder</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>Cambridge University Press</publisher>
+   <pubPlace>Cambridge</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Goat raising among the San in the central Kalahari</title>
+  <author>
+   <persName>
+    <forename type="first">Kazunobu</forename>
+    <surname>Ikeya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">African Studies Monograph</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="39" to="52" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Changing social landscapes of the western Cape coast of southern Africa over the last 4500 years</title>
+  <author>
+   <persName>
+    <forename type="first">Antonieta</forename>
+    <surname>Jerardino</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Sharing in an egalitarian Kalahari community</title>
+  <author>
+   <persName>
+    <forename type="first">Susan</forename>
+    <surname>Kent</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Man</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="479" to="514" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The prehistory of Stone Age herders in the Cape Province of South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Richard</forename>
+    <forename type="middle">G</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">South African Archaeological Society Goodwin Series</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="5" to="12" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Faunal evidence for prehistoric herder-forager activities at Kasteelberg, Western Cape Province</title>
+  <author>
+   <persName>
+    <forename type="first">Richard</forename>
+    <forename type="middle">G</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kathryn</forename>
+    <surname>Cruz-Uribe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">South Africa. South African Archaeological Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="82" to="97" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">The archaeology of southern Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Peter</forename>
+    <surname>Mitchell</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>Cambridge University Press</publisher>
+   <pubPlace>Cambridge</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Gas-liquid chromatographic analysis of fatty acids in food residues from ceramics found in the south-western Cape, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Mary</forename>
+    <surname>Patrick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">A J</forename>
+    <surname>Koning</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Archaeometry</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="231" to="46" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">African archaeology</title>
+  <author>
+   <persName>
+    <forename type="first">David</forename>
+    <forename type="middle">W</forename>
+    <surname>Phillipson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>Cambridge University Press</publisher>
+   <pubPlace>Cambridge</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Strandloper pottery from South and South West Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Jalmar</forename>
+    <surname>Rudner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annals of the South African Museum</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="441" to="663" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">The first herders at the Cape of Good Hope</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">African Archaeological Review</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="101" to="132" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title level="m" type="main">Ancient pastoralists in the Sudan and in South Africa 1ides of the Desert: contributions to the archaeology and environmental history of Africa in honour of Rudolph Kuper</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+  <editor>Jennerstrasse 8</editor>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>Heinrich-Barth-Institut</publisher>
+   <biblScope unit="page" from="471" to="484" />
+   <pubPlace>K61n</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The Neolithic of southern Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of African History</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="195" to="209" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">On ceramic variation in the southwestern Cape</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <forename type="middle">&amp;</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">South Africa. South African Archaeological Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="107" to="115" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">The Vredenburg peninsula survey</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">John</forename>
+    <surname>Gribble</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <surname>Gail Euston-Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Guide to the archaeological sites in the southwestern Cape</title>
+  <editor>A.B. Smith &amp; B. Miitti</editor>
+  <imprint>
+   <date type="published" when="1991" />
+   <biblScope unit="page" from="41" to="43" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Herders and foragers on Kasteelberg: interim report of excavations 1999-2002</title>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ina</forename>
+    <surname>Plug</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jayson</forename>
+    <surname>Orton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Belinda</forename>
+    <surname>Mtitti</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">South African Archaeological Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="27" to="32" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">The indigenous artefacts from Oudepost I, a colonial outpost of the VOC at Saldanha Bay</title>
+  <author>
+   <persName>
+    <forename type="first">Carmel</forename>
+    <forename type="middle">&amp;</forename>
+    <surname>Schrire</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Janette</forename>
+    <surname>Deacon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cape. South African Archaeological Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="105" to="113" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">The chronology of the introduction of pastoralism to the Cape, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Judith</forename>
+    <forename type="middle">&amp;</forename>
+    <surname>Sealy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Royden</forename>
+    <surname>Yates</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Antiquity</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="58" to="67" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <forename type="middle">B</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Pastoralism in Africa</title>
+  <meeting><address><addrLine>Johannesburg</addrLine></address></meeting>
+  <imprint>
+   <publisher>Witwatersrand University Press</publisher>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Seasonal exploitation of resources on the Vredenburg peninsula after 2000 BE In Papers in the prehistory of the Western Cape, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <forename type="middle">B</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">British Archaeological reports International Series</title>
+  <editor>J. Parkington and M. Hall</editor>
+  <imprint>
+   <biblScope unit="volume">332</biblScope>
+   <biblScope unit="page" from="393" to="402" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+ <note>ii</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Excavations in the south-western Cape, South Africa, and the archaeological identity of prehistoric hunter-gatherers within the last 2000 years</title>
+  <author>
+   <persName>
+    <forename type="first">Andrew</forename>
+    <forename type="middle">B</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Karim</forename>
+    <surname>Sadr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">John</forename>
+    <surname>Gribble &amp; Royden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Yates</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">South Afi-ican Archaeological Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="71" to="91" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Late Quaternary palaeotemperatures derived from a speleothem from Cango Caves, Cape Province, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S J C</forename>
+    <surname>Talma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Vogel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Quaternary Research</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="203" to="13" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <monogr>
+  <title level="m" type="main">The San hunter gatherers of the Kalahari: a study in ecological anthropology</title>
+  <author>
+   <persName>
+    <forename type="first">Jiro</forename>
+    <surname>Tanaka</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <publisher>University of Tokyo Press</publisher>
+   <pubPlace>Tokyo</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

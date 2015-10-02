@@ -1,0 +1,2194 @@
+<TEI xml:id="istex-76860D26C0F9495304EC126EF4B6EC1E3A6636A9">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Nonlinear features of internal waves off Baja California as observed from the Seasat imaging radar</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Apel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="4459" to="4466" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Observations of oceanic internal and surface waves from the Earth Resources Technology Satellite</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Apel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Proni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="865" to="881" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">An improved open boundary condition for a tidal model of Bass Strait</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Arnold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Numerical Modeling: Applications to Marine Systems</title>
+  <editor>J. Noye</editor>
+  <meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+  <imprint>
+   <publisher>Elsevier</publisher>
+   <date type="published" when="1987" />
+   <biblScope unit="page" from="145" to="158" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Analysis of internal temperature oscillations of tidal period on the Sicilian continental shelf</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Artale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Provenzale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Santoleri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Continental She~&quot; Res</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">10</biblScope>
+   <biblScope unit="page" from="867" to="888" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Meso-scale Atmospheric Circulations</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+    <surname>Atkinson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>Acadenuc Press</publisher>
+   <biblScope unit="page">495</biblScope>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Satellite observations of internal waves on the Australian north-west shelf</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aust. J. Mar. Freshwater. Res</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="457" to="463" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">On.internal tide generation models</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="issue">3A</biblScope>
+   <biblScope unit="page" from="307" to="338" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Internal tides, internal waves, and near-inertial motions</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Baroclinic Processes on Continental Shelves. Coastal and Estuarine Sciences</title>
+  <editor>C.N. K 9 Mooers</editor>
+  <imprint>
+   <publisher>American Geophysical Union</publisher>
+   <date type="published" when="1986" />
+   <biblScope unit="page" from="19" to="31" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Upstream blocking and airflow over mountains</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Rev. Fluid Mech</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="75" to="97" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Internal tide generation at a continental shelf/slope junction : a comparison between theory and a laboratory experiment</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <forename type="middle">H</forename>
+    <surname>Fang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dyn. Atmos. Oceans</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="297" to="314" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Horizontal scales of midocean</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Barnett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Geophys . Res</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="issue">15</biblScope>
+   <biblScope unit="page" from="1962" to="1964" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Lee waves in stratified flows with simple harmonic time dependence</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">H</forename>
+    <surname>Bell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluid Mech</title>
+  <imprint>
+   <biblScope unit="volume">67</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="705" to="722" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Supertidal frequency internal waves on the continental shelf south of New England</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Burrage</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Garvine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="808" to="819" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Asymmetry of internal tidal waves in shallow coastal waters</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Cairns</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="3563" to="3565" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Generation of internal waves in Massachusetts Bay</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">K</forename>
+    <surname>Chereskin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <publisher>CA</publisher>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="2649" to="2661" />
+   <date type="published" when="1983" />
+   <publisher>CA</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Effects of density front on the generation and propagation of internal tides</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Chuang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">P</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">ll</biblScope>
+   <biblScope unit="page" from="1357" to="1374" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Craig</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Numerical modelling of internal tides 9 In : Numerical Modelling : Applications to Marine Systems</title>
+  <editor>J. Noye</editor>
+  <meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+  <imprint>
+   <publisher>Elsevier</publisher>
+   <date type="published" when="1987" />
+   <biblScope unit="page" from="07" to="122" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Semidiurnal internal tide in JASIN : observations and simulation</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Dewitt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="issue">C2</biblScope>
+   <biblScope unit="page" from="2581" to="2592" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Implications of ocean bottom reflection for internal wave spectra and mixing</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Eriksen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="1145" to="1156" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">An investigation of the properties of low-frequency internal waves in the Northeastern China Seas</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <forename type="middle">H</forename>
+    <surname>Fang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">L</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">L</forename>
+    <surname>Sun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Ye</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chin. J. Oceanol. Limnlo</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="289" to="299" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">Tidal interaction of stratified flow with a sill in Knight Inlet 9 Deep-Sea Res</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Farmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="239" to="254" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">A numerical and theoretical study of certain nonlinear wave phenomena</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Fornberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Witham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Philos. Trans. R. Soc. London, Set. A</title>
+  <imprint>
+   <biblScope unit="volume">289</biblScope>
+   <biblScope unit="page" from="373" to="404" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Tidal interactions in a region of large bottom slope near northwest Africa during JOINT-I</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Gordon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="199" to="210" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Boundary layer under near-inertial internal waves over a critically sloping bottom</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Gordon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1032" to="1038" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">9 Semidiurnal internal tides in Massachusetts Bay</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Halpern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">7627</biblScope>
+   <biblScope unit="page" from="6573" to="6584" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Tidally generated internal wave packets in Massachusetts Bay</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">R</forename>
+    <surname>Haury</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Briscoe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Orr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">278</biblScope>
+   <biblScope unit="issue">5702</biblScope>
+   <biblScope unit="page" from="312" to="317" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Observations of internal waves and coastal upwelling off the Oregon Coast</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hayes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Halpern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mar. Res</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="247" to="267" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <monogr>
+  <title level="m" type="main">A mechanism for local upwelling along the European continental slope</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">S</forename>
+    <surname>Heaps</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Acta</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="449" to="454" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Internal tides and sediment transport at the shelf break in the Celtic Sea</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Heathershaw</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>New</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Continental She~f Res</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="485" to="517" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">9 Long waves and ocean tides</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Hendershott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Evolution of Physical Oceanography --Scientific Surveys in Honor of Hendry Stommel</title>
+  <editor>B .A. Warren and C. Wunsch</editor>
+  <meeting><address><addrLine>Cambridge, Mass</addrLine></address></meeting>
+  <imprint>
+   <publisher>The MIT Press</publisher>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="292" to="341" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Generation mechanism of internal waves by tidal flow over a sill</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hibiya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="issue">C6</biblScope>
+   <biblScope unit="page" from="7697" to="7708" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Generation mechanism of internal waves by a vertically sheared tidal flow over a sill</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hibiya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res. 95</title>
+  <imprint>
+   <biblScope unit="issue">C2</biblScope>
+   <biblScope unit="page" from="1757" to="1764" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Internal tides on the Australian North-West shelf: a preliminary investigation</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Holloway</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="1357" to="1370" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">A comparison of semidiurnal internal tides from different bathymetric locations on the Australian North-West Shelf</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Holloway</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="240" to="250" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Internal hydraulic jumps and solitons at a shelf break region on the Australian North-West Shelf</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Houoway</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="issue">C5</biblScope>
+   <biblScope unit="page" from="5405" to="5416" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Nonlinear internal waves on the California Continental Shelf</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>Howell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="issue">C4</biblScope>
+   <biblScope unit="page" from="7256" to="7264" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Waves and currents near the continental shelf edge</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Huthnance</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Progr. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="193" to="225" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Internal tides and waves near the continental shelf edge</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Huthnance</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. Astrophys. Fluid Dyn</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="81" to="106" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Tidal currents in the northwest African upwelling region</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Huthnance</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Baines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="issue">3A</biblScope>
+   <biblScope unit="page" from="285" to="306" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Approximation of radiation boundary conditions</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Israeli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A</forename>
+    <surname>Orszag</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Phys</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="115" to="135" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Tidal currents at two deep-sea moorings near the shelf edge</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">D</forename>
+    <surname>James</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="issue">9A</biblScope>
+   <biblScope unit="page" from="1099" to="1111" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Semi-diurnal internal tides in Eastern Bass Strait. A,~t</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">S</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Padman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mar. Freshwater. Res</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="143" to="153" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">On the observation of internal tides at the continental slope off the coast of Norway</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Keunecke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Meteor Fitch. -Ergebnisse , Reihe</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="24" to="36" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">Some observations of baroclinic diurnal tides over a near-critical bottom slope</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">D</forename>
+    <surname>Leaman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="1540" to="1551" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">On the damping of internal gravity waves in a continuously stratified ocean</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Leblond</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluid Mech</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="121" to="142" />
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <monogr>
+  <title level="m" type="main">Waves in Fluids</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lighthill</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <publisher>Cambridge University Press</publisher>
+   <biblScope unit="page">504</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Tide-topography interactions in a stratified shelf sea I : Basic equations for quasi-nonlinear internal tides</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Maas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Zimmerman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. Astrophys. Fluid Dyn</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="1" to="35" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Tide-topography interactions in a stratified shelf sea 11 : Bottom trapped internal tides and baroclinic residual currents</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Maas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Zimmerman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. Astrophys. Fluid Dyn</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="37" to="69" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">An experimental and numerical study of the internal wave generation by tide-topography interaction</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Matsuura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hibiya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="506" to="521" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Numerical experiments on internal tides in Suruga Bay</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Matsuyama</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Oceanogr. Sic. Japan</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="145" to="156" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">Generation and propagation of nonlinear internal waves induced by the tide over a continental slope 9 Continental She~</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Maze</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Res</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="issue">9</biblScope>
+   <biblScope unit="page" from="1079" to="1104" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Internal tidal rmxing in the Bay of Biscay</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>New</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="691" to="709" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Osborne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>Burch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">9 Internal solitons in the Andaman Sea</title>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="451" to="460" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">M2 surface and internal tides on the Scotian shelf and slope</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Petrie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mar. Res</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="303" to="323" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <monogr>
+  <title level="m" type="main">The Dynamics of the Upper Ocean</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">M</forename>
+    <surname>Philips</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <publisher>Cambridge University Press</publisher>
+   <pubPlace>New York 336pp</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Internal tides over a shelf break: analytical model and observations</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Pichon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Maze</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="657" to="671" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">Solitary internal waves on the Celtic Sea</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Pingree</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Prig. Oceanogr. CHINESE JOURNAL OF OCEANOLOGY AND LIMNOLOGY</title>
+  <imprint>
+   <biblScope unit="volume">1410</biblScope>
+   <biblScope unit="page" from="431" to="441" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title level="a" type="main">Downward propagation of internal tidal energy into the Bay of Biscay</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Pingree</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>New</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="735" to="758" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <monogr>
+  <title level="m" type="main">Effects of continental slope and variable Brunt-V/fisala&apos; frequency on the coastal generation of internal tides. Deep-Sea ICes</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Prinsenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M. Rattray</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1975" />
+   <biblScope unit="page" from="251" to="263" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">Numerical Modelling of Marine Hydrodynamics: Applications to Dynamic Physical Processes</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ramming</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Kowalik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Elsevier Oceanogr. Ser</title>
+  <imprint>
+   <publisher>Elsevier Scientific Publishing Comp</publisher>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">368</biblScope>
+   <date type="published" when="1980" />
+   <publisher>Elsevier Scientific Publishing Comp</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">On the coastal generation of internal tides</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rattray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tellus</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="54" to="62" />
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">Generation of long waves at a continental slope</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rattray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Dworski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Kovala</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="179" to="195" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+ <note>Suppl. .</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Critical layers and the Garrett-Munk spectrum</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">R</forename>
+    <surname>Ruddick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mar. Res</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="135" to="145" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">On topographic generation and coupling of internal waves</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Sandstrom</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophy. Fluid Dyn</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="231" to="270" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <analytic>
+  <title level="a" type="main">Internal tides and solitons on the Scotian Shelf: a nutrient pump at work</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H A</forename>
+    <surname>Sandstrom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Elliott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">89</biblScope>
+   <biblScope unit="page" from="6415" to="6426" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <monogr>
+  <title level="m" type="main">Satellite anages of ocean internal waves</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sawyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Apel</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1976" />
+   <pubPlace>Washington, D .C</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title level="a" type="main">On horizontal coherence and internal wave propagation in the North Sea</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Schott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="291" to="307" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title level="a" type="main">On the energetics of baroclinic tides in the North Atlantic</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Schott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Geophys</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="41" to="62" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title level="a" type="main">Internal tides in the Bay of Biscay :a two-dimensional model</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Serpette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Maze</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Continental Shelfpes</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">9</biblScope>
+   <biblScope unit="page" from="795" to="821" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">Nature of the observed oscillatory t]ows in shelf waters of the western continental shelf of India</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Shenoi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Antony</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Sundar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Coastal Res</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="617" to="626" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title level="a" type="main">Analysis of an internal tide observed on the Malin Shelf</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Sherwin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <publisher>North of Ireland</publisher>
+   <biblScope unit="volume">lg</biblScope>
+   <biblScope unit="page" from="1035" to="1050" />
+   <date type="published" when="1988" />
+   <publisher>North of Ireland</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <analytic>
+  <title level="a" type="main">Detemunation of the direction and speeds of internal tide currents by using single station observations in coastal sea 9</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <forename type="middle">B</forename>
+    <surname>Su</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Oceanologica Sinica</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="665" to="673" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+ <note>In. Chinese</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <analytic>
+  <title level="a" type="main">Internal waves of tidal period off Southern California</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Summers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">O</forename>
+    <surname>Emery</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="827" to="839" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <analytic>
+  <title level="a" type="main">The vertical features of internal tide currents with semidiurnal period in offshore areas with thermocline</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">L</forename>
+    <surname>Sun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <forename type="middle">J</forename>
+    <surname>Gu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Oceanogr 9 Huanghai and Bohai Seas</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="10" to="15" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+ <note>in. Chinese with English abstract</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Thomson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Huggett</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">M2 baroclinic tides in Johnstone Strait</title>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="1509" to="1539" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <analytic>
+  <title level="a" type="main">On the reflection of a train of finite-amplitude internal waves from a uniform slope</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A</forename>
+    <surname>Thorpe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluid Mech</title>
+  <imprint>
+   <biblScope unit="volume">178</biblScope>
+   <biblScope unit="page" from="279" to="302" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <analytic>
+  <title level="a" type="main">Barotropic and baroclinic tides over the continental slope and shelf off Oregon</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Togrimson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Hickey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="945" to="961" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <analytic>
+  <title level="a" type="main">Attempt to determine some prope~es of the semidiurnal internal tide on the continental slope, Great Barrier Reef</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Tomczak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <forename type="middle">H</forename>
+    <surname>Fang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aust. J. Mar. Freshw. Res</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="921" to="926" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <analytic>
+  <title level="a" type="main">Evidence for interior dissipation and mixing during a coastal upwelling event offOregon</title>
+  <author>
+   <persName>
+    <forename type="first">Wang</forename>
+    <forename type="middle">D P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Mopers</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mar. Res</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="697" to="713" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <analytic>
+  <title level="a" type="main">A numerical model for the generation of tidally forced nonlinear internal waves over topography</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Willmott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Continental She~ Res</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="457" to="484" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <analytic>
+  <title level="a" type="main">Temperature and currents on the southern California Shelf: a description of the variability</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Winant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Bratkovich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Oceanogr. I</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="71" to="86" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <analytic>
+  <title level="a" type="main">Upwelling by internal tides and Kelvin waves at the continental shelf break on the Great Barrier Reef</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Wolanski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Pickard</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aust. J. Freshw. Res</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="65" to="80" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+ <analytic>
+  <title level="a" type="main">Internal tides in the ocean</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Wunsch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rev. Geophys. and Space Phys</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="167" to="182" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+ <analytic>
+  <title level="a" type="main">An analysis on characters of tide-generated internal waves on western continental shelf of the East China Sea</title>
+  <author>
+   <persName>
+    <forename type="first">Yin</forename>
+    <forename type="middle">S F X</forename>
+    <surname>Kong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">Z</forename>
+    <surname>Pang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Oceanologica. Sinica</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="772" to="778" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>in. Chinese</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+ <analytic>
+  <title level="a" type="main">An analysis on the packet structure of tide-generated internal waves in coastal sea</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Geng</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Oceanologica Sinica</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="137" to="144" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+ <note>in. Chinese</note>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+ <analytic>
+  <title level="a" type="main">The influence of internal tides in north Yellow Sea on the vertical structure of tidal frequency motions</title>
+  <author>
+   <persName>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Oceanologica Sinica</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="677" to="692" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+ <note>in. Chinese</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+ <analytic>
+  <title level="a" type="main">The generation, evolution and interaction of solitary waves on stratified fluids</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Zhu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Shanghai Polytechnic University 101 pp</title>
+  <imprint>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+ <note>in. Chinese with English abstract</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

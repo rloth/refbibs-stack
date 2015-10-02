@@ -1,0 +1,750 @@
+<TEI xml:id="istex-9FEF9439489C21DC68BFE0CFB84D3814C0A2FE19">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Falls from playground equipment: an overview . Proceedings of childhood injury prevention forum Dunedin: Child Accident Prevention Foundation</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Chalmers</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991-09" />
+   <biblScope unit="page" from="23" to="26" />
+   <pubPlace>Wellington</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Childhood falls from playground equipment resulting in admission to hospital: descriptive epidemiology</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Chalmers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jd</forename>
+    <surname>Langley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Safety in the built environment</title>
+  <editor>Sime JD</editor>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Spon</publisher>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="226" to="37" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Epidemiology of playground equipment injuries resulting in hospitalization</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Chalmers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Langleyjd</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paediatr Child Health</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="329" to="34" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">A holistic approach to accident and injury prevention in children&apos;s playgrounds</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ball</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>LSS</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Death during play: a study of playground and recreation deaths in children</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Nixon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pearn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">283</biblScope>
+   <biblScope unit="page">410</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">A holistic approach to accident and injury prevention in children&apos;s playgrounds</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Pitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Cited In King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ball</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>LSS</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Standard specification for playgrounds and playground equipment</title>
+  <author>
+   <persName>
+    <forename type="first">Standards</forename>
+    <surname>Association Of New</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Zealand</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">NZS</title>
+  <imprint>
+   <biblScope unit="volume">5828</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Australian Standard for playground equipment for parks, schools, and domestic use (AS 1924: 1981)</title>
+  <author>
+   <persName>
+    <forename type="first">Standards</forename>
+    <surname>Association</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Australia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Standards Association of Australia</title>
+  <meeting><address><addrLine>Sydney</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Play equipment intended for permanent installation outdoors</title>
+  <author>
+   <persName>
+    <forename type="first">British</forename>
+    <surname>Standards Institution</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BS</title>
+  <imprint>
+   <publisher>British Standards Institution</publisher>
+   <biblScope unit="volume">5696</biblScope>
+   <date type="published" when="1986" />
+   <publisher>British Standards Institution</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">A guideline on children&apos;s playspaces and equipment (CAN/CSA-Z614-M90)</title>
+  <author>
+   <persName>
+    <forename type="first">Canadian</forename>
+    <surname>Standards Association</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1990" />
+   <publisher>Canadian Standards Association</publisher>
+   <pubPlace>Rexdale (Toronto</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Standard consumer safety performance specification for playground equipment for public use (F1487-93)</title>
+  <author>
+   <persName>
+    <forename type="first">Astm</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Compliance of Dunedin playground equipment with the New Zealand standard (NZS 5828)</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Chalmers</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <publisher>Injury Prevention Research Unit</publisher>
+   <pubPlace>Dunedin</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Playground hazards in Atlanta child care centers</title>
+  <author>
+   <persName>
+    <surname>Sacksjj</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kw</forename>
+    <surname>Holt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Holmgren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ls</forename>
+    <surname>Colwell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am _7 Public Health</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="986" to="8" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Surface-specific fall injury rates on Utah school playgrounds</title>
+  <author>
+   <persName>
+    <forename type="first">Dm</forename>
+    <surname>Sosin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Keller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Sacks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kresnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pc</forename>
+    <surname>Van Dyck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Public Health</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page" from="733" to="5" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Patterns of injuries to children on public playgrounds</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rolfe</forename>
+    <forename type="middle">K</forename>
+    <surname>Potter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kemp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kw</forename>
+    <surname>Sibert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jr</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ArchDis Child</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="328" to="30" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Injuries from falls on playgrounds: effects of day care center regulations and enforcement</title>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Briss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Sacks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dg</forename>
+    <surname>Addiss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kresnow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Neil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Pediatr Adolesc Med</title>
+  <imprint>
+   <biblScope unit="volume">149</biblScope>
+   <biblScope unit="page" from="906" to="11" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Risk in the playground: the case of synthetic surfacing</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ball</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">The Leisure Manager</title>
+  <imprint>
+   <biblScope unit="page" from="21" to="3" />
+   <date type="published" when="1990-03" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title level="m" type="main">The real case for synthetic surfacing? The Leisure Manager</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Suctliffe</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1990-04" />
+   <biblScope unit="page" from="13" to="4" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ball</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">The Leisure Manager</title>
+  <imprint>
+   <date type="published" when="1990-03-08" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Playground equipment and safety</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Suctliffe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">The Groundsman</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="19" to="21" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The controversy over playground surfaces</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Jackson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chlld Safety Review</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page">3</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Playground injuries: a scientific appraisal of popular concerns</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Ball</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kl</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">JR Soc Health</title>
+  <imprint>
+   <biblScope unit="volume">111</biblScope>
+   <biblScope unit="page" from="134" to="7" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title level="m" type="main">Association for the Advancement of Automotive Medicine. The abbreviated injury scale (1990 revision) Des Plaines: Association for the Advancement of Automotive Medicine</title>
+  <imprint>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title level="m" type="main">SAS language guide for personal computers, release 6.03 edition</title>
+  <author>
+   <persName>
+    <forename type="first">Sas</forename>
+    <surname>Institute</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <publisher>SAS Institute Inc</publisher>
+   <pubPlace>Cary, NC</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title level="m" type="main">Applied logistic regression</title>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Hosmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Lemeshow</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>John Wiley</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">The pathophysiology of free-fall injury</title>
+  <author>
+   <persName>
+    <forename type="first">Kg</forename>
+    <surname>Warner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rh</forename>
+    <surname>Demling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Emerg Med</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="1088" to="93" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title level="m" type="main">Modern epidemiology</title>
+  <author>
+   <persName>
+    <forename type="first">Kj</forename>
+    <surname>Rothman</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <pubPlace>Boston: Little, Brown</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Confidence interval estimation of interaction</title>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Hosmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Lemeshow</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Epidemiology</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="452" to="6" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Fixed equipment -a time for change. Australi&apos;an</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Walsh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Early Childhood</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="23" to="9" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title level="m" type="main">Shock-absorbing properties of playing surface systems and materials (ASTM F355-78)</title>
+  <author>
+   <persName>
+    <forename type="first">Astm</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <publisher>American Society for Testing and Materials</publisher>
+   <pubPlace>Philadelphia, PA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

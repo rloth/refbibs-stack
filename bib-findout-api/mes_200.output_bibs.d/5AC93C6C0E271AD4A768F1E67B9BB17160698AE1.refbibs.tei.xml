@@ -1,0 +1,545 @@
+<TEI xml:id="istex-5AC93C6C0E271AD4A768F1E67B9BB17160698AE1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Handbook of human vibration</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1990" />
+   <publisher>Academic Press</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Measurement, evaluation, and assessment of occupational exposures to hand-transmitted vibration</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="73" to="89" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Mechanical vibration—guide to the health effects of vibration on the human body, CEN Report 12349</title>
+  <author>
+   <persName>
+    <forename type="first">Comité</forename>
+    <surname>Européen De Normalisation</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <pubPlace>Brussels</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The diagnosis of disorders caused by hand-transmitted vibration: Southampton Workshop</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int Arch Occup Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="page" from="1" to="5" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Mechanical vibration— measurement and evaluation of human exposure to hand-transmitted vibration. Part 1: General requirements</title>
+ </analytic>
+ <monogr>
+  <title level="m">International Organization for Standardization</title>
+  <meeting><address><addrLine>Geneva</addrLine></address></meeting>
+  <imprint>
+   <publisher>ISO</publisher>
+   <date type="published" when="2001" />
+   <biblScope unit="page" from="5349" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Response of finger circulation to energy equivalent combinations of magnitude and duration of vibration</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Lindsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="185" to="93" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Minimum health and safety requirements for workers exposed to hand-transmitted vibration and whole-body vibration in the European Union; a review</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="387" to="97" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Evaluation methods for vibration effects Part 4: Measurement of vibration greatness for whole-body and hand in vertical and horizontal vibration</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Miwa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ind Health</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="1" to="10" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Dose-response patterns for vibrationinduced white finger</title>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Nelson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page" from="16" to="26" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Duration of acute exposures to vibration and finger circulation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Lindsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Scand J Work Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="130" to="7" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Magnitude of acute exposures to vibration and finger circulation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Lindsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Scand J Work Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="278" to="84" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Acute vascular response to the frequency of vibration transmitted to the hand</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bovenzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Lindsell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mj</forename>
+    <surname>Griffin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="422" to="30" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Methods for the investigation of peripheral blood flow</title>
+  <author>
+   <persName>
+    <forename type="first">Adm</forename>
+    <surname>Greenfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Whitney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jf</forename>
+    <surname>Mowbray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br Med Bull</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="101" to="9" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">On methods in the analysis of profile data</title>
+  <author>
+   <persName>
+    <forename type="first">Sw</forename>
+    <surname>Greenhouse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Geisser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychometrika</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="95" to="111" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Analysis of longitudinal data</title>
+  <author>
+   <persName>
+    <forename type="first">Pj</forename>
+    <surname>Diggle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ky</forename>
+    <surname>Liang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sl</forename>
+    <surname>Zeger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Oxford Statistical Science Series No.13</title>
+  <meeting><address><addrLine>Oxford</addrLine></address></meeting>
+  <imprint>
+   <publisher>Oxford University Press</publisher>
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Acute effects of vibration on peripheral blood flow in healthy subjects</title>
+  <author>
+   <persName>
+    <forename type="first">Ce</forename>
+    <surname>Egan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bh</forename>
+    <surname>Espie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mcgrann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Occup Environ Med</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="663" to="9" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Acute effects of grip force and vibration on finger temperature</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Sandover</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Louw</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the 6th International Conference on Hand-Arm Vibration</title>
+  <editor>Dupuis H, Christ E, Sandover J, Taylor W, Okada A</editor>
+  <meeting>the 6th International Conference on Hand-Arm Vibration<address><addrLine>Bonn: HVBG, D-53754 Sankt Augustin</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1992" />
+   <biblScope unit="page" from="211" to="18" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Effects of combined hand-arm vibration and cold on skin temperature</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Scheffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Dupuis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int Arch Occup Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="375" to="8" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Effects of grip and push forces on the acute response of the hand-arm system under vibrating conditions</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Hartung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Dupuis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Scheffer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int Arch Occup Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">64</biblScope>
+   <biblScope unit="page" from="463" to="7" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Hand-arm vibration, noise, temperature and static load—an experimental study of peripheral circulation while operating chain-saws</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Miyakita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Miura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Futatsuka</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kurume Medical Journal</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="73" to="83" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+ <note>suppl</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

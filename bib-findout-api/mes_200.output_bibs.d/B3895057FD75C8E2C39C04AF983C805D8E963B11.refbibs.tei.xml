@@ -1,0 +1,1338 @@
+<TEI xml:id="istex-B3895057FD75C8E2C39C04AF983C805D8E963B11">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">IUPAC-IUB Commission on Biochemical Nomenrlature</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Katchalski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Sela</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Silman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Rerger</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>The Proteins, H. Neurath</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Callahan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Amtar</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1958" />
+   <biblScope unit="page">2902</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W E</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Zimmerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Callahan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Amw</surname>
+   </persName>
+  </author>
+  <editor>i . I). F. I j e n r , W. Honsberg, U. Honsberg, A. Wieland</editor>
+  <imprint/>
+ </monogr>
+ <note>h. .1. Gouge, H. Bach, A</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">D H</forename>
+    <surname>It</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">P</forename>
+    <surname>Fr&amp; ( Rer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H C</forename>
+    <surname>Marijae</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Suntki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H C</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J . Chmi</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">489</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">L ). B</forename>
+    <surname>Fraqer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">S</forename>
+    <surname>Harrap</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">P</forename>
+    <surname>Macltae</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>11</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">B</forename>
+    <surname>Siisitki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">8</forename>
+    <surname>Fraser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">P</forename>
+    <surname>Harrap</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H C</forename>
+    <surname>Maclhe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lo</forename>
+    <forename type="middle">S M</forename>
+    <surname>Siiziiki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Bloom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I{</forename>
+    <forename type="middle">P</forename>
+    <surname>Patel</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">G</forename>
+    <surname>Kupryszewski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Liocmiki Chmn</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1961" />
+   <biblScope unit="page" from="1" to="533" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Flew</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>It</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Boiqsonnay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Hrh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ada</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1963" />
+   <biblScope unit="page">1609</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kovacs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Lt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Giannotti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Kapoor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amw. Chem. SOC</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page">2282</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Engel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Katchalski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Berger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="issue">1%</biblScope>
+   <biblScope unit="page">255</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Hutton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Margolin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Witkop</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Kiirtz</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ben-Ishai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Berger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Org. Chmi</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="1564" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Zimmerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>31</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Callahan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amrr. C h m . SOC</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Wunsch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Fries</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Zwick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Bet</title>
+  <imprint>
+   <biblScope unit="volume">91542</biblScope>
+   <biblScope unit="page">5</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Carpino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Amw</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1957" />
+   <biblScope unit="page">98</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Ed</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chap</title>
+  <imprint>
+   <publisher>Arademic Press</publisher>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">10</biblScope>
+   <biblScope unit="page">1839</biblScope>
+   <date type="published" when="1964" />
+   <publisher>Arademic Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Tahora</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">F</forename>
+    <surname>Brinigar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Itogers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. dmcr. C &quot; hmt. SOC</title>
+  <imprint>
+   <biblScope unit="volume">85</biblScope>
+   <biblScope unit="page" from="23173" to="706" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">J . Mol. Bwl</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="4" to="2" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">J . Mol. tlwl</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">423</biblScope>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">88. 203.i</title>
+  <imprint>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. BWch4a. Riophys</title>
+  <imprint>
+   <biblScope unit="volume">125</biblScope>
+   <biblScope unit="page" from="779" to="1" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Berger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kurtz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Aadeh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Yarnn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Arnon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Lapidoth</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>H. d l . Res</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Bailey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chern. Soc</title>
+  <imprint>
+   <biblScope unit="page">3461</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Bloiit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Karlwn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>I H T Y</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">€3</forename>
+    <surname>Hargitay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . A m w . Chrm. Snc</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page">23</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">A. Yphaiitis, Ann</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Feitelwni</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chwn</title>
+  <imprint>
+   <biblScope unit="volume">681364</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Parker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Rees</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Analyst</title>
+  <imprint>
+   <biblScope unit="volume">85</biblScope>
+   <biblScope unit="page" from="5" to="7" />
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">W J</forename>
+    <surname>Teale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Weher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Hiorhrm</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="476" to="19" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Aiiderwn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>I&lt;</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Zimmerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Af</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Callahan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. AWWT. Chcm. Soc</title>
+  <imprint>
+   <biblScope unit="volume">85</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Low</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Risfaliidy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Arta</forename>
+    <surname>Chinr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acaad. Sri. Hung</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page">61</biblScope>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K C</forename>
+    <surname>Batterhby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Liohinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chmn. Soc</title>
+  <imprint>
+   <biblScope unit="page" from="2" to="5" />
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schwyxer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sieber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kappeler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hdv. Chim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page">2822</biblScope>
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Brenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Hiiber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Hrlv</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chim</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2003" />
+   <biblScope unit="page">1109</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Callahan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amrr. Chmn. Sor</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page">29025</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">Ii C</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J. Chcm</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="7" to="196" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Williamh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">.</forename>
+    <forename type="middle">T</forename>
+    <surname>Yoiing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="page">701</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Saent-(;yorgyi, 1)</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">S</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>&lt;: Ohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">B. Wetlaiifer, and E. It. Blont</title>
+  <imprint>
+   <biblScope unit="page" from="37" to="47" />
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Simmoiis</title>
+  <imprint>
+   <biblScope unit="page" from="81" to="33" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Coleman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hiochwn. Hiophys. Rcs. Cowimicn</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page">20</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Traiib</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page">personal commiiniration</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">&amp;i</forename>
+    <surname>Hela</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Srhechtcr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Schechter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Rorek</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>Cold Spring ZZarhor Symp</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">€3</forename>
+    <surname>Schechter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Schechter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ramachandran</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Conwaydac</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1958" />
+   <biblScope unit="page">98</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Iiiid</forename>
+    <forename type="middle">S</forename>
+    <surname>Sfeiii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mooiy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chvm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">I.. Aecttl. Sci</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="issue">88</biblScope>
+   <biblScope unit="page" from="5" to="1" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chcm. Soc</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page">4766</biblScope>
+   <date type="published" when="1061" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Symp. Quant. Hiol</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="3" to="7" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">11</forename>
+    <surname>Benjamini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Shimixii</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eztropmn J. Hiochm</title>
+  <imprint/>
+ </monogr>
+ <note>in. preparation</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

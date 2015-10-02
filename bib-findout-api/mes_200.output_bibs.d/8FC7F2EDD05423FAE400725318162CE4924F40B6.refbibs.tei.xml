@@ -1,0 +1,1203 @@
+<TEI xml:id="istex-8FC7F2EDD05423FAE400725318162CE4924F40B6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Phagocytic activation of a luminol-dependent chemiluminescence in rabbit alveolar and peritoneal macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Allen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Loose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="245" to="252" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Active oxygen species and the functions of phagocytic leucocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Badwey</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Karnovsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Rev. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="695" to="726" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Immunomodulatory-antiinflammatory functions of E-type prostaglandins. Minireview with emphasis on macrophage-mediated effects</title>
+  <author>
+   <persName>
+    <forename type="first">Bonta</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">L</forename>
+    <surname>Parnham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Immunopharmac</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="103" to="109" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The involvement of oxygen radicals during the autoxidation of adrenalin</title>
+  <author>
+   <persName>
+    <forename type="first">Bors</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Michel</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Saran</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lengfelder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">540</biblScope>
+   <biblScope unit="page" from="62" to="172" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Unsaturated fatty acids as second messengers of superoxide generation by macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Bromberg</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Pick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell Immun</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="page" from="240" to="252" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Effect of extracellular calcium on superoxide release by rat alveolar macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Forman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Nelson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. appl. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="1249" to="1253" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Functional relationship of the cytochrome b to the superoxide generating oxidase of human neutrophils</title>
+  <author>
+   <persName>
+    <forename type="first">Gabig</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">C</forename>
+    <surname>Schervish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">W</forename>
+    <surname>Sant1nga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">257</biblScope>
+   <biblScope unit="page" from="4114" to="4119" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Acetyl glyceryl ether phospborylcholine (platelet activating factor) mediates heightened metabolic activity in macropbages Studies on PGE, TxB~ and O~-production, spreading, and the influence of calmodulininhibitor W-7</title>
+  <author>
+   <persName>
+    <forename type="first">Hartung</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H.-P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">160</biblScope>
+   <biblScope unit="page" from="209" to="212" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Platelet activating factor (PAF) induces the oxidative burst in macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Hartung</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H.-P</forename>
+    <surname>Parnham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Winkelmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Englberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Hadding</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Immunopharmac</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="115" to="121" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Pbospholipid methylation and biological signal transmission</title>
+  <author>
+   <persName>
+    <forename type="first">Hirata</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Axelrod</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">209</biblScope>
+   <biblScope unit="page" from="1082" to="1090" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Evidence for mediation of acetyl glyceryl ether phosphorycholine stimulation of adenosine 3&apos;, 5&apos;-(cyclic) monophosphate levels in human polymorphonuclear leukocytes by leukotriene B4</title>
+  <author>
+   <persName>
+    <forename type="first">Hopkins</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">K</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">H</forename>
+    <surname>Gorman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">763</biblScope>
+   <biblScope unit="page" from="276" to="283" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Stimulation of prostaglandin synthesis in WI-38 human lung fibroblasts following inhibition of phospholipid acylation by p-hydroxymercuribenzoate</title>
+  <author>
+   <persName>
+    <forename type="first">Hunter</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A</forename>
+    <surname>Burstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sedor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">793</biblScope>
+   <biblScope unit="page" from="202" to="212" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Metabolic, membrane, and functional responses of human polymorphonuclear leukocytes to platelet activating factor</title>
+  <author>
+   <persName>
+    <forename type="first">Ingraham</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Coates</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Allen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Higgins</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Baehner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Boxer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Blood</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="1259" to="1266" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Relation of respiratory burst and arachidonate metabolism during phagocytosis by guinea pig macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Ingraham</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Weening</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Clarke</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Boxer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Baehner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Lab. clin. Med</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="908" to="916" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Oxygen metabolism in cloned macrophage cell lines: glucose dependence of superoxide production, metabolic and spectral analysis</title>
+  <author>
+   <persName>
+    <forename type="first">Kiyotak1</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Peisach</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bloom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immun</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="857" to="866" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Kadsurenone distinguishes between different platelet activating factor (PAF) receptor subtypes on macrophages and polymorphonuclear leucocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Lambrecht</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Parnham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br. J. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="page" from="287" to="289" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Reactive oxygen production, arachidonate metabolism and cyclic AMP in macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Lim</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">K</forename>
+    <surname>Hunt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">H</forename>
+    <surname>Weidemann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">114</biblScope>
+   <biblScope unit="page" from="549" to="555" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Immunization of dissociated spleen cell cultures from normal mice</title>
+  <author>
+   <persName>
+    <forename type="first">Mishell</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">I</forename>
+    <surname>Dutton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">126</biblScope>
+   <biblScope unit="page" from="413" to="442" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Biology and biochemistry of platelet activating factor</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Flaherty</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Wykle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin. Rev. Allergy</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="353" to="367" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Inhibition of superoxide anion production in macrophages by anti-inflammatory drugs</title>
+  <author>
+   <persName>
+    <forename type="first">Yanagui</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="1473" to="1480" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Inhibition of superoxide anion production in non-stimulated guinea pig peritoneal exudate ceils by anti-inflammatory drugs</title>
+  <author>
+   <persName>
+    <forename type="first">Oyanagui</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="777" to="782" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title level="m" type="main">Modulation of macrophage chemiluminescence by arachidonic acid products</title>
+  <author>
+   <persName>
+    <forename type="first">Parnham</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Bittner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+  <editor>Oxygen Radicals in Chemistry andBiology</editor>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Walter de Gruyter</publisher>
+   <biblScope unit="page" from="859" to="865" />
+   <pubPlace>Berlin</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Chemiluminescence from mouse resident macrophages: characterization and modulation by arachidonate metabolites</title>
+  <author>
+   <persName>
+    <forename type="first">Parnham</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Bittner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Winkelmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunopharmacology</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="277" to="291" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Inflammatory and macrophage-stimulating actions of PAF-acether in normal and immunologically challenged rodents</title>
+  <author>
+   <persName>
+    <forename type="first">Parnham</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Leyck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Platelet Activating Factor and Structurally Related Ether-Lipids, INSERM Symposium 23 (eds Benveniste</title>
+  <meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+  <imprint>
+   <publisher>Elsevier</publisher>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="187" to="193" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Role of transmethylation in the elicitation of an oxidative burst in macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Ptck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>M1zel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell. Immun</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page" from="277" to="285" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Paf-acether generates chemiluminescence in human neutrophils in the absence of cytochalasin B</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Poitevln</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Roub1n</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Benveniste</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunopharmacology</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="135" to="144" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Adrenoceptor agonists reverse the leukotriene C4-induced release response of macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">Schenkelaars</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">J</forename>
+    <surname>Bonta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="65" to="74" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Effects of cyclooxygenase inhibitors and prostaglandin E2 on macrophage activation in vitro</title>
+  <author>
+   <persName>
+    <forename type="first">Schnyder</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dewalo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Baggiolini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Prostaglandins</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="411" to="421" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Activation of human neutrophils with 1-0-hexadecyl/octadecyl-2-acetyl-sn-glyceryl-3-phosphorylcholine (platelet activating factor)</title>
+  <author>
+   <persName>
+    <forename type="first">Shaw</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">O</forename>
+    <surname>Pinckard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Ferrigni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">S</forename>
+    <surname>Mcmanus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Hanahan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immun</title>
+  <imprint>
+   <biblScope unit="volume">127</biblScope>
+   <biblScope unit="page" from="1250" to="1255" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Stimulation of the human neutrophil superoxide anion-generating system with 1-0-hexadecyl/octadecyl-2-acetyl-sn-glyceryl-3-phosphorylcholine</title>
+  <author>
+   <persName>
+    <forename type="first">Smith</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Bowman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Iden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Pharmac</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="973" to="978" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Modulation of macrophage superoxide release by purine metabolism</title>
+  <author>
+   <persName>
+    <forename type="first">Tritsch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Niswander</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Life Sci</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="1359" to="1362" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Histidine at the active site of phospholipase A~</title>
+  <author>
+   <persName>
+    <forename type="first">Volwerk</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Pieterson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>De</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">H</forename>
+    <surname>Haas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="1446" to="1454" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Monocyte aggregation and superoxide anion release in response to formyl-methionyl-leucyl-phenylalanine (FMLP) and platelet-activating factor (PAF)</title>
+  <author>
+   <persName>
+    <forename type="first">Yasaka</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Boxer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Baehner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. lmmun</title>
+  <imprint>
+   <biblScope unit="volume">128</biblScope>
+   <biblScope unit="page" from="1939" to="1944" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

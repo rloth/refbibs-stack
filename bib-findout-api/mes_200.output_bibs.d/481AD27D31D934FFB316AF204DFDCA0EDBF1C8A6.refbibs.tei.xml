@@ -1,0 +1,409 @@
+<TEI xml:id="istex-481AD27D31D934FFB316AF204DFDCA0EDBF1C8A6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">An analysis of the representation of the forelimb in the ventrobasal thalamic complex of the albino rat</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Angel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ka</forename>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">249</biblScope>
+   <biblScope unit="page" from="399" to="423" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Functional changes in ventrobasal thalamic neurones responsive to noxious and non-noxious cutaneous stimuli after chloralose treatment: evidence for the presence of pre-existing &quot;&apos;silent connections&quot; in the adult nervous system?</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Guilbaud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Peschanski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Gautron</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pain</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="9" to="19" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The marking of electrode tip positions in nervous tissue</title>
+  <author>
+   <persName>
+    <forename type="first">Rf</forename>
+    <surname>Hellon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">214</biblScope>
+   <biblScope unit="page">12</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Neurones in the ventrobasal complex of the rat thalamus responding to scrotal skin temperature changes</title>
+  <author>
+   <persName>
+    <forename type="first">Rf</forename>
+    <surname>Hellon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nk</forename>
+    <surname>Misra</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">232</biblScope>
+   <biblScope unit="page" from="389" to="399" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Bancroft&apos;s introduction to biostatistics</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ipsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Feigl</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970" />
+   <publisher>Harper and Row</publisher>
+   <biblScope unit="page">59</biblScope>
+   <pubPlace>New York ; Evanston London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The differential synaptic organization of the spinal and lenmiscal projections to the ventrobasal complex of the rat thalamus: evidence for convergence of the two systems upon single thalamic neurones</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Ma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Peschanski</forename>
+    <forename type="middle">M</forename>
+    <surname>Ralston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="925" to="934" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">GABA-containing neurons in the thalamus and pretectum of the rodent</title>
+  <author>
+   <persName>
+    <forename type="first">Op</forename>
+    <surname>Ottersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Storm-Mathisen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat Embryol (Berl)</title>
+  <imprint>
+   <biblScope unit="volume">170</biblScope>
+   <biblScope unit="page" from="197" to="297" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">The rat brain in stereotaxic coordinates</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Paxinos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">23</biblScope>
+   <pubPlace>Sydney New York London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Electrophysiological evidence for a role of the anterolateral quadrant of the spinal cord in the transmission of noxious messages to the ventrobasal complex in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Peschanski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Briand</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Gautron</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Guilbaud</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">324</biblScope>
+   <biblScope unit="page" from="77" to="84" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Extensive dual innervation and mutual inhibition by forelimb and hindlimb inputs to ventroposterolateral nucleus projection neurons in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">Wa</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wells</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Somatosens Mot Res</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page">8545</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Response of ventrobasal thalamic neurons activated by dorsal and dorsolateral funiculi: an intracellular study</title>
+  <author>
+   <persName>
+    <forename type="first">Ml</forename>
+    <surname>Sotgiu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Haimann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Margnelli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Somatosens Mot Res</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="325" to="333" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Plasticity in the adult mammalian central nervous system</title>
+  <author>
+   <persName>
+    <forename type="first">Pd</forename>
+    <surname>Wall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Progr Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="359" to="79" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The presence of ineffective synapses and the circumstances which unmask them</title>
+  <author>
+   <persName>
+    <forename type="first">Pd</forename>
+    <surname>Wall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Philos Trans R Soc kond [Biol]</title>
+  <imprint>
+   <biblScope unit="volume">278</biblScope>
+   <biblScope unit="page" from="361" to="372" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Formation of new connections in adult rat brains after partial deafferentation</title>
+  <author>
+   <persName>
+    <forename type="first">Pd</forename>
+    <surname>Wall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Egger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">232</biblScope>
+   <biblScope unit="page" from="542" to="545" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Time course of reactive synaptogenesis in the subcortical somatosensory system</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wells</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ln</forename>
+    <surname>Tripp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Comp Neurol</title>
+  <imprint>
+   <biblScope unit="volume">255</biblScope>
+   <biblScope unit="page" from="466" to="475" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,1356 @@
+<TEI xml:id="istex-88E5516AA4BEC2594E7F89D017B4FD892F4878B2">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Impact of human immunodeficiency virus 1 infection on clinical presentation, treatment outcome and survival in a cohort of Ethiopian children with tuberculosis</title>
+  <author>
+   <persName>
+    <forename type="first">Ib</forename>
+    <surname>Palme</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Gudetta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bruchfeld</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Muhe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Giesecke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatr Infect Dis J</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="1053" to="61" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Impact of HIV infection on the development, clinical presentation, and outcome of tuberculosis among children in Abidjan, Cote d&apos;Ivoire</title>
+  <author>
+   <persName>
+    <forename type="first">Yd</forename>
+    <surname>Mukadi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sz</forename>
+    <surname>Wiktor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Im</forename>
+    <surname>Coulibaly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Coulibaly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mbengue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Am</forename>
+    <surname>Folquet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">AIDS</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="1151" to="8" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Tuberculosis in children with human immunodeficiency virus infection</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Chintu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mwaba</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int J Tuberc Lung Dis</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="477" to="84" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Outcome of HIV-infected children with culture-confirmed tuberculosis</title>
+  <author>
+   <persName>
+    <forename type="first">Ac</forename>
+    <surname>Hesseling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sh</forename>
+    <surname>Schaaf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ae</forename>
+    <surname>Westra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Werschkull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pr</forename>
+    <surname>Donald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Beyers</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Dis Child</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="1171" to="4" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Impact of HIV-1 co-infection on presentation and hospital-related mortality in children with culture proven pulmonary tuberculosis in Durban, South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Pm</forename>
+    <surname>Jeena</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Pillay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Pillay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Coovadia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int J Tuberc Lung Dis</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="672" to="7" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Aetiology and outcome of pneumonia in human immunodeficiency virus-infected children hospitalized in South Africa</title>
+  <author>
+   <persName>
+    <forename type="first">Hj</forename>
+    <surname>Zar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Hanslo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Tannenbaum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Klein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Argent</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Eley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Paediatr</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page" from="119" to="25" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Increased disease burden and antibiotic resistance of bacteria causing severe community-acquired lower respiratory tract infections in human immunodeficiency type 1-infected children</title>
+  <author>
+   <persName>
+    <forename type="first">Sa</forename>
+    <surname>Madhi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Petersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Madhi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Khoosal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kp</forename>
+    <surname>Klugman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Infect Dis</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="170" to="6" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Lung disease at necropsy in African children dying from respiratory illnesses: a descriptive necropsy study</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Chintu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Mudenda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Lucas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nunn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Lishimpi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Maswahu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">360</biblScope>
+   <biblScope unit="page" from="985" to="90" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Effect of preventive treatment for tuberculosis in adults infected with HIV: systematic review of randomised placebo controlled trials</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sb</forename>
+    <surname>Squire</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Garner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">317</biblScope>
+   <biblScope unit="page" from="625" to="9" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Isoniazid prophylaxis for tuberculosis in HIV infection: a meta-analysis of randomized controlled trials</title>
+  <author>
+   <persName>
+    <forename type="first">Hc</forename>
+    <surname>Bucher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Griffith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gh</forename>
+    <surname>Guyatt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sundre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Naef</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sendi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">AIDS</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="501" to="7" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Treatment of latent tuberculosis infection in HIV infected persons</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Woldehanna</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Volmink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cochrane Database Syst Rev</title>
+  <imprint>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page">000171</biblScope>
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Comparison of induced sputum with gastric lavage for microbiologic confirmation of pulmonary tuberculosis in infants and young children—a prospective study</title>
+  <author>
+   <persName>
+    <forename type="first">Hj</forename>
+    <surname>Zar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Hanslo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Apolles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Swingler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hussey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">365</biblScope>
+   <biblScope unit="page" from="130" to="4" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Proportional hazards test and diagnostics based on weighted residuals</title>
+  <author>
+   <persName>
+    <forename type="first">Pm</forename>
+    <surname>Grambsch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tm</forename>
+    <surname>Therneau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biometrika</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="page" from="515" to="26" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">When to stop a clinical trial</title>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Pocock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">305</biblScope>
+   <biblScope unit="page" from="235" to="40" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">Health Systems Trust Health Statistics. www.hst.org.za/healthstats</title>
+  <imprint>
+   <date type="published" when="2006-10-19" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Transmission of tuberculosis to children in a high incidence area</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Beyers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Michaelis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rp</forename>
+    <surname>Gie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Schaaf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Richardson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Warren</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int J Tuberc Lung Dis</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page">185</biblScope>
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Clinical features and outcome in children admitted to a TB hospital in the Western Cape—the influence of HIV and drug resistance</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Soeters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Am</forename>
+    <surname>De Vries</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jll</forename>
+    <surname>Kimpen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pr</forename>
+    <surname>Donald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Schaaf</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">S Afr Med J</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="602" to="6" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">National Department of Health. National HIV and syphilis seroprevalence survey in South Africa</title>
+ </analytic>
+ <monogr>
+  <title level="m">Pretoria: National Department of Health</title>
+  <imprint>
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Effect of treatment of latent tuberculosis infection on the T cell response to Mycobacterium tuberculosis antigens</title>
+  <author>
+   <persName>
+    <forename type="first">Ka</forename>
+    <surname>Wilkinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Om</forename>
+    <surname>Kon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sm</forename>
+    <surname>Newton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Meintjes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rn</forename>
+    <surname>Davidson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Pasvol</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Infect Dis</title>
+  <imprint>
+   <biblScope unit="volume">193</biblScope>
+   <biblScope unit="page" from="354" to="9" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Isoniazid prophylaxis among Alaskan Eskimos: a final report of the bethel isoniazid studies</title>
+  <author>
+   <persName>
+    <forename type="first">Gw</forename>
+    <surname>Comstock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Baum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Snider</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am Rev Respir Dis</title>
+  <imprint>
+   <biblScope unit="volume">119</biblScope>
+   <biblScope unit="page" from="827" to="30" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Virological and immunological impact of tuberculosis on human immunodeficiency virus type I disease</title>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Toossi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Infect Dis</title>
+  <imprint>
+   <biblScope unit="volume">188</biblScope>
+   <biblScope unit="page" from="1146" to="55" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Accelerated course of human immunodeficiency virus infection after tuberculosis</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Whalen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cr</forename>
+    <surname>Horsburgh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Hom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Lahart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Simberkoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ellner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Resp Crit Care Med</title>
+  <imprint>
+   <biblScope unit="volume">151</biblScope>
+   <biblScope unit="page" from="129" to="35" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Potentiating action of rifampicin and isoniazid against Leishmania mexicana amazonensis</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Peters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Lainson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Shaw</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Af</forename>
+    <surname>Leao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">i</biblScope>
+   <biblScope unit="page" from="1122" to="4" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Isonicotinic acid hydrazide: an antituberculosis drug inhibits malarial transmission in the mosquito gut</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Arai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yi</forename>
+    <surname>Alavi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mendoza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Billker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Re</forename>
+    <surname>Sinden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp Parasitol</title>
+  <imprint>
+   <biblScope unit="volume">106</biblScope>
+   <biblScope unit="page" from="30" to="6" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">In vitro inhibition of the Mycobacterium tuberculosis beta-ketoacyl-acyl carrier protein reductase MabA by isoniazid</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ducasse-Cabanot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Cohen-Gonsaud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Marrakchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nguyen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Zerbib</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bernadou</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Antimicrob Agents Chemother</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="242" to="9" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Mechanism of action of diazaborines</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Baldock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>De Boer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jb</forename>
+    <surname>Rafferty</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ar</forename>
+    <surname>Stuitje</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Rice</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="1541" to="9" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Isoniazid protects mice against endotoxin lethality without influencing tumor necrosis factor synthesis and release</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Urbaschek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dn</forename>
+    <surname>Männel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Urbanczik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Antimicrob Agents Chemother</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="1666" to="8" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Differential role of CYP2E1 binders and isoniazid on CYP2E1 protein modification in NADPHdependent microsomal oxidative reactions: free radical scavenging ability of isoniazid</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Choi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Leininger-Muller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yc</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Leroy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Siest</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Wellman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Free Radic Res</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="893" to="903" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Co-trimoxazole as prophylaxis against opportunistic infections in HIV-infected Zambian children (CHAP): a double-blind randomised placebo-controlled trial</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Chintu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Bhat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">As</forename>
+    <surname>Walker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Mulenga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Sinyinza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Lishimpi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">364</biblScope>
+   <biblScope unit="page" from="1865" to="71" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Use of isonaizid for latent tuberculosis infection in a public health clinic</title>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Lobue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ks</forename>
+    <surname>Moser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Resp Crit Care Med</title>
+  <imprint>
+   <biblScope unit="volume">168</biblScope>
+   <biblScope unit="page" from="443" to="7" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Risk factors for development of tuberculosis after isoniazid chemoprophylaxis in human immunodeficiency virus-infected patients</title>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Casado</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Moreno</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fortun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Antela</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Quereda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Navas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Infect Dis J</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="386" to="9" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Effect of post-treatment isoniazid on prevention of recurrent tuberculosis in HIV-1-infected individuals: a randomised trial</title>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Fitzgerald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Desvarieux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Severe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Joseph</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wd</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Pape</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">356</biblScope>
+   <biblScope unit="page" from="1470" to="4" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Natural history of human immunodeficiency virus type 1 infection in children: a five-year prospective study in Rwanda</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Spira</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Lepage</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Msellati</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Van De Perra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Leroy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Simonon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">104</biblScope>
+   <biblScope unit="page">56</biblScope>
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Tuberculosis preventive therapy for HIV-infected people in sub-Saharan Africa is cost-effective</title>
+  <author>
+   <persName>
+    <forename type="first">Jc</forename>
+    <surname>Bell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dn</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Sacks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">AIDS</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="1549" to="56" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

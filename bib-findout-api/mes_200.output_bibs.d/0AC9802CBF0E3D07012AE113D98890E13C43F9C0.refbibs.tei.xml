@@ -1,0 +1,675 @@
+<TEI xml:id="istex-0AC9802CBF0E3D07012AE113D98890E13C43F9C0">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">T cell mediated cytotoxicity against herpes simplex virus-infected target cells</title>
+  <author>
+   <persName>
+    <forename type="first">Pfizenmaier</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Starzinskt-Powitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rolunghoh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wagner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">265</biblScope>
+   <biblScope unit="page">630</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">The role of T cells in anti-herpes simplex virus immunity. 1. Induction of antigenspecific cytotoxic T lymphocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Pfizenmaier</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Jung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Starzinski-Powitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rollinghoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wagner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immuno!</title>
+  <imprint>
+   <biblScope unit="volume">119</biblScope>
+   <biblScope unit="page">939</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Specifically immune mouse T-ct·lls can destroy H-2 compatible murine target cells infected with herpes simplex virus types 1 or 2</title>
+  <author>
+   <persName>
+    <forename type="first">Sethi</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brandis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">L.. lmmun. FOTsch</title>
+  <imprint>
+   <biblScope unit="volume">150</biblScope>
+   <biblScope unit="page">162</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">Interferon enhances T cell mediated cytotoxicity of H -2 compatible target cells infected with UV-inactivated herpes simplex virus</title>
+  <author>
+   <persName>
+    <forename type="first">Sethi</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brandis</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page">177</biblScope>
+  </imprint>
+ </monogr>
+ <note>Arch. . Viro!&apos; 57</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Regulation of herpesvirus macromolecular synthesis. I. Cascade regulation of the synthesis of three groups of viral proteins</title>
+  <author>
+   <persName>
+    <forename type="first">Honess</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Roizman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Viral</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">8</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Evidence that herpes simplex virus DNA is transcribed by cellular RNA polymerase B</title>
+  <author>
+   <persName>
+    <forename type="first">Costanzo</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Campadelli-Fiume</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Faa-Tomasi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Cassai</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Viral</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">996</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Plaque assay of herpes virus hominis on human embryonic fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">B</forename>
+    <surname>Wenfoworti-L</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>French</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Soc. Exp. BioI. and Med</title>
+  <imprint>
+   <biblScope unit="volume">131</biblScope>
+   <biblScope unit="page">588</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">An extension of SICr release assay for the estimation of mouse cytotoxins</title>
+  <author>
+   <persName>
+    <forename type="first">Boyle</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page">761</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">A rapid method for the isolation of functional thymus-derived murine lymphocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Julius</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Simpson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Herzenberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Immuno!</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page">645</biblScope>
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Generation of homogeneous populations of alloreactive T cdis in vitro</title>
+  <author>
+   <persName>
+    <forename type="first">Woolnough</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">J</forename>
+    <surname>Lafferty</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aust. J. Exp. BioI. Med. Sci</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page">127</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">A preparative method for obtaining enucleated mammalian cells</title>
+  <author>
+   <persName>
+    <forename type="first">Wigler</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H B</forename>
+    <surname>Weinstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Res. Commun</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page">669</biblScope>
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Studies on the mechanism of lymphocyte mediated cytolysis. X. Enucleated cells as targets for cytotoxic attack</title>
+  <author>
+   <persName>
+    <surname>Sil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Lciano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Hen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">121</biblScope>
+   <biblScope unit="page">186</biblScope>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Quantitative analysis of the SICr release cytotoxicity assay for cytotoxic lymphocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Miller</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Du</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Nkley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell. Immuno!</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">284</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Proteins specified by herpes si mplex virus. V. Purification and structural proteins of the herpesvirion</title>
+  <author>
+   <persName>
+    <forename type="first">Spear</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Roizman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Virol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page">143</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Studies on the mechanism of lymphocytemediated cytolysis. VI. A reappraisal of the requirement for protein synthesis during T cell-mediated lysis</title>
+  <author>
+   <persName>
+    <forename type="first">Thorn</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Enny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immuno!</title>
+  <imprint>
+   <biblScope unit="volume">116</biblScope>
+   <biblScope unit="page">146</biblScope>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">T-T-cell interactions during in vitro cytotoxic allograft responses. 1. Soluble products from activated Lyl+ T cells trigger autonomously antigen-primed Ly23+. T cells to cell proliferation and cytolytic activity</title>
+  <author>
+   <persName>
+    <forename type="first">Wagner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">Rollingiioff</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">148</biblScope>
+   <biblScope unit="page">1523</biblScope>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Long-term culture of tumor-specific cytotoxic T-cells</title>
+  <author>
+   <persName>
+    <forename type="first">Gills</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">268</biblScope>
+   <biblScope unit="page">154</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Antigens of herpes simplex virus type 1 and 2-immunodiffusion and inhibition passive haemagglutination studies</title>
+  <author>
+   <persName>
+    <forename type="first">Schneweis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Nahmias</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Z. lmmun. Forsch</title>
+  <imprint>
+   <biblScope unit="volume">141</biblScope>
+   <biblScope unit="page">471</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Type specific and type common antigens in cells infected with herpes simplex virus type 1 and on the surfaces of naked and enveloped particles of the virus</title>
+  <author>
+   <persName>
+    <forename type="first">Honess</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Powjll</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">J</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. gen. Virol</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page">159</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Joint recognition by cytotoxic T cells of inactivated Sendai virus and products of the major histocompatibility complex</title>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exp</title>
+  <editor>SCHRADJ:::R, J. W .. and G. M. EDElMAN</editor>
+  <imprint>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

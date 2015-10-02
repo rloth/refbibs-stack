@@ -1,0 +1,636 @@
+<TEI xml:id="istex-DF43E1311B8EBB186210C1DD9136CA8C17108284">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Infradeclaración de la mortalidad perinatal: la experiencia de 10 años de vigilancia activa en Barcelona</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ferrando</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Borrel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ricart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Plasencia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med Clin (Barc)</title>
+  <imprint>
+   <biblScope unit="volume">108</biblScope>
+   <biblScope unit="page" from="330" to="335" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Infant and perinatal mortality in Spain 1981-1991: interprovincial variations in autonomous communities with extreme economic levels</title>
+  <author>
+   <persName>
+    <forename type="first">Mf</forename>
+    <surname>Domínguez-Berjón</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Benach</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">García</forename>
+    <surname>Arcal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Borrel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Epidemiol</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="723" to="729" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">National infant mortality rates in relation to gross national product and distribution of income</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Howden-Chapman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Salmond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Woodward</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mackenbach</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">354</biblScope>
+   <biblScope unit="page">2047</biblScope>
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Comparative trends in cause-especific fetal and neonatal mortality in twin and singleton births in the North of England</title>
+  <author>
+   <persName>
+    <forename type="first">Sv</forename>
+    <surname>Glinianaia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Pharoah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sn</forename>
+    <surname>Sturgiss</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BJOG</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="452" to="460" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Trends and variations in perinatal mortality and low birthweight the contribution of socio-economic factors</title>
+  <author>
+   <persName>
+    <forename type="first">In</forename>
+    <surname>Luginaah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ks</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tj</forename>
+    <surname>Abernathy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Sheehan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Webster</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can J Public Health</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page" from="377" to="381" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Socio-demographic risk factors for perinatal mortality. A study of perinatal mortality in the French district of Seine-Saint-Denis</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Zeitlin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Combier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Caunes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Papiernik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Obstet Gynecol Scand</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="826" to="835" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>González</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+    <surname>Guijarro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Usandizaga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Lardinois</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Act Obst Ginecol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="7" to="13" />
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+ <note>Mortalidad. fetal y neonatal en España y las Islas Baleares entre</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Perinatal and infant mortality: a worldwide issue</title>
+  <author>
+   <persName>
+    <forename type="first">La</forename>
+    <surname>Vecchia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Parazzini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Levi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Public Health</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="157" to="158" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Annual Summary of Vital Statis- tics–</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Guyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dl</forename>
+    <surname>Hoyert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Ventura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mf</forename>
+    <surname>Macdorman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dm</forename>
+    <surname>Strobino</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">104</biblScope>
+   <biblScope unit="page" from="1229" to="1246" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Perinatal deaths in a Norwegian county 1986-96 classified by the Nordic-Baltic perinatal classification: geographical contrasts as a basis for quality assessment</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Holt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vold</forename>
+    <forename type="middle">I N</forename>
+    <surname>Ooland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jo</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Forde</forename>
+    <forename type="middle">O H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Obstet Gynecol Scand</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="page" from="107" to="112" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Neonatal and postneonatal mortality in Germany since unificat</title>
+  <author>
+   <persName>
+    <forename type="middle">E</forename>
+    <surname>Nolte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Brand</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Koupilova</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Mckee</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Epidemiol Community Health</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="84" to="90" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Births in Finland and Estonia from 1992 to 1996: convergent differences</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Gissler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Karro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Tellmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Hemminki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BJOG</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="179" to="185" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Perinatal deaths in the country of Ostfold 1989-1997</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fossen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ie</forename>
+    <surname>Silberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tidsskr Nor Laegeforen</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page">119</biblScope>
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>González</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Usandizaga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+    <surname>Guijarro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Lardinois</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Act Obst Ginecol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="14" to="19" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+ <note>Mortalidad. perinatal en el archipiélago balear entre</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Nacimientos y Defunciones</title>
+  <author>
+   <persName>
+    <forename type="first">Movimiento</forename>
+    <surname>Natural De La Población</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Palma de Mallorca: Instituto Balear de Estadística (IBAE)</title>
+  <imprint>
+   <biblScope unit="page" from="1985" to="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Nacimentos y Defunciones</title>
+  <author>
+   <persName>
+    <forename type="first">Movimento</forename>
+    <surname>Natural De La Población</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Madrid: Instituto Nacional de Estadística (INE)</title>
+  <imprint>
+   <biblScope unit="page" from="1980" to="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Recommended definitions. Terminology and format for statistical tables related to the perinatal period and use of a new certificate for cause of perinatal deaths</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Obstet Gynecol Scand</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page" from="247" to="253" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Commentary on Current World Health Organization definitions used in perinatal statistics</title>
+  <author>
+   <persName>
+    <forename type="first">Ml</forename>
+    <surname>Chiswick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BJOG</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="1236" to="1238" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

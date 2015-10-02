@@ -1,0 +1,1352 @@
+<TEI xml:id="istex-C8787B8386F53CD177F0DD867C40191641551927">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Clinical and experimental studies on fibrinolytic enzymes</title>
+  <author>
+   <persName>
+    <forename type="first">Ambrus</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Ambrus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Back</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Sokal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Collins</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. N.Y. Acad. Sci</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page">97</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Ambrus</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The tertiary structure of ribonuclease, in: Enzyme models and enzyme structure</title>
+  <author>
+   <persName>
+    <forename type="first">Anfinsen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brookhaven Symposia in Biology</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page">187</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The influence of race</title>
+  <author>
+   <persName>
+    <forename type="first">Barnes</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Farr</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Blood</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page">429</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Demonstration of the properties of A, B, M, N, and Rh in red cell stromata</title>
+  <author>
+   <persName>
+    <forename type="first">Belkin</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wiener</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. SOC. exp. Biol. N.Y</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page">214</biblScope>
+   <date type="published" when="1944" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Relation between erythrocyte integrity and sulfhydryl groups</title>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page">38</biblScope>
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The introduction of new sulfhydryl groups and disulfide bonds into proteins</title>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">BENESCH et al. Sulfur in proteins</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1959" />
+   <biblScope unit="page">24</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">The introduction of new sulfhydryl groups and disulfide bonds into proteins</title>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Benesch</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">BENESCH et al. Sulfur in proteins</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1959" />
+   <biblScope unit="page">13</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The Rho (D) specificity of a polysaccharide isolated from a species of pseudomonas</title>
+  <author>
+   <persName>
+    <forename type="first">Bigley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Dodd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Randles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+    <surname>Geyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lazen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page">526</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">GREEN Studies on the Rh</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">The group-specific substances</title>
+  <author>
+   <persName>
+    <forename type="first">Boorman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dodd</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Their occurrence in tissues and body fluids</title>
+  <meeting><address><addrLine>A, B, M, N, and Rh</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1943" />
+   <biblScope unit="page">329</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Specific inhibition of anti-D antibody by colominic acid</title>
+  <author>
+   <persName>
+    <forename type="first">Boyd</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Reeves</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">191</biblScope>
+   <biblScope unit="page">511</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Separation of complete and incomplete Rh antibodies by centrifugation</title>
+  <author>
+   <persName>
+    <forename type="first">Campbell</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Sturgeon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vinograd</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">122</biblScope>
+   <biblScope unit="page">1091</biblScope>
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Rh Hapten: Its preparation, assay and nature</title>
+  <author>
+   <persName>
+    <forename type="first">Carter</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page">79</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">The haemolytic anaemias. Part 11. The auto-immune haemolytic anaemias</title>
+  <author>
+   <persName>
+    <forename type="first">Dacie</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1962" />
+   <publisher>Grune and Stratton</publisher>
+   <biblScope unit="page">446</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Specific inhibition of Rho (D) antibody by sialic acids</title>
+  <author>
+   <persName>
+    <forename type="first">Dodd</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Bigley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Geyer</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page">1398</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Further observations on the serologic specificity of sialic acid for Rho (D) activity</title>
+  <author>
+   <persName>
+    <forename type="first">Dodd</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Bigley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Geyer</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page">518</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Studies on the structural units of the gamma globulins</title>
+  <author>
+   <persName>
+    <forename type="first">Edelmann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Poulik</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page">861</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Methods for investigating the essential groups for enzyme activity</title>
+  <author>
+   <persName>
+    <forename type="first">Fraenkel-Conrat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in enzymology</title>
+  <editor>COLOWICK, S. P. and KAPLAN, N. 0.</editor>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1957" />
+   <biblScope unit="page">264</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Methods for investigating the essential groups for enzyme activity</title>
+  <author>
+   <persName>
+    <forename type="first">Fraenkel-Conrat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in enzymology</title>
+  <editor>COLOWICK, s. P. and KAPLAN, N. 0.</editor>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1957" />
+   <biblScope unit="page">263</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Physical properties of the red cell agglutinins in acquired hemolytic anemia</title>
+  <author>
+   <persName>
+    <forename type="first">Fudenberg</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kunkel</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">106</biblScope>
+   <biblScope unit="page">689</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">High molecular weight antibodies</title>
+  <author>
+   <persName>
+    <forename type="first">Fudenberg</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kunkel</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 7th Congr. intern</title>
+  <meeting>. 7th Congr. intern<address><addrLine>Rome ; Basel ; New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Karger</publisher>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">The influenza virus receptor and blood group antigens of human erythrocyte stroma</title>
+  <author>
+   <persName>
+    <forename type="first">Howe</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page">9</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Studies with the Rho (D) antigen</title>
+  <author>
+   <persName>
+    <forename type="first">Howe</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rustigian</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">64</biblScope>
+   <biblScope unit="page">505</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Relation of sialic acid to Rho (D) antigen</title>
+  <author>
+   <persName>
+    <forename type="first">Johnson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mcclure</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. SOC. exp. Biol. N.Y</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page">692</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">Blood group substances. Their chemistry and immunochemistry</title>
+  <author>
+   <persName>
+    <forename type="first">Kabat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">56</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title level="m" type="main">Blood group substances. Their chemistry and immunochemistry</title>
+  <author>
+   <persName>
+    <forename type="first">Kabat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">46</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <monogr>
+  <title level="m" type="main">Blood group substances. Their chemistry and immunochemistry</title>
+  <author>
+   <persName>
+    <forename type="first">Kabat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">113</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title level="m" type="main">Blood group substances. Their chemistry and immunochemistry</title>
+  <author>
+   <persName>
+    <forename type="first">Kabat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">142</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title level="m" type="main">Blood group substances. Their chemistry and immunochemistry</title>
+  <author>
+   <persName>
+    <forename type="first">Kabat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page">157</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">The role of disulfide bonds in the acquisition of immunological specificity</title>
+  <author>
+   <persName>
+    <forename type="first">Lrush</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Pediat</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page">103</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Structure and function in T2 bacteriophage</title>
+  <author>
+   <persName>
+    <forename type="first">Kozloff</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">BENESCH et d. Sulfur in proteins</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1959" />
+   <biblScope unit="page">350</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Serological studies on the blood of the primates. 11. The blood groups in anthropoid apes</title>
+  <author>
+   <persName>
+    <forename type="first">Landsteiner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Miller</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page">853</biblScope>
+   <date type="published" when="1925" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">An agglutinable factor in human blood recognized by immune sera for rhesus blood</title>
+  <author>
+   <persName>
+    <forename type="first">Landsteiner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wiener</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. SOC. exp. Biol. N.Y</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page">223</biblScope>
+   <date type="published" when="1940" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">An ususual case of intragroup agglutination</title>
+  <author>
+   <persName>
+    <forename type="first">Levine</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Stetson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. amer. med. Ass</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page">126</biblScope>
+   <date type="published" when="1939" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Studies on the antigens of human red cells. The separation from human erythrocytes of a water-soluble fraction containing the Rh, A, and B factors</title>
+  <author>
+   <persName>
+    <forename type="first">Moskowitz</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Dandliker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">B</forename>
+    <surname>Calvin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Evans</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Immunol</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page">383</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">The question of the Rh hapten</title>
+  <author>
+   <persName>
+    <forename type="first">Osborn</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. clin. Path</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page">470</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Blood group activity of gram negative bacteria</title>
+  <author>
+   <persName>
+    <forename type="first">Springer</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">F</forename>
+    <surname>Williamson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Brandes</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page">1076</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">On the order of disulfide bond reduction in ribonuclease</title>
+  <author>
+   <persName>
+    <forename type="first">White</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Anfinsen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">BENESCH et al. (ed): Sulfur in proteins</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1959" />
+   <biblScope unit="page">279</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Investigations on the occurrence of Rh substances in amniotic fluid</title>
+  <author>
+   <persName>
+    <forename type="first">Witebsky</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mohn</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. exp. Med</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="page">143</biblScope>
+   <date type="published" when="1945" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Author</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">F A</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Green</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Uept</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Stale</forename>
+    <surname>Of Ned</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Univ</surname>
+   </persName>
+  </author>
+  <imprint>
+   <pubPlace>USA</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

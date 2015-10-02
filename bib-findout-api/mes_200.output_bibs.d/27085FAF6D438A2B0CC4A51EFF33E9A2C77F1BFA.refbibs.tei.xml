@@ -1,0 +1,444 @@
+<TEI xml:id="istex-27085FAF6D438A2B0CC4A51EFF33E9A2C77F1BFA">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">On the finite difference solution of two-dimensional induction problems</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R</forename>
+    <surname>Brewitt-Taylor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geoplrys. J. H. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="375" to="396" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Dwight</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Tables of Integrals and Other Mathematical Data</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>MacmiLlan</publisher>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+ <note>4th. edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Eaponential integral and related functions, in Handbook of Muthematical Functions</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Gautschi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">I</forename>
+    <surname>Cahiu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat. Bur. Stand</title>
+  <editor>Abramowitz, M. &amp; Stegun, I . A.</editor>
+  <imprint>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">A finite element program package for magnetotelluric modelling. Co?np</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Kisak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Silvester</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plrys. Comm</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="421" to="433" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Berechnung der Elektromagnetischen lnduktion in zwei Halbplatten zur Anwendung in der Magnetotellurik und erdniagnetischen &apos;Tiefensondierung, Diplomarbeit, Techn</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Klugel</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Induction in plates with two-dimensional conductivity distribution</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Klugel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Ceodaet. Geophys. et Montanist. Acad. Sci. Hung</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="267" to="273" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">A perturbation technique for solving boundary value problems arising in the electrodynamics of conducting bodies</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Mann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Sci. Res</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="113" to="126" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">I,:lektromapnetische Induktion in einer leitfihigen Platte mid eingelagertem vertikalem, endlichem Zylinder</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kodemann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Techn. Univ. Braunschweig, Inst. Geophys. Meteorol</title>
+  <imprint>
+   <date type="published" when="1978-03-30" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">197 1. Interpretation of induction anomalies above non-uniform surface layers, Geophys. Sneddon, I. N., 195 1. Fourier Transforms</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Schmucker</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>McGraw-Hill</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">Clectromagnetic induction problem in plates with two-dimensional conductivity</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>&apos;reumann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Equations ofmathemafical analysis</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">S</forename>
+    <surname>Vladimirov</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Mir Publishers</publisher>
+   <pubPlace>Moscow</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">The electromagnetic field within a discontinuous conductor with reference to geomagnetic micropulsations near a coastline</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Phys</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="484" to="495" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Improved boundary conditions for the numerical solution of P:-polarization problems in geomagnetic induction</title>
+  <author>
+   <persName>
+    <forename type="first">3</forename>
+    <forename type="middle">T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R</forename>
+    <surname>Brewitt-Taylor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="309" to="317" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Remarks on the comparison of analytical and numerical model calculations</title>
+  <author>
+   <persName>
+    <forename type="first">3</forename>
+    <forename type="middle">T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">V</forename>
+    <surname>Lequang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Ilscher</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Protokoll uher das 10. Kolloyuium Elektromagnetische Tiefenforschung&apos; (Grafrath/Oberbayern)</title>
+  <editor>Haak, V.</editor>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="21" to="9" />
+  </imprint>
+ </monogr>
+ <note>(. Berlin) &amp; Homilius, J. (Hannover)</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">A comparison of analytic and numerical results for a two-dimensional control model in electromagnetic induction -I. B-polarization calculations</title>
+  <author>
+   <persName>
+    <forename type="first">3</forename>
+    <forename type="middle">T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">V</forename>
+    <surname>Lequang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Fischer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R . astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="page" from="263" to="277" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Induction in a non-uniform conducting half-space by an external line current</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Weaver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Thomson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="163" to="185" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">Modellrechnungen ZUI Deutung der norddeutschen Leitfa&apos;higheitsanomalie als obertlachennahe Leitfa&apos;higkeitsanderung</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Weidelt</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title level="m" type="main">Revised program of COMMEMIproject, document obtainable from Institute of Terrestrial Magnetism, Ionosphere and Radio Wave Propagation (IZMIRAN)</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Zhdanov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Varentsov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">M</forename>
+    <surname>Iv</surname>
+   </persName>
+  </author>
+  <editor>Troitsk, U.S.S.R. J. T. Weaver, B. V. LeQuang and G. Fischer</editor>
+  <imprint>
+   <date type="published" when="1985" />
+   <publisher>U.S.S.R. Academy of Sciences</publisher>
+   <biblScope unit="page" from="156" to="165" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">distribution: 11 Approximate method and solutions</title>
+ </analytic>
+ <monogr>
+  <title level="j">Geomagn. Aeronom</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="464" to="472" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,922 @@
+<TEI xml:id="istex-FF10A1417C4EDBFEE6D3A6E9A8B61CEFDDEFC432">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Subcrustal earthquakes beneath New Zealand; locations determined with a laterally inhomogeneous velocity model</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Adams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Ware</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geol. Geophys</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="59" to="83" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Observations of earthquakes and explosions at the bottom of the Western Pacific: structure of oceanic lithosphere revealed by Longshot experiment, in The Geophysics of the Pacific Ocean Basin and its Margin</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Asada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G H</forename>
+    <surname>Shimamura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Manghnani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Moberly</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. Monogr. Am. geophys. Un</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="135" to="153" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Microseismicity and velocity structure in the Hawkes Bay region, New Zealand: fine structure of the subducting Pacific plate</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">C</forename>
+    <surname>Bannister</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="45" to="62" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">The Theory of Linear Viscoelasticity</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Bland</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1960" />
+   <pubPlace>Pergamon, New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Ocean bottom seismometry: a new dimension to seismology</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Bolt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Boll. Geofis</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="107" to="116" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Love mode dispersion across subduction zones by finite element modelling</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Bolt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. 1. R. astr. SOC</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="page" from="515" to="528" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Bullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Bolt</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+   <publisher>Cambridge University Press</publisher>
+  </imprint>
+ </monogr>
+ <note>A. n Introduction to the Theory of Seismology. 4th. edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">Structure of a growing accretionary prism, Hikurangi margin</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Davey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hampton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Childs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Fisher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lewis</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Pettinga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <biblScope unit="page" from="663" to="666" />
+   <pubPlace>New Zealand, Geology</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Rayleigh waves at a continental boundary by the finite element method, Bull. seism. SOC. A m Love and Rayleigh waves in an irregular soil layer</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. seism. SOC. Am</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="issue">70</biblScope>
+   <biblScope unit="page" from="571" to="582" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">SH and P-SV waves in irregular regions, in Computational Techniques and Applications: CTAC-87</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+  <editor>Noye, J. &amp; Fletcher, C., North-Holland</editor>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="177" to="183" />
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Love and Rayleigh waves in irregular structures, in Centennial Anniversary Volume of the Seismographic Stations</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>University of California Press</publisher>
+   <pubPlace>Berkeley</pubPlace>
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Love waves normally incident at a continental boundary</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Bolt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. seism. SOC. Am</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="1103" to="1123" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Computation of modal solutions in layered, elastic media at high frequencies</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Dunkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. seism. SOC. A m</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="335" to="358" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Preliminary reference Earth model</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Dziewonski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Earth planet. Int</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="297" to="356" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Parametrically simple Earth models consistent with geophysical data</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Dziewonski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Hales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Lapwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Earth planet. Znt</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="12" to="48" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title level="m" type="main">Elastic Waves in Layered Media</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+    <surname>Ewing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Jardetzky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Press</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1957" />
+   <publisher>McGraw-Hill</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The dispersion of surface waves on multilayered media</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Haines</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Seismic wave velocities in the uppermost mantle beneath New Zealand</title>
+  <meeting><address><addrLine>Haskell, N. A.</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1953" />
+   <biblScope unit="page" from="17" to="34" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Regional 3-D heterogeneity by waveform inversion -application to the Atlantic area</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Honda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Tanimoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J . R. astr. SOC</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page" from="737" to="753" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <monogr>
+  <title level="m" type="main">Stress Waves in Solids</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kolsky</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1953" />
+   <publisher>Clarendon Press</publisher>
+   <pubPlace>Oxford</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">A finite element method for seismology</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lysmer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Drake</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods of Computational Physics</title>
+  <editor>Bolt, B. A,</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="181" to="216" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">P-wave velocity in the lower lithosphere in the western Northwest Pacific Basin observed by an ocean-bottom seismometer long range array</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Nagumo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ouchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kasahara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Koresawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. Earthq. Res. Inst. Tokyo Vniv</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="403" to="414" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Geophysics Division Seismological Observatory Bulletin Piermattei Dispersion of Rayleigh waves for purely oceanic paths in the Pacific</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Nowroozi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. seism. SOC. Am</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="1905" to="1925" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Ocean bottom seismometer technology</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Prothero</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eos, Trans. Am. geophys. Vn</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="113" to="116" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Crustal structure of Japan as derived from explosion seismic data</title>
+  <author>
+   <persName>
+    <forename type="first">Research</forename>
+    <surname>Group For Explosion</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Seismology</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tectonophysics</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="129" to="135" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">The petrological evolution of island arc systems</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Ringwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. geol. SOC. Lond</title>
+  <imprint>
+   <biblScope unit="volume">130</biblScope>
+   <biblScope unit="page" from="183" to="204" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">Petrogenesis in island arc systems, in island Arcs, Deep Sea Trenches and Back-Arc Basins</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Ringwood</surname>
+   </persName>
+  </author>
+  <editor>Talwani, M. &amp; Pitman, W. C.</editor>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>American Geophysical Union</publisher>
+   <biblScope unit="page" from="311" to="324" />
+  </imprint>
+ </monogr>
+ <note>Maurice. Ewing Series 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Seismicity, structure and tectonics of the Wellington region</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. I . R. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="page" from="379" to="409" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Seismic studies of the crust under the hydrothermal areas of the Taupo Volcanic Zone, New Zealand Gravity measurements near Japan and study of the upper mantle beneath the oceanic trench-marginal sea transition zones, in The Geophysics of the Pacific Ocean Basin and its Margin</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Robinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">G C</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Latter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Segawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Tomoda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Volcanol. Geotherm. Res. Geophys. Monogr. Am. geophys. Un</title>
+  <editor>Sutton, G. H., Manghnani, M. H. &amp; Moberly, R.</editor>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">19</biblScope>
+   <biblScope unit="page" from="35" to="52" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">The determination of Q, dynamic viscosity and transient creep curves from wave propagation measurements</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Strick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. 1. R. astr. SOC</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="197" to="218" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">P-and S-wave velocity anomalies associated with the subducting lithosphere determined from travel-time residuals in the Japan region</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Suyehiro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">S</forename>
+    <surname>Sacks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. seisrn. SOC. Am</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="97" to="114" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">The three-dimensional shear wave structure in the mantle by overtone waveform inversion-I. Radial seismogram inversion</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Tanimoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R. astr. SOC</title>
+  <imprint>
+   <biblScope unit="volume">89</biblScope>
+   <biblScope unit="page" from="713" to="740" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">The 3-D shear wave structure in the mantle by overtone waveform inversion-11. Inversion of X-waves, R-waves and G-waves</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Tanimoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="321" to="334" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Turcotte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schubert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geodynamics</title>
+  <imprint>
+   <publisher>Wiley</publisher>
+   <date type="published" when="1982" />
+   <publisher>Wiley</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <monogr>
+  <title level="m" type="main">Linear two-dimensional analysis of soil dynamics problems in semi-infinite layered media</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Waas</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Mapping the upper mantle: three-dimensional modelling of Earth structure by inversion of seismic waveforms</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Woodhouse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Dziewonski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. geophys. Res</title>
+  <imprint>
+   <biblScope unit="volume">89</biblScope>
+   <biblScope unit="page" from="245" to="257" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

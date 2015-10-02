@@ -1,0 +1,890 @@
+<TEI xml:id="istex-3AF8E33651B4A8C5C91634BD49590067956073C9">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">In the queue for a cadaver donor kidney transplant: new rules and concepts in the Eurotransplant International Foundation</title>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Persijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gg</forename>
+    <surname>Claas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fh</forename>
+    <surname>Frei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephrol Dial Transplant</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="333" to="338" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">A proposal for improved cadaver kidney allocation</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Wujciak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Opelz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page" from="1513" to="1517" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">A computer model for improved cadaver kidney allocation</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Wujciak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Opelz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplant Proc</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="3119" to="3121" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The new Eurotransplant Kidney Allocation System: report one year after implementation. Eurotransplant International Foundation</title>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Persijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gg</forename>
+    <surname>Wujciak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Opelz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Vanrenterghem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="1154" to="1159" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Three-year experience with the new Eurotransplant Kidney Allocation System</title>
+  <author>
+   <persName>
+    <forename type="first">Gg</forename>
+    <surname>Persijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Smits</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Frei</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephrol Dial Transplant</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="144" to="146" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+ <note>Suppl. 6</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The new Eurotransplant kidney allocation system: a justified balance between equity and utility?</title>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Persijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gg</forename>
+    <surname>Smits</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Vanrenterghem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplant Int</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="299" to="300" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">End-stage kidney disease patients: referral for transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Curtis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Soc Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="137" to="140" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Quality of life in end-stage kidney disease patients</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Valderrabano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Jofre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Lopez-Gomez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Kidney Dis</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="443" to="464" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Perfect timing, no remorse, and kidney transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Brand</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med Decis Making</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="249" to="255" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Survival improvement among patients with end-stage kidney disease: trends over time for transplant recipients and wait-listed patients</title>
+  <author>
+   <persName>
+    <forename type="first">Hu</forename>
+    <surname>Meier-Kriesche</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ao</forename>
+    <surname>Ojo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fk</forename>
+    <surname>Port</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+    <surname>Arndorfer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dm</forename>
+    <surname>Cibrik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Soc Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="1293" to="1296" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Pre-emptive transplants for patients with kidney failure: an argument against waiting until dialysis</title>
+  <author>
+   <persName>
+    <forename type="first">Ve</forename>
+    <surname>Papalois</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Moss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kj</forename>
+    <surname>Gillingham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Sutherland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aj</forename>
+    <surname>Matas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Humar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="625" to="631" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Strategies for compensating the cadaver kidney donor shortage</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The quality of life in end stage kidney disease care</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Waiser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Budde</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Schreiber</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplant Int</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="42" to="45" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Living-donor kidney transplantation</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Kirste</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Langenbecks Arch Surg</title>
+  <imprint>
+   <biblScope unit="volume">384</biblScope>
+   <biblScope unit="page" from="523" to="527" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Eurotransplant Senior Program &apos;old for old&apos;: results from 10 patients</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schlieper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Ivens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Voiculescu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Luther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Sandmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Grabensee</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Transplant</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="100" to="105" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">DSO. Organ donation and transplantation in Germany</title>
+  <imprint>
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Laparoscopic live donor nephrectomy: rationale, techniques, and implications</title>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Potter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jf</forename>
+    <surname>Buell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hanaway</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Es</forename>
+    <surname>Woodle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semin Dial</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="365" to="372" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Laparoscopic and hand-assisted laparoscopic live donor nephrectomy</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Pietrabissa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Boggi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Moretto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ghilli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Mosca</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Semin Laparosc Surg</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="161" to="167" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Emotionally related living kidney donation: pro and contra</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Thiel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephrol Dial Transplant</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="1820" to="1824" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Sc</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Flowers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dunkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gn</forename>
+    <surname>Sklar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Cho</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Livingdonor Nephrectomy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Curr Opin Urol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="115" to="120" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Cadaveric &apos;two-in-one&apos; kidney transplantation from marginal donors: experience of 26 cases after 3 years</title>
+  <author>
+   <persName>
+    <forename type="first">Kh</forename>
+    <surname>Dietl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wolters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Marschall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Senninger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Heidenreich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="issue">70</biblScope>
+   <biblScope unit="page" from="790" to="794" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Double versus single kidney allografts from aged donors</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Andres</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Morales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jc</forename>
+    <surname>Herrero</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplantation</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="2060" to="2066" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Dual kidney transplantation: older donors for older recipients</title>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jt</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Weinstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Coll Surg</title>
+  <imprint>
+   <biblScope unit="volume">189</biblScope>
+   <biblScope unit="page" from="82" to="91" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Early experience with dual kidney transplantation in adults using expanded donor criteria. Double Kidney Transplant Group (DKG)</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Remuzzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Grinyo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Ruggenenti</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Soc Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="2591" to="2598" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">The hyperfiltration theory: a paradigm shift in nephrology</title>
+  <author>
+   <persName>
+    <forename type="first">Bm</forename>
+    <surname>Brenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ev</forename>
+    <surname>Lawler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Mackenzie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kidney Int</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="1774" to="1777" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Eurotransplant randomized multicentre kidney graft preservation study comparing HTK with UW and Euro-Collins</title>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Boer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Smits</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplant Int</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="447" to="453" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

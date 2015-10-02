@@ -1,0 +1,1346 @@
+<TEI xml:id="istex-0268554DE1234AA86E75D3A82BF474E3D0EC8912">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Barnes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Stoner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. J. industr. Med</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page">15</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bing</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta chir. scand</title>
+  <imprint>
+   <biblScope unit="volume">100</biblScope>
+   <biblScope unit="page">293</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Bingold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. roy</title>
+  <meeting>. roy</meeting>
+  <imprint>
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Any Questions</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Brieger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Rieders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Hodes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">A.M.A. Arch. industr. Hyg. British Medical Journal</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="128" to="552" />
+   <date type="published" when="1947" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Report of the Toxicity Sub- Committee</title>
+ </analytic>
+ <monogr>
+  <title level="j">British Plastics Federation</title>
+  <imprint>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Burrows</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jackson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">St</forename>
+    <forename type="middle">J D</forename>
+    <surname>Buxton</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1955" />
+   <publisher>Arthroplasty. Pitman</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Cagianut</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Schweiz. med. Wschr</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="page">1243</biblScope>
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Carpenter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+    <surname>Shaffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Weil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">F</forename>
+    <surname>Smyth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. industr. H.vg</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">69</biblScope>
+   <date type="published" when="1944" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">Toxicological Review</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Clinton</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1948" />
+   <publisher>American Petroleum Institute</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B M</forename>
+    <surname>Coppock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Knight</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. med. J</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">355</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Deichmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. industr. Hyg. Lancet</title>
+  <editor>343. Dodds, E. C.</editor>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page">1211</biblScope>
+   <date type="published" when="1941" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Dudley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Neal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. industr. Hyg</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page">27</biblScope>
+   <date type="published" when="1942" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Sweeney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ibid</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page">255</biblScope>
+   <date type="published" when="1942" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H G</forename>
+    <surname>Eastcott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page">352</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Evans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jenkin</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">Industrial Toxicology</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">T</forename>
+    <surname>Fairhall</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1957" />
+   <publisher>Williams and Wilkins</publisher>
+   <biblScope unit="page" from="30" to="125" />
+   <pubPlace>Baltimore</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Gabby</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. industr. Hyg</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page">677</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Goss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ross</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Amer. industr. Hyg. Ass. Quart</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">41</biblScope>
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">R</forename>
+    <surname>Grau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transplant. Bull</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page">109</biblScope>
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet Brit. J. industr. Med</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">10</biblScope>
+   <biblScope unit="page">255</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Hodge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Maynard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Blanchet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">A.M.A. Arch. industr. Hlth</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page">259</biblScope>
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">H</forename>
+    <surname>Hine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Kodama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Simonson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wellington</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. S</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page">129</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Cardiovascular Surgery</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A W B</forename>
+    <surname>Hufnagel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Saunders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Philadelphia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">P</forename>
+    <surname>Harvey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Rabil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">F</forename>
+    <surname>Mcdermott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surgery</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page">673</biblScope>
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title level="m" type="main">The Diseases of Occupations</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Hunter</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1955" />
+   <publisher>English Universities Press</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">D</forename>
+    <surname>Ingraham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Alexander</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">D</forename>
+    <surname>Matson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">New Engl. J. Med</title>
+  <imprint>
+   <biblScope unit="volume">236</biblScope>
+   <biblScope unit="page" from="362" to="402" />
+   <date type="published" when="1947" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title level="m" type="main">Occupational Diseases</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">T</forename>
+    <surname>Johnstone</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1941" />
+   <biblScope unit="page">175</biblScope>
+   <pubPlace>Philadelphia</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Judet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Judet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bone Jt Surg</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page">166</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Knap</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Leech</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Reid</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Tamplin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Industr. Engng Chem</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page">874</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Lehman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Quart. Bull. Ass. Food and Drug Officials of the United States</title>
+  <imprint>
+   <biblScope unit="page">159</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Leveen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Barberio</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Surg. Brit. J. industr. Med</title>
+  <editor>74. Lloyd, N. Langdon</editor>
+  <imprint>
+   <biblScope unit="volume">129</biblScope>
+   <biblScope unit="issue">14</biblScope>
+   <biblScope unit="page">137</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Ibid., 6, 231. Manufacturing Chemists Association Inc</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">S</forename>
+    <surname>Mallette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Haam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Von</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">A.M.A. Arch. industr. Hyg. Medical Research Council Monthly Bull., Minist. Hlth. Lab. Serv. Ministry of Agriculture; Fisheries and Food</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">16 2</biblScope>
+   <biblScope unit="page">311</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Moloney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page">273</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Newman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Scales</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bone Jt Surg</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page">392</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Naunyn-Schmiedeberg&apos;s Arch</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Oettel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">exp. Path. Pharmak</title>
+  <imprint>
+   <biblScope unit="volume">232</biblScope>
+   <biblScope unit="page">77</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Parmeggiani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sassi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med. d. Lavoro</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page">14</biblScope>
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Potter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Lloyd</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. J. industr. Med</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page">125</biblScope>
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">H</forename>
+    <surname>Pridie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. med. J</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">939</biblScope>
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ridley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. int. Coll. Surg</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">335</biblScope>
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Scales</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">35B, 6. Proc. roy Modern Trends in Surgical Materials</title>
+  <meeting><address><addrLine>London. and Zarek</addrLine></address></meeting>
+  <imprint>
+   <publisher>Butterworth</publisher>
+   <date type="published" when="1953" />
+   <biblScope unit="page" from="647" to="13" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amer. med. Ass</title>
+  <imprint>
+   <biblScope unit="volume">127</biblScope>
+   <biblScope unit="page">389</biblScope>
+   <date type="published" when="1945" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Tulipan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Peck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Occupational Diseases of the Skin</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Kimpton</publisher>
+   <date type="published" when="1947" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Seddon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Scales</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">795</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Sherwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. Ass. industr. med. Offr. A.M.A. Arch. industr. Hyg</title>
+  <editor>10. Smith, C. C.</editor>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page">310</biblScope>
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <monogr>
+  <title level="m" type="main">Taylor&apos;s Principles and Practice of Medical Jurisprudence</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">G H</forename>
+    <surname>Cook</surname>
+   </persName>
+  </author>
+  <editor>S. Smith, 10th ed.</editor>
+  <imprint>
+   <date type="published" when="1948" />
+   <publisher>J. &amp; A. Churchill</publisher>
+   <biblScope unit="page">352</biblScope>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Spencer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">D</forename>
+    <surname>Irish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">M</forename>
+    <surname>Adams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rowe</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">K</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. industr. Hyg</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page">295</biblScope>
+   <date type="published" when="1942" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Stoner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Barnes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">I</forename>
+    <surname>Duff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. J. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page">16</biblScope>
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Susser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Stein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. J. industr. Med</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page">111</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">E</forename>
+    <surname>Mccormick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amer. med. Ass. Industr. Med. Surg</title>
+  <editor>491. Hough, G. V., and McCormick, W. E.</editor>
+  <imprint>
+   <biblScope unit="volume">124</biblScope>
+   <biblScope unit="issue">17</biblScope>
+   <biblScope unit="page">199</biblScope>
+   <date type="published" when="1944" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Zapp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Limperos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">C</forename>
+    <surname>Brinker</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+ <note>Paper. to American Industrial Hygiene Association</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

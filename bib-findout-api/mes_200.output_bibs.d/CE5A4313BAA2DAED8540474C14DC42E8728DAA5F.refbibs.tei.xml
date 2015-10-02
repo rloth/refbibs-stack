@@ -1,0 +1,378 @@
+<TEI xml:id="istex-CE5A4313BAA2DAED8540474C14DC42E8728DAA5F">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Demazure</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Grothendieck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Et</forename>
+    <surname>Al</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Schémas en Groupes</title>
+  <meeting><address><addrLine>Berlin</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Demazure</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gabriel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Groupes</forename>
+    <surname>Algébriques</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970" />
+   <publisher>North-Holland</publisher>
+   <pubPlace>Masson, Paris ; Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Étude locale des schémas et des morphismes de schémas</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Grothendieck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dieudonné</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Inst. Hautes Études Sci. Pub! . Math</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="issue">24</biblScope>
+   <biblScope unit="page" from="28" to="32" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Gillet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Soulé</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Arithmetic intersection theory</title>
+  <imprint>
+   <date type="published" when="1990" />
+   <biblScope unit="page" from="94" to="174" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">The length of vectors in representation spaces&quot; in Algebraic Geometry</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Kempf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Ness</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lecture Notes in Math</title>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <biblScope unit="volume">732</biblScope>
+   <biblScope unit="page" from="233" to="243" />
+   <date type="published" when="1979" />
+   <publisher>Springer-Verlag</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mumford</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">And</forename>
+    <forename type="middle">J</forename>
+    <surname>Fogarty</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Geometric Invariant Theory</title>
+  <meeting><address><addrLine>Berlin</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+ <note>2nd. enlarged edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Stability of projective varieties</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mumford</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Enseign. Math</title>
+  <imprint>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="24" to="3" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Geometric reductivity over an arbitrary base</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Seshadri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv . Math</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">225</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The topology of algebraic quotients</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W</forename>
+    <surname>Schwarz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Topological Methods in Aggebraic Transformation Groups</title>
+  <editor>b y H . Kraft, T. Petrie, G. W . Schwarz</editor>
+  <meeting><address><addrLine>Boston</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page" from="135" to="151" />
+  </imprint>
+ </monogr>
+ <note>Birkh. user</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Differential Geometry of Complex Vector Bundles, Kanô Memorial Lectures 5, Iwanami Shoten, Tokyo ; Pub!</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kobayashi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Math . Soc. Japan</title>
+  <imprint>
+   <publisher>Princeton Univ. Press</publisher>
+   <biblScope unit="volume">15</biblScope>
+   <date type="published" when="1987" />
+   <publisher>Princeton Univ. Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Anti-self dual Yang-Mills connections on complex algebraic surfaces and stable vector bundles</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Donaldson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. London Math</title>
+  <meeting>. London Math</meeting>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="1" to="26" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Fibrés vectoriels sur les courbes algébriques, rédigé par</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Seshadri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . M. Drezet, Astérisque</title>
+  <imprint>
+   <biblScope unit="volume">96</biblScope>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Serai-stable sheaves on projective varieties and their restriction to curves</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">B A</forename>
+    <surname>Mehta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ramanathan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Math . Ann</title>
+  <imprint>
+   <biblScope unit="volume">258</biblScope>
+   <biblScope unit="page" from="213" to="224" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Reduction theory using serai-stability</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Grayson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Comment . Math . Hely</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="600" to="634" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Holomorphic tensors and vector bundles on projective varieties</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">A</forename>
+    <surname>Bogomolov</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Izv . Akad . Nauk Math . USSR Izv</title>
+  <imprint>
+   <biblScope unit="volume">4213</biblScope>
+   <biblScope unit="page" from="1227" to="1287" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

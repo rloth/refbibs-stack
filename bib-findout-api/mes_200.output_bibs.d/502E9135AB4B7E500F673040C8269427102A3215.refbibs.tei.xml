@@ -1,0 +1,4939 @@
+<TEI xml:id="istex-502E9135AB4B7E500F673040C8269427102A3215">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Quasicrystals: a new class of ordered structures</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Levine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Steinhardt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Rev. Lett</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="2477" to="2480" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">The role of aesthetics in pure and applied mathematical research</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Penrose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. Inst. Math. Applic</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="266" to="271" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Construction of Penrose tilings by a single aperiodic protoset</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gummelt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geometriae Dedicata</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="1" to="17" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">A simpler approach to Penrose tiling with implications for quasicrystal formation</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Steinhardt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Jeong</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">382</biblScope>
+   <biblScope unit="page" from="433" to="435" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Constructing Penrose-like tilings from a single proto-tile and the implications for quasicrystals</title>
+  <author>
+   <persName>
+    <forename type="first">H.-C</forename>
+    <surname>Jeong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Steinhardt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Rev. B</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="3520" to="3532" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Janot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>De Boisseau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Quasicrystals: The State of the Art</title>
+  <editor>DiVincenzo, D. &amp; Steinhardt, P. J.) 57±94 (World Scienti®c</editor>
+  <meeting><address><addrLine>Singapore</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Icosahedral, decagonal and amorphous phases in Al±Cu±M (M  transition metal) systems</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Tsai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Inoue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Masumoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mater. Trans. Jpn Inst. Metals</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="666" to="676" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Structure and structural change of Al±Ni±Co decagonal quasicrystal by high-resolution electron microscopy</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hiraga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Lincoln</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Sun</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mater. Trans. Jpn Inst. Metals</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="308" to="314" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Structure of decagonal Al 65 Cu 20 Co 15 quasicrystals</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Yamamoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sci. Rep. Res. Inst. Tohoku Univ. A</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="207" to="212" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Highly perfect decagonal Al±Co±Ni quasicrystals</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ritsch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag A</title>
+  <imprint>
+   <biblScope unit="volume">74</biblScope>
+   <biblScope unit="page" from="99" to="106" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Modeling decagonal quasicrystals: random assembly of interpenetrating decagonal clusters Structure model of the Al±Cu±Co decagonal quasicrystal</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Burkov</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Phys. Rev. Lett</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">67</biblScope>
+   <biblScope unit="page" from="695" to="706" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Five-dimensional structure analysis of decagonal Al 65 Cu 20 Co 15</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Steurer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">H</forename>
+    <surname>Kuo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crystallogr. B</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="703" to="712" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Atomic structure of the Al±Pd±Mn icosahedral phase</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Boudard</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Non-Cryst. Solids</title>
+  <imprint>
+   <biblScope unit="volume">153</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Simple physical generation of quasicrystals</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Janot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Patera</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Lett. A</title>
+  <imprint>
+   <biblScope unit="volume">233</biblScope>
+   <biblScope unit="page" from="110" to="114" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">New type of decagonal quasicrystal with superlattice order in Al±Ni±Co alloy</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Edagawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ichihara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Suzuki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Takeuchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag. Lett</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="19" to="25" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Two different superstructures od the decagonal Al±Co± Ni quasicrystal</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ritsch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Beeli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H.-U</forename>
+    <surname>Nissen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Luck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag. A</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="671" to="685" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fujiwara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Tsai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Inoue</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 6th Int. Conf. Quasicrystals</title>
+  <editor>Takeuchi, S. &amp; Fujiwara, A.) 341</editor>
+  <meeting>. 6th Int. Conf. Quasicrystals<address><addrLine>Singapore</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Structural study of an Al72Cu20Co8 decagonal quasicrystal using the high-angle annular dark-®eld method</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Saitoh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tsuda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tanaka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kaneko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Tsai</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Jpn J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1400" to="1402" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">A new structural model of an Al 72 Ni 20 Co 8 decagonal quasicrystal</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Saitoh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tsuda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tanaka</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Soc. Jpn</title>
+  <imprint>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+ <note>in. the press</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">The structure and its reconstruction in the decagonal Cl70Cu17Co13</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Beeli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Horiuchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag B</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="215" to="240" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">A novel decagonal quasicrystal in Zn±Mg±Dy system</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Abe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Tsai</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Jpn J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1038" to="1039" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">D</forename>
+    <surname>Mermin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Quasicrystals: The State of the Art</title>
+  <editor>DiVincenzo, D. &amp; Steinhardt, P. J.) 133±184</editor>
+  <meeting><address><addrLine>Singapore</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Molecular and cellular aspects of nicotine abuse</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Dani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Heinemann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="905" to="908" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Nicotinic receptors in the development and modulation of CNS synapses</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">W</forename>
+    <surname>Role</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Berg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="1077" to="1085" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Abnormal avoidance learning in mice lacking functional high-affinity nicotine receptor in the brain</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Picciotto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">374</biblScope>
+   <biblScope unit="page" from="65" to="67" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Drugs of abuse: anatomy, pharmacology and function of reward pathways</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">F</forename>
+    <surname>Koob</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Pharmacol. Sci</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="177" to="184" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Nicotine psychopharmacology: Addiction, cognition and neuroadaptation</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">P</forename>
+    <surname>Stolerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">R</forename>
+    <surname>Mirza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Shoaib</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med. Res. Rev</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="47" to="72" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Effects of nicotine on the nucleus accumbens and similarity to those of addictive drugs</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+    <surname>Pontieri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Tanda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Orzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Di Chiara</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">382</biblScope>
+   <biblScope unit="page" from="255" to="257" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Characterization of nicotinic receptormediated [3H]dopamine release form synaptosomes prepared from mouse striatum</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Grady</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Marks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Wonnacott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Collins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="848" to="856" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Evidence that mesolimbic dopaminergic activation underlies the locomotor stimulant action of nicotine in rats</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Fu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Jakubovic</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Fibiger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Pharmacol. Exp. Ther</title>
+  <imprint>
+   <biblScope unit="volume">246</biblScope>
+   <biblScope unit="page" from="701" to="708" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">The mesolimbic dopaminergic system is implicated in the reinforcing effects of nicotine</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Corrigall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">B</forename>
+    <surname>Franklin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">M</forename>
+    <surname>Coen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychopharmacology (Berlin)</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="285" to="289" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Neuronal nicotinic receptor 6 subunit mRNA is selectively concentrated in catecholaminergic nuclei of the rat brain</title>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Novère</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Zoli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Changeux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="2428" to="2439" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Behavioural and pharmacokinetic studies on nicotine, cytisine and lobeline</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Reavill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Walther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">P</forename>
+    <surname>Stolerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Testa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuropharmacology</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="619" to="624" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Nicotine-induced conditioned place preference and conditioned place aversion in mice</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">O</forename>
+    <surname>Risinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Oakes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="457" to="461" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Systemic nicotine-induced dopamine release in the rat nucleus accumbens is regulated by nicotinic receptors in the ventral tegmental area</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nisell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">G</forename>
+    <surname>Nomikos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">H</forename>
+    <surname>Svensson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Synapse</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="36" to="44" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Cigarette smokers self-administer intravenous nicotine</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Henningfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Miyasato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Jasinski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="887" to="890" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Behavioural and pharmacokinetic studies on nicotine, cytisine and lobeline</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Reavill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Walther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">P</forename>
+    <surname>Stolerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Testa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuropharmacology</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="619" to="624" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Morphology and electrophysiological properties of immunocytochemically identified rat dopamine neurons recorded in vitro</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Grace</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Onn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="3463" to="3481" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Both -and -subunits contribute to the agonist sensitivity of neuronal nicotinic acetylcholine receptors</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Luetje</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Patrick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="837" to="845" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Nicotine indirectly inhibits [ 3 H]dopamine uptake at concentrations that do not directly promote [ 3 H]dopamine release in rat striatum</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Izenwasser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Jacocks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Rosenberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">M</forename>
+    <surname>Cox</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page" from="603" to="610" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title level="m" type="main">Distribution of cocaine recognition sites in monkey brain: I</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Kaufman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Spealman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">K</forename>
+    <surname>Madras</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <biblScope unit="page" from="177" to="187" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">D1 dopamine receptors in the rat brain: a quantitative autoradiographic analysis</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Dawson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Gehlert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">T</forename>
+    <surname>Mccabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Barnett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Wamsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="2352" to="2365" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Localization of dopamine D2 receptor mRNA and D1 and D2 receptor binding in the rat brain and pituitary: an in situ hybridization-receptor autoradiographic analysis</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mansour</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="2587" to="2600" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Dopaminergic inhibition of prolactin release and calcium influx induced by neurotensin in anterior pituitary is independent of cyclic AMP system</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Memo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="1689" to="1695" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">A rapid and sensitive assay for tyrosine-3- monooxygenase based upon the release of [ 3 H]-H2O and adsorption of [ 3 H]-tyrosine by charcoal</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Rheinhard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">K</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Nichol</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Life Sci</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="2185" to="2189" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Modulation of dopamine efflux in the nucleus accumbens after cholinergic stimulation of the ventral tegmental area in intact, pedunculopontine tegmental nucleus-lesioned, and laterodorsal tegmental nucleus-lesioned rats</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Blaha</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="714" to="722" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Nicotinic excitation of rat ventral tegmental neurones in vitro studies by intracellular recording</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Calabresi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Lacey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>North</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br. J. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">98</biblScope>
+   <biblScope unit="page" from="135" to="140" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Common neural substrates for the addictive properties of nicotine and cocaine</title>
+  <author>
+   <persName>
+    <forename type="first">Merlo</forename>
+    <surname>Pich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">275</biblScope>
+   <biblScope unit="page" from="83" to="86" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Intravenous cocaine selfadministration in the C57BL/6J mouse</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Grahame</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Phillips</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Burkhart-Kasch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Cunningham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="827" to="834" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Nicotine reinforcement in rats with histories of cocaine self-administration</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tessari</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Valerio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Chiamulera</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Beardsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychopharmacology</title>
+  <imprint>
+   <biblScope unit="volume">121</biblScope>
+   <biblScope unit="page" from="282" to="283" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Nicotine enhancement of fast excitatory synaptic transmission in CNS by presynaptic receptors</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Mcgehee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Heath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gelber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Devay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">W</forename>
+    <surname>Role</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">269</biblScope>
+   <biblScope unit="page" from="1692" to="1696" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">PEC-60 increases dopamine but not GABA release in the dorsolateral neostriatum of the halothane anaesthetized rat. An in vivo microdialysis study</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Rimondini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neurosci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">177</biblScope>
+   <biblScope unit="page" from="53" to="57" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Theory for the development of neuron selectivity: orientation speci®city and binocular interaction in visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Bienenstock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">N</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Munro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="32" to="48" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">A physiological basis for a theory of synaptic modi®cation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">N</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">F</forename>
+    <surname>Ebner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">237</biblScope>
+   <biblScope unit="page" from="42" to="48" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Carew</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Menzel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Shatz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Mechanistic Relationships between Development and Learning</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Wiley</publisher>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">The role of presynaptic activity on the ocular dominance shift in monocular deprivation: comparison of homosynaptic and heterosynaptic mechanisms</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">S</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">Z</forename>
+    <surname>Shouval</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">N</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA 96</title>
+  <meeting>. Natl Acad. Sci. USA 96</meeting>
+  <imprint>
+   <date type="published" when="1999" />
+   <biblScope unit="page" from="1083" to="1087" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Evidence for a threshold in experience-dependent long-term changes of kitten visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Greuel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Luhman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Singer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="141" to="149" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">Ocular dominance shift in kitten visual cortex caused by imbalance in retinal electrical activity</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Chapman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">D</forename>
+    <surname>Jacobson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">O</forename>
+    <surname>Reiter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Stryker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">324</biblScope>
+   <biblScope unit="page" from="154" to="156" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title level="a" type="main">The effect of dark rearing on the time course of the critical period in cat visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Mower</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="151" to="158" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <analytic>
+  <title level="a" type="main">The period of susceptibility ot the physiological effects of unilateral eye closure in kittens</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Hubel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Wiesel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">206</biblScope>
+   <biblScope unit="page" from="419" to="436" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">Contrast affects the transmission of visual information through the mammalian lateral geniculate nucleus</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Purpura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Shapley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond.)</title>
+  <imprint>
+   <biblScope unit="volume">391</biblScope>
+   <biblScope unit="page" from="267" to="288" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">Binocular impulse blockade prevents the formation of ocular dominance columns in cat visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Stryker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="2117" to="2133" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">Neural plasticity without postsynaptic action potentials: less active inputs become dominant when kitten visual cortical cells are pharmacologically inhibited</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">O</forename>
+    <surname>Reiter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Stryker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Natl Acad. Sci. USA</title>
+  <imprint>
+   <biblScope unit="volume">85</biblScope>
+   <biblScope unit="page" from="3623" to="3627" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Disruption of experience-dependent synaptic modi®cations in striate cortex by infusion of an NMDA receptor antagonist</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kleinschmidt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <surname>Gu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Singer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="909" to="925" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">Blockade of intracortical inhibition in the kitten striate cortex: effect on receptive ®eld proper;ties and associated loss of ocular dominance plasticity</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+    <surname>Ramoa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Paradiso</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Freeman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page" from="285" to="296" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <analytic>
+  <title level="a" type="main">Long-term depression of excitatory synaptic transmission and its relationship to long-term potentiation</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Artola</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Singer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="480" to="487" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bios Scienti®c</title>
+  <editor>Cortical Plasticity: LTP and LTD (eds Fazeli, M. S. &amp; Collingridge, G. L.) 191±205</editor>
+  <imprint>
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title level="a" type="main">Modulation of visual cortical plasticity by acetylcholine and noradrenaline</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Singer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">320</biblScope>
+   <biblScope unit="page" from="172" to="176" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title level="a" type="main">Developmental down-regulation of LTD in cortical layer IV and its independence of modulation by inhibition</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Dudek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Friedlander</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="1" to="20" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title level="a" type="main">Age-dependent decrease of synaptic plasticity in the neocortex of aCaMKII mutant mice</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Silva</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA 94</title>
+  <meeting>. Natl Acad. Sci. USA 94</meeting>
+  <imprint>
+   <date type="published" when="1997" />
+   <biblScope unit="page" from="3380" to="3383" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">Homosynaptic long-term depression in the visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="3404" to="3412" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title level="a" type="main">Serotonin facilitates synaptic plasticity in kitten visual cortex: an in vitro study</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Kojic</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <surname>Gu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Douglas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Cynader</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">101</biblScope>
+   <biblScope unit="page" from="299" to="304" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <analytic>
+  <title level="a" type="main">Modulation of long-term synaptic depression in visual cortex by acetylcholine and norepinephrine</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Rozas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Perez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint/>
+ </monogr>
+ <note>in. the press</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <analytic>
+  <title level="a" type="main">Tonic activation of NMDA receptors by ambient glutamate enhances excitability of neurons</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hestrin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Nicoll</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">246</biblScope>
+   <biblScope unit="page" from="815" to="818" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <analytic>
+  <title level="a" type="main">Comparison of the effects of unilateral and bilateral eye closure on cortical unit responses in kittens</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">N</forename>
+    <surname>Wiesel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Hubel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurophysiol</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="1060" to="1072" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <analytic>
+  <title level="a" type="main">A physiological mechanism for Hebb&apos;s postulate of learning</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">S</forename>
+    <surname>Stent</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1973" />
+   <biblScope unit="page" from="997" to="1001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <analytic>
+  <title level="a" type="main">Self-organization of orientation-sensitive columns in the striate cortex</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Von Der Malsburg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kybernetik</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="85" to="100" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <analytic>
+  <title level="a" type="main">Experience-dependent modi®cation of synaptic plasticity in visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kirkwood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Rioult</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Bear</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">381</biblScope>
+   <biblScope unit="page" from="526" to="528" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <analytic>
+  <title level="a" type="main">The representation of brightness in primary visual cortex</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">F</forename>
+    <surname>Rossi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Rittenhouse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Paradiso</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">273</biblScope>
+   <biblScope unit="page" from="1104" to="1107" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <analytic>
+  <title level="a" type="main">Developmental mechanisms that generate precise patterns of neuronal connectivity</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Goodman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Shatz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell/Neuron</title>
+  <imprint>
+   <biblScope unit="volume">7210</biblScope>
+   <biblScope unit="page" from="77" to="98" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <analytic>
+  <title level="a" type="main">The molecular biology of axon guidance</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tessier-Lavigne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Goodman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">274</biblScope>
+   <biblScope unit="page" from="1123" to="1133" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <analytic>
+  <title level="a" type="main">Characterization of spontaneous calcium transients in nerve growth cones and their effect on growth cone migration</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Gomez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Snow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Letourneau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="1233" to="1246" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <analytic>
+  <title level="a" type="main">Regulation of growth cone behavior by calcium</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Kater</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">R</forename>
+    <surname>Mills</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="891" to="899" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+ <analytic>
+  <title level="a" type="main">Calcium regulation of the neuronal growth cone</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Kater</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Mattson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Cohan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Connor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="315" to="321" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+ <analytic>
+  <title level="a" type="main">Spontaneous neuronal calcium spikes and waves during early differentiation</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Gu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">C</forename>
+    <surname>Olson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">C</forename>
+    <surname>Spitzer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="6325" to="6335" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+ <analytic>
+  <title level="a" type="main">Distinct aspects of neuronal differentiation encoded by frequency of spontaneous Ca 2+ transients</title>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Gu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">C</forename>
+    <surname>Spitzer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">375</biblScope>
+   <biblScope unit="page" from="784" to="787" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+ <analytic>
+  <title level="a" type="main">Retinal axon divergence in the optic chiasm: dynamics of growth cone behavior at the midline</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Godement</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="7024" to="7039" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+ <analytic>
+  <title level="a" type="main">Path®nding and target selection by developing geniculocortical axons</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Ghosh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Shatz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="39" to="55" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+ <analytic>
+  <title level="a" type="main">Growth cone dynamics during the migration of an identi®ed commissural growth cone</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">Z</forename>
+    <surname>Myers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Bastiani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="127" to="143" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+ <analytic>
+  <title level="a" type="main">The neuroanatomy of an amphibian embryo spinal cord</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Trans. R. Soc. Lond. B</title>
+  <imprint>
+   <biblScope unit="volume">296</biblScope>
+   <biblScope unit="page" from="195" to="212" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+ <analytic>
+  <title level="a" type="main">Preparation, characterization and utility of a novel antibody for resolving the spatial and temporal dynamics of the calcium chelator BAPTA</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tymianski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Sattler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">T</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell Calcium</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="issue">111</biblScope>
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+ <analytic>
+  <title level="a" type="main">Growth cone morphology varies with position in the developing mouse visual pathway from retina to ®rst targets</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bovolenta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="1447" to="1460" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+ <analytic>
+  <title level="a" type="main">Development of the major pathways for neurite outgrowth in the chick hindlimb</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+    <surname>Tosney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">T</forename>
+    <surname>Landmesser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Biol</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="193" to="214" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+ <analytic>
+  <title level="a" type="main">Turning of nerve growth cones induced by neurotransmitters</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">Q</forename>
+    <surname>Zheng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Felder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Connor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">368</biblScope>
+   <biblScope unit="page" from="140" to="144" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+ <analytic>
+  <title level="a" type="main">An L1-like molecule, the 8D9 antigen, is a potent substrate for neurite extension</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Lagenaur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Lemmon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1987" />
+   <biblScope unit="page" from="7753" to="7757" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+ <analytic>
+  <title level="a" type="main">Laminins of the adult mammalian CNS; laminin-alpha2 (merosin M-) chain immunoreactivity is associated with neuronal processes</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hagg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Portera-Cailliau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Jucker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Engvall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">764</biblScope>
+   <biblScope unit="page" from="17" to="27" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+ <analytic>
+  <title level="a" type="main">Motor axon subpopulations respond differentially to the chemorepellents netrin-1 and semaphorin D</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Varela-Echavarria</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Tucker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Puschel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Guthrie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="193" to="207" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+ <analytic>
+  <title level="a" type="main">The axonal chemoattractant netrin-1 is also a chemorepellent for trochlear motor axons</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A</forename>
+    <surname>Colamarino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tessier-Lavigne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="page" from="621" to="629" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+ <analytic>
+  <title level="a" type="main">Growth cone intracellular calcium levels are elevated upon contact with sulfated proteolgycans</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Snow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Atkinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hassinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Kater</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Letourneau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Biol</title>
+  <imprint>
+   <biblScope unit="volume">166</biblScope>
+   <biblScope unit="page" from="87" to="100" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+ <analytic>
+  <title level="a" type="main">Intracellular Ca 2+ ¯uctuations modulate the rate of neuronal migration</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Komuro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Rakic</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="275" to="285" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+ <monogr>
+  <title level="m" type="main">Normal Table of Xenopus Laevis (Daudin): A Systematic and Chronological Survey of the Development of the Fertilized Egg Till the End of Metamorphosis</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Nieuwkoop</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Faber</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1967" />
+   <publisher>North-Holland</publisher>
+   <pubPlace>Amsterdam</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+ <analytic>
+  <title level="a" type="main">Navigational errors made by growth cones without ®lopodia in the embryonic Xenopus brain</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+    <surname>Chien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Rosenthal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Holt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="237" to="251" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+ <analytic>
+  <title level="a" type="main">FGF signaling and target recognition in the developing Xenopus visual system</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mcfarlane</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Mcneill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Holt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuron</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="1017" to="1028" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+ <analytic>
+  <title level="a" type="main">A novel use for a carbodiimide compound for the ®xation of ¯uorescent and non¯uorescent calcium indicators in situ physiological experiments</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tymianski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell Calcium</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="175" to="183" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+ <monogr>
+  <title level="m" type="main">Correspondence and requests for materials should be addressed to T.M.G. (email: tgomez@biomail.ucsd. edu) Quicktime movies of Ca 2+ imaging in vivo can be</title>
+  <author>
+   <persName>
+    <surname>Acknowledgements</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>We</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Watt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Hsieh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Assistance</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M.-M</forename>
+    <surname>Ferrari</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Poo</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>Secondary. V(D)J recombination in B-1 cells</note>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Xiao-Feng</forename>
+    <surname>Qin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Stephan</forename>
+    <surname>Schwers²</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wong</forename>
+    <surname>Yu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fotini</forename>
+    <surname>Papavasiliou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Heikyung</forename>
+    <surname>Suh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+    <forename type="middle">³</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Andre</forename>
+    <surname>Nussenzweig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">§</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Klaus</forename>
+    <surname>Rajewsky²</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <surname>Michel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Gennes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Prost</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Physics of Liquid Crystals</title>
+  <meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+ <analytic>
+  <title level="a" type="main">Organic lyotropic lamellar liquid crystals</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">P</forename>
+    <surname>Rieker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="497" to="500" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+ <analytic>
+  <title level="a" type="main">Effects of monomer structure on their organization and polymerization in a smectic liquid crystal</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Guymon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">275</biblScope>
+   <biblScope unit="page" from="57" to="59" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+ <analytic>
+  <title level="a" type="main">Low-power laser induced instabilities in smectic A liquid crystals</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Folks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Cryst. Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">261</biblScope>
+   <biblScope unit="page" from="259" to="270" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+ <analytic>
+  <title level="a" type="main">Light-induced periodic lattice of defects in smectic A and C liquid crystals: structural and dynamical aspects</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Folks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yu</forename>
+    <forename type="middle">A</forename>
+    <surname>Reznikov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">N</forename>
+    <surname>Yarmolenko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">D</forename>
+    <surname>Lavrentovich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Cryst. Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">292</biblScope>
+   <biblScope unit="page" from="183" to="197" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+ <analytic>
+  <title level="a" type="main">In-situ x-ray measurements of light-controlled layer spacing in a smectic liquid crystal</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Krentsel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <forename type="middle">D</forename>
+    <surname>Lavrentovich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kumar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Cryst. Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">304</biblScope>
+   <biblScope unit="page" from="463" to="469" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+ <analytic>
+  <title level="a" type="main">Photocontrol of smectic spacing</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Folks</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Cryst. Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">320</biblScope>
+   <biblScope unit="page" from="77" to="88" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+ <analytic>
+  <title level="a" type="main">Molecular dynamics with coupling to an external bath</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J C</forename>
+    <surname>Berendsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P M</forename>
+    <surname>Postma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">F</forename>
+    <surname>Van Gunsteren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dinola</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Haak</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="page" from="3684" to="3690" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+ <analytic>
+  <title level="a" type="main">Quantum chemistry based force ®elds for soft matter</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Glaser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">A</forename>
+    <surname>Clark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Garcia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Walba</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spectrochim. Acta A</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="1325" to="1340" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+ <analytic>
+  <title level="a" type="main">A smooth particle mesh Ewald method</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Essman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page" from="8577" to="8593" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Allen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Tildesley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Computer Simulation of Liquids</title>
+  <imprint>
+   <publisher>Oxford Univ. Press</publisher>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+ <analytic>
+  <title level="a" type="main">Reversible multiple time scale molecular dynamics</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tuckerman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Berne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Martyna</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+ <analytic>
+  <title level="a" type="main">Hamiltonian evolution for the hybrid Monte Carlo algorithm</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Sexton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Weingarten</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nucl. Phys. B</title>
+  <imprint>
+   <biblScope unit="volume">380</biblScope>
+   <biblScope unit="page" from="665" to="677" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+ <analytic>
+  <title level="a" type="main">Photochemical switching of polarization in ferroelectric liquidcrystal ®lms</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sasaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Ichimura</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">361</biblScope>
+   <biblScope unit="page" from="428" to="430" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+ <analytic>
+  <title level="a" type="main">Photochemical control of properties of ferroelectric liquid crystals: photochemcial ¯ip of polarization</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sasaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Ichimura</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Am. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">116</biblScope>
+   <biblScope unit="page" from="625" to="628" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+ <analytic>
+  <title level="a" type="main">Photochemical control of properties of ferroelectric liquid crystals. 1. Effect of structure of host ferroelectric liquid crystals on the photochemical switching of polarization</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sasaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="13002" to="13007" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+ <analytic>
+  <title level="a" type="main">Photochemical control of properties of ferroelectric liquid crystals. 2. Effect of the structure of guest photoresponsive molecules on the photochemical switching of polarization</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sasaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="13008" to="13012" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+ <analytic>
+  <title level="a" type="main">Photochemical control of properties of ferroelectric liquid crystals. 3. Photochemically induced reversible change in spontaneous polarization and electrooptic property</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sasaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ikeda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="13013" to="13018" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+ <analytic>
+  <title level="a" type="main">Photomechanically induced phase transitions in ferroelectric liquid crystals</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Coles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G</forename>
+    <surname>Walton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Guillon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Poetti</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Liq. Cryst</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="551" to="558" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+ <analytic>
+  <title level="a" type="main">Computer-aided design of ferroelectric liquid crystals</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Glaser</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Phys. Rep</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="26" to="47" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+ <analytic>
+  <title level="a" type="main">Characterization of the preparation process and the photochemical control of electrical properties of bilayer lipid membranes containing azobenzene chromophores</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Yamaguchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Nakanishi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">1148</biblScope>
+   <biblScope unit="page" from="179" to="184" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+ <analytic>
+  <title level="a" type="main">Review and new aspects concerning formation of the Mediterranean sapropels</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">J</forename>
+    <surname>Rohling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Geol</title>
+  <imprint>
+   <biblScope unit="volume">122</biblScope>
+   <biblScope unit="page" from="1" to="28" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+ <analytic>
+  <title level="a" type="main">Calcareous nannofossils and the origin of eastern Mediterranean sapropels</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Castradori</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paleoceanography</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="459" to="471" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+ <analytic>
+  <title level="a" type="main">Evidence from nitrogen isotope ratios for enhanced productivity during formation of eastern Mediterranean sapropels</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Calvert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Nielsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Fontugne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">359</biblScope>
+   <biblScope unit="page" from="223" to="225" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+ <analytic>
+  <title level="a" type="main">Composition of anoxic hypersaline brines in the Tyro and Bannock Basins, eastern Mediterranean</title>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Lange</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Chem</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="63" to="88" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+ <analytic>
+  <title level="a" type="main">Nitrogen transport by vertically migrating diatom mats in the North Paci®c Ocean</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Villareal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Altabet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Culver-Rymsza</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">363</biblScope>
+   <biblScope unit="page" from="709" to="712" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+ <analytic>
+  <title level="a" type="main">A line in the Sea</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Yoder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ackleson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">T</forename>
+    <surname>Barber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Flamant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Balch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">371</biblScope>
+   <biblScope unit="page" from="689" to="692" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+ <analytic>
+  <title level="a" type="main">Vast Neogene laminated diatom mat deposits from the eastern equatorial Paci®c Ocean</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E S</forename>
+    <surname>Kemp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">G</forename>
+    <surname>Baldauf</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">362</biblScope>
+   <biblScope unit="page" from="141" to="143" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+ <analytic>
+  <title level="a" type="main">A lamina-scale, SEM-based study of a diatom-ooze sapropel from the Eastern Mediterranean (ODP Leg 160)</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. ODP Sci. Res</title>
+  <imprint>
+   <biblScope unit="volume">160</biblScope>
+   <biblScope unit="page" from="333" to="348" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+ <analytic>
+  <title level="a" type="main">Microfabric and microcompositional studies of Pliocene and Quaternary sapropels from the eastern Mediterranean Rhizosolenid diatom mats Hemiaulus hauckii Thalassionema spp. Chaetoceros spp. setae Chaetoceros spp</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E S</forename>
+    <surname>Kemp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pike</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E A</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. ODP Sci. Res</title>
+  <imprint>
+   <biblScope unit="volume">160</biblScope>
+   <biblScope unit="page" from="349" to="364" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+ <note>resting. spores Clay particles Calcareous nannofossils Mixed diatom assemblage</note>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+ <analytic>
+  <title level="a" type="main">Sapropel formation in the eastern Mediterranean sea: evidence from preserved opal assemblages</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Schrader</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Matherne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Micropaleontology</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="191" to="203" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+ <analytic>
+  <title level="a" type="main">A comparative study of phytoplankton in S. Aegean, Levantine and Ionian Seas during March±April</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Pagou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Gotsis-Skretas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Thalassographica</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="13" to="18" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+ <analytic>
+  <title level="a" type="main">Description of the phytoplanktonic community of the oligotrophic waters of the SE Aegean Sea (Mediterranean)</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Ignatiades</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Georgopoulos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Karydis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Ecol</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="13" to="26" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+ <analytic>
+  <title level="a" type="main">Direct observations of the mass ¯occulation of diatom blooms: characteristics, settling velocities and formation of diatom aggregates</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Alldredge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Gotschalk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="159" to="171" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+ <analytic>
+  <title level="a" type="main">Self-sedimentation of phytoplankton blooms in the geologic record</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">A</forename>
+    <surname>Grimm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+    <surname>Lange</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+    <surname>Gill</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sedim. Geol</title>
+  <imprint>
+   <biblScope unit="volume">100</biblScope>
+   <biblScope unit="page" from="151" to="161" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R L</forename>
+    <surname>Guillard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Kilham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Biology of Diatoms</title>
+  <editor>Werner, D.) 372±469</editor>
+  <meeting><address><addrLine>Berkeley</addrLine></address></meeting>
+  <imprint>
+   <publisher>Univ. California Press</publisher>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+ <analytic>
+  <title level="a" type="main">Nitrogen-®xation by the cyanobacterial symbiont of the diatom genus Hemiaulus</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Villareal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Ecol. Prog. Ser</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="201" to="204" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+ <analytic>
+  <title level="a" type="main">Potential role of large oceanic diatoms in new primary production</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Goldman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res. I</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="issue">159</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b144">
+ <analytic>
+  <title level="a" type="main">Phytodetritus at the abyssal sea¯oor across 108 of latitude in the central equatorial Paci®c</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res. II</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1309" to="1338" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b145">
+ <analytic>
+  <title level="a" type="main">Massive ¯uxes of Rhizosolenid diatoms: a common occurrence?</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sancetta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Villareal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Falkowski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1452" to="1457" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b146">
+ <analytic>
+  <title level="a" type="main">Varve formation in the Gulf of California: Insights from time series sediment trap sampling and remote sensing</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Thunell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Pride</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Tappa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Muller-Karger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Quat. Sci. Rev</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="451" to="464" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b147">
+ <analytic>
+  <title level="a" type="main">Diatoms in the Gulf of California: Seasonal ¯ux patterns and the sediment record for the last 15,000 years</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sancetta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paleoceanography</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="67" to="84" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b148">
+ <analytic>
+  <title level="a" type="main">Early Holocene decadal-scale ocean variability recorded in Gulf of California laminated sediments</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pike</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E S</forename>
+    <surname>Kemp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paleoceanography</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="227" to="238" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b149">
+ <analytic>
+  <title level="a" type="main">Physiological and optical properties of Rhizosolenia formosa (Bacillariophyceae) in the context of open-ocean vertical migration</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>Richardson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Ciotti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Cullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Villareal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phycol</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="741" to="757" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b150">
+ <analytic>
+  <title level="a" type="main">Mediterranean sapropels: Seasonal strati®cation yields high production and carbon ¯ux</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Sancetta</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paleoceanography</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="195" to="196" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b151">
+ <analytic>
+  <title level="a" type="main">After the deluge; Mediterranean stagnation and sapropel formation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rossignol-Strick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Nesteroff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Olive</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Vergnaud-Grazzini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">295</biblScope>
+   <biblScope unit="page" from="105" to="110" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b152">
+ <analytic>
+  <title level="a" type="main">The formation of Pliocene sapropels and carbonate cycles in the Mediterranean: diagenesis, dilution and productivity</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J H</forename>
+    <surname>Van Os</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Lourens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Hilgen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Lange</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Beaufort</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Paleoceanography</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="601" to="617" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b153">
+ <analytic>
+  <title level="a" type="main">Seasonal salinity changes during Mediterranean sapropel deposition 9,000 years B.P.: evidence from isotopic analyses of individual planktonic forminifera</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Tang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">D</forename>
+    <surname>Stott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Palaeoceanography</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="473" to="493" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b154">
+ <analytic>
+  <title level="a" type="main">The Si:C:N ratio of marine diatoms: interspeci®c variability and the effect of some environmental variables</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Brzezinski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phycol</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="347" to="357" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b155">
+ <analytic>
+  <title level="a" type="main">Varve calibrated records of carbonate and organic carbon accumulation over the last 2000 years in the Black Sea</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Arthur</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Glob. Biogeochem. Cycles</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="195" to="217" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b156">
+ <analytic>
+  <title level="a" type="main">Siliceous microfossils from the warm late Cretaceous and early Cenozoic Arctic Ocean</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Dell &apos;agnese</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Clark</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Paleontol</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="31" to="47" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b157">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Jacobs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Sahagian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Sequence Stratigraphy and Depositional Response to Eustatic, Tectonic and Climatic Forcing</title>
+  <editor>ed. Haq, B. U.) 329±366 (Kluwer</editor>
+  <meeting><address><addrLine>Dordrecht</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b158">
+ <analytic>
+  <title level="a" type="main">A simple method for the rapid determination of biogenic opal in marine sediments</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Mortlock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">N</forename>
+    <surname>Froelich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep-Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1415" to="1426" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b159">
+ <monogr>
+  <title level="m" type="main">Supplementary information is available on Nature&apos;s World-Wide Web site (http://www.nature.com) or as paper copy from the London editorial of®ce of Nature</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,2232 @@
+<TEI xml:id="istex-342A7E9F3B02DF65A357C0F998F3032BE35BA405">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Bioregulation of kinins: kallikreins , kininogens, and kinins</title>
+  <author>
+   <persName>
+    <forename type="first">Kd</forename>
+    <surname>Bhoola</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cd</forename>
+    <surname>Figueroa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Worthy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol Rev</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="1" to="80" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Contribution of angiotensin-converting enzyme to the cardiac metabolism of bradykinin: an interspecies study</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Drapeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Raymond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Lamontagne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gervais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Venneman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J PhysiolHeart Circ Physiol</title>
+  <imprint>
+   <biblScope unit="volume">273</biblScope>
+   <biblScope unit="issue">42</biblScope>
+   <biblScope unit="page" from="1997" to="2263" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Absence of effect of chronic angiotensin II type 1 receptor blockade on endogenous kinin concentrations in the carrageenan-induced paw edema model in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Leclair</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Molinaro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Peptides</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="343" to="52" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Serum metabolism of bradykinin (BK) and des-Arg 9 -BK in patients with ACE inhibitor (ACEI)-associated angioedema (AE)</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Rouleau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Lepage</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Spence</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Munoz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Friborg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Geadah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gervais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Fifteenth International Conference on Kinins, Kinin &apos;98 Nara</title>
+  <meeting><address><addrLine>Nara, Japan</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Hydrolysis of transforming growth factorby cell surface peptidases in vitro</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Choudry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aj</forename>
+    <surname>Kenny</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem J</title>
+  <imprint>
+   <biblScope unit="volume">280</biblScope>
+   <biblScope unit="page" from="57" to="60" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Anomaly of the des-Arg 9 -bradykinin metabolism associated with severe hypotensive reaction during blood transfusions: a preliminary report</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Cyr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gervais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Hume</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jd</forename>
+    <surname>Sweeney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transfusion</title>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Specific inhibition of endopeptidase 24.16 by dipeptides</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Dauch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vincent</forename>
+    <forename type="middle">J – P</forename>
+    <surname>Checler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur J Biochem</title>
+  <imprint>
+   <biblScope unit="volume">202</biblScope>
+   <biblScope unit="page" from="269" to="76" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Development of digoxigenin–labeled peptide: application to chemiluminoenzyme immunoassay of bradykinin in inflamed tissues</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Décarie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Drapeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Closset</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Couture</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Peptides</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="511" to="8" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Serum interspecies differences in metabolic pathways of bradykinin and [des-Arg 9 ]BK: influence of enalaprilat</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Décarie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Raymond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gervais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Couture</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J PhysiolHeart Circ Physiol</title>
+  <imprint>
+   <biblScope unit="volume">270</biblScope>
+   <biblScope unit="issue">39</biblScope>
+   <biblScope unit="page" from="1340" to="7" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Allergy to ethylene oxide in chronic hemodialysis patients</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dolovich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cp</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ekm</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Shimizu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fc</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Sugona</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lee</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Artif Organs</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="334" to="7" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Synthesis of bradykinin analogs</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Drapeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Regoli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Enzymol</title>
+  <imprint>
+   <biblScope unit="volume">163</biblScope>
+   <biblScope unit="page" from="263" to="72" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Metabolism of bradykinin by the rat coronary vascular bed</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Dumoulin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Adam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Blais</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Lamontagne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cardiovasc Res</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="229" to="36" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Some old and some new ideas on kinin metabolism</title>
+  <author>
+   <persName>
+    <forename type="first">Eg</forename>
+    <surname>Erdös</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Cardiovasc Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="issue">6</biblScope>
+   <biblScope unit="page" from="20" to="4" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">Metabolism of bradykinin by peptidases in health and disease Handbook of Immunopharmacology: The Kinin System</title>
+  <author>
+   <persName>
+    <forename type="first">Eg</forename>
+    <surname>Erdös</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Skidgel</surname>
+   </persName>
+  </author>
+  <editor>Farmer SG</editor>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>Academic Press</publisher>
+   <biblScope unit="page" from="111" to="41" />
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Cardioprotective effects of the aminopeptidase P inhibitor, apstatin</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Ersahin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Euler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FASEB J</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">409</biblScope>
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Inhibition of both aminopeptidase P and angiotensin-converting enzyme prevents bradykinin degradation in the rat coronary circulation</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Ersahin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Cardiovasc Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="96" to="101" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Agonistic and antagonistic properties of the bradykinin B 2 receptor antagonist , Hoe 140, in isolated blood vessels from different species</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Félétou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Germain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Thurieau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fauchère</forename>
+    <forename type="middle">J – L</forename>
+    <surname>Canet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br J Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="683" to="9" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Complement activation and hypersensitivity reactions to dialysis membranes</title>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+    <surname>Hakim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Breillat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Lazarus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fk</forename>
+    <surname>Port</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">311</biblScope>
+   <biblScope unit="page" from="878" to="82" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Bradykinin receptors: pharmacological properties and biological roles</title>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol Ther</title>
+  <imprint>
+   <biblScope unit="volume">56</biblScope>
+   <biblScope unit="page" from="131" to="90" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Mechanisms of acute allergic reactions</title>
+  <author>
+   <persName>
+    <forename type="first">Rg</forename>
+    <surname>Hamilton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nf</forename>
+    <surname>Adkinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Artif Organs</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="311" to="7" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Ectoenzymes of the kidney microvillar membrane. Aminopeptidase P is anchored by a glycosyl-phosphatidylinositol moiety</title>
+  <author>
+   <persName>
+    <forename type="first">Nm</forename>
+    <surname>Hooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aj</forename>
+    <surname>Turner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="volume">229</biblScope>
+   <biblScope unit="page" from="340" to="4" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Tripeptidyl carboxypeptidase activity of kininase II (angiotensin-converting enzyme)</title>
+  <author>
+   <persName>
+    <forename type="first">J – I</forename>
+    <surname>Inokuchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nagamatsu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim Biophys Acta</title>
+  <imprint>
+   <biblScope unit="volume">662</biblScope>
+   <biblScope unit="page" from="300" to="7" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Potentiation by aminopeptidase P of blood pressure response to bradykinin</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kitamura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">La</forename>
+    <surname>Carbini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Oa</forename>
+    <surname>Carretero</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ag</forename>
+    <surname>Scicli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br J Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">114</biblScope>
+   <biblScope unit="page" from="6" to="7" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Anaphylactoid reactions during hemodialysis in sheep are ACE inhibitor dose-dependent and mediated by bradykinin</title>
+  <author>
+   <persName>
+    <forename type="first">Dh</forename>
+    <surname>Krieter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Grude</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H – D</forename>
+    <surname>Lemke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Fink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bönner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+    <surname>Schölkens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Schulz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ga</forename>
+    <surname>Müller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kidney Int</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="1026" to="35" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Hypersensitivity reactions during haemodialysis: role of complement fragments and ethylene oxide antibodies</title>
+  <author>
+   <persName>
+    <forename type="first">H – D</forename>
+    <surname>Lemke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Heidland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nephrol Dial Transplant</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="264" to="9" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Inhibition of prolyl oligopeptidase by Fmoc- aminoacylpyrrolidine-2-nitriles</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Wilk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Wilk</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="2105" to="12" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Contribution of kinins to the cardiovascular actions of angiotensin-converting enzyme inhibitors</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Linz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Wiemer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gohlke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Unger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+    <surname>Schölkens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol Rev</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="page" from="25" to="49" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Kinin B 1 receptors: a review</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Marceau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Immunopharmacology</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="1" to="26" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Complex reactions</title>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Moore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rg</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Kinetics and Mechanisms</title>
+  <editor>Moore JW, Pearson RG</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Wiley</publisher>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="284" to="96" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">High sensitivity collisionally activated decomposition tandem mass spectrometry on a novel quadrupole/orthogonal-acceleration time-of-flight mass spectrometer</title>
+  <author>
+   <persName>
+    <forename type="first">Hr</forename>
+    <surname>Morris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Paxton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Langhorne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Berg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rs</forename>
+    <surname>Bordoli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hoyes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rh</forename>
+    <surname>Bateman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rapid Commun Mass Spectrom</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="889" to="97" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Purification and properties of membrane-bound aminopeptidase P from rat lung</title>
+  <author>
+   <persName>
+    <forename type="first">At</forename>
+    <surname>Orawski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="11227" to="36" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Aminopeptidase P from bovine lung: solubilization, properties, and potential role in bradykinin degradation</title>
+  <author>
+   <persName>
+    <forename type="first">At</forename>
+    <surname>Orawski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jp</forename>
+    <surname>Susz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol Cell Biochem</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="page" from="123" to="32" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Substrate-related potent inhibitors of brain metalloendopeptidase</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Orlowski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Michaud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Molineaux</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemistry</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="597" to="602" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Cleavage of des-Arg 9 -bradykinin by angiotensin I-converting enzyme from pig kidney cortex</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Oshima</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Hiraga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Shirono</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">–</forename>
+    <surname>Oh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sakakibara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kinoshita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Experientia</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="325" to="8" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Anaphylactoid reactions in hemodialysis patients treated with the AN69 dialyzer</title>
+  <author>
+   <persName>
+    <forename type="first">El</forename>
+    <surname>Parnes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wb</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kidney Int</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page" from="1148" to="52" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Effect of a new aminopeptidase P inhibitor, apstatin, on bradykinin degradation in the rat lung</title>
+  <author>
+   <persName>
+    <forename type="first">Mm</forename>
+    <surname>Prechel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">At</forename>
+    <surname>Orawski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ll</forename>
+    <surname>Maggiora</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pharmacol Exp Ther</title>
+  <imprint>
+   <biblScope unit="volume">275</biblScope>
+   <biblScope unit="page" from="1136" to="42" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Kinin formation: mechanisms and role in inflammatory disorders</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Proud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ap</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Rev Immunol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="49" to="83" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Quantification of des-Arg 9 -BK using a chemiluminescence enzyme immunoassay: application to its kinetic profile during plasma activation</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Raymond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Drapeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Raut</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Audet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Marceau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Adam</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol Methods</title>
+  <imprint>
+   <biblScope unit="volume">180</biblScope>
+   <biblScope unit="page" from="247" to="57" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Characterization of rat pulmonary vascular aminopeptidase P in vivo: role in the inactivation of bradykinin</title>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Ryan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Berryer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ayk</forename>
+    <surname>Chung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dh</forename>
+    <surname>Sheffy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Pharmacol Exp Ther</title>
+  <imprint>
+   <biblScope unit="volume">269</biblScope>
+   <biblScope unit="page" from="941" to="7" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Role of bradykinin in anaphylactoid reactions during hemodialysis with AN69 dialyzers</title>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Fink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Barkhausen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Kulzer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Heidland</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="473" to="7" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Anaphylactoid reactions during hemodialysis</title>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Horl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="44" to="7" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Assay of dipeptidyl peptidase IV in serum by fluorometry of 4-methoxy-2-naphthylamine</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Scharpé</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Vanhoof</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hendriks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Van Sande</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Van</forename>
+    <surname>Camp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Yaron</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Chem</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="2299" to="301" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Bradykinin generation by dialysis membranes: possible role in anaphylactic reaction</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schulman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hakim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Arias</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Silverberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ap</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Arbeit</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Soc Nephrol</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="1563" to="9" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Studies of the digestion of bradykinin, Lysbradykinin , and des-Arg 9 -bradykinin by angiotensin converting enzyme</title>
+  <author>
+   <persName>
+    <forename type="first">Ia</forename>
+    <surname>Sheikh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ap</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="1951" to="6" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">The autoactivation of Factor XII (Hageman factor) induced by low-M r heparin and dextran sulfate</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Silverberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sv</forename>
+    <surname>Diehl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem J</title>
+  <imprint>
+   <biblScope unit="volume">248</biblScope>
+   <biblScope unit="page" from="715" to="20" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Membrane-bound aminopeptidase P from bovine lung. Its purification, properties, and degradation of bradykinin</title>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Simmons</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">At</forename>
+    <surname>Orawski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Biol Chem</title>
+  <imprint>
+   <biblScope unit="volume">267</biblScope>
+   <biblScope unit="page" from="4897" to="903" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Basic carboxypeptidases: regulators of peptide hormone activity</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Skidgel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Pharmacol Sci</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="299" to="304" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Structure and function of mammalian zinc carboxypeptidases</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Skidgel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Zinc Metalloproteases in Health and Disease</title>
+  <editor>Hooper NM</editor>
+  <meeting><address><addrLine>Taylor &amp; Francis, Ltd ; London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page" from="241" to="83" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Biochemistry of angiotensin I converting enzyme</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Skidgel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Eg</forename>
+    <surname>Erdös</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Renin–Angiotensin System</title>
+  <editor>Robertson JIS, Nicholls MG</editor>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Gower Medical Publishing</publisher>
+   <date type="published" when="1993" />
+   <biblScope unit="page" from="10" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Assignment of the membrane-bound human aminopeptidase P gene (XPNPEP2) to chromosome Xq25</title>
+  <author>
+   <persName>
+    <forename type="first">Tj</forename>
+    <surname>Sprinkle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aa</forename>
+    <surname>Stone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Venema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nd</forename>
+    <surname>Denslow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Caldwell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Ryan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genomics</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="114" to="6" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Anaphylactoid reactions during hemodialysis on AN69 membranes in patients receiving ACE inhibitors</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Tielemans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Madhoun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lenaers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Schandene</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Goldman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Vanherweghem</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kidney Int</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="982" to="4" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">Diprotins A, and B, inhibitors of dipeptidyl aminopeptidase IV, produced by bacteria</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Umezawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Aoyagi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Ogawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Naganawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hamada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Takeuchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Antibiot</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="422" to="5" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Proline-specific aminopeptidases: potential role in bradykinin degradation</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Vanhoof</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>De Meester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Hendriks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Goossens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Van Sande</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Scharpé</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Yaron</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Agents Actions</title>
+  <imprint>
+   <publisher>II</publisher>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="1992" to="120" />
+   <publisher>II</publisher>
+  </imprint>
+ </monogr>
+ <note>Suppl. .</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Cloning and tissue distribution of human membrane-bound aminopeptidase P</title>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Venema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ju</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Zou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vj</forename>
+    <surname>Venema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Ryan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochim Biophys Acta</title>
+  <imprint>
+   <biblScope unit="volume">1354</biblScope>
+   <biblScope unit="page" from="45" to="58" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">Bradykinin is a mediator of anaphylactoid reactions during hemodialysis with AN69 membranes</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Verresen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Fink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H – D</forename>
+    <surname>Lemke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Vanrenterghem</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Kidney Int</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="1497" to="503" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">Angiotensinconverting-enzyme inhibitors and anaphylactoid reactions to highflux membrane dialysis</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Verresen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Waer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Vanrenterghem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Michielsen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">336</biblScope>
+   <biblScope unit="page" from="1360" to="2" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Incidence of hypersensitivity in hemodialysis</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Villarroel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Artif Organs</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="278" to="80" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">Approach to the bleeding patient Hemostasis and Thrombosis: Basic principles and clinical practice</title>
+  <author>
+   <persName>
+    <forename type="first">Gc</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vj</forename>
+    <surname>Marder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rw</forename>
+    <surname>Colman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hirsh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ew</forename>
+    <surname>Salzman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">JB Lippincott Company</title>
+  <editor>Colman RW, Hirsh J, Marder VJ, Salzman EW</editor>
+  <imprint>
+   <biblScope unit="page" from="1134" to="47" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

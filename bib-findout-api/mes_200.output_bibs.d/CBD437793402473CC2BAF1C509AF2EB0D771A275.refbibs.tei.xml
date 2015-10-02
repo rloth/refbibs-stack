@@ -1,0 +1,1174 @@
+<TEI xml:id="istex-CBD437793402473CC2BAF1C509AF2EB0D771A275">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Swincle</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Pfiffner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Vars</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">M</forename>
+    <surname>Parkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science Amer. J. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="issue">107</biblScope>
+   <biblScope unit="page">259</biblScope>
+   <date type="published" when="1933" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Tannenberc</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Drsch. med. Wschr</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page">404</biblScope>
+   <date type="published" when="1926" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Tarchanoff</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Turton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. ges. Physiol. Phil. Mag</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">32</biblScope>
+   <biblScope unit="page">457</biblScope>
+   <date type="published" when="1874" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Urtubey</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rew. Esp. Biol. I</title>
+  <imprint>
+   <biblScope unit="page">25</biblScope>
+   <date type="published" when="1932" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Venzlaff</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. mikr. Anat</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page">377</biblScope>
+   <date type="published" when="1911" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Vimtrup</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ges. Anat. I . 2. Anat. Entw- Gesch. Zbl. inn. Med. Monit. zvol. ital</title>
+  <imprint>
+   <biblScope unit="volume">65876</biblScope>
+   <biblScope unit="issue">44</biblScope>
+   <biblScope unit="page" from="68" to="469" />
+   <date type="published" when="1922" />
+  </imprint>
+ </monogr>
+ <note>Suppl. .</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Volterra</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Schupfer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. ital. Anat. Embriol</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page">844</biblScope>
+   <date type="published" when="1934" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Wind</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Exp. Parh. Pharmuk. Med.J. Austr</title>
+  <editor>161. WOOLLARD, H. H.</editor>
+  <imprint>
+   <biblScope unit="volume">186</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page">134</biblScope>
+   <date type="published" when="1928" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Arch. mikr. Anat. 27. - (1923): 2. ges. Anat. I . 2</title>
+  <author>
+   <persName>
+    <forename type="first">Zimmermann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. EntwGesch</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page">29</biblScope>
+   <date type="published" when="1886" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Zweifach</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Svc</title>
+  <meeting>. Svc</meeting>
+  <imprint>
+   <date type="published" when="1934" />
+   <biblScope unit="page" from="4" to="124" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Zweifach</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+    <surname>Kossmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anrer. J . Physiol</title>
+  <imprint>
+   <biblScope unit="volume">120</biblScope>
+   <biblScope unit="page">23</biblScope>
+   <date type="published" when="1937" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hall</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Sr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nigrelli</forename>
+    <forename type="middle">R F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Protistenk</title>
+  <editor>Trcrns. Am,r. HAYE, A.</editor>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <date type="published" when="1930" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hill</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. H. Mirr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="issue">I933</biblScope>
+   <biblScope unit="page">227</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Form und Stofl~orclrsel der {hlgi- Kb&apos;rper</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">C</forename>
+    <surname>Hirscii</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Protoplasma Monographs</title>
+  <imprint>
+   <date type="published" when="1939" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hirschler</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat. Anz. C. R. Sac. Biol</title>
+  <imprint>
+   <publisher>%. Zrllforsch</publisher>
+   <biblScope unit="volume">47</biblScope>
+   <date type="published" when="1914" />
+   <publisher>%. Zrllforsch</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">C.R. Acad. Sri., I&apos;aris</title>
+  <imprint>
+   <date type="published" when="1932" />
+   <biblScope unit="page">69</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Sac</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>52</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Micr. Sor</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="issue">72</biblScope>
+   <biblScope unit="page">365</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Micr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page">18</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hoerr</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat. Rec</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page">149</biblScope>
+   <date type="published" when="1936" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Horning</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austr. 3. ESP. BioI. Med. Sri</title>
+  <imprint>
+   <date type="published" when="1927" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hyman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Protozoa through Ctrnopliora</title>
+  <imprint>
+   <publisher>McGraw-Hill</publisher>
+   <date type="published" when="1940" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Joyet-Idavergni ?</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+   </persName>
+  </author>
+  <editor>C.R. Arad. sn&apos;., Park</editor>
+  <imprint>
+   <date type="published" when="1923" />
+   <biblScope unit="page" from="178" to="128" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">King</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Uic.r. .Sci. J. R. Micr. Sor</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="issue">48</biblScope>
+   <biblScope unit="page">342</biblScope>
+   <date type="published" when="1926" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">King</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Truns. Anrer. Mirr. Soc. J. Morph</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">58</biblScope>
+   <biblScope unit="page">555</biblScope>
+   <date type="published" when="1933" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Kirkman</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Qeveringhaus</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="19386" />
+   <biblScope unit="page" from="70" to="557" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Krascheninnikow</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Zel~nrsrh</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page">470</biblScope>
+   <date type="published" when="1929" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Lwoff</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lwoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Recznt Advanws itr Cvtology</title>
+  <meeting><address><addrLine>Paris ; London</addrLine></address></meeting>
+  <imprint>
+   <publisher>MACBRIDE &amp; HEWER Churchill</publisher>
+   <date type="published" when="1929" />
+   <biblScope unit="page">557</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Arch. Protistenk. 86, 403 Protozoa in Binlogical Research</title>
+  <imprint>
+   <publisher>Columbia Univ. Press</publisher>
+   <date type="published" when="1936" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Mast</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">0</forename>
+    <surname>Doyle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Prvtistenk</title>
+  <imprint>
+   <biblScope unit="volume">8655</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="86" to="278" />
+   <date type="published" when="1935" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Moore</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Golgi apparatus of Protozoa &apos; 0 5</title>
+  <imprint>
+   <date type="published" when="1934" />
+   <biblScope unit="page">59</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Nassonow</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. mikr. Anat</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page">437</biblScope>
+   <date type="published" when="1924" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Parat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Anat. Mzm</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">87</biblScope>
+   <date type="published" when="1928" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Parat</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Painl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ev~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">C.R. Acad. S r i</title>
+  <meeting><address><addrLine>Paris, PARK, 0</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1924" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Patten</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Roy. lrish Acad. H, 41</title>
+  <meeting>. Roy. lrish Acad. H, 41</meeting>
+  <imprint>
+   <date type="published" when="1932" />
+   <biblScope unit="page">73</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Patten</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Beams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Quart. J. Mirr. Sci</title>
+  <imprint>
+   <date type="published" when="1936" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Richardson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">C</forename>
+    <surname>Horning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1931" />
+   <publisher>J. Marph</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Saedeleer</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">C.R. SOC. Biol</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page">160</biblScope>
+   <date type="published" when="1930" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Shipley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anat. Rec</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page">439</biblScope>
+   <date type="published" when="1916" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Sigot</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">C.R. Sac. Rial</title>
+  <imprint>
+   <biblScope unit="volume">106</biblScope>
+   <biblScope unit="page">1069</biblScope>
+   <date type="published" when="1931" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Singh</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Quart. 3. Micr. Sci</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="page" from="601" to="1925" />
+   <date type="published" when="1938" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Smyth</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Roy. Irish Acad. B, 46</title>
+  <meeting>. Roy. Irish Acad. B, 46<address><addrLine>Lond., 151, I I O . -</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1941" />
+  </imprint>
+ </monogr>
+ <note>in. the Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Sokolska</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">C.R. Sac. Biol</title>
+  <imprint>
+   <biblScope unit="volume">96</biblScope>
+   <biblScope unit="page">570</biblScope>
+   <date type="published" when="1927" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Pap. Tortugus Lab. 27, I . &apos;rENNENr, I)</title>
+  <author>
+   <persName>
+    <forename type="first">Subramaniam</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">K</forename>
+    <surname>Ganapati</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gardiner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Turner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Arch. Protistenk. 93, 255. TUZET, 0 Proc. Roy. Sac. B, 103</title>
+  <meeting><address><addrLine>Tokyo</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cytologia</publisher>
+   <date type="published" when="1928" />
+   <biblScope unit="page">397</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Walker</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Allen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Roy. Sac Protozoa in Biological Research</title>
+  <editor>101, WEATHERBY, J. H.</editor>
+  <meeting>. Roy. Sac Protozoa in Biological Research</meeting>
+  <imprint>
+   <publisher>Columbia Univ. Press</publisher>
+   <date type="published" when="1927" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,105 @@
+<TEI xml:id="istex-E0DF3C3CC9D36B4139F16C017019EB8EC9201BE7">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Auf diese Weise lassen sich wichtigste katatone Symptome aus einer Schisis im animalen System herleiten, die eine LSsung des Ich yon der Umwelt un4 einen l~iickfall in eine im wesentlichen rein vegetative Existenz beding~</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Plythysmographische Untersuehungen an Demencia praecox-Kranken. Verslg sfidwestdtsch. Irren~rzte StraBburg 1912. --Bumke u. Kehrer: Arch. f</title>
+  <author>
+   <persName>
+    <forename type="first">Anton</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Z. Ncur.Bogaert: Zit. nach Guttmann u. Hermann. --Bdhler : Naturwiss. 1921. --Bumke : Die PupillenstSrungen bei Geistes-und Nervenkrankheiten. Jena Psychiatr. J. amer. reed. Assoc. Zit. nach Ga~nper. --Ewald: Z. Neur. Med. Kiln. 41. --Gamper u. Kral: Z. Neut.Goldseheider: Dtsch. Kongr. inn. ivied. Wiesbaden Verb. Kongr. Psychother</title>
+  <editor>Guttmann, E. u. K. Hermann: Z. Neur. 140</editor>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="issue">146</biblScope>
+   <biblScope unit="page" from="1370" to="384" />
+   <date type="published" when="1910" />
+  </imprint>
+ </monogr>
+ <note>Sitzg. u Psychiatr. u. Neur. Wien</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">-Heft: Klin. Wschr</title>
+ </analytic>
+ <monogr>
+  <title level="j">Ref. Jb. Psychiatr. Z. Neut. Z. Neur</title>
+  <imprint>
+   <publisher>Neur</publisher>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="issue">124</biblScope>
+   <biblScope unit="page">1009</biblScope>
+   <date type="published" when="1912" />
+   <publisher>Neur</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">-Kleist: Allg</title>
+ </analytic>
+ <monogr>
+  <title level="j">Zit. naeh Miskolczy. --Kauders: Zur Klinik und Analyse der psychomotorisehen StSrung. Berlin Z. Psychiatr. Zit. nach Hempelmann. --Kiippers: Z. Neur. Z. Neut</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="issue">138</biblScope>
+   <date type="published" when="1911" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Lhermitte et Dupont: Enedphale 1928. --Lhermitte et Roques: Enc~phale 1928. --Mayer-Croft: I-Iandbuch der Geisteskrankheiten von Bumke</title>
+  <imprint>
+   <date type="published" when="1903" />
+   <biblScope unit="page">-Miskolczy</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">-Schneider, Carl: Die Psychologie der Sehizophrenen. Leipzig 1930. --Serejski u</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Rosenthal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbueh der Geisteskrankheiten yon Bumke, Bd. 9. --Stern, F.: Die epidemische Encelahulitis Beitr~ge zur Kenntnis der NarkolepsieTr6mner: Das Problem des Schlafes</title>
+  <meeting><address><addrLine>Berlin ; Wiesbaden</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1912" />
+   <biblScope unit="page" from="1927" to="81" />
+  </imprint>
+ </monogr>
+ <note>nach. Mayer* Croft</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

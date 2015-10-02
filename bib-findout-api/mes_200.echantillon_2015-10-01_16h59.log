@@ -1,0 +1,4 @@
+INIT: sampling 200
+CRIT: fields(corpusName, publicationDate, qualityIndicators.pdfVersion)
+XGOT: picked 498
+XDEL: sacrificing 298 random docs

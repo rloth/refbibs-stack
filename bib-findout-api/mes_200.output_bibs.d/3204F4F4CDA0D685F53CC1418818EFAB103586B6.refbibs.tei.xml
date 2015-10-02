@@ -1,0 +1,1189 @@
+<TEI xml:id="istex-3204F4F4CDA0D685F53CC1418818EFAB103586B6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Interleukin 18 is a potent proliferative factor for intestinal mucosal lymphocytes in Crohn&apos;s disease</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kanai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Okazawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">119</biblScope>
+   <biblScope unit="page" from="1514" to="23" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Inflammatory bowel disease</title>
+  <author>
+   <persName>
+    <forename type="first">Dk</forename>
+    <surname>Podolsky</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">347</biblScope>
+   <biblScope unit="page" from="417" to="29" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Antibodies to interleukin 12 abrogate established experimental colitis in mice</title>
+  <author>
+   <persName>
+    <forename type="first">Mf</forename>
+    <surname>Neurath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Fuss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Kelsall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Exp Med</title>
+  <imprint>
+   <biblScope unit="volume">182</biblScope>
+   <biblScope unit="page" from="1281" to="90" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Biologic therapy of inflammatory bowel disease</title>
+  <author>
+   <persName>
+    <forename type="first">Wj</forename>
+    <surname>Sandborn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Targan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">122</biblScope>
+   <biblScope unit="page" from="1592" to="608" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">A short-term study of chimeric monoclonal antibody cA2 to tumor necrosis factor alpha for Crohn&apos;s disease. Crohn&apos;s Disease cA2 Study Group</title>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Targan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sb</forename>
+    <surname>Hanauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Van Deventer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">337</biblScope>
+   <biblScope unit="page" from="1029" to="35" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The interleukin-12/interleukin-12 receptor system: role in normal and pathologic immune responses</title>
+  <author>
+   <persName>
+    <forename type="first">Mk</forename>
+    <surname>Gately</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lm</forename>
+    <surname>Renzetti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Magram</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu Rev Immunol</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="495" to="521" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Lipopolysaccharide-induced IL-18 secretion from murine Kupffer cells independently of myeloid differentiation factor 88 that is critically involved in induction of production of IL-12 and IL-1beta</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Seki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Tsutsui</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Nakano</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol</title>
+  <imprint>
+   <biblScope unit="volume">166</biblScope>
+   <biblScope unit="page" from="2651" to="7" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Hyperexpression of CD40 ligand (CD154) in inflammatory bowel disease and its contribution to pathogenic cytokine production</title>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Colpaert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Haens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gr</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol</title>
+  <imprint>
+   <biblScope unit="volume">163</biblScope>
+   <biblScope unit="page" from="4049" to="57" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Disparate CD4+ lamina propria (LP) lymphokine secretion profiles in inflammatory bowel disease. Crohn&apos;s disease LP cells manifest increased secretion of IFN-gamma, whereas ulcerative colitis LP cells manifest increased secretion of IL-5</title>
+  <author>
+   <persName>
+    <forename type="first">Ij</forename>
+    <surname>Fuss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Neurath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Boirivant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol</title>
+  <imprint>
+   <biblScope unit="volume">157</biblScope>
+   <biblScope unit="page" from="1261" to="70" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Eta-1 (osteopontin): an early component of type-1 (cell-mediated) immunity</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Ashkar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gf</forename>
+    <surname>Weber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Panoutsakopoulou</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">287</biblScope>
+   <biblScope unit="page" from="860" to="4" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Role of osteopontin in cellular signaling and toxicant injury</title>
+  <author>
+   <persName>
+    <forename type="first">Dt</forename>
+    <surname>Denhardt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Giachelli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Rittling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu Rev Pharmacol Toxicol</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="723" to="49" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">A chemoattractant cytokine associated with granulomas in tuberculosis and silicosis</title>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Nau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Guilfoile</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gl</forename>
+    <surname>Chupp</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc Natl Acad Sci U S A</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page" from="6414" to="19" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Osteopontin is associated with T cells in sarcoid granulomas and has T cell adhesive and cytokine-like properties in vitro</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>&apos;regan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aw</forename>
+    <surname>Chupp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gl</forename>
+    <surname>Lowry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol</title>
+  <imprint>
+   <biblScope unit="volume">162</biblScope>
+   <biblScope unit="page" from="1024" to="31" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Osteopontin is strongly expressed by histiocytes in granulomas of diverse etiology</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Carlson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tognazzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ej</forename>
+    <surname>Manseau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lab Invest</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="103" to="8" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Dysregulated expression of the T cell cytokine Eta-1 in CD4–8-lymphocytes during the development of murine autoimmune disease</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Patarca</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fy</forename>
+    <surname>Wei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Singh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Exp Med</title>
+  <imprint>
+   <biblScope unit="volume">172</biblScope>
+   <biblScope unit="page" from="1177" to="83" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Structure of the osteopontin gene and its promoter</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Yamamoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Hijiya</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Setoguchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann N Y Acad Sci</title>
+  <imprint>
+   <biblScope unit="volume">760</biblScope>
+   <biblScope unit="page" from="44" to="58" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Cyclosporine in severe ulcerative colitis refractory to steroid therapy</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Lichtiger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dh</forename>
+    <surname>Present</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kornbluth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">330</biblScope>
+   <biblScope unit="page" from="1841" to="5" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Antibodies to different peptides in osteopontin reveal complexities in the various secreted forms</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Maeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Segawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Cell Biochem</title>
+  <imprint>
+   <biblScope unit="volume">77</biblScope>
+   <biblScope unit="page" from="487" to="98" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Expression and distribution of osteopontin in human tissues: widespread association with luminal epithelial surfaces</title>
+  <author>
+   <persName>
+    <forename type="first">Lf</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Berse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Van De Water</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol Biol Cell</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="1169" to="80" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Mucosal subclass distribution of immunoglobulin G-producing cells is different in ulcerative colitis and Crohn&apos;s disease of the colon</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">To</forename>
+    <surname>Rognum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Brandtzaeg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="919" to="24" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Expression of human immunoglobulin G subclasses in inflammatory bowel disease</title>
+  <author>
+   <persName>
+    <forename type="first">Rp</forename>
+    <surname>Macdermott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mh</forename>
+    <surname>Nahm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="1127" to="9" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Isolation and phenotypic characterization of colonic macrophages</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Rogler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hausmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Vogl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Clin Exp Immunol</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="205" to="15" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">The influence of the proinflammatory cytokine, osteopontin, on autoimmune demyelinating disease</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Chabas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Se</forename>
+    <surname>Baranzini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mitchell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">294</biblScope>
+   <biblScope unit="page" from="1731" to="5" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Osteopontin deficiency protects joints against destruction in anti-type II collagen antibody-induced arthritis in mice</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Yumoto</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ishijima</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Rittling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc Natl Acad Sci U S A</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="4556" to="61" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Osteopontin as a potential diagnostic biomarker for ovarian cancer</title>
+  <author>
+   <persName>
+    <forename type="first">Jh</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Skates</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Uede</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">JAMA</title>
+  <imprint>
+   <biblScope unit="volume">287</biblScope>
+   <biblScope unit="page" from="1671" to="9" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Plasma osteopontin: associations with survival and metastasis to bone in men with hormone-refractory prostate carcinoma</title>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Hotte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ew</forename>
+    <surname>Winquist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Stitt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cancer</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="506" to="12" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Expression of osteopontin (Eta-1) in Crohn disease of the terminal ileum</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gassler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Autschbach</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gauer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Scand J Gastroenterol</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="1286" to="95" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Infection of B cell-deficient mice with CDC 1551, a clinical isolate of Mycobacterium tuberculosis: delay in dissemination and development of lung pathology</title>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Bosio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Gardner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kl</forename>
+    <surname>Elkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Immunol</title>
+  <imprint>
+   <biblScope unit="volume">164</biblScope>
+   <biblScope unit="page" from="6417" to="25" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Crohn&apos;s disease</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Duchmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Zeitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pl</forename>
+    <surname>Ogra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mestecky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Me</forename>
+    <surname>Lamm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Mucosal immunology</title>
+  <meeting><address><addrLine>San Diego</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1999" />
+   <biblScope unit="page" from="1055" to="80" />
+  </imprint>
+ </monogr>
+ <note>2nd. edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Histological studies on the formal pathogenesis of the epithelioid cell granuloma in Crohn&apos;s disease</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Schmitz-Moormann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Pena AS Recent advances in Crohn&apos;s disease. Hague: Martinus Nijhoff</title>
+  <meeting><address><addrLine>Weterman IT, Booth CC</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="76" to="9" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Expression of osteopontin in Kupffer cells and hepatic macrophages and stellate cells in rat liver after carbon tetrachloride intoxication: a possible factor for macrophage migration into hepatic necrotic areas</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Kawashima</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mochida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Matsui</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem Biophys Res Commun</title>
+  <imprint>
+   <biblScope unit="volume">256</biblScope>
+   <biblScope unit="page" from="527" to="31" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Penicillium marneffei causes osteopontin-mediated production of interleukin-12 by peripheral blood mononuclear cells</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Koguchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kawakami</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Infect Immun</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="1042" to="8" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Interleukin 12 is expressed and actively released by Crohn&apos;s disease intestinal lamina propria mononuclear cells</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Monteleone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Biancone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Marasco</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="1169" to="78" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Hyperexpression of inducible costimulator and its contribution on lamina propria T cells in inflammatory bowel disease</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kanai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">126</biblScope>
+   <biblScope unit="page" from="829" to="39" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Nonclassical CD1d-restricted NK T cells that produce IL-13 characterize an atypical Th2 response in ulcerative colitis</title>
+  <author>
+   <persName>
+    <forename type="first">Ij</forename>
+    <surname>Fuss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Heller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Boirivant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Clin Invest</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page" from="1490" to="7" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">NOD2 is a negative regulator of Tolllike receptor 2-mediated T helper type 1 responses</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kitani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pj</forename>
+    <surname>Murray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nat Immunol</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="800" to="8" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Lack of common NOD2 variants in Japanese patients with Crohn&apos;s disease</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Inoue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Tamura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Kinouchi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gastroenterology</title>
+  <imprint>
+   <biblScope unit="volume">123</biblScope>
+   <biblScope unit="page" from="86" to="91" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

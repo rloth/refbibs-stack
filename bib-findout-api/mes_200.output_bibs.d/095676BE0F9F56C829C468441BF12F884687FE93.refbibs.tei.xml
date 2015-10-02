@@ -1,0 +1,3719 @@
+<TEI xml:id="istex-095676BE0F9F56C829C468441BF12F884687FE93">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">daily iron supplementation and intermittent sulfadoxinepyrimethamine for the treatment of mild childhood anemia in western Kenya</title>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Infectious Diseases</title>
+  <imprint>
+   <biblScope unit="volume">187</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="658" to="66" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Relation between the response to iron supplementation and sickle cell hemoglobin phenotype in preschool children in western Kenya</title>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Terlouw</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mr</forename>
+    <surname>Desai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ka</forename>
+    <surname>Wannemuehler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sk</forename>
+    <surname>Kariuki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Pfeiffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Kager</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="466" to="72" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Effect of oral supplementation with iron(III)-hydroxide polymaltose complex on the immunological profile of adolescents with varying iron status Impact of iron supplementation and deworming on growth performance in preschool Beninese children</title>
+  <author>
+   <persName>
+    <forename type="first">Pb</forename>
+    <surname>Devaki 2007 {published Data Only} Devaki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rk</forename>
+    <surname>Chandra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Geisser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>{published Data Only} Dossa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Ategbo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fl</forename>
+    <surname>De Koning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Van Raaij</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jg</forename>
+    <surname>Hautvast</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arzneimittel-Forschung (Drug Research) Dossa European Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">5755</biblScope>
+   <biblScope unit="issue">6a4</biblScope>
+   <biblScope unit="page" from="417" to="25223" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Multivitamin-multimineral and iron supplementation did not improve appetite of young stunted and anemic Beninese children</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Dossa 2001b {published Data Only} Dossa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Ategbo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Van Raaij</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>De Graaf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jg</forename>
+    <surname>Hautvast</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">131</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="2874" to="9" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Zinc-iron, but not zinc-alone supplementation, increased linear growth of stunted infants with low haemoglobin</title>
+  <author>
+   <persName>
+    <surname>Fahmida 2007 {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Unpublished Data} Fahmida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Js</forename>
+    <surname>Rumawas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Utomo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Patmonodewo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Schultink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Asia Pacific Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="301" to="9" />
+   <date type="published" when="2007" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Iron supplementation and malaria infection: results of a randomized controlled field trial. PhD dissertation Nutritional impact of antiparasitic drugs, prophylactic vitamin A and iron-folic acid on underprivileged school girls in India</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Gebresellassie 1996 {unpublished Data Only} Gebreselassie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>{published Data Only} Gopaldas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Raghavan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kanani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gopaldas Nutrition Research</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="831" to="44" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Nutritional impact of antiparasitic drugs, prophylactic vitamin A and iron-folic acid on underprivileged school girls in India Prophylactic iron supplementation for underpriviledged school boys. I. Two levels of dosing and efficacy of teacher-distributions</title>
+  <author>
+   <persName>
+    <forename type="first">1983ii</forename>
+    <surname>Gopaldas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Data Only} Gopaldas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Raghavan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kanani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nutrition Research Gopaldas Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">322</biblScope>
+   <biblScope unit="page" from="831" to="44731" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+ <note>{published. data only} * Gopaldas T, Kale M</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Prophylactic iron supplementation for underpriviledged school boys. III. Impact on submaximal work capacity</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Gopaldas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bhardwaj</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="745" to="52" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Prophylactic iron supplementation for underpriviledged school boys. II. Impact on selected tests of cognitive function</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Gopaldas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bhardwaj</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="737" to="43" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Mild anaemia in African school children: effect on running performance and an intervention trial A randomised trial in Mali of the effectiveness of weekly iron supplements given by teachers on the haemoglobin concentrations of schoolchildren</title>
+  <author>
+   <persName>
+    <surname>Greisen 1986 ( C ) {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+    <surname>Unpublished Data}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gc</forename>
+    <surname>Greisen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>{published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Unpublished</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Roschnik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Ouattara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Touré</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Maiga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Sacko</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Paediatrica Scandinavica Hall Public Health Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">755</biblScope>
+   <biblScope unit="issue">43</biblScope>
+   <biblScope unit="page" from="662" to="7413" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">The effect of iron therapy on malarial infection in Papua New Guinean schoolchildren</title>
+  <author>
+   <persName>
+    <forename type="first">Pw</forename>
+    <surname>Harvey 1989 {published Data Only} Harvey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pf</forename>
+    <surname>Heywood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Nesheim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Galme</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Zegans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jp</forename>
+    <surname>Habicht</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Tropical Medicine and Hygiene</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="12" to="8" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Treatment of iron deficiency in goitrous children improves the efficacy of iodized salt in Cote d&apos;Ivoire</title>
+  <author>
+   <persName>
+    <surname>Hess 2002 {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Unpublished</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sy</forename>
+    <surname>Hess</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mb</forename>
+    <surname>Zimmermann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Adou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Torresani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rf</forename>
+    <surname>Hurrell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">75</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="743" to="8" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The efficacy of micronutrient supplementation in reducing the prevalence of anaemia and deficiencies of zinc and iron among adolescents in Sri Lanka Reversal of developmental delays in irondeficient anaemic infants treated with iron</title>
+  <author>
+   <persName>
+    <surname>Hettiarachchi 2008 ( C ) {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Unpublished Data} Hettiarachchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Liyanage</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Wickremasinghe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dc</forename>
+    <surname>Hilmers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sa</forename>
+    <surname>Abrams</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">European Journal of Clinical Nutrition Lancet</title>
+  <imprint>
+   <biblScope unit="volume">62341</biblScope>
+   <biblScope unit="issue">78836</biblScope>
+   <biblScope unit="page" from="856" to="651" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Adverse effect of iron supplementation on weight gain of iron-replete young children</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Idjradinata</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">We</forename>
+    <surname>Watkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Pollitt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">343</biblScope>
+   <biblScope unit="issue">8908</biblScope>
+   <biblScope unit="page" from="1252" to="4" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Iron status of children aged 9-36 months in an urban slum integrated child development services project in Dehli</title>
+  <author>
+   <persName>
+    <surname>Kapur 2003 {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+    <surname>Unpublished Data}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kapur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kn</forename>
+    <surname>Agarwal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sharma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kela</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Kaur</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="136" to="44" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Dietary intake and growth pattern of children 9-36 months of age in an urban slum in Delhi</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kapur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sharma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kn</forename>
+    <surname>Agarwal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="351" to="6" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Effectiveness of nutrition education, iron supplementation or both on iron status in children</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kapur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sharma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kn</forename>
+    <surname>Agarwal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="issue">12</biblScope>
+   <biblScope unit="page" from="1131" to="44" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Hematinic supplementation and hematological status of underprivileged school girls (8 -15 years of age)</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Kashyap 1987 {published Data Only} * Kashyap</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Gopaldas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nutrition Research</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="1127" to="38" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Impact of iron supplementation on cognitive functions in preschool and school-aged children: the Indian experience</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Seshadri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Gopaldas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="675" to="86" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Effect of daily and intermittent iron supplementation on iron status of high school girls</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kianfar 1999 {published Data Only} Kianfar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kimiagar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ghaffarpour</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">International Journal for Vitamin and Nutrition Research</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="172" to="7" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Improvements in growth following iron supplementation in young Kenyan school children 1009 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration Iron supplementation improves appetite and growth in anemic Kenyan primary school children References to studies excluded from this review Abdelrazik Impact of long-term oral iron supplementation in breast-fed infants</title>
+  <author>
+   <persName>
+    <surname>Latham 1990 {published</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Unpublished</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Latham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ls</forename>
+    <surname>Stephenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sn</forename>
+    <surname>Kinoti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ms</forename>
+    <surname>Zaman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Km</forename>
+    <surname>Kurz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Lawless</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Latham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ls</forename>
+    <surname>Stephenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sn</forename>
+    <surname>Kinoti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Am</forename>
+    <surname>Pertet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nutrition Ltd. Evid.-Based Child Health Journal of Nutrition Indian Journal of Pediatrics</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <biblScope unit="volume">612474</biblScope>
+   <biblScope unit="issue">558</biblScope>
+   <biblScope unit="page" from="159" to="65" />
+   <date type="published" when="1990" />
+   <publisher>John Wiley &amp; Sons</publisher>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Home fortification of complementary foods with micronutrient supplements is well accepted and has positive effects on infant iron status in Ghana</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Adu-Afarwuah {published Data Only} Adu-Afarwuah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Lartey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kh</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Zlotkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Briend</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kg</forename>
+    <surname>Dewey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="929" to="38" />
+   <date type="published" when="2008" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Anemia prophylaxis in adolescent school girls by weekly or daily iron-folate supplementation Concomitant supplemental vitamin A enhances the response to weekly supplemental iron and folic acid in anemic teenagers in urban Bangladesh</title>
+  <author>
+   <persName>
+    <forename type="first">Kn</forename>
+    <surname>Agarwal 2003 {published Data Only} Agarwal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gomber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Bisht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Som</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Ahmed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mr</forename>
+    <surname>Khan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aa</forename>
+    <surname>Jackson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">4074</biblScope>
+   <biblScope unit="issue">41</biblScope>
+   <biblScope unit="page" from="296" to="301108" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Effect of consumption of micronutrient fortified candies on the iron and vitamin A status of children aged 3-6 years in rural Haryana</title>
+  <author>
+   <persName>
+    <forename type="first">Anand</forename>
+    <surname>2007 {published Data Only} Anand</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Lakshmy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Janakarajan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Vn</forename>
+    <surname>Ritvik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Misra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Pandey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="823" to="9" />
+   <date type="published" when="2007" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Weekly micronutrient supplementation to build iron 1012 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration stores in female Indonesian adolescents Anonymous 2006 {published data only} Anonymous. Iron supplementation: unexpected results of a clinical trial</title>
+  <author>
+   <persName>
+    <forename type="first">Angeles-Agdeppa</forename>
+    <surname>Angeles-Agdeppa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Schultink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Sastroamidjojo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Karyadi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Amancio OM, Magalhaes SM. Anemia reduction in preschool children with the addition of low doses of iron to school meals</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <date type="published" when="1997" />
+   <biblScope unit="page" from="967" to="1183177" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Dual fortification of salt with iron and iodine in women and children in rural Ghana</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Asibey-Berko {published Data Only} Asibey-Berko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sh</forename>
+    <surname>Zlotkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gs</forename>
+    <surname>Yeung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Nti-Nimako</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ahunu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kyei-Faried</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">East African Medical Journal</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="issue">10</biblScope>
+   <biblScope unit="page" from="473" to="80" />
+   <date type="published" when="2007" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Effect of iron fortification of flour on anemia in preschool children in Pelotas, Brazil [Efeito da fortificaçÄƒo de farinhas com ferro sobre anemia em pré–escolares Treatment with iron increases weight gain and psychomotor development</title>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Assunçäƒo 2007 {published Data Only} Assunção</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Is</forename>
+    <surname>Santos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aj</forename>
+    <surname>Barros</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dp</forename>
+    <surname>Gigante</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cg</forename>
+    <surname>Victora</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ya</forename>
+    <surname>Parks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ph</forename>
+    <surname>Scott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+    <surname>Wharton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Revista de Saúde Pública Aukett Archives of Disease in Childhood</title>
+  <imprint>
+   <biblScope unit="volume">4161</biblScope>
+   <biblScope unit="issue">49</biblScope>
+   <biblScope unit="page" from="539" to="48849" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Iron supplementation in prevention of severe anaemia and malaria Reduced erythrocyte superoxide dismutase activity in low birth weight infants given iron supplements</title>
+  <author>
+   <persName>
+    <forename type="first">Jk</forename>
+    <surname>Baird 1997 {published Data Only} Baird</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sl</forename>
+    <surname>Hoffman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sm</forename>
+    <surname>Barclay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pj</forename>
+    <surname>Aggett</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Lloyd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Duffty</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet Pediatric Research</title>
+  <imprint>
+   <biblScope unit="volume">35029</biblScope>
+   <biblScope unit="issue">90943</biblScope>
+   <biblScope unit="page" from="297" to="301" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Effect of supplementary vitamins and iron on malaria indices in rural Gambian children</title>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Bates 1987 {published Data Only} Bates</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hj</forename>
+    <surname>Powers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wh</forename>
+    <surname>Lamb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Gelman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transactions of the Royal Society of Tropical Medicine and Hygiene</title>
+  <imprint>
+   <biblScope unit="volume">81</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="286" to="91" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">The impact of weekly iron supplementation on the iron status and growth of adolescent girls in Tanzania</title>
+  <author>
+   <persName>
+    <surname>Beasley 2000 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nm</forename>
+    <surname>Beasley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Am</forename>
+    <surname>Tomkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Lorri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Kihamia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Bundy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tropical Medicine and International Health</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="794" to="9" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Therapy of juvenile iron deficiency with bivalent iron dragees (Fe2-fumarate, succinate, sulfate) Controlled doubleblind study</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Bender-Gotze {published Data Only} Bender-Götze</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Therapie des Eisen–Mangels bei Kindern Fortschritte Der Medizin</title>
+  <imprint>
+   <biblScope unit="volume">98</biblScope>
+   <biblScope unit="issue">15</biblScope>
+   <biblScope unit="page" from="2" to="2" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Iron deficiency, cell-mediated immunity and infection among 6- 36 month old children living in rural Togo Management of severe malarial anaemia in Gambian children</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Berger 1992 {published Data Only} Berger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Schneider</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Dyck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Joseph</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Aplogan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Galan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nutrition Research Bojang Transactions of the Royal Society of Tropical Medicine and Hygiene</title>
+  <imprint>
+   <biblScope unit="volume">1291</biblScope>
+   <biblScope unit="issue">15</biblScope>
+   <biblScope unit="page" from="39" to="49557" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Effect of lowlevel iron and vitamin supplementation on a tropical anemia</title>
+  <author>
+   <persName>
+    <forename type="first">*</forename>
+    <surname>Bradfield 1968 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rb</forename>
+    <surname>Bradfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mv</forename>
+    <surname>Jensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Gonzales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Garrayar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="57" to="67" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Effects of low levels of iron and trace elements on hematological values of parasitized school children</title>
+  <author>
+   <persName>
+    <forename type="first">Rb</forename>
+    <surname>Bradfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mv</forename>
+    <surname>Jensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Quiroz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Gonzales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Garrayar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Hernandez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="68" to="77" />
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Randomised study of cognitive effects of iron supplementation in non-anaemic iron-deficient adolescent girls</title>
+  <author>
+   <persName>
+    <surname>Bruner 1996 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ab</forename>
+    <surname>Bruner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Joffe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Duggan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jf</forename>
+    <surname>Casella</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Brandt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">348</biblScope>
+   <biblScope unit="issue">9033</biblScope>
+   <biblScope unit="page" from="992" to="6" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Chronic iron intake and diarrhoeal disease in infants. A field study in a lessdeveloped country</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Brunser 1993 {published Data Only} Brunser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Espinoza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Araya</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Pacheco</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Cruchet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">European Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Reduction of the efficacy of antifolate antimalarial therapy by folic acid supplementation</title>
+  <author>
+   <persName>
+    <surname>Carter 2005 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jy</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mp</forename>
+    <surname>Loolpapit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Oe</forename>
+    <surname>Lema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jl</forename>
+    <surname>Tome</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Nagelkerke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wm</forename>
+    <surname>Watkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Tropical Medicine and Hygiene</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="166" to="70" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Cluster randomised trial of intermittent preventive treatment for malaria in infants in area of high, seasonal transmission in Ghana</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Chandramohan 2005 {published Data Only} Chandramohan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Owusu-Agyei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Carneiro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Awine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Amponsa-Achiano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Mensah</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">BMJ</title>
+  <imprint>
+   <biblScope unit="volume">331</biblScope>
+   <biblScope unit="issue">7519</biblScope>
+   <biblScope unit="page" from="727" to="33" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Short-term effects of vitamin A and antimalarial treatment on erythropoiesis in severely anemic Zanzibari preschool children</title>
+  <author>
+   <persName>
+    <surname>Cusick 2005 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Se</forename>
+    <surname>Cusick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Tielsch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ramsan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jk</forename>
+    <surname>Jape</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sazawal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Re</forename>
+    <surname>Black</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="406" to="12" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Cognitive deficits in iron-deficient and iron-deficient anemic children</title>
+  <author>
+   <persName>
+    <forename type="first">As</forename>
+    <surname>Deinard 1986 {published Data Only} Deinard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>List</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lindgren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jv</forename>
+    <surname>Hunt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pn</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">108</biblScope>
+   <biblScope unit="issue">5 pt 1</biblScope>
+   <biblScope unit="page" from="681" to="9" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Daily iron supplementation is more efficacious than twice weekly iron supplementation for the treatment of childhood anemia in western Kenya</title>
+  <author>
+   <persName>
+    <surname>Desai 2004 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mr</forename>
+    <surname>Desai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Dhar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dh</forename>
+    <surname>Rosen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sk</forename>
+    <surname>Kariuki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yp</forename>
+    <surname>Shi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Kager</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">134</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="1167" to="74" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Iron supplementation affects growth and morbidity of breast-fed infants: results of a randomized trial in Sweden and Honduras</title>
+  <author>
+   <persName>
+    <forename type="first">Kg</forename>
+    <surname>Dewey 2002 {published Data Only} Dewey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Domellöf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Landa</forename>
+    <surname>Rivera</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Hernell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Lönnerdal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="3249" to="55" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">Effects of iron and zinc supplementation in Indonesian infants on 1013 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration micronutrient status and growth</title>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Dijkhuizen 2001 {published Data Only} Dijkhuizen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ft</forename>
+    <surname>Wieringa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ce</forename>
+    <surname>West</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Martuti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Muhilal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ltd. Evid.-Based Child Health Journal of Nutrition</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <biblScope unit="volume">5131</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="967" to="11832860" />
+   <date type="published" when="2001" />
+   <publisher>John Wiley &amp; Sons</publisher>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Integrated treatment of iron deficiency, vitamin A deficiency and intestinal parasitic diseases: impact on Senegalese children&apos;s growth [Traitement integre de la carence en fer, de l&apos;avitaminose A et des parasitoses intestinales: impact sur la croissance des enfants senegalais]</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Diouf 2002 {published Data Only} Diouf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Diagne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Moreira</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sy</forename>
+    <surname>Signate</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Faye</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Ndiaye</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Archives of Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="102" to="3" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">Iron supplementation of breast-fed Honduran and Swedish infants from 4 to 9 months of age</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Domelloff 2001 {published Data Only} Domellöf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kg</forename>
+    <surname>Dewey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Hernell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ll</forename>
+    <surname>Rivera</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lönnerdal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">138</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="679" to="87" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Micronutrient and iron supplementation and effective antimalarial treatment synergistically improve childhood anaemia</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ekvall 2000 {published Data Only} Ekvall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Premji</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bjorkman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tropical Medicine and International Health</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">10</biblScope>
+   <biblScope unit="page" from="696" to="705" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Effectiveness of daily and weekly iron supplementation in the prevention of anemia in infants</title>
+  <author>
+   <persName>
+    <forename type="first">Em</forename>
+    <surname>Engstrom 2008 {published Data Only} Engstrom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ir</forename>
+    <surname>De Castro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Portela</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lo</forename>
+    <surname>Cardoso</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ca</forename>
+    <surname>Monteiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Revista Saude Publica</title>
+  <imprint>
+   <date type="published" when="2008-10-42" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Iron supplementation of the diet in full-term infants: a controlled study</title>
+  <author>
+   <persName>
+    <forename type="first">Jh</forename>
+    <surname>Fuerth 1972 {published Data Only} Fuerth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">80</biblScope>
+   <biblScope unit="issue">6</biblScope>
+   <biblScope unit="page" from="974" to="9" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Double-blind, placebo-controlled trial comparing effects of supplementation with two different combinations of micronutrients delivered as sprinkles on growth, anemia, and iron deficiency in Cambodian infants</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Giovannini 2006 {published Data Only} Giovannini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Sala</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Usuelli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Livio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Francescato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Braga</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Pediatric Gastroenterology and Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="306" to="12" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Prevalence &amp; etiology of nutritional anaemias in early childhood in an urban slum</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gomber 1998 {published Data Only} Gomber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kumar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Rusia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gupta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kn</forename>
+    <surname>Agarwal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sharma</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Indian Journal of Medical Research</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="269" to="73" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Gomes</title>
+  <imprint>
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">The prevention of malaria and anaemia in infants through iron supplementation and intermittent malaria treatment administered through the expanded programme on immunization scheme (Tanzania) Trial registry: ISRCTN88523834. Greisen 1986 {published data only} Greisen G. Mild anaemia in African school children: effect on running performance and an intervention trial Effects of an iron supplementation trial on the Fe status of Thai schoolchildren</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">*</forename>
+    <surname>Gomes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hathirat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Valyasevi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Kotchabhakdi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Rojroongwasinkul</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Pollitt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Paediatrica Scandinavica British Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">7568</biblScope>
+   <biblScope unit="issue">41</biblScope>
+   <biblScope unit="page" from="662" to="7" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Iron deficiency and educational achievement in Thailand</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Pollitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hathirat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nj</forename>
+    <surname>Kotchabhakdi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Missell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Valyasevi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">International Conference on Iron Deficiency and Behavioral Development</title>
+  <imprint>
+   <date type="published" when="1989" />
+   <biblScope unit="page" from="687" to="97" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Behavioral effects of iron supplementation in infants in Madang, Papua New Guinea Low dose sprinkles -an innovative approach to treat iron deficiency anemia in infants and young children</title>
+  <author>
+   <persName>
+    <forename type="first">Heywood</forename>
+    <surname>1989 {published Data Only} Heywood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Oppenheimer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Heywood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Jolley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Data Only} Hirve</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Bhave</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Bavdekar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Naik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pandit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Schauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">American Journal of Clinical Nutrition Indian Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="630" to="7" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">Developmental scores of iron deficient infants and the effects of therapy Field work on the effects of iron supplementation A multiple-micronutrient-fortified beverage affects hemoglobin, iron, and vitamin A status and growth in adolescent girls in rural Bangladesh</title>
+  <author>
+   <persName>
+    <forename type="first">As</forename>
+    <surname>Honig 1978 {published Data Only} Honig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fa</forename>
+    <surname>Oski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>{published Data Only} Hussen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Hassen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Salem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Scrimshaw</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Keresche</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Pollit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sm</forename>
+    <surname>Hyder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Haseen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Khan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Schaetzel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cs</forename>
+    <surname>Jalal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rahman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">XIII International Congress of Nutrition. Brigntom: England, Abstract Book P129</title>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="1682147" to="53" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">Improved adherence and anaemia cure rates with flexible administration of micronutrient Sprinkles: a new public health approach to anaemia control</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ip 2009 {published Data Only} Ip</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sm</forename>
+    <surname>Hyder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Haseen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rahman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sh</forename>
+    <surname>Zlotkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">European Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="165" to="72" />
+   <date type="published" when="2009" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Isager 1974 {published data only} Isager H. Iron deficiency, growth, and stimulated erythropoiesis</title>
+ </analytic>
+ <monogr>
+  <title level="j">Scandinavian Journal of Haematology. Supplementum</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="1" to="176" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">On the treatment of iron deficiency anemia in childhood</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Jacobi 1972 {published Data Only} Jacobi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Witt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Zur Behandlung der Eisenmangelanämie im Kindesalter]. Die Medizinische Welt</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page" from="228" to="31" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <analytic>
+  <title level="a" type="main">Supplementation with iron and folic acid enhances growth in adolescent Indian girls</title>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Kanani 2000 {published Data Only} Kanani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rh</forename>
+    <surname>Poojara</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">130</biblScope>
+   <biblScope unit="page" from="452" to="5" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+ <note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <analytic>
+  <title level="a" type="main">On the therapy of anemia due to infection in children</title>
+ </analytic>
+ <monogr>
+  <title level="j">Munchener Medizinische Wochenschrift</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="issue">38</biblScope>
+   <biblScope unit="page" from="1835" to="8" />
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+ <note>Uber. die Therapie der Infektanamie des Kindesalters</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">Hookworm infection and anaemia: a study of metrifonate treatment and of iron intakes in Kenyan children Changes in haemoglobin levels in infants in Malawi: 1014 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration effect of low birth weight and fetal anaemia</title>
+  <author>
+   <persName>
+    <forename type="first">Km</forename>
+    <surname>Kurz 1985 {unpublished Data Only} Kurz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Le Cessie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fh</forename>
+    <surname>Verhoeff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Mengistie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Kazembe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Broadhead</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bj</forename>
+    <surname>Brabin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">M.S. thesis Ltd. Evid.-Based Child Health Archives of Disease in Childhood. Fetal and Neonatal Edition</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <biblScope unit="volume">586</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="967" to="1183" />
+   <date type="published" when="1985" />
+   <publisher>John Wiley &amp; Sons</publisher>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">The effect of iron fortification and de-worming on anaemia and iron status of Vietnamese school children</title>
+  <author>
+   <persName>
+    <forename type="first">Le</forename>
+    <surname>Huong 2007 {published Data Only} Le Huong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Brouwer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Id</forename>
+    <surname>Nguyen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kc</forename>
+    <surname>Burema</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kok</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">British Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <biblScope unit="issue">5</biblScope>
+   <biblScope unit="page" from="955" to="62" />
+   <date type="published" when="2007" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">Impact of weekly treatment with ferrous sulfate on hemoglobin level, morbidity and nutritional status of anemic infants</title>
+  <author>
+   <persName>
+    <forename type="first">Ac</forename>
+    <surname>Lima 2006 {published Data Only} Lima</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Lima</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mq</forename>
+    <surname>Guerra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sa</forename>
+    <surname>Romani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sh</forename>
+    <surname>Eickmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pi</forename>
+    <surname>Lira</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Jornal de Pediatria</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="issue">6</biblScope>
+   <biblScope unit="page" from="452" to="7" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <analytic>
+  <title level="a" type="main">Intermittent iron supplementation in Chinese preschool children is efficient and safe</title>
+  <author>
+   <persName>
+    <surname>Liu 1995 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Xn</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Kang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Zhao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fe</forename>
+    <surname>Viteri</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Food and Nutrition Bulletin</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="139" to="46" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">The effectiveness of weekly iron supplementation regimen in improving the iron status of Chinese children and pregnant women</title>
+  <author>
+   <persName>
+    <surname>Liu 1996 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Xn</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Py</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biomedical and Environmental Sciences</title>
+  <imprint>
+   <publisher>BES</publisher>
+   <date type="published" when="1996" />
+   <publisher>BES</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <analytic>
+  <title level="a" type="main">The effects of short term oral iron therapy on developmental deficits in iron-deficient anemic infants</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lozoff 1982 {published Data Only} * Lozoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gm</forename>
+    <surname>Brittenham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fe</forename>
+    <surname>Viteri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aw</forename>
+    <surname>Wolf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Urrutia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">100</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="351" to="7" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title level="a" type="main">Iron deficiency anemia and iron therapy effects on infant developmental test performance Behavioral and developmental effects of preventing iron-deficiency anemia in healthy full-term infants</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Lozoff</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gm</forename>
+    <surname>Brittenham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aw</forename>
+    <surname>Wolf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dk</forename>
+    <surname>Mcclish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pm</forename>
+    <surname>Kuhnert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Jimenez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pediatrics Pediatrics</title>
+  <imprint>
+   <biblScope unit="volume">79112</biblScope>
+   <biblScope unit="issue">64</biblScope>
+   <biblScope unit="page" from="981" to="95" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title level="a" type="main">Growth and micronutrient status in children receiving a fortified complementary food</title>
+  <author>
+   <persName>
+    <surname>Lutter 2008 {published Data Only}</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ck</forename>
+    <surname>Lutter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rodriguez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Fuenmayor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Avila</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Sempertegui</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Escobar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">138</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="379" to="88" />
+   <date type="published" when="2008" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title level="a" type="main">Intake of an iron-supplemented milk formula as a preventive measure to avoid low iron status in 1-3 year-olds Nutritional problems of infants in Kilosa district, rural Tanzania, and appropriate interventions</title>
+  <author>
+   <persName>
+    <surname>Maldonado 2007 {published Data Only} Maldonado</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Lozano</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Baro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Ramirez-Tortosa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Gil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Linde</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Lopez-Huertas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anales de Pediatría Mededelingen</title>
+  <imprint>
+   <biblScope unit="volume">6666</biblScope>
+   <biblScope unit="issue">64</biblScope>
+   <biblScope unit="page" from="591" to="6" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title level="a" type="main">Anaemia in Thai children: the effect of iron supplement on haemoglobin and growth</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Migasena 1972 {published Data Only} Migasena</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Di</forename>
+    <surname>Thurnham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Jintakanon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Pongpaew</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Southeast Asian Journal of Tropical Medicine and Public Health</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="255" to="61" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">Long-term oral supplementation with iron is not harmful for young children in a poor community of Bangladesh</title>
+  <author>
+   <persName>
+    <forename type="first">Mitra</forename>
+    <surname>1997 {published Data Only} Mitra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ak</forename>
+    <surname>Akramuzzaman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sm</forename>
+    <surname>Fuchs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Rahman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mm</forename>
+    <surname>Mahalanabis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">127</biblScope>
+   <biblScope unit="issue">8</biblScope>
+   <biblScope unit="page" from="1451" to="5" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title level="a" type="main">Sensorial evaluation of nutritional supplements (PROGRESA) enriched with 3 different forms of iron in a rural Mexican community</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Morales 2008 {published Data Only} Morales</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Vargas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Cassis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Sanchez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Villalpando</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Food Science</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="1" to="5" />
+   <date type="published" when="2008" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <analytic>
+  <title level="a" type="main">Iron fortified follow on formula from 9 to 18 months improves iron status but not development or growth: a randomised trial References to studies awaiting assessment Browne Intermittent malaria treatment and iron supplementation protoporphyrin as indicators of iron status in African children</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Morley 1999 {published Data Only} Morley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Abbott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Fairweather-Tait</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Macfadyen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Stephenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lucas</forename>
+    <forename type="middle">A</forename>
+    <surname>Browne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Bam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Agyei-Baffour</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Boateng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sawyerr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mensah</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Archives of Disease in Childhood American Journal of Clinical Nutrition</title>
+  <imprint>
+   <biblScope unit="volume">8181</biblScope>
+   <biblScope unit="issue">33</biblScope>
+   <biblScope unit="page" from="247" to="52615" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <monogr>
+  <title level="m" type="main">Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration Published by John Wiley &amp; Sons, Ltd. 1. Iron: ferrous sulphate tablets Placebo: 75% cellulose, 25% lactose tablets Duration of treatment:16 weeks Duration of follow up: 24 weeks Outcomes Main objective/outcome: To investigate the effects of iron therapy and changes in iron status on malarial infection in children with mild to moderate iron deficiency and some immunity to malaria Review outcomes reported in the trial: 1. Malaria</title>
+  <imprint/>
+ </monogr>
+ <note>clinical. and uncomplicated) 2. Haemoglobin (end and change</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <monogr>
+  <title level="m" type="main">Adherence 1049 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration</title>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <pubPlace>Ltd</pubPlace>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <monogr>
+  <title level="m" type="main">Zinc: zinc methionine, 20 mg elemental zinc daily 5 days per week 3. Iron + zinc (administration as described above) 4. Placebo Duration of treatment: 12 months Duration of follow up: 12 months 1078 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration</title>
+  <imprint/>
+ </monogr>
+ <note>Published. by John Wiley &amp; Sons, Ltd</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <monogr>
+  <title level="m" type="main">Clinical malaria</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <monogr>
+  <title level="m" type="main">Subtotals only 1.1 Iron + antimalarial vs</title>
+  <author>
+   <persName>
+    <forename type="first">Risk</forename>
+    <surname>Ratio ( M-H</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">95%</forename>
+    <surname>Fixed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ci</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="95" to="0" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <monogr>
+  <title level="m" type="main">All-cause mortality</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <monogr>
+  <title level="m" type="main">Subtotals only 2.1 Iron + antimalarial vs. placebo 3 728 Risk Ratio (M-H, Fixed, 95% CI) 1</title>
+  <author>
+   <persName>
+    <forename type="first">Risk</forename>
+    <surname>Ratio ( M-H</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">95%</forename>
+    <surname>Fixed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ci</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="05" to="0" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Heterogeneity</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="2" to="2" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <monogr>
+  <title level="m" type="main">Iron + folic acid vs. placebo, hypo or mesoendemic Gopaldas 1983I 18 10</title>
+  <imprint>
+   <biblScope unit="page" from="19" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <surname>Heterogeneity</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="2" to="0" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+ <monogr>
+  <title level="m" type="main">Clinic visit, iron vs. placebo Massaga</title>
+  <imprint>
+   <date type="published" when="2003" />
+   <biblScope unit="page" from="432" to="0" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Clinic</title>
+  <imprint>
+   <biblScope unit="volume">768</biblScope>
+   <biblScope unit="page" from="705" to="0" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Clinic</title>
+  <imprint>
+   <biblScope unit="page" from="432" to="432" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Clinic</title>
+  <imprint>
+   <biblScope unit="page" from="438" to="432" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>I S T O R Y</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2009" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>O N T R I B U T I O N S O F A U T H O R S</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+ <monogr>
+  <title level="m" type="main">conceived the idea for the review, wrote the protocol, identified studies for inclusion/exclusion, extracted the data, entered data to RevMan, participated in data analysis, and reviewed all drafts and the final review</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Juliana</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ojukwu</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+ <monogr>
+  <title level="m" type="main">wrote the protocol, identified studies for inclusion/exclusion, extracted the data, entered data to RevMan, participated in data analysis, and reviewed all drafts and the final review</title>
+  <author>
+   <persName>
+    <forename type="first">Joseph</forename>
+    <surname>Okebe</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+ <monogr>
+  <title level="m" type="main">extracted the data from all included studies, entered data to RevMan, participated in data analysis, and reviewed all drafts and the final review</title>
+  <author>
+   <persName>
+    <forename type="first">Dafna</forename>
+    <surname>Yahav</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+ <monogr>
+  <title level="m" type="main">1182 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration</title>
+  <author>
+   <persName>
+    <forename type="first">Mical</forename>
+    <surname>Paul</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <pubPlace>Ltd</pubPlace>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+ <monogr>
+  <title level="m" type="main">Humans 1183 Oral iron supplementation for preventing or treating anaemia among children in malaria-endemic areas (Review) Copyright © 2009 The Cochrane Collaboration</title>
+  <author>
+   <persName>
+    <surname>Child</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Child</surname>
+   </persName>
+  </author>
+  <imprint>
+   <publisher>John Wiley &amp; Sons</publisher>
+   <pubPlace>Ltd</pubPlace>
+  </imprint>
+ </monogr>
+ <note>Published. by</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

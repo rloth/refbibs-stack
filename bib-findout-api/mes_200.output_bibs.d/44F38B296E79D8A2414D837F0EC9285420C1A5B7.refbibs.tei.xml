@@ -1,0 +1,182 @@
+<TEI xml:id="istex-44F38B296E79D8A2414D837F0EC9285420C1A5B7">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The measurement and recording of the heat flux into the soil Quart</title>
+  <author>
+   <persName>
+    <forename type="first">Deacon</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Roy Meteoml Soc</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="479" to="483" />
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Evaporatmn sources and apparent d~ffus~vmes m a forest canopy</title>
+  <author>
+   <persName>
+    <forename type="first">Denmead</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Appl Metemol</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="383" to="389" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">A strip net radiometer</title>
+  <author>
+   <persName>
+    <forename type="first">Denmead</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Au~ttahan J. In~tl Control</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page">61</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">P, 1959 hnproved polythene-shlelded net radiometer J Su htst</title>
+  <author>
+   <persName>
+    <forename type="first">Funk</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="36" to="267" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Photosynthesis under field condlnons II An aerodynamic method for determining the turbulent carbon d~ox~de exchange between the atmosphere and a corn field A eton J</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Lemon</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1960" />
+   <biblScope unit="page" from="697" to="703" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Evaporation an introductory sur,cey ?veth J</title>
+  <author>
+   <persName>
+    <forename type="first">Penm</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1956" />
+   <biblScope unit="page">29</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Agrtcultutal Phy.stcs</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Long-wave radmnon from clear skJes Quart J R~O&apos; Metemol 5o~</title>
+  <meeting><address><addrLine>Oxford</addrLine></address></meeting>
+  <imprint>
+   <publisher>Pergamon Press</publisher>
+   <date type="published" when="1963" />
+   <biblScope unit="page" from="339" to="348" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Agr Meteolol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="issue">357</biblScope>
+   <biblScope unit="page">37</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

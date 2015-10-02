@@ -1,0 +1,1507 @@
+<TEI xml:id="istex-EED036C2A078D8E07A75CF08D702EA0EABF7F6F1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Depositional sequence of argillite, diamictite, hyaloclastite, and lava flows within the Franciscan Complex, northern California</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">R</forename>
+    <surname>Aalto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geol</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page" from="744" to="752" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Mesozoic and early Cenozoic magmatic evolution of the Canadian Cordillera</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Armstrong</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spec. Pap. Geol. Soc. Am</title>
+  <imprint>
+   <biblScope unit="volume">218</biblScope>
+   <biblScope unit="page" from="55" to="91" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Stratigraphy along the west side of Harrison Lake, southwestern British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Arthur</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pap. Geol. Surv. Can</title>
+  <imprint>
+   <biblScope unit="page" from="86" to="1" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Karmutsen Formation, Queen Charlotte Is. and Vancouver Is.: An arcrift ferrotholeiite of Wrangellia (abstract)</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Barker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Plafker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A. Sutherland</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. of Am</title>
+  <imprint>
+   <publisher>Abstr. Programs</publisher>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="issue">340</biblScope>
+   <date type="published" when="1985" />
+   <publisher>Abstr. Programs</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Deformational processes affecting unlithified sediments at active margins: A field study and a structural model</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Univ. of Wash</publisher>
+   <pubPlace>Seattle</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Mesozoic m61ange of the Pacific Rim Complex, western Vancouver Island, in Field Guides to Geology and Mineral Deposits in the Southern Canadian Cordillera (Geological Society of America Cordilleran Section Meeting): Vancouver, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Ottawa</title>
+  <editor>D. Tempelman-Kluit</editor>
+  <imprint>
+   <publisher>Geological Survey of Canada</publisher>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="7" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Deformational styles in a sequence of olistostromal m61anges</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. Am. Bull</title>
+  <imprint>
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Geology of the San Juan-Cascade nappes, Northwestern Cascade Range and San Juan Islands, in Geologic Guidebook for Washington and Adjacent Areas</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Information Circular 86 Washington Division of Geology and Earth Resources</title>
+  <editor>N. L. Joseph et al.</editor>
+  <meeting><address><addrLine>Olympia</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1989" />
+   <biblScope unit="page" from="137" to="162" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The Late Cretaceous San Juan Islands-Northwestern Cascades Thrust System (abstract)</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. Am. Abstr. Programs</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page">343</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">The Late Cretaceous San Juan thrust system</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Vance</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. Am</title>
+  <imprint>
+   <biblScope unit="volume">221</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Bernardi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W</forename>
+    <surname>Christenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Cruver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Haugerud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Rady</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">N</forename>
+    <surname>Sondergaard</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Metamorphic facies and tectonics in part of the Cascade Range and Puget Lowland, northwestern Washington</title>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="170" to="178" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Geologic map of the northwest Cascades</title>
+  <meeting><address><addrLine>Washington, Map and Chart Ser., MC-61, scale ; Boulder, Colo</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1987" />
+   <biblScope unit="page">100</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Early deformation in m61ange terranes of the Ghost Rocks Formation, Kodiak Islands</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Byrne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Alaska: Spec. Pap. Geol. Soc. Am</title>
+  <imprint>
+   <biblScope unit="volume">198</biblScope>
+   <biblScope unit="page" from="21" to="52" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Pillow breccias and their aquagene tuffs, Quadra Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Carlisle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geol</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="48" to="71" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Emergent basalt and submergent carbonate-clastic sequences including the Upper Triassic Dilleri and Welleri Zones on Vancouver Island</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Carlisle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Susuki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. of Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="254" to="279" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">LITHOPROBE -southern Vancouver Island: Cenozoic subduction complex imaged by deep seismic reflections</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Clowes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G</forename>
+    <surname>Green</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Yorath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">Sutherland</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Kanasewich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Spencer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="31" to="51" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Coleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ophiolites</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Springer-Verlag</publisher>
+   <biblScope unit="page">229</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Structural styles in Mesozoic and Cenozoic m61anges in the western Cordillera of North America</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. Am. Bull</title>
+  <imprint>
+   <biblScope unit="volume">96</biblScope>
+   <biblScope unit="page" from="451" to="462" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Danner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Stratigraphic reconnaissance in the northwestern Cascade Mountains and San Juan Islands of Washington State</title>
+  <meeting><address><addrLine>Seattle</addrLine></address></meeting>
+  <imprint>
+   <publisher>Univ. of Wash</publisher>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Sedimentary basins developed during the evolution of Mesozoic-Cenozoic arc-trench system in western North America</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Dickinson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="1268" to="1287" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">Geology of the Kennedy Lake area</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E P</forename>
+    <surname>Eastwood</surname>
+   </persName>
+  </author>
+  <imprint>
+   <pubPlace>Vancouver Island, British Columbia, British Columbia @BULLET @BULLET 36</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Igneous Rocks in M61anges, Western Vancouver Island Department of Mines and Petroleum Resources</title>
+  <author>
+   <persName>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page">63</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Structure, petrology, and tectonic history of the Leech River complex northwest of Victoria</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">H</forename>
+    <surname>Fairchild</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="1817" to="1835" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Criteria for the identification of ancient volcanic arcs</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">O</forename>
+    <surname>Garcia</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth Sci. Rev</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="147" to="165" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Gill</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Orogenic Andesires and Plate Tectonics</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1981" />
+   <biblScope unit="page">390</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">The Fidalgo Ophiolite, in Centennial Field Guide</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Gusey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <editor>M. L. Hill</editor>
+  <imprint>
+   <date type="published" when="1987" />
+   <publisher>Geological Society of America</publisher>
+   <biblScope unit="page" from="389" to="392" />
+   <pubPlace>Boulder</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Petrology of back-arc basins and island arcs: Their possible role in the origin of ophiolites, in Ophiolites</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the International Ophiolite Symposium</title>
+  <meeting>the International Ophiolite Symposium<address><addrLine>Nicosia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cyprus Geological Survey Department</publisher>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="244" to="254" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hekinian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Petrology of the Ocean Floor, 393 pp</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Elsevier</publisher>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Submarine glide blocks from the Lower Cretaceous of the Antarctic Peninsula</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Ineson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sedimentology</title>
+  <imprint>
+   <biblScope unit="volume">32</biblScope>
+   <biblScope unit="page" from="659" to="670" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Geologic map of western Chichagof and Yakobi Islands, southeastern Alaska, 15 pp., scale 1:125,000</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">R</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">U.S. Geol. Surv. Misc. Invest. Ser. Map</title>
+  <imprint>
+   <biblScope unit="volume">1506</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Blake Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Bailey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Mclaughlin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Distribution and character of upper Mesozoic subruction complexes along the west coast of North America, Tectonophysics</title>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="207" to="222" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">V</forename>
+    <surname>Kent</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Gradstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Cretaceous</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jurassic</forename>
+    <surname>Geochronology</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Soc. Am. Bull</title>
+  <imprint>
+   <biblScope unit="volume">96</biblScope>
+   <biblScope unit="page" from="1419" to="1427" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title level="m" type="main">Petrology of the Karmutsen Group, northeastern Vancouver Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kuniyoshi</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <publisher>252 pp., Univ. of Calif</publisher>
+   <pubPlace>Los Angeles</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Hope map-area, west half, British Columbia: Pap</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W H</forename>
+    <surname>Monger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Sur. Can</title>
+  <imprint>
+   <biblScope unit="page" from="69" to="47" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Tectonic accretion and the origin of two major metamorphic and plutonic welts in the Canadian Cordillera</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W H</forename>
+    <surname>Monger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Price</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Tempelman-Kluit</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geology</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="70" to="75" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">P205: A minor element discriminant for basaltic rocks of oceanic environments and its implications for petrogenesis</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Mullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">/</forename>
+    <surname>Mno</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Tio2</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth Planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="53" to="62" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Chemistry and petrology of some Mesozoic volcanic rocks of Vancouver Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pap. Geol. Sur. Can</title>
+  <imprint>
+   <biblScope unit="page" from="71" to="1" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Geology of Pacific Rim National Park</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pap. Geol. Sur. Can</title>
+  <imprint>
+   <biblScope unit="page" from="73" to="1" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Evolution of the Pacific Margin, Vancouver Island, and adjacent regions</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="2062" to="2085" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Geology of Vancouver Island, scale 1:250,000</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geol. Sur. Can. Open File Map</title>
+  <imprint>
+   <biblScope unit="volume">463</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Geology and mineral deposits of Alert-Cape Scott map-area, Vancouver Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Northcote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Carlisle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pap. Geol. Sur. Can</title>
+  <imprint>
+   <biblScope unit="page" from="74" to="8" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Geology and mineral deposits of Nootka Sound map-area, Vancouver Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">E B</forename>
+    <surname>Cameron</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Northcote</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pap. Geol. Sur. of Can</title>
+  <imprint>
+   <biblScope unit="page" from="80" to="16" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <monogr>
+  <title level="m" type="main">Sedimentology and tectonic history of the Esowista and Ucluth Peninsulas, west coast, Vancouver Island, British Columbia</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Page</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1974" />
+   <publisher>Univ. of Wash</publisher>
+   <biblScope unit="page">72</biblScope>
+   <pubPlace>Seattle</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Basalt geochemistry used to investigate past tectonic environments on Cyprus</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tectonophysics</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="41" to="67" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">A &quot;user guide&quot; to basalt discrimation diagrams</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Geochemistry of Oceanic Basalts</title>
+  <editor>J. Tarney</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Wiley and Sons</publisher>
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">Tectonic setting of basic volcanic rocks determined using trace element analyses</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Cann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth Planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="290" to="300" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Petrogenetic implications of Ti, Zr, Y, and Nb variations in volcanic rocks</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pearce</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Norry</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Contrib. Mineral Petrol</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="33" to="47" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Depositional characteristics of a submarine debris flow</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Prior</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">D</forename>
+    <surname>Bornold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Johns</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Geol</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="707" to="727" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Jurassic-Cretaceous rock units along the southern edge of the Wrangellia terrane on Vancouver Island</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Rusmore</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Cowan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Earth Sci</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="1223" to="1232" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">A petrologic and tectonic comparison of the Hell&apos;s Canyon area, Oregon-Idaho, and Vancouver Island</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Scheffier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">British Columbia, M.S. thesis, 98 pp</title>
+  <meeting><address><addrLine>Pullman</addrLine></address></meeting>
+  <imprint>
+   <publisher>Wash. State Univ</publisher>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">Ti-V plots and the petrogenesis of modern and ophiolitic lavas</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Shervais</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth Planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="101" to="118" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">Geology of the Brooks Peninsula, Vancouver Island, Preliminary Reports of Activities</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Smyth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit. Colombia Minist. of Energy, Mines, and Pet. Resour</title>
+  <imprint>
+   <biblScope unit="page" from="161" to="170" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Wells</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Engebretson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Snavely</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Coe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Cenozoic plate motions and the volcano-tectonic evolution of western Oregon and</title>
+  <meeting><address><addrLine>Washington, Tectonics</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="275" to="294" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Bedrock geologic map of the Port Townsend quadrangle</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Whetten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Gower</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Carroll</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">U.S. Geol. Surv. Misc. Invest. Ser. Map</title>
+  <imprint>
+   <biblScope unit="volume">1000</biblScope>
+   <biblScope unit="page" from="100" to="1" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">The relative roles of crust and upper mantle in the generation of oceanic island arc magmas</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Davidson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Philos. Trans. R. Soc. London, Ser. A</title>
+  <imprint>
+   <biblScope unit="volume">310</biblScope>
+   <biblScope unit="page" from="667" to="674" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Brandon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Department</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Geology</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Yale</forename>
+    <surname>Geophysics</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">O</forename>
+    <surname>University</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Box</title>
+  <imprint>
+   <biblScope unit="volume">6666</biblScope>
+   <biblScope unit="issue">15</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>revised. April 11. accepted. April 28</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

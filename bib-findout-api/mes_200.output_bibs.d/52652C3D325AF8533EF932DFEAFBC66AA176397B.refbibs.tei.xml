@@ -1,0 +1,1456 @@
+<TEI xml:id="istex-52652C3D325AF8533EF932DFEAFBC66AA176397B">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Aguirre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Hernquist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Schaye</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Weinberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Katz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gardner J</title>
+  <imprint>
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="560" to="599" />
+   <date type="published" when="2001" />
+   <publisher>ApJ</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">C</forename>
+    <surname>Barden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Sawyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Honeycutt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. SPIE</title>
+  <editor>D&apos;Odorico S.</editor>
+  <meeting>. SPIE<address><addrLine>Bellingham</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1998" />
+   <biblScope unit="page">892</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Bershady</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Andersen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Harker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">W</forename>
+    <surname>Ramsey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A W</forename>
+    <surname>Verheijen</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2004" />
+   <biblScope unit="page">565</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Binette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Drissen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Ubeda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Raga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Robert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Krongold</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2009" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="500" to="817" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">B</forename>
+    <surname>Burgh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nordsieck</forename>
+    <forename type="middle">K H</forename>
+    <surname>Iii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Percival</forename>
+    <forename type="middle">J W</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Donoghue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Loaring</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+   <biblScope unit="page">93</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Calzetti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Harris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Conselice</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2004" />
+   <publisher>Homeier N., Kewley L</publisher>
+   <biblScope unit="page">1405</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Nagamine</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Ostriker</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="635" to="86" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Cid</forename>
+    <surname>Fernandes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Leão</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R S</forename>
+    <surname>Lacerda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2003" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="352" to="263" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Young</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Heckman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="431" to="598" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dekel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Silk</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1986" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="303" to="39" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">PAN User Guide Available online at ftp</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Dimeo</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Dopita</surname>
+   </persName>
+  </author>
+  <editor>M. A., Sutherland R. S.</editor>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="455" to="468" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Dopita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Kewley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Heisler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Sutherland</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2000" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="542" to="224" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Dopita</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+   <publisher>ApJS</publisher>
+   <biblScope unit="page">177</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">L</forename>
+    <surname>Homeier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1999" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">199</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Hunter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">N</forename>
+    <surname>Hawley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>AJ</publisher>
+   <biblScope unit="page" from="106" to="1797" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Hunter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Connell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Gallagher J. S</title>
+  <imprint>
+   <publisher>AJ</publisher>
+   <biblScope unit="volume">108</biblScope>
+   <biblScope unit="page">84</biblScope>
+   <date type="published" when="1994" />
+   <publisher>AJ</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Hunter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Van Woerden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Iii</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>ApJS</publisher>
+   <biblScope unit="page" from="91" to="79" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">I</forename>
+    <surname>Izotov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">X</forename>
+    <surname>Thuan</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="0200" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">602</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">I</forename>
+    <surname>Izotov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">B</forename>
+    <surname>Dyak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Chaffee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+    <surname>Foltz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">Y</forename>
+    <surname>Kniazev</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">A</forename>
+    <surname>Lipovetsky</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="458" to="524" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Kewley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Dopita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Sutherland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Heisler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trevena J</title>
+  <imprint>
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="556" to="121" />
+   <date type="published" when="2001" />
+   <publisher>ApJ</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Larson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1974" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="169" to="229" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Mac</forename>
+    <surname>Low</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M.-M</forename>
+    <surname>Ferrara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1999" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">142</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Marlowe</forename>
+    <forename type="middle">A T</forename>
+    <surname>Heckman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Wyse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F G</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1995" />
+   <publisher>Schommer R. ApJ</publisher>
+   <biblScope unit="page" from="438" to="563" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Martin</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1998" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="506" to="222" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">I</forename>
+    <surname>Mendez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Esteban</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="488" to="652" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Moll</forename>
+    <forename type="middle">S L</forename>
+    <surname>Mengel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>De Grijs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Crowther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2007" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="382" to="1877" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Nagao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Maiolino</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Marconi</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+   <publisher>A&amp;A</publisher>
+   <biblScope unit="page" from="459" to="85" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Oey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Dopita</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Shields</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2000" />
+   <publisher>ApJS</publisher>
+   <biblScope unit="page" from="128" to="511" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Ohyama</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2002" />
+   <publisher>PASJ</publisher>
+   <biblScope unit="page">891</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <monogr>
+  <title level="m" type="main">Astrophysics of Gaseous Nebulae and Active Galactic Nuclei</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Osterbrock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Ferland</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Pittard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Dyson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">A E G</forename>
+    <surname>Falle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Hartquist</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2005" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="361" to="1077" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <monogr>
+  <title level="m" type="main">DensePak Users Manual</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Sawyer</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">L</forename>
+    <surname>Shopbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bland-Hawthorn</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1998" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="493" to="129" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Sidoli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Crowther</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2006" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page">799</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Silich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Tenorio-Tagle</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2001" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page">91</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Slavin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Shull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Begelman</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1993" />
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="407" to="83" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Stil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">P</forename>
+    <surname>Israel</surname>
+   </persName>
+  </author>
+  <editor>Dokkum P. G.</editor>
+  <imprint>
+   <date type="published" when="2001" />
+   <biblScope unit="page">1420</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Veilleux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Osterbrock</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1987" />
+   <publisher>ApJS</publisher>
+   <biblScope unit="page">295</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Westmoquette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">M</forename>
+    <surname>Exter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2007" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="381" to="894" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Westmoquette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">M</forename>
+    <surname>Exter</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2007" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="381" to="913" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Westmoquette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2008" />
+   <publisher>MNRAS</publisher>
+   <biblScope unit="page" from="383" to="864" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Westmoquette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Trancho</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Bastian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Konstantopoulos I. S</title>
+  <imprint>
+   <date type="published" when="2009" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Westmoquette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Gallagher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">J</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Trancho</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Bastian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Konstantopoulos I. S</title>
+  <imprint>
+   <publisher>ApJ</publisher>
+   <biblScope unit="page" from="706" to="1571" />
+   <date type="published" when="2009" />
+   <publisher>ApJ</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">The Authors. Journal compilation C</title>
+  <imprint>
+   <biblScope unit="volume">403</biblScope>
+   <biblScope unit="page" from="1719" to="1728" />
+   <date type="published" when="2010" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

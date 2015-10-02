@@ -1,0 +1,433 @@
+<TEI xml:id="istex-A74ED2B113E028A2A6D7F34200C046D5FD483E11">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">The routine determination of in vitro digestibility of organic matter in forages—an investigation of the problems associated with continuous large-scale operation</title>
+  <author>
+   <persName>
+    <forename type="first">Alexander</forename>
+    <forename type="middle">R H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mcgowan M</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1966" />
+   <publisher>Journat of Ihe British Crassland Society</publisher>
+   <biblScope unit="page" from="140" to="147" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Recovery of four montane heath communities on Cairngorm, Scotland from disturbance by trampling</title>
+  <author>
+   <persName>
+    <forename type="first">Bayfield</forename>
+    <forename type="middle">N</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biotogicat Conservation</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="165" to="181" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Interactions of grazing and burning on heather moors and their implications on heather management</title>
+  <author>
+   <persName>
+    <forename type="first">Grant</forename>
+    <forename type="middle">S A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hunter</forename>
+    <forename type="middle">R F</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1968" />
+   <publisher>Journat of the British Grassland Society</publisher>
+   <biblScope unit="page" from="285" to="293" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Heather management</title>
+  <author>
+   <persName>
+    <forename type="first">Grant</forename>
+    <forename type="middle">S A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Milne</forename>
+    <forename type="middle">J A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Blackface Journal</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="13" to="17" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Effects of season and level of grazing on the utilization ofheather by sheep L Responses of the sward</title>
+  <author>
+   <persName>
+    <forename type="first">Grant</forename>
+    <forename type="middle">S A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Barthram</forename>
+    <forename type="middle">G T</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lamb</forename>
+    <forename type="middle">W I C</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Milne</forename>
+    <forename type="middle">J A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <publisher>Ae British Grassland Society</publisher>
+   <biblScope unit="page" from="289" to="300" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">The responses of heather-dominated vegetation in North-East Scotland to grazing by red deer</title>
+  <author>
+   <persName>
+    <forename type="first">Grant</forename>
+    <forename type="middle">S A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hamilton</forename>
+    <forename type="middle">W J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Souter C</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <publisher>Journat of Ecotogy</publisher>
+   <biblScope unit="page" from="189" to="204" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Dwarf shrub heaths The vegetation of Scotland</title>
+  <author>
+   <persName>
+    <forename type="first">Gimingham</forename>
+    <forename type="middle">C H</forename>
+   </persName>
+  </author>
+  <editor>Burnett J.H.</editor>
+  <imprint>
+   <date type="published" when="1964" />
+   <publisher>Oliver and Boyd</publisher>
+   <biblScope unit="page" from="232" to="289" />
+   <pubPlace>Edinburgh and London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Hill sheep and their pasture, a study of sheep-grazing in south-east Scotland</title>
+  <author>
+   <persName>
+    <forename type="first">Hunter</forename>
+    <forename type="middle">R F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journat of Ecology</title>
+  <imprint>
+   <biblScope unit="volume">50</biblScope>
+   <biblScope unit="page" from="651" to="680" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Grasslands of the forest and sub-alpine zones The vegetation of Scotland</title>
+  <author>
+   <persName>
+    <forename type="first">King</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Nicholson</forename>
+    <surname>La</surname>
+   </persName>
+  </author>
+  <editor>Burnett J.H.</editor>
+  <imprint>
+   <date type="published" when="1964" />
+   <publisher>Oliver and Boyd</publisher>
+   <biblScope unit="page" from="168" to="231" />
+   <pubPlace>Edinburgh and ; London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Productivity and management ofheather</title>
+  <author>
+   <persName>
+    <forename type="first">Miller</forename>
+    <forename type="middle">G R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Miles</forename>
+    <forename type="middle">A M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">13th Progress Report: Grouse Research in Scotland</title>
+  <meeting><address><addrLine>Blackhall, Banchory</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Nature Conservancy</publisher>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">The effects of season and age of stand on the nutritive value ofheather {Calluna vulgaris, L. Hull) to sheep</title>
+  <author>
+   <persName>
+    <forename type="first">Milne</forename>
+    <forename type="middle">J A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Agricultural Science</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page" from="281" to="288" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Effects of season and level of grazing on the utilization ofheather by sheep. 2. Diet selection and intake. Grass and Forage Science</title>
+  <author>
+   <persName>
+    <forename type="first">Milne</forename>
+    <forename type="middle">J A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bagley</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Grant</forename>
+    <forename type="middle">S A</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1979" />
+   <biblScope unit="page" from="45" to="53" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The morphology of vegetative regeneration in Calluna vulgaris</title>
+  <author>
+   <persName>
+    <forename type="first">Mohamed</forename>
+    <forename type="middle">B F</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gimingham C</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">New Phytotogist</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="743" to="750" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Heather {Calluna vulgaris) as a food for livestock</title>
+  <author>
+   <persName>
+    <forename type="first">Thomas</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Herbage Abstracts</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="1" to="7" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">A two stage technique for in vitro digestion of forage crops</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M A</forename>
+    <surname>Tilley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Terry</forename>
+    <forename type="middle">R A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of the British Grassland Society</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="104" to="111" />
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">The determination of chromic oxide in faeces samples by atomic absorption spectrophotometry</title>
+  <author>
+   <persName>
+    <forename type="first">Williams</forename>
+    <forename type="middle">C H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">David</forename>
+    <forename type="middle">D J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Iismaa</forename>
+    <forename type="middle">O</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Agricultural Science. Cambridge</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="381" to="385" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The estimation of carbohydrate in plant extracts by anthrone</title>
+  <author>
+   <persName>
+    <forename type="first">Yemm</forename>
+    <forename type="middle">W E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Willis</forename>
+    <forename type="middle">A J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemical Journal</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="508" to="514" />
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

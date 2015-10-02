@@ -1,0 +1,1072 @@
+<TEI xml:id="istex-DC9E871D880D4E7EE1543D9CF4054E3D31DBC913">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Morphological basis of longterm habituation and sensitization in Aplysia</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">H</forename>
+    <surname>Bailey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">220</biblScope>
+   <biblScope unit="page" from="91" to="93" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Functional organization of the avian telencephalon</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Benowitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Comparative Neurology of the Telencephalon</title>
+  <editor>S.O.E. Ebesson</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum</publisher>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="389" to="421" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Imprinting: an electronmicroscope study of chick hyperstriatum ventrale</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Bradley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Horn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bateson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="115" to="120" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">An emperical assessment of stereological formulae applied to the counting of synaptic disks in the cerebral cortex</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Colonnier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Beaulieu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">231</biblScope>
+   <biblScope unit="page" from="175" to="179" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Cell biology of synaptic plasticity</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Cotman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nieto-Sampedro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">225</biblScope>
+   <biblScope unit="page" from="1287" to="1294" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Particle size distributions: the general spheroid problem. II. Stochastic model and practical guide</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">M</forename>
+    <surname>Cruz-Orive</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Microsc</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="153" to="167" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Steroid interactions with structure and function of avian song control regions</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Devoogd</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurobiol</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="177" to="201" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Synaptogenesis and changes in synaptic morphology related to acquisition of new behaviour</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Devoogd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Nixdorf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Nottebohm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Research</title>
+  <imprint>
+   <biblScope unit="volume">329</biblScope>
+   <biblScope unit="page" from="304" to="308" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">A critical evaluation of methods for estimating the numerical density of synapses</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Degroot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">P B</forename>
+    <surname>Bierman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci. Meth</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page" from="79" to="01" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Quantitation of terminalparameters and their interrelationships in maturing central synapses, a perspective for experimental studies</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Dyson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Research</title>
+  <imprint>
+   <biblScope unit="volume">183</biblScope>
+   <biblScope unit="page" from="43" to="59" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Synaptic remodelling during development and maturation: junction differentation and splitting as a mechanism for modifying connectivity</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">E</forename>
+    <surname>Dyson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">G</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="125" to="137" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Psychobiology of memory, towards a model of memory formationl Biobehav</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Gibbs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">T</forename>
+    <surname>Ng</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rev</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="113" to="136" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Synaptic structural correlates of information storage in mammalian nervous systems</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Greenough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">F</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Synaptic Plasticity</title>
+  <editor>C.W. Cotman</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Guilford</publisher>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="335" to="372" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Evidence for active synapse formation or altered postsynaptic metabolism in visual cortex of rats reared in complex environments</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">T</forename>
+    <surname>Greenough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">F</forename>
+    <surname>Hwang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Gorman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="page" from="4549" to="4552" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Notes on the estimation of the numerical density of arbitary profiles: the edge effect</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J G</forename>
+    <surname>Gundersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Microsc</title>
+  <imprint>
+   <biblScope unit="volume">111</biblScope>
+   <biblScope unit="page" from="219" to="223" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Stereology of arbitrary particles</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J G</forename>
+    <surname>Gundersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Microsc</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="3" to="45" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Ultrastructural correlates of experimentally altered transmitter release efficacy in frog motor nerve terminals</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Herrera</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">D</forename>
+    <surname>Grinnetl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Wolowske</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="491" to="500" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Horn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Memory, Imprinting and the Brain, an Inquiry into Mechanisms</title>
+  <meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Changes in the structure of synapses associated with learning</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Horn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bradley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Mccabe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="issue">12</biblScope>
+   <biblScope unit="page" from="3161" to="3168" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J B</forename>
+    <surname>Jack</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Noble</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Electrical Current Flow in Excitable Cells</title>
+  <meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The organization and projections of the paleostriatal complex in the pigeon (Columba livia )</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Karten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Dubbeldam</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Comp. Neurol</title>
+  <imprint>
+   <biblScope unit="volume">148</biblScope>
+   <biblScope unit="page" from="61" to="90" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Differential 2-deoxyglucose uptake into chick brain structures during passive avoidance training</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kossut</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="971" to="977" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Passive avoidance learning produces local elevation of bursting activity in chick brain: amnesia abolishes the increase</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behav. Neural Biol</title>
+  <imprint>
+   <biblScope unit="page" from="sub" to=" mitted" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Asymmetries in neural control of vocalization in the canary</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Nottebohm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Lateralization in the Nervous System</title>
+  <editor>8. Harnard, D.W. Doty, L. Goldstein, J. Jaynes and G. Krauthamer</editor>
+  <meeting><address><addrLine>Academic, New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page" from="23" to="44" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Substance P localization within paleostriatal-tegmental pathways in the pigeon</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Reiner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Karten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Solina</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="61" to="85" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Lateralization of learning in chicks</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Rogers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv. Stud. Behav</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="147" to="189" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">What should a biochemistry of learning and memory be about?</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="811" to="821" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Training increases [3H]fu- cose incorporation in chick brain only if followed by memory storage</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Harding</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page" from="663" to="667" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Passive avoidance training results in lasting changes in deoxyglucose metabolism in left 81 hemisphere regions of chick brain</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Csillag</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Behav. Neural Biol</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="315" to="324" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Relation between physiological function and energy metabolism in the central nervous system</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Sokoloff</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="13" to="26" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Alterations in polyribosomes associated with dendritic spines during the reinnervation of the dentate gyrus of the adult rat</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Steward</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="177" to="188" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Stereological analysis of synapses in the brain of the domestic chick following avoidance learning</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">S</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta StereoL</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="227" to="230" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Hemispheric asymmetry of synapses in chick medial hyperstriatum ventrale following passive avoidance training: a stereological investigation</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Stewart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P R</forename>
+    <surname>Rose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">S</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">L A</forename>
+    <surname>Gabbott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bourne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page" from="261" to="269" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Cellular processes of learning and memory in the mammalian CNS</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Thompson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">W</forename>
+    <surname>Berger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Madden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">A. Rev. Neurosci</title>
+  <imprint>
+   <biblScope unit="page" from="447" to="491" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Effect of dark rearing and its recovery on synaptic terminals in the visual cortex of rabbits . A quantitative electron microscope study</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Vrensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Degroot</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Research</title>
+  <imprint>
+   <biblScope unit="volume">78</biblScope>
+   <biblScope unit="page" from="263" to="278" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">The effect of monocular deprivation on synaptic terminals in the visual cortex of rabbits . A quantitative electron microscope study</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Vrensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Degroot</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Research</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page" from="15" to="24" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Weibel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Stereological Methods&apos;. Practical Methods for Biological Morphometo</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Synaptic contact curvature: effects of differential rearing on rat occipital cortex</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Wesa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">F</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Greenough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W</forename>
+    <surname>West</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Dev. Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="issue">I982</biblScope>
+   <biblScope unit="page" from="253" to="257" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

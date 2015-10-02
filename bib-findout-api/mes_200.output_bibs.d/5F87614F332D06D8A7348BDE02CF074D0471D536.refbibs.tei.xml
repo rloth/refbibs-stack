@@ -1,0 +1,1011 @@
+<TEI xml:id="istex-5F87614F332D06D8A7348BDE02CF074D0471D536">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Inhibition of epidermal growth factor-stimulated DNA synthesis by a bovine sialoglycopeptide inhibitor occurs a t a n intracellular level</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">C</forename>
+    <surname>Bascom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">G</forename>
+    <surname>Sharifi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Johnson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Cell. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="283" to="291" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Vanadate, epidermal growth factor and the stimulation of DNA synthesis</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Carpenter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Rcs. Comm</title>
+  <imprint>
+   <biblScope unit="page" from="102" to="1115" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Epidermal growth factor-receptor-protein kinase interactions: Co-purification of receptor and EGF-enhanced phosphorylation activity</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Carpenter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="2554834" to="4842" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Evidence that microtubule polymerization early in the cell cycle is sufficient to initiate DNA synthesis</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Crossin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">H</forename>
+    <surname>Carney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="61" to="71" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Insulin-like activity of Concanavalin A and wheat germ agglutinin: Direct interactions with insulin receptors</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cuatrecasas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">P E</forename>
+    <surname>Tell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+  <imprint>
+   <biblScope unit="page" from="70" to="485" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Role of cell shape in growth control</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Folkman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Moscona</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">273</biblScope>
+   <biblScope unit="page" from="345" to="349" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Enhancement of DNA synthesis by colchicine in 3T3 mouse fibroblasts stimulated with growth factors</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Friedkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Legg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rozengurt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell. Res</title>
+  <imprint>
+   <biblScope unit="page" from="129" to="23" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Concanavalin A derivatives with altered biological activities</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Gunther</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Yahara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">A</forename>
+    <surname>Cunningham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Edelman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc</title>
+  <imprint>
+   <biblScope unit="page" from="70" to="1012" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Dansylcadaverine inhibits internalization of &apos;251-epidermal growth factor in BALB-3T3 cells</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">T</forename>
+    <surname>Haigler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">R</forename>
+    <surname>Maxfield</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Willingham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Pastan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="255" to="1239" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Insulin-like peptides stimulate metabolism but not proliferation of human fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">B</forename>
+    <surname>Harley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Goldstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">I</forename>
+    <surname>Posner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Guyda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">239</biblScope>
+   <biblScope unit="page" from="125" to="131" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Inhibition of the mobility of mouse lymphocyte surface immunoglobulins by locally bound concanavalin A</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">I</forename>
+    <surname>Henis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Elson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="78" to="1072" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Wheat germ agglutinin and concanavalin A inhibit the response of human fibroblasts to peptide growth factors by a post-receptor mechanism</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">B</forename>
+    <surname>Kaplowitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell. Physiol</title>
+  <imprint>
+   <biblScope unit="page" from="124" to="474" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Peptide hormone-induced receptor mobility, aggregation and internalization</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cuatrecasas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N. Engl. J. Med</title>
+  <imprint>
+   <biblScope unit="page" from="305" to="77" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">EGF and insulin action in fibroblasts: Evidence that phosphoinositide hydrolysis is not an essential mitogenic signalling pathway</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Allemain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Pouysseger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">FEBS Lett</title>
+  <imprint>
+   <biblScope unit="page" from="197" to="344" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Wheat germ agglutinin blocks the biological effects of nerve growth factor</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Landreth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">K</forename>
+    <surname>Williams</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Mccutchen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Biol</title>
+  <imprint>
+   <biblScope unit="page" from="101" to="1690" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Effects of wheat germ agglutinin on membrane transport</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kornfeld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="page" from="469" to="202" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The mitogenic signaling pathway of fibroblast growth factor is not mediated through polyphosphoinositide hydrolysis and protein kinase C activation in hamster fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Magnaldo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Allemain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Chambard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Moenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Barritault</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pouysseger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chcm</title>
+  <imprint>
+   <biblScope unit="page" from="261" to="16916" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Na+/H+ exhange and cytoplasmic pH in the action of growth factors in human fibroblasts</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Moolcnaar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">Y</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">T</forename>
+    <surname>Van Der Saag</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>De Laat</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="page" from="304" to="645" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Induction of c-fos gene and protein by growth factors precedes activation of c-myc</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Muller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bravo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Burckhardt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Curran</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="page" from="312" to="716" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Concanavalin A induces interactions between surface glycoproteins and the platelet cytoskeleton</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Painter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Ginsberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Biol</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page" from="565" to="573" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">An ordered sequence of events is required before BALBIC-3T3 cells become committed to DNA synthesis</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Pledger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Stiles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">W</forename>
+    <surname>Antoniades</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Scher</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="75" to="2839" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Reversible interaction of human lymphocytes with the mitogen concanavalin A</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Powell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Leon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Exp. Cell. Res</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="315" to="325" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Early signals in the mitogenic response</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rozengurt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">234</biblScope>
+   <biblScope unit="page" from="161" to="166" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Bombesin induction of c-fos and c-myc proto-oncogenes in Swiss 3T3 cells: Significance for the mitogenic response</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Rozengurt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sinnett-Smith</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell. Physiol</title>
+  <imprint>
+   <biblScope unit="page" from="131" to="218" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title level="m" type="main">Receutor diffusion on cell surfaces modulated by iocally bound concaiavalin A</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Schlessinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">L</forename>
+    <surname>Elson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">W</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Yahara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Rutishauser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G M</forename>
+    <surname>Edelman</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page" from="74" to="1110" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Biological role of epidermal growth factor-receptor clustering: Investigation with monoclonal anti-receptor antibodies</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">B</forename>
+    <surname>Schreiber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Libermann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Lax</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Yarden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Schlessinger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="page" from="258" to="846" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Wheat germ agglutinin behaves as a GnRH antagonist but induces gonadotrope desensitization</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Schvartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Hazum</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem . Biophys. Res. Comm</title>
+  <imprint>
+   <biblScope unit="page" from="140" to="750" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Bound lectins that mimic insulin produce persistent insulin-like activities</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Shechter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Endocrinology</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page" from="1921" to="1926" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Alteration of binding properties and cytoskeletal attachment of nerve growth factor receptors in PC 12 cells by wheat germ agglutinin</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Vale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">M</forename>
+    <surname>Shooter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Biol</title>
+  <imprint>
+   <biblScope unit="page" from="4" to="710" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Similar action of plateletderived growth factor and epidermal growth factor in the prereplicative phase of human fibroblasts suggests a common intracellular pathway</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Westermark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C.-H</forename>
+    <surname>Heldin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">124</biblScope>
+   <biblScope unit="page" from="43" to="48" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Hormonal regulation of discrete portions of the cell cycle: Commitment to DNA synthesis is commitment to cellular division</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Wharton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell Physiol</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="7" to="423" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Inhibition of BALBh3T3 cells in late GI: Commitment to DNA synthesis controlled by somatomedin C</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Wharton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Van Wyk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Pledger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Cell. Physiol</title>
+  <imprint>
+   <biblScope unit="page" from="107" to="31" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

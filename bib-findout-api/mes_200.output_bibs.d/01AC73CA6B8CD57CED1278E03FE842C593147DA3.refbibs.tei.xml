@@ -1,0 +1,1055 @@
+<TEI xml:id="istex-01AC73CA6B8CD57CED1278E03FE842C593147DA3">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Atypical /3-adrenoceptor on brown adipocytes as target for anti-obesity drugs</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Arch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">T</forename>
+    <surname>Ainsworth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Cawthorne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">V</forename>
+    <surname>Piercy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">E</forename>
+    <surname>Sennit</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">309</biblScope>
+   <biblScope unit="page" from="163" to="165" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Effects of nutrient intake on sympathoadrenal activity and thermogenic mechanisms</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">V</forename>
+    <surname>Astrup</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Christensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Simonsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Bulow</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurosci. Meth</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="187" to="192" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Cardiovascular and renal effects of isoproterenol infusions in young swine</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">M</forename>
+    <surname>Buckley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Brazeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">N</forename>
+    <surname>Chamey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Cabili</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Feldman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Garvey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">D</forename>
+    <surname>Frasier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biol. Neonate</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="69" to="77" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Epinephrine and norepinephrine are cleared through beta-adrenergic, but not alpha-adrenergic, mechanism in man</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Cryer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Rizza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Haymond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Gerich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Metabolism</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="1114" to="1118" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Characteristics of feeding induced by the serotonin agonist 8-hydroxy-2-(di-n-propylamino) tetralin (8-OH-DPAT)</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Dourish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Hutson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Curzon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res. Bull</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="377" to="379" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Low doses of the putative serotonin agonist 8-hydroxy-2-(di-n-propylamino)tetralin (8-OH- DPAT) elicit feeding in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Dourish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Hutson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Curzon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychopharmacol</title>
+  <imprint>
+   <biblScope unit="volume">86</biblScope>
+   <biblScope unit="page" from="97" to="204" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">The role of hypothalamus ana amygdala in food intake, alimentary motivation and emotional reactions</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Forberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Biol. Exp. (Warsaw)</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="335" to="358" />
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Modulation of brown adipose tissue-mediated thermogenesis by lesions to the nucleus tractus solitarius in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Fyda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">L</forename>
+    <surname>Veale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">546</biblScope>
+   <biblScope unit="page" from="203" to="210" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Progress report on the anorexia induced by drugs believed to mimic some of the effects of serotonin on the central nervous system</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Garattini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bizzi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Codegoni</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Caccia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Mennini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Clin. Nutr</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="160" to="166" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Reduction of food intake by manipulation of central serotonin: Current experimental results</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Garattini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Mennini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Samanin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Br. J. Psychiatry</title>
+  <imprint>
+   <biblScope unit="volume">155</biblScope>
+   <biblScope unit="issue">8</biblScope>
+   <biblScope unit="page" from="41" to="51" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+ <note>suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Regional studies of catecholamines in the rat brain-I</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Glowinski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">L</forename>
+    <surname>Iversen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Neurochem</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="655" to="669" />
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Direct adrenergic and cholinergic stimulation of hypothalamic mechanisms</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Grossman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">202</biblScope>
+   <biblScope unit="page" from="872" to="882" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The effects of lesions in the hypothalamus in parabiotic rats</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Hervey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Physiol. (Lond)</title>
+  <imprint>
+   <biblScope unit="volume">145</biblScope>
+   <biblScope unit="page" from="336" to="352" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Differential effects of p-chlorophenylalanine and 5,7-dihydroxytryptamine on feeding rats</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">G</forename>
+    <surname>Hoebel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">P</forename>
+    <surname>Zemlam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Trulson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Mackenzie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">P</forename>
+    <surname>Ducret</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Norelli</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. NY Acad. Sci</title>
+  <imprint>
+   <biblScope unit="volume">305</biblScope>
+   <biblScope unit="page" from="590" to="594" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Neurochemical and behavioral evidence for mediation of the hyperphagic action of 8-OH- DPAT by 5-HT cell body autoreceptors</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Hutson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Dourish</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Curzon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">129</biblScope>
+   <biblScope unit="page" from="347" to="352" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ichinohe</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The influence of propranolol on the cardiovascular effects and plasma clearance of epinephrine</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Igarashi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Kaneko</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anesth. Prog</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="217" to="220" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Peripheral serotonin administration selectively reduces fat intake in rats</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Kanarek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Dushkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behavior</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="113" to="122" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Internal signals cause large changes in food intake in one-way crossed intestines rats</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Koopmans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res. Bull</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="595" to="603" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Paraventricular nucleus: A primary site mediating adrenergic stimulation of feeding and drinking</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Leibowitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="163" to="175" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Neurochemical systems of hypothalamus Control of feeding and drinking behavior and water-electrolyte excretion</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Leibowitz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Handbook of the hypothalamus Behavior studies of the hypothalamus</title>
+  <editor>Morgane, P. G.</editor>
+  <editor>Panksepp, J.</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Marcel Dekker Inc</publisher>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="305" to="340" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">L-DOPA feeding suppression: Effect on catecholamine neurons of the perifornical lateral hypothalamus</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Leibowitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Rossakis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Psychopharmacol</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="273" to="280" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Disparate effects of fenfluramine on thermogenesis in brown adipose tissue in the rat</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Ma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Preston</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Physiol. Pharmacol</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="214" to="218" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title level="m" type="main">Nutrient requirements of the laboratory rat In: Requirements of laboratory animals, 3rd rev Government Printing Office</title>
+  <author>
+   <persName>
+    <surname>National Research</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Council</surname>
+   </persName>
+  </author>
+  <editor>Washington, DC: U.S.</editor>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page" from="7" to="37" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Peripherally administered serotonin decrease food intake in rats</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pollock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Rowland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="179" to="183" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Control of meal size by central noradrenergic action</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Ritter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">N</forename>
+    <surname>Epstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. USA</title>
+  <meeting>. Natl. Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1975" />
+   <biblScope unit="page" from="3740" to="3743" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Effect of norepinephrine, serotonin and tryptophan on firing rate of sympathetic nerves</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sakaguchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Bray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain. Res</title>
+  <imprint>
+   <biblScope unit="volume">492</biblScope>
+   <biblScope unit="page" from="271" to="280" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Ventrolateral striatal dopamine depletion impair feeding and food handling in rats</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Salamone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Mahan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Roger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacol. Biochem. Behav</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="605" to="610" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Characterization of the impaired feeding behavior in rats given haioperidol or dopamine-depletion brain lesions</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Salamone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Zigmond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">M</forename>
+    <surname>Stricker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Neuroscience</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="17" to="24" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Thermogenic actions of tryptophan in the rat are mediated independently of 5-HT</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Serra</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Lefeuvre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Slater</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Palou</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">J</forename>
+    <surname>Rothwell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brain Res</title>
+  <imprint>
+   <biblScope unit="volume">578</biblScope>
+   <biblScope unit="page" from="327" to="334" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Energy expenditure and thermogenesis: Animal studies on brown adipose tissue</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Trayhurn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Obes</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="17" to="26" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Altered energy expenditure in rats with large changes in daily food intake</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Koopmans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Society for the Study of Ingestive Behavior Annual Meeting</title>
+  <meeting><address><addrLine>Hamilton, Canada</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Suppression of sympathetic nervous system during fasting</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Young</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Landsberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">196</biblScope>
+   <biblScope unit="page" from="1473" to="1475" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

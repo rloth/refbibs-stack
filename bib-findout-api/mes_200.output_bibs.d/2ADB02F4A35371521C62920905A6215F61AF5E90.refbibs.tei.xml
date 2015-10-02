@@ -1,0 +1,152 @@
+<TEI xml:id="istex-2ADB02F4A35371521C62920905A6215F61AF5E90">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The interaction of normal lymphocytes and cells from lymphoidcell lines. IV. HL-A typing of the cell line cellsVery close linkage between HLA-B and Bf inferred from allelic association</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Wallin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Hardy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp; C M</forename>
+    <surname>Long</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Steel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Arnason</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Larsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Marshall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Edwards</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <surname>Olaisen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Teisberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ImmunologyNature</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="issue">268</biblScope>
+   <biblScope unit="page" from="315" to="331" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">After various appointments in Australia and the UK, he spent four years in the USA, where his interest was triggered in organ transplantation and methods of determining histocompatibillty between donors and recipient! He was awarded a PhD degree from the University of Melbourne for a thesis on bistocompatlbility in organ transplantation, and in 1972 was awarded the Selwyn Smith Prize of the University of Melbourne. He has been a Hunterian Professor of the Royal College of Surgeons of England. His publications include: with J FabreThe mechanism of specific immunosuppression of renal allograft rejection by donor strain bloodHbtocompatibility systems, immune response and disease in manRenal transplantation and B-cell cross-matches with autoantibodies and alloantibodies His present department runs a clinical renal transplant programme, with a major programme in transplantation Immunology and pancreatic islet transplantation. Professor Morris is the present Chairman of the British Transplantation Society, and serves on several editorial boards. Including Transplantation and Clinical and Experimental Immunology. DR ALAN MUNRO is a Lecturer in the Department of Pathology in the University of Cambridge. He graduated in biochemistry at Cambridge, where he subsequently obtained his PhD degree on work on protein synthesis in eukaryotes, and became a Lecturer in the Department of Biochemistry. After working for three years in the Cell Biology Division of the Medical Research Council&apos;s Laboratory of Molecular Biology at Cambridge</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Ting</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Contemporary topics in tmmunoblology</title>
+  <editor>J M D Cooper &amp; N L Warner</editor>
+  <imprint>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="634" to="640" />
+  </imprint>
+ </monogr>
+ <note>he. returned to the University as a Lecturer in the Division of Immunology of the Department of Pathology. He has been for one year the visiting Boerhaave Professor at Leiden University, In the Department of Immunohaematology . Over the last ten years his work has been concerned with the genetic control of the immune response</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Previously he was Medical Research Council Junior Research Fellow at The London Hospital (1969-72), and Honorary Lecturer and later Senior Lecturer in the Department of After completing an MD thesis on HLA matching for cadaver renal transplantation, he studied the immunotherapy of acute myeloid leukaemia, with particular reference to the relevance of HLA-associated resistance factors and the use of HLA antigens as helpers to augment antileukaemia immune responses. He is at present setting up an Oncology Group to evaluate the use of chemoimmunotherapy in urological malignancy. His publications include: with J A SachsInfluence of HL-A matching, antigenic strength, and immune responsiveness on outcome of 349 cadaver renal graftsHLA linked resistance factors and survival in acute myclogenous leukaemiaAutologous leukaemia-specific T-cell mediated lymphocytotoxicity in patients with acute myelogenous leukaemia</title>
+  <author>
+   <persName>
+    <forename type="first">Dr R T D Oliver G D</forename>
+    <surname>Pcgrum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">J</forename>
+    <surname>Moorhead</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Pillal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Klouda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp; S D</forename>
+    <surname>Lawler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Oncology, at the Institute of Urology</title>
+  <meeting><address><addrLine>London ; London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="1381" to="1384" />
+  </imprint>
+ </monogr>
+ <note>Lancet. Cancer</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,367 @@
+<TEI xml:id="istex-57101A5939615C95F2FB85E472205DBD31E4E302">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">World Health Organisation Biological effects ofman-made mineral fibres</title>
+ </analytic>
+ <monogr>
+  <title level="j">Copenhagen: WHO</title>
+  <imprint>
+   <biblScope unit="page" from="10" to="1" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">The effects of intratracheal instillation of glass fiber of varying size in guinea-pigs. In: Occupational exposure to fibrous glass</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kuschner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gw</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">National Institute for Occupational Safety and Health</title>
+  <imprint>
+   <publisher>Welfare Publication No (NIOSH</publisher>
+   <biblScope unit="page" from="151" to="68" />
+   <date type="published" when="1976" />
+   <publisher>Welfare Publication No (NIOSH</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Mechanisms of mesothelioma induction with asbestos and fibrous glass</title>
+  <author>
+   <persName>
+    <forename type="first">Mf</forename>
+    <surname>Stanton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Wrench</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Natl Cancer Inst</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="797" to="821" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Tumoren der Ratten nach ip Injektion faserformiger Staube</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Pott</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Kh</forename>
+    <surname>Friederichs</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Naturwissenschaften</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page">318</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Epidemiology of groups exposed to other mineral fibres Short-term surveys of airborne fibres in European manufacturing plants</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Saracci</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>6ottery</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dodgson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ge</forename>
+    <surname>Harrison</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Cherrie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Biological effects of mineral fibres</title>
+  <editor>Wagner JC</editor>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="951" to="63" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Copenhagen: World Health Organisation</title>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Report on the environmental investigation at Rockwool AIB Skovde Institute of Occupational Medicine, IOM internal document No BP 31075</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Ottery</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <biblScope unit="page" from="13" to="1" />
+   <pubPlace>Edinburgh</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Axelson 0. Aspects of confounding in occupational health epidemiology</title>
+ </analytic>
+ <monogr>
+  <title level="j">Scand J Work Environ Health</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="85" to="9" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Mortality patterns among fibrous glass production workers</title>
+  <author>
+   <persName>
+    <forename type="first">Dl</forename>
+    <surname>Bayliss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Dement</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jk</forename>
+    <surname>Wagoner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hp</forename>
+    <surname>Blejer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann NY Acad Sci</title>
+  <imprint>
+   <biblScope unit="volume">271</biblScope>
+   <biblScope unit="page" from="324" to="35" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">The health of retired fibrous glass workers Mortality patterns of rock and slag mineral wool production workers: an epidemiological and environmental study</title>
+  <author>
+   <persName>
+    <forename type="first">Pe</forename>
+    <surname>Enterline</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Henderson</forename>
+    <surname>Vrobinson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cf</forename>
+    <surname>Dement</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Ness</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Go</forename>
+    <surname>Waxweiler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Environ Health Br J Ind Med</title>
+  <imprint>
+   <biblScope unit="volume">3039</biblScope>
+   <biblScope unit="page" from="113" to="645" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Mortality experience of glass fibre workers. In: WHO-EURO Biological effects of man-made mineral fibres, occupational health conference, proceedings ofthe conference</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Shannon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hayes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Julien</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Muir</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">World Health Organisation</title>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Mortality among fibrous glass production workers</title>
+  <author>
+   <persName>
+    <forename type="first">Rw</forename>
+    <surname>Morgan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sd</forename>
+    <surname>Kaplan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ja</forename>
+    <surname>Bratsberg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Biological effects of man-made mineral fibres, occupational health conference, proceedings of the conference</title>
+  <meeting><address><addrLine>Copenhagen</addrLine></address></meeting>
+  <imprint/>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Mortality of workers in the MMMF industry Biological effects of man-made mineral fibresWorld Health Organisation. Biological effects ofman-made mineral fibres</title>
+  <author>
+   <persName>
+    <forename type="first">Pe</forename>
+    <surname>Enterline</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gm</forename>
+    <surname>Marsh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">WHO-EURO</title>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="32" to="40" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

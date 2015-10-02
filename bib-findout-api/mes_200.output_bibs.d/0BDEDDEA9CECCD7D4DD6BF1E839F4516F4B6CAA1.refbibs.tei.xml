@@ -1,0 +1,64 @@
+<TEI xml:id="istex-0BDEDDEA9CECCD7D4DD6BF1E839F4516F4B6CAA1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Studies in nucl. spectr, by two-nuclear transfer reactions</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1963" />
+   <biblScope unit="page">10993</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">Table of range and rate of energy loss of charged particles of energy 0.5 to 150 MeV</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Williamson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Boujot</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page">1962</biblScope>
+  </imprint>
+ </monogr>
+ <note>unpublished. )</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Information also available in Proe. Conf. on Instrument techniques in nuclear pulse analysis</title>
+ </analytic>
+ <monogr>
+  <title level="m">Lawrence Radiation Laboratory Design : drawings available from LRL Information Division</title>
+  <meeting><address><addrLine>Berkeley ; Monterey</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+ <note>to. be published by the National Academy of Sciences</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

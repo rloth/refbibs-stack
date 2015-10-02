@@ -1,0 +1,407 @@
+<TEI xml:id="istex-3470AD5402F6B01EC2E791BDACB29F268E94BA2A">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Clifton; The Secretary of Apothecaries&apos; Hall; Dr. J. W. Moore, Dublin; The Registrar- General of England; Dr Edis, London; Dr Our Edinburgh Correspondent; Dr. Thompson, Melbourne; Dr. Sinclair Coghill, Ventnor; Dr</title>
+  <author>
+   <persName>
+    <forename type="first">Comimunications</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Letters</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Etc</forename>
+    <forename type="middle">J B</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cambridge</forename>
+    <surname>Bradbury</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sanderson</forename>
+    <surname>Burdon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Humphry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Cambridge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Coats</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Glasgow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">W</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Fairlie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Southborough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Milner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Fothergill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>London</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Alban Doran</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>London</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Saundby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Birmingham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">E G C</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">T W</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sheffield ; Mr. Cawtley</forename>
+    <surname>Hime</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Dawson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Leeds</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">C G</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Wheelhouse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Leeds</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">E M</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">W H</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Clifton</forename>
+    <surname>Spencer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">W M</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Whistler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>London</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">W</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Walker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Coatham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">I</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ashe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Dundrum</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Leicester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G F</forename>
+    <surname>Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Burder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Rice</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Manchester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G R</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Gilruth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">;</forename>
+    <forename type="middle">D J</forename>
+    <surname>Edinburgh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Adam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Caterham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">J</forename>
+    <surname>Wv</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Weston</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Leicester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>Mr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R J</forename>
+    <surname>Ford Dr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Joseph Bell Our Dublin Correspondent ; Mr. Ridsdale, Hull; Mr. R. S. Le-wis</title>
+  <imprint>
+   <publisher>Graily Hewitt The Secretary of the Obstetrical Society Mr. Howard Marsh Dr. Sieveking Dr. Cavafy Wilks Dr. Parsons, Dover; The Secretary of St. Mary&apos;s Hospital; Mr. Golding-Bird Dr. A. S. Taylor Dr. Macrae The Secretary of the Pathological Society Dr. Bateman etc</publisher>
+   <publisher>Graily Hewitt The Secretary of the Obstetrical Society Mr. Howard Marsh Dr. Sieveking Dr. Cavafy Wilks Dr. Parsons, Dover; The Secretary of St. Mary&apos;s Hospital; Mr. Golding-Bird Dr. A. S. Taylor Dr. Macrae The Secretary of the Pathological Society Dr. Bateman etc</publisher>
+  </imprint>
+ </monogr>
+ <note>Mfr. . Eastes, London; The Registrar-General of Ireland; Dr. Levinge, Bristol; Mr. WV. Douglas Hemming. Norwich. ; Mr. Arthur N. T&apos;urner, Penge; Dr. H. Macnaughton Jones, Cork; Dr. Collie, Homerton; Dr. Cortis, London; Mr. Y. J. Jay, Nantwich; Mr. W. MLditchell, Rothel; Dr. Sawyer, Birmingham; Mr. T. Holmes, London; The Secretary of the Epidemiological Society; Dr. Aitken, Rome; Mr. James Elliott, Sowerby Bridge; Mr. W. Walter, Manchester; Dr. Rogers</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">A Treatise oni the Ear Diet and Opium in Intestinal Obstructions</title>
+  <author>
+   <persName>
+    <forename type="first">Percussion Hugh Owen</forename>
+    <surname>Auscultationi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Thomas</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Transactions of the New York Pathological Society</title>
+  <editor>J. and A. Churchill. I877</editor>
+  <meeting><address><addrLine>London ; New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>William Wood and Co</publisher>
+   <date type="published" when="1877" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

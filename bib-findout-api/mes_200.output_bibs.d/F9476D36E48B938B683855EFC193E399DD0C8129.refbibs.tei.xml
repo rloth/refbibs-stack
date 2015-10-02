@@ -1,0 +1,206 @@
+<TEI xml:id="istex-F9476D36E48B938B683855EFC193E399DD0C8129">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The normal modes of nonlinear n-degree-of freedom systems</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>R</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Applied Mechanics</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="7" to="14" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">On nonlinear vibrations of systems with many degrees of freedom</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>R</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Advances of Applied Mechanics</title>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="156" to="243" />
+   <date type="published" when="1966" />
+   <publisher>Academic Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">I</forename>
+    <surname>M</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">V</forename>
+    <surname>M</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">N</forename>
+    <surname>P</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Method of Normal Oscillation for Essentially Nonlinear Systems</title>
+  <meeting><address><addrLine>Moscow</addrLine></address></meeting>
+  <imprint>
+   <publisher>Nauka</publisher>
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>L</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The General Problem of the Stability of Motion. Moscow: Gostehizdat (reprint of original thesis</title>
+  <imprint>
+   <date type="published" when="1892" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">V</forename>
+    <surname>M</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Joining of local expansions in the nonlinear oscillations theory</title>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page" from="738" to="743" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>B</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>G-M</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pade´Pade´Approximants</title>
+  <imprint>
+   <publisher>Addison-Wesley</publisher>
+   <date type="published" when="1981" />
+   <publisher>Addison-Wesley</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>B</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Essentials of Pade´Pade´Approximants</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">On the existence and bifurcation of minimal normal modes</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+    <surname>J</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">H</forename>
+    <surname>R</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">International Journal of Non-linear Mechanics</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="1" to="12" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

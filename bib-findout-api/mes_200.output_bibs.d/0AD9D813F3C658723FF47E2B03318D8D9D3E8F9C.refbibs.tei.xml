@@ -1,0 +1,1007 @@
+<TEI xml:id="istex-0AD9D813F3C658723FF47E2B03318D8D9D3E8F9C">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Isotopic and chemical effects produced in a continuously differentiating convecting Earth mantle</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Allegre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Brevart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dupre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Minster</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="447" to="477" />
+  </imprint>
+ </monogr>
+ <note>Phil. . 7&apos;rans. R. SOC. A ,</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Constraints on evolution of Earth&apos;s mantle from rare gas systematics</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Allegre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Staudacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Sarda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kurz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">303</biblScope>
+   <biblScope unit="page" from="762" to="766" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Isotopic evolution of the mantle: the role of magma mixing</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="1" to="12" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Isotopic evolution of the mantle: a model</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="13" to="24" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">The effect of homogeneous turbulence on material lines and surfaces</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">K</forename>
+    <surname>Batchelor</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1952" />
+   <pubPlace>Proc</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Rb-Sr mantle isochrons from oceanic</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Brooks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hofmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>James</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Convection with decaying heat sources: constant viscosity, Geophys</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Daly</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">213</biblScope>
+   <biblScope unit="issue">61</biblScope>
+   <biblScope unit="page" from="349" to="366" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+ <note>regions</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Earth&apos;s neodymium budget and structure and evolution of the mantle</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">F</forename>
+    <surname>Davies</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Depaolo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Wasserburg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Inferences about magma sources and mantle structure from</title>
+  <imprint>
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Isotopic composition of lead and strontium from</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Gast</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Tilton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Hedge</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">An assessment of local and regional isotopic equilibrium in the</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Hofmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Mantle plumes from ancient oceanic crust</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Hofmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">M</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci. Houseman, G. A</title>
+  <imprint>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">The deep structure of ocean ridges in a convecting mantle</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Houseman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci</title>
+  <imprint>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The mean age of mantle and crustal reservoirs</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">B</forename>
+    <surname>Jacobsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Wasserburg</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. geophys</title>
+  <imprint>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">On the transition to turbulent convection, 2. The transition to time-dependent</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Krishnamurti</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Finite deformation during fluid flow</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mckenzie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="689" to="715" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title level="m" type="main">Mantle reservoirs and ocean island basalts</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mckenzie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>O &apos;nions</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <publisher>Naiure</publisher>
+   <biblScope unit="page" from="229" to="231" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">Convection in the Earth&apos;s mantle: towards a</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">P</forename>
+    <surname>Mckenzie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">O</forename>
+    <surname>Weiss</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title level="m" type="main">Planform of mantle convection beneath the Upper mantle geochemistry, in The Sea</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Mckenzie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Watts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Parsons</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Roufosse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>O &apos;nions</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="49" to="71" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Variations in 143Nd1144Nd and 87Sr</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>&apos;nions</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Hamilton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Evenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">M</forename>
+    <surname>86sr O &apos;nions</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Evenson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">M</forename>
+    <surname>Hamilton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Geochemical modelling of mantle</title>
+  <imprint>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title level="m" type="main">Mantle convection and viscosity, in Physics o f t h e Earth&apos;s Interior Orogenic lherzolite complexes studied by 87Rb-87Sr: a clue to</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Peltier</surname>
+   </persName>
+  </author>
+  <editor>Dziewonski, Polve, M. &amp; Allegre, C. J.</editor>
+  <imprint>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">Diapirism of depleted peridotite -a model for the origin of</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Presnall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Helsley</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title level="m" type="main">A parameterised model for the evolution of isotopic</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Richter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Daly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Nataf</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title level="m" type="main">Heat transfer and horizontally averaged temperature</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Richter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Nataf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">F</forename>
+    <surname>Daly</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title level="m" type="main">On the importance of advection in determining the local isotopic</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Richter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">M</forename>
+    <surname>Ribe</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <monogr>
+  <title level="m" type="main">Two-layer mantle convection and the depletion of radioactive elements</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schubert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Spohn</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <monogr>
+  <title level="m" type="main">Modes of mantle convection and the removal of heat from the Earth&apos;s</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Spohn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Schubert</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Genetic relation of oceanic basalts as indicated by lead isotopes Isotopic composition of lead in oceanic basalt and its implication to mantle</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Tatsumoto</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">153</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">The formation of emulsions in definable fields of flow</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">I</forename>
+    <surname>Taylor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>Soc</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Cxlvi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. R</title>
+  <meeting>. R</meeting>
+  <imprint>
+   <date type="published" when="1934" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <monogr>
+  <title level="m" type="main">Observations of convection at Rayleigh numbers up to 760</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Whitehead</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Parsons</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1978" />
+   <biblScope unit="page">000</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Viscous gravitational relaxation</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Wu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Peltier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. J. R. astr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="page" from="435" to="485" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Glacial isostatic adjustment and the free air gravity anomaly as a constraint N. R. A. Hogman and D. I? McKenzie 208-213. variations of 143Nd</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Wu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">R</forename>
+    <surname>Peltier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Geophys. Res. Lett</title>
+  <imprint>
+   <biblScope unit="volume">144</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="743" to="146" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Gough</forename>
+    <surname>Ascension</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Islands</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science mantle, Earth planet. Sci. Lett. Lett. Lett. Res</title>
+  <imprint>
+   <biblScope unit="volume">145</biblScope>
+   <biblScope unit="issue">84</biblScope>
+   <biblScope unit="page" from="1181" to="1185" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">309. numerical simulation</title>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluid Mech. J. Fluid Mech. Nature</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="issue">288</biblScope>
+   <biblScope unit="page" from="465" to="538" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">ratios in oceanic basalts</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Eniliari</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planef. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page" from="13" to="22" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <monogr>
+  <title level="m" type="main">tiation and crustal growth, J. geophys. R e x</title>
+  <imprint>
+   <biblScope unit="page" from="6091" to="6101" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">understand the mantle convection process?</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Boschi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">North</forename>
+    <surname>Holland</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Earth planet. Sci. Lett. Phys. Earth planet. Int</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="issue">29</biblScope>
+   <biblScope unit="page" from="7" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">J. FluidMech</title>
+  <imprint>
+   <biblScope unit="volume">133</biblScope>
+   <biblScope unit="page" from="133" to="145" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">178-194. of convection with large viscosity variations</title>
+ </analytic>
+ <monogr>
+  <title level="m">heterogeneities in a convecting system the lower mantle</title>
+  <imprint>
+   <biblScope unit="page" from="212" to="222" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">1094-1 101. evolution</title>
+ </analytic>
+ <monogr>
+  <title level="j">J. geophys. Res. Earth planet. Sci. Lett</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="issue">38</biblScope>
+   <biblScope unit="page" from="4682" to="4696" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">on deep mantle viscosity</title>
+  <imprint>
+   <biblScope unit="page" from="201" to="217" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

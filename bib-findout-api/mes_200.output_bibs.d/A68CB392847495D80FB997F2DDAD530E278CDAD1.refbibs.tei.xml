@@ -1,0 +1,1380 @@
+<TEI xml:id="istex-A68CB392847495D80FB997F2DDAD530E278CDAD1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Cytosolic free Ca &quot; in single rat heart cells during anoxia and reoxygenation</title>
+  <author>
+   <persName>
+    <forename type="first">Allshire</forename>
+    <forename type="middle">A</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Cuthbeitson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ksr</forename>
+    <surname>Cobbold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ph</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Riochern .I</title>
+  <imprint>
+   <biblScope unit="volume">244</biblScope>
+   <biblScope unit="page" from="381" to="5" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Stoke? BT. Myocyte deenergization and intracellular free calcium dynamics. A m</title>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Altschuld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">I Physiol</title>
+  <imprint>
+   <biblScope unit="volume">255</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Relationship bctween ions and energy metabolism: cerebral calcium movements during ischaemia and subsequent recovery</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Erecinska</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ia</forename>
+    <surname>Silver</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Curt J Physiol Phurmcrcd</title>
+  <imprint>
+   <biblScope unit="page" from="70" to="190" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">Cell swelling. blebbing. and death are dependent on ATP depletion and independent of calcium during chemical hypoxia in a glial cell line</title>
+  <author>
+   <persName>
+    <forename type="first">Ms</forename>
+    <surname>Jurkowitz-Alexander</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Altschuld</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Hohl</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Energy depletionrepletion and calcium transients in single cardiomyocytes. A m</title>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cm</forename>
+    <surname>Hohl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Altschuld</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bt</forename>
+    <surname>Stokes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">257</biblScope>
+   <biblScope unit="page" from="427" to="34" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Relation of mitochondria1 and cytosolic free calcium to cardiac myocyte recovery after exposure to anoxia</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Miyata</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Eg</forename>
+    <surname>Lakatta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Stern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Silverinan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="605" to="13" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Adenosine triphosphate depletion induces a rise in cytosolic free calcium in canine renal epithelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Ce</forename>
+    <surname>Mccoy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Am</forename>
+    <surname>Selvaggio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Alexander</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jh</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Clin lnvesf</title>
+  <imprint>
+   <biblScope unit="volume">82</biblScope>
+   <biblScope unit="page" from="1326" to="33" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">Trump BE Injury-induced changes in cytosolic Ca &quot; in individual rabbit proximal tubule cells. Am .I Phelps PC. Smith MW. Trump B E Cytosolic ionized calcium and bleb formation after acute cell injury in cultured rabbit renal tubule cells</title>
+  <author>
+   <persName>
+    <forename type="first">Mw</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pc</forename>
+    <surname>Phelps</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <biblScope unit="page" from="630" to="42" />
+  </imprint>
+ </monogr>
+ <note>Lcih. lrnvsr</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Blebbing, free Ca &quot; and mitochondrial inembrdne potential preceding cell death in hepatocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Leniasters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Diguiseppi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Nieminen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Herman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nrrtiiw</title>
+  <imprint>
+   <biblScope unit="volume">325</biblScope>
+   <biblScope unit="page" from="78" to="8" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Anoxia and endothelium-dependent reactivity of the canine femoral artery</title>
+  <author>
+   <persName>
+    <forename type="first">Jg</forename>
+    <surname>Demey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pm</forename>
+    <surname>Vanhoutte</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physicrl (Lond)</title>
+  <imprint>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Hypoxia stimulates release of endotheliumderived relaxant factor</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Pohl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Busse</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Plzysiol</title>
+  <imprint>
+   <biblScope unit="volume">256</biblScope>
+   <biblScope unit="page" from="1595" to="600" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Hvooxia releases a vasoconstrictor C162-8</title>
+  <author>
+   <persName>
+    <forename type="first">Gm</forename>
+    <surname>Rubanvi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pm</forename>
+    <surname>Vanhoutte</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">( Roc-I ). J N ~ U U I C ~ ~ T J I</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <biblScope unit="page" from="344" to="52" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">!</forename>
+    <surname>Pll</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Yid</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <biblScope unit="page" from="641" to="55" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">wbstance from the canine vascui&amp; endothelium</title>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol (Lond)</title>
+  <imprint>
+   <biblScope unit="volume">364</biblScope>
+   <biblScope unit="page" from="45" to="56" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Correlation between thrombin-induced prostacyclin production and inositol trisphosphate and cytosolic free calcium levels in cultured human endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Ea</forename>
+    <surname>Jaffe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Grulich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bb</forename>
+    <surname>Weksler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Hanipel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J B i d Chem</title>
+  <imprint>
+   <biblScope unit="volume">262</biblScope>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">The release of endothelium-derived relaxant factor is calcium dependent</title>
+  <author>
+   <persName>
+    <forename type="first">Cj</forename>
+    <surname>Long</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tw</forename>
+    <surname>Stone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Blood Vessels</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="205" to="8" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Disintegration of cytoskeletal structure of actin filaments in energy-depleted endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kuhne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Besselmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>No11</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Muhs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Effect of hypoxia upon intracellular calcium concentration of human endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Arnould</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Michiels</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Alexandre</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Remacle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Cell Physiol</title>
+  <imprint>
+   <biblScope unit="volume">152</biblScope>
+   <biblScope unit="page" from="215" to="21" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Release of adenosine from pig aortic endothelial cells during hypoxia and metabolic inhibition</title>
+  <author>
+   <persName>
+    <forename type="first">Jc</forename>
+    <surname>Shryock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Rubio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rm</forename>
+    <surname>Beme</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anz J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">254</biblScope>
+   <biblScope unit="page" from="223" to="9" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Macromolecule permeability of coronary and aortic endothelial monolayers under energy depletion</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Watanabe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kuhne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Spahr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Plzysiol</title>
+  <imprint>
+   <biblScope unit="volume">260</biblScope>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Isolation, characterization, growth and culture of endothelial cells from the rat aorta</title>
+  <author>
+   <persName>
+    <forename type="first">Of</forename>
+    <surname>Cole</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tpd</forename>
+    <surname>Fan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gp</forename>
+    <surname>Lewis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">CeEl Biol Znt Rep</title>
+  <imprint>
+   <biblScope unit="volume">10</biblScope>
+   <biblScope unit="page" from="399" to="405" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Flow-dependent cytosolic acidification of vascular endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Ziegelstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Cheng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mc</forename>
+    <surname>Capogrossi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Modulation of calcium homeostasis in cultured rat aortic endothelial cells by intracellular acidification</title>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Ziegelstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Cheng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ps</forename>
+    <surname>Blank</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">265</biblScope>
+   <biblScope unit="page" from="1424" to="33" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">et a1 Simultaneous measurement of Ca &quot; , contraction, and potential in cardiac myocytes</title>
+  <author>
+   <persName>
+    <forename type="first">Ha</forename>
+    <surname>Spurgeon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Stern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Baartz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">258</biblScope>
+   <biblScope unit="page">57486</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">A new generation of Ca2&apos; indicators with greatly improved fluorescence properties</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Grynkiewicz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poenie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ry</forename>
+    <surname>Tsien</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Biol Chem</title>
+  <imprint>
+   <biblScope unit="volume">260</biblScope>
+   <biblScope unit="page" from="3440" to="50" />
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">The effects of pH and temperature on fluorescent calcium indicators as determined with Chelex-100 and EDTA buffer systems</title>
+  <author>
+   <persName>
+    <forename type="first">Fa</forename>
+    <surname>Lattanzio</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem Biophys Res Cornmun</title>
+  <imprint>
+   <biblScope unit="volume">171</biblScope>
+   <biblScope unit="page" from="102" to="8" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">The effects of metabolic inhibition of intracellular calcium and pH in isolated rat ventricular cells</title>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Eisner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cg</forename>
+    <surname>Nichols</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Neill</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sc</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gl</forename>
+    <surname>Valdeolmillos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">411</biblScope>
+   <biblScope unit="page" from="393" to="41" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+ <note>h. n d )</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Intracellular pH during &quot; chemical hypoxia &quot; in cultured rat hepatocytes. Protection by intracellular acidosis against the onset of cell death</title>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Gores</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Al</forename>
+    <surname>Nieminen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Be</forename>
+    <surname>Wray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Herman</forename>
+    <forename type="middle">B</forename>
+    <surname>Lemasters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Clin Invest</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page" from="386" to="96" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Intracellular alkalinization leads to Ca2+ mobilization from agonist-sensitive pools in bovine aortic endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Nr</forename>
+    <surname>Danthuluri</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kim</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ta</forename>
+    <surname>Brock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J B i d Chem</title>
+  <imprint>
+   <biblScope unit="volume">265</biblScope>
+   <biblScope unit="page" from="907" to="1" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Flow modulation of agonist (ATP)-response (Ca2&apos;) coupling in vascular endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Ro</forename>
+    <surname>Dull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pf</forename>
+    <surname>Davies</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Studies of tissue permeability. V. Penetration and phosphorylation of 2-deoxyglucose in the diaphragm</title>
+  <author>
+   <persName>
+    <forename type="first">Dm</forename>
+    <surname>Kipnis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cf</forename>
+    <surname>Cori</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">.I R i d Chem</title>
+  <imprint>
+   <biblScope unit="volume">234</biblScope>
+   <biblScope unit="page" from="171" to="7" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">The creatine phosphotransfer reaction in iodoacetate-poisoned muscle</title>
+  <author>
+   <persName>
+    <forename type="first">Fd</forename>
+    <surname>Carlson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Siger</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Gen Physiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="30" to="1" />
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Thapsigargin, a tumor promoter, discharges intracellular Ca &quot; stores by specific inhibition of the endoplasmic reticulum Ca*+-ATPase</title>
+  <author>
+   <persName>
+    <surname>Thastrup 0</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pj</forename>
+    <surname>Cullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bk</forename>
+    <surname>Drobak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Mr</forename>
+    <surname>Hanley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ap</forename>
+    <surname>Dawson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc Natl Acad Sci</title>
+  <imprint>
+   <biblScope unit="volume">87</biblScope>
+   <biblScope unit="page" from="2466" to="70" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Regulation of extracellular calcium entry in endothelial cells: role of intracellular calcium pool</title>
+  <author>
+   <persName>
+    <forename type="first">Rj</forename>
+    <surname>Dolor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lm</forename>
+    <surname>Hurwitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Mirza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hc</forename>
+    <surname>Strauss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ar</forename>
+    <surname>Whorton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Physiol</title>
+  <imprint>
+   <biblScope unit="volume">262</biblScope>
+   <biblScope unit="page" from="17" to="1" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">Depletion of the inositol 1,4,5-triphosphate-sensitive intracellular Ca &quot; store in vascular endothelial cells activates the agonist-sensitive Ca&apos;+-influx pathway</title>
+  <author>
+   <persName>
+    <forename type="first">Wp</forename>
+    <surname>Schilling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Oa</forename>
+    <surname>Cabello</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Rajan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem J</title>
+  <imprint>
+   <biblScope unit="volume">284</biblScope>
+   <biblScope unit="page" from="521" to="30" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Aspects of fatty acid metabolism in vascular endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">Wc</forename>
+    <surname>Hulsmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ml</forename>
+    <surname>Dubelaar</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochemie</title>
+  <imprint>
+   <biblScope unit="volume">7068</biblScope>
+   <biblScope unit="page" from="1" to="6" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Metabolism of exogenous substrates by coronary endothelial cells in culture</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Krutzfeldt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Spahr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mertens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Siegmund</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Mol Cell Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="page" from="1393" to="404" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Fatty acids are not an important fuel for coronary microvascular endothelial cells</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Spahr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Krutzfeldt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mertens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Siegmund</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mvl Cell Biochem I989</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page" from="59" to="64" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Energetic response of coronary endothelial cells to hypoxia</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mertens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>No11</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Spahr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Krutzfeldt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hm</forename>
+    <surname>Piper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Phy.siol</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Intracellular Ca &quot; concentration and uH. during metabolic inhibition</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Hayashi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Miyata</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Noda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Pl7vsiol</title>
+  <imprint>
+   <biblScope unit="volume">199261258262</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <biblScope unit="page" from="149" to="54" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Dependence of hypoxic cellular calcium loading on N a T a &quot; exchange</title>
+  <author>
+   <persName>
+    <forename type="first">Mcp</forename>
+    <surname>Haigney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Miyata</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Eg</forename>
+    <surname>Lakatta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Md</forename>
+    <surname>Stern</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hs</forename>
+    <surname>Silverman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circ Res</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page" from="547" to="57" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

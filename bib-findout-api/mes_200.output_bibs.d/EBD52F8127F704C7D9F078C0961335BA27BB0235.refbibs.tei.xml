@@ -1,0 +1,75 @@
+<TEI xml:id="istex-EBD52F8127F704C7D9F078C0961335BA27BB0235">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Wafer Fabrication in the 1980s</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Bojert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Vieber</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1981" />
+   <pubPlace>Dataquest</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Revolution in Miniature</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Braun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Macdonald</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Office of Technology Assessment (OTA) Appendix I-B Editors of Electronics An Age of Innovation: the World Electronics</title>
+  <meeting><address><addrLine>Paris</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cambidge University Press Congress of the United States McGraw-Hill Publications Co Gros</publisher>
+   <date type="published" when="1930" />
+  </imprint>
+ </monogr>
+ <note>Sciences. de la Vie et Société, La Documentation Francaise</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">The Impact of Electronics on the</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Kaplinsky</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>
