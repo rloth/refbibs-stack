@@ -8,14 +8,35 @@ from libconsulte import api
 from re import search, sub, MULTILINE
 
 from os import listdir
+from json import dumps
+
+from random import shuffle
 
 # ---------------------------------
-def b_text_list(refbib):
+def b_text_to_query_fragments(refbib):
 	"""
 	imprime juste les textes pour bag-of-words
-	/!\ pas les attributs !! comme date@when /!\
+	/!\ et les 3 attributs connus comme importants /!\
+	     - date/@when
+	     - biblScope[@unit='page']/@from
+	     - biblScope[@unit='page']/@to
 	"""
+	
+	# tous sauf les attributs et les textes vides
 	bow_list = [text_remove_s(txt) for txt in refbib.itertext() if txt is not None]
+	
+	# les 3 attributs voulus
+	when = refbib.xpath('monogr/imprint/date/@when')
+	if len(when):
+		bow_list.append(text_to_query_fragment(when[0]))
+	
+	pfrom = refbib.xpath('monogr/imprint/biblScope[@unit="page"]/@from')
+	if len(pfrom):
+		bow_list.append(text_to_query_fragment(pfrom[0]))
+	
+	pto = refbib.xpath('monogr/imprint/biblScope[@unit="page"]/@to')
+	if len(pto):
+		bow_list.append(text_to_query_fragment(pto[0]))
 	return bow_list
 
 
@@ -33,6 +54,20 @@ def text_remove_s(all_text):
 		flat_alltext = ''
 	return flat_alltext
 
+def text_basic_wildcard(any_text):
+	"""
+	Replaces '~' by '?' (from OCR convention to lucene query wildcard)
+	
+	# Explication
+	# '~' est souvent un retour d'OCR signalant les caras incompris
+	# ex: J. ams. ten. Pkys. Bl~sdell ~blishi~8 Company Tellus J. atmos. ten. Phys
+	
+	# '?' est le caractère joker qui correspond à la même idée dans le monde des requêtes lucene
+	"""
+	return sub('~', '?', any_text)
+
+def text_to_query_fragment(any_text):
+	return text_basic_wildcard(text_remove_s(any_text))
 
 def b_subtags_print():
 	for elt in refbib.iter():
@@ -60,9 +95,7 @@ def b_subtags_print():
 
 # Rappels:
 
-# '~' est souvent un retour d'OCR signalant les caras incompris
-# ex: J. ams. ten. Pkys. Bl~sdell ~blishi~8 Company Tellus J. atmos. ten. Phys
-
+# (1) MATCHING
 
 # matchs avec \w
 #  => match('\w+', "ǌork_alldédalö")
@@ -70,13 +103,11 @@ def b_subtags_print():
 #  => match('\w+', "Jo¨rgensen")
 #    NON: <_sre.SRE_Match object; span=(0, 2), match='Jo'>
 
-
-
 # "Am Heart J" => "American Heart Journal"
 # strict: host.title:Am* AND host.title:Heart*
 # souple: host.title:Am* host.title:Heart*
 
-
+# (2) METHODES TESTABLES
 # bag of words
 # score_filtres + bag of words ??
 # structurés
@@ -84,7 +115,7 @@ def b_subtags_print():
 # score_filtres + structurés + sous-ensembles std
 # score_filtres + structurés + sous-ensembles selon type
 
-# filtres:
+# (3) filtres:
 #  - longueur du titre
 #  - caractères interdits dans le nom/prénom
 #  - nombre de nom/prénoms
@@ -95,21 +126,33 @@ def b_subtags_print():
 # 200 docs, 6588 refbibs en sortie de bib-get
 bibfiles = listdir('./mes_200.output_bibs.d')
 
+# pour les tests (faire des données différentes chaque fois)
+shuffle(bibfiles)
+ten_test_files = bibfiles[0:10]
+
 # lecture pour chaque doc => pour chaque bib
-for file in bibfiles:
+for file in ten_test_files:
 	tei_dom = etree.parse('mes_200.output_bibs.d/'+file) 
 	bib_elts = tei_dom.xpath('//listBibl/biblStruct')
 	for refbib in bib_elts:
 		
 		# methode 1: recherche bag-of-words
-		rb_liste_pleins = [t for t in b_text_list(refbib) if len(t)]
+		rb_liste_pleins = [t for t in b_text_to_query_fragments(refbib) if len(t)]
 		print(rb_liste_pleins)
 		rb_query = q=" ".join(rb_liste_pleins)
 		rb_top_answer = api.search(
 			rb_query, 
 			limit=1,
-			outfields=['id', 'title', 'host.title', 'host.volume']
+			outfields=['id', 
+				'title',
+				'host.title',
+				'host.volume',
+				'publicationDate',
+				'author.name',
+				'corpusName',
+				'doi'
+				]
 			)[0]
 		
-		print(rb_top_answer)
+		print(dumps(rb_top_answer, indent=2))
 
