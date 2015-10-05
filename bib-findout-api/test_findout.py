@@ -151,7 +151,34 @@ def text_basic_wildcard(any_text):
 	return sub('~', '?', any_text)
 
 def text_to_query_fragment(any_text):
-	return text_basic_wildcard(text_remove_s(any_text))
+	if any_text is None:
+		return ''
+	else:
+		return text_basic_wildcard(text_remove_s(any_text))
+
+def record(records_dict, field_tag, str_value):
+	"""
+	#  par ex:    'monogr/title'         : ['super titre']
+	#  par ex:    'analytic/author/persName/surname'    : ['Dupont','Durand']
+	#  par ex:    'monogr/biblScope[@unit="page]/@from' : ['123']
+	
+	on n'enregistre une nouvelle valeur que si chaîne non vide
+	"""
+	
+	if len(str_value):
+		# si ce champ n'existe pas encore
+		if field_tag not in records_dict:
+			# nouvelle liste
+			records_dict[field_tag] = [str_value]
+		# autrement
+		else:
+			# ajout à la liste
+			records_dict[field_tag].append(str_value)
+			# (notamment liste nécessaire pour les author:name1... )
+	
+	# retour du dico mis à jours
+	return records_dict
+
 
 
 def b_subvalues(refbib_subtree):
@@ -160,12 +187,10 @@ def b_subvalues(refbib_subtree):
 	des chemins élements internes (xpath) => valeurs
 	"""
 	
-	# à remplir
-	records_dict = {}
-	# structure : src_path               : src_content
-	#  par ex:    'monogr/title'         : 'super titre'
-	#  par ex:    'analytic/author/persName/surname'    : 'Dupont'
-	#  par ex:    'monogr/biblScope[@unit="page]/@from' : 123
+	# à remplir dict de listes
+	xml_subtexts_by_field = {}
+	# structure : src_path : [src_content]
+
 	
 	
 	# print("=== NB de sous-elts: %i ===" % len(refbib_subtree))
@@ -180,8 +205,7 @@ def b_subvalues(refbib_subtree):
 			if value:
 				str_value = text_to_query_fragment(value)
 				# enregistrement
-				if len(str_value):
-					records_dict[field] = str_value
+				xml_subtexts_by_field = record(xml_subtexts_by_field, field, str_value)
 		
 		elif elt.tag == 'biblScope' and elt.attrib['unit'] == 'page':
 			# cas rare <biblScope unit="page">332</biblScope>
@@ -189,8 +213,7 @@ def b_subvalues(refbib_subtree):
 				field = mon_xpath(elt)+'/@from'
 				str_value = text_to_query_fragment(elt.text)
 				# enregistrement
-				if len(str_value):
-					records_dict[field] = str_value
+				xml_subtexts_by_field = record(xml_subtexts_by_field, field, str_value)
 			
 			# cas normal <biblScope unit="page" from="329" to="396" />
 			else:
@@ -200,18 +223,16 @@ def b_subvalues(refbib_subtree):
 						value = elt.attrib[bout]
 						str_value = text_to_query_fragment(elt.attrib[bout])
 						# enregistrement
-						if len(str_value):
-							records_dict[field] = str_value
+						xml_subtexts_by_field = record(xml_subtexts_by_field, field, str_value)
 		# cas normaux
 		else:
 			if elt.text:
 				field = mon_xpath(elt)
 				str_value = text_to_query_fragment(elt.text)
 				# enregistrement
-				if len(str_value):
-					records_dict[field] = str_value
+				xml_subtexts_by_field = record(xml_subtexts_by_field, field, str_value)
 		
-	return records_dict
+	return xml_subtexts_by_field
 
 
 def get_top_match_or_None(solving_query):
@@ -279,19 +300,25 @@ bibfiles = listdir('./mes_200.output_bibs.d')
 shuffle(bibfiles)
 ten_test_files = bibfiles[0:20]
 
+print("= + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + =")
+print(ten_test_files)
+
 # lecture pour chaque doc => pour chaque bib
-for file in bibfiles:
-	tei_dom = etree.parse('mes_200.output_bibs.d/'+file) 
+for bibfile in ten_test_files:
+	print("Query bibs for DOC %s" % bibfile, file=stderr)
+	
+	tei_dom = etree.parse('mes_200.output_bibs.d/'+bibfile) 
 	bib_elts = tei_dom.xpath('//listBibl/biblStruct')
 	
 	for i, refbib in enumerate(bib_elts):
 		
 		subelts = [xelt for xelt in refbib.iter()]
 		
-		# ------ verbose
-		#for xelt in subelts:
-		#	print("%s: %s" % (tag_n_useful_attrs(xelt),xelt.text), file=stderr)
-		
+		# ------ <verbose>
+		print("---------> BIB %s <--------" % str(i+1))
+		for xelt in subelts:
+			print("  %s: %s" % (tag_n_useful_attrs(xelt),text_to_query_fragment(xelt.text)), file=stderr)
+		# ------ </verbose>
 		
 		
 		# methode 1: recherche bag-of-words -----------------------------
@@ -310,49 +337,88 @@ for file in bibfiles:
 		bib_dico_vals = b_subvalues(subelts)   # <=== iter + annot
 		
 		# construction requête structurée
-		full_query_fragments = []
+		all_whole_query_fragments = []
+		all_tokenized_query_fragments = []
+		longer_tokenized_query_fragments = []
 		for field in bib_dico_vals:
-			# obtention du champ api corrspondant à notre sous-champ XML
-			
-			try:
+			for value in bib_dico_vals[field]:
+				# obtention du champ api correspondant à notre sous-élément XML
+				#             "---------"                     <--/----/----/@...
 				# £TODO mapping encore un peu simpliste
 				champ_api = TEI_TO_LUCENE_MAP.get(field, '_CHAMP_INCONNU_')  # <=== mapping
-			except KeyError as kerr:
-				print(kerr.string)
-			
-			# lucene query chunks
-			if champ_api == '_CHAMP_INCONNU_':
-				query_frag = '"'+bib_dico_vals[field]+'"'
-			
-			# on a un champ structuré
-			else:
-				#            ---------     ---------------------
-				query_frag = champ_api+':"'+bib_dico_vals[field]+'"'
-				#            ---------     ---------------------
-				#             champ          valeur texte
-			
-			# liste de tous les fragments
-			full_query_fragments.append(query_frag)
+				
+				# --- lucene query chunks ------------------------
+				
+				# cas non-structuré <<<<<<<<<<<<<<<<<<
+				if champ_api == '_CHAMP_INCONNU_':
+					# pour les méthodes 2 et 3 on garde entre guillemets
+					query_whole_frag = '"'+value+'"'
+					
+					# liste de tous les fragments entiers
+					all_whole_query_fragments.append(query_whole_frag)
+					
+					# pour la méthode 4 tel quel sans guillemets (ES ~> chaque mot à part)
+					all_tokenized_query_fragments.append(value)
+				
+				# on a un champ structuré <<<<<<<<<<<<<
+				else:
+					# pour les méthodes 2 et 3 on garde le fragment entier
+					#                  ---------     -------
+					query_whole_frag = champ_api+':"'+value+'"'
+					#                  ---------     -------
+					#                   champ      valeur texte entière
+					
+					# liste de tous les fragments entiers
+					all_whole_query_fragments.append(query_whole_frag)
+					
+					# pour les méthodes 4 et 5 chaque mot à part AVEC son champ quand même
+					for token in value.split(" "):
+						# nouvelle paire champ:token
+						all_tokenized_query_fragments.append(champ_api+':"'+token+'"')
+						
+						# idem en évitant les tout petits calibres
+						if len(token) > 3:
+							longer_tokenized_query_fragments.append(champ_api+':"'+token+'"')
+					
+				
 		
-		# methode 2: recherche structurée stricte -----------------------
-		rb_query_2 = q=" AND ".join(full_query_fragments)   ## QUERY 2
+		# methode 2: recherche structurée stricte ---------------------------
+		rb_query_2 = " AND ".join(all_whole_query_fragments)   ## QUERY 2
+		
+		# méthode 3 plus souple: pas de AND cette fois-ci -------------------
+		rb_query_3 = " ".join(all_whole_query_fragments)       ## QUERY 3
+		
+		# méthode 4 encore plus souple: pas de AND et pas de guillemets -----
+		rb_query_4 = " ".join(all_tokenized_query_fragments)       ## QUERY 4
+		
+		# méthode 5 comme 4 mais filtrage des tokens les plus courts --------
+		# (évite match par les initiales de prénoms -- peu significatives!)
+		rb_query_5 = " ".join(all_tokenized_query_fragments)       ## QUERY 5
+		
+		# méthode 6 comme 5 mais retour d'un petit peu de structuré :
+		# (la date redevient obligatoire)
+		# TODO : pourquoi le "+" de lucene ne fonctionne pas ?
+		
+		
+		# API requests => json hits => dict -------------------------------
 		rb_answer_2 = get_top_match_or_None(rb_query_2)     ## ANSWER 2
-		
-		# méthode 3 plus souple: pas de AND cette fois-ci ---------------
-		rb_query_3 = q=" ".join(full_query_fragments)       ## QUERY 3
 		rb_answer_3 = get_top_match_or_None(rb_query_3)     ## ANSWER 3
-		
+		rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
+		rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
+		# -----------------------------------------------------------------
 		
 		# Sortie évaluation humaine
 		print(
 		  "======================================\n",
-		  "DOC %s -- BIB %i\n" % (file, i+1),
+		  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)),
 		  "------\nméthode 1\n requête:%s\n match:%s\n" % (rb_query_1, rb_answer_1),
 		  "---\nméthode 2\n requête:%s\n match:%s\n" % (rb_query_2, rb_answer_2),
-		  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3)
+		  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
+		  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
+		  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
 		  )
 
 
 print("LISTE DES FICHIERS PDF source :")
-for file in bibfiles:
-	print (sub('\.refbibs\.tei\.xml','.pdf', file))
+for bibfile in bibfiles:
+	print (sub('\.refbibs\.tei\.xml','.pdf', bibfile))
