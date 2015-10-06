@@ -294,7 +294,7 @@ def get_top_match_or_None(solving_query):
 # -------------------------------------
 
 # 200 docs, 6588 refbibs en sortie de bib-get
-bibfiles = listdir('./mes_200.output_bibs.d')
+bibfiles = ['/home/loth/refbib/a_annoter/2015-10-06_15h30-output_bibs.dir/D9F4D9BD6AB850E676DD80D89D3FD2773585B2A1.refbibs.tei.xml']
 
 # pour les tests (on fait 10 ou 20 docs différents à chaque fois)
 shuffle(bibfiles)
@@ -307,7 +307,7 @@ print(ten_test_files)
 for bibfile in ten_test_files:
 	print("Query bibs for DOC %s" % bibfile, file=stderr)
 	
-	tei_dom = etree.parse('mes_200.output_bibs.d/'+bibfile) 
+	tei_dom = etree.parse(bibfile) 
 	bib_elts = tei_dom.xpath('//listBibl/biblStruct')
 	
 	for i, refbib in enumerate(bib_elts):
@@ -337,9 +337,11 @@ for bibfile in ten_test_files:
 		bib_dico_vals = b_subvalues(subelts)   # <=== iter + annot
 		
 		# construction requête structurée
-		all_whole_query_fragments = []
-		all_tokenized_query_fragments = []
-		longer_tokenized_query_fragments = []
+		all_whole_query_fragments = []             # m2 et m3
+		all_tokenized_query_fragments = []         # m4
+		longer_tokenized_query_fragments = []      # m5
+		m6_should_tokenized_query_fragments = []      # m6
+		m6_must_tokenized_query_fragments = []        # m6
 		for field in bib_dico_vals:
 			for value in bib_dico_vals[field]:
 				# obtention du champ api correspondant à notre sous-élément XML
@@ -379,8 +381,13 @@ for bibfile in ten_test_files:
 						# idem en évitant les tout petits calibres
 						if len(token) > 3:
 							longer_tokenized_query_fragments.append(champ_api+':"'+token+'"')
-					
-				
+						
+							# et idem en stockant expressement les champs "MUST" | SHOULD pour la méthode 6
+							if champ_api == 'publicationDate':
+								m6_must_tokenized_query_fragments.append(champ_api+':"'+token+'"')
+							else:
+								m6_should_tokenized_query_fragments.append(champ_api+':"'+token+'"')
+								
 		
 		# methode 2: recherche structurée stricte ---------------------------
 		rb_query_2 = " AND ".join(all_whole_query_fragments)   ## QUERY 2
@@ -395,9 +402,12 @@ for bibfile in ten_test_files:
 		# (évite match par les initiales de prénoms -- peu significatives!)
 		rb_query_5 = " ".join(all_tokenized_query_fragments)       ## QUERY 5
 		
-		# méthode 6 comme 5 mais retour d'un petit peu de structuré :
+		# méthode 6 comme 5 mais retour d'un petit peu de strict :
 		# (la date redevient obligatoire)
 		# TODO : pourquoi le "+" de lucene ne fonctionne pas ?
+		if len(m6_must_tokenized_query_fragments):
+			rb_query_6 = "("+" AND ".join(m6_must_tokenized_query_fragments)+") AND ("+" ".join(all_tokenized_query_fragments)+")"
+			
 		
 		
 		# API requests => json hits => dict -------------------------------
@@ -405,6 +415,10 @@ for bibfile in ten_test_files:
 		rb_answer_3 = get_top_match_or_None(rb_query_3)     ## ANSWER 3
 		rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
 		rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
+		if len(m6_must_tokenized_query_fragments) and len(m6_should_tokenized_query_fragments):
+			rb_answer_6 = get_top_match_or_None(rb_query_6)     ## ANSWER 6
+		else:
+			rb_answer_6 = "Pas de date -- nécessaire pour la méthode 6"
 		# -----------------------------------------------------------------
 		
 		# Sortie évaluation humaine
@@ -416,6 +430,7 @@ for bibfile in ten_test_files:
 		  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
 		  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
 		  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
+		  "---\nméthode 6\n requête:%s\n match:%s\n" % (rb_query_6, rb_answer_6),
 		  )
 
 
