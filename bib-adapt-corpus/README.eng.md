@@ -22,6 +22,12 @@ bako run_training   model_type   [-c corpus_name [corpus_name2...]]
 bako eval_model     [-m model_name] [-e evalcorpus_name] [-s] [-g]
 ```
 
+To setup a new project in any new empty directory
+--------------------------------------------------
+```
+bako.py new_workshop
+```
+
 
 Required packages
 ------------------
@@ -39,6 +45,7 @@ sudo apt-get install git
 sudo apt-get install libxml-libxml-perl
 sudo apt-get install libhtml-html5-entities-perl
 sudo apt-get install libalgorithm-combinatorics-perl
+sudo apt-get install r-base
 ```
 
 ### specific inist settings
@@ -49,12 +56,18 @@ echo 'export https_proxy="https://proxyout.inist.fr:8080"' >> ~/.bashrc
 
 Directory structure
 ---------------------
+**Install dir**
 ```
 bib-adapt-corpus
 ├── bako.py
-├── lib ── (all libs)
-├── etc ── dtd_mashup
-├── local_conf.ini       
+├── libconsulte ── # for api connection, sampling, tei conversion, corpus dirs
+├── libtrainers ── # for training-specific formats, training runs and model store
+└── bako_config.ini
+```
+
+**Any new dir on the system**
+```
+my_workshop
 ├── corpora  ──── (...)  #  T H R E E
 ├── models  ───── (...)  #   W O R K
 └── evaluations ─ (...)  #   D I R S
@@ -64,7 +77,7 @@ Config
 -------
 All parameters are set throught the configuration file **`local_conf.ini`**
 
-**Exemple**
+**Minimal exemple**
 
 ```
 [grobid]

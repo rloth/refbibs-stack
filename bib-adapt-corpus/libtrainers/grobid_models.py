@@ -189,9 +189,12 @@ def gb_model_import(model_type, to = MY_MODELS_HOME):
 			new_dir = mon_modele.pick_n_store(logs=[import_log])
 		except FileExistsError as fee:
 			skip_import = True
-			print("  skip_import: %s dir (unchecked) already exists in models dir" % ID)
 		
-		if not skip_import:
+		if skip_import:
+			print("  skip_import: %s dir (unchecked) already exists in models dir" % ID)
+			return None
+		# cas normal
+		else:
 			# (persistance dans un json en amont pour tous les modèles)
 			status_json = mon_modele.situation_read(models_home = to)
 			# modif: c'est à la fois le modèle initial et le dernier en date
@@ -218,6 +221,9 @@ def gb_model_import(model_type, to = MY_MODELS_HOME):
 				#  - les modèles initiaux (vanilla_bibzone, vanilla_biblines, ...)
 				#  - les modèles courants (last_bibzone, last_biblines, ...)
 				#  - les meilleurs modèles (best_bibzone, best_biblines, ...)
+			
+			# pour infos
+			return mon_modele.mid
 
 
 def gb_vanilla_restore(model_type):
@@ -463,7 +469,7 @@ class CRFModel:
 		
 		# si première fois
 		if not path.exists(bak_path):
-			print("MODELS: can't find any previous status report at %s" % bak_path)
+			# print("MODELS: can't find any previous status report at %s" % bak_path)
 			return cls.situation_init()
 		else:
 			# (b) lecture

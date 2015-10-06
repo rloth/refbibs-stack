@@ -4,12 +4,14 @@
 #         - sur corpus PM_1943 déjà annoté dans un format NXML
 #         - d'une chaine de balisage des références TEI (ex: grobid, bilbo)
 # --------------------------------------------------------------------------
-#  message /help/ en fin de ce fichier       version: 0.8 (23/09/2015)
+#  message /help/ en fin de ce fichier       version: 0.8.5 (05/10/2015)
 #  copyright 2014-15 INIST-CNRS    contact: romain dot loth at inist dot fr
 # --------------------------------------------------------------------------
 
 # changelog
 # ---------
+# version 0.8 => 0.8.5: doc_ID (counter simple) remplacé par checkname dans les tables sorties
+#                       plus simple à traiter ensuite mais tables plus grosses 
 # version 0.7 => 0.8: tout TEI et assiette de précision
 # version 0.6 => 0.7: prise en compte d'erreurs OCR courantes
 #                     dans clean_compare et @COMPARERS
@@ -47,7 +49,7 @@ use Encode ;
 my $debug = 0 ;
 
 # (option --golddir) Dossier des données de référence, dites "gold"
-my $ref_dir = "/home/loth/refbib/corpus/bibistex/05_docs/s1/C-xmls_flat/" ;
+my $ref_dir = "" ;
 
 # (option --thereflist) Liste des fichiers aux données de référence, dits "gold"
 my $ref_list = "" ;
@@ -56,8 +58,8 @@ my $ref_list = "" ;
 my $xml_dir = "TEI-back_done" ;
 
 # (option -e) Extension des données à évaluer 
-# (TEI avec balisage refbib sorti de Grobid ou archivearticle sorti de Cermine)
-my $ext = "refbibs.tei.xml" ;
+# (TEI avec balisage refbib sorti de Grobid "references.tei.xml" ou de bib-get "refbibs.tei.xml")
+my $ext = "references.tei.xml" ;
 
 # limite au nombre de docs à traiter pour les tests
 my $maxref = 0 ;
@@ -92,12 +94,12 @@ my @COMPARERS = (
 	'\&compare_rmhyphen',
 	'\&compare_joinhyphen',
 	# '\&compare_unligatures',
-	# '\&compare_normalise_punct',
-	# '\&compare_normalise_space',
+	'\&compare_normalise_punct',
+	'\&compare_normalise_space',
 	#~ '\&compare_joinaccent',
 	#~ '\&compare_unaccent',
 	'\&compare_simple_punctuation',
-	# '\&compare_ocrerrors',
+	'\&compare_ocrerrors',
 	'\&compare_little_longer',  # ces 2 là forcément en dernier
 	'\&compare_little_shorter', # ces 2 là forcément en dernier
 	) ;
@@ -124,6 +126,9 @@ my @COMPARERS = (
 ###############################################################
 
 # Liste des fichiers *à évaluer*
+
+# £TODO lire directement depuis corpusdir/meta ?
+
 my @xml_to_check_list = map {decode('UTF-8', $_)} glob("$xml_dir/*.$ext") ;
 my $M = scalar(@xml_to_check_list) ;
 warn "RELU_d : $M fichiers $ext dans le dossier à évaluer\n" ;
@@ -144,10 +149,13 @@ if ($ref_list) {
 	$N = scalar (@gold_paths_list) ;
 	warn "RELU_l : $N fichiers dans la liste étalon\n" ;
 }
-else {
+elsif ($ref_dir) {
 	@gold_paths_list = map {decode('UTF-8', $_)} glob("$ref_dir/*.$gold_extension") ;
 	$N = scalar (@gold_paths_list) ;
 	warn "RELU_d : $N fichiers .$gold_extension dans le dossier étalon\n" ;
+}
+else {
+	warn "Veuillez fournir un dossier gold avec -g (ou une liste de chemins gold avec --thereflist)\n"
 }
 
 # REGISTRES avec contenus
@@ -179,6 +187,7 @@ for my $goldpath (@gold_paths_list) {
 							} ;
 }
 
+# pour debug
 #~ warn Dumper \%docs ; 
 #~ exit ;
 
@@ -711,7 +720,7 @@ for my $path (sort (@xml_to_check_list)) {
 				# comparaison micro
 				my $csv_line = fields_pair_str(
 						{
-						 'tdoc_id' => $docnostr,
+						 'checkname' => $checkname,
 						 'gbib_id' => $goldbib_k,
 						 'tbib_id' => $todobib_l,
 						 'alignement' => 'aligné',
@@ -753,7 +762,7 @@ for my $path (sort (@xml_to_check_list)) {
 				# comparaison micro
 				my $csv_line = fields_pair_str(
 						{
-						 'tdoc_id' => $docnostr,
+						 'checkname' => $checkname,
 						 'gbib_id' => $goldbib_k,
 						 'tbib_id' => $todobib_l,
 						 'alignement' => 'aligné',
@@ -793,7 +802,7 @@ for my $path (sort (@xml_to_check_list)) {
 					# comparaison micro
 					my $csv_line = fields_pair_str(
 							{
-							'tdoc_id' => $docnostr,
+							'checkname' => $checkname,
 							'gbib_id' => $goldbib_k,
 							'tbib_id' => $todobib_l,
 							'alignement' => 'aligné',
@@ -851,7 +860,7 @@ for my $path (sort (@xml_to_check_list)) {
 					# comparaison micro
 					my $csv_line = fields_pair_str(
 							{
-							'tdoc_id' => $docnostr,
+							'checkname' => $checkname,
 							'gbib_id' => $goldbib_k,
 							'tbib_id' => $todobib_l,
 							'alignement' => 'aligné',
@@ -911,8 +920,9 @@ for my $path (sort (@xml_to_check_list)) {
 
 	## sorties des lignes csv bruit et silence
 	for my $stray_k (sort {$a <=> $b} keys %$silence_bibs) {
+
 		my $print_info = {
-							'tdoc_id'    => $docnostr,
+							'bname'      => $checkname,
 							'bib_id'     => $stray_k,
 							'bib_fields' => $silence_bibs->{$stray_k},
 							'nature'     => 'silence',
@@ -922,7 +932,7 @@ for my $path (sort (@xml_to_check_list)) {
 	}
 	for my $stray_l (sort {$a <=> $b} keys %$noise_bibs) {
 		my $print_info = {
-							'tdoc_id'    => $docnostr,
+							'bname'      => $checkname,
 							'bib_id'     => $stray_l,
 							'bib_fields' => $noise_bibs->{$stray_l},
 							'nature'     => 'bruit',
@@ -1007,15 +1017,10 @@ if($eval_log_path) {
 	 || die "Par contre impossible d'ajouter ce rapport d'éval au fichier $eval_log_path (échec écriture)" ;
 	warn "Ajout de ce rapport d'éval dans >> $eval_log_path \n" ;
 	if ($register_id) {
-		warn "  cols: EVAL_ID NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date\n";
+		warn "  cols: NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date match_TOTAL EVAL_ID\n";
 	}
 	else {
-		warn "  cols: NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date\n";
-	}
-	
-	if ($register_id) {
-		$register_id =~ s/[^a-zA-Z0-9]/_/g ;
-		print EVAL_REPORT_TO_APPEND $register_id."\t" ;
+		warn "  cols: NDOCS nbibs_gold Rappel_a  Précision_a match_tit match_vol match_au+date match_TOTAL\n";
 	}
 	
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar1}d",$aligned_docs)."\t" ;
@@ -1024,7 +1029,15 @@ if($eval_log_path) {
 	print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_L)."\t" ;
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_title)."\t" ;
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_issue)."\t" ;
-	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_names)."\n" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_names)."\t" ;
+	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found)."\t" ;
+	
+	if ($register_id) {
+		$register_id =~ s/[^a-zA-Z0-9_-]/_/g ;
+		print EVAL_REPORT_TO_APPEND $register_id."\t" ;
+	}
+	
+	print "\n";
 	
 	close EVAL_REPORT_TO_APPEND ;
 }
@@ -1084,7 +1097,7 @@ sub non_aligned_str {
 	my $params = shift ;
 
 	# identifiant du doc en cours
-	my $doc_id = $params->{'tdoc_id'} ;
+	my $bname = $params->{'bname'} ;
 	# identifiant de la bib (gb_k ou tb_l)
 	my $b_id = $params->{'bib_id'} ;
 	# hash des données parsées todobib_data ou goldbib_data
@@ -1102,7 +1115,7 @@ sub non_aligned_str {
 	# colonnes | doc_id | goldid | -rien- |silence|match_r| pubtype |   -rien-   |nb_gfields| -rien- | gnames | -rien- | oknames (= 0)
 	if ($nature eq 'silence') {
 		@csv_values = (                              # val?      col:
-		               $doc_id,                       # oui       doc_id
+		               $bname,                       # oui       doc_id
 		               $b_id,                        # oui       gold_b_id
 		               '___',                        # xxx       todo_b_id
 		               'silence',                    # "silence"  match
@@ -1116,7 +1129,7 @@ sub non_aligned_str {
 	# colonnes | doc_id | -rien- | todoid | bruit |match_r| -rien-  |has_analytic|  -rien-  | nb_tfields | -rien- | tnames | oknames (= 0)
 	elsif ($nature eq 'bruit') {
 		@csv_values = (                              # val?    col:
-		               $doc_id,                       # oui     doc_id
+		               $bname,                       # oui     doc_id
 		               '___',                        # xxx     gold_b_id
 		               $b_id,                        # oui     todo_b_id
 		               'bruit',                      # "bruit"  match
@@ -1128,7 +1141,7 @@ sub non_aligned_str {
 		               ) ;
 	}
 	else {
-		warn $doc_id."--".$b_id."nature de la bib '$nature' inconnue\n" ;
+		warn $bname."--".$b_id."nature de la bib '$nature' inconnue\n" ;
 	}
 
 
@@ -1168,8 +1181,12 @@ sub non_aligned_str {
 # ligne csv pour décomptes (ex : rappel et précision au niveau des champs)
 sub fields_pair_str {
 	my $params = shift ;
-
-	my $doc_id = $params->{'tdoc_id'} ;
+	
+	# mega affichage debug des paires ----------
+	#~ warn Dumper $params ;
+	# ------------------------------------------
+	
+	my $bname = $params->{'checkname'};
 	my $gb_k  = $params->{'gbib_id'} ;
 	my $tb_l  = $params->{'tbib_id'} ;
 	my $alignement = $params->{'alignement'} ;
@@ -1190,7 +1207,7 @@ sub fields_pair_str {
 	#   1 col  le 'publication type' du gold
 	#   1 col  le 'has_analytic' du todo
 	#   2 cols nombre de champs extraits de part et d'autre
-	my @result = ($doc_id,  $gb_k,  $tb_l,
+	my @result = ($bname,  $gb_k,  $tb_l,
 				  $alignement,  $match_rule,
 				  $gb_data->{'_has_analytic'},  $tb_data->{'_has_analytic'},
 				  $nb_def_gf,$nb_def_tf) ;
@@ -1328,7 +1345,7 @@ sub fields_pair_str {
 
 			} # fin else
 
-			warn "(doc-$doc_id) g:$gb_k, t:$tb_l [".sprintf("%4s",$key)."] => $diagnostic_str\n" if $debug ;
+			warn "(doc-$bname) g:$gb_k, t:$tb_l [".sprintf("%4s",$key)."] => $diagnostic_str\n" if $debug ;
 			
 			push (@result, $diagnostic_str) ;
 		}
@@ -2023,7 +2040,7 @@ sub HELP_MESSAGE {
 | Usage                                                            |
 | =====                                                            |
 |   eval_xml_refbibs.pl -x TEI-XMLs/à/évaluer/                     |
-|                       -r TEI-XMLs/de/référence/ > resultats.tab  |
+|                       -g TEI-XMLs/de/référence/ > resultats.tab  |
 |                                                                  |
 |  NB: il faut les mêmes noms de fichiers (sauf .ext) des 2 côtés  |
 |                                                                  |
