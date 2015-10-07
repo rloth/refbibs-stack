@@ -7,12 +7,12 @@ from lxml import etree
 from libconsulte import api
 from re import search, sub, MULTILINE
 
-from os import listdir
+from os import listdir,path
 from json import dumps
 
 from random import shuffle
 
-from sys import stderr
+from sys import stderr, argv
 
 # ---------------------------------
 
@@ -294,7 +294,11 @@ def get_top_match_or_None(solving_query):
 # -------------------------------------
 
 # 200 docs, 6588 refbibs en sortie de bib-get
-bibfiles = ['/home/loth/refbib/a_annoter/2015-10-06_15h30-output_bibs.dir/D9F4D9BD6AB850E676DD80D89D3FD2773585B2A1.refbibs.tei.xml']
+# bibfiles = ['/home/loth/refbib/a_annoter/2015-10-06_15h30-output_bibs.dir/D9F4D9BD6AB850E676DD80D89D3FD2773585B2A1.refbibs.tei.xml']
+
+my_dir = argv[1]
+
+bibfiles = [path.join(my_dir,fi) for fi in listdir(my_dir)]
 
 # pour les tests (on fait 10 ou 20 docs différents à chaque fois)
 shuffle(bibfiles)
@@ -410,28 +414,32 @@ for bibfile in ten_test_files:
 			
 		
 		
-		# API requests => json hits => dict -------------------------------
-		rb_answer_2 = get_top_match_or_None(rb_query_2)     ## ANSWER 2
-		rb_answer_3 = get_top_match_or_None(rb_query_3)     ## ANSWER 3
-		rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
-		rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
-		if len(m6_must_tokenized_query_fragments) and len(m6_should_tokenized_query_fragments):
-			rb_answer_6 = get_top_match_or_None(rb_query_6)     ## ANSWER 6
-		else:
-			rb_answer_6 = "Pas de date -- nécessaire pour la méthode 6"
-		# -----------------------------------------------------------------
-		
-		# Sortie évaluation humaine
-		print(
-		  "======================================\n",
-		  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)),
-		  "------\nméthode 1\n requête:%s\n match:%s\n" % (rb_query_1, rb_answer_1),
-		  "---\nméthode 2\n requête:%s\n match:%s\n" % (rb_query_2, rb_answer_2),
-		  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
-		  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
-		  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
-		  "---\nméthode 6\n requête:%s\n match:%s\n" % (rb_query_6, rb_answer_6),
-		  )
+		try:
+			
+			# API requests => json hits => dict -------------------------------
+			rb_answer_2 = get_top_match_or_None(rb_query_2)     ## ANSWER 2
+			rb_answer_3 = get_top_match_or_None(rb_query_3)     ## ANSWER 3
+			rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
+			rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
+			if len(m6_must_tokenized_query_fragments) and len(m6_should_tokenized_query_fragments):
+				rb_answer_6 = get_top_match_or_None(rb_query_6)     ## ANSWER 6
+			else:
+				rb_answer_6 = "Pas de date -- nécessaire pour la méthode 6"
+			# -----------------------------------------------------------------
+			
+			# Sortie évaluation humaine
+			print(
+			  "======================================\n",
+			  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)),
+			  "------\nméthode 1\n requête:%s\n match:%s\n" % (rb_query_1, rb_answer_1),
+			  "---\nméthode 2\n requête:%s\n match:%s\n" % (rb_query_2, rb_answer_2),
+			  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
+			  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
+			  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
+			  "---\nméthode 6\n requête:%s\n match:%s\n" % (rb_query_6, rb_answer_6),
+			  )
+		except:
+			print("skip")
 
 
 print("LISTE DES FICHIERS PDF source :")
