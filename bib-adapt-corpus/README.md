@@ -104,7 +104,7 @@ echo -e "export PATH=$PWD:\$PATH" >> ~/.bashrc
 
 ### Pour installer un nouveau projet dans un dossier
 
-Créera 3 dossiers `corpora`, `model-store` et `evaluations`
+Créera 3 dossiers `corpora`, `modelstore` et `evaluations`
 
 ```
 cd mon/nouveau/dossier/de/travail
@@ -152,7 +152,7 @@ Installation
 bib-adapt-corpus
 ├── bako.py
 ├── libconsulte ── # pour les liens à l'API, l'échantillonnage, le stockage/conversion des formats
-├── libtrainers ── # pour les formats spécifiques à l'entraînement, les runs d'entraînement et le model-store
+├── libtrainers ── # pour les formats spécifiques à l'entraînement, les runs d'entraînement et le modelstore
 └── bako_config.ini
 ```
 
