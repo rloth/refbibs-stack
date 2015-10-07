@@ -32,7 +32,6 @@ __status__    = "Dev"
 
 # imports standard
 from sys       import argv, stderr
-from getpass   import getpass
 from re        import sub, search, escape
 from random    import shuffle
 from itertools import product
@@ -44,14 +43,24 @@ from argparse  import ArgumentParser, RawTextHelpFormatter
 
 # imports locaux
 try:
-	import api
-	import field_value_lists
+	# CHEMIN 1 cas de figure du dossier utilisé comme librairie
+	#          au sein d'un package plus grand (exemple: bib-adapt-corpus)
+	from libconsulte import api
+	from libconsulte import field_value_lists
 	# =<< target_language_values, target_scat_values,
 	#     target_genre_values, target_date_ranges
 except ImportError:
-	print("""ERR: Les modules 'api.py' et 'field_value_lists.py' doivent être
-     placés à côté du script sampler.py ou dans un dossier du PYTHONPATH, pour sa bonne execution...""", file=stderr)
-	exit(1)
+	try:
+		# CHEMIN 2: cas de figure d'un appel depuis le dossier courant
+		#           exemple: on veut juste lancer le sampler tout seul
+		import api
+		import field_value_lists
+		
+	# cas de figure où il n'y a vraiment rien
+	except ImportError:
+		print("""ERR: Les modules 'api.py' et 'field_value_lists.py' doivent être
+		 placés à côté du script sampler.py ou dans un dossier du PYTHONPATH, pour sa bonne execution...""", file=stderr)
+		exit(1)
 
 # utile pour le cache
 HOME=path.dirname(path.realpath(__file__))
@@ -94,7 +103,7 @@ RANGEFACET_FIELDS = [
 # (key: API Name, val: local name <= the value is actually not used
 # 
 # the keys are used in the API queries
-# the vals are used in the 'tab' output mode as column names
+# the vals are unused but could be used in the 'tab' output mode as standard column names (£TODO)
 STD_MAP = {
 	'id'              : 'istex_id',  # 40 caractères [0-9A-F]
 	'doi'             : 'doi',
@@ -110,6 +119,7 @@ STD_MAP = {
 	#'volume'          : 'in_vol',   # todo
 	#'firstPage'       : 'in_fpg'    # todo
 	'qualityIndicators.pdfVersion' : 'pdfver',
+	'qualityIndicators.pdfWordCount' : 'pdfwc',
 }
 
 # [+ colonnes calculées]
@@ -289,6 +299,56 @@ def facet_vals(field_name):
 		exit(1)
 
 
+def year_to_range(year):
+	"""
+	ex 1968 => "[1950-1969]"
+	"""
+	min_year = 0
+	max_year = 2100
+	
+	flag_convertible = True
+	int_year = None
+	
+	if isinstance(year,int):
+		int_year = year
+	else:
+		# on va travailler sur les 4 
+		# premiers chars de la chaîne
+		year = str(year)
+		if len(year) > 4:
+			year = year[0:4]
+		try:
+			int_year = int(year)
+		except ValueError:
+			flag_convertible = False
+	
+	# décisions
+	if not flag_convertible:
+		return "UNKOWN_PERIOD"
+	elif int_year > max_year or int_year < min_year:
+		return "YEAR_OUT_OF_RANGE"
+	else:
+		my_interval = None
+		for interval in field_value_lists.DATE:
+			my_interval = interval
+			# on monte en ordre chrono
+			# => on ne teste que la fin
+			fin = interval[1]
+			# cas limite
+			if interval[1] == "*":
+				fin = max_year
+			# comparaison dans tous les cas
+			fin_int = int(fin)
+			if int_year < fin_int:
+				# on a le bon !
+				break
+		# conversion intervalle => string
+		return '[' + str(my_interval[0]) + ' TO ' + str(my_interval[1]) + ']'
+
+
+
+
+
 # sample() takes the same arguments as the module 
 
 # Can be called several times with simplified criteria if impossible to
@@ -374,7 +434,7 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 		# do the counting for each combo
 		for i, combi in enumerate(sorted(combinations)):
 			if i % 100 == 0:
-				print("pool %i/%i" % (i,n_combos))
+				print("pool %i/%i" % (i,n_combos), file=stderr)
 			
 			query = " AND ".join(combi)
 			
@@ -406,7 +466,7 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 		pool_info = {'f':abs_freqs, 'nr':N_reponses, 
 		            'nd':N_workdocs, 'totd':doc_grand_total}
 		# json.dump
-		dump(pool_info, cache)
+		dump(pool_info, cache, indent=1)
 		cache.close()
 	
 	
@@ -500,6 +560,8 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 			idi = hit['id']
 			
 			if idi not in index and idi not in FORBIDDEN_IDS:
+				# print(hit)
+				# exit()
 				my_n_got += 1
 				# main index
 				index[idi] = {
@@ -508,6 +570,7 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 					}
 				# store info
 				# £TODO: check conventions for null values
+				# £TODO: ajouter tout ça dans STD_MAP
 				if 'publicationDate' in hit and len(hit['publicationDate']):
 					index[idi]['yr'] = hit['publicationDate'][0:4]
 				else:
@@ -524,6 +587,31 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 					index[idi]['au'] = his_lastname
 				else:
 					index[idi]['au'] = "UNKNOWN"
+				
+				if 'language' in hit and len(hit['language']):
+					index[idi]['lg'] = hit['language'][0]
+				else:
+					index[idi]['lg'] = "UNKOWN_LANG"
+				
+				if 'genre' in hit and len(hit['genre']):
+					index[idi]['typ'] = hit['genre'][0]
+				else:
+					index[idi]['typ'] = "UNKOWN_GENRE"
+				
+				if 'categories' in hit and len(hit['categories']) and 'wos' in hit['categories'] and len(hit['categories']['wos']):
+					index[idi]['cat'] = "/".join(hit['categories']['wos'])
+				else:
+					index[idi]['cat'] = "UNKOWN_SCI_CAT"
+				
+				if 'qualityIndicators' in hit and 'pdfVersion' in hit['qualityIndicators']:
+					index[idi]['ver'] = hit['qualityIndicators']['pdfVersion']
+				else:
+					index[idi]['ver'] = "UNKNOWN_PDFVER"
+				
+				if 'qualityIndicators' in hit and 'pdfWordCount' in hit['qualityIndicators']:
+					index[idi]['wcp'] = hit['qualityIndicators']['pdfWordCount']
+				else:
+					index[idi]['wcp'] = "UNKNOWN_PDFWORDCOUNT"
 				
 			# recheck limit: needed as long as n_needed != my_quota 
 			# (should disappear as consequence of removing option B)
@@ -602,7 +690,7 @@ def full_run(arglist=None):
 	
 	# do we need to change smoothing ?
 	if args.smoothing_init and float(args.smoothing_init) > 0:
-		print("Setting initial smoothing to %.2f" % args.smoothing_init)
+		print("Setting initial smoothing to %.2f" % args.smoothing_init, file=stderr)
 		# global var change in main
 		LISSAGE = args.smoothing_init
 	
@@ -727,18 +815,30 @@ def full_run(arglist=None):
 	elif args.out_type == 'tab':
 		# header line
 		# £TODO STD_MAP
-		output_array.append("\t".join(['istex_id', 'corpus', 'pub_year',
-						 'author_1', 'title', 'src_query']))
+		output_array.append("\t".join(['istex_id', 'corpus', 'pub_year', 'pub_period', 'pdfver', 'pdfwc',
+						 'author_1','lang','doctype_1','cat_sci', 'title']))
 		# contents
 		for did, info in sorted(got_ids_idx.items(), key=lambda x: x[1]['_q']):
-			#~ print("INFO----------",info)
-			#~ exit()
+			# provenance: sample() => boucle par hits (l.500 ++)
+			# print("INFO----------",info, file=stderr)
+			# exit()
+			
+			period = year_to_range(info['yr'])
+			
+			
 			output_array.append("\t".join([ did,
 			                                info['co'],
 			                                info['yr'],
+			                                period,
+			                                info['ver'],
+			                                str(info['wcp']),
 			                                info['au'],
+			                                info['lg'],
+			                                info['typ'],
+			                                info['cat'],
 			                                info['ti'],
-			                                info['_q']]
+			                                #~ info['_q']
+			                                ]
 			                              )
 			             )
 	
@@ -748,58 +848,17 @@ def full_run(arglist=None):
 		my_dir = path.join(getcwd(),my_name)
 		mkdir(my_dir)
 		
+		# two "parallel" lists
 		ids = list(got_ids_idx.keys())
+		basenames = [std_filename(one_id, got_ids_idx[one_id]) for one_id in ids]
 		
-		# test sur le premier fichier: authentification nécessaire ?
-		need_auth = False
-		try:
-			bname = std_filename(ids[0], got_ids_idx[ids[0]])
-			api.write_fulltexts(ids[0], tgt_dir=my_dir, 
-										base_name=bname,
-										api_types=['metadata/xml',
-										           'fulltext/pdf']
-										)
-			print("retrieving PDF and XML-N for doc no 1")
-		except api.AuthWarning as e:
-			print("NB: le système veut une authentification SVP...",
-					file=stderr)
-			need_auth = True
-		
-		# récupération avec ou sans authentification
-		if need_auth:
-			my_login = input(' => Nom d\'utilisateur "ia": ')
-			my_passw = getpass(prompt=' => Mot de passe: ')
-			for i, did in enumerate(ids):
-				my_bname = std_filename(did, got_ids_idx[did])
-				#          got_ids_idx[did].to_filename()    <-- todo from STD_MAP
-				print("retrieving PDF and XML-N for doc no " + str(i+1))
-				try:
-					api.write_fulltexts(did,
-										tgt_dir=my_dir,
-										login=my_login,
-										passw=my_passw,
-										base_name = my_bname,
-										api_types=['metadata/xml',
-										           'fulltext/pdf']
-										)
-				except api.AuthWarning as e:
-					print("authentification refusée :(")
-					my_login = input(' => Nom d\'utilisateur "ia": ')
-					my_passw = getpass(prompt=' => Mot de passe: ')
-		
-		else:
-			for i, did in enumerate(ids):
-				# on ne refait pas le 1er car il a marché
-				if i == 0:
-					continue
-				my_bname = std_filename(did, got_ids_idx[did])
-				print("retrieving PDF and XML-N for doc no " + str(i+1))
-				api.write_fulltexts(did,
-									tgt_dir=my_dir,
-									base_name=my_bname,
-									api_types=['metadata/xml',
-									           'fulltext/pdf']
-									)
+		# loop with interactive authentification prompt if needed
+		api.write_fulltexts_loop_interact(
+			ids, basenames,
+			tgt_dir=my_dir,
+			api_types=['metadata/xml',
+					   'fulltext/pdf']
+		)
 		
 		LOG.append("SAVE: saved docs in %s/" % my_dir)
 	
