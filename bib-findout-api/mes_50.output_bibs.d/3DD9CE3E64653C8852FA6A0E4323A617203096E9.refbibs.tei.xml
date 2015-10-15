@@ -1,0 +1,779 @@
+<TEI xml:id="istex-3DD9CE3E64653C8852FA6A0E4323A617203096E9">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>S~mov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Frxvanskaja</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">1~</forename>
+    <forename type="middle">I</forename>
+    <surname>Shunts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arerba. Khim. Zhur</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">V</forename>
+    <surname>Stepb~nso~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">C</forename>
+    <surname>Coburn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>W~oox</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spectrochim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page">933</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H S</forename>
+    <surname>Green</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Spectrochim</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page">39</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Prajr~s~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. ~qci. Res. Banaras Hindu Univ</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page">144</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Fo~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>G~riao~-Lagr~a~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Gears</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Josie~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chim. Phys</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page">1047</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">S</forename>
+    <surname>Rao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">R</forename>
+    <surname>Rao</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. ~d. Ind./¢es</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">321</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">F</forename>
+    <surname>Mooney</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spec~rochim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="issue">877</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">M</forename>
+    <surname>Lebas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>G~ioou-Laqr~ge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Josie~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spec~rochlm. Acta</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page">225</biblScope>
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>G~a~gou-Lagr~a~g~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L~</forename>
+    <surname>~as</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">L</forename>
+    <surname>Josiah</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spec~roc.him. Acta</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">305</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Plyl~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page">218</biblScope>
+   <date type="published" when="1949" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Herz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">W F</forename>
+    <surname>Ko~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Rausc~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">T</forename>
+    <surname>Vog~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mona~h. Chem</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page">200</biblScope>
+   <date type="published" when="1947" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">K</forename>
+    <surname>Deb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ind</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys</title>
+  <imprint>
+   <biblScope unit="volume">34</biblScope>
+   <biblScope unit="page">247</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>K~uz~k</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Chavlovsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Horak</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Collection Czech. Chem. Com~nun</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page">2935</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>D~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">F</forename>
+    <surname>~ave~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Forbes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Chem</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page">1305</biblScope>
+   <date type="published" when="1959" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">Y</forename>
+    <surname>Aro~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J W</forename>
+    <surname>L~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>F~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">S</forename>
+    <surname>V~e</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ch~q</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="page">3173</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Bal~</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">1k</forename>
+    <surname>U~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tetrahedro~ Letters ~</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">J. C. Ev~s,.~pec~rochim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">1382</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">U</forename>
+    <surname>I~gold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Taylor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Chem</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page">471</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">U</forename>
+    <surname>Ingold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Chem</title>
+  <imprint>
+   <biblScope unit="volume">40</biblScope>
+   <biblScope unit="page">111</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bu~woy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>C~amne~r</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ar~</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="page">2310</biblScope>
+   <date type="published" when="1952" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Static Effect~ in Conj~ Sys~e~r~s</title>
+  <editor>G. W. GRAY</editor>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1958" />
+   <biblScope unit="page">99</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>K~azawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>1vvg_~x</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. Chem. Soc. Japan</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page">612</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">N~ka</forename>
+    <surname>Oa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Spectrochim</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ac~</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page">745</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">!</forename>
+    <surname>~op</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Collection Czech. Chem. Commun</title>
+  <editor>c, P. Kov~rM and M. Ho~</editor>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page">2298</biblScope>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Snx</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Der</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Sch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">ACHTSCHNEID~.R, Spectrochim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">85</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Sc~l~ch &apos;rschneid~r</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+    <surname>Snyder</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Spec~rochim. Acta</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">117</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Jakobsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">J</forename>
+    <surname>Brewer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Spectry</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">32</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

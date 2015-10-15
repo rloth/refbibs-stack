@@ -1,0 +1,250 @@
+<TEI xml:id="istex-CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Porluguese C t South-eusr A,/rictr</title>
+  <author>
+   <persName>
+    <forename type="middle">E</forename>
+    <surname>Axelson</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1969" />
+   <pubPlace>Johannesburg</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">The Irincrcirio q</title>
+  <author>
+   <persName>
+    <forename type="middle">D</forename>
+    <surname>Lockhart</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">C</forename>
+    <surname>Parr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mck</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Mnrco Polo</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1964-01" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">J H</forename>
+    <surname>Parry</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Manila Galleott</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1939" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Rrcordy ofSourli-errsrrrri Africa 9 vols. Govt. of the Cape Colony ScienliJic studies in early mining and extractive metallurgy</title>
+  <author>
+   <persName>
+    <forename type="middle">G</forename>
+    <surname>Thttal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mcc</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Hakluyt SOC. First Series No. 71. References Bachmann, H-G. Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations , in (P. T. Craddock</title>
+  <meeting><address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1900" />
+   <biblScope unit="page" from="103" to="34" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The system FeO-SiO, American JournaloJ</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">L</forename>
+    <surname>Bowen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Schairer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">141</biblScope>
+   <biblScope unit="page" from="177" to="213" />
+   <date type="published" when="1932" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title level="m" type="main">Prehistoric man in ihe Ciskei and Trunskei. Cape Town; Struik</title>
+  <author>
+   <persName>
+    <forename type="middle">R</forename>
+    <surname>Drrricourt</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title level="m" type="main">The .smic!ure and compwition of archueolo~ica1,ferrousprocess slags</title>
+  <author>
+   <persName>
+    <forename type="middle">S</forename>
+    <surname>Fells</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <publisher>University of Aston</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Hoover</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Hoover</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1912" />
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+ <note>Ge0rgiu. .P Agricolu Dc remeiullica</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">Phase equilibrium diagrams ofoside sysrems</title>
+  <author>
+   <persName>
+    <forename type="middle">E F</forename>
+    <surname>Osborn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Muan</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1960" />
+   <publisher>American Ceramic Society</publisher>
+   <pubPlace>Columbus</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Chalcolilhic copper smel/ing: excavaiions and e The Pirolechnia of Vannoccio Biringuccio</title>
+  <author>
+   <persName>
+    <forename type="middle">B</forename>
+    <surname>Rothenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R F</forename>
+    <surname>Tylecote</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Boydell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">London: Institute of Archaeo-metallurgical Studies</title>
+  <editor>rperinienrs. Smith, Cyril</editor>
+  <meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+  <imprint>
+   <publisher>MIT Press</publisher>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+ <note>Monograph. no. I</note>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

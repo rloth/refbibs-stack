@@ -1,0 +1,201 @@
+<TEI xml:id="istex-C3EC27FEFF339DB62885F394311F4F7304CE08DA">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">II See, for example: I</title>
+ </analytic>
+ <monogr>
+  <title level="j">Langmuir. J. Am. Chem. Sot</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Marsh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">E</forename>
+    <surname>Farnsworth</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surt. Sci. I</title>
+  <imprint>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">H</forename>
+    <surname>Germer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hartman. Rev. Sci. In .:rum. i I</title>
+  <imprint>
+   <biblScope unit="page" from="7" to="4" />
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">Z</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Tosatti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Fasolino</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phya. Rev. L,ctt</title>
+  <imprint>
+   <biblScope unit="volume">60</biblScope>
+   <biblScope unit="page">2661</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Handbook of Sut-face Imaging and Visualization (CRC&apos;</title>
+  <author>
+   <persName>
+    <forename type="first">Pa</forename>
+    <surname>Thiel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Estrup</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Boca Raton. FI</title>
+  <imprint>
+   <date type="published" when="19941" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Barker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>E\trup</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surl. Sci</title>
+  <imprint>
+   <biblScope unit="volume">136</biblScope>
+   <biblScope unit="issue">lYX4</biblScope>
+   <biblScope unit="page">327</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pryhyla</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">J</forename>
+    <surname>Chabal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J J</forename>
+    <surname>Estrup</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Phys</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page" from="04" to="1491" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

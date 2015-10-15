@@ -1,0 +1,516 @@
+<TEI xml:id="istex-A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Morgadozm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Vu</surname>
+   </persName>
+  </author>
+  <imprint>
+   <biblScope unit="page">26506</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">J</forename>
+    <surname>Ii</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>De</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">And</forename>
+    <forename type="middle">G</forename>
+    <surname>Vries</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Zubay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. U.S</title>
+  <meeting>. Natl. Acad. Sci. U.S</meeting>
+  <imprint>
+   <date type="published" when="1967" />
+   <biblScope unit="page">1010</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Zubay</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Lederman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>De</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Vries</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. U.S</title>
+  <meeting>. Natl. Acad. Sci. U.S</meeting>
+  <imprint>
+   <date type="published" when="1967" />
+   <biblScope unit="page">1669</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">F</forename>
+    <surname>Gesteland</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Salser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Bolle</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. U.S</title>
+  <meeting>. Natl. Acad. Sci. U.S</meeting>
+  <imprint>
+   <date type="published" when="1967" />
+   <biblScope unit="page">2036</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K V</forename>
+    <surname>Arnstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Cox</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">And</forename>
+    <forename type="middle">J A</forename>
+    <surname>Hunt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="volume">924</biblScope>
+   <biblScope unit="page">648</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A</forename>
+    <surname>Marks</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Burke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Conconi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Pearl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Rifkind</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sm. U.S</title>
+  <meeting>. Natl. Acad. Sm. U.S</meeting>
+  <imprint>
+   <date type="published" when="1965" />
+   <biblScope unit="page">1437</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M A</forename>
+    <surname>Heywood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Rich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. U.S</title>
+  <meeting>. Natl. Acad. Sci. U.S</meeting>
+  <imprint>
+   <date type="published" when="1968" />
+   <biblScope unit="page">582</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hayashi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Granner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Tomkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">242</biblScope>
+   <biblScope unit="page">3998</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">I</forename>
+    <surname>Di~mondstone</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">395</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Anal. Biochenz., I</title>
+  <imprint>
+   <biblScope unit="page">279</biblScope>
+   <date type="published" when="1960" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">P</forename>
+    <surname>Tryfiates</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Laszlo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Natzsre</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1967" />
+   <biblScope unit="page" from="213" to="1025" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W</forename>
+    <surname>Redman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">D</forename>
+    <surname>Sabatini</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl. Acad. Sci. U.S</title>
+  <meeting>. Natl. Acad. Sci. U.S</meeting>
+  <imprint>
+   <date type="published" when="1966" />
+   <biblScope unit="page">608</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Von</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">And</forename>
+    <forename type="middle">P N</forename>
+    <surname>Decken</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biochem. J</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="page">449</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">H J</forename>
+    <surname>Lowry</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Rosebrough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Farr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Randall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chew</title>
+  <imprint>
+   <biblScope unit="page" from="3" to="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">C C</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">M</forename>
+    <surname>Pitt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Civen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">E</forename>
+    <surname>Knox</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chew</title>
+  <imprint>
+   <biblScope unit="volume">233</biblScope>
+   <biblScope unit="page">668</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Received November zgth, 1968 _ * Observations to be reported in other manuscript</title>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <forename type="middle">N</forename>
+    <surname>Canellakis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">0</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chew. Biochinz. Biophys. Acta</title>
+  <imprint>
+   <biblScope unit="volume">222</biblScope>
+   <biblScope unit="issue">53</biblScope>
+   <biblScope unit="page" from="174" to="779" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

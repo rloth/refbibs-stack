@@ -1,0 +1,1085 @@
+<TEI xml:id="istex-A5432A10A0FCD61C74A7224A9183DD077CF09BB1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Nutrient and temperature control of the contribution of picoplankton to phytoplankton biomass and production</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">S R</forename>
+    <surname>Agawin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Duarte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="591" to="600" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">A theorethical approach to structuring mechanisms in the pelagic food web</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">F</forename>
+    <surname>Thingstad</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hydrobiology</title>
+  <imprint>
+   <biblScope unit="volume">363</biblScope>
+   <biblScope unit="page" from="59" to="72" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Phytoplankton size</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Chisholm</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Primary Production and Biogeochemical Cycles in the Sea</title>
+  <editor>P. G. Falkowski and A. D. Woodhead</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum Press</publisher>
+   <date type="published" when="1992" />
+   <biblScope unit="page" from="213" to="237" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Attenuation of biologically effective UV radiation in tropical Atlantic waters, as measured with a biochemical DNA dosimeter</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Boelen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Obernosterer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Vink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G J</forename>
+    <surname>Buma</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photochem. Photobiol</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="34" to="40" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">A model for internal self-shading in planktonic organisms and its implications for the usefulness of ultraviolet sunscreen</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Garcia-Pichel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="1704" to="1717" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Picophytoplankton cell death induced by UV radiation: Evidence for oceanic Atlantic communities</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Llabre´llabre´s</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="21" to="29" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Differential sunlight sensitivity of picophytoplankton from surface Mediterranean coastal waters</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Sommaruga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Hofer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Alonso-Saéz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Appl. Environ. Microbiol</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="2154" to="2157" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Observations and modeling of the Antarctic phytoplankton crop in relation to mixing depth</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">G</forename>
+    <surname>Mitchell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Holm-Hansen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="981" to="1007" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Viability and niche segregation of Prochlorococcus and Synechococcus cells across the central Atlantic Ocean</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquat. Micr. Ecol</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="53" to="59" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Assays of cell viability: Discrimination of cells dying by apoptosis</title>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+    <surname>Darzynkiewicz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Gong</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Methods in Cell Biology</title>
+  <editor>Z. Darzynkiewicz, J. P. Robinson and H. A. Crissman</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1994" />
+   <biblScope unit="page" from="15" to="38" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Cell viability in natural phytoplankton communities quantified by a membrane permeability probe</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Sa´sa´nchez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">47</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="818" to="828" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Dissolved esterase activity as tracer of phytoplankton lysis: Evidence of high phytoplankton lysis rates in the NW Mediterranean</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Satta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Mura</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Benavent</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1836" to="1849" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Food web structure and elemental (C, N and P) fluxes in the eastern tropical North Atlantic</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Agustı´agustı´</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Duarte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Vaque´vaque´</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Gasol</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Vidal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Deep Sea Res. II</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="2295" to="2321" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Phytoplankton death in the sea</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Kirchman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">398</biblScope>
+   <biblScope unit="page" from="293" to="294" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Influence of bacteria on phytoplankton cell mortality with phosphorus or nitrogen as the algal-growth-limiting nutrient</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P D</forename>
+    <surname>Brussaard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Riegman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Aquat. Microb. Ecol</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="271" to="280" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Physiological stress and cell death in marine phytoplankton: Induction of proteases in response to nitrogen or light limitation</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Berges</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Falkowsky</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Limnol. Oceanogr</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="129" to="135" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Cell death: The significance of apoptosis</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">H</forename>
+    <surname>Wyllie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F R</forename>
+    <surname>Kerr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Currie</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. Rev. Cytol</title>
+  <imprint>
+   <biblScope unit="volume">68</biblScope>
+   <biblScope unit="page" from="251" to="306" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Membranes as targets of ultraviolet radiation</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">M</forename>
+    <surname>Murphy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Plant</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page" from="381" to="388" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">UVA (320–380 nm) radiation as oxidative stress</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Tyrrell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Oxidative Stress: Oxidants and Antioxidants</title>
+  <editor>H. Sies</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1991" />
+   <biblScope unit="page" from="57" to="83" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Photoprotective physiological and biochemical responses of aquatic organisms</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">T</forename>
+    <surname>Banaszak</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">UV Effects in Aquatic Organisms and Ecosystems</title>
+  <editor>E. W. Helbling and H. Zagarese</editor>
+  <meeting><address><addrLine>Cambridge , UK</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Royal Society of Chemistry</publisher>
+   <date type="published" when="2003" />
+   <biblScope unit="page" from="329" to="356" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">The cyanobacterium Synechococcus resists UVB by exchanging photosystem II reaction-center D1 proteins</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Eriksson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>O ¨ Quist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gustafsson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">K</forename>
+    <surname>Clarke</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA 95</title>
+  <meeting>. Natl Acad. Sci. USA 95</meeting>
+  <imprint>
+   <date type="published" when="1998" />
+   <biblScope unit="page" from="364" to="369" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Accelerated evolution associated with genome reduction in a free-living prokaryote</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dufresne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Garczarek</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Partensky</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genome Biol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="issue">2</biblScope>
+   <biblScope unit="page">14</biblScope>
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Picophytoplankton; a comparative study of their biochemical composition and photosynthetic properties</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J W</forename>
+    <surname>Veldhuis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">R</forename>
+    <surname>Timmermans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Croot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Wagt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Sea Res</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="7" to="24" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Ultraviolet action and photoreactivation in algae</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Halldal</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Taube</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Photophysiology</title>
+  <editor>A. C. Giese</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="163" to="188" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Cell survival characteristics and molecular responses of Antarctic phytoplankton to ultraviolet-B radiation</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Karentz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Cleaver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Mitchell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phycol</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="page" from="326" to="341" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Repair of pyrimidine dimers in ultraviolet irradiated Chlamydomonas</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">D</forename>
+    <surname>Small</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Greimann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Photochem. Photobiol</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="183" to="187" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">A novel free-living prochlorophyte abundant in the oceanic euphotic zone</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Chisholm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Olson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Zetller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Goericke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Waterbury</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">A</forename>
+    <surname>Welschmeyer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">334</biblScope>
+   <biblScope unit="page" from="340" to="343" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Prochlorococcus marinus nov. gen. nov. sp.: An oxyphototrophic marine prokaryote containing divinyl chlorophyll a and chorophyll b</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">W</forename>
+    <surname>Chisholm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Frankel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Goericke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+    <surname>Olson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Palenik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Waterbury</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Westjohnsrud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">R</forename>
+    <surname>Zettler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch. Microbiol</title>
+  <imprint>
+   <biblScope unit="volume">157</biblScope>
+   <biblScope unit="page" from="297" to="300" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Ultraviolet radiation and its effects on organisms in aquatic environments</title>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Holm-Hansen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Lubin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">W</forename>
+    <surname>Helbling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Environmental UV Photobiology</title>
+  <editor>C. S. Young, L. O. Bjo¨Bjo¨rn, J. Moan and W. Nultsch</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum Press</publisher>
+   <date type="published" when="1993" />
+   <biblScope unit="page" from="379" to="425" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Modelling the effects of ultraviolet radiation on estuarine phytoplankton production: Impact of variations in exposure and sensitivity to inhibition</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Neale</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Photochem. Photobiol. B</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="1" to="8" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Patterns of DNA damage and photoinhibition in temperate South-Atlantic picophytoplankton exposed to solar ultraviolet radiation</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G J</forename>
+    <surname>Buma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">W</forename>
+    <surname>Helbling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Karin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">E</forename>
+    <surname>Boer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Villafan˜villafan˜e</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Photochem. Photobiol. B</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="9" to="18" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">In situ impact of solar ultraviolet radiation on photosynthesis and DNA in temperate marine phytoplankton</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Helbling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">G J</forename>
+    <surname>Buma</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Karin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">E</forename>
+    <surname>Boer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Villafan˜villafan˜e</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mar. Ecol. Prog. Ser</title>
+  <imprint>
+   <biblScope unit="volume">211</biblScope>
+   <biblScope unit="page" from="43" to="49" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="j">Photochemistry and Photobiology</title>
+  <imprint>
+   <biblScope unit="volume">83</biblScope>
+   <biblScope unit="page">801</biblScope>
+   <date type="published" when="2007" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

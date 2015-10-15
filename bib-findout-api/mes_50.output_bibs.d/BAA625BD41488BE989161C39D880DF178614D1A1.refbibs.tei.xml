@@ -1,0 +1,409 @@
+<TEI xml:id="istex-BAA625BD41488BE989161C39D880DF178614D1A1">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Gamier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Angew. Chem. Adv. Muter. Angew. Chem. Int. Ed. Engl. Adv. Maler. Adv. Mater</title>
+  <imprint>
+   <biblScope unit="volume">101</biblScope>
+   <biblScope unit="issue">28</biblScope>
+   <biblScope unit="page" from="513" to="117" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">Handbook of Conducting Pol.ymers</title>
+  <editor>G . Tourillon in T. Skotheim</editor>
+  <imprint>
+   <date type="published" when="1986" />
+   <publisher>Marcel Dekker</publisher>
+   <biblScope unit="page">293</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Cagniant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Merle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Cagniant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bull. SOC. Chrm. Fr. ACS Symp. Ser</title>
+  <imprint>
+   <biblScope unit="volume">378</biblScope>
+   <biblScope unit="page" from="308" to="408" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Electronic Properties ofconjugated Polymers, (Springer Ser. Solid Stale Sci. 76, (1987) 366); b) Y Ikenoue</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Audebert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Bidan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lapkowski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Synth. Met</title>
+  <editor>M. Kuzmany, M. Mehring, S. Roth N. Uotani, A. 0. Patil, F. Wudl, A. J. Heeger</editor>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page">305</biblScope>
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Bduerle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">U</forename>
+    <surname>Gaudl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Adv. Muter</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page">185</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">S</forename>
+    <surname>Gronowitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Frejd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Karlsson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Lawitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Pedaja</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Petterson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Baarschers, Can. J. Chem. Chem. Scr</title>
+  <editor>c) J. A. Elvtdge, S. P. Jones, T. L. Peppard, J. Chem. Sot</editor>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="issue">18</biblScope>
+   <biblScope unit="page" from="3056" to="192" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">S</forename>
+    <surname>Tamao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Kodama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nakajimd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Kumada</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Minato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Suzuki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">B</forename>
+    <surname>Van Pham</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Mark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Zimmer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tetrahedron Synlh. Commun</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="3347" to="16" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Xi</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">)</forename>
+    <forename type="middle">U</forename>
+    <surname>Dettmaier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Eichler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kuhlein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">I</forename>
+    <surname>Leupold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Litterer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Angew. Chem</title>
+  <imprint>
+   <biblScope unit="volume">99</biblScope>
+   <biblScope unit="page" from="470" to="26" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kato</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Ishizaki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Tokuyama Soda Co</title>
+  <imprint>
+   <date type="published" when="1957" />
+   <biblScope unit="page">150299</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Braun</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Sobecki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Ber</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page">1918</biblScope>
+   <date type="published" when="1911" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">1275; b)</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>Ziegler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">K</forename>
+    <surname>Weber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Ziegler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">G</forename>
+    <surname>Weber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Gellert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chem. Ber</title>
+  <imprint>
+   <biblScope unit="volume">70</biblScope>
+   <biblScope unit="issue">75</biblScope>
+   <biblScope unit="page" from="1715" to="1" />
+   <date type="published" when="1937" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

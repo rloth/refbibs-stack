@@ -1,0 +1,37 @@
+<TEI xml:id="istex-04C6DC23D494457F8F48648E07D4324212B6EB5A">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Particulate air pollution and daily mortality in Steubenville, Ohio</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Schwartz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Dockery</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Epidemiol</title>
+  <imprint>
+   <biblScope unit="volume">135</biblScope>
+   <biblScope unit="page" from="12" to="19" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

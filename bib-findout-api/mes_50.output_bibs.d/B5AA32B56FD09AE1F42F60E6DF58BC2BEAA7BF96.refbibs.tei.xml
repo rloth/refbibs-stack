@@ -1,0 +1,527 @@
+<TEI xml:id="istex-B5AA32B56FD09AE1F42F60E6DF58BC2BEAA7BF96">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Social learning theory</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bandura</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>Prentice- Hall</publisher>
+   <pubPlace>Englewood Cliffs, NJ</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Preemployment predictors of union attitudes: The role of family socialization and work beliefs</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Barling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Kelloway</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">H</forename>
+    <surname>Bremermann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Applied Psychology</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="725" to="731" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">C</forename>
+    <surname>Bok</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Dunlop</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Labor and the American community</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Simon and Schuster</publisher>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Behavioral research on unions and union management systems</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Brett</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Research in organizational behavior</title>
+  <editor>B. M. Staw &amp; L. L. Cummings</editor>
+  <meeting><address><addrLine>Greenwich, CT</addrLine></address></meeting>
+  <imprint>
+   <publisher>JAI Press</publisher>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="177" to="213" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Why employees want unions</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Brett</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Organizational Dynamics</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="47" to="59" />
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">It takes more than house calls: Organizing to win with a comprehensive union-building strategy</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Bronfenbrenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Juravich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Organizing to win</title>
+  <editor>K. Bronfenbrenner, S. Friedman, R. Hurd, R. Oswald, &amp; R. Seeber</editor>
+  <meeting><address><addrLine>Ithaca, NY</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cornell University Press</publisher>
+   <date type="published" when="1998" />
+   <biblScope unit="page" from="19" to="36" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Preparing for the worst: Organizing and staying organized in the public sector</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Bronfenbrenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Juravich</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Organizing to win</title>
+  <editor>K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, &amp; R. Seeber</editor>
+  <meeting><address><addrLine>Ithaca, NY</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cornell University Press</publisher>
+   <date type="published" when="1998" />
+   <biblScope unit="page" from="261" to="282" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">An empirical study of contemporary beliefs about work in American society</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Buchholz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Applied Psychology</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="219" to="227" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The decline of unionization in the United States: What can be learned from recent experience?</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Farber</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Labor Economics</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="page" from="75" to="105" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Union voting intentions: Human resource policies, organizational characteristics, and attitudes</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Fiorito</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Young</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Organizing to win</title>
+  <editor>K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, &amp; R. Seeber</editor>
+  <meeting><address><addrLine>Ithaca, NY</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cornell University Press</publisher>
+   <date type="published" when="1998" />
+   <biblScope unit="page" from="232" to="246" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">What do unions do</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Freeman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Medoff</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>Basic Books</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">The decline of organized labor in the United States</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Goldfield</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>University of Chicago Press</publisher>
+   <pubPlace>Chicago, IL</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">An extension of the family socialization model of union attitudes</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Fuller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Social Psychology</title>
+  <imprint>
+   <biblScope unit="volume">139</biblScope>
+   <biblScope unit="page" from="396" to="398" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Preemployment predictors of children&apos;s&apos; union attitudes: The moderating role of identification with parents</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Kelloway</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Barling</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Social Psychology</title>
+  <imprint>
+   <biblScope unit="volume">136</biblScope>
+   <biblScope unit="page" from="413" to="416" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Preemployment predictors of union attitudes: Replication and extension</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">K</forename>
+    <surname>Kelloway</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Watts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Applied Psychology</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="page" from="631" to="634" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">How American workers view labor unions</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Kochan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Monthly Labor Review</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="issue">4</biblScope>
+   <biblScope unit="page" from="23" to="31" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title level="m" type="main">Experiential exercises in personnel/human resource management</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">E</forename>
+    <surname>Kuzmits</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1982" />
+   <publisher>Charles E. Merrill</publisher>
+   <pubPlace>Columbus, OH</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">General union attitudes: A construct validation</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Mcshane</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Labor Research</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="403" to="417" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Nunnally</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Psychometric theory</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>McGraw-Hill</publisher>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Gender differences in attitudes toward unions</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Schur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Kruse</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Industrial and Labor Relations Review</title>
+  <imprint>
+   <biblScope unit="volume">46</biblScope>
+   <biblScope unit="page" from="89" to="102" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <monogr>
+  <title level="m" type="main">Union members in 2003</title>
+  <imprint>
+   <date type="published" when="2004-02-01" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">College students&apos; majors and attitudes toward unions: Sources of future union members?</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">G</forename>
+    <surname>Willoughby</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Barclay</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Journal of Collective Negotiations in the Public Sector</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="223" to="230" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

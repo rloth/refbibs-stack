@@ -1,0 +1,376 @@
+<TEI xml:id="istex-0217076D3221547FE8AA6B55176A55561373ED49">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">A means for achieving a high degree of compaction on scan-digitized printed text</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">N</forename>
+    <surname>Ascher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Nagy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Comput. C-23</title>
+  <imprint>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="1174" to="1179" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Autonomous reading machine</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Casey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Nagy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Comput</title>
+  <imprint>
+   <biblScope unit="page">7</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The emerging JBIG2 standard</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Howard</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Kossentini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Martins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Forchhammer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Rucklidge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE Trans. Circuits Systems Video Technol</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="issue">7</biblScope>
+   <biblScope unit="page" from="838" to="848" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">The in®nite memory multifunction machine</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Hull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Pre-proceedings 3rd IAPR Workshop on Document Analysis Systems</title>
+  <meeting><address><addrLine>Nagano, Japan, 4±6 November</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1998" />
+   <biblScope unit="page" from="49" to="58" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Document analysis techniques for the in®nite memory multifunction machine</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Hull</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Cullen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hart</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 10th Internat. Workshop on Database and Expert System Applications</title>
+  <meeting>. 10th Internat. Workshop on Database and Expert System Applications<address><addrLine>Florence, Italy</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1999-09-13" />
+   <biblScope unit="page" from="561" to="565" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">An implementation of probabilistic relaxation in the cryptanalysis of simple substitution ciphers</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Bahler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cryptologia</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="215" to="225" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Information extraction from symbolically compressed document images</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Hull</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 1999 Symposium on Document Image Understanding Technology</title>
+  <meeting>. 1999 Symposium on Document Image Understanding Technology<address><addrLine>Annapolis, MD</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1999-04-1416" />
+   <biblScope unit="page" from="176" to="182" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Duplicate detection for symbolically compressed documents</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Hull</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 5th Internat. Conf. Document Analysis and Recognition</title>
+  <meeting>. 5th Internat. Conf. Document Analysis and Recognition<address><addrLine>Bangalore, India</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1999-09-2022" />
+   <biblScope unit="page" from="305" to="308" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Breaking substitution ciphers using a relaxation algorithm</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Peleg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Rosenfeld</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Commun. ACM</title>
+  <imprint>
+   <biblScope unit="volume">22</biblScope>
+   <biblScope unit="issue">11</biblScope>
+   <biblScope unit="page" from="598" to="605" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">CD-ROM document database standard</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">T</forename>
+    <surname>Phillips</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Haralick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. 2nd ICDAR</title>
+  <meeting>. 2nd ICDAR</meeting>
+  <imprint>
+   <date type="published" when="1993" />
+   <biblScope unit="page" from="478" to="483" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">An introduction to hidden Markov models</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">R</forename>
+    <surname>Rabiner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">H</forename>
+    <surname>Juang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">IEEE ASSP Magazine</title>
+  <imprint>
+   <biblScope unit="page" from="4" to="16" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Managing Gigabytes: Compressing and Indexing Documents and Images</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Witten</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Moat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Bell</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1994" />
+   <publisher>Van Nostrand Reinhold</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

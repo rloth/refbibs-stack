@@ -1,0 +1,316 @@
+<TEI xml:id="istex-A687D24A42399E6EBAB79323004AA560DB13D567">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Self-heating: Evaluating and Controlling the Hazard</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Bowes</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984" />
+   <publisher>HMSO</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Chimie-lng</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Lindner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Seibring</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Tech</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page">667</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Boddington</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Griffiths</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Hasegawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Combust. Flame</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page">297</biblScope>
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Griffiths</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Hasko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">W</forename>
+    <surname>Tong</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Combust. Flame</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page">1</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Griffiths</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kordylewski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Twenty-Fourth Symposium (International) on Combustion</title>
+  <meeting><address><addrLine>Pittsburgh</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Combustion Institute</publisher>
+   <date type="published" when="1992" />
+   <biblScope unit="page">1777</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">F</forename>
+    <surname>Gray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Merkin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Griffiths</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Twenty-Fourth Symposium (International) on Combustion</title>
+  <meeting><address><addrLine>Pittsburgh</addrLine></address></meeting>
+  <imprint>
+   <publisher>The Combustion Institute</publisher>
+   <date type="published" when="1992" />
+   <biblScope unit="page">1775</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">F</forename>
+    <surname>Gray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wake</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Combust. Flame</title>
+  <imprint>
+   <biblScope unit="volume">71</biblScope>
+   <biblScope unit="page">101</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">F</forename>
+    <surname>Gray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. R</title>
+  <meeting>. R</meeting>
+  <imprint>
+   <date type="published" when="1990" />
+   <biblScope unit="page" from="449" to="458" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Mcintosh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute</title>
+  <meeting>the Joint Meeting of the British and German Sections of the Combustion Institute<address><addrLine>Cambridge</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1993" />
+   <biblScope unit="page" from="327" to="330" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Mcintosh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ima</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Math</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="issue">3</biblScope>
+   <biblScope unit="page" from="217" to="238" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Mcintosh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Tolputt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Combust. Sci. Technol</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="133" to="145" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

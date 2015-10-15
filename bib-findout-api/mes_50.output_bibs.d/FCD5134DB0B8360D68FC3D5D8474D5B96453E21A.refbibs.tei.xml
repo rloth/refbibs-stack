@@ -1,0 +1,412 @@
+<TEI xml:id="istex-FCD5134DB0B8360D68FC3D5D8474D5B96453E21A">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Experimental measurements and empirical modelling of the regional deposition of inhaled particles in humans Respiratory tract deposition and fate of inhaled aerosols and sulfur dioxide</title>
+  <author>
+   <persName>
+    <forename type="first">Chan</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lippmann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Air Quality Criteria for Paniculate Matter and Sulfur Oxides</title>
+  <meeting><address><addrLine>EPA, Research Triangle Park, NC</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="399" to="409" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Regional deposition of 2.5-7.5 /an diameter inhaled particles in healthy male non-smokers</title>
+  <author>
+   <persName>
+    <forename type="first">Foord</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Black</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Walsh</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Aerosol Sci</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="343" to="357" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <monogr>
+  <title level="m" type="main">Studies of particle deposition and clearance in humans, Symposium of the Federal Health Office, Institute of Drugs</title>
+  <author>
+   <persName>
+    <forename type="first">Heyder</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1984-04-02" />
+   <pubPlace>Berlin</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Report of the Task Group on Reference Man</title>
+ </analytic>
+ <monogr>
+  <title level="j">INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION</title>
+  <imprint>
+   <publisher>ICRP Publication 23 Pergamon Press</publisher>
+   <date type="published" when="1975" />
+   <publisher>ICRP Publication 23 Pergamon Press</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Deposition and clearance of inhaled particles in the human nose</title>
+  <author>
+   <persName>
+    <forename type="first">Lippmann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Otol. Rhinol. Laryngol</title>
+  <imprint>
+   <biblScope unit="volume">79</biblScope>
+   <biblScope unit="page" from="519" to="528" />
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <monogr>
+  <title level="m" type="main">Regional deposition of particles in the human respiratory tract, In: Handbook of Physiology—Reaction to</title>
+  <author>
+   <persName>
+    <forename type="first">Lippmann</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+   </persName>
+  </author>
+  <editor>D.H.K. LEE</editor>
+  <imprint>
+   <date type="published" when="1977" />
+   <publisher>The American Physiological Society</publisher>
+   <biblScope unit="page" from="213" to="232" />
+   <pubPlace>Bethesda, MD</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Dosimetry and species sensitivity: key factors in hazard evaluation using animal exposure data</title>
+  <author>
+   <persName>
+    <forename type="first">Martonen</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Miller</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Aerosol Sci</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="316" to="319" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Oronasal distribution of respiratory airflow</title>
+  <author>
+   <persName>
+    <forename type="first">Niinimaa</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Cole</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Mintz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Shephard</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Respir. Physiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="69" to="75" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Human respiratory deposition of particles during oronasal breathing</title>
+  <author>
+   <persName>
+    <forename type="first">Swift</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Proctor</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Atmos. Environ</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="2279" to="2282" />
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Statistical analysis of aerosol deposition in nose and mouth</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Yu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">K</forename>
+    <surname>Diu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Soong</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. Ind. Hyg. Assoc. J</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="726" to="733" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Your nonlinear regression for the tracheo bronchia/ region is independent of flow rate. Should such a dependence be present ?</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">P</forename>
+    <surname>Yu</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Tracheobronchial deposition was based upon aerodynamic diameter, D ae , so that effects of both sedimentation and inertial impaction were included. For extrathoracic deposition curves, we fit a parameter (pd 2 Q) which accounts primarily for inertial impaction. Thus, our analyses do include the dependence of deposition on flow rate since we used log (pd 2 Q) for the abscissa in extrathoracic deposition analyses</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>and. log D ae for tracheobronchial analyses</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title level="m" type="main">There is significant deposition of larger particles in the laryngeal region. Did you include the larynx deposition in the thoracic or extrathoracic fractions?</title>
+  <author>
+   <persName>
+    <forename type="first">Otto</forename>
+    <surname>Raabe</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title level="m" type="main">MILLER: Laryngeal deposition for all particulate sizes is included in the extrathoracic components of our analyses when oral breathing is used</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title level="m" type="main">Your nonlinear regression fit to the data for extrathoracic deposition with mouth breathing, appears to underestimate significantly deposition for large particles, and overestimate deposition for particles less than 3 fun. The latter appears to be zero</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>James</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <monogr>
+  <title level="m" type="main">Your point is well taken For the large number of analyses presented in the figures, omitting confidence limits aided in the clarity of presentation. However, such information is a by-product of the computation processes used and could be made available in an expanded discussion of the data</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">J</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

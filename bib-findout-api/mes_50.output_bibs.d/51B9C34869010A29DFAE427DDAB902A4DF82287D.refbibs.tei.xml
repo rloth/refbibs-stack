@@ -1,0 +1,644 @@
+<TEI xml:id="istex-51B9C34869010A29DFAE427DDAB902A4DF82287D">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">R</forename>
+    <surname>Raman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>German</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Meicdl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. A</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">653</biblScope>
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">M</forename>
+    <surname>Lifshitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">V V Y</forename>
+    <surname>Slyozov</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Chem. Solids</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">35</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>German</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. A</title>
+  <imprint>
+   <biblScope unit="volume">18</biblScope>
+   <biblScope unit="page">909</biblScope>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Kaysser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Takajo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G</forename>
+    <surname>Petzow</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mod. Rev. Powder Metull</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">413</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">N</forename>
+    <surname>Niemi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">E</forename>
+    <surname>Baxa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">K</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Courtney</forename>
+    <forename type="middle">T H</forename>
+    <surname>Mod</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Reo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Masuda, Y. and Watanabe, R.. in Sintwing Processes</title>
+  <editor>G. Kuczynski</editor>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum Press</publisher>
+   <date type="published" when="1980" />
+   <biblScope unit="page" from="483" to="3" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Niemi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Courtney</forename>
+    <forename type="middle">T</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Muter. Sci</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">226</biblScope>
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>German</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">S S</forename>
+    <surname>Mani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Metull. Trans. A</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page">211</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Bender</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">D</forename>
+    <surname>Ph</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Thesis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">N</forename>
+    <surname>Rwth Aachen Akaiwa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">S</forename>
+    <surname>Hardy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Voorhees</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Actu metull. muter</title>
+  <imprint>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">C</forename>
+    <surname>Hardy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">P W</forename>
+    <surname>Voorhees</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">itl&amp;dl. Trans. A</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page">2713</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Vogel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ratke</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Actu metall. muter</title>
+  <imprint>
+   <biblScope unit="page" from="39" to="641" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Voorhees</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R J</forename>
+    <surname>Schaefer</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+ <note>unpublished. research</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title level="m" type="main">Scripta muter</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Courtney</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page">567</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title level="m" type="main">Actu mctull</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">N</forename>
+    <surname>Neimi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">H</forename>
+    <surname>Courtney</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page">1393</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Louis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>Gokhale</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tu</forename>
+    <surname>Ac</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Muter</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page">1519</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">D J</forename>
+    <surname>Kingery</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Phfs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+    <surname>Huppman</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1958" />
+   <biblScope unit="page">693</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">F</forename>
+    <surname>Heaney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">R</forename>
+    <surname>German</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Im</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Actu metall. muter</title>
+  <imprint>
+   <biblScope unit="page" from="43" to="1587" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Voorhees</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">G B</forename>
+    <surname>Mcfadden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">F</forename>
+    <surname>Boisvert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">I</forename>
+    <surname>Mieron</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Actu metall</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+ <note>2j. &apos;s. Rev. E.. submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="middle">D</forename>
+    <surname>Fan</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H.-H</forename>
+    <surname>Park</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">N</forename>
+    <surname>Yoon</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+   <biblScope unit="page">923</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">E</forename>
+    <surname>Gut-Tin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">W</forename>
+    <surname>Voorhees</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. R. Sot. A</title>
+  <imprint>
+   <biblScope unit="volume">440</biblScope>
+   <biblScope unit="page">323</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Kipput</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">A</forename>
+    <surname>Bose</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">S</forename>
+    <surname>Faroow</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>German</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Metuii</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trans. A</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <date type="published" when="1905" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

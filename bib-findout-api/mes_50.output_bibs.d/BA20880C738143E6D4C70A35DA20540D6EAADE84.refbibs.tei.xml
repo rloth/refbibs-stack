@@ -1,0 +1,629 @@
+<TEI xml:id="istex-BA20880C738143E6D4C70A35DA20540D6EAADE84">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">Department of Health and Human Services Healthy People 2000: National Health Promotion and Disease Prevention Objectives</title>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <publisher>U.S. Public Health Service</publisher>
+   <biblScope unit="page" from="195" to="206" />
+   <pubPlace>Washington, DC</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Evaluation and Treatment of High Blood Pressure. The sixth report of the Joint National Committee on Prevention, Detection, Evaluation and Treatment of High Blood Pressure (JNC-IV)</title>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Intern Med</title>
+  <imprint>
+   <biblScope unit="volume">157</biblScope>
+   <biblScope unit="page" from="2413" to="46" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+ <note>Joint. National Committee on Prevention, Detection</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">New HEDIS means more information about HMOs</title>
+  <author>
+   <persName>
+    <forename type="first">Pl</forename>
+    <surname>Grimaldi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Health Care Finance</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="40" to="50" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Management of essential hypertension</title>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Bertch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Dunsworth</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Fagan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Pharmacotherapy Self- Assessment Program</title>
+  <meeting><address><addrLine>Kansas City</addrLine></address></meeting>
+  <imprint>
+   <publisher>American College of Clinical Pharmacy In press</publisher>
+  </imprint>
+ </monogr>
+ <note>4th. ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Improving prescribing patterns for the elderly through an online drug utilization review intervention: A system linking the physician, pharmacist, and computer</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Monane</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dm</forename>
+    <surname>Matthias</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+    <surname>Nagle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ma</forename>
+    <surname>Kelly</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">JAMA</title>
+  <imprint>
+   <biblScope unit="volume">280</biblScope>
+   <biblScope unit="page" from="1249" to="52" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">The effect of clinical pharmacy services on patients with essential hypertension</title>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Mckenney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Slining</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hr</forename>
+    <surname>Henderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Devins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Barr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Circulation</title>
+  <imprint>
+   <biblScope unit="volume">48</biblScope>
+   <biblScope unit="page" from="1104" to="11" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Effect of pharmacist drug monitoring and patient education on hypertensive patients</title>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Mckenney</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ed</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Necsary</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Reavis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Contemp Pharm Pract</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="50" to="6" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Comprehensive pharmaceutical care in the chain setting: drug therapy monitoring and counseling by pharmacists contributed to improved blood pressure control in study patients</title>
+  <author>
+   <persName>
+    <forename type="first">Jj</forename>
+    <surname>Park</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Kelly</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Pp</forename>
+    <surname>Burgess</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Pharm Assoc</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="443" to="51" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Evaluation hypertensive patients after care provided by community pharmacists in a rural setting</title>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dj</forename>
+    <surname>Barnette</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Chrischilles</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gj</forename>
+    <surname>Mazzotti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Zj</forename>
+    <surname>Asali</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacotherapy</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="1274" to="85" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">The pharmacist as prescriber of drug therapy: the USC pilot project</title>
+  <author>
+   <persName>
+    <forename type="first">Gl</forename>
+    <surname>Stimmel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Wf</forename>
+    <surname>Mcghan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Drug Intell Clin Pharm</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="665" to="72" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">A comparison of pharmacists and physicians on the quality of prescribing for ambulatory hypertensive patients</title>
+  <author>
+   <persName>
+    <forename type="first">Wf</forename>
+    <surname>Mcghan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gl</forename>
+    <surname>Stimmel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tg</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Tm</forename>
+    <surname>Gilman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Med Care</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="435" to="44" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">for the IMPROVE investigators Characteristics of ambulatory care clinics and pharmacists in Veterans Affairs Medical Centers</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Alsuwaidan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dc</forename>
+    <surname>Malone</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sj</forename>
+    <surname>Billups</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bl</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Health-Syst Pharm</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="68" to="72" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Role of the clinical pharmacist in improving drug therapy: clinical pharmacists in outpatient therapy</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Monson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ca</forename>
+    <surname>Bond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Schuna</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Intern Med</title>
+  <imprint>
+   <biblScope unit="volume">141</biblScope>
+   <biblScope unit="page" from="1441" to="4" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Sustained improvement in drug documentation, compliance, and disease control: a four-year analysis of an ambulatory care model</title>
+  <author>
+   <persName>
+    <forename type="first">Ca</forename>
+    <surname>Bond</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Monson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Arch Intern Med</title>
+  <imprint>
+   <biblScope unit="volume">144</biblScope>
+   <biblScope unit="page" from="1159" to="62" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Clinical and economic outcomes in the hypertension and COPD arms of a multicenter outcomes study</title>
+  <author>
+   <persName>
+    <forename type="first">Dk</forename>
+    <surname>Solomon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ts</forename>
+    <surname>Portner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ge</forename>
+    <surname>Bass</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dr</forename>
+    <surname>Gourley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ga</forename>
+    <surname>Gourley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jm</forename>
+    <surname>Holt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Am Pharm Assoc</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="574" to="85" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+ <note>Part. 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Evaluation of a clinical pharmacist in caring for hypertensive and diabetic patients</title>
+  <author>
+   <persName>
+    <forename type="first">Dw</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Fp</forename>
+    <surname>Fiedler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hl</forename>
+    <surname>Douglas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Eschbach</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Hosp Pharm</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1321" to="5" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Effect of pharmacist intervention on control of resistant hypertension</title>
+  <author>
+   <persName>
+    <forename type="first">Gd</forename>
+    <surname>Morse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jb</forename>
+    <surname>Douglas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jh</forename>
+    <surname>Upton</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Rodgers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gal</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am J Hosp Pharm</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="905" to="9" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Pharmacists&apos; ability to influence outcomes of hypertension therapy</title>
+  <author>
+   <persName>
+    <forename type="first">Sr</forename>
+    <surname>Erickson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Slaughter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Halapy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharmacotherapy</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="140" to="7" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

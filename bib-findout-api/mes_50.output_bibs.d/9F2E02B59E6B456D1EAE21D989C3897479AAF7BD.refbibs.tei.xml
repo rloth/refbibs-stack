@@ -1,0 +1,636 @@
+<TEI xml:id="istex-9F2E02B59E6B456D1EAE21D989C3897479AAF7BD">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Traditional Chinese herbal medicine</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">P</forename>
+    <surname>Zhu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Woerdenbag</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pharm. World Sci</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="103" to="112" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Use of Chinese therapies among Chinese patients seeking emergency department care</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">S</forename>
+    <surname>Pearl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Leo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">O</forename>
+    <surname>Tsang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Emerg. Med</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page" from="735" to="738" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">What future for traditional Chinese medicine outside China?</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+    <surname>Ooi</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">World Health Forum</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="79" to="85" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Acupuncture: the position paper of the National Council Against Health Fraud</title>
+ </analytic>
+ <monogr>
+  <title level="j">Clin. J. Pain</title>
+  <imprint>
+   <biblScope unit="volume">7</biblScope>
+   <biblScope unit="page" from="162" to="166" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Fundamentals of Chinese Medicine, Paradigm Publications</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Wiseman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Ellis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Zmiewski</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1985" />
+   <pubPlace>Brookline, Massachusetts</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Systematic clinical auditing in complementary medicine Ð rationale, concept, and a pilot study</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Melchart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Linde</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">Z</forename>
+    <surname>Liao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Weidenhammer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Altern. Ther</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="33" to="39" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil II: Detaillierte Ergebnisse der Klinik fuÈ r Traditionelle Chinesische Medizin KoÈ tzting</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Melchart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">Z</forename>
+    <surname>Liao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Linde</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Weidenhammer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Forsch. KomplementaÈrmed</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="81" to="86" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil III: VorlaÈ u®ge Ergebnisse der diagnosespezi®schen Dokumentation MigraÈ ne in der Klinik fuÈ r Traditionelle Chinesische Medizin KoÈ tzting</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Melchart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">Z</forename>
+    <surname>Liao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Weidenhammer</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Forsch. KomplementaÈrmed</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="132" to="135" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <monogr>
+  <title level="m" type="main">Chinese Drugs of Plant Origin</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Tang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Eisenbrand</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <publisher>Springer Verlag</publisher>
+   <pubPlace>Berlin, Heidelberg, New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Comparative study on therapeutic ecacy of earthworm K for hypertensive disease</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H</forename>
+    <surname>Mao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">R</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chin. J. Cardiol</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="290" to="294" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title level="m" type="main">Practical Traditional Chinese Medicine and Pharmacology Ð Medicinal Herbs</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Geng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Huang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Ren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Ma</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+   <publisher>New World Press</publisher>
+   <pubPlace>Beijing</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wagner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Bauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Xiao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Oermann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Radix Bupleuri (Chaihu). Chinese Drug Monographs and Analysis</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="issue">1</biblScope>
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">Y</forename>
+    <surname>Yen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">The Illustrated Chinese Materia Medica</title>
+  <meeting><address><addrLine>Taipei</addrLine></address></meeting>
+  <imprint>
+   <publisher>SMC Publishing</publisher>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Ecacy of traditional Chinese herbal therapy in adult atopic dermatitis</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">P</forename>
+    <surname>Sheehan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H A</forename>
+    <surname>Rustin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Atherton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">340</biblScope>
+   <biblScope unit="page" from="13" to="17" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Randomized study of glibenclamide versus traditional Chinese treatment in type 2 diabetic patients. Chinese-French Scienti®c Committee for the Study of Diabetes</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Vray</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Attali</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Diabet. Metab</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="433" to="439" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Usage and adverse eects of Chinese herbal medicines</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">Y K</forename>
+    <surname>Chan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A J H</forename>
+    <surname>Critchley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hum. Exp. Toxicol</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="5" to="12" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Rapidly progressive interstitial renal ®brosis in young women: association with slimming regimen including Chinese herbs</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">L</forename>
+    <surname>Vanherwegem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Depierreux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Tielemans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">341</biblScope>
+   <biblScope unit="page" from="387" to="391" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Possible association of liver damage with the use of Chinese herbal medicine for skin disease</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Perharic</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Shaw</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Leon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">A G M</forename>
+    <surname>De Smet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">S G</forename>
+    <surname>Murray</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Vet. Human Toxicol</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="562" to="566" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Tolerance of and compliance with traditional drug therapy among patients in a hospital for Chinese medicine in Germany</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Melchart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hager</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Weidenhammer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">Z</forename>
+    <surname>Liao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Soè Llner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Linde</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Int. J. Risk Safety Med</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="61" to="64" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,704 @@
+<TEI xml:id="istex-AFD7ACBCF05BD3929CA64D3DB8983EB92FFDAA25">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Lichter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Amrr. Chon. Soc</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page">2495</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Lichter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Anreu. Chcwr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page">4904</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Brarnwell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">W</forename>
+    <surname>Randall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Chew. Currrmim</title>
+  <imprint>
+   <biblScope unit="volume">250</biblScope>
+   <biblScope unit="issue">969</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Axenrod</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">S</forename>
+    <surname>Pregosin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Wieder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">B</forename>
+    <surname>Bradley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">W A</forename>
+    <surname>Milne</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Amer. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="issue">6530</biblScope>
+  </imprint>
+ </monogr>
+ <note>1. 97 I)</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Hampson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Mathias</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Westhead</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Soc. ( B )</title>
+  <imprint>
+   <biblScope unit="volume">397</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">)</forename>
+    <forename type="middle">W R</forename>
+    <surname>Woolfenden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Grant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Amer. Chem. Suc</title>
+  <imprint>
+   <biblScope unit="volume">88</biblScope>
+   <biblScope unit="page">1496</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Dalling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Grant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Arwer.. Chem. Suc</title>
+  <imprint>
+   <biblScope unit="volume">6612</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Dalling</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Grant</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amer. Chem. Suc</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page">5318</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">S</forename>
+    <surname>Pregosin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">W</forename>
+    <surname>Randall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">I</forename>
+    <surname>White</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Chem. Soc. Perkin</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <date type="published" when="0972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">F</forename>
+    <surname>Ramsey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Rev</title>
+  <imprint>
+   <biblScope unit="volume">78</biblScope>
+   <biblScope unit="issue">86</biblScope>
+   <biblScope unit="page" from="699" to="243" />
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Grinter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Suc. ( A )</title>
+  <imprint>
+   <biblScope unit="page">2196</biblScope>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Mason</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Chem. Suc. ( A )</title>
+  <imprint>
+   <biblScope unit="page">1038</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Christl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Warren</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">L</forename>
+    <surname>Hawkins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">For examples of application</title>
+  <editor>b) R. Hagen, J. P. Warren, D. H . Hunter and J. D. Roberts</editor>
+  <imprint>
+   <date type="published" when="1973" />
+   <biblScope unit="page" from="4392" to="5712" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">I R G</forename>
+    <surname>Pews</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Tsuno</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">W W</forename>
+    <surname>Taftb ) R</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Taft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Prosser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">T</forename>
+    <surname>Goodman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Davis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Amer. Cham. Suc. J . Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">8</biblScope>
+   <biblScope unit="issue">38</biblScope>
+   <biblScope unit="page" from="2391" to="380" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">C</forename>
+    <surname>Lauterbur</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page">1415</biblScope>
+   <date type="published" when="1963" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Pople</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="issue">53</biblScope>
+   <biblScope unit="page">60</biblScope>
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">)</forename>
+    <forename type="middle">C G</forename>
+    <surname>Swain</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">C</forename>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amer. Chenr. Soc</title>
+  <imprint>
+   <biblScope unit="volume">90</biblScope>
+   <biblScope unit="page">4328</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Tribble</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">T</forename>
+    <surname>Traynham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Anier. Chem. Soc. J . Amer. Chem. Suc</title>
+  <editor>c) H. C . Brown and Y . Okamoto</editor>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="issue">80</biblScope>
+   <biblScope unit="page" from="379" to="4979" />
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Bremser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">1</forename>
+    <surname>Kroschwitzand</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Artier. Chrm. Suc</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page">6189</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">H</forename>
+    <surname>Yoder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Tuck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">E</forename>
+    <surname>Hess</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Amer. Chrnr. Suc</title>
+  <imprint>
+   <biblScope unit="volume">91</biblScope>
+   <biblScope unit="page">539</biblScope>
+   <date type="published" when="1969" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Bloor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Breen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Chem. Phys</title>
+  <imprint>
+   <biblScope unit="volume">72</biblScope>
+   <biblScope unit="page">716</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Adler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Lichter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J . Orx. Chem</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page">3547</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

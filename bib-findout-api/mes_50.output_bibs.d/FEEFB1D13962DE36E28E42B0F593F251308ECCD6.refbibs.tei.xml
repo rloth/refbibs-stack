@@ -1,0 +1,665 @@
+<TEI xml:id="istex-FEEFB1D13962DE36E28E42B0F593F251308ECCD6">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Christian</forename>
+    <forename type="middle">J W</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Met</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page">377</biblScope>
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Gefen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rosen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Maa</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">727</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Zirinsky</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Met. b</title>
+  <imprint>
+   <biblScope unit="volume">164</biblScope>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Hasigoti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Iwasaki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page">2182</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Pace</forename>
+    <forename type="middle">N G</forename>
+    <surname>Saunders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Msg</title>
+  <imprint>
+   <biblScope unit="volume">73</biblScope>
+   <biblScope unit="page">73</biblScope>
+   <date type="published" when="1970" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Pace</forename>
+    <forename type="middle">N G</forename>
+    <surname>Saunders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Roy. Sot</title>
+  <meeting>. Roy. Sot<address><addrLine>London</addrLine></address></meeting>
+  <imprint>
+   <date type="published" when="1972" />
+   <biblScope unit="page">521</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Novotny</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="middle">I F</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Met</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="issue">1%5</biblScope>
+   <biblScope unit="page">881</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Goldman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">D</forename>
+    <surname>Robertson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Met</title>
+  <imprint>
+   <biblScope unit="volume">12</biblScope>
+   <biblScope unit="page">1265</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Salama</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+    <surname>Alers</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Appl. Phys</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="issue">1%8</biblScope>
+   <biblScope unit="page">4857</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title level="m" type="main">Elasticity and Anelasticity of Metals</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Zener</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1948" />
+   <publisher>University of Chicago Press</publisher>
+   <pubPlace>Chicago</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Anderson</forename>
+    <forename type="middle">0 L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem. Solids</title>
+  <imprint>
+   <biblScope unit="volume">27</biblScope>
+   <biblScope unit="issue">547</biblScope>
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">D</forename>
+    <surname>Murnaghan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Nat. Acad. Sci</title>
+  <meeting>. Nat. Acad. Sci</meeting>
+  <imprint>
+   <date type="published" when="1944" />
+   <biblScope unit="page">244</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">C</forename>
+    <surname>Tong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Wayman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Scripta</forename>
+    <surname>Met</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Lieberman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">S</forename>
+    <surname>Wechsler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">E</forename>
+    <surname>Read</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys</title>
+  <imprint>
+   <biblScope unit="volume">26</biblScope>
+   <biblScope unit="page">473</biblScope>
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Nakanishi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Wayman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Trans</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">AIME</title>
+  <imprint>
+   <biblScope unit="volume">227</biblScope>
+   <biblScope unit="issue">1%3</biblScope>
+   <biblScope unit="page">500</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Gefen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Halwany</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Rosen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Mag</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page">1</biblScope>
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Pace</forename>
+    <forename type="middle">N G</forename>
+    <surname>Saunders</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Solid State Commun</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Mcskimin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Andreatch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Acoust. Sot. Am</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page">1052</biblScope>
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Mcskimin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Acoust. Sot. Am</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page">12</biblScope>
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bystrom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">E</forename>
+    <surname>Almin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Chem. Stand</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page">75</biblScope>
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">K</forename>
+    <surname>Cook</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Acoust. Sot. Am</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page">445</biblScope>
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crystallogr</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page">320</biblScope>
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title level="m" type="main">Introduction to Chemical Physics</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Slater</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1939" />
+   <publisher>McGraw-Hill</publisher>
+   <biblScope unit="page">239</biblScope>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title level="m" type="main">Non-Crystalline Solids, Chap</title>
+  <author>
+   <persName>
+    <forename type="first">Anderson</forename>
+    <forename type="middle">0</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">.</forename>
+    <forename type="middle">L</forename>
+    <surname>Dienes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">L</forename>
+   </persName>
+  </author>
+  <editor>V. D. Frechette</editor>
+  <imprint>
+   <publisher>Wiley</publisher>
+   <pubPlace>New York (l%O</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">E</forename>
+    <surname>Schuele</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Gem. Solids</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page">801</biblScope>
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Swenson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem. Solids</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page">1337</biblScope>
+   <date type="published" when="1968" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,451 @@
+<TEI xml:id="istex-7FD49C64DDDE882B3334BA199EC7285B0772B4B5">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Development of a pump-oxygenator to replace the heart and lungs: An apparatus applicable to human patients, and application in one case</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Dennis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Dsj</forename>
+    <surname>Spreng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ge</forename>
+    <surname>Nelson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Surg</title>
+  <imprint>
+   <biblScope unit="volume">134</biblScope>
+   <biblScope unit="page" from="709" to="721" />
+   <date type="published" when="1951" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Closure of atrial septal defects with aid of hypothermia: Experimental accomplishments and the report of one successful case</title>
+  <author>
+   <persName>
+    <forename type="first">Fj</forename>
+    <surname>Lewis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Taufic</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surgery</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="52" to="59" />
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">The experimental creation and closure of auricular septal defects</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Swan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Maresh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Me</forename>
+    <surname>Johnson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Thorac Surg</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="542" to="551" />
+   <date type="published" when="1950" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <monogr>
+  <title level="m" type="main">The evolution of cardiac surgery</title>
+  <author>
+   <persName>
+    <forename type="first">Hb</forename>
+    <surname>Shumacker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1992" />
+   <publisher>University Press</publisher>
+   <biblScope unit="page" from="220" to="241" />
+   <pubPlace>Bloomington, IN</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Surgical closure of defects of the interauricular septum by the atrial well</title>
+  <author>
+   <persName>
+    <forename type="first">Re</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Aa</forename>
+    <surname>Pomeranz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ej</forename>
+    <surname>Watkins</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">New Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">247</biblScope>
+   <biblScope unit="page" from="455" to="460" />
+   <date type="published" when="1952" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Direct vision intracardiac surgical correction of tetralogy of Fallot, pentalogy of Fallot, and pulmonary atresia defects: Report of first ten cases</title>
+  <author>
+   <persName>
+    <forename type="first">Cw</forename>
+    <surname>Lillehei</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">He</forename>
+    <surname>Warden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Surg</title>
+  <imprint>
+   <biblScope unit="volume">142</biblScope>
+   <biblScope unit="page" from="418" to="445" />
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation</title>
+  <author>
+   <persName>
+    <forename type="first">At</forename>
+    <surname>Andreasen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Watson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Brit J Surg</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="195" to="206" />
+   <date type="published" when="1953" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Controlled cross-circulation for directvision intracardiac surgery: Correction of ventricular septal defects, atrioventricularis communis, and tetralogy of Fallot</title>
+  <author>
+   <persName>
+    <forename type="first">Cw</forename>
+    <surname>Lillehei</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Postgrad Med J</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="388" to="396" />
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Intracardiac surgery with the aid of a mechanical pumpoxygenator system (Gibbon type): Report of eight cases</title>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Kirklin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Dushane</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rt</forename>
+    <surname>Patrick</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc Staff Meet Mayo Clin</title>
+  <imprint>
+   <biblScope unit="volume">30</biblScope>
+   <biblScope unit="page" from="201" to="206" />
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Application of a mechanical heart and lung apparatus to cardiac surgery</title>
+  <author>
+   <persName>
+    <forename type="first">Jh</forename>
+    <surname>Gibbon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Minn Med</title>
+  <imprint>
+   <biblScope unit="volume">37</biblScope>
+   <biblScope unit="page" from="171" to="180" />
+   <date type="published" when="1954" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">A simple , expendable, artificial oxygenator for open heart surgery</title>
+  <author>
+   <persName>
+    <forename type="first">Ra</forename>
+    <surname>Dewall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">He</forename>
+    <surname>Warden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Rc</forename>
+    <surname>Read</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surg Clin North Am</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="1025" to="1034" />
+   <date type="published" when="1956" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Surgical repair of ruptured interventricular septum following acute myocardial infarction</title>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Cooley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+    <surname>Belmonte</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Lb</forename>
+    <surname>Zeis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surgery</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="930" to="937" />
+   <date type="published" when="1957" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">The pump oxygenator in cardiovascular surgery: Observations based upon 450 cases</title>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Cooley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ha</forename>
+    <surname>Collins</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Jw</forename>
+    <surname>Giacobine</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann Surg</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="870" to="882" />
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Hypothermic perfusion for open-heart surgical procedures: Report of the use of a heart-lung machine primed with five percent dextrose in water inducing hemodilution</title>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Zuhdi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Mccollough</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Carey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J Int Coll Surg</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="319" to="326" />
+   <date type="published" when="1961" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Open heart operations with disposable oxygenators, five percent dextrose prime, and normothermia</title>
+  <author>
+   <persName>
+    <forename type="first">Da</forename>
+    <surname>Cooley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ac</forename>
+    <surname>Beall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Jr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Grondin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Surgery</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page" from="713" to="719" />
+   <date type="published" when="1962" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

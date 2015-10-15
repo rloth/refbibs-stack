@@ -1,0 +1,260 @@
+<TEI xml:id="istex-2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">The Theory of Sound Scientific papers Vols. I, II and III (Cambridge, 1902)</title>
+  <author>
+   <persName>
+    <forename type="first">Lord</forename>
+    <surname>Rayleigh</surname>
+   </persName>
+  </author>
+  <editor>. S. Chandrasekhar, Hydrodynamic and Hydromagnetic Stability</editor>
+  <imprint>
+   <date type="published" when="1945" />
+   <publisher>Dover</publisher>
+   <pubPlace>New York ; Dover, New York</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">H</forename>
+    <surname>Hertz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Hermanrud</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluid Mech</title>
+  <imprint>
+   <biblScope unit="volume">131</biblScope>
+   <biblScope unit="page">271</biblScope>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">A</forename>
+    <surname>Surin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">N</forename>
+    <surname>Evchenko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">M</forename>
+    <surname>Rubin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Eng. Phys. (USA)</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page">1091</biblScope>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Esser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">I</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Fluids Eng. (USA)</title>
+  <imprint>
+   <biblScope unit="volume">106</biblScope>
+   <biblScope unit="page">45</biblScope>
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">Y</forename>
+    <surname>Cheng</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Fluids</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page">2614</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Kendall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Fluids</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page">2086</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+    <surname>Monin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sov. Phys. USP (USA) Phys. Abst., Sci. Abst</title>
+  <editor>1104. A.E. Radwan and S.S. Elazab</editor>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="843" to="61" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+ <note>series A</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Cahebaut</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Radwan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Int. Conf. on Computing in Plasma Physics</title>
+  <editor>A.E. Radwan and CaIlebaut</editor>
+  <meeting>. Int. Conf. on Computing in Plasma Physics</meeting>
+  <imprint>
+   <date type="published" when="1986" />
+   <biblScope unit="page">6</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Radwan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">K</forename>
+    <surname>Cailebaut</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Belg. Phys. Sot. P.P</title>
+  <imprint>
+   <biblScope unit="page">21</biblScope>
+   <date type="published" when="1985" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Radwan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Abramowitz and I. Stegun, Handbook of Mathematical Functions</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Dover</publisher>
+   <date type="published" when="1965" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

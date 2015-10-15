@@ -1,0 +1,984 @@
+<TEI xml:id="istex-1A40CCA0EEB4D02A02F90A138D1F46467D971309">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Boyer</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phil. Trans. Roy. Soc. London B</title>
+  <imprint>
+   <biblScope unit="volume">273</biblScope>
+   <biblScope unit="page" from="501" to="512" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Phloem Translocation</title>
+  <author>
+   <persName>
+    <forename type="first">Canny</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology</title>
+  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>
+  <meeting><address><addrLine>London ; Berlin, Heidelberg, New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Cambridge Univ, Press Springer-Verlag</publisher>
+   <date type="published" when="1973" />
+   <biblScope unit="page" from="139" to="153" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Crafts</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">S</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="63" to="79" />
+   <date type="published" when="1936" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+ </analytic>
+ <monogr>
+  <title level="m">Water Deficits and Plant Growth</title>
+  <editor>T. T. KOZLOWSKI</editor>
+  <meeting><address><addrLine>New York, London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Academic Press</publisher>
+   <date type="published" when="1968" />
+   <biblScope unit="page" from="85" to="133" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Cram</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology</title>
+  <editor>U. LUTTGE and M. G. PITMAN</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1976" />
+   <biblScope unit="page" from="284" to="316" />
+  </imprint>
+ </monogr>
+ <note>Part. A</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Dainty</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology Transport in Plants II</title>
+  <editor>U. LUTTGE and M. G. PITMAN</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1976" />
+   <biblScope unit="page" from="12" to="35" />
+  </imprint>
+ </monogr>
+ <note>Part. A</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Dixon</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">F G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology Transport in Plants I, Phloem Transport</title>
+  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1975" />
+   <biblScope unit="page" from="154" to="170" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Dodoo</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Effects of water availability on growth and physiology of Ricinus communis L. Ph. D. Thesis</title>
+  <imprint>
+   <publisher>Univ. Glasgow</publisher>
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Ferrier</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">T</forename>
+    <surname>Tyree</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">L</forename>
+    <surname>Christy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canad. J. Bot</title>
+  <imprint>
+   <biblScope unit="volume">53</biblScope>
+   <biblScope unit="page" from="1120" to="1127" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hall</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Kaufmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Perspectives of Biophysical Ecology</title>
+  <editor>D. M. GATES and R. B. SCHMERL</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg , New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1975" />
+   <biblScope unit="page" from="187" to="202" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hall</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Baker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Milburn</surname>
+   </persName>
+  </author>
+  <editor>207. --, and J. A. MILBURN</editor>
+  <imprint>
+   <date type="published" when="1971" />
+   <biblScope unit="page" from="1" to="10" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hewitt</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Smith</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1975" />
+   <publisher>Plant Mineral Nutrition. The English Univ. Press Ltd</publisher>
+   <pubPlace>London</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">C</forename>
+    <surname>Ho</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+    <surname>Peel</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1969" />
+   <publisher>Physio!&apos; Plantarurn</publisher>
+   <biblScope unit="page" from="379" to="385" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hoddinott</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">L</forename>
+    <surname>Ehret</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R</forename>
+    <surname>Gorham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canad. J. Bot</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="768" to="776" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Hsiao</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">C</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Rev. Plant Physio!&apos;</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="519" to="570" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Ishihara</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hirasawa</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Cell Physio!&apos;</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="1289" to="1294" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Milburn</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology</title>
+  <editor>M. H. ZIMMERMANN and J. A. MILBURN M. H. ZIMMERMANN</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg, New York. , and</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag</publisher>
+   <date type="published" when="1972" />
+   <biblScope unit="page" from="653" to="665" />
+  </imprint>
+ </monogr>
+ <note>Transport. in Plants I</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Moorby</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Munns</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Walcott</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J. Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="323" to="333" />
+   <date type="published" when="1975" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Munns</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Pearson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="529" to="537" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Passioura</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Ashford</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J. Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="521" to="527" />
+   <date type="published" when="1974" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Peel</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Weatherley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature Ann. Bot</title>
+  <imprint>
+   <biblScope unit="volume">184</biblScope>
+   <biblScope unit="issue">26</biblScope>
+   <biblScope unit="page" from="633" to="646" />
+   <date type="published" when="1955" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Philip</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">33</biblScope>
+   <biblScope unit="page" from="264" to="271" />
+   <date type="published" when="1958" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Plaut</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Z</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Reinhold</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J. bioI. Sci</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="297" to="307" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Reinhold</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Phloem Transport</title>
+  <editor>S. ARONOFF, ]. DAINTY, P. R. GORHAM, L. M. SRIVASTAVA, and C A. SWANSON</editor>
+  <meeting><address><addrLine>New York, London</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum Press</publisher>
+   <date type="published" when="1975" />
+   <biblScope unit="page" from="367" to="388" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Scholander</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">T</forename>
+    <surname>Hammel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Hemmingsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Bradstreet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Nat. Acad. Sci</title>
+  <meeting>. Nat. Acad. Sci</meeting>
+  <imprint>
+   <date type="published" when="1964" />
+   <biblScope unit="page" from="119" to="125" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Phloem transport, solute flux and the kinetics of sap exudation in Ricinus communis L</title>
+  <author>
+   <persName>
+    <forename type="first">Smith</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">A</forename>
+    <surname>Milburn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Planta (in press). --, and --, 1980b: Phloem turgor and the regulation of sucrose loading in Ricinus communis L. Planta</title>
+  <imprint>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+ <note>in. press</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Thompson</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">S</forename>
+    <surname>Fensom</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">R</forename>
+    <surname>Anderson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Drouin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Leiper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Canad. J. Bot</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="845" to="863" />
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Tinklin</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">E</forename>
+    <surname>Weatherley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">New Phytologist</title>
+  <imprint>
+   <biblScope unit="volume">65</biblScope>
+   <biblScope unit="page" from="509" to="517" />
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Troughton</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">G</forename>
+    <surname>Currie</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">H</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="808" to="820" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Van</forename>
+    <surname>Die</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M L</forename>
+    <surname>Tammes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Proc. Kon. Ned. Akad. Wetensm. C</title>
+  <imprint>
+   <biblScope unit="volume">69</biblScope>
+   <biblScope unit="page" from="648" to="654" />
+   <date type="published" when="1966" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Transport in Plants I, Phloem Transport , 196-222</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M L</forename>
+    <surname>Vonk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Tammes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Encyclopedia of Plant Physiology</title>
+  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>
+  <meeting><address><addrLine>Berlin, Heidelberg, New York. --, CR</addrLine></address></meeting>
+  <imprint>
+   <publisher>Springer-Verlag Acta Bot. Need</publisher>
+   <date type="published" when="1973" />
+   <biblScope unit="page" from="446" to="451" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Wardlaw</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Austral. J. bioI. Sci. Bot. Rev. Austral. J. bioI. Sci</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="issue">22</biblScope>
+   <biblScope unit="page" from="25" to="39" />
+   <date type="published" when="1967" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

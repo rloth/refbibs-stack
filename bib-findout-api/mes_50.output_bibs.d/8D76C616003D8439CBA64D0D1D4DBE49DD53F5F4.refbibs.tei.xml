@@ -1,0 +1,3324 @@
+<TEI xml:id="istex-8D76C616003D8439CBA64D0D1D4DBE49DD53F5F4">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">The effect of water stress on the activities of key regulatory enzymes of the sucrose to starch pathway in wheat</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Ahmadi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Baker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Growth Regul</title>
+  <imprint>
+   <biblScope unit="volume">35</biblScope>
+   <biblScope unit="page" from="81" to="91" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Effect of herbicides on plant diseases</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Altman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Phytopathol</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="361" to="385" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Enhancement of natural disease resistance in potatoes by chemicals</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">B</forename>
+    <surname>Andreu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">G</forename>
+    <surname>Guevara</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Wolski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">R</forename>
+    <surname>Daleo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">O</forename>
+    <surname>Caldiz</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Pest Manage. Sci</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="162" to="170" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Visualization of differential gene expression using a novel method of RNA fingerprinting based on AFLP: analysis of gene expression during potato tuber development</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">W B</forename>
+    <surname>Bachem</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">S</forename>
+    <surname>Vander Hoeven</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Bruijn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">M</forename>
+    <surname>Vreugdenhil</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Zabeau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Visser</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">G F</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="745" to="753" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Induction of competence for elicitation of defense responses in cucumber hypocotyls requires proteasome activity</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Becker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Kempf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Jeblick</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Kauss</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="311" to="316" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Differential expression of a novel gene in response to coronatine, methyl jasmonate, and wounding in the Coi1 mutant of Arabidopsis</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Benedetti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">L</forename>
+    <surname>Costa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">R</forename>
+    <surname>Turcinelli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Arruda</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">116</biblScope>
+   <biblScope unit="page" from="1037" to="1042" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Identification of potato genes induced during colonization by Phytophthora infestans</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Beyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Binder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Boller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Collinge</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="125" to="134" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Glutathione alterations in melon and tomato roots following treatment with chemicals which induce disease resistance to Fusarium wilt</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Bolter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Brammall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Lazarovits</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">42</biblScope>
+   <biblScope unit="page" from="321" to="336" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">Signal crosstalk and induced resistance: straddling the line between cost and benefit</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Bostock</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Phytopathol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="545" to="580" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Quantitative cDNA-AFLP analysis for genome-wide expression studies</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Breyne</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Dreesen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Cannoot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Rombaut</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Vandepoele</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Rombauts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Vanderhaeghen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Inze</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Zabeau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Genet. Genom</title>
+  <imprint>
+   <biblScope unit="volume">269</biblScope>
+   <biblScope unit="page" from="173" to="179" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">The role of ethylene in host–pathogen interactions</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">F</forename>
+    <surname>Broekaert</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Delaure</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">De</forename>
+    <surname>Bolle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F C</forename>
+    <surname>Cammue</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">P A</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Phytopathol</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="393" to="416" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">H 2 O 2 and NO: redox signals in disease resistance</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">V</forename>
+    <surname>Camp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">V</forename>
+    <surname>Montagu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Inze</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Plant Sci</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="330" to="334" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Photosynthesis, water relations and leaf growth of cucumber exposed to salt stress</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">S</forename>
+    <surname>Chartzoulakis</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Sci. Hortic</title>
+  <imprint>
+   <biblScope unit="volume">59</biblScope>
+   <biblScope unit="page" from="27" to="35" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">Ethylene signal transduction</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">I F</forename>
+    <surname>Chen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Etheridge</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Schaller</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Ann. Bot</title>
+  <imprint>
+   <biblScope unit="volume">95</biblScope>
+   <biblScope unit="page" from="901" to="915" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Transcriptional profiling reveals novel interactions between wounding, pathogen, abiotic stress, and hormonal responses in Arabidopsis</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">H</forename>
+    <surname>Cheong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">S</forename>
+    <surname>Chang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gupta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Zhu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Luan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">129</biblScope>
+   <biblScope unit="page" from="661" to="677" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Genomic sequencing</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">M</forename>
+    <surname>Church</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Gilbert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="1991" to="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Chloroacetamide herbicides reduce incidence of fusarium wilt in melons</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Blaier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Crop Prot</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page" from="181" to="185" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Effect of acetochlor treatment on Fusarium wilt and sugar content in melon seedlings</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Blaier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">A</forename>
+    <surname>Schaffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">102</biblScope>
+   <biblScope unit="page" from="45" to="50" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Involvement of ethylene in herbicide-induced resistance to Fusarium oxysporum f. sp. melonis</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Riov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Lisker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phytopathology</title>
+  <imprint>
+   <biblScope unit="volume">76</biblScope>
+   <biblScope unit="page" from="1281" to="1285" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">Paclobutrazol and other plant growth-retarding chemicals increase resistance of melon seedlings to Fusarium wilt</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Yarden</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Riov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Lisker</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="558" to="564" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Suppression subtractive hybridization: a method for generating differentially regulated or tissue-specific cDNA probes and libraries</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Diatchenko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">F C</forename>
+    <surname>Lau</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Campbell</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Chenchik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Moqadam</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Huang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Lukyanov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Lukyanov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Gurskaya</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Sverdlov</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">D</forename>
+    <surname>Siebert</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1996" />
+   <biblScope unit="page" from="6025" to="6030" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title level="a" type="main">Salt stress activation of wound-related genes in tomato plants</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Dombrowski</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="2098" to="2107" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">Gene expression profile changes in cotton root and hypocotyl tissues in response to infection with Fusarium oxysporum f. sp. vasinfectum</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Dowd</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">W</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Mcfadden</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant–Microbe Interact</title>
+  <imprint>
+   <biblScope unit="volume">17</biblScope>
+   <biblScope unit="page" from="654" to="667" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Deoxyxylulose phosphate pathway to terpenoids</title>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Eisenreich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Rohdich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Bacher</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Plant Sci</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="78" to="84" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">Effect of dinitroanilines on solanaceous vegetables and soil fungi</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Eshel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Weed Sci</title>
+  <imprint>
+   <biblScope unit="volume">20</biblScope>
+   <biblScope unit="page" from="243" to="246" />
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Cell-cycle modulation of CK2 activity in tobacco BY-2 cells</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Espunya</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Combettes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Dot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Chaubet-Gigot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">C</forename>
+    <surname>Martinez</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">19</biblScope>
+   <biblScope unit="page" from="655" to="666" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">ABA as a modulator of the response of Pisum sativum to salt stress</title>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">S</forename>
+    <surname>Fedina</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">D</forename>
+    <surname>Tsonev</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">I</forename>
+    <surname>Guleva</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">143</biblScope>
+   <biblScope unit="page" from="245" to="249" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">Coffee (Coffea arabica L.) genes early expressed during infection by the rust fungus (Hemileia vastatrix)</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Fernandez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Santos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Agostini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Petitot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Silva</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Guerra-Guimaraes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Ribeiro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Argout</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nicole</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="527" to="536" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">Current status of the gene-for-gene concept</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">H</forename>
+    <surname>Flor</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Annu. Rev. Phytophathol</title>
+  <imprint>
+   <biblScope unit="volume">9</biblScope>
+   <biblScope unit="page" from="275" to="296" />
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Two tobacco genes induced by infection, elicitor and salicylic acid encode glucosyltransferases acting on phenylpropanoids and benzoic acid derivatives, including salicylic acid</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Fraissinet-Tachet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Baltz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Chong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Kauffmann</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Fritig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Saindrenan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Fed. Eur. Biochem. Soc. Symposium</title>
+  <imprint>
+   <biblScope unit="volume">437</biblScope>
+   <biblScope unit="page" from="319" to="323" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Crosstalk in plant cell signaling: structure and function of the genetic network</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Genoud</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Metraux</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Trends Plant Sci</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page" from="503" to="507" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Large-scale identification of leaf senescence-associated genes</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Gepstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Sabehi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Carp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hajouj</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F O</forename>
+    <surname>Nesher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Yariv</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Dor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bassani</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">36</biblScope>
+   <biblScope unit="page" from="629" to="642" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">Heat-induced relocalization of protein kinase CK2</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">A</forename>
+    <surname>Gerber</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Souquere-Besse</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Puvion</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">F</forename>
+    <surname>Dubois</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Bensaude</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Cochet</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">275</biblScope>
+   <biblScope unit="page" from="23919" to="23926" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Crosstalk and differential response to abiotic and biotic stressors reflected at the transcriptional level of effector genes from secondary metabolism</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Glombitza</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">H</forename>
+    <surname>Dubuis</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">O</forename>
+    <surname>Thulke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Welzl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Bovet</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Gotz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Affenzeller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Geist</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Hehn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Asnaghi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Ernst</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>Seidlitz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Gundlach</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">F</forename>
+    <surname>Mayer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Martinoia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Werck-Reichhart</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Mauch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">R</forename>
+    <surname>Schaffner</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">54</biblScope>
+   <biblScope unit="page" from="817" to="835" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Systemic acquired resistance in crop protection: from nature to chemical approach</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Gozzo</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Agric. Food Chem</title>
+  <imprint>
+   <biblScope unit="volume">51</biblScope>
+   <biblScope unit="page" from="4487" to="4503" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <analytic>
+  <title level="a" type="main">The diphenylether herbicide lactofen induces cell death and expression of defense-related genes in soybean</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">Y</forename>
+    <surname>Graham</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">139</biblScope>
+   <biblScope unit="page" from="1784" to="1794" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">Effect of dinitroaniline herbicides on plant resistance to soilborne pathogens</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Grinstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Eshel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phytopathology</title>
+  <imprint>
+   <biblScope unit="volume">66</biblScope>
+   <biblScope unit="page" from="517" to="522" />
+   <date type="published" when="1976" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Herbicide-induced resistance to plant wilt diseases</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Grinstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Lisker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Eshel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">24</biblScope>
+   <biblScope unit="page" from="347" to="356" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Cloning, characterization, and immunolocalization of a mycorrhiza-inducible 1-deoxy-D-xylulose 5-phosphate reductoisomerase in arbusculecontaining cells of maize</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Hans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Hause</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Strack</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">134</biblScope>
+   <biblScope unit="page" from="614" to="624" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <analytic>
+  <title level="a" type="main">Target Sites of Herbicides Action</title>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">D</forename>
+    <surname>Hess</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Boca Raton</title>
+  <imprint>
+   <publisher>CRC Press, Inc</publisher>
+   <date type="published" when="1989" />
+   <publisher>CRC Press, Inc</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Identification of an immediate-early salicylic acid-inducible tobacco gene and characterization of induction by other compounds</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">M</forename>
+    <surname>Horvath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">H</forename>
+    <surname>Chua</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="1061" to="1072" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">Ubiquitin-and proteasomedependent proteolysis in plants</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Ingvardsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Veierskov</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Plant</title>
+  <imprint>
+   <biblScope unit="volume">112</biblScope>
+   <biblScope unit="page" from="451" to="459" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+ <analytic>
+  <title level="a" type="main">The fusarium wilt resistance locus Fom-2 of melon contains a single resistance gene with complex features</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Joobeur</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>King</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Nolin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">E</forename>
+    <surname>Thomas</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Dean</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">39</biblScope>
+   <biblScope unit="page" from="283" to="297" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+ <analytic>
+  <title level="a" type="main">Interactions between herbicides and plant pathogens</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Katan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Eshel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Residue Rev</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="145" to="177" />
+   <date type="published" when="1973" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+ <analytic>
+  <title level="a" type="main">DNA microarrays: new tools in the analysis of plant defence responses</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kazan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Schenk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Wilson</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Manners</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="177" to="185" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+ <analytic>
+  <title level="a" type="main">cDNA-AFLP reveals genes differentially expressed during the hypersensitive response of cassava</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">P</forename>
+    <surname>Kemp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Beeching</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Cooper</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="113" to="123" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+ <analytic>
+  <title level="a" type="main">Induced systemic resistance and promotion of plant growth by Bacillus ssp</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Kloepper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">M</forename>
+    <surname>Ryu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phytopathology</title>
+  <imprint>
+   <biblScope unit="volume">94</biblScope>
+   <biblScope unit="page" from="1259" to="1266" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+ <analytic>
+  <title level="a" type="main">Co-isolation of high-quality DNA and RNA from coenocytic green algae</title>
+  <author>
+   <persName>
+    <forename type="first">La</forename>
+    <surname>Claire</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Herrin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol. Report</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="263" to="272" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+ <analytic>
+  <title level="a" type="main">Effect of high-temperature on plant-growth and carbohydrate-metabolism in potato</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Lafta</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Lorenzen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">109</biblScope>
+   <biblScope unit="page" from="637" to="643" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+ <analytic>
+  <title level="a" type="main">Aquaporins in a challenging environment: molecular gears for adjusting plant water status</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">T</forename>
+    <surname>Luu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Maurel</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Cell Environ</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="85" to="96" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+ <analytic>
+  <title level="a" type="main">OsEIL1 a rice homolog of the Arabidopsis EIN3 regulates the ethylene response as a positive component</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Mao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Q</forename>
+    <surname>Jia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Wu</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">61</biblScope>
+   <biblScope unit="page" from="141" to="152" />
+   <date type="published" when="2006" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+ <analytic>
+  <title level="a" type="main">Fusarium wilt of melon</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">D</forename>
+    <surname>Martyn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">R</forename>
+    <surname>Gordon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Compendium of Cucurbit Diseases</title>
+  <editor>Zitter, T.A., Hokins, D.L. and Thomas, C.E.</editor>
+  <meeting><address><addrLine>Minneapolis, MN</addrLine></address></meeting>
+  <imprint>
+   <publisher>APS Press</publisher>
+   <date type="published" when="1996" />
+   <biblScope unit="page" from="14" to="15" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+ <analytic>
+  <title level="a" type="main">Repressor-and activator-type ethylene response factors functioning in jasmonate signaling and disease resistance identified via a genomewide screen of Arabidopsis transcription factor gene expression</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">C</forename>
+    <surname>Mcgrath</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dombrecht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">M</forename>
+    <surname>Manners</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">M</forename>
+    <surname>Schenk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">I</forename>
+    <surname>Edgar</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">J</forename>
+    <surname>Maclean</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W.-R</forename>
+    <surname>Scheible</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">K</forename>
+    <surname>Udvardi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kazan</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">139</biblScope>
+   <biblScope unit="page" from="949" to="959" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+ <analytic>
+  <title level="a" type="main">Induced disease resistance in plants by chemicals</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Oostendorp</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Kunz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dietrich</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Staub</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">107</biblScope>
+   <biblScope unit="page" from="19" to="28" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+ <analytic>
+  <title level="a" type="main">Sequential and structural homology between intracellular pathogenesis-related proteins and a group of latex proteins</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Osmark</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Boyle</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Brisson</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">38</biblScope>
+   <biblScope unit="page" from="1243" to="1246" />
+   <date type="published" when="1998" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+ <analytic>
+  <title level="a" type="main">A new mathematical model for relative quantification in real-time RT-PCR</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">W</forename>
+    <surname>Pfaffl</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nucleic Acids Res</title>
+  <imprint>
+   <biblScope unit="volume">29</biblScope>
+   <biblScope unit="page" from="2002" to="2007" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+ <analytic>
+  <title level="a" type="main">Herbicide discovery through rational design: some experiences</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">B</forename>
+    <surname>Pillmoor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Wright</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">D</forename>
+    <surname>Lindell</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Brighton Crop Prot. Conf. Weeds</title>
+  <imprint>
+   <date type="published" when="1991" />
+   <biblScope unit="page" from="857" to="866" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+ <analytic>
+  <title level="a" type="main">Detoxification of the Fusarium mycotoxin Deoxynivalenol by a UDP-glucosyltransferase from Arabidopsis thaliana</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Poppenberger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Berthiller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Lucyshyn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Sieberer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Schuhmacher</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Krska</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Kuchler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Glossl</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Luschnig</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Adam</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Biol. Chem</title>
+  <imprint>
+   <biblScope unit="volume">278</biblScope>
+   <biblScope unit="page" from="47905" to="47914" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lotan-Pompan</surname>
+   </persName>
+  </author>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+ <analytic>
+  <title level="a" type="main">EIN3-dependent regulation of plant ethylene hormone signaling by two arabidopsis F box proteins: EBF1 and EBF2</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Potuschak</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Lechner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Parmentier</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Yanagisawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Grava</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Koncz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Genschik</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">115</biblScope>
+   <biblScope unit="page" from="679" to="689" />
+   <date type="published" when="2003" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+ <analytic>
+  <title level="a" type="main">The combined effect of drought stress and heat shock on gene expression in tobacco</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Rizhsky</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">J</forename>
+    <surname>Liang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Mittler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Physiol</title>
+  <imprint>
+   <biblScope unit="volume">130</biblScope>
+   <biblScope unit="page" from="1143" to="1151" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+ <analytic>
+  <title level="a" type="main">History and perspectives on the use of disease resistance inducers in horticultural crops</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">B</forename>
+    <surname>Da Rocha</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hammerschmidt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Hort. Technol</title>
+  <imprint>
+   <biblScope unit="volume">15</biblScope>
+   <biblScope unit="page" from="518" to="528" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+ <analytic>
+  <title level="a" type="main">PSII-S gene expression, photosynthetic activity and abundance of plastid thioredoxin-related and lipid-associated proteins during chilling stress in Solanum species differing in freezing resistance</title>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Rorat</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Havaux</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Irzykowski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Cuiné</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Becuwe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Rey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Physiol. Plant</title>
+  <imprint>
+   <biblScope unit="volume">113</biblScope>
+   <biblScope unit="page" from="72" to="78" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+ <monogr>
+  <title level="m" type="main">Molecular Cloning: a Laboratory Manual</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Sambrook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">W</forename>
+    <surname>Russell</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="2001" />
+   <publisher>Cold Spring Harbor Laboratory Press</publisher>
+   <pubPlace>New York</pubPlace>
+  </imprint>
+ </monogr>
+ <note>3rd. edn</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+ <analytic>
+  <title level="a" type="main">Identification of genes in cassava that are differentially expressed during infection with Xanthomonas axonopodis pv. manihotis</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Santaella</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Suarez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Lopez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Gonzalez</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Mosquera</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Restrepo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Tohme</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Badillo</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">R</forename>
+    <surname>Verdier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">5</biblScope>
+   <biblScope unit="page" from="549" to="558" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+ <analytic>
+  <title level="a" type="main">Acetolactate synthase and ketolacid reductoisomerase–targets for herbicides obtained by screening and de novo design</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">V</forename>
+    <surname>Schloss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Aulabaugh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Z. Fur Naturforsch. Sect. C-A J. Biosci</title>
+  <imprint>
+   <biblScope unit="volume">45</biblScope>
+   <biblScope unit="page" from="544" to="551" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+ <analytic>
+  <title level="a" type="main">Identification by suppression subtractive hybridization of genes that are differentially expressed between nearisogenic maize lines in association with sugarcane mosaic virus resistance</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Shi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Ingvardsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Thummler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Melchinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Wenzel</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Lubberstedt</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Gen. Genom</title>
+  <imprint>
+   <biblScope unit="volume">273</biblScope>
+   <biblScope unit="page" from="450" to="461" />
+   <date type="published" when="2005" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+ <analytic>
+  <title level="a" type="main">The effect of NaCl priming on salt tolerance in melon seedlings</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">O</forename>
+    <surname>Sivritepe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Eris</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Sivritepe</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Hortic</title>
+  <imprint>
+   <biblScope unit="volume">492</biblScope>
+   <biblScope unit="page" from="77" to="84" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+ <analytic>
+  <title level="a" type="main">A novel promoter from soybean that is active in a complex developmental pattern with and without its proximal 650 base pairs</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">V</forename>
+    <surname>Stromvik</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">P</forename>
+    <surname>Sundararaman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">O</forename>
+    <surname>Vodkin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">41</biblScope>
+   <biblScope unit="page" from="217" to="231" />
+   <date type="published" when="1999" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+ <analytic>
+  <title level="a" type="main">Aquaporin isoforms responsive to salt and water stresses and phytohormones in radish seedlings</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Suga</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Komatsu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Maeshima</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Cell Physiol</title>
+  <imprint>
+   <biblScope unit="volume">43</biblScope>
+   <biblScope unit="page" from="1229" to="1237" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+ <analytic>
+  <title level="a" type="main">Molecular cloning and heterologous expression of novel glucosyltransferases from tobacco cultured cells that have broad substrate specificity and are induced by salicylic acid and auxin</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <surname>Taguchi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Yazawa</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Hayashida</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Okazaki</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Biochem</title>
+  <imprint>
+   <biblScope unit="volume">268</biblScope>
+   <biblScope unit="page" from="4086" to="4094" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+ <analytic>
+  <title level="a" type="main">Plant eR genes that encode photorespiratory enzymes confer resistance against disease</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Taler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Galperin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Benjamin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Cohen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Kenigsbuch</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Cell</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page" from="172" to="184" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+ <analytic>
+  <title level="a" type="main">Signalling crosstalk in plants: emerging issues</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Taylor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Mcainsh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exp. Bot</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="147" to="149" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+ <analytic>
+  <title level="a" type="main">Systemic acquired resistance and induced systemic resistance in conventional agriculture</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">E</forename>
+    <surname>Vallad</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">M</forename>
+    <surname>Goodman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Crop Sci</title>
+  <imprint>
+   <biblScope unit="volume">44</biblScope>
+   <biblScope unit="page" from="1920" to="1934" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+ <analytic>
+  <title level="a" type="main">) cDNA-AFLP display for the isolation of Peronospora parasitica genes expressed during infection in Arabidopsis thaliana</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Van Der Biezen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Juwana</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">E</forename>
+    <surname>Parker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant–Microbe Interact</title>
+  <imprint>
+   <biblScope unit="volume">13</biblScope>
+   <biblScope unit="page" from="895" to="898" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+ <analytic>
+  <title level="a" type="main">Induced resistance in plants and the role of pathogenesis-related proteins</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Van Loon</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Eur. J. Plant Pathol</title>
+  <imprint>
+   <biblScope unit="volume">103</biblScope>
+   <biblScope unit="page" from="753" to="765" />
+   <date type="published" when="1997" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+ <analytic>
+  <title level="a" type="main">AFLP: a new technique for DNA-fingerprinting</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Vos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Hogers</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Bleeker</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Reijans</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Vandelee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Hornes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Frijters</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Pot</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Peleman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Kuiper</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Zabeau</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nucleic Acids Res</title>
+  <imprint>
+   <biblScope unit="volume">23</biblScope>
+   <biblScope unit="page" from="4407" to="4414" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+ <analytic>
+  <title level="a" type="main">Cloning of a cDNA encoding EIN3-like protein (DC-EIL1) and decrease in its mRNA level during senescence in carnation flower tissues</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Waki</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Shibuya</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Yoshioka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Hashiba</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Satoh</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Exp. Bot</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page" from="377" to="379" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+ <analytic>
+  <title level="a" type="main">Arbuscular mycorrhizal fungi induce the non-mevalonate methylerythritol phosphate pathway of isoprenoid biosynthesis correlated with accumulation of the &apos;yellow pigment&apos; and other apocarotenoids</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Fester</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Strack</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant J</title>
+  <imprint>
+   <biblScope unit="volume">21</biblScope>
+   <biblScope unit="page" from="571" to="578" />
+   <date type="published" when="2000" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+ <analytic>
+  <title level="a" type="main">Probing plant–pathogen interactions and downstream defense signaling using DNA microarrays</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">M</forename>
+    <surname>Dunning</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">F</forename>
+    <surname>Bent</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Funct. Integr. Genomics</title>
+  <imprint>
+   <biblScope unit="volume">2</biblScope>
+   <biblScope unit="page" from="259" to="273" />
+   <date type="published" when="2002" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+ <analytic>
+  <title level="a" type="main">Identification of defenserelated rice genes by suppression subtractive hybridization and differential screening</title>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Xiong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Qi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Yang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Plant–Microbe Interact</title>
+  <imprint>
+   <biblScope unit="volume">14</biblScope>
+   <biblScope unit="page" from="685" to="692" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+ <analytic>
+  <title level="a" type="main">Effect of exogenous polyamines on glycolate oxidase activity and active oxygen species accumulation in wheat seedlings under osmotic stress</title>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">C</forename>
+    <surname>Xu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shan</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">X</forename>
+    <surname>Dong</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">M</forename>
+    <surname>Li</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Isr. J. Plant Sci</title>
+  <imprint>
+   <biblScope unit="volume">49</biblScope>
+   <biblScope unit="page" from="173" to="178" />
+   <date type="published" when="2001" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+ <analytic>
+  <title level="a" type="main">Isolation and analysis of water stress induced genes in maize seedlings by subtractive PCR and cDNA macroarray</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Zheng</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">F</forename>
+    <surname>Zhaol</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">Z</forename>
+    <surname>Tao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">J</forename>
+    <surname>Liu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">J</forename>
+    <surname>Fu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Jin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Gao</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">P</forename>
+    <surname>Zhang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <forename type="middle">F</forename>
+    <surname>Bai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">Y</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Plant Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="807" to="823" />
+   <date type="published" when="2004" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

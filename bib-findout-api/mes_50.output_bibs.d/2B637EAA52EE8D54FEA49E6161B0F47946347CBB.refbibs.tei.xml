@@ -1,0 +1,221 @@
+<TEI xml:id="istex-2B637EAA52EE8D54FEA49E6161B0F47946347CBB">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">New approaches to the diagnosis of thymic epithelial tumors</title>
+  <author>
+   <persName>
+    <forename type="first">Kirchner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">H K</forename>
+    <surname>Muller-Hermelink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Progress in Surgical Pathology</title>
+  <editor>C. M. Fenoglio- Preisser, M. Wolff &amp; F. Rilke</editor>
+  <meeting><address><addrLine>Philadelphia</addrLine></address></meeting>
+  <imprint>
+   <publisher>Field and Wood Inc</publisher>
+   <date type="published" when="1989" />
+   <biblScope unit="page" from="167" to="186" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Pathogenesis of myasthenia gravis: acetylcholine receptor-related antigenic determinants in tumor-free thymuses and thymic epithelial tumors</title>
+  <author>
+   <persName>
+    <forename type="first">Kirchner</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Tzartos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Hoppe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Schalke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>Wekerle &amp; H</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Muller-Hermelink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. J. Pathol</title>
+  <imprint>
+   <biblScope unit="volume">WO</biblScope>
+   <biblScope unit="page" from="268" to="280" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Characterization of a protein with an acetylcholine receptor epitope from myasthenia gravis-associated thymomas</title>
+  <author>
+   <persName>
+    <forename type="first">Marx</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>O &apos;connor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">I</forename>
+    <surname>Geuder</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Hoppe</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Schalke</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Tzartos</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Kalies</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kirchner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <forename type="middle">H K</forename>
+    <surname>Muller-Hermelink</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lab. Invest</title>
+  <imprint>
+   <biblScope unit="volume">62</biblScope>
+   <biblScope unit="page" from="279" to="286" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Neurofilament epitopes in thymoma and antiaxonal autoimmunity in myasthenia gravis</title>
+  <author>
+   <persName>
+    <forename type="first">Marx</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Kirchner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Greiner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">K</forename>
+    <surname>Muller-Hermelink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Schalke &amp; M</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Osborn</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Lancet</title>
+  <imprint>
+   <biblScope unit="volume">339</biblScope>
+   <biblScope unit="page" from="707" to="708" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,757 @@
+<TEI xml:id="istex-9C12CBC2CDB61154C26A020A05245CA8C35E12BC">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Coppens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Angew</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page">32</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Coppens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">D</forename>
+    <surname>Stevens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Adv</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Quantum Chem</title>
+  <imprint/>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Saito</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Inorg. Chem. Concept</title>
+  <imprint>
+   <biblScope unit="volume">4</biblScope>
+   <biblScope unit="page">89</biblScope>
+   <date type="published" when="1979" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Coppens</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Electronic Distribution and the Chemical Bond</title>
+  <meeting><address><addrLine>New York</addrLine></address></meeting>
+  <imprint>
+   <publisher>Plenum Press</publisher>
+   <date type="published" when="1982" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <monogr>
+  <title level="m" type="main">Adv. in lnorg. Chem. and Radiochern</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Toriumi</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Saito</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="27" to="27" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <forename type="middle">K</forename>
+    <surname>Hansen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Coppens</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta. Crystallogr: Sec. A: Cryst. Phys. Differ; Theor: Gen. Crystallogt</title>
+  <imprint>
+   <biblScope unit="page" from="34" to="909" />
+   <date type="published" when="1978" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">L</forename>
+    <surname>Kunze</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">B</forename>
+    <surname>Hall</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Am. Chern. Soc</title>
+  <imprint>
+   <biblScope unit="volume">108</biblScope>
+   <biblScope unit="page">5122</biblScope>
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">H E</forename>
+    <surname>Schwarz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Ruedenberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Menshing</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1988" />
+   <biblScope unit="page">6926</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Jarsen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Fitzgerald</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys</title>
+  <imprint>
+   <biblScope unit="volume">93</biblScope>
+   <biblScope unit="page">2554</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Koopman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Pnysica</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1933" />
+   <biblScope unit="page">104</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">V</forename>
+    <surname>W»</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">C</forename>
+    <surname>Cheng</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta CrystaUogr., Sect. B .Struct. Sci</title>
+  <imprint>
+   <biblScope unit="page" from="046" to="850" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">K</forename>
+    <surname>Yeh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">Y</forename>
+    <surname>Wu</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">T</forename>
+    <surname>Pai</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">R</forename>
+    <surname>Lee</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">J</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Acta Crystallogr., Sect. B: Struct. Sci</title>
+  <imprint>
+   <biblScope unit="page">047298</biblScope>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">J</forename>
+    <surname>Lin</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Phys. Chem</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <biblScope unit="page">3176</biblScope>
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Gleiter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Y</forename>
+    <surname>Hornung</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Hogberg</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Lozac &apos;h</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Leu</title>
+  <imprint>
+   <biblScope unit="volume">11</biblScope>
+   <biblScope unit="page">401</biblScope>
+   <date type="published" when="1971" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">J</forename>
+    <surname>Deuy</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys</title>
+  <imprint>
+   <biblScope unit="volume">92</biblScope>
+   <biblScope unit="page">508</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>St-Amant</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">R</forename>
+    <surname>Salahub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Lett</title>
+  <imprint>
+   <biblScope unit="volume">169</biblScope>
+   <biblScope unit="page">387</biblScope>
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>St-Amant</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Almlof</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">R J</forename>
+    <surname>Tayjor</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="page">4070</biblScope>
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">J</forename>
+    <surname>Vasko</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Wilk</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Nusair</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Can. J. Phys</title>
+  <imprint>
+   <biblScope unit="volume">58</biblScope>
+   <biblScope unit="page">1200</biblScope>
+   <date type="published" when="1980" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <monogr>
+  <title level="m" type="main">Quantum Cnem</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Slater</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Adv</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Asbrink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Fridh</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Lindholm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Lett</title>
+  <imprint>
+   <biblScope unit="volume">52</biblScope>
+   <biblScope unit="page">69</biblScope>
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">P</forename>
+    <surname>Chong</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Chin. Chem. Soc</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page">20</biblScope>
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">L</forename>
+    <surname>Hirshfeld</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">/</forename>
+    <forename type="middle">J</forename>
+    <surname>Isr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chem</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page">226</biblScope>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <monogr>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <forename type="middle">J</forename>
+    <surname>Meyer</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1987" />
+   <biblScope unit="page">81</biblScope>
+  </imprint>
+ </monogr>
+ <note>Struct. .i&apos;Iheochem</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">I</forename>
+    <surname>Meyer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Phys. Lett</title>
+  <imprint>
+   <biblScope unit="volume">97</biblScope>
+   <biblScope unit="page">270</biblScope>
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title/>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Reed</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <surname>Weinhold</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <forename type="middle">A</forename>
+    <surname>Curtiss</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Chern</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Rev</title>
+  <imprint>
+   <biblScope unit="page">88899</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

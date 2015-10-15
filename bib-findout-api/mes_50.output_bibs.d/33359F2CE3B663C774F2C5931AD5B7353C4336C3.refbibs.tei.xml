@@ -1,0 +1,35 @@
+<TEI xml:id="istex-33359F2CE3B663C774F2C5931AD5B7353C4336C3">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <monogr>
+  <title level="m" type="main">—I have seen to-day a full-sized portrait of a lady with the name painted on—Ann Wood, wife of John Boult, 1687 Can any of your readers give any information</title>
+  <author>
+   <persName>
+    <forename type="first">Ann</forename>
+    <forename type="middle">Wood</forename>
+   </persName>
+  </author>
+  <imprint>
+   <pubPlace>Wakefield</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <monogr>
+  <title level="m" type="main">for worms in wood, on which is a painting ?</title>
+  <imprint>
+   <publisher>P. R</publisher>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

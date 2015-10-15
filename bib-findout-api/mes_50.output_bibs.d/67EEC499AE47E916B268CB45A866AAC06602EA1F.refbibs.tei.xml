@@ -1,0 +1,100 @@
+<TEI xml:id="istex-67EEC499AE47E916B268CB45A866AAC06602EA1F">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">Contidedtial unit exclusion (CUE) is just another test (letter)</title>
+  <author>
+   <persName>
+    <forename type="first">Hb</forename>
+    <surname>Soloway</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transfusion</title>
+  <imprint>
+   <biblScope unit="volume">31</biblScope>
+   <biblScope unit="page" from="286" to="7" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Efficacy of varioua methods of confidential unit exclusion in identi- Qing potentially infectious blood donations</title>
+  <author>
+   <persName>
+    <forename type="first">Br</forename>
+    <surname>Loiacono</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Gr</forename>
+    <surname>Cuter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">S</forename>
+    <surname>Carter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Sf</forename>
+    <surname>Lcitman</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Hg</forename>
+    <surname>Klcin</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Transfusion</title>
+  <imprint>
+   <date>198932938234</date>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Screening of selectui male blood donors for p24 antigen of human immunodeficiency virus typc 1. The Transfusion Safety Study Group</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <forename type="middle">W ~ Mp. T ~ I O ~ Pe</forename>
+    <surname>Hncs</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ba</forename>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">N Engl J Med</title>
+  <imprint>
+   <biblScope unit="volume">323</biblScope>
+   <biblScope unit="page" from="130" to="12" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>

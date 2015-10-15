@@ -1,0 +1,1448 @@
+<TEI xml:id="istex-4B236A283FC6F1E7C56D291BD6C6AD10364A39FE">
+ <teiHeader/>
+ <text>
+  <front/>
+  <body/>
+  <back>
+   <listBibl>
+<biblStruct xml:id="b0">
+ <analytic>
+  <title level="a" type="main">LS2053 LS107 ffs36 (clean genetic background) This work NA1000 Wild-type Evinger &amp; Agabian (1977) LS2398 NA1000 ffs36 LS2485 LS2053 carrying a second mutation in ffs introduced using primer B as described in Materials and Methods G. Marczynski C. Plasmids pEW111.A, pEW111.B, pEW111.U Plasmids containing ffs dnaX intergenic region (from base 381 in Figure 1(b) to base 497 (pEW111.A), base 514 (pEW111.B) or base 590 (pEW111.U)) fused to a promoterless lacZ gene in the vector pLACZ290 Winzeler &amp; Shapiro (1996) pRKlac290-Del1 A transcriptional fusion of the dnaK promoter to the lacZ gene in pLACZ290. Avedissian et al. (1995) pRTOÁBss A transcriptional fusion of the orfA/grpE operon promoter to lacZ in pLACZ290 Roberts et al. (1996) pAR31 A transcriptional fusion of the rpoH promoter to the lacZ gene in pLACZ290 Reisenauer et al. (1996) pEW63 A plasmid containing a transcriptional fusion of P dnaX to lacZ Winzeler &amp; Shapiro (1995) pEW43 A plasmid containing a transcriptional fusion of P ffs and P dnaX to lacZ</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">E</forename>
+    <surname>Reference</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bmh71</forename>
+    <surname>Coli</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Bc</forename>
+    <surname>Dh10b Mcra Á ( Mrr-Hsd Rms-Mcr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Brl</forename>
+    <forename type="middle">B</forename>
+    <surname>Gibco</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ls107</forename>
+    <surname>Caulobacter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R</forename>
+    <surname>Na1000 Ábla</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">Ls416</forename>
+    <surname>Alley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">&amp;</forename>
+    <surname>Ls107 Ts Seca Kang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">LS439 LS107 ffs36 Ely et al</title>
+  <imprint>
+   <publisher>Winzeler &amp; Shapiro</publisher>
+   <date type="published" when="1983" />
+   <biblScope unit="page" from="4" to="2" />
+  </imprint>
+ </monogr>
+ <note>pEW47. A plasmid containing a transcriptional fusion of P dnaX to lacZ Winzeler &amp; Shapiro (1995) pEW45 A plasmid containing a transcriptional fusion of P dnaX to lacZ Winzeler &amp; Shapiro (1995) pEW84.A, pEW84.B, pEW84.N, pEW84.U, pEW84.T Fusions of the PdnaX -Pffs region to a promoterless lacZ gene in the vector pLACZ290 Winzeler &amp; Shapiro</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+ <analytic>
+  <title level="a" type="main">Polar localization of a bacterial chemoreceptor</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">R K</forename>
+    <surname>Alley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">R</forename>
+    <surname>Maddock</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genes Dev</title>
+  <imprint>
+   <biblScope unit="volume">6</biblScope>
+   <biblScope unit="page" from="825" to="836" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+ <analytic>
+  <title level="a" type="main">Conserved sequence elements upstream and downstream from the transcription initiation site of the Caulobacter crescentus rrnA gene cluster. (Erratum appears in</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Amemiya</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol. J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">217</biblScope>
+   <biblScope unit="issue">210</biblScope>
+   <biblScope unit="page" from="245" to="254" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+ <analytic>
+  <title level="a" type="main">Regulation of the Caulobacter crescentus dnaKJ operon</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Avedissian</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Lessing</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Gober</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Gomes</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">177</biblScope>
+   <biblScope unit="page" from="3479" to="3484" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+ <analytic>
+  <title level="a" type="main">Model for signal sequence recognition from amino-acid sequence of 54 K subunit of signal recognition particle</title>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Poritz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Strub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Hoben</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Brenner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">340</biblScope>
+   <biblScope unit="page" from="482" to="486" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+ <analytic>
+  <title level="a" type="main">Initiation of translation is impaired in E. coli cells de®cient in 4.5 S RNA</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Bourgaize</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Fournier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">325</biblScope>
+   <biblScope unit="page" from="281" to="284" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+ <analytic>
+  <title level="a" type="main">Loss of 4.5 S RNA induces the heat shock response and lambda prophage in Escherichia coli</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Bourgaize</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">A</forename>
+    <surname>Phillips</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">A</forename>
+    <surname>Vanbogelen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">G</forename>
+    <surname>Jones</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">F</forename>
+    <forename type="middle">C</forename>
+    <surname>Neidhardt</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Fournier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">172</biblScope>
+   <biblScope unit="page" from="1151" to="1154" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+ <analytic>
+  <title level="a" type="main">Regulation of ribosomal RNA promoters with a synthetic lac operator</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Brosius</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Holy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1984" />
+   <biblScope unit="page" from="81" to="6929" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+ <analytic>
+  <title level="a" type="main">The 4.5 S RNA gene of Escherichia coli is essential for cell growth</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Brown</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">J</forename>
+    <surname>Fournier</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">178</biblScope>
+   <biblScope unit="page" from="533" to="550" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+ <analytic>
+  <title level="a" type="main">Expression of an early gene in the ¯agellar regulatory hierarchy is sensitive to an interruption in DNA replication</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Dingwall</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <surname>Zhuang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Quon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">174</biblScope>
+   <biblScope unit="page" from="1760" to="1768" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+ <analytic>
+  <title level="a" type="main">Genetics of Caulobacter crescentus</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ely</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Methods Enzymol</title>
+  <imprint>
+   <biblScope unit="volume">204</biblScope>
+   <biblScope unit="page" from="372" to="384" />
+   <date type="published" when="1991" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+ <analytic>
+  <title level="a" type="main">Genetic mapping of genes required for motility in Caulobacter crescentus</title>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ely</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">H</forename>
+    <surname>Croft</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">J</forename>
+    <surname>Gerardot</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Genetics</title>
+  <imprint>
+   <biblScope unit="volume">108</biblScope>
+   <biblScope unit="page" from="523" to="532" />
+   <date type="published" when="1984" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+ <analytic>
+  <title level="a" type="main">Envelope-associated nucleoid from Caulobacter crescentus stalked and swarmer cells</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Evinger</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">N</forename>
+    <surname>Agabian</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">132</biblScope>
+   <biblScope unit="page" from="294" to="301" />
+   <date type="published" when="1977" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+ <analytic>
+  <title level="a" type="main">A developmentally regulated Caulobacter ¯agellar promoter is activated by 3 H enhancer and IHF binding elements</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Gober</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Mol. Biol. Cell</title>
+  <imprint>
+   <biblScope unit="volume">3</biblScope>
+   <biblScope unit="page" from="913" to="926" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+ <analytic>
+  <title level="a" type="main">Heat shock protein synthesis during development in Caulobacter crescentus</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Gomes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">H</forename>
+    <surname>Juliani</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Maia</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">M</forename>
+    <surname>Silva</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">168</biblScope>
+   <biblScope unit="page" from="923" to="30" />
+   <date type="published" when="1986" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+ <analytic>
+  <title level="a" type="main">Expression of Caulobacter heat shock dnaK is developmentally controlled during growth at normal temperatures</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Gomes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">W</forename>
+    <surname>Gober</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">172</biblScope>
+   <biblScope unit="page" from="3051" to="3059" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+ <analytic>
+  <title level="a" type="main">Concentrations of 4.5 S RNA and Ffh protein in Escherichia coli: the stability of Fff protein is dependent on the concentration of 4.5 S RNA</title>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">G</forename>
+    <surname>Jensen</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Pedersen</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">176</biblScope>
+   <biblScope unit="page" from="7148" to="7154" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+ <analytic>
+  <title level="a" type="main">Cell-cycle arrest of a Caulobacter crescentus secA mutant</title>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <forename type="middle">J</forename>
+    <surname>Kang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">176</biblScope>
+   <biblScope unit="page" from="4958" to="4965" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+ <analytic>
+  <title level="a" type="main">Signal-sequence recognition by an Escherichia coli ribonucleoprotein complex</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Luirink</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>High</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wood</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Giner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Tollervey</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dobberstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">359</biblScope>
+   <biblScope unit="page" from="741" to="743" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+ <analytic>
+  <title level="a" type="main">A consensus promoter sequence for Caulobacter crescentus genes involved in biosynthetic and housekeeping functions</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Malakooti</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">P</forename>
+    <surname>Wang</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Ely</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">177</biblScope>
+   <biblScope unit="page" from="4372" to="4376" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+ <analytic>
+  <title level="a" type="main">Interaction of E. coli Ffh/4.5 S ribonucleoprotein and FtsY mimics that of mammalian signal recognition particle and its receptor (see comments)</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">D</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">367</biblScope>
+   <biblScope unit="page" from="657" to="659" />
+   <date type="published" when="1994" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+ <monogr>
+  <title level="m" type="main">Experiments in Molecular Genetics</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">H</forename>
+    <surname>Miller</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1972" />
+   <publisher>Cold Spring Harbor Laboratory Press</publisher>
+   <pubPlace>Cold Spring Harbor, NY</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+ <analytic>
+  <title level="a" type="main">E. coli mutant pleotropically defective in the export of secreted proteins</title>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <forename type="middle">B</forename>
+    <surname>Oliver</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Beckwith</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">25</biblScope>
+   <biblScope unit="page" from="766" to="772" />
+   <date type="published" when="1981" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+ <analytic>
+  <title level="a" type="main">Mutational analysis of developmental control in Caulobacter crescentus</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Osley</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Newton</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="m">Proc. Natl Acad. Sci. USA</title>
+  <meeting>. Natl Acad. Sci. USA</meeting>
+  <imprint>
+   <date type="published" when="1977" />
+   <biblScope unit="page" from="124" to="128" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+ <analytic>
+  <title level="a" type="main">The E. coli ffh gene is necessary for viability and ef®cient protein export</title>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">J</forename>
+    <surname>Phillips</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <forename type="middle">J</forename>
+    <surname>Silhavy</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">359</biblScope>
+   <biblScope unit="page" from="744" to="746" />
+   <date type="published" when="1992" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+ <analytic>
+  <title level="a" type="main">Biological properties and classi®cation of the Caulobacter group</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">S</forename>
+    <surname>Poindexter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Bacteriol. Rev</title>
+  <imprint>
+   <biblScope unit="volume">28</biblScope>
+   <biblScope unit="page" from="231" to="295" />
+   <date type="published" when="1964" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+ <analytic>
+  <title level="a" type="main">Human SRP RNA and E. coli 4.5 S RNA contain a highly homologous structural domain</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Poritz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Strub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">55</biblScope>
+   <biblScope unit="page" from="4" to="6" />
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+ <analytic>
+  <title level="a" type="main">An E. coli ribonucleoprotein containing 4.5 S RNA resembles mammalian signal recognition particle (see comments)</title>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <forename type="middle">A</forename>
+    <surname>Poritz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">D</forename>
+    <surname>Bernstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Strub</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Zopf</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <surname>Wilhelm</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">P</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Science</title>
+  <imprint>
+   <biblScope unit="volume">250</biblScope>
+   <biblScope unit="page" from="1111" to="1117" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+ <analytic>
+  <title level="a" type="main">The complete general secretory pathway in Gram-negative bacteria</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <forename type="middle">P</forename>
+    <surname>Pugsley</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Microbiol. Rev</title>
+  <imprint>
+   <biblScope unit="volume">57</biblScope>
+   <biblScope unit="page" from="50" to="108" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+ <analytic>
+  <title level="a" type="main">Cell-cycle control by an essential bacterial two-component signal transduction protein</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <forename type="middle">C</forename>
+    <surname>Quon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">G</forename>
+    <forename type="middle">T</forename>
+    <surname>Marczynski</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">84</biblScope>
+   <biblScope unit="page" from="83" to="93" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+ <analytic>
+  <title level="a" type="main">Regulation of a heat shock sigma32 homolog in Caulobacter crescentus</title>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Reisenauer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">D</forename>
+    <surname>Mohr</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">178</biblScope>
+   <date type="published" when="1919" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+ <analytic>
+  <title level="a" type="main">Asymmteric segregation of Caulobacter heat shock proteins upon cell division</title>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Reuter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">194</biblScope>
+   <biblScope unit="page" from="653" to="662" />
+   <date type="published" when="1987" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+ <analytic>
+  <title level="a" type="main">E. coli 4.5 S RNA is part of a ribonucleoprotein particle that has properties related to signal recognition particle</title>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <surname>Ribes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Roemisch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Giner</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dobberstein</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">D</forename>
+    <surname>Tollervey</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Cell</title>
+  <imprint>
+   <biblScope unit="volume">63</biblScope>
+   <biblScope unit="page" from="591" to="600" />
+   <date type="published" when="1990" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+ <analytic>
+  <title level="a" type="main">Identi®cation of a Caulobacter crescentus operon encoding hrcA, involved in negatively regulating heat-inducible transcription, and the chaperone gene grpE</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">C</forename>
+    <surname>Roberts</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <surname>Toochinda</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Avedissian</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <forename type="middle">L</forename>
+    <surname>Baldini</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <forename type="middle">L</forename>
+    <surname>Gomes</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">178</biblScope>
+   <date type="published" when="1829" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+ <analytic>
+  <title level="a" type="main">Homology of 54 K protein of signal-recognition particle, docking protein and two E. coli proteins with putative GTPbinding domains</title>
+  <author>
+   <persName>
+    <forename type="first">K</forename>
+    <surname>Romisch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Webb</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Herz</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">S</forename>
+    <surname>Prehn</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Frank</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">M</forename>
+    <surname>Vingron</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">B</forename>
+    <surname>Dobberstein</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nature</title>
+  <imprint>
+   <biblScope unit="volume">340</biblScope>
+   <biblScope unit="page" from="478" to="482" />
+   <date type="published" when="1989" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+ <monogr>
+  <title level="m" type="main">Molecular Cloning: A Laboratory Manual</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Sambrook</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">F</forename>
+    <surname>Fritsch</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Maniatis</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1989" />
+   <publisher>Cold Spring Harbor Laboratory Press</publisher>
+   <pubPlace>Cold Spring Harbor, NY</pubPlace>
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+ <analytic>
+  <title level="a" type="main">A broad host range mobilization system for in vivo genetic engineering: transposon mutagenesis in Gram negative bacteria</title>
+  <author>
+   <persName>
+    <forename type="first">R</forename>
+    <surname>Simon</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">U</forename>
+    <surname>Prieffer</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">A</forename>
+    <surname>Puhler</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Biotechnology</title>
+  <imprint>
+   <biblScope unit="volume">1</biblScope>
+   <biblScope unit="page" from="784" to="790" />
+   <date type="published" when="1983" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+ <analytic>
+  <title level="a" type="main">Common structural features between eukaryotic 7SL RNAs, eubacterial 4.5 S RNA and scRNA and archaebacterial 7S RNA</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <forename type="middle">C</forename>
+    <surname>Struck</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">H</forename>
+    <forename type="middle">Y</forename>
+    <surname>Toschka</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">T</forename>
+    <surname>Specht</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">V</forename>
+    <forename type="middle">A</forename>
+    <surname>Erdmann</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">Nucl. Acids Res</title>
+  <imprint>
+   <biblScope unit="volume">16</biblScope>
+   <biblScope unit="page">7740</biblScope>
+   <date type="published" when="1988" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+ <analytic>
+  <title level="a" type="main">Accumulation of secretory protein precursors in Escherichia coli induces the heat shock response</title>
+  <author>
+   <persName>
+    <forename type="first">J</forename>
+    <surname>Wild</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">W</forename>
+    <forename type="middle">A</forename>
+    <surname>Walter</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">C</forename>
+    <forename type="middle">A</forename>
+    <surname>Gross</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <surname>Altman</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Bacteriol</title>
+  <imprint>
+   <biblScope unit="volume">175</biblScope>
+   <biblScope unit="page" from="3992" to="3997" />
+   <date type="published" when="1993" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+ <monogr>
+  <title level="m" type="main">Factors controlling DNA replication in the Caulobacter cell-cycle</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Winzeler</surname>
+   </persName>
+  </author>
+  <imprint>
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+ <analytic>
+  <title level="a" type="main">Use of ¯ow cytometry to identify a Caulobacter 4.5 S RNA temperature-sensitive mutant defective in the cell-cycle</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Winzeler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">251</biblScope>
+   <biblScope unit="page" from="346" to="365" />
+   <date type="published" when="1995" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+ <analytic>
+  <title level="a" type="main">A novel promoter motif for Caulobacter cell-cycle controlled DNA replication genes</title>
+  <author>
+   <persName>
+    <forename type="first">E</forename>
+    <forename type="middle">A</forename>
+    <surname>Winzeler</surname>
+   </persName>
+  </author>
+  <author>
+   <persName>
+    <forename type="first">L</forename>
+    <surname>Shapiro</surname>
+   </persName>
+  </author>
+ </analytic>
+ <monogr>
+  <title level="j">J. Mol. Biol</title>
+  <imprint>
+   <biblScope unit="volume">264</biblScope>
+   <biblScope unit="page" from="412" to="425" />
+   <date type="published" when="1996" />
+  </imprint>
+ </monogr>
+</biblStruct>
+
+   </listBibl>
+  </back>
+ </text>
+</TEI>
