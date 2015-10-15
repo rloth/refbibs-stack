@@ -16,6 +16,8 @@ from sys import stderr, argv
 
 # ---------------------------------
 
+TEST = True
+
 
 TEI_TO_LUCENE_MAP = {
 	# attention parfois peut-être series au lieu de host dans la cible ?
@@ -25,19 +27,22 @@ TEI_TO_LUCENE_MAP = {
 	
 	'monogr/imprint/date[@type="published"]/@when' : 'publicationDate', 
 	'monogr/imprint/biblScope[@unit="volume"]'     : 'host.volume', 
+	'monogr/imprint/biblScope[@unit="vol"]'        : 'host.volume', 
 	'monogr/imprint/biblScope[@unit="issue"]'      : "host.issue", 
 	'monogr/imprint/biblScope[@unit="page"]/@to'   : 'host.page.last', 
 	'monogr/imprint/biblScope[@unit="page"]/@from' : 'host.page.first', 
+	'monogr/imprint/biblScope[@unit="pp"]/@to'     : 'host.page.last', 
+	'monogr/imprint/biblScope[@unit="pp"]/@from'   : 'host.page.first', 
 	
 	'analytic/author/persName/surname'                  : 'author.name', 
-	'analytic/author/persName/forename[@type="first"]'  : 'author.name', 
-	'analytic/author/persName/forename[@type="middle"]' : 'author.name', 
+	'analytic/author/persName/forename[@type="first"]'  : '__IGNORE__', 
+	'analytic/author/persName/forename[@type="middle"]' : '__IGNORE__', 
 	
 	'monogr/title[@level="m"]' : 'host.title', 
 	'monogr/title[@level="j"]' : 'host.title',
 	'monogr/author/persName/surname'  : 'host.author.name',  # ou author.name si monogr entière
-	'monogr/author/persName/forename[@type="first"]'  : 'host.author.name', 
-	'monogr/author/persName/forename[@type="middle"]' : 'host.author.name', 
+	'monogr/author/persName/forename[@type="first"]'  : '__IGNORE__', 
+	'monogr/author/persName/forename[@type="middle"]' : '__IGNORE__', 
 	
 	'monogr/meeting'    : 'host.conference.name', 
 	
@@ -183,7 +188,7 @@ def record(records_dict, field_tag, str_value):
 
 def b_subvalues(refbib_subtree):
 	"""
-	Parcours un élément XML biblStruct et renvoie un dictionnaire
+	Parcourt un élément XML biblStruct et renvoie un dictionnaire
 	des chemins élements internes (xpath) => valeurs
 	"""
 	
@@ -193,7 +198,7 @@ def b_subvalues(refbib_subtree):
 
 	
 	
-	# print("=== NB de sous-elts: %i ===" % len(refbib_subtree))
+	# warn("=== NB de sous-elts: %i ===" % len(refbib_subtree))
 	
 	for elt in refbib_subtree:
 		
@@ -235,6 +240,10 @@ def b_subvalues(refbib_subtree):
 	return xml_subtexts_by_field
 
 
+def warn(a_string):
+	"mon warn sur sys.stderr"
+	print(a_string, file=stderr)
+
 def get_top_match_or_None(solving_query):
 	"""
 	ISTEX-API search for refbib resolution
@@ -247,6 +256,7 @@ def get_top_match_or_None(solving_query):
 				'title',
 				'host.title',
 				'host.volume',
+				'host.page.first',
 				'publicationDate',
 				'author.name',
 				'corpusName',
@@ -258,7 +268,6 @@ def get_top_match_or_None(solving_query):
 		return dumps(my_matches[0], indent=2)
 	else:
 		return "PAS DE MATCH"
-	
 
 
 # Rappels:
@@ -296,39 +305,95 @@ def get_top_match_or_None(solving_query):
 # 200 docs, 6588 refbibs en sortie de bib-get
 # bibfiles = ['/home/loth/refbib/a_annoter/2015-10-06_15h30-output_bibs.dir/D9F4D9BD6AB850E676DD80D89D3FD2773585B2A1.refbibs.tei.xml']
 
-my_dir = argv[1]
+try:
+	my_dir = argv[1]
+except:
+	warn("veuillez indiquer un dossier de sorties de grobid en argument")
+	exit(1)
 
-bibfiles = [path.join(my_dir,fi) for fi in listdir(my_dir)]
+try:
+	bibfiles = [path.join(my_dir,fi) for fi in listdir(my_dir)]
+except:
+	warn("le dossier %s n'existe pas" % my_dir)
+	exit(1)
 
-# pour les tests (on fait 10 ou 20 docs différents à chaque fois)
-shuffle(bibfiles)
-ten_test_files = bibfiles[0:20]
+if TEST:
+	# pour les tests (on fait 3 docs différents à chaque fois)
+	shuffle(bibfiles)
+	the_files = bibfiles[0:3]
 
-print("= + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + =")
-print(ten_test_files)
+	warn("= + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + =")
+	warn("TEST_FILES %s" % the_files)
+else:
+	the_files = bibfiles
 
 # lecture pour chaque doc => pour chaque bib
-for bibfile in ten_test_files:
-	print("Query bibs for DOC %s" % bibfile, file=stderr)
-	
+for bibfile in the_files:
 	tei_dom = etree.parse(bibfile) 
 	bib_elts = tei_dom.xpath('//listBibl/biblStruct')
 	
+	nb = len(bib_elts)
+	if not len(bib_elts):
+		warn("-- DOC %s: aucune bib --" % bibfile)
+		continue
+	else:
+		warn("-- DOC %s: query %i bibs --" % (bibfile,nb))
+	
+	
 	for i, refbib in enumerate(bib_elts):
 		
+		# chaque élément du sous-arbre
 		subelts = [xelt for xelt in refbib.iter()]
 		
 		# ------ <verbose>
-		print("---------> BIB %s <--------" % str(i+1))
+		warn("---------> contenus de la BIB GROBIDISÉE %s <--------" % str(i+1))
 		for xelt in subelts:
-			print("  %s: %s" % (tag_n_useful_attrs(xelt),text_to_query_fragment(xelt.text)), file=stderr)
+			text = text_to_query_fragment(xelt.text)
+			if len(text):
+				print("  %s: %s" % (mon_xpath(xelt),text))
 		# ------ </verbose>
+		
+		
+		# ==================================================
+		#          F I L T R E S    E N    A M O N T
+		# ==================================================
+		
+		has_analytic = False
+		has_super_long_title = False
+		
+		
+		# (1)
+		# Test simpliste monographie ou entrée analytique #
+		for filles in refbib:
+			# parcours rapide des branches niveau 1
+			if filles.tag == 'analytic':
+				has_analytic = True
+				break
+		
+		# (2)
+		# Test longueur du titre a (l'erreur la plus courante de grobid bibfields si biblines s'est trompé)
+		my_titre_a_hits = refbib.xpath("/analytic/title[level='a']")
+		if len(my_titre_a_hits):
+			my_titre_a = my_titre_a_hits.pop()
+			nb_chars_titre = len(my_titre_a)
+			# seuil 250 déjà bien large mais parfois titre + nom conférence peut faire autant
+			if nb_chars_titre > 300:
+				has_super_long_title = True
+		
+		
+		if has_super_long_title:
+			warn("WARNING: (skip) Refbib a un titre hors-calibre (%i chars) '%s'" % (nb_chars_titre,my_titre_a))
+			continue
+		
+		if not has_analytic:
+			warn("WARNING: (skip) Refbib = monographie (ne peut exister dans la base)")
+			continue
 		
 		
 		# methode 1: recherche bag-of-words -----------------------------
 		rb_liste_pleins = [t for t in b_text_to_bow(refbib) if len(t)]
 		
-		# print(rb_liste_pleins)
+		# warn(rb_liste_pleins)
 		
 		rb_query_1 = q=" ".join(rb_liste_pleins)            ## QUERY
 		rb_answer_1 = get_top_match_or_None(rb_query_1)     ## ANSWER
@@ -342,7 +407,6 @@ for bibfile in ten_test_files:
 		
 		# construction requête structurée
 		all_whole_query_fragments = []             # m2 et m3
-		all_tokenized_query_fragments = []         # m4
 		longer_tokenized_query_fragments = []      # m5
 		m6_should_tokenized_query_fragments = []      # m6
 		m6_must_tokenized_query_fragments = []        # m6
@@ -351,7 +415,11 @@ for bibfile in ten_test_files:
 				# obtention du champ api correspondant à notre sous-élément XML
 				#             "---------"                     <--/----/----/@...
 				# £TODO mapping encore un peu simpliste
-				champ_api = TEI_TO_LUCENE_MAP.get(field, '_CHAMP_INCONNU_')  # <=== mapping
+				try:
+					champ_api = TEI_TO_LUCENE_MAP[field]         # <=== mapping
+				except KeyError:
+					warn("WARNING: champ '%s' absent de la table TEI_TO_LUCENE_MAP" % field)
+					champ_api = '_CHAMP_INCONNU_'
 				
 				# --- lucene query chunks ------------------------
 				
@@ -363,8 +431,10 @@ for bibfile in ten_test_files:
 					# liste de tous les fragments entiers
 					all_whole_query_fragments.append(query_whole_frag)
 					
-					# pour la méthode 4 tel quel sans guillemets (ES ~> chaque mot à part)
-					all_tokenized_query_fragments.append(value)
+				
+				# on ignore les prénoms
+				elif champ_api == '__IGNORE__':
+					continue
 				
 				# on a un champ structuré <<<<<<<<<<<<<
 				else:
@@ -377,21 +447,39 @@ for bibfile in ten_test_files:
 					# liste de tous les fragments entiers
 					all_whole_query_fragments.append(query_whole_frag)
 					
-					# pour les méthodes 4 et 5 chaque mot à part AVEC son champ quand même
-					for token in value.split(" "):
-						# nouvelle paire champ:token
-						all_tokenized_query_fragments.append(champ_api+':"'+token+'"')
+					# pour la méthode 5 chaque mot > 3, dans une liste groupée entre parenthèse
+					
+					filtered_toks = []
+					for tok in value.split(' '):
+						# champs ayant le droit d'être courts
+						if champ_api in ['host.volume', 'host.issue','host.page.first','host.page.last']:
+							filtered_toks.append(tok)
+						# champs suffisemment longs
+						elif len(tok) > 3:
+							filtered_toks.append(tok)
+					
+					# si jamais il ne reste plus rien
+					if not(len(filtered_toks)):
+						warn("WARNING: filtrage des tokens courts a tout supprimé (valeur d'origine: '%s')" % query_whole_frag)
+					
+					
+					# cas normal : re-jonction
+					else:
+						# cas solo
+						if len(filtered_toks) == 1:
+							query_tokenized_frag = champ_api+':'+filtered_toks[0]
+						# cas avec parenthèses
+						else:
+							query_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
 						
-						# idem en évitant les tout petits calibres
-						if len(token) > 3:
-							longer_tokenized_query_fragments.append(champ_api+':"'+token+'"')
-						
-							# et idem en stockant expressement les champs "MUST" | SHOULD pour la méthode 6
-							if champ_api == 'publicationDate':
-								m6_must_tokenized_query_fragments.append(champ_api+':"'+token+'"')
-							else:
-								m6_should_tokenized_query_fragments.append(champ_api+':"'+token+'"')
-								
+						# liste de tous les fragments filtrés et avec leur champs
+						longer_tokenized_query_fragments.append(query_tokenized_frag)
+					
+					# et idem en stockant expressement 2 listes: les champs "MUST" | SHOULD pour la méthode 6
+					if champ_api == 'publicationDate':
+						m6_must_tokenized_query_fragments.append(query_tokenized_frag)
+					else:
+						m6_should_tokenized_query_fragments.append(query_tokenized_frag)
 		
 		# methode 2: recherche structurée stricte ---------------------------
 		rb_query_2 = " AND ".join(all_whole_query_fragments)   ## QUERY 2
@@ -399,49 +487,51 @@ for bibfile in ten_test_files:
 		# méthode 3 plus souple: pas de AND cette fois-ci -------------------
 		rb_query_3 = " ".join(all_whole_query_fragments)       ## QUERY 3
 		
-		# méthode 4 encore plus souple: pas de AND et pas de guillemets -----
-		rb_query_4 = " ".join(all_tokenized_query_fragments)       ## QUERY 4
-		
-		# méthode 5 comme 4 mais filtrage des tokens les plus courts --------
+		# méthode 5 : pas de AND, pas de guillemets + filtrage des tokens les plus courts
 		# (évite match par les initiales de prénoms -- peu significatives!)
-		rb_query_5 = " ".join(all_tokenized_query_fragments)       ## QUERY 5
+		rb_query_5 = " ".join(longer_tokenized_query_fragments)       ## QUERY 5
 		
 		# méthode 6 comme 5 mais retour d'un petit peu de strict :
 		# (la date redevient obligatoire)
+		rb_query_6 = None
 		# TODO : pourquoi le "+" de lucene ne fonctionne pas ?
 		if len(m6_must_tokenized_query_fragments):
-			rb_query_6 = "("+" AND ".join(m6_must_tokenized_query_fragments)+") AND ("+" ".join(all_tokenized_query_fragments)+")"
-			
+			rb_query_6 = "("+" AND ".join(m6_must_tokenized_query_fragments)+") AND ("+" ".join(m6_should_tokenized_query_fragments)+")"
+		
+		
+		# temporaire, réaffiché après la réponse api
+		warn("Q2: %s" % rb_query_2)
+		warn("Q3: %s" % rb_query_3)
+		warn("Q5: %s" % rb_query_5)
+		if rb_query_6:
+			warn("Q6: %s" % rb_query_6)
 		
 		
 		try:
-			
 			# API requests => json hits => dict -------------------------------
 			rb_answer_2 = get_top_match_or_None(rb_query_2)     ## ANSWER 2
 			rb_answer_3 = get_top_match_or_None(rb_query_3)     ## ANSWER 3
-			rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
 			rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
-			if len(m6_must_tokenized_query_fragments) and len(m6_should_tokenized_query_fragments):
+			if rb_query_6:
 				rb_answer_6 = get_top_match_or_None(rb_query_6)     ## ANSWER 6
 			else:
 				rb_answer_6 = "Pas de date -- nécessaire pour la méthode 6"
 			# -----------------------------------------------------------------
 			
-			# Sortie évaluation humaine
+			# Sortie listing pour évaluation humaine CLI
 			print(
 			  "======================================\n",
 			  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)),
 			  "------\nméthode 1\n requête:%s\n match:%s\n" % (rb_query_1, rb_answer_1),
 			  "---\nméthode 2\n requête:%s\n match:%s\n" % (rb_query_2, rb_answer_2),
 			  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
-			  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
 			  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
 			  "---\nméthode 6\n requête:%s\n match:%s\n" % (rb_query_6, rb_answer_6),
 			  )
-		except:
-			print("skip")
+		except Exception as e:
+			warn("WARNING skip car exception % e" % str(e))
 
 
-print("LISTE DES FICHIERS PDF source :")
-for bibfile in bibfiles:
+warn("liste des fichier PDF SOURCE de l'enrichissement traité :")
+for bibfile in the_files:
 	print (sub('\.refbibs\.tei\.xml','.pdf', bibfile))
