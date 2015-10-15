@@ -519,36 +519,36 @@ write("2A-Rappel et précision pour chaque champ\n\n", "rapport.txt", append=T)
 # la série des colonnes par champs dans t
 bibchamps=data.frame(namez=sub("^F","",grep ("^F", colnames(tbib), value=T)), colz=grep("^F", colnames(t)))
 
-  namez colz
-1   tit   10
-2  date   11
-3     j   12
-4   vol   13
-5   iss   14
-6   fpg   15
-7   lpg   16
-8 psher   17
+#~   namez colz
+#~ 1   tit   10
+#~ 2  date   11
+#~ 3     j   12
+#~ 4   vol   13
+#~ 5   iss   14
+#~ 6   fpg   15
+#~ 7   lpg   16
+#~ 8 psher   17
 
 nchamps = nrow(bibchamps)
 
 
 # tous les résultats possibles
-evaloutcomes = table(as.vector(as.matrix(t[,bibchamps$cols])))
-                   NON_bruit             NON_bruit_captif 
-                         184                          335 
-                    NON_diff                  NON_silence 
-                         227                           67 
-          NON_silence_captif                          OUI 
-                        1513                         1425 
-         OUI_avec:allongé.OK           OUI_avec:norpun.OK 
-                           2                           27 
-OUI_avec:norpun.raccourci.OK           OUI_avec:OCeeRs.OK 
-                           6                            8 
-       OUI_avec:raccourci.OK           OUI_avec:rmhyph.OK 
-                          14                            5 
+evaloutcomes = table(as.vector(as.matrix(t[,bibchamps$colz])))
+#~                    NON_bruit             NON_bruit_captif 
+#~                          184                          335 
+#~                     NON_diff                  NON_silence 
+#~                          227                           67 
+#~           NON_silence_captif                          OUI 
+#~                         1513                         1425 
+#~          OUI_avec:allongé.OK           OUI_avec:norpun.OK 
+#~                            2                           27 
+#~ OUI_avec:norpun.raccourci.OK           OUI_avec:OCeeRs.OK 
+#~                            6                            8 
+#~        OUI_avec:raccourci.OK           OUI_avec:rmhyph.OK 
+#~                           14                            5 
 
 moutcomes = length(evaloutcomes)
-
+print(moutcomes)
 # table pour notre collecte 'résumé par champ'
 Mx = matrix(rep(0, nchamps*moutcomes), ncol=moutcomes)
 Dx = data.frame(Mx)
@@ -620,7 +620,7 @@ rapport(Mchqchamp.detail, header="Résultats bruts par champ")
 # (par ex: le rappel du champ titre *parmi le lot elsevier*),
 # alors il faudra lancer le recoSB toutes les entrées pour tous les 
 # champs selon la table recoSB
-s
+
 Mchqchamp=rbind.fill(apply(F.reco.sil_brt,2, FUN=function (x) {as.data.frame(t(as.matrix(table(x))))}))
 Mchqchamp[is.na(Mchqchamp)] = 0
 rownames(Mchqchamp) = sub("^F","",grep ("^F", colnames(tbib), value=T))

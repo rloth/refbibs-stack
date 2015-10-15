@@ -1,0 +1,16 @@
+{
+  "XMLN": {
+    "ext": ".xml",
+    "api": "metadata/xml",
+    "d": "B-xmlnatifs"
+  },
+  "GTEI": {
+    "ext": ".tei.xml",
+    "d": "C-goldxmltei"
+  },
+  "PDF0": {
+    "ext": ".pdf",
+    "api": "fulltext/pdf",
+    "d": "A-pdfs"
+  }
+}
