@@ -7,6 +7,8 @@ from lxml import etree
 from libconsulte import api
 from re import search, sub, MULTILINE, match
 
+from re import split as resplit
+
 from os import listdir,path
 from json import dumps
 
@@ -198,7 +200,10 @@ class BiblStruct(object):
 		total_kept = 0
 		for key in self.api_strs:
 			for whole_str in self.api_strs[key]:
-				for tok in whole_str.split(' '):
+				# from re import split as resplit
+				for tok in resplit(r'\W', whole_str):
+					# print("TOK",tok)
+					
 					# champs ayant le droit d'être courts
 					if key in ['host.volume', 'host.issue','host.page.first','host.page.last']:
 						self.api_toks = self.record(self.api_toks, key, tok)
@@ -673,14 +678,15 @@ if __name__ == '__main__':
 					all_whole_query_fragments += field_whole_frags
 					
 					# n'oublions pas les autres méthodes quand champ_api == null
-					field_tok_frags = ['"'+tok+'"' for tok in bs_obj.api_toks[champ_api]]
+					if champ_api in bs_obj.api_toks:
+						field_tok_frags = ['"'+tok+'"' for tok in bs_obj.api_toks[champ_api]]
 					
-					# m3 liste des fragments tokenisés
-					longer_tokenized_query_fragments += field_tok_frags
-					
-					# m4 et m5 => forcément should
-					m4_should_tokenized_query_fragments += field_tok_frags
-					m5_should_tokenized_query_fragments += field_tok_frags
+						# m3 liste des fragments tokenisés
+						longer_tokenized_query_fragments += field_tok_frags
+						
+						# m4 et m5 => forcément should
+						m4_should_tokenized_query_fragments += field_tok_frags
+						m5_should_tokenized_query_fragments += field_tok_frags
 				
 				# on a un champ structuré <<<<<<<<<<<<<
 				# cas normal
@@ -779,17 +785,24 @@ if __name__ == '__main__':
 			if len(m5_must_tokenized_query_fragments):
 				rb_query_5 = "("+" AND ".join(m5_must_tokenized_query_fragments)+") AND ("+" ".join(m5_should_tokenized_query_fragments)+")"
 			
+			
 			try:
 				# API requests => json hits => dict -------------------------------
+				print("0",rb_query_0)
 				rb_answer_0 = dumps(get_top_match_or_None(rb_query_1), indent=2)     ## ANSWER
+				print("1",rb_query_1)
 				rb_answer_1 = dumps(get_top_match_or_None(rb_query_1), indent=2)     ## ANSWER
+				print("2",rb_query_2)
 				rb_answer_2 = dumps(get_top_match_or_None(rb_query_2), indent=2)     ## ANSWER 2
+				print("3",rb_query_3)
 				rb_answer_3 = dumps(get_top_match_or_None(rb_query_3), indent=2)     ## ANSWER 3
 				if rb_query_4:
+					print("4",rb_query_4)
 					rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
 				else:
 					rb_answer_5 = "Pas de date ni volume -- nécessaire pour la méthode 4"
 				if rb_query_5:
+					print("5",rb_query_5)
 					rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
 				else:
 					rb_answer_5 = "Pas de date ni volume -- nécessaire pour la méthode 5"
