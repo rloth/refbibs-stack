@@ -523,8 +523,300 @@ def some_docs(a_dir_path, test_mode=TEST):
 	return the_files
 
 
-# Rappels:
 
+# ------------------------------------------
+# >  LES DIFFERENTES METHODES DE MATCHING  <
+# ------------------------------------------
+
+# 5 fonctions globalement semblables
+# mais avec de légère variantes
+#
+# pour comparer leur résultat, elles seront toutes 
+# appelées, grace à la liste query_funcs
+
+
+def to_query_method_0_bow(bib_obj):
+	"""
+	requête baseline: bag of words
+	"""
+	# methode baseline: recherche bag-of-words ----------------
+	rb_liste_pleins = [t for t in bib_obj.to_bow() if len(t)]
+	
+	# warn(rb_liste_pleins)
+	q=" ".join(rb_liste_pleins)
+	
+	return q
+
+
+def to_query_method_1_AND_quoted(bib_obj):
+	"""
+	requête entière stricte : valeurs entières unies par AND
+	"""
+	
+	all_whole_query_fragments = []
+	
+	for champ_api in bib_obj.api_strs:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<
+		if champ_api == '_NULL_':
+			# on garde entre guillemets
+			field_whole_frags = ['"'+value+'"' for value in bib_obj.api_strs[champ_api]]
+			
+			# liste de tous les fragments entiers
+			all_whole_query_fragments += field_whole_frags
+			
+		
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			# on garde le fragment entier
+			#                    ---------     -------
+			field_whole_frags = [champ_api+':"'+value+'"' for value in bib_obj.api_strs[champ_api]]
+			#                    ---------     -------
+			#                     champ      valeur texte entière
+			
+			# liste de tous les fragments entiers
+			all_whole_query_fragments += field_whole_frags
+		
+		# tests après chaque boucle
+		#~ print("m1,2", all_whole_query_fragments)
+	
+	# methode 1: recherche structurée stricte ---------------------------
+	q = " AND ".join(all_whole_query_fragments)   ## QUERY 1
+	return q
+
+
+
+def to_query_method_2_SHOULD_quoted(bib_obj):
+	"""
+	requête entière souple : valeurs entières unies par " "
+	
+	NB: seule la dernière ligne change par rapport à la méthode 1 /!\
+	"""
+	
+	all_whole_query_fragments = []
+	
+	for champ_api in bib_obj.api_strs:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<
+		if champ_api == '_NULL_':
+			# on garde entre guillemets
+			field_whole_frags = ['"'+value+'"' for value in bib_obj.api_strs[champ_api]]
+			
+			# liste de tous les fragments entiers
+			all_whole_query_fragments += field_whole_frags
+			
+		
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			# on garde le fragment entier
+			#                    ---------     -------
+			field_whole_frags = [champ_api+':"'+value+'"' for value in bib_obj.api_strs[champ_api]]
+			#                    ---------     -------
+			#                     champ      valeur texte entière
+			
+			# liste de tous les fragments entiers
+			all_whole_query_fragments += field_whole_frags
+		
+		# tests après chaque boucle
+		#~ print("m1,2", all_whole_query_fragments)
+	
+	# méthode 2 plus souple: pas de AND cette fois-ci -------------------
+	q = " ".join(all_whole_query_fragments)       ## QUERY 2
+	return q
+
+
+
+def to_query_method_3_SHOULD_tokenized(bib_obj):
+	"""
+	requête tokénisée souple : valeurs mot par mot unies par " "
+	
+	NB: introduit la boucle interne de récup des tokens sur bib_obj.api_toks
+	"""
+	
+	longer_tokenized_query_fragments = []
+	
+	for champ_api in bib_obj.api_strs:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<
+		if champ_api == '_NULL_':
+			
+			if champ_api in bib_obj.api_toks:
+				field_tok_frags = ['"'+tok+'"' for tok in bib_obj.api_toks[champ_api]]
+			
+				# m3 liste des fragments tokenisés
+				longer_tokenized_query_fragments += field_tok_frags
+		
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			filtered_toks = bib_obj.api_toks[champ_api]
+			# cas solo
+			if len(filtered_toks) == 1:
+				field_tokenized_frag = champ_api+':'+filtered_toks[0]
+			# cas avec parenthèses
+			else:
+				field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
+			
+			# liste de tous les fragments filtrés et avec leur champs
+			longer_tokenized_query_fragments.append(field_tokenized_frag)
+		
+		# tests après chaque boucle
+		#~ print("m3", longer_tokenized_query_fragments)
+	
+	# méthode 3 : pas de AND, pas de guillemets + filtrage des tokens les plus courts
+	# (évite match par les initiales de prénoms -- peu significatives!)
+	q = " ".join(longer_tokenized_query_fragments)       ## QUERY 3
+	return q
+
+
+def to_query_method_4_MUST_SHOULD_tokenized(bib_obj):
+	"""
+	requête tokénisée souple à 2 niveaux : *
+	   - valeurs mot par mot unies par " "
+	   - dispatchées dans 2 listes MUST et SHOULD
+	
+	NB: même boucle interne que la méthode 3  => field_tokenized_frag
+	    mais on remplit 2 listes
+	"""
+	
+	m4_should_tokenized_query_fragments = []      # m4
+	m4_must_tokenized_query_fragments = []        # m4
+	
+	for champ_api in bib_obj.api_strs:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<
+		if champ_api == '_NULL_':
+			
+			if champ_api in bib_obj.api_toks:
+				field_tok_frags = ['"'+tok+'"' for tok in bib_obj.api_toks[champ_api]]
+				
+				# m4 => forcément should
+				m4_should_tokenized_query_fragments += field_tok_frags
+		
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			filtered_toks = bib_obj.api_toks[champ_api]
+			# cas solo
+			if len(filtered_toks) == 1:
+				field_tokenized_frag = champ_api+':'+filtered_toks[0]
+			# cas avec parenthèses
+			else:
+				field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
+			
+			# et idem en stockant expressement 2 listes: les champs "MUST" | SHOULD pour la méthode 6
+			if champ_api in ['publicationDate', 'host.volume']:
+				m4_must_tokenized_query_fragments.append(field_tokenized_frag)
+			else:
+				m4_should_tokenized_query_fragments.append(field_tokenized_frag)
+		
+		# tests après chaque boucle
+		#~ print("m4 should", m4_should_tokenized_query_fragments)
+		#~ print("m4 must", m4_must_tokenized_query_fragments)
+	
+	# méthode 4 comme 3 mais retour d'un petit peu de strict :
+	# (la date et le volume redeviennent obligatoires)
+	q = None
+	# TODO : pourquoi le "+" de lucene ne fonctionne pas ?
+	if len(m4_must_tokenized_query_fragments):
+		q = "("+" AND ".join(m4_must_tokenized_query_fragments)+") AND ("+" ".join(m4_should_tokenized_query_fragments)+")"
+	return q
+
+
+def to_query_method_5_MUST_SHOULD_tokenized_interpolated(bib_obj):
+	"""
+	requête tokénisée souple à 3 niveaux : *
+	   - valeurs mot par mot unies par " "
+	   - dispatchées dans 2 listes MUST et SHOULD
+	   - le champ host.title (abbréviations fréquentes) reçoit des jokers
+	     et j => journal
+	
+	NB: même boucle interne que la méthode 3  => field_tokenized_frag
+	    mais on remplit 2 listes comme en 4
+	    et on modifie les tokens de host.title
+	"""
+	
+	m5_should_tokenized_query_fragments = []      # m5
+	m5_must_tokenized_query_fragments = []        # m5
+	
+	for champ_api in bib_obj.api_strs:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<
+		if champ_api == '_NULL_':
+			
+			if champ_api in bib_obj.api_toks:
+				field_tok_frags = ['"'+tok+'"' for tok in bib_obj.api_toks[champ_api]]
+				
+				# m5 => forcément should
+				m5_should_tokenized_query_fragments += field_tok_frags
+		
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			filtered_toks = bib_obj.api_toks[champ_api]
+			# cas solo
+			if len(filtered_toks) == 1:
+				field_tokenized_frag = champ_api+':'+filtered_toks[0]
+			# cas avec parenthèses
+			else:
+				field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
+			
+			# et idem pour méthode 7 avec jokers dans le titre de revue
+			if champ_api in ['publicationDate', 'host.volume']:
+				m5_must_tokenized_query_fragments.append(field_tokenized_frag)
+			elif champ_api == 'host.title' and len(filtered_toks) < 8:
+				# ex: "Limnol. Oceanogr J" => "Limnol* Oceanogr* journal"
+				# on repasse sur les filtered_toks pour refaire ce fragment de requête
+				jokered_toks = []
+				for tok in filtered_toks:
+					# 'j' => 'journal'
+					if match(r'j|J|\]\.?', tok):
+						tok = 'journal'
+					# 'limnol.' => 'limnol*'
+					elif tok[-1] == '.':
+						tok = tok[0:-1]+'*'
+					# 'oceanogr' => 'oceanogr*'
+					else:
+						tok = tok+'*'
+					# on reprend le token transformé
+					jokered_toks.append(tok)
+					
+				# les tokens interpolés
+				new_tokenized_frag = champ_api+':('+' '.join(jokered_toks)+')'
+				
+				m5_should_tokenized_query_fragments.append(new_tokenized_frag)
+				
+				# debug
+				# print(field_tokenized_frag)
+			
+			else:
+				m5_should_tokenized_query_fragments.append(field_tokenized_frag)
+			
+		# tests après chaque boucle
+		#~ print("m5 should",m5_should_tokenized_query_fragments)
+		#~ print("m5 must", m5_must_tokenized_query_fragments)
+		
+	# méthode 5 comme 4 mais il y eu l'interpolation sur host.title vue plus haut
+	q = None
+	if len(m5_must_tokenized_query_fragments):
+		q = "("+" AND ".join(m5_must_tokenized_query_fragments)+") AND ("+" ".join(m5_should_tokenized_query_fragments)+")"
+	
+	return q
+
+
+query_funcs = (to_query_method_0_bow, 
+               to_query_method_1_AND_quoted,
+               to_query_method_2_SHOULD_quoted,
+               to_query_method_3_SHOULD_tokenized,
+               to_query_method_4_MUST_SHOULD_tokenized,
+               to_query_method_5_MUST_SHOULD_tokenized_interpolated
+               )
+
+
+# Rappels si on veut créer d'autres fonctions de matching
+# -------
 # (1) MATCHING
 
 # matchs avec \w
@@ -549,6 +841,13 @@ def some_docs(a_dir_path, test_mode=TEST):
 #  - longueur du titre
 #  - caractères interdits dans le nom/prénom
 #  - nombre de nom/prénoms
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
@@ -647,178 +946,44 @@ if __name__ == '__main__':
 			# (utilisables avec api.search(q=..)
 			queries_to_test = []
 			
-			# methode baseline: recherche bag-of-words ----------------
-			rb_liste_pleins = [t for t in bs_obj.to_bow() if len(t)]
-			
-			# warn(rb_liste_pleins)
-			q=" ".join(rb_liste_pleins)            ## QUERY  0
-			
-			rb_query_0 = q
-			
-			# stockage
-			queries_to_test.append(q)
-			
-			# construction requêtes structurées ------------------------
-			all_whole_query_fragments = []             # m1 et m2
-			longer_tokenized_query_fragments = []      # m3
-			m4_should_tokenized_query_fragments = []      # m4
-			m4_must_tokenized_query_fragments = []        # m4
-			
-			m5_should_tokenized_query_fragments = []      # m5
-			m5_must_tokenized_query_fragments = []        # m5
-			
-			for champ_api in bs_obj.api_strs:
-				# warn("CHAMP => REQUETE:", champ_api)
-				# cas non-structuré <<<<<<<<<<<<<<<<<<
-				if champ_api == '_NULL_':
-					# pour les méthodes 2 et 3 on garde entre guillemets
-					field_whole_frags = ['"'+value+'"' for value in bs_obj.api_strs[champ_api]]
-					
-					# liste de tous les fragments entiers
-					all_whole_query_fragments += field_whole_frags
-					
-					# n'oublions pas les autres méthodes quand champ_api == null
-					if champ_api in bs_obj.api_toks:
-						field_tok_frags = ['"'+tok+'"' for tok in bs_obj.api_toks[champ_api]]
-					
-						# m3 liste des fragments tokenisés
-						longer_tokenized_query_fragments += field_tok_frags
-						
-						# m4 et m5 => forcément should
-						m4_should_tokenized_query_fragments += field_tok_frags
-						m5_should_tokenized_query_fragments += field_tok_frags
+			for fun_make_q in query_funcs:
+				# chaque fonction listée 
+				#  - boucle sur les contenus
+				#  - les ajoute dans une requête lucene
+				#
+				# ... mais chacune le fait d'une façon un peu différente !
 				
-				# on a un champ structuré <<<<<<<<<<<<<
-				# cas normal
-				else:
-					# pour les méthodes 2 et 3 on garde le fragment entier
-					#                    ---------     -------
-					field_whole_frags = [champ_api+':"'+value+'"' for value in bs_obj.api_strs[champ_api]]
-					#                    ---------     -------
-					#                     champ      valeur texte entière
-					
-					# liste de tous les fragments entiers
-					all_whole_query_fragments += field_whole_frags
-					
-					# pour la méthode 5 chaque mot > 3, dans une liste groupée entre parenthèse
-					
-					filtered_toks = bs_obj.api_toks[champ_api]
-					# cas solo
-					if len(filtered_toks) == 1:
-						field_tokenized_frag = champ_api+':'+filtered_toks[0]
-					# cas avec parenthèses
-					else:
-						field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
-					
-					# liste de tous les fragments filtrés et avec leur champs
-					longer_tokenized_query_fragments.append(field_tokenized_frag)
-					
-					#~ print("m3", longer_tokenized_query_fragments)
-					
-					# et idem en stockant expressement 2 listes: les champs "MUST" | SHOULD pour la méthode 6
-					if champ_api in ['publicationDate', 'host.volume']:
-						m4_must_tokenized_query_fragments.append(field_tokenized_frag)
-					else:
-						m4_should_tokenized_query_fragments.append(field_tokenized_frag)
-					
-					# et idem pour méthode 7 avec jokers dans le titre de revue
-					if champ_api in ['publicationDate', 'host.volume']:
-						m5_must_tokenized_query_fragments.append(field_tokenized_frag)
-					elif champ_api == 'host.title' and len(filtered_toks) < 8:
-						# ex: "Limnol. Oceanogr J" => "Limnol* Oceanogr* journal"
-						# on repasse sur les filtered_toks pour refaire ce fragment de requête
-						jokered_toks = []
-						for tok in filtered_toks:
-							# 'j' => 'journal'
-							if match(r'j|J|\]\.?', tok):
-								tok = 'journal'
-							# 'limnol.' => 'limnol*'
-							elif tok[-1] == '.':
-								tok = tok[0:-1]+'*'
-							# 'oceanogr' => 'oceanogr*'
-							else:
-								tok = tok+'*'
-							# on reprend le token transformé
-							jokered_toks.append(tok)
-							
-						# les tokens interpolés
-						new_tokenized_frag = champ_api+':('+' '.join(jokered_toks)+')'
-						
-						m5_should_tokenized_query_fragments.append(new_tokenized_frag)
-						
-						# debug
-						# print(field_tokenized_frag)
-					
-					else:
-						m5_should_tokenized_query_fragments.append(field_tokenized_frag)
-						
-				
-				
-				# tests après chaque boucle
-				#~ print("m1,2", all_whole_query_fragments)
-				#~ print("m3", longer_tokenized_query_fragments)
-				#~ print("m4 should", m4_should_tokenized_query_fragments)
-				#~ print("m4 must", m4_must_tokenized_query_fragments)
-				#~ print("m5 should",m5_should_tokenized_query_fragments)
-				#~ print("m5 must", m5_must_tokenized_query_fragments)
+				# appel --------------
+				q = fun_make_q(bs_obj)
 			
-			# methode 1: recherche structurée stricte ---------------------------
-			rb_query_1 = " AND ".join(all_whole_query_fragments)   ## QUERY 1
+				# stockage ------------
+				queries_to_test.append(q)
 			
-			# méthode 2 plus souple: pas de AND cette fois-ci -------------------
-			rb_query_2 = " ".join(all_whole_query_fragments)       ## QUERY 2
+			# debug
+			for i, q in enumerate(queries_to_test):
+				print( "REQ %i=%s" % (i,q))
 			
-			# méthode 3 : pas de AND, pas de guillemets + filtrage des tokens les plus courts
-			# (évite match par les initiales de prénoms -- peu significatives!)
-			rb_query_3 = " ".join(longer_tokenized_query_fragments)       ## QUERY 3
+			# ==================================================
+			#         L A N C E M E N T    R E Q U E T E S
+			# ==================================================
 			
-			# méthode 4 comme 3 mais retour d'un petit peu de strict :
-			# (la date et le volume redeviennent obligatoires)
-			rb_query_4 = None
-			# TODO : pourquoi le "+" de lucene ne fonctionne pas ?
-			if len(m4_must_tokenized_query_fragments):
-				rb_query_4 = "("+" AND ".join(m4_must_tokenized_query_fragments)+") AND ("+" ".join(m4_should_tokenized_query_fragments)+")"
-			
-			# méthode 5 comme 4 mais avec l'interpolation sur host.title vue plus haut
-			rb_query_5 = None
-			
-			if len(m5_must_tokenized_query_fragments):
-				rb_query_5 = "("+" AND ".join(m5_must_tokenized_query_fragments)+") AND ("+" ".join(m5_should_tokenized_query_fragments)+")"
-			
+			print("======================================\n",
+				  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)))
 			
 			try:
-				# API requests => json hits => dict -------------------------------
-				print("0",rb_query_0)
-				rb_answer_0 = dumps(get_top_match_or_None(rb_query_1), indent=2)     ## ANSWER
-				print("1",rb_query_1)
-				rb_answer_1 = dumps(get_top_match_or_None(rb_query_1), indent=2)     ## ANSWER
-				print("2",rb_query_2)
-				rb_answer_2 = dumps(get_top_match_or_None(rb_query_2), indent=2)     ## ANSWER 2
-				print("3",rb_query_3)
-				rb_answer_3 = dumps(get_top_match_or_None(rb_query_3), indent=2)     ## ANSWER 3
-				if rb_query_4:
-					print("4",rb_query_4)
-					rb_answer_4 = get_top_match_or_None(rb_query_4)     ## ANSWER 4
-				else:
-					rb_answer_5 = "Pas de date ni volume -- nécessaire pour la méthode 4"
-				if rb_query_5:
-					print("5",rb_query_5)
-					rb_answer_5 = get_top_match_or_None(rb_query_5)     ## ANSWER 5
-				else:
-					rb_answer_5 = "Pas de date ni volume -- nécessaire pour la méthode 5"
+				# API requests => json hits => str -------------------------------
+				
+				for i, rb_query in enumerate(queries_to_test):
+					if rb_query:
+						mon_hit_json = get_top_match_or_None(rb_query)     ## ANSWER n° i
+						rb_answer = dumps(mon_hit_json, indent = 2)
+					else:
+						rb_answer = "Pas de requête %i (champs nécessaires absents?)" % i
 				# -----------------------------------------------------------------
 				
 				# Sortie listing pour évaluation humaine CLI
-				print(
-				  "======================================\n",
-				  "DOC %s -- BIB %s\n" % (bibfile, str(i+1)),
-				  "------\nméthode 0\n requête:%s\n match:%s\n" % (rb_query_0, rb_answer_0),
-				  "---\nméthode 1\n requête:%s\n match:%s\n" % (rb_query_1, rb_answer_1),
-				  "---\nméthode 2\n requête:%s\n match:%s\n" % (rb_query_2, rb_answer_2),
-				  "---\nméthode 3\n requête:%s\n match:%s\n" % (rb_query_3, rb_answer_3),
-				  "---\nméthode 4\n requête:%s\n match:%s\n" % (rb_query_4, rb_answer_4),
-				  "---\nméthode 5\n requête:%s\n match:%s\n" % (rb_query_5, rb_answer_5),
-				  )
+				
+					print("------\nméthode %i\n requête:%s\n match:%s\n" % (i, rb_query, rb_answer))
 			
 			# TODO trop large => importer URLError ?
 			#      du coup pour l'instant je mets exit()
