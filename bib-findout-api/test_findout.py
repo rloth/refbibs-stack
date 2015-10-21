@@ -108,7 +108,6 @@ class BiblStruct(object):
 		# on garde la trace du doc source
 		self.srcdoc = parent_doc_id
 		self.indoc_id = xml_element.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-		print(self.indoc_id)
 		
 		# les infos diverses : résolution impossible, etc
 		
