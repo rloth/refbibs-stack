@@ -1,7 +1,20 @@
 #! /usr/bin/python3
 """
 Structured bibliographic refs => structured queries => filter => link
+
+Script "test" : prépare une batterie de requêtes de résolution 
+               et montre leurs premiers résultats dans l'API
+
+      Intérêt : trouver la meilleure requête de résolution
 """
+
+__author__    = "Romain Loth"
+__copyright__ = "Copyright 2015 INIST-CNRS (ISTEX project)"
+__license__   = "LGPL"
+__version__   = "0.5"
+__email__     = "romain.loth@inist.fr"
+__status__    = "Integration"
+
 
 from lxml import etree, html
 from libconsulte import api
@@ -19,6 +32,7 @@ from sys import stderr, argv
 
 # ---------------------------------
 
+# encore en mode test => juste 3 docs dans le dossier fourni
 TEST = True
 
 # "json" ou "listing"
@@ -89,10 +103,12 @@ class BiblStruct(object):
 		# (avec auto-fermants réparés pour html5)
 		self.hstr = html.tostring(xml_element).decode()
 		
+		# warn(self.hstr)
+		
 		# on garde la trace du doc source
 		self.srcdoc = parent_doc_id
-		
-		# warn(self.hstr)
+		self.indoc_id = xml_element.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+		print(self.indoc_id)
 		
 		# les infos diverses : résolution impossible, etc
 		
@@ -161,7 +177,7 @@ class BiblStruct(object):
 			 - biblScope[@unit='page']/@to
 		"""
 		# tous sauf les attributs et les textes vides
-		bow_list = [text_remove_s(txt) for txt in self.xelt.itertext() if txt is not None]
+		bow_list = [text_to_query_fragment(txt) for txt in self.xelt.itertext() if txt is not None]
 
 		# les 3 attributs voulus
 		when = self.xelt.xpath('monogr/imprint/date/@when')
@@ -441,7 +457,12 @@ class BiblStruct(object):
 		# même valeurs texte par champ API ---> {self.api_strs}
 		# copie tokenisée    par champ API ---> {self.api_toks}
 		self.prepare_query_frags()
-
+		
+		# debug
+		# warn("API_STRS:%s" % self.api_strs)
+		# warn("API_TOKS:%s" % self.api_strs)
+		
+		
 		#     C O N S T R U C T I O N    R E Q U E T E S
 
 		# on va gérer:
@@ -499,6 +520,7 @@ class BiblStruct(object):
 				if rb_query:
 					
 					warn("run_queries: %i" % i)
+					# warn("Q=%s" % rb_query)
 					
 					save["lucn_query"] = rb_query
 					## ANSWER n° i =====================================
@@ -574,7 +596,7 @@ def tag_n_useful_attrs(xelt, my_useful_attrs=['type','level','unit']):
 #      T E X T    T O O L S
 # ---------------------------------
 
-def text_remove_s(all_text):
+def _text_remove_s(all_text):
 	"""
 	removes trailing spaces and newlines
 	"""
@@ -589,7 +611,7 @@ def text_remove_s(all_text):
 	return flat_alltext
 
 
-def text_basic_wildcard(any_text):
+def _text_basic_wildcard(any_text):
 	"""
 	Replaces '~' by '?' (from OCR convention to lucene query wildcard)
 
@@ -602,11 +624,36 @@ def text_basic_wildcard(any_text):
 	return sub('~', '?', any_text)
 
 
+def _text_api_safe(any_text):
+	"""
+	modif liée au fait que même entre guillemets et
+	échappées en %28 et %29, l'API va parfois voir
+	les parenthèses comme opérateurs
+	
+	pour le ':', idem
+	"""
+	
+	# par ex "bonjour (tennessee" => "bonjour \( tennessee"
+	any_text = sub(r'([():])',r'\\\1', any_text)
+	
+	return any_text
+
+
 def text_to_query_fragment(any_text):
+	"""
+	Nettoyage de chaîne à utiliser sur tout input
+	"""
 	if any_text is None:
 		return ''
 	else:
-		return text_basic_wildcard(text_remove_s(any_text))
+		# série minimale de préalables indispensables
+		any_text = _text_remove_s(any_text)
+		any_text = _text_api_safe(any_text)
+		
+		# heuristique liée à l'OCR
+		any_text = _text_basic_wildcard(any_text)
+		
+		return any_text
 
 
 # -------------------------------------
@@ -645,7 +692,7 @@ def get_top_match_or_None(solving_query):
 		return None
 
 
-def some_docs(a_dir_path, test_mode=TEST):
+def some_docs(a_dir_path, test_mode=False):
 	"""
 	Simple liste de documents depuis fs
 	(si test, on n'en prend que 3)
@@ -949,12 +996,126 @@ def to_query_method_5_MUST_SHOULD_tokenized_interpolated(bib_obj):
 	return q
 
 
+def to_query_method_6_MUST_tokenized(bib_obj):
+	"""
+	requête tokénisée stricte valeurs mot par mot unies par " "
+	   - comme la méthode 3 mais avec des AND
+	     (seule la dernière ligne diffère)
+	"""
+
+	longer_tokenized_query_fragments = []
+
+	for champ_api in bib_obj.api_toks:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<   # todo isoler avant la boucle
+		if champ_api == '_NULL_':
+
+			field_tok_frags = [tok for tok in bib_obj.api_toks['_NULL_']]
+
+			# m3 liste des fragments tokenisés
+			longer_tokenized_query_fragments += field_tok_frags
+
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			filtered_toks = bib_obj.api_toks[champ_api]
+			# cas solo
+			if len(filtered_toks) == 1:
+				field_tokenized_frag = champ_api+':'+filtered_toks[0]
+			# cas avec parenthèses
+			else:
+				field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
+
+			# liste de tous les fragments filtrés et avec leur champs
+			longer_tokenized_query_fragments.append(field_tokenized_frag)
+
+		# tests après chaque boucle
+		#~ print("m6", longer_tokenized_query_fragments)
+
+	# méthode 6 : AND, pas de guillemets + filtrage des tokens les plus courts
+	q = None
+	q = " AND ".join(longer_tokenized_query_fragments)       ## QUERY 3
+	return q
+
+def to_query_method_7_MUST_tokenized_interpolated(bib_obj):
+	"""
+	requête tokénisée stricte valeurs mot par mot unies par " "
+	   - comme la méthode 3 mais avec des AND
+	
+	mais avec interpolation
+	   - le champ host.title (abbréviations fréquentes) reçoit des jokers
+	     et j => journal
+	"""
+
+	longer_tokenized_query_fragments = []
+
+	for champ_api in bib_obj.api_toks:
+		# warn("CHAMP => REQUETE:", champ_api)
+		# cas non-structuré <<<<<<<<<<<<<<<<<<   # todo isoler avant la boucle
+		if champ_api == '_NULL_':
+
+			field_tok_frags = [tok for tok in bib_obj.api_toks['_NULL_']]
+
+			longer_tokenized_query_fragments += field_tok_frags
+
+		# on a un champ structuré <<<<<<<<<<<<<
+		# cas normal
+		else:
+			filtered_toks = bib_obj.api_toks[champ_api]
+			# cas solo
+			if len(filtered_toks) == 1:
+				field_tokenized_frag = champ_api+':'+filtered_toks[0]
+			# cas avec parenthèses
+			else:
+				field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
+
+			# et idem pour méthode 7 avec jokers dans le titre de revue
+			if champ_api == 'host.title' and len(filtered_toks) < 8:
+				# ex: "Limnol. Oceanogr J" => "Limnol* Oceanogr* journal"
+				# on repasse sur les filtered_toks pour refaire ce fragment de requête
+				jokered_toks = []
+				for tok in filtered_toks:
+					# 'j' => 'journal'
+					if match(r'j|J|\]\.?', tok):
+						tok = 'journal'
+					# 'limnol.' => 'limnol*'
+					elif tok[-1] == '.':
+						tok = tok[0:-1]+'*'
+					# 'oceanogr' => 'oceanogr*'
+					else:
+						tok = tok+'*'
+					# on reprend le token transformé
+					jokered_toks.append(tok)
+
+				# les tokens interpolés
+				new_tokenized_frag = champ_api+':('+' '.join(jokered_toks)+')'
+
+				longer_tokenized_query_fragments.append(new_tokenized_frag)
+
+				# debug
+				# print(field_tokenized_frag)
+
+			else:
+				longer_tokenized_query_fragments.append(field_tokenized_frag)
+
+		# tests après chaque boucle
+		#~ print("m5 should",m5_should_tokenized_query_fragments)
+		#~ print("m5 must", m5_must_tokenized_query_fragments)
+
+	q = None
+	# méthode 7 : AND, pas de guillemets + filtrage des tokens les plus courts
+	#             comme la 6 mais il y eu host.title avec jokers
+	q = " AND ".join(longer_tokenized_query_fragments)       ## QUERY 7
+	return q
+
 query_funcs = (to_query_method_0_bow,
                to_query_method_1_AND_quoted,
                to_query_method_2_SHOULD_quoted,
                to_query_method_3_SHOULD_tokenized,
                to_query_method_4_MUST_SHOULD_tokenized,
-               to_query_method_5_MUST_SHOULD_tokenized_interpolated
+               to_query_method_5_MUST_SHOULD_tokenized_interpolated,
+               to_query_method_6_MUST_tokenized,
+               to_query_method_7_MUST_tokenized_interpolated
                )
 
 
@@ -1048,7 +1209,9 @@ if __name__ == '__main__':
 
 	# TODO ici some_docs peut être remplacé par une
 	#      array de Docs() en provenance de Corpus()
-	the_files = some_docs(my_dir)
+	
+	# mode test: juste 3 docs /!\
+	the_files = some_docs(my_dir, test_mode=TEST)
 	
 	NB_docs = len(the_files)
 	
@@ -1065,7 +1228,7 @@ if __name__ == '__main__':
 		bib_elts = teidoc.get_bibs()
 		
 		# £debug juste 10 bibs /!\
-		bib_elts = bib_elts[0:10]
+		# bib_elts = bib_elts[0:10]
 		
 		
 		NB_bibs = len(bib_elts)
@@ -1093,7 +1256,6 @@ if __name__ == '__main__':
 			# chaque func prend l'obj bib et renvoie une q lucene (str)
 			#                     --------   -------------
 			queries_to_test = bs_obj.test_prepare_n_apply_qfuns(fun_list=query_funcs)
-			
 			
 			# debug juste 3 requêtes
 			# queries_to_test = queries_to_test[0:3]
@@ -1125,8 +1287,9 @@ if __name__ == '__main__':
 				bibinfos.append(
 				  {
 				   'parent_doc'  : bs_obj.srcdoc,
+				   'bib_id'      : bs_obj.indoc_id,
 				   'bib_html'    : bs_obj.hstr,
-				   'solved_qs'   : solved_qs,
+				   'solved_qs'   : solved_qs,    # contient chaque q et chaque a
 				   'findout_errs': bs_obj.log
 				   }
 				)
