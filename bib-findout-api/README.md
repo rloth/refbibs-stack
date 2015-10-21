@@ -92,4 +92,19 @@ jq '.[3].solved_qs[0].json_answr' recette.json
   },
   "title": "Carbohydrate sources and sinks in woody plants"
 }
+
+# les warnings et erreurs éventuelles rencontrés
+# (une liste vide est bon signe, un warning n'est pas grave)
+jq '.[].findout_errs' test.json
+  []
+  [
+    "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+  ]
+  []
+  []
+  [
+    "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+  ]
+  []
+  []
 ```

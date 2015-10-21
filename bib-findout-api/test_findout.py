@@ -30,6 +30,8 @@ from random import shuffle
 
 from sys import stderr, argv
 
+from urllib.error import HTTPError
+
 # ---------------------------------
 
 # encore en mode test => juste 3 docs dans le dossier fourni
@@ -531,12 +533,10 @@ class BiblStruct(object):
 
 				solved_qs.append(save)
 			# -----------------------------------------------------------------
-
-		# TODO trop large => importer URLError ?
-		#      du coup pour l'instant je mets exit()
-		except Exception as e:
+		
+		except HTTPError as e:
 			warn("ERROR: skip run_queries car exception: '%s'" % str(e))
-			exit(1)
+			raise
 		
 		return solved_qs
 
@@ -669,21 +669,32 @@ def get_top_match_or_None(solving_query):
 	ISTEX-API search for refbib resolution
 	=> output = one json object or None
 	"""
-	my_matches = api.search(
-			solving_query,
-			limit=1,
-			outfields=['id',
-				'title',
-				'host.title',
-				'host.volume',
-				'host.pages.first',
-				'host.pages.last',
-				'publicationDate',
-				'author.name',
-				'corpusName',
-				'doi'
-				]
-			)
+	try:
+		my_matches = api.search(
+				solving_query,
+				limit=1,
+				outfields=['id',
+					'title',
+					'host.title',
+					'host.volume',
+					'host.pages.first',
+					'host.pages.last',
+					'publicationDate',
+					'author.name',
+					'corpusName',
+					'doi'
+					]
+				)
+	
+	# peut arriver si la requête lucene est incorrecte mais ne devrait pas
+	# si ça arrive => run_queries devrait faire un log dans message
+	#              => un développeur devrait rajouter une règle 
+	#                 dans text_to_query_fragment() ou dans 
+	#                 libconsulte.api.my_url_quoting()
+	except HTTPError:
+		raise
+		
+		
 	if len(my_matches):
 		# json object as dict
 		return my_matches[0]
@@ -1272,7 +1283,12 @@ if __name__ == '__main__':
 			
 			
 			# liste de dict [{lucn_query:"..", json_answr:"..."},...]
-			solved_qs = bs_obj.run_queries(queries_to_test)
+			try:
+				solved_qs = bs_obj.run_queries(queries_to_test)
+			except HTTPError as e:
+				msg = "ERROR: skip run_queries: '%s'" % str(e)
+				warn(msg)
+				bs_obj.log.append(msg)
 
 			
 			if OUT_MODE == "listing":
