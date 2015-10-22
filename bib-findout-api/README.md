@@ -10,92 +10,116 @@ Intérêt : trouver la meilleure requête de résolution
 ### Usage
 
 ```
-python3 test_findout.py mes_50.output_bibs.d/ > recette.json
+python3 test_findout.py mes_50.output_bibs.d/ mes_50.resolution.d/
 ```
 
-### La sortie 
+### En entrée
+
+L'entrée est toujours un dossier contenant des fichiers TEI avec refbibs:
+
+  - soit en provenance du PDF : fichiers sortis d'un balisage bib-get (testé)
+  - soit en provenance des XML natifs : fichiers préparée avec les feuilles MODS2TEI (pas encore testé)
+
+### En sortie 
+
+Pour chaque document en entrée, le script crée dans le dossier de sortie un document `.test_resolution.json`
 
 #### Description du format du json en sortie : 
 
-  - tableau d'infos par bibs
-  - chaque info contient les champs suivants:
+C'est un tableau d'infos par bibs:
+
+  - chaque bib est renseignée par les champs suivants:
     - `parent_doc` : l'identifiant istex du document source
     - `bib_id` : l'identifiant xml:id de la bib
     - `bib_html` : le xml d'origine de la bib, rendu compatible html
     - `findout_errs` : une liste (souvent vide) de warnings si problèmes rencontrés
-    - `solved_qs` : le coeur du résultat avec
-      - un nouveau tableau : n tests de résolution (plusieurs méthodes essayées), soit n x 2 champs
-         - champ `lucn_query` : la requête envoyée
+    - **`solved_qs`** : le coeur du résultat comme sous-tableau avec chaque test de résolution:
+         - champ `lucn_query` : la requête essayée
          - champ `json_answr` : la réponse de l'api (1 hit comme objet json)
   
 
 #### Exemples
 
+Si on veut consulter les infos en ligne de commande, on peut piocher chaque élément facilement avec l'utilitaire `jq`.
+
+
 
 ```
-# ID du doc source de la bib[3]
-jq '.[3].parent_doc' recette.json
-  "1A40CCA0EEB4D02A02F90A138D1F46467D971309"
-
-# le xml d'origine de la bib[3] rendu compatible html
-jq '.[3].bib_html' recette.json 
-  "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n </analytic>\n <monogr>\n  <title level=\"m\">Water Deficits and Plant Growth</title>\n  <editor>T. T. KOZLOWSKI</editor>\n  <meeting><address><addrLine>New York, London</addrLine></address></meeting>\n  <imprint>\n   <publisher>Academic Press</publisher>\n   <date type=\"published\" when=\"1968\"></date>\n   <biblScope unit=\"page\" from=\"85\" to=\"133\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n"
-
-
-# tous les ID des docs source
-jq '.[].parent_doc' recette.json 
-  "1A40CCA0EEB4D02A02F90A138D1F46467D971309"
-  "1A40CCA0EEB4D02A02F90A138D1F46467D971309"
-  "1A40CCA0EEB4D02A02F90A138D1F46467D971309"
-  "1A40CCA0EEB4D02A02F90A138D1F46467D971309"
-
-
 # tous les id des bibs
-jq '.[].bib_id' recette.json 
+jq '.[].bib_id' mondoc.test_resolution.json
   "b0"
   "b1"
   "b2"
   "b3"
+  (...)
 
-# toutes les requêtes testées pour la bib[3]
-jq '.[3].solved_qs[].lucn_query' recette.json
-  "Water Deficits and Plant Growth T. T. KOZLOWSKI New York, London Academic Press 1968 85 133"
-  "\"New York, London\" AND publicationDate:\"1968\" AND host.pages.first:\"85\" AND host.editor:\"Academic Press\" AND host.editor:\"T. T. KOZLOWSKI\" AND host.pages.last:\"133\" AND host.title:\"Water Deficits and Plant Growth\""
-  "\"New York, London\" publicationDate:\"1968\" host.pages.first:\"85\" host.editor:\"Academic Press\" host.editor:\"T. T. KOZLOWSKI\" host.pages.last:\"133\" host.title:\"Water Deficits and Plant Growth\""
-  "York London publicationDate:1968 host.pages.first:85 host.editor:(Academic Press KOZLOWSKI) host.pages.last:133 host.title:(Water Deficits and Plant Growth)"
-  "(publicationDate:1968) AND (York London host.pages.first:85 host.editor:(Academic Press KOZLOWSKI) host.pages.last:133 host.title:(Water Deficits and Plant Growth))"
-  "(publicationDate:1968) AND (York London host.pages.first:85 host.editor:(Academic Press KOZLOWSKI) host.pages.last:133 host.title:(Water* Deficits* and* Plant* Growth*))"
-  "York AND London AND publicationDate:1968 AND host.pages.first:85 AND host.editor:(Academic Press KOZLOWSKI) AND host.pages.last:133 AND host.title:(Water Deficits and Plant Growth)"
-  "York AND London AND publicationDate:1968 AND host.pages.first:85 AND host.editor:(Academic Press KOZLOWSKI) AND host.pages.last:133 AND host.title:(Water* Deficits* and* Plant* Growth*)
-
-
-# le résultat de la requête[0] pour la bib[3]
-jq '.[3].solved_qs[0].json_answr' recette.json 
-{
-  "author": [
-    {
-      "name": "T. T. Kozlowski"
-    }
-  ],
-  "corpusName": "springer",
-  "id": "BB92A134FD1FD10092C7EEA177A6A534626AB294",
-  "doi": [
-    "10.1007/BF02858600"
-  ],
-  "host": {
-    "pages": {
-      "first": "107",
-      "last": "222"
+# le résultat de la requête testée n° [7] pour la bib[29]
+jq -r '.[29].solved_qs[7].json_answr' mondoc.test_resolution.json
+  {
+    "title": "Modeling the effects of ultraviolet radiation on estuarine phytoplankton 
+             production: impact of variations in exposure and sensitivity to inhibition",
+    "publicationDate": "2001",
+    "id": "960D82BA311F26792A83D809A222BFB2EDBE293A",
+    "host": {
+      "volume": "62",
+      "title": "Journal of Photochemistry & Photobiology, B: Biology",
+      "pages": {
+        "last": "8",
+        "first": "1"
+      }
     },
-    "title": "The Botanical Review",
-    "volume": "58"
-  },
-  "title": "Carbohydrate sources and sinks in woody plants"
-}
+    "doi": ["10.1016/S1011-1344(01)00159-2"],
+    "corpusName": "elsevier",
+    "author": [
+      {
+        "name": "Patrick J. Neale"
+      }
+    ]
+  }
 
-# les warnings et erreurs éventuelles rencontrés
-# (une liste vide est bon signe, un warning n'est pas grave)
-jq '.[].findout_errs' test.json
+# ID du doc source de la bib[29]
+jq '.[29].parent_doc' mondoc.test_resolution.json
+  "A5432A10A0FCD61C74A7224A9183DD077CF09BB1"
+
+# le xml d'origine de la bib[29], rendu compatible html
+jq -r '.[29].bib_html' mondoc.test_resolution.json
+  <biblStruct xml:id="b29">
+   <analytic>
+    <author>
+     <persName>
+      <forename type="first">P</forename>
+      <forename type="middle">J</forename>
+      <surname>Neale</surname>
+     </persName>
+    </author>
+   </analytic>
+   <monogr>
+    <title level="j">J. Photochem. Photobiol. B</title>
+    <imprint>
+     <biblScope unit="volume">62</biblScope>
+     <biblScope unit="page" from="1" to="8"></biblScope>
+     <date type="published" when="2001"></date>
+    </imprint>
+   </monogr>
+  </biblStruct>
+
+
+# toutes les requêtes testées pour la bib[29]
+jq -r '.[29].solved_qs[].lucn_query'  mondoc.test_resolution.json
+  P J Neale J. Photochem. Photobiol. B 62 2001 1 8
+  host.volume:"62" AND host.title:"J. Photochem. Photobiol. B" AND 
+    author.name:"Neale" AND host.pages.last:"8" AND 
+    host.pages.first:"1" AND publicationDate:"2001"
+  host.volume:"62" host.title:"J. Photochem. Photobiol. B" author.name:"Neale"
+    host.pages.last:"8" host.pages.first:"1" publicationDate:"2001"
+  (...)
+  host.volume:62 AND publicationDate:2001 AND author.name:Neale AND
+    host.pages.last:8 AND host.pages.first:1 AND host.title:(J Photochem Photobiol)
+  host.volume:62 AND publicationDate:2001 AND author.name:Neale AND
+    host.pages.last:8 AND host.pages.first:1 AND host.title:(journal Photochem* Photobiol*)
+
+# tous les warnings et erreurs éventuelles rencontrés
+jq '.[].findout_errs' mondoc.test_resolution.json
   []
   [
     "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
@@ -108,3 +132,15 @@ jq '.[].findout_errs' test.json
   []
   []
 ```
+
+Pour les warnings et erreurs:
+
+  - une liste vide est bon signe, 
+  - un **warning n'est pas grave**, il signale juste que la refbib ne remplit pas les prérequis pour la résolution et explique pourquoi.
+  - mais une erreur est grave, elle montre que le programme n'a pas su créer une requête valide 
+    - c'est très rare
+    - ça peut être lié à une incompatibilité de type entre la forme extraite et les formes demandés par l'API, par exemple "Suppl1" extrait pour le fascicule alors que l'API demande uniquement des nombres pour ses champs `host.issue`
+    - ou bien à des caractères inhabituels extraits par grobid du pdf et illisibles pour l'API
+        - normalement le programme échappe ces caractères avant de les transmettre (cf. les fonctions `prepare_query_frags` et `libconsulte.api.my_url_quoting`)
+        - mais parfois il peut y avoir un cas imprévu par ces 2 fonctions
+

@@ -23,8 +23,8 @@ from re import search, sub, MULTILINE, match
 from re import sub, search
 from re import split as resplit
 
-from os import listdir,path
-from json import dumps
+from os import listdir, path
+from json import dumps, dump
 
 from random import shuffle
 
@@ -387,7 +387,7 @@ class BiblStruct(object):
 		try:
 			champ_api = TEI_TO_LUCENE_MAP[xpath_selector]
 		except KeyError:
-			warn("WARNING: champ '%s' absent de la table TEI_TO_LUCENE_MAP" % field)
+			warn("WARNING: champ '%s' absent de la table TEI_TO_LUCENE_MAP" % champ_api)
 			champ_api = '_CHAMP_INCONNU_'
 
 		return champ_api
@@ -1184,7 +1184,8 @@ class TeiDoc(object):
 		else:
 			warn("-- DOC %s: %i xbibs lues --" % (self.path,nb))
 			return bib_elts
-	
+
+
 	def get_iid(self):
 		"""
 		NB: fonction spécifique au contexte bib-findout
@@ -1209,27 +1210,27 @@ if __name__ == '__main__':
 
 	# exemple
 	# 200 docs, 6588 refbibs en sortie de bib-get
-	# bibfiles = ['/home/loth/refbib/a_annoter/2015-10-06_15h30-output_bibs.dir/D9F4D9BD6AB850E676DD80D89D3FD2773585B2A1.refbibs.tei.xml']
 	
 	try:
-		my_dir = argv[1]
+		my_dir_in = argv[1]
+		my_dir_out = argv[2]
 	except:
-		warn("veuillez indiquer un dossier de sorties de grobid en argument")
+		warn("veuillez indiquer: \n INPUT un dossier de sorties de grobid en argument1 \n OUTPUT un dossier pour les recettes de test")
 		exit(1)
 
 	# TODO ici some_docs peut être remplacé par une
 	#      array de Docs() en provenance de Corpus()
 	
 	# mode test: juste 3 docs /!\
-	the_files = some_docs(my_dir, test_mode=TEST)
+	the_files = some_docs(my_dir_in, test_mode=TEST)
 	
 	NB_docs = len(the_files)
 	
-	# stockage à la fin si OUT_MODE = json
-	bibinfos = []
-	
 	# lecture pour chaque doc => pour chaque bib
 	for d_i, bibfile in enumerate(the_files):
+		
+		# stockage à la fin si OUT_MODE = json
+		bibinfos = []
 
 		warn("======================================\nDOC #%i:%s" % (d_i+1,bibfile))
 
@@ -1245,12 +1246,12 @@ if __name__ == '__main__':
 		for b_i, refbib in enumerate(bib_elts):
 
 			# ------ <verbose>
-			#~ subelts = [xelt for xelt in refbib.iter()]
-			#~ warn("---------> contenus de la BIB GROBIDISÉE %s <--------" % str(i+1))
-			#~ for xelt in subelts:
-				#~ text = text_to_query_fragment(xelt.text)
-				#~ if len(text):
-					#~ print("  %s: %s" % (mon_xpath(xelt),text))
+			subelts = [xelt for xelt in refbib.iter()]
+			warn("---------> contenus de la BIB GROBIDISÉE %s <--------" % str(b_i+1))
+			for xelt in subelts:
+				text = text_to_query_fragment(xelt.text)
+				if len(text):
+					print("  %s: %s" % (mon_xpath(xelt),text))
 			# ------ </verbose>
 
 			# ==================================================
@@ -1309,11 +1310,17 @@ if __name__ == '__main__':
 				   }
 				)
 	
-	if OUT_MODE == "json":
-		# bibinfos entier en json sur STDOUT
-		print(dumps(bibinfos, indent=2))
+		if OUT_MODE == "json":
+			doc_id = teidoc.get_iid()
+			
+			# bibinfos entier pour ce doc
+			#   - en json
+			#   - dans un fichier OUT_DIR/ID.test_resolution.json
+			
+			out_doc = open(my_dir_out+'/'+doc_id+'.test_resolution.json', 'w')
+			dump(bibinfos, out_doc, indent=2, sort_keys=True)
 
 
-	warn("liste des fichier PDF SOURCE de l'enrichissement traité :")
-	for bibfile in the_files:
-		warn (sub('output_bibs.d','corpusdirs/data/A-pdfs', sub('\.refbibs\.tei\.xml','.pdf', bibfile)))
+	#~ warn("liste des fichier PDF SOURCE de l'enrichissement traité :")
+	#~ for bibfile in the_files:
+		#~ warn (sub('output_bibs.d','corpusdirs/data/A-pdfs', sub('\.refbibs\.tei\.xml','.pdf', bibfile)))
