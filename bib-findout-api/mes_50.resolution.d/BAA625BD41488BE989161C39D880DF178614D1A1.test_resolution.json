@@ -1,0 +1,1750 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Gamier</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Angew. Chem. Adv. Muter. Angew. Chem. Int. Ed. Engl. Adv. Maler. Adv. Mater</title>\n  <imprint>\n   <biblScope unit=\"volume\">101</biblScope>\n   <biblScope unit=\"issue\">28</biblScope>\n   <biblScope unit=\"page\" from=\"513\" to=\"117\"></biblScope>\n   <date type=\"published\" when=\"1989\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mark E. Davis"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature00785"
+          ],
+          "host": {
+            "pages": {
+              "first": "813",
+              "last": "821"
+            },
+            "title": "Nature",
+            "volume": "417"
+          },
+          "id": "A5004A93CDC79D674C765674CBBD1028E57F8963",
+          "publicationDate": "2002",
+          "title": "Ordered porous materials for emerging applications"
+        },
+        "lucn_query": "F Gamier Angew. Chem. Adv. Muter. Angew. Chem. Int. Ed. Engl. Adv. Maler. Adv. Mater 101 28 1989 513 117",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:\"28\" AND host.pages.first:\"513\" AND host.pages.last:\"117\" AND publicationDate:\"1989\" AND host.title:\"Angew. Chem. Adv. Muter. Angew. Chem. Int. Ed. Engl. Adv. Maler. Adv. Mater\" AND host.volume:\"101\" AND author.name:\"Gamier\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Gamier"
+            },
+            {
+              "name": "P. Blanc"
+            },
+            {
+              "name": "D. Benest"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1752-1688.1989.tb05389.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "751",
+              "last": "754"
+            },
+            "title": "JAWRA Journal of the American Water Resources Association",
+            "volume": "25"
+          },
+          "id": "3C27F1195F32DAB8743220A9816DD9C474BB5F2A",
+          "publicationDate": "1989",
+          "title": "ESTIMATING A CARBON/CHLOROPHYLL RATIO IN NANNOPLANKTON (CRETEIL LAKE, S\u2010E PARIS, FRANCE)1"
+        },
+        "lucn_query": "host.issue:\"28\" host.pages.first:\"513\" host.pages.last:\"117\" publicationDate:\"1989\" host.title:\"Angew. Chem. Adv. Muter. Angew. Chem. Int. Ed. Engl. Adv. Maler. Adv. Mater\" host.volume:\"101\" author.name:\"Gamier\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Gamier"
+            },
+            {
+              "name": "P. Blanc"
+            },
+            {
+              "name": "D. Benest"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1752-1688.1989.tb05389.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "751",
+              "last": "754"
+            },
+            "title": "JAWRA Journal of the American Water Resources Association",
+            "volume": "25"
+          },
+          "id": "3C27F1195F32DAB8743220A9816DD9C474BB5F2A",
+          "publicationDate": "1989",
+          "title": "ESTIMATING A CARBON/CHLOROPHYLL RATIO IN NANNOPLANKTON (CRETEIL LAKE, S\u2010E PARIS, FRANCE)1"
+        },
+        "lucn_query": "host.issue:28 host.pages.first:513 author.name:Gamier host.volume:101 publicationDate:1989 host.title:(Angew Chem Adv Muter Angew Chem Int Ed Engl Adv Maler Adv Mater) host.pages.last:117",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Konstantinos P. Giapis"
+            },
+            {
+              "name": "Klavs F. Jensen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-0248(90)90947-J"
+          ],
+          "host": {
+            "pages": {
+              "first": "111",
+              "last": "117"
+            },
+            "title": "Journal of Crystal Growth",
+            "volume": "101"
+          },
+          "id": "B85DDE46AADAEB40A705799468D9F4DE109872B5",
+          "publicationDate": "1989",
+          "title": "Effect of operating conditions and precursors on optoelectronic properties of OMVPE grown ZnSe"
+        },
+        "lucn_query": "(host.volume:101 AND publicationDate:1989) AND (host.issue:28 host.pages.first:513 author.name:Gamier host.title:(Angew Chem Adv Muter Angew Chem Int Ed Engl Adv Maler Adv Mater) host.pages.last:117)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Konstantinos P. Giapis"
+            },
+            {
+              "name": "Klavs F. Jensen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-0248(90)90947-J"
+          ],
+          "host": {
+            "pages": {
+              "first": "111",
+              "last": "117"
+            },
+            "title": "Journal of Crystal Growth",
+            "volume": "101"
+          },
+          "id": "B85DDE46AADAEB40A705799468D9F4DE109872B5",
+          "publicationDate": "1989",
+          "title": "Effect of operating conditions and precursors on optoelectronic properties of OMVPE grown ZnSe"
+        },
+        "lucn_query": "(host.volume:101 AND publicationDate:1989) AND (host.issue:28 host.pages.first:513 author.name:Gamier host.title:(Angew Chem Adv Muter Angew Chem Int Ed Engl Adv Maler Adv Mater) host.pages.last:117)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:28 AND host.pages.first:513 AND author.name:Gamier AND host.volume:101 AND publicationDate:1989 AND host.title:(Angew Chem Adv Muter Angew Chem Int Ed Engl Adv Maler Adv Mater) AND host.pages.last:117",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:28 AND host.pages.first:513 AND author.name:Gamier AND host.volume:101 AND publicationDate:1989 AND host.title:(Angew Chem Adv Muter Angew Chem Int Ed Engl Adv Maler Adv Mater) AND host.pages.last:117",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title level=\"m\" type=\"main\">Handbook of Conducting Pol.ymers</title>\n  <editor>G . Tourillon in T. Skotheim</editor>\n  <imprint>\n   <date type=\"published\" when=\"1986\"></date>\n   <publisher>Marcel Dekker</publisher>\n   <biblScope unit=\"page\">293</biblScope>\n   <pubPlace>New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Cagniant</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Merle</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Cagniant</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Bull. SOC. Chrm. Fr. ACS Symp. Ser</title>\n  <imprint>\n   <biblScope unit=\"volume\">378</biblScope>\n   <biblScope unit=\"page\" from=\"308\" to=\"408\"></biblScope>\n   <date type=\"published\" when=\"1970\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Drs. Heeres"
+            },
+            {
+              "name": "Drs. Meetsma"
+            },
+            {
+              "name": "Prof. Dr. Teuben"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/anie.199004201"
+          ],
+          "host": {
+            "pages": {
+              "first": "420",
+              "last": "422"
+            },
+            "title": "Angewandte Chemie International Edition in English",
+            "volume": "29"
+          },
+          "id": "51032F423DE27ADFCE04E53EB08CDDC2D7B2F40F",
+          "publicationDate": "1990",
+          "title": "CH Activation of Acetonitrile by Alkyl Compounds of the Early Lanthanoids: Dimeric Cyanomethyl\u2010Lanthanoid Complexes with CH2CN Bridges"
+        },
+        "lucn_query": "P Cagniant G Merle D Cagniant Bull. SOC. Chrm. Fr. ACS Symp. Ser 378 1970 308 408",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"308\" AND author.name:\"Cagniant\" AND author.name:\"Merle\" AND author.name:\"Cagniant\" AND publicationDate:\"1970\" AND host.title:\"Bull. SOC. Chrm. Fr. ACS Symp. Ser\" AND host.volume:\"378\" AND host.pages.last:\"408\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Cagniant"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02224060"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "292"
+            },
+            "title": "Insectes Sociaux",
+            "volume": "35"
+          },
+          "id": "BFEDB0A082B9BDAC77BE8D99D698733563A24789",
+          "publicationDate": "1987",
+          "title": "\u00c9tude exp\u00e9rimentale du role des ouvri\u00e8res dans le d\u00e9veloppement des sexu\u00e9s ail\u00e9s chez la fourmi Cataglyphis cursor (Fonsc.) (Hym\u00e9nopt\u00e8res, Formicidae)"
+        },
+        "lucn_query": "host.pages.first:\"308\" author.name:\"Cagniant\" author.name:\"Merle\" author.name:\"Cagniant\" publicationDate:\"1970\" host.title:\"Bull. SOC. Chrm. Fr. ACS Symp. Ser\" host.volume:\"378\" host.pages.last:\"408\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Cagniant"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02224060"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "292"
+            },
+            "title": "Insectes Sociaux",
+            "volume": "35"
+          },
+          "id": "BFEDB0A082B9BDAC77BE8D99D698733563A24789",
+          "publicationDate": "1987",
+          "title": "\u00c9tude exp\u00e9rimentale du role des ouvri\u00e8res dans le d\u00e9veloppement des sexu\u00e9s ail\u00e9s chez la fourmi Cataglyphis cursor (Fonsc.) (Hym\u00e9nopt\u00e8res, Formicidae)"
+        },
+        "lucn_query": "host.pages.first:308 publicationDate:1970 host.volume:378 host.title:(Bull SOC Chrm Fr ACS Symp Ser) host.pages.last:408 author.name:(Cagniant Merle Cagniant)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1970 AND host.volume:378) AND (host.pages.first:308 host.title:(Bull SOC Chrm Fr ACS Symp Ser) host.pages.last:408 author.name:(Cagniant Merle Cagniant))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1970 AND host.volume:378) AND (host.pages.first:308 host.title:(Bull* SOC* Chrm* Fr* ACS* Symp* Ser*) host.pages.last:408 author.name:(Cagniant Merle Cagniant))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:308 AND publicationDate:1970 AND host.volume:378 AND host.title:(Bull SOC Chrm Fr ACS Symp Ser) AND host.pages.last:408 AND author.name:(Cagniant Merle Cagniant)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:308 AND publicationDate:1970 AND host.volume:378 AND host.title:(Bull* SOC* Chrm* Fr* ACS* Symp* Ser*) AND host.pages.last:408 AND author.name:(Cagniant Merle Cagniant)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Electronic Properties ofconjugated Polymers, (Springer Ser. Solid Stale Sci. 76, (1987) 366); b) Y Ikenoue</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Audebert</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Bidan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Lapkowski</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Synth. Met</title>\n  <editor>M. Kuzmany, M. Mehring, S. Roth N. Uotani, A. 0. Patil, F. Wudl, A. J. Heeger</editor>\n  <imprint>\n   <biblScope unit=\"volume\">30</biblScope>\n   <biblScope unit=\"page\">305</biblScope>\n   <date type=\"published\" when=\"1989\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J\u00fcrgen Heinze"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BFb0034363"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "47"
+            },
+            "title": "Electrochemistry IV",
+            "volume": "152"
+          },
+          "id": "21C1266152D133C220D53BCC5CF92388718533F6",
+          "title": "Electronically conducting polymers"
+        },
+        "lucn_query": "Electronic Properties ofconjugated Polymers, \\(Springer Ser. Solid Stale Sci. 76, \\(1987\\) 366\\); b\\) Y Ikenoue P Audebert G Bidan M Lapkowski Synth. Met M. Kuzmany, M. Mehring, S. Roth N. Uotani, A. 0. Patil, F. Wudl, A. J. Heeger 30 305 1989",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"M. Kuzmany, M. Mehring, S. Roth N. Uotani, A. 0. Patil, F. Wudl, A. J. Heeger\" AND title:\"Electronic Properties ofconjugated Polymers, \\(Springer Ser. Solid Stale Sci. 76, \\(1987\\) 366\\); b\\) Y Ikenoue\" AND host.pages.first:\"305\" AND host.volume:\"30\" AND publicationDate:\"1989\" AND host.title:\"Synth. Met\" AND author.name:\"Audebert\" AND author.name:\"Bidan\" AND author.name:\"Lapkowski\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. Audebert"
+            },
+            {
+              "name": "G. Bidan"
+            },
+            {
+              "name": "M. Lapkowski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-0728(87)85038-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "165",
+              "last": "181"
+            },
+            "title": "Journal of Electroanalytical Chemistry",
+            "volume": "219"
+          },
+          "id": "8792D73BBB6517130D36647B6D5485356E3A68D7",
+          "publicationDate": "1987",
+          "title": "Behaviour of some poly(pyrrole-anthraquinone) films in DMSO electrolytes"
+        },
+        "lucn_query": "host.editor:\"M. Kuzmany, M. Mehring, S. Roth N. Uotani, A. 0. Patil, F. Wudl, A. J. Heeger\" title:\"Electronic Properties ofconjugated Polymers, \\(Springer Ser. Solid Stale Sci. 76, \\(1987\\) 366\\); b\\) Y Ikenoue\" host.pages.first:\"305\" host.volume:\"30\" publicationDate:\"1989\" host.title:\"Synth. Met\" author.name:\"Audebert\" author.name:\"Bidan\" author.name:\"Lapkowski\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Lapkowski"
+            },
+            {
+              "name": "G. Bidan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-0728(93)80027-F"
+          ],
+          "host": {
+            "pages": {
+              "first": "249",
+              "last": "256"
+            },
+            "title": "Journal of Electroanalytical Chemistry",
+            "volume": "362"
+          },
+          "id": "CF7DC33FBC1FB480E464F38668DC1A622257033E",
+          "publicationDate": "1993",
+          "title": "Electrochemical, spectroelectrochemical and EPR properties of poly(pyrrole-viologens)"
+        },
+        "lucn_query": "host.editor:(Kuzmany Mehring Roth Uotani Patil Wudl Heeger) title:(Electronic Properties ofconjugated Polymers Springer Solid Stale 1987 Ikenoue) host.pages.first:305 host.volume:30 publicationDate:1989 host.title:(Synth Met) author.name:(Audebert Bidan Lapkowski)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.B. Perrau"
+            },
+            {
+              "name": "I. Iliopoulos"
+            },
+            {
+              "name": "R. Audebert"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-3861(89)90302-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2112",
+              "last": "2117"
+            },
+            "title": "Polymer",
+            "volume": "30"
+          },
+          "id": "13E40BF34B61FAA2B0BF1C0E40435720FD077AD4",
+          "publicationDate": "1989",
+          "title": "Phase separation of polyelectrolyte/nonionic polymer systems in aqueous solution: effects of salt and charge density"
+        },
+        "lucn_query": "(host.volume:30 AND publicationDate:1989) AND (host.editor:(Kuzmany Mehring Roth Uotani Patil Wudl Heeger) title:(Electronic Properties ofconjugated Polymers Springer Solid Stale 1987 Ikenoue) host.pages.first:305 host.title:(Synth Met) author.name:(Audebert Bidan Lapkowski))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.B. Perrau"
+            },
+            {
+              "name": "I. Iliopoulos"
+            },
+            {
+              "name": "R. Audebert"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-3861(89)90302-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2112",
+              "last": "2117"
+            },
+            "title": "Polymer",
+            "volume": "30"
+          },
+          "id": "13E40BF34B61FAA2B0BF1C0E40435720FD077AD4",
+          "publicationDate": "1989",
+          "title": "Phase separation of polyelectrolyte/nonionic polymer systems in aqueous solution: effects of salt and charge density"
+        },
+        "lucn_query": "(host.volume:30 AND publicationDate:1989) AND (host.editor:(Kuzmany Mehring Roth Uotani Patil Wudl Heeger) title:(Electronic Properties ofconjugated Polymers Springer Solid Stale 1987 Ikenoue) host.pages.first:305 host.title:(Synth* Met*) author.name:(Audebert Bidan Lapkowski))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Kuzmany Mehring Roth Uotani Patil Wudl Heeger) AND title:(Electronic Properties ofconjugated Polymers Springer Solid Stale 1987 Ikenoue) AND host.pages.first:305 AND host.volume:30 AND publicationDate:1989 AND host.title:(Synth Met) AND author.name:(Audebert Bidan Lapkowski)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Kuzmany Mehring Roth Uotani Patil Wudl Heeger) AND title:(Electronic Properties ofconjugated Polymers Springer Solid Stale 1987 Ikenoue) AND host.pages.first:305 AND host.volume:30 AND publicationDate:1989 AND host.title:(Synth* Met*) AND author.name:(Audebert Bidan Lapkowski)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Bduerle</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">U</forename>\n    <surname>Gaudl</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Adv. Muter</title>\n  <imprint>\n   <biblScope unit=\"volume\">2</biblScope>\n   <biblScope unit=\"page\">185</biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Stefan Scheib"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19930051113"
+          ],
+          "host": {
+            "pages": {
+              "first": "848",
+              "last": "853"
+            },
+            "title": "Advanced Materials",
+            "volume": "5"
+          },
+          "id": "D7A846E94688C6BA4EACEED33080295299F29870",
+          "publicationDate": "1993",
+          "title": "Molecular recognition of alkali\u2010ions by crown\u2010ether\u2010functionalized poly(alkylthiophenes)"
+        },
+        "lucn_query": "P Bduerle K U Gaudl Adv. Muter 2 185 1990",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Adv. Muter\" AND host.pages.first:\"185\" AND host.volume:\"2\" AND publicationDate:\"1990\" AND author.name:\"Bduerle\" AND author.name:\"Gaudl\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Kai\u2010Uwe Gaudl"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19900020407"
+          ],
+          "host": {
+            "pages": {
+              "first": "185",
+              "last": "188"
+            },
+            "title": "Advanced Materials",
+            "volume": "2"
+          },
+          "id": "11FA9895A9C3138F9FE6CA4D37CBFB3CB07EFA46",
+          "publicationDate": "1990",
+          "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
+        },
+        "lucn_query": "host.title:\"Adv. Muter\" host.pages.first:\"185\" host.volume:\"2\" publicationDate:\"1990\" author.name:\"Bduerle\" author.name:\"Gaudl\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Kai\u2010Uwe Gaudl"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19900020407"
+          ],
+          "host": {
+            "pages": {
+              "first": "185",
+              "last": "188"
+            },
+            "title": "Advanced Materials",
+            "volume": "2"
+          },
+          "id": "11FA9895A9C3138F9FE6CA4D37CBFB3CB07EFA46",
+          "publicationDate": "1990",
+          "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
+        },
+        "lucn_query": "host.title:(Adv Muter) host.pages.first:185 author.name:(Bduerle Gaudl) publicationDate:1990 host.volume:2",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Kai\u2010Uwe Gaudl"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19900020407"
+          ],
+          "host": {
+            "pages": {
+              "first": "185",
+              "last": "188"
+            },
+            "title": "Advanced Materials",
+            "volume": "2"
+          },
+          "id": "11FA9895A9C3138F9FE6CA4D37CBFB3CB07EFA46",
+          "publicationDate": "1990",
+          "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
+        },
+        "lucn_query": "(publicationDate:1990 AND host.volume:2) AND (host.title:(Adv Muter) host.pages.first:185 author.name:(Bduerle Gaudl))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Kai\u2010Uwe Gaudl"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19900020407"
+          ],
+          "host": {
+            "pages": {
+              "first": "185",
+              "last": "188"
+            },
+            "title": "Advanced Materials",
+            "volume": "2"
+          },
+          "id": "11FA9895A9C3138F9FE6CA4D37CBFB3CB07EFA46",
+          "publicationDate": "1990",
+          "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
+        },
+        "lucn_query": "(publicationDate:1990 AND host.volume:2) AND (host.title:(Adv* Muter*) host.pages.first:185 author.name:(Bduerle Gaudl))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Adv Muter) AND host.pages.first:185 AND author.name:(Bduerle Gaudl) AND publicationDate:1990 AND host.volume:2",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. B\u00e4uerle"
+            },
+            {
+              "name": "Kai\u2010Uwe Gaudl"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/adma.19900020407"
+          ],
+          "host": {
+            "pages": {
+              "first": "185",
+              "last": "188"
+            },
+            "title": "Advanced Materials",
+            "volume": "2"
+          },
+          "id": "11FA9895A9C3138F9FE6CA4D37CBFB3CB07EFA46",
+          "publicationDate": "1990",
+          "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
+        },
+        "lucn_query": "host.title:(Adv* Muter*) AND host.pages.first:185 AND author.name:(Bduerle Gaudl) AND publicationDate:1990 AND host.volume:2",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Gronowitz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Frejd</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Karlsson</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Lawitz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Pedaja</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Petterson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Baarschers, Can. J. Chem. Chem. Scr</title>\n  <editor>c) J. A. Elvtdge, S. P. Jones, T. L. Peppard, J. Chem. Sot</editor>\n  <imprint>\n   <biblScope unit=\"volume\">54</biblScope>\n   <biblScope unit=\"issue\">18</biblScope>\n   <biblScope unit=\"page\" from=\"3056\" to=\"192\"></biblScope>\n   <date type=\"published\" when=\"1976\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Salo Gronowitz"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01172861"
+          ],
+          "host": {
+            "pages": {
+              "first": "1252",
+              "last": "1283"
+            },
+            "title": "Chemistry of Heterocyclic Compounds",
+            "volume": "30"
+          },
+          "id": "FAE4D39DFD1FCD65780B133651FCFC22B21B60CB",
+          "title": "The versatile chemistry of thiophene. Some contributions by the Gronowitz' group"
+        },
+        "lucn_query": "T S Gronowitz Frejd K Karlsson P Lawitz K Pedaja Petterson Baarschers, Can. J. Chem. Chem. Scr c\\) J. A. Elvtdge, S. P. Jones, T. L. Peppard, J. Chem. Sot 54 18 1976 3056 192",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"c\\) J. A. Elvtdge, S. P. Jones, T. L. Peppard, J. Chem. Sot\" AND host.issue:\"18\" AND host.pages.first:\"3056\" AND host.pages.last:\"192\" AND publicationDate:\"1976\" AND host.title:\"Baarschers, Can. J. Chem. Chem. Scr\" AND host.volume:\"54\" AND author.name:\"Gronowitz\" AND author.name:\"Frejd\" AND author.name:\"Karlsson\" AND author.name:\"Lawitz\" AND author.name:\"Pedaja\" AND author.name:\"Petterson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Gronowitz"
+            },
+            {
+              "name": "T. Frejd"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00472143"
+          ],
+          "host": {
+            "pages": {
+              "first": "353",
+              "last": "367"
+            },
+            "title": "Chemistry of Heterocyclic Compounds",
+            "volume": "14"
+          },
+          "id": "E4AB6E6E0E8FC2EA04C80D263014F61FE0DE4112",
+          "publicationDate": "1977",
+          "title": "Opening of the ring of five-membered aromatic heterocycles under the influence of bases (review)"
+        },
+        "lucn_query": "host.editor:\"c\\) J. A. Elvtdge, S. P. Jones, T. L. Peppard, J. Chem. Sot\" host.issue:\"18\" host.pages.first:\"3056\" host.pages.last:\"192\" publicationDate:\"1976\" host.title:\"Baarschers, Can. J. Chem. Chem. Scr\" host.volume:\"54\" author.name:\"Gronowitz\" author.name:\"Frejd\" author.name:\"Karlsson\" author.name:\"Lawitz\" author.name:\"Pedaja\" author.name:\"Petterson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Frejd"
+            },
+            {
+              "name": "O. Karlsson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0040-4020(79)87033-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "2155",
+              "last": "2159"
+            },
+            "title": "Tetrahedron",
+            "volume": "35"
+          },
+          "id": "50EC643484AB08E4CA165D4529D6A3E8D9E3C6D2",
+          "publicationDate": "1979",
+          "title": "Cyclisations with methacrylic acid in PPA. On the synthesis of cyclopenta[b]thiophenones"
+        },
+        "lucn_query": "host.editor:(Elvtdge Jones Peppard Chem) host.issue:18 host.pages.first:3056 author.name:(Gronowitz Frejd Karlsson Lawitz Pedaja Petterson) host.volume:54 publicationDate:1976 host.title:(Baarschers Can J Chem Chem Scr) host.pages.last:192",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gun B. Bengtsson"
+            },
+            {
+              "name": "B\u00f6rje W. Karlsson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0305-0491(76)90129-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "501",
+              "last": "507"
+            },
+            "title": "Comparative Biochemistry and Physiology -- Part B: Biochemistry and Molecular Biology",
+            "volume": "54"
+          },
+          "id": "0F1E70E4B84F1E1C68698B23BC06520CD2F3ABD1",
+          "publicationDate": "1976",
+          "title": "Lactate and malate dehydrogenase activities during the ontogeny of the mongolian gerbil, rat, mouse, and rabbit"
+        },
+        "lucn_query": "(host.volume:54 AND publicationDate:1976) AND (host.editor:(Elvtdge Jones Peppard Chem) host.issue:18 host.pages.first:3056 author.name:(Gronowitz Frejd Karlsson Lawitz Pedaja Petterson) host.title:(Baarschers Can J Chem Chem Scr) host.pages.last:192)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gun B. Bengtsson"
+            },
+            {
+              "name": "B\u00f6rje W. Karlsson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0305-0491(76)90129-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "501",
+              "last": "507"
+            },
+            "title": "Comparative Biochemistry and Physiology -- Part B: Biochemistry and Molecular Biology",
+            "volume": "54"
+          },
+          "id": "0F1E70E4B84F1E1C68698B23BC06520CD2F3ABD1",
+          "publicationDate": "1976",
+          "title": "Lactate and malate dehydrogenase activities during the ontogeny of the mongolian gerbil, rat, mouse, and rabbit"
+        },
+        "lucn_query": "(host.volume:54 AND publicationDate:1976) AND (host.editor:(Elvtdge Jones Peppard Chem) host.issue:18 host.pages.first:3056 author.name:(Gronowitz Frejd Karlsson Lawitz Pedaja Petterson) host.title:(Baarschers* Can* journal Chem* Chem* Scr*) host.pages.last:192)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Elvtdge Jones Peppard Chem) AND host.issue:18 AND host.pages.first:3056 AND author.name:(Gronowitz Frejd Karlsson Lawitz Pedaja Petterson) AND host.volume:54 AND publicationDate:1976 AND host.title:(Baarschers Can J Chem Chem Scr) AND host.pages.last:192",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Elvtdge Jones Peppard Chem) AND host.issue:18 AND host.pages.first:3056 AND author.name:(Gronowitz Frejd Karlsson Lawitz Pedaja Petterson) AND host.volume:54 AND publicationDate:1976 AND host.title:(Baarschers* Can* journal Chem* Chem* Scr*) AND host.pages.last:192",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Tamao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <surname>Kodama</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Nakajimd</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Kumada</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Minato</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Suzuki</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Van Pham</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Mark</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Jr</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Zimmer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Tetrahedron Synlh. Commun</title>\n  <imprint>\n   <biblScope unit=\"volume\">28</biblScope>\n   <biblScope unit=\"page\" from=\"3347\" to=\"16\"></biblScope>\n   <date type=\"published\" when=\"1982\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Drs. Heeres"
+            },
+            {
+              "name": "Drs. Meetsma"
+            },
+            {
+              "name": "Prof. Dr. Teuben"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/anie.199004201"
+          ],
+          "host": {
+            "pages": {
+              "first": "420",
+              "last": "422"
+            },
+            "title": "Angewandte Chemie International Edition in English",
+            "volume": "29"
+          },
+          "id": "51032F423DE27ADFCE04E53EB08CDDC2D7B2F40F",
+          "publicationDate": "1990",
+          "title": "CH Activation of Acetonitrile by Alkyl Compounds of the Early Lanthanoids: Dimeric Cyanomethyl\u2010Lanthanoid Complexes with CH2CN Bridges"
+        },
+        "lucn_query": "K S Tamao I Kodama M Nakajimd A Kumada K Minato C Suzuki H B Van Pham Mark H Jr Zimmer Tetrahedron Synlh. Commun 28 1982 3347 16",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"3347\" AND author.name:\"Tamao\" AND author.name:\"Kodama\" AND author.name:\"Nakajimd\" AND author.name:\"Kumada\" AND author.name:\"Minato\" AND author.name:\"Suzuki\" AND author.name:\"Van Pham\" AND author.name:\"Mark\" AND author.name:\"Jr\" AND author.name:\"Zimmer\" AND publicationDate:\"1982\" AND host.title:\"Tetrahedron Synlh. Commun\" AND host.volume:\"28\" AND host.pages.last:\"16\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Tamao"
+            },
+            {
+              "name": "S. Kodama"
+            },
+            {
+              "name": "I. Nakajima"
+            },
+            {
+              "name": "M. Kumada"
+            },
+            {
+              "name": "A. Minato"
+            },
+            {
+              "name": "K. Suzuki"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0040-4020(82)80117-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "3347",
+              "last": "3354"
+            },
+            "title": "Tetrahedron",
+            "volume": "38"
+          },
+          "id": "6252DD57E3A2C769DE356074D89328BD08468E87",
+          "publicationDate": "1982",
+          "title": "Nickel-phosphine complex-catalyzed Grignard coupling\u2014II"
+        },
+        "lucn_query": "host.pages.first:\"3347\" author.name:\"Tamao\" author.name:\"Kodama\" author.name:\"Nakajimd\" author.name:\"Kumada\" author.name:\"Minato\" author.name:\"Suzuki\" author.name:\"Van Pham\" author.name:\"Mark\" author.name:\"Jr\" author.name:\"Zimmer\" publicationDate:\"1982\" host.title:\"Tetrahedron Synlh. Commun\" host.volume:\"28\" host.pages.last:\"16\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Tamao"
+            },
+            {
+              "name": "S. Kodama"
+            },
+            {
+              "name": "I. Nakajima"
+            },
+            {
+              "name": "M. Kumada"
+            },
+            {
+              "name": "A. Minato"
+            },
+            {
+              "name": "K. Suzuki"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0040-4020(82)80117-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "3347",
+              "last": "3354"
+            },
+            "title": "Tetrahedron",
+            "volume": "38"
+          },
+          "id": "6252DD57E3A2C769DE356074D89328BD08468E87",
+          "publicationDate": "1982",
+          "title": "Nickel-phosphine complex-catalyzed Grignard coupling\u2014II"
+        },
+        "lucn_query": "host.pages.first:3347 publicationDate:1982 host.volume:28 host.title:(Tetrahedron Synlh Commun) host.pages.last:16 author.name:(Tamao Kodama Nakajimd Kumada Minato Suzuki Van Pham Mark Jr Zimmer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Edward F. Denison"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1475-4991.1982.tb00602.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "16"
+            },
+            "title": "Review of Income and Wealth",
+            "volume": "28"
+          },
+          "id": "BD24235674AE7136E5846EDD3FE0A710430D73ED",
+          "publicationDate": "1982",
+          "title": "IS U.S. GROWTH UNDERSTATED BECAUSE OF THE UNDERGROUND ECONOMY? EMPLOYMENT RATIOS SUGGEST NOT"
+        },
+        "lucn_query": "(publicationDate:1982 AND host.volume:28) AND (host.pages.first:3347 host.title:(Tetrahedron Synlh Commun) host.pages.last:16 author.name:(Tamao Kodama Nakajimd Kumada Minato Suzuki Van Pham Mark Jr Zimmer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Edward F. Denison"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1475-4991.1982.tb00602.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "16"
+            },
+            "title": "Review of Income and Wealth",
+            "volume": "28"
+          },
+          "id": "BD24235674AE7136E5846EDD3FE0A710430D73ED",
+          "publicationDate": "1982",
+          "title": "IS U.S. GROWTH UNDERSTATED BECAUSE OF THE UNDERGROUND ECONOMY? EMPLOYMENT RATIOS SUGGEST NOT"
+        },
+        "lucn_query": "(publicationDate:1982 AND host.volume:28) AND (host.pages.first:3347 host.title:(Tetrahedron* Synlh* Commun*) host.pages.last:16 author.name:(Tamao Kodama Nakajimd Kumada Minato Suzuki Van Pham Mark Jr Zimmer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3347 AND publicationDate:1982 AND host.volume:28 AND host.title:(Tetrahedron Synlh Commun) AND host.pages.last:16 AND author.name:(Tamao Kodama Nakajimd Kumada Minato Suzuki Van Pham Mark Jr Zimmer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3347 AND publicationDate:1982 AND host.volume:28 AND host.title:(Tetrahedron* Synlh* Commun*) AND host.pages.last:16 AND author.name:(Tamao Kodama Nakajimd Kumada Minato Suzuki Van Pham Mark Jr Zimmer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Xi</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">)</forename>\n    <forename type=\"middle\">U</forename>\n    <surname>Dettmaier</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Eichler</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Kuhlein</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">I</forename>\n    <surname>Leupold</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Litterer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Angew. Chem</title>\n  <imprint>\n   <biblScope unit=\"volume\">99</biblScope>\n   <biblScope unit=\"page\" from=\"470\" to=\"26\"></biblScope>\n   <date type=\"published\" when=\"1987\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Drs. Heeres"
+            },
+            {
+              "name": "Drs. Meetsma"
+            },
+            {
+              "name": "Prof. Dr. Teuben"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/anie.199004201"
+          ],
+          "host": {
+            "pages": {
+              "first": "420",
+              "last": "422"
+            },
+            "title": "Angewandte Chemie International Edition in English",
+            "volume": "29"
+          },
+          "id": "51032F423DE27ADFCE04E53EB08CDDC2D7B2F40F",
+          "publicationDate": "1990",
+          "title": "CH Activation of Acetonitrile by Alkyl Compounds of the Early Lanthanoids: Dimeric Cyanomethyl\u2010Lanthanoid Complexes with CH2CN Bridges"
+        },
+        "lucn_query": "Xi \\) U Dettmaier K Eichler K Kuhlein E I Leupold H Litterer Angew. Chem 99 1987 470 26",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"470\" AND author.name:\"Dettmaier\" AND author.name:\"Eichler\" AND author.name:\"Kuhlein\" AND author.name:\"Leupold\" AND author.name:\"Litterer\" AND publicationDate:\"1987\" AND host.title:\"Angew. Chem\" AND host.volume:\"99\" AND host.pages.last:\"26\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Dettmeier"
+            },
+            {
+              "name": "Dr. Eichler"
+            },
+            {
+              "name": "Klaus K\u00fchlein Dipl.\u2010Chem."
+            },
+            {
+              "name": "Dr. Leupold"
+            },
+            {
+              "name": "Dr. Litterer"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ange.19870990518"
+          ],
+          "host": {
+            "pages": {
+              "first": "470",
+              "last": "471"
+            },
+            "title": "Angewandte Chemie",
+            "volume": "99"
+          },
+          "id": "BA6FC3C89D036E3AAF7F12BB70D5E524113349E7",
+          "publicationDate": "1987",
+          "title": "Herstellung von \u03b2\u2010Halogenthiophenen durch Isomerisierung von \u03b1\u2010Halogenthiophenen an Zeolithkatalysatoren"
+        },
+        "lucn_query": "host.pages.first:\"470\" author.name:\"Dettmaier\" author.name:\"Eichler\" author.name:\"Kuhlein\" author.name:\"Leupold\" author.name:\"Litterer\" publicationDate:\"1987\" host.title:\"Angew. Chem\" host.volume:\"99\" host.pages.last:\"26\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Dettmeier"
+            },
+            {
+              "name": "Dr. Eichler"
+            },
+            {
+              "name": "Klaus K\u00fchlein Dipl.\u2010Chem."
+            },
+            {
+              "name": "Dr. Leupold"
+            },
+            {
+              "name": "Dr. Litterer"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ange.19870990518"
+          ],
+          "host": {
+            "pages": {
+              "first": "470",
+              "last": "471"
+            },
+            "title": "Angewandte Chemie",
+            "volume": "99"
+          },
+          "id": "BA6FC3C89D036E3AAF7F12BB70D5E524113349E7",
+          "publicationDate": "1987",
+          "title": "Herstellung von \u03b2\u2010Halogenthiophenen durch Isomerisierung von \u03b1\u2010Halogenthiophenen an Zeolithkatalysatoren"
+        },
+        "lucn_query": "host.pages.first:470 publicationDate:1987 host.volume:99 host.title:(Angew Chem) host.pages.last:26 author.name:(Dettmaier Eichler Kuhlein Leupold Litterer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Dettmeier"
+            },
+            {
+              "name": "Dr. Eichler"
+            },
+            {
+              "name": "Klaus K\u00fchlein Dipl.\u2010Chem."
+            },
+            {
+              "name": "Dr. Leupold"
+            },
+            {
+              "name": "Dr. Litterer"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ange.19870990518"
+          ],
+          "host": {
+            "pages": {
+              "first": "470",
+              "last": "471"
+            },
+            "title": "Angewandte Chemie",
+            "volume": "99"
+          },
+          "id": "BA6FC3C89D036E3AAF7F12BB70D5E524113349E7",
+          "publicationDate": "1987",
+          "title": "Herstellung von \u03b2\u2010Halogenthiophenen durch Isomerisierung von \u03b1\u2010Halogenthiophenen an Zeolithkatalysatoren"
+        },
+        "lucn_query": "(publicationDate:1987 AND host.volume:99) AND (host.pages.first:470 host.title:(Angew Chem) host.pages.last:26 author.name:(Dettmaier Eichler Kuhlein Leupold Litterer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Dettmeier"
+            },
+            {
+              "name": "Dr. Eichler"
+            },
+            {
+              "name": "Klaus K\u00fchlein Dipl.\u2010Chem."
+            },
+            {
+              "name": "Dr. Leupold"
+            },
+            {
+              "name": "Dr. Litterer"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ange.19870990518"
+          ],
+          "host": {
+            "pages": {
+              "first": "470",
+              "last": "471"
+            },
+            "title": "Angewandte Chemie",
+            "volume": "99"
+          },
+          "id": "BA6FC3C89D036E3AAF7F12BB70D5E524113349E7",
+          "publicationDate": "1987",
+          "title": "Herstellung von \u03b2\u2010Halogenthiophenen durch Isomerisierung von \u03b1\u2010Halogenthiophenen an Zeolithkatalysatoren"
+        },
+        "lucn_query": "(publicationDate:1987 AND host.volume:99) AND (host.pages.first:470 host.title:(Angew* Chem*) host.pages.last:26 author.name:(Dettmaier Eichler Kuhlein Leupold Litterer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:470 AND publicationDate:1987 AND host.volume:99 AND host.title:(Angew Chem) AND host.pages.last:26 AND author.name:(Dettmaier Eichler Kuhlein Leupold Litterer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:470 AND publicationDate:1987 AND host.volume:99 AND host.title:(Angew* Chem*) AND host.pages.last:26 AND author.name:(Dettmaier Eichler Kuhlein Leupold Litterer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Kato</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Ishizaki</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Tokuyama Soda Co</title>\n  <imprint>\n   <date type=\"published\" when=\"1957\"></date>\n   <biblScope unit=\"page\">150299</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hiroshi Nakanishi"
+            },
+            {
+              "name": "Masayuki Ukita"
+            },
+            {
+              "name": "Masayuki Sekine"
+            },
+            {
+              "name": "Sadaaki Murakami"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00026555"
+          ],
+          "host": {
+            "pages": {
+              "first": "197",
+              "last": "211"
+            },
+            "title": "Hydrobiologia",
+            "volume": "176-177"
+          },
+          "id": "7F56EB1BE300DACEDB97EF09E68DFEDDB6F5E3BE",
+          "title": "Mercury pollution in Tokuyama Bay"
+        },
+        "lucn_query": "M Kato Ishizaki Tokuyama Soda Co 150299 1957",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Tokuyama Soda Co\" AND host.pages.first:\"150299\" AND publicationDate:\"1957\" AND author.name:\"Kato\" AND author.name:\"Ishizaki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Shingo Yasuda"
+            },
+            {
+              "name": "Fabian Oceguera-Yanez"
+            },
+            {
+              "name": "Takayuki Kato"
+            },
+            {
+              "name": "Muneo Okamoto"
+            },
+            {
+              "name": "Shigenobu Yonemura"
+            },
+            {
+              "name": "Yasuhiko Terada"
+            },
+            {
+              "name": "Toshimasa Ishizaki"
+            },
+            {
+              "name": "Shuh Narumiya"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature02452"
+          ],
+          "host": {
+            "pages": {
+              "first": "767",
+              "last": "771"
+            },
+            "title": "Nature",
+            "volume": "428"
+          },
+          "id": "EBBE3B7E0725841D99F05356AEE6A7A950925188",
+          "publicationDate": "2004",
+          "title": "Cdc42 and mDia3 regulate microtubule attachment to kinetochores"
+        },
+        "lucn_query": "host.title:\"Tokuyama Soda Co\" host.pages.first:\"150299\" publicationDate:\"1957\" author.name:\"Kato\" author.name:\"Ishizaki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hiroshi Tauchi"
+            },
+            {
+              "name": "Kenshi Komatsu"
+            },
+            {
+              "name": "Kanji Ishizaki"
+            },
+            {
+              "name": "Fumio Yatagai"
+            },
+            {
+              "name": "Takesi Kato"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0027-5107(99)00199-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "155",
+              "last": "164"
+            },
+            "title": "Mutation Research - Fundamental and Molecular Mechanisms of Mutagenesis",
+            "volume": "447"
+          },
+          "id": "83264F5D16BBCC5D1494D050285E4728408648F3",
+          "publicationDate": "2000",
+          "title": "Mutation spectrum of MSH3-deficient HHUA/chr.2 cells reflects in vivo activity of the MSH3 gene product in mismatch repair"
+        },
+        "lucn_query": "host.title:(Tokuyama Soda Co) host.pages.first:150299 author.name:(Kato Ishizaki) publicationDate:1957",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tosio Kato"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cpa.3160100201"
+          ],
+          "host": {
+            "pages": {
+              "first": "151",
+              "last": "177"
+            },
+            "title": "Communications on Pure and Applied Mathematics",
+            "volume": "10"
+          },
+          "id": "16173CDE98D30E9A5BCF7BFD801489853B71E1D5",
+          "publicationDate": "1957",
+          "title": "On the eigenfunctions of many\u2010particle systems in quantum mechanics"
+        },
+        "lucn_query": "(publicationDate:1957) AND (host.title:(Tokuyama Soda Co) host.pages.first:150299 author.name:(Kato Ishizaki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tosio Kato"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cpa.3160100201"
+          ],
+          "host": {
+            "pages": {
+              "first": "151",
+              "last": "177"
+            },
+            "title": "Communications on Pure and Applied Mathematics",
+            "volume": "10"
+          },
+          "id": "16173CDE98D30E9A5BCF7BFD801489853B71E1D5",
+          "publicationDate": "1957",
+          "title": "On the eigenfunctions of many\u2010particle systems in quantum mechanics"
+        },
+        "lucn_query": "(publicationDate:1957) AND (host.title:(Tokuyama* Soda* Co*) host.pages.first:150299 author.name:(Kato Ishizaki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Tokuyama Soda Co) AND host.pages.first:150299 AND author.name:(Kato Ishizaki) AND publicationDate:1957",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Tokuyama* Soda* Co*) AND host.pages.first:150299 AND author.name:(Kato Ishizaki) AND publicationDate:1957",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Braun</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Sobecki</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Chem. Ber</title>\n  <imprint>\n   <biblScope unit=\"volume\">44</biblScope>\n   <biblScope unit=\"page\">1918</biblScope>\n   <date type=\"published\" when=\"1911\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. W. Brown"
+            },
+            {
+              "name": "E. Alan Cameron"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02374814"
+          ],
+          "host": {
+            "pages": {
+              "first": "311",
+              "last": "321"
+            },
+            "title": "Entomophaga",
+            "volume": "27"
+          },
+          "id": "89F75D4DAD31B2A10F88B72CF3527F2F3EA9DC72",
+          "title": "Natural enemies of Lymantria dispar [Lep.: Lymantriidae] eggs in Central Pennsylvania, U.S.A., and a review of the world literature on natural enemies of L. dispar eggs"
+        },
+        "lucn_query": "J W Braun Sobecki Chem. Ber 44 1918 1911",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Chem. Ber\" AND host.pages.first:\"1918\" AND host.volume:\"44\" AND publicationDate:\"1911\" AND author.name:\"Braun\" AND author.name:\"Sobecki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. v. Braun"
+            },
+            {
+              "name": "W. Sobecki"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cber.191104402101"
+          ],
+          "host": {
+            "pages": {
+              "first": "1918",
+              "last": "1931"
+            },
+            "title": "Berichte der deutschen chemischen Gesellschaft",
+            "volume": "44"
+          },
+          "id": "6A431388B86765093A83A19E2FFF8CA71DC3A643",
+          "publicationDate": "1911",
+          "title": "Die Grignardsche Reaktion in ihrer Anwendung auf Dihalogenverbindungen. I"
+        },
+        "lucn_query": "host.title:\"Chem. Ber\" host.pages.first:\"1918\" host.volume:\"44\" publicationDate:\"1911\" author.name:\"Braun\" author.name:\"Sobecki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. v. Braun"
+            },
+            {
+              "name": "W. Sobecki"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cber.191104402101"
+          ],
+          "host": {
+            "pages": {
+              "first": "1918",
+              "last": "1931"
+            },
+            "title": "Berichte der deutschen chemischen Gesellschaft",
+            "volume": "44"
+          },
+          "id": "6A431388B86765093A83A19E2FFF8CA71DC3A643",
+          "publicationDate": "1911",
+          "title": "Die Grignardsche Reaktion in ihrer Anwendung auf Dihalogenverbindungen. I"
+        },
+        "lucn_query": "host.title:(Chem Ber) host.pages.first:1918 author.name:(Braun Sobecki) publicationDate:1911 host.volume:44",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. v. Braun"
+            },
+            {
+              "name": "W. Sobecki"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cber.191104402101"
+          ],
+          "host": {
+            "pages": {
+              "first": "1918",
+              "last": "1931"
+            },
+            "title": "Berichte der deutschen chemischen Gesellschaft",
+            "volume": "44"
+          },
+          "id": "6A431388B86765093A83A19E2FFF8CA71DC3A643",
+          "publicationDate": "1911",
+          "title": "Die Grignardsche Reaktion in ihrer Anwendung auf Dihalogenverbindungen. I"
+        },
+        "lucn_query": "(publicationDate:1911 AND host.volume:44) AND (host.title:(Chem Ber) host.pages.first:1918 author.name:(Braun Sobecki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. v. Braun"
+            },
+            {
+              "name": "W. Sobecki"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cber.191104402101"
+          ],
+          "host": {
+            "pages": {
+              "first": "1918",
+              "last": "1931"
+            },
+            "title": "Berichte der deutschen chemischen Gesellschaft",
+            "volume": "44"
+          },
+          "id": "6A431388B86765093A83A19E2FFF8CA71DC3A643",
+          "publicationDate": "1911",
+          "title": "Die Grignardsche Reaktion in ihrer Anwendung auf Dihalogenverbindungen. I"
+        },
+        "lucn_query": "(publicationDate:1911 AND host.volume:44) AND (host.title:(Chem* Ber*) host.pages.first:1918 author.name:(Braun Sobecki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Chem Ber) AND host.pages.first:1918 AND author.name:(Braun Sobecki) AND publicationDate:1911 AND host.volume:44",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. v. Braun"
+            },
+            {
+              "name": "W. Sobecki"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cber.191104402101"
+          ],
+          "host": {
+            "pages": {
+              "first": "1918",
+              "last": "1931"
+            },
+            "title": "Berichte der deutschen chemischen Gesellschaft",
+            "volume": "44"
+          },
+          "id": "6A431388B86765093A83A19E2FFF8CA71DC3A643",
+          "publicationDate": "1911",
+          "title": "Die Grignardsche Reaktion in ihrer Anwendung auf Dihalogenverbindungen. I"
+        },
+        "lucn_query": "host.title:(Chem* Ber*) AND host.pages.first:1918 AND author.name:(Braun Sobecki) AND publicationDate:1911 AND host.volume:44",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title level=\"a\" type=\"main\">1275; b)</title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Ziegler</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">K</forename>\n    <surname>Weber</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Ziegler</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">G</forename>\n    <surname>Weber</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Gellert</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Chem. Ber</title>\n  <imprint>\n   <biblScope unit=\"volume\">70</biblScope>\n   <biblScope unit=\"issue\">75</biblScope>\n   <biblScope unit=\"page\" from=\"1715\" to=\"1\"></biblScope>\n   <date type=\"published\" when=\"1937\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "BAA625BD41488BE989161C39D880DF178614D1A1",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G\u00fcnther Wilke"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jlac.197519750419"
+          ],
+          "host": {
+            "pages": {
+              "first": "804",
+              "last": "833"
+            },
+            "title": "Justus Liebigs Annalen der Chemie",
+            "volume": "1975"
+          },
+          "id": "EDC9C5849D239421A50EF1B7B8B240627D956038",
+          "publicationDate": "1975",
+          "title": "Nachruf auf Karl Ziegler"
+        },
+        "lucn_query": "1275; b\\) H K Ziegler K Weber H Ziegler H G Weber Gellert Chem. Ber 70 75 1937 1715 1",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:\"1275; b\\)\" AND host.issue:\"75\" AND host.pages.first:\"1715\" AND host.pages.last:\"1\" AND publicationDate:\"1937\" AND host.title:\"Chem. Ber\" AND host.volume:\"70\" AND author.name:\"Ziegler\" AND author.name:\"Weber\" AND author.name:\"Ziegler\" AND author.name:\"Weber\" AND author.name:\"Gellert\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Frank Weber MD"
+            },
+            {
+              "name": "Andrea Ziegler"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/mus.10235"
+          ],
+          "host": {
+            "pages": {
+              "first": "471",
+              "last": "476"
+            },
+            "title": "Muscle & Nerve",
+            "volume": "26"
+          },
+          "id": "505088C2AC2B5EE995CEA19081F27516A51023C2",
+          "publicationDate": "2002",
+          "title": "Axonal neuropathy in chronic peripheral arterial occlusive disease"
+        },
+        "lucn_query": "title:\"1275; b\\)\" host.issue:\"75\" host.pages.first:\"1715\" host.pages.last:\"1\" publicationDate:\"1937\" host.title:\"Chem. Ber\" host.volume:\"70\" author.name:\"Ziegler\" author.name:\"Weber\" author.name:\"Ziegler\" author.name:\"Weber\" author.name:\"Gellert\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Frank Weber MD"
+            },
+            {
+              "name": "Andrea Ziegler"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/mus.10235"
+          ],
+          "host": {
+            "pages": {
+              "first": "471",
+              "last": "476"
+            },
+            "title": "Muscle & Nerve",
+            "volume": "26"
+          },
+          "id": "505088C2AC2B5EE995CEA19081F27516A51023C2",
+          "publicationDate": "2002",
+          "title": "Axonal neuropathy in chronic peripheral arterial occlusive disease"
+        },
+        "lucn_query": "title:1275 host.issue:75 host.pages.first:1715 author.name:(Ziegler Weber Ziegler Weber Gellert) host.volume:70 publicationDate:1937 host.title:(Chem Ber) host.pages.last:1",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:70 AND publicationDate:1937) AND (title:1275 host.issue:75 host.pages.first:1715 author.name:(Ziegler Weber Ziegler Weber Gellert) host.title:(Chem Ber) host.pages.last:1)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. J. M\u00fcller"
+            },
+            {
+              "name": "J. Z. Briggs"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01755660"
+          ],
+          "host": {
+            "pages": {
+              "first": "113",
+              "last": "145"
+            },
+            "title": "Monatshefte f\u00fcr Chemie und verwandte Teile anderer Wissenschaften",
+            "volume": "70"
+          },
+          "id": "C1EB1B1AD5B4B5A9F2B1B1CAFD66EFF031BC5044",
+          "publicationDate": "1937",
+          "title": "Zur Theorie der Passivit\u00e4tserscheinungen XXXI"
+        },
+        "lucn_query": "(host.volume:70 AND publicationDate:1937) AND (title:1275 host.issue:75 host.pages.first:1715 author.name:(Ziegler Weber Ziegler Weber Gellert) host.title:(Chem* Ber*) host.pages.last:1)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:1275 AND host.issue:75 AND host.pages.first:1715 AND author.name:(Ziegler Weber Ziegler Weber Gellert) AND host.volume:70 AND publicationDate:1937 AND host.title:(Chem Ber) AND host.pages.last:1",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:1275 AND host.issue:75 AND host.pages.first:1715 AND author.name:(Ziegler Weber Ziegler Weber Gellert) AND host.volume:70 AND publicationDate:1937 AND host.title:(Chem* Ber*) AND host.pages.last:1",
+        "match_flag": false
+      }
+    ]
+  }
+]

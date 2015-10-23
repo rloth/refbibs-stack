@@ -1,0 +1,4939 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Boyer</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">S</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phil. Trans. Roy. Soc. London B</title>\n  <imprint>\n   <biblScope unit=\"volume\">273</biblScope>\n   <biblScope unit=\"page\" from=\"501\" to=\"512\"></biblScope>\n   <date type=\"published\" when=\"1976\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0079-6425(63)90026-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "177"
+            },
+            "title": "Progress in Materials Science",
+            "volume": "11"
+          },
+          "id": "3355D80CE21FD349B0B4544B3FEC09DEC90C897F",
+          "publicationDate": "1963",
+          "title": "References"
+        },
+        "lucn_query": "Boyer J S Phil. Trans. Roy. Soc. London B 273 1976 501 512",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Phil. Trans. Roy. Soc. London B\" AND host.pages.first:\"501\" AND host.volume:\"273\" AND host.pages.last:\"512\" AND publicationDate:\"1976\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Elisabeth Fassold"
+            },
+            {
+              "name": "A.M. Slade"
+            },
+            {
+              "name": "Jong-Yaw Lin"
+            },
+            {
+              "name": "Winifred G. Nayler"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-2828(76)90052-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "501",
+              "last": "512"
+            },
+            "title": "Journal of Molecular and Cellular Cardiology",
+            "volume": "8"
+          },
+          "id": "CC7A3E73A19D1DDBD1ED67DAEA1AB0B6332BE688",
+          "publicationDate": "1976",
+          "title": "An effect of the cardiotoxic protein volvatoxin a on the function and structure of heart muscle cells"
+        },
+        "lucn_query": "host.title:\"Phil. Trans. Roy. Soc. London B\" host.pages.first:\"501\" host.volume:\"273\" host.pages.last:\"512\" publicationDate:\"1976\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "MARGARET HILL Ph.D.(Lond.)"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1096-3642.1939.tb00724.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "481",
+              "last": "512"
+            },
+            "title": "Proceedings of the Zoological Society of London",
+            "volume": "B109"
+          },
+          "id": "1E76E24B0914DC13B7967679F0CF500E5B0A5CA4",
+          "publicationDate": "1939",
+          "title": "The Reproductive Cycle of the Male Weasel (Mustela nivalis)"
+        },
+        "lucn_query": "host.title:(Phil Trans Roy Soc London) publicationDate:1976 host.pages.first:501 host.pages.last:512 host.volume:273",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1976 AND host.volume:273) AND (host.title:(Phil Trans Roy Soc London) host.pages.first:501 host.pages.last:512)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1976 AND host.volume:273) AND (host.title:(Phil* Trans* Roy* Soc* London*) host.pages.first:501 host.pages.last:512)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Phil Trans Roy Soc London) AND publicationDate:1976 AND host.pages.first:501 AND host.pages.last:512 AND host.volume:273",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Phil* Trans* Roy* Soc* London*) AND publicationDate:1976 AND host.pages.first:501 AND host.pages.last:512 AND host.volume:273",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Phloem Translocation</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Canny</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology</title>\n  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>\n  <meeting><address><addrLine>London ; Berlin, Heidelberg, New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Cambridge Univ, Press Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1973\"></date>\n   <biblScope unit=\"page\" from=\"139\" to=\"153\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Andrew C. Smith"
+            },
+            {
+              "name": "John A. Milburn"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00385439"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "41"
+            },
+            "title": "Planta",
+            "volume": "148"
+          },
+          "id": "1B241C70F5C197ACFA74C504CB9C60ABF3D58F7D",
+          "publicationDate": "1979",
+          "title": "Phloem transport, solute flux and the kinetics of sap exudation in Ricinus communis L."
+        },
+        "lucn_query": "Phloem Translocation Canny M J Encyclopedia of Plant Physiology M. H. ZIMMERMANN and J. A. MILBURN London ; Berlin, Heidelberg, New York Cambridge Univ, Press Springer-Verlag 1973 139 153",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN\" AND host.editor:\"Cambridge Univ, Press Springer-Verlag\" AND title:\"Phloem Translocation\" AND host.pages.first:\"139\" AND publicationDate:\"1973\" AND host.title:\"Encyclopedia of Plant Physiology\" AND \"London ; Berlin, Heidelberg, New York\" AND host.pages.last:\"153\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.G. Ouimette"
+            },
+            {
+              "name": "M.D. Coffey"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0048-3575(90)90143-P"
+          ],
+          "host": {
+            "pages": {
+              "first": "18",
+              "last": "25"
+            },
+            "title": "Pesticide Biochemistry and Physiology",
+            "volume": "38"
+          },
+          "id": "51D4EFFA102B34C3D31F425CA4F816EE7C1D07E3",
+          "publicationDate": "1990",
+          "title": "Symplastic entry and phloem translocation of phosphonate"
+        },
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN\" host.editor:\"Cambridge Univ, Press Springer-Verlag\" title:\"Phloem Translocation\" host.pages.first:\"139\" publicationDate:\"1973\" host.title:\"Encyclopedia of Plant Physiology\" \"London ; Berlin, Heidelberg, New York\" host.pages.last:\"153\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Regine Tiedemann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(89)80006-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "427",
+              "last": "440"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "134"
+          },
+          "id": "0CD34B26E251734AA9B92830D1FDC3EBEF2D9714",
+          "publicationDate": "1989",
+          "title": "Graft Union Development and Symplastic Phloem Contact in the Heterograft Cucumis sativus on Cucurbita ficifolia"
+        },
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Cambridge Univ Press Springer Verlag) title:(Phloem Translocation) host.pages.first:139 publicationDate:1973 host.title:(Encyclopedia of Plant Physiology) London Berlin Heidelberg York host.pages.last:153",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. V. Parthasarathy"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01276606"
+          ],
+          "host": {
+            "pages": {
+              "first": "265",
+              "last": "315"
+            },
+            "title": "Protoplasma",
+            "volume": "79"
+          },
+          "id": "755E6C17C210060AF42EC246B538DBD9DCE328C3",
+          "publicationDate": "1973",
+          "title": "Ultrastructure of phloem in palms"
+        },
+        "lucn_query": "(publicationDate:1973) AND (host.editor:(ZIMMERMANN MILBURN Cambridge Univ Press Springer Verlag) title:(Phloem Translocation) host.pages.first:139 host.title:(Encyclopedia of Plant Physiology) London Berlin Heidelberg York host.pages.last:153)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. V. Parthasarathy"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01276606"
+          ],
+          "host": {
+            "pages": {
+              "first": "265",
+              "last": "315"
+            },
+            "title": "Protoplasma",
+            "volume": "79"
+          },
+          "id": "755E6C17C210060AF42EC246B538DBD9DCE328C3",
+          "publicationDate": "1973",
+          "title": "Ultrastructure of phloem in palms"
+        },
+        "lucn_query": "(publicationDate:1973) AND (host.editor:(ZIMMERMANN MILBURN Cambridge Univ Press Springer Verlag) title:(Phloem Translocation) host.pages.first:139 host.title:(Encyclopedia* of* Plant* Physiology*) London Berlin Heidelberg York host.pages.last:153)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Cambridge Univ Press Springer Verlag) AND title:(Phloem Translocation) AND host.pages.first:139 AND publicationDate:1973 AND host.title:(Encyclopedia of Plant Physiology) AND London AND Berlin AND Heidelberg AND York AND host.pages.last:153",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Cambridge Univ Press Springer Verlag) AND title:(Phloem Translocation) AND host.pages.first:139 AND publicationDate:1973 AND host.title:(Encyclopedia* of* Plant* Physiology*) AND London AND Berlin AND Heidelberg AND York AND host.pages.last:153",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Crafts</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">S</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">11</biblScope>\n   <biblScope unit=\"page\" from=\"63\" to=\"79\"></biblScope>\n   <date type=\"published\" when=\"1936\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Michael E. Salvucci"
+            },
+            {
+              "name": "Steven J. Crafts\u2010Brandner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1399-3054.2004.00419.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "513",
+              "last": "519"
+            },
+            "title": "Physiologia Plantarum",
+            "volume": "122"
+          },
+          "id": "731F903943C0182CBCD6C7A05D74AAB7ECEA7FE3",
+          "publicationDate": "2004",
+          "title": "Mechanism for deactivation of Rubisco under moderate heat stress"
+        },
+        "lucn_query": "Crafts A S Plant Physiol 11 1936 63 79",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Plant Physiol\" AND host.pages.first:\"63\" AND host.volume:\"11\" AND host.pages.last:\"79\" AND publicationDate:\"1936\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Catherine Joulain"
+            },
+            {
+              "name": "Michel Guichardant"
+            },
+            {
+              "name": "Michel Lagard"
+            },
+            {
+              "name": "Annie-France Prigent"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0929-7855(94)00028-B"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "79"
+            },
+            "title": "Journal of Lipid Mediators and Cell Signalling",
+            "volume": "11"
+          },
+          "id": "8C695FFC236E8B68845C96BA12A6F029657D7D7D",
+          "publicationDate": "1995",
+          "title": "Influence of polyunsaturated fatty acids on lipid metabolism in human blood mononuclear cells and early biochemical events associated with lymphocyte activation"
+        },
+        "lucn_query": "host.title:\"Plant Physiol\" host.pages.first:\"63\" host.volume:\"11\" host.pages.last:\"79\" publicationDate:\"1936\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. Garc\u00eda\u2010Limones"
+            },
+            {
+              "name": "G. Dorado"
+            },
+            {
+              "name": "J. A. Navas\u2010Cort\u00e9s"
+            },
+            {
+              "name": "R. M. Jim\u00e9nez\u2010D\u00edaz"
+            },
+            {
+              "name": "M. Tena"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.2008.00095.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "194",
+              "last": "203"
+            },
+            "title": "Plant Biology",
+            "volume": "11"
+          },
+          "id": "137D73E465027D829350D18CFE8FF94DBD1288D5",
+          "publicationDate": "2009",
+          "title": "Changes in the redox status of chickpea roots in response to infection by Fusarium oxysporum f. sp. ciceris: apoplastic antioxidant enzyme activities and expression of oxidative stress\u2010related genes"
+        },
+        "lucn_query": "host.title:(Plant Physiol) publicationDate:1936 host.pages.first:63 host.pages.last:79 host.volume:11",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "TRYGVE BRAAT\u00d6Y"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1600-0447.1936.tb09246.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "102"
+            },
+            "title": "Acta Psychiatrica Scandinavica",
+            "volume": "11"
+          },
+          "id": "51E3985C155E33D032774D5E48BC82B395E9A07D",
+          "publicationDate": "1936",
+          "title": "THE PROGNOSIS IN SCHIZOPHRENIA, WITH SOME REMARKS REGARDING DIAGNOSIS AND THERAPY1"
+        },
+        "lucn_query": "(publicationDate:1936 AND host.volume:11) AND (host.title:(Plant Physiol) host.pages.first:63 host.pages.last:79)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "TRYGVE BRAAT\u00d6Y"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1600-0447.1936.tb09246.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "102"
+            },
+            "title": "Acta Psychiatrica Scandinavica",
+            "volume": "11"
+          },
+          "id": "51E3985C155E33D032774D5E48BC82B395E9A07D",
+          "publicationDate": "1936",
+          "title": "THE PROGNOSIS IN SCHIZOPHRENIA, WITH SOME REMARKS REGARDING DIAGNOSIS AND THERAPY1"
+        },
+        "lucn_query": "(publicationDate:1936 AND host.volume:11) AND (host.title:(Plant* Physiol*) host.pages.first:63 host.pages.last:79)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Plant Physiol) AND publicationDate:1936 AND host.pages.first:63 AND host.pages.last:79 AND host.volume:11",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Plant* Physiol*) AND publicationDate:1936 AND host.pages.first:63 AND host.pages.last:79 AND host.volume:11",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n </analytic>\n <monogr>\n  <title level=\"m\">Water Deficits and Plant Growth</title>\n  <editor>T. T. KOZLOWSKI</editor>\n  <meeting><address><addrLine>New York, London</addrLine></address></meeting>\n  <imprint>\n   <publisher>Academic Press</publisher>\n   <date type=\"published\" when=\"1968\"></date>\n   <biblScope unit=\"page\" from=\"85\" to=\"133\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. T. Kozlowski"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02858600"
+          ],
+          "host": {
+            "pages": {
+              "first": "107",
+              "last": "222"
+            },
+            "title": "The Botanical Review",
+            "volume": "58"
+          },
+          "id": "BB92A134FD1FD10092C7EEA177A6A534626AB294",
+          "title": "Carbohydrate sources and sinks in woody plants"
+        },
+        "lucn_query": "Water Deficits and Plant Growth T. T. KOZLOWSKI New York, London Academic Press 1968 85 133",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"T. T. KOZLOWSKI\" AND host.editor:\"Academic Press\" AND host.pages.first:\"85\" AND publicationDate:\"1968\" AND host.title:\"Water Deficits and Plant Growth\" AND \"New York, London\" AND host.pages.last:\"133\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Boll"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00412133"
+          ],
+          "host": {
+            "pages": {
+              "first": "85",
+              "last": "102"
+            },
+            "title": "Archiv f\u00fcr Mikrobiologie",
+            "volume": "64"
+          },
+          "id": "64A3A3C0F852A3292CE5CB6F6080D8B3DE78DEAF",
+          "publicationDate": "1968",
+          "title": "Enzyme der Elektronentransportpartikel aus Rhodospirillum rubrum : Eigenschaften von NADH- und Succinat-Cytochrom c-Reduktase"
+        },
+        "lucn_query": "host.editor:\"T. T. KOZLOWSKI\" host.editor:\"Academic Press\" host.pages.first:\"85\" publicationDate:\"1968\" host.title:\"Water Deficits and Plant Growth\" \"New York, London\" host.pages.last:\"133\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert Lim"
+            },
+            {
+              "name": "Imre A. Tamas"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00024773"
+          ],
+          "host": {
+            "pages": {
+              "first": "151",
+              "last": "164"
+            },
+            "title": "Plant Growth Regulation",
+            "volume": "8"
+          },
+          "id": "3D2687732F704FF1EC4EA550F115C28FB1ACD9F7",
+          "title": "The transport of radiolabeled indoleacetic acid and its conjugates in nodal stem segments of Phaseolus vulgaris L."
+        },
+        "lucn_query": "host.editor:(KOZLOWSKI Academic Press) host.pages.first:85 publicationDate:1968 host.title:(Water Deficits and Plant Growth) York London host.pages.last:133",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. J. Cook"
+            },
+            {
+              "name": "R. I. Papendick"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01372852"
+          ],
+          "host": {
+            "pages": {
+              "first": "131",
+              "last": "145"
+            },
+            "title": "Plant and Soil",
+            "volume": "32"
+          },
+          "id": "2E9015B72195FD1FF51179FAD8C6E5CFCD434502",
+          "publicationDate": "1968",
+          "title": "Soil water potential as a factor in the ecology of Fusarium roseum f. sp. cerealis \u2018Culmorum\u2019"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.editor:(KOZLOWSKI Academic Press) host.pages.first:85 host.title:(Water Deficits and Plant Growth) York London host.pages.last:133)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Judith Djamour"
+            },
+            {
+              "name": "Michael B. Leigh"
+            },
+            {
+              "name": "William R. Roff"
+            },
+            {
+              "name": "G.N. Appell"
+            },
+            {
+              "name": "M.P.H. Roessingh"
+            },
+            {
+              "name": "Harsja W. Bachtiar"
+            },
+            {
+              "name": "Th. P.M. Jong"
+            },
+            {
+              "name": "M.A. Jaspan"
+            },
+            {
+              "name": "P. Voorhoeve"
+            },
+            {
+              "name": "Umar Junus"
+            },
+            {
+              "name": "James de V. Allen"
+            },
+            {
+              "name": "Rosemary Firth"
+            },
+            {
+              "name": "M. Leifer"
+            },
+            {
+              "name": "M.G. Swift"
+            },
+            {
+              "name": "P. Middelkoop"
+            },
+            {
+              "name": "O.W. Wolters"
+            },
+            {
+              "name": "Paul Wheatley"
+            },
+            {
+              "name": "R.E. Downs"
+            }
+          ],
+          "corpusName": "brill-journals",
+          "doi": [
+            "10.1163/22134379-90002880"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "304"
+            },
+            "title": "Bijdragen tot de taal-, land- en volkenkunde / Journal of the Humanities and Social Sciences of Southeast Asia",
+            "volume": "124"
+          },
+          "id": "20DDBE692B7AE0F173B6458BF1BE9EB829E5827A",
+          "publicationDate": "1968",
+          "title": "Book Reviews"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.editor:(KOZLOWSKI Academic Press) host.pages.first:85 host.title:(Water* Deficits* and* Plant* Growth*) York London host.pages.last:133)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(KOZLOWSKI Academic Press) AND host.pages.first:85 AND publicationDate:1968 AND host.title:(Water Deficits and Plant Growth) AND York AND London AND host.pages.last:133",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(KOZLOWSKI Academic Press) AND host.pages.first:85 AND publicationDate:1968 AND host.title:(Water* Deficits* and* Plant* Growth*) AND York AND London AND host.pages.last:133",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Cram</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology</title>\n  <editor>U. LUTTGE and M. G. PITMAN</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1976\"></date>\n   <biblScope unit=\"page\" from=\"284\" to=\"316\"></biblScope>\n  </imprint>\n </monogr>\n <note>Part. A</note>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Rudolf Behl"
+            },
+            {
+              "name": "Wolf Dieter Jeschke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0044-328X(79)80036-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "335",
+              "last": "353"
+            },
+            "title": "Zeitschrift f\u00fcr Pflanzenphysiology",
+            "volume": "95"
+          },
+          "id": "D639AD0D3916E52A880A335E31D1D7E647DCAD16",
+          "publicationDate": "1979",
+          "title": "On the Action of Abscisic Acid on Transport, Accumulation, and Uptake of K+ and Na+ in Excised Barley Roots; Effects of the Accompanying Anions"
+        },
+        "lucn_query": "Cram W J Encyclopedia of Plant Physiology U. LUTTGE and M. G. PITMAN Berlin, Heidelberg, New York Springer-Verlag Part. A 1976 284 316",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"U. LUTTGE and M. G. PITMAN\" AND host.editor:\"Springer-Verlag\" AND host.pages.first:\"284\" AND publicationDate:\"1976\" AND host.title:\"Encyclopedia of Plant Physiology\" AND \"Berlin, Heidelberg, New York\" AND \"Part. A\" AND host.pages.last:\"316\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Christov"
+            },
+            {
+              "name": "T. Sugihara"
+            },
+            {
+              "name": "R. Lindenfelser"
+            },
+            {
+              "name": "P. Haubert"
+            },
+            {
+              "name": "C. Thomas"
+            },
+            {
+              "name": "W. Sandritter"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0014-4908(76)80006-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "315",
+              "last": "325"
+            },
+            "title": "Experimentelle Pathologie",
+            "volume": "12"
+          },
+          "id": "112F1FADD917DEE60943214A1F700B85F7A6D75B",
+          "publicationDate": "1976",
+          "title": "Transmission and scanning electron microscopy of experimentally induced thyroid tumors in rats"
+        },
+        "lucn_query": "host.editor:\"U. LUTTGE and M. G. PITMAN\" host.editor:\"Springer-Verlag\" host.pages.first:\"284\" publicationDate:\"1976\" host.title:\"Encyclopedia of Plant Physiology\" \"Berlin, Heidelberg, New York\" \"Part. A\" host.pages.last:\"316\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Bopp"
+            },
+            {
+              "name": "Hartmut Quader"
+            },
+            {
+              "name": "Carola Thoni"
+            },
+            {
+              "name": "Thomas Sawidis"
+            },
+            {
+              "name": "Eberhard Schnepf"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(11)80131-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "273",
+              "last": "284"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "137"
+          },
+          "id": "C6FC12C52E9BAACAEDFBF502B27C0E0B875184F9",
+          "publicationDate": "1991",
+          "title": "Filament Disruption in Funaria Protonemata: Formation and Disintegration of Tmema Cells"
+        },
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:284 publicationDate:1976 host.title:(Encyclopedia of Plant Physiology) Berlin Heidelberg York Part host.pages.last:316",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Volker Ssymank"
+            },
+            {
+              "name": "Martin Steup"
+            },
+            {
+              "name": "Horst Senger"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075335"
+          ],
+          "host": {
+            "pages": {
+              "first": "787",
+              "last": "798"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "17"
+          },
+          "id": "2429B3B3CC50343813C5E5B2E4699CD76268DE6A",
+          "publicationDate": "1976",
+          "title": "Studies on nucleic acids in plastids of the pigment mutant C-2A\u00b4 of Scenedesmus obliquus"
+        },
+        "lucn_query": "(publicationDate:1976) AND (host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:284 host.title:(Encyclopedia of Plant Physiology) Berlin Heidelberg York Part host.pages.last:316)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Scheich"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00611989"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "227"
+            },
+            "title": "Journal of comparative physiology",
+            "volume": "113"
+          },
+          "id": "6FDCB2721F5C71E0D27D27691B8095ABC1C851E3",
+          "publicationDate": "1976",
+          "title": "Neural basis of communication in the high frequency electric fish, Eigenmannia virescens (Jamming Avoidance Response)"
+        },
+        "lucn_query": "(publicationDate:1976) AND (host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:284 host.title:(Encyclopedia* of* Plant* Physiology*) Berlin Heidelberg York Part host.pages.last:316)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) AND host.pages.first:284 AND publicationDate:1976 AND host.title:(Encyclopedia of Plant Physiology) AND Berlin AND Heidelberg AND York AND Part AND host.pages.last:316",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) AND host.pages.first:284 AND publicationDate:1976 AND host.title:(Encyclopedia* of* Plant* Physiology*) AND Berlin AND Heidelberg AND York AND Part AND host.pages.last:316",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Dainty</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology Transport in Plants II</title>\n  <editor>U. LUTTGE and M. G. PITMAN</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1976\"></date>\n   <biblScope unit=\"page\" from=\"12\" to=\"35\"></biblScope>\n  </imprint>\n </monogr>\n <note>Part. A</note>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Rudolf Behl"
+            },
+            {
+              "name": "Wolf Dieter Jeschke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0044-328X(79)80036-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "335",
+              "last": "353"
+            },
+            "title": "Zeitschrift f\u00fcr Pflanzenphysiology",
+            "volume": "95"
+          },
+          "id": "D639AD0D3916E52A880A335E31D1D7E647DCAD16",
+          "publicationDate": "1979",
+          "title": "On the Action of Abscisic Acid on Transport, Accumulation, and Uptake of K+ and Na+ in Excised Barley Roots; Effects of the Accompanying Anions"
+        },
+        "lucn_query": "Dainty J Encyclopedia of Plant Physiology Transport in Plants II U. LUTTGE and M. G. PITMAN Berlin, Heidelberg, New York Springer-Verlag Part. A 1976 12 35",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"U. LUTTGE and M. G. PITMAN\" AND host.editor:\"Springer-Verlag\" AND host.pages.first:\"12\" AND publicationDate:\"1976\" AND host.title:\"Encyclopedia of Plant Physiology Transport in Plants II\" AND \"Berlin, Heidelberg, New York\" AND \"Part. A\" AND host.pages.last:\"35\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Christov"
+            },
+            {
+              "name": "T. Sugihara"
+            },
+            {
+              "name": "R. Lindenfelser"
+            },
+            {
+              "name": "P. Haubert"
+            },
+            {
+              "name": "C. Thomas"
+            },
+            {
+              "name": "W. Sandritter"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0014-4908(76)80006-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "315",
+              "last": "325"
+            },
+            "title": "Experimentelle Pathologie",
+            "volume": "12"
+          },
+          "id": "112F1FADD917DEE60943214A1F700B85F7A6D75B",
+          "publicationDate": "1976",
+          "title": "Transmission and scanning electron microscopy of experimentally induced thyroid tumors in rats"
+        },
+        "lucn_query": "host.editor:\"U. LUTTGE and M. G. PITMAN\" host.editor:\"Springer-Verlag\" host.pages.first:\"12\" publicationDate:\"1976\" host.title:\"Encyclopedia of Plant Physiology Transport in Plants II\" \"Berlin, Heidelberg, New York\" \"Part. A\" host.pages.last:\"35\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Bopp"
+            },
+            {
+              "name": "Hartmut Quader"
+            },
+            {
+              "name": "Carola Thoni"
+            },
+            {
+              "name": "Thomas Sawidis"
+            },
+            {
+              "name": "Eberhard Schnepf"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(11)80131-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "273",
+              "last": "284"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "137"
+          },
+          "id": "C6FC12C52E9BAACAEDFBF502B27C0E0B875184F9",
+          "publicationDate": "1991",
+          "title": "Filament Disruption in Funaria Protonemata: Formation and Disintegration of Tmema Cells"
+        },
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:12 publicationDate:1976 host.title:(Encyclopedia of Plant Physiology Transport in Plants II) Berlin Heidelberg York Part host.pages.last:35",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Scheich"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00611989"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "227"
+            },
+            "title": "Journal of comparative physiology",
+            "volume": "113"
+          },
+          "id": "6FDCB2721F5C71E0D27D27691B8095ABC1C851E3",
+          "publicationDate": "1976",
+          "title": "Neural basis of communication in the high frequency electric fish, Eigenmannia virescens (Jamming Avoidance Response)"
+        },
+        "lucn_query": "(publicationDate:1976) AND (host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:12 host.title:(Encyclopedia of Plant Physiology Transport in Plants II) Berlin Heidelberg York Part host.pages.last:35)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Scheich"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00611989"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "227"
+            },
+            "title": "Journal of comparative physiology",
+            "volume": "113"
+          },
+          "id": "6FDCB2721F5C71E0D27D27691B8095ABC1C851E3",
+          "publicationDate": "1976",
+          "title": "Neural basis of communication in the high frequency electric fish, Eigenmannia virescens (Jamming Avoidance Response)"
+        },
+        "lucn_query": "(publicationDate:1976) AND (host.editor:(LUTTGE PITMAN Springer Verlag) host.pages.first:12 host.title:(Encyclopedia of Plant Physiology Transport in Plants II) Berlin Heidelberg York Part host.pages.last:35)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) AND host.pages.first:12 AND publicationDate:1976 AND host.title:(Encyclopedia of Plant Physiology Transport in Plants II) AND Berlin AND Heidelberg AND York AND Part AND host.pages.last:35",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(LUTTGE PITMAN Springer Verlag) AND host.pages.first:12 AND publicationDate:1976 AND host.title:(Encyclopedia of Plant Physiology Transport in Plants II) AND Berlin AND Heidelberg AND York AND Part AND host.pages.last:35",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Dixon</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">F G</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology Transport in Plants I, Phloem Transport</title>\n  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg, New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1975\"></date>\n   <biblScope unit=\"page\" from=\"154\" to=\"170\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Andrew C. Smith"
+            },
+            {
+              "name": "John A. Milburn"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00385440"
+          ],
+          "host": {
+            "pages": {
+              "first": "42",
+              "last": "48"
+            },
+            "title": "Planta",
+            "volume": "148"
+          },
+          "id": "77BDE5F86387F904BC52631CA695E1FE285FFB3E",
+          "publicationDate": "1976",
+          "title": "Phloem turgor and the regulation of sucrose loading in Ricinus communis L."
+        },
+        "lucn_query": "Dixon A F G Encyclopedia of Plant Physiology Transport in Plants I, Phloem Transport M. H. ZIMMERMANN and J. A. MILBURN Berlin, Heidelberg, New York Springer-Verlag 1975 154 170",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN\" AND host.editor:\"Springer-Verlag\" AND host.pages.first:\"154\" AND publicationDate:\"1975\" AND host.title:\"Encyclopedia of Plant Physiology Transport in Plants I, Phloem Transport\" AND \"Berlin, Heidelberg, New York\" AND host.pages.last:\"170\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. Grundmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0005-8165(75)80034-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "256",
+              "last": "280"
+            },
+            "title": "Beitr\u00e4ge zur Pathologie: \"Aschoff's\" Journal",
+            "volume": "154"
+          },
+          "id": "43F5FADAD3135E3F9B7ADEF92DC20953482541D7",
+          "publicationDate": "1975",
+          "title": "Histologic Types and Possible Initial Stages in Early Gastric Carcinoma"
+        },
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN\" host.editor:\"Springer-Verlag\" host.pages.first:\"154\" publicationDate:\"1975\" host.title:\"Encyclopedia of Plant Physiology Transport in Plants I, Phloem Transport\" \"Berlin, Heidelberg, New York\" host.pages.last:\"170\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lior C. Goldenberg"
+            },
+            {
+              "name": "Ian Hutcheon"
+            },
+            {
+              "name": "Norman Wardlaw"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00134994"
+          ],
+          "host": {
+            "pages": {
+              "first": "129",
+              "last": "145"
+            },
+            "title": "Transport in Porous Media",
+            "volume": "4"
+          },
+          "id": "61A6C525D473AB5D2D639EE865BF9AE2269D499F",
+          "publicationDate": "1987",
+          "title": "Experiments on transport of hydrophobic particles and gas bubbles in porous media"
+        },
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Springer Verlag) host.pages.first:154 publicationDate:1975 host.title:(Encyclopedia of Plant Physiology Transport in Plants Phloem Transport) Berlin Heidelberg York host.pages.last:170",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R\u00fcdiger Wehner"
+            },
+            {
+              "name": "Gary D. Bernard"
+            },
+            {
+              "name": "Esther Geiger"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01379050"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "245"
+            },
+            "title": "Journal of comparative physiology",
+            "volume": "104"
+          },
+          "id": "D0384339C30DB90F4CB2EDBC9A97E133D5E7CF50",
+          "publicationDate": "1975",
+          "title": "Twisted and non-twisted rhabdoms and their significance for polarization detection in the bee"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(ZIMMERMANN MILBURN Springer Verlag) host.pages.first:154 host.title:(Encyclopedia of Plant Physiology Transport in Plants Phloem Transport) Berlin Heidelberg York host.pages.last:170)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R\u00fcdiger Wehner"
+            },
+            {
+              "name": "Gary D. Bernard"
+            },
+            {
+              "name": "Esther Geiger"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01379050"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "245"
+            },
+            "title": "Journal of comparative physiology",
+            "volume": "104"
+          },
+          "id": "D0384339C30DB90F4CB2EDBC9A97E133D5E7CF50",
+          "publicationDate": "1975",
+          "title": "Twisted and non-twisted rhabdoms and their significance for polarization detection in the bee"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(ZIMMERMANN MILBURN Springer Verlag) host.pages.first:154 host.title:(Encyclopedia of Plant Physiology Transport in Plants Phloem Transport) Berlin Heidelberg York host.pages.last:170)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Springer Verlag) AND host.pages.first:154 AND publicationDate:1975 AND host.title:(Encyclopedia of Plant Physiology Transport in Plants Phloem Transport) AND Berlin AND Heidelberg AND York AND host.pages.last:170",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN Springer Verlag) AND host.pages.first:154 AND publicationDate:1975 AND host.title:(Encyclopedia of Plant Physiology Transport in Plants Phloem Transport) AND Berlin AND Heidelberg AND York AND host.pages.last:170",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Dodoo</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Effects of water availability on growth and physiology of Ricinus communis L. Ph. D. Thesis</title>\n  <imprint>\n   <publisher>Univ. Glasgow</publisher>\n   <date type=\"published\" when=\"1978\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K.P. Endres"
+            },
+            {
+              "name": "H. Faulstich"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(11)80630-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "531",
+              "last": "536"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "135"
+          },
+          "id": "C3A2A31E2D72533F026F0C13D4E859F2C5219B75",
+          "publicationDate": "1990",
+          "title": "Triethyllead Inhibits Mitochondrial ATPase of the Endosperm and Sucrose Uptake in the Cotyledons of Ricinus communis"
+        },
+        "lucn_query": "Dodoo G Effects of water availability on growth and physiology of Ricinus communis L. Ph. D. Thesis Univ. Glasgow 1978",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Effects of water availability on growth and physiology of Ricinus communis L. Ph. D. Thesis\" AND host.editor:\"Univ. Glasgow\" AND publicationDate:\"1978\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lothar B\u00f6hm"
+            },
+            {
+              "name": "Dieter F\u00fctterer"
+            },
+            {
+              "name": "Elfriede Kaminski"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1529-8817.1978.tb02474.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "486",
+              "last": "493"
+            },
+            "title": "Journal of Phycology",
+            "volume": "14"
+          },
+          "id": "DAD25F379AA140E9098DE811B72A0B4573FE14C8",
+          "publicationDate": "1978",
+          "title": "ALGAL CALCIFICATION IN SOME CODIACEAE (CHLOROPHYTA): ULTRASTRUCTURE AND LOCATION OF SKELETAL DEPOSITS1,2"
+        },
+        "lucn_query": "host.title:\"Effects of water availability on growth and physiology of Ricinus communis L. Ph. D. Thesis\" host.editor:\"Univ. Glasgow\" publicationDate:\"1978\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-2257.1978.tb00361.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "53",
+              "last": "61"
+            },
+            "title": "Growth and Change",
+            "volume": "9"
+          },
+          "id": "CEAC3654916CF1F9633BEC996EC638934069B8D6",
+          "publicationDate": "1978",
+          "title": "Book Reviews"
+        },
+        "lucn_query": "host.title:(Effects of water availability on growth and physiology of Ricinus communis Ph Thesis) host.editor:(Univ Glasgow) publicationDate:1978",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-2257.1978.tb00361.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "53",
+              "last": "61"
+            },
+            "title": "Growth and Change",
+            "volume": "9"
+          },
+          "id": "CEAC3654916CF1F9633BEC996EC638934069B8D6",
+          "publicationDate": "1978",
+          "title": "Book Reviews"
+        },
+        "lucn_query": "(publicationDate:1978) AND (host.title:(Effects of water availability on growth and physiology of Ricinus communis Ph Thesis) host.editor:(Univ Glasgow))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-2257.1978.tb00361.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "53",
+              "last": "61"
+            },
+            "title": "Growth and Change",
+            "volume": "9"
+          },
+          "id": "CEAC3654916CF1F9633BEC996EC638934069B8D6",
+          "publicationDate": "1978",
+          "title": "Book Reviews"
+        },
+        "lucn_query": "(publicationDate:1978) AND (host.title:(Effects of water availability on growth and physiology of Ricinus communis Ph Thesis) host.editor:(Univ Glasgow))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Effects of water availability on growth and physiology of Ricinus communis Ph Thesis) AND host.editor:(Univ Glasgow) AND publicationDate:1978",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Effects of water availability on growth and physiology of Ricinus communis Ph Thesis) AND host.editor:(Univ Glasgow) AND publicationDate:1978",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Ferrier</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">M</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">T</forename>\n    <surname>Tyree</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Christy</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Canad. J. Bot</title>\n  <imprint>\n   <biblScope unit=\"volume\">53</biblScope>\n   <biblScope unit=\"page\" from=\"1120\" to=\"1127\"></biblScope>\n   <date type=\"published\" when=\"1975\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K.C. Smith"
+            },
+            {
+              "name": "C.E. Magnuson"
+            },
+            {
+              "name": "J.D. Goeschl"
+            },
+            {
+              "name": "D.W. DeMichele"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-5193(80)90348-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "493",
+              "last": "505"
+            },
+            "title": "Journal of Theoretical Biology",
+            "volume": "86"
+          },
+          "id": "5687AAA0002D07410ECF8419764310D06A01235D",
+          "publicationDate": "1980",
+          "title": "A time-dependent mathematical expression of the m\u00fcnch hypothesis of phloem transport"
+        },
+        "lucn_query": "Ferrier J M M T Tyree A L Christy Canad. J. Bot 53 1975 1120 1127",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1120\" AND author.name:\"Tyree\" AND author.name:\"Christy\" AND publicationDate:\"1975\" AND host.title:\"Canad. J. Bot\" AND host.volume:\"53\" AND host.pages.last:\"1127\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Pauline R. Christy"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1901/jaba.1975.8-187"
+          ],
+          "host": {
+            "pages": {
+              "first": "187",
+              "last": "196"
+            },
+            "title": "Journal of Applied Behavior Analysis",
+            "volume": "8"
+          },
+          "id": "19899709D2A02F95B4F4E236D7AFE664CD34C430",
+          "publicationDate": "1975",
+          "title": "DOES USE OF TANGIBLE REWARDS WITH INDIVIDUAL CHILDREN AFFECT PEER OBSERVERS?1"
+        },
+        "lucn_query": "host.pages.first:\"1120\" author.name:\"Tyree\" author.name:\"Christy\" publicationDate:\"1975\" host.title:\"Canad. J. Bot\" host.volume:\"53\" host.pages.last:\"1127\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Pauline R. Christy"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1901/jaba.1975.8-187"
+          ],
+          "host": {
+            "pages": {
+              "first": "187",
+              "last": "196"
+            },
+            "title": "Journal of Applied Behavior Analysis",
+            "volume": "8"
+          },
+          "id": "19899709D2A02F95B4F4E236D7AFE664CD34C430",
+          "publicationDate": "1975",
+          "title": "DOES USE OF TANGIBLE REWARDS WITH INDIVIDUAL CHILDREN AFFECT PEER OBSERVERS?1"
+        },
+        "lucn_query": "host.pages.first:1120 publicationDate:1975 host.volume:53 host.title:(Canad J Bot) host.pages.last:1127 author.name:(Tyree Christy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1975 AND host.volume:53) AND (host.pages.first:1120 host.title:(Canad J Bot) host.pages.last:1127 author.name:(Tyree Christy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.2164-4918.1975.tb04104.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "470",
+              "last": "483"
+            },
+            "title": "The Personnel and Guidance Journal",
+            "volume": "53"
+          },
+          "id": "D89DC49ECB98A449D511A88C297D7CBA6E71BA8A",
+          "publicationDate": "1975",
+          "title": "Book Reviews"
+        },
+        "lucn_query": "(publicationDate:1975 AND host.volume:53) AND (host.pages.first:1120 host.title:(Canad* journal Bot*) host.pages.last:1127 author.name:(Tyree Christy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1120 AND publicationDate:1975 AND host.volume:53 AND host.title:(Canad J Bot) AND host.pages.last:1127 AND author.name:(Tyree Christy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1120 AND publicationDate:1975 AND host.volume:53 AND host.title:(Canad* journal Bot*) AND host.pages.last:1127 AND author.name:(Tyree Christy)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hall</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Kaufmann</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Perspectives of Biophysical Ecology</title>\n  <editor>D. M. GATES and R. B. SCHMERL</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg , New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1975\"></date>\n   <biblScope unit=\"page\" from=\"187\" to=\"202\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Uta Maier-Maercker"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0044-328X(79)80090-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "157",
+              "last": "172"
+            },
+            "title": "Zeitschrift f\u00fcr Pflanzenphysiology",
+            "volume": "91"
+          },
+          "id": "1C75DE74F42901D0B180CF0B53F308DA0B943BF0",
+          "publicationDate": "1979",
+          "title": "\u00abPeristomatal Transpiration\u00bb and Stomatal Movement: A Controversial View"
+        },
+        "lucn_query": "Hall A E M R Kaufmann Perspectives of Biophysical Ecology D. M. GATES and R. B. SCHMERL Berlin, Heidelberg , New York Springer-Verlag 1975 187 202",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"D. M. GATES and R. B. SCHMERL\" AND host.editor:\"Springer-Verlag\" AND host.pages.first:\"187\" AND author.name:\"Kaufmann\" AND publicationDate:\"1975\" AND host.title:\"Perspectives of Biophysical Ecology\" AND \"Berlin, Heidelberg , New York\" AND host.pages.last:\"202\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. Kaufmann"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1439-0442.1985.tb01990.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "683",
+              "last": "698"
+            },
+            "title": "Zentralblatt f\u00fcr Veterin\u00e4rmedizin Reihe A",
+            "volume": "32"
+          },
+          "id": "A85D375EB71E14A2B09B167672D9ED732B7EFF48",
+          "publicationDate": "1985",
+          "title": "Histometrische und enzymhistochemische Untersuchungen zur Pathogenese der Muskelver\u00e4nderungen nach Neurektomie bei wachsenden Schweinen"
+        },
+        "lucn_query": "host.editor:\"D. M. GATES and R. B. SCHMERL\" host.editor:\"Springer-Verlag\" host.pages.first:\"187\" author.name:\"Kaufmann\" publicationDate:\"1975\" host.title:\"Perspectives of Biophysical Ecology\" \"Berlin, Heidelberg , New York\" host.pages.last:\"202\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Michael Kaufmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0378-4347(96)00512-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "347",
+              "last": "369"
+            },
+            "title": "Journal of Chromatography B: Biomedical Sciences and Applications",
+            "volume": "699"
+          },
+          "id": "D96CDB40281CC876B56CE38D70D5930A7E3F1EB4",
+          "publicationDate": "1997",
+          "title": "Unstable proteins: how to subject them to chromatographic separations for purification procedures"
+        },
+        "lucn_query": "host.editor:(GATES SCHMERL Springer Verlag) host.pages.first:187 host.pages.last:202 publicationDate:1975 host.title:(Perspectives of Biophysical Ecology) Berlin Heidelberg York author.name:Kaufmann",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Bayer"
+            },
+            {
+              "name": "R. Hennekes"
+            },
+            {
+              "name": "R. Kaufmann"
+            },
+            {
+              "name": "R. Mannhold"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00499989"
+          ],
+          "host": {
+            "pages": {
+              "first": "49",
+              "last": "68"
+            },
+            "title": "Naunyn-Schmiedeberg's Archives of Pharmacology",
+            "volume": "290"
+          },
+          "id": "316AE55232CB26676AF4A2339A2C36BC4CB3132A",
+          "publicationDate": "1975",
+          "title": "Inotropic and electrophysiological actions of verapamil and D600 in mammalian myocardium"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(GATES SCHMERL Springer Verlag) host.pages.first:187 host.pages.last:202 host.title:(Perspectives of Biophysical Ecology) Berlin Heidelberg York author.name:Kaufmann)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Bayer"
+            },
+            {
+              "name": "R. Hennekes"
+            },
+            {
+              "name": "R. Kaufmann"
+            },
+            {
+              "name": "R. Mannhold"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00499989"
+          ],
+          "host": {
+            "pages": {
+              "first": "49",
+              "last": "68"
+            },
+            "title": "Naunyn-Schmiedeberg's Archives of Pharmacology",
+            "volume": "290"
+          },
+          "id": "316AE55232CB26676AF4A2339A2C36BC4CB3132A",
+          "publicationDate": "1975",
+          "title": "Inotropic and electrophysiological actions of verapamil and D600 in mammalian myocardium"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(GATES SCHMERL Springer Verlag) host.pages.first:187 host.pages.last:202 host.title:(Perspectives* of* Biophysical* Ecology*) Berlin Heidelberg York author.name:Kaufmann)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(GATES SCHMERL Springer Verlag) AND host.pages.first:187 AND host.pages.last:202 AND publicationDate:1975 AND host.title:(Perspectives of Biophysical Ecology) AND Berlin AND Heidelberg AND York AND author.name:Kaufmann",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(GATES SCHMERL Springer Verlag) AND host.pages.first:187 AND host.pages.last:202 AND publicationDate:1975 AND host.title:(Perspectives* of* Biophysical* Ecology*) AND Berlin AND Heidelberg AND York AND author.name:Kaufmann",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hall</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">M</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Baker</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Milburn</surname>\n   </persName>\n  </author>\n  <editor>207. --, and J. A. MILBURN</editor>\n  <imprint>\n   <date type=\"published\" when=\"1971\"></date>\n   <biblScope unit=\"page\" from=\"1\" to=\"10\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hewitt</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Smith</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1975\"></date>\n   <publisher>Plant Mineral Nutrition. The English Univ. Press Ltd</publisher>\n   <pubPlace>London</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Ho</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Peel</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1969\"></date>\n   <publisher>Physio!' Plantarurn</publisher>\n   <biblScope unit=\"page\" from=\"379\" to=\"385\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hoddinott</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Ehret</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Gorham</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Canad. J. Bot</title>\n  <imprint>\n   <biblScope unit=\"volume\">57</biblScope>\n   <biblScope unit=\"page\" from=\"768\" to=\"776\"></biblScope>\n   <date type=\"published\" when=\"1979\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E.J. Daly"
+            },
+            {
+              "name": "John Hoddinott"
+            },
+            {
+              "name": "Mark R.T. Dale"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0269-7491(88)90087-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "151",
+              "last": "163"
+            },
+            "title": "Environmental Pollution",
+            "volume": "52"
+          },
+          "id": "F95AF4BB7759235A920BB25D9EC305EE1A3BF8BE",
+          "publicationDate": "1988",
+          "title": "The effects of oil spill chemicals on carbon translocation rates in Phaseolus vulgaris L."
+        },
+        "lucn_query": "Hoddinott J D L Ehret P R Gorham Canad. J. Bot 57 1979 768 776",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"768\" AND author.name:\"Ehret\" AND author.name:\"Gorham\" AND publicationDate:\"1979\" AND host.title:\"Canad. J. Bot\" AND host.volume:\"57\" AND host.pages.last:\"776\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G\u00fcnter Ehret"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cne.901830107"
+          ],
+          "host": {
+            "pages": {
+              "first": "73",
+              "last": "88"
+            },
+            "title": "Journal of Comparative Neurology",
+            "volume": "183"
+          },
+          "id": "DA51D6C30602F11A67EFAFD76F38F6F7443E7C66",
+          "publicationDate": "1979",
+          "title": "Quantitative analysis of nerve fibre densities in the cochlea of the house mouse (Mus musculus)"
+        },
+        "lucn_query": "host.pages.first:\"768\" author.name:\"Ehret\" author.name:\"Gorham\" publicationDate:\"1979\" host.title:\"Canad. J. Bot\" host.volume:\"57\" host.pages.last:\"776\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G\u00fcnter Ehret"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cne.901830107"
+          ],
+          "host": {
+            "pages": {
+              "first": "73",
+              "last": "88"
+            },
+            "title": "Journal of Comparative Neurology",
+            "volume": "183"
+          },
+          "id": "DA51D6C30602F11A67EFAFD76F38F6F7443E7C66",
+          "publicationDate": "1979",
+          "title": "Quantitative analysis of nerve fibre densities in the cochlea of the house mouse (Mus musculus)"
+        },
+        "lucn_query": "host.pages.first:768 publicationDate:1979 host.volume:57 host.title:(Canad J Bot) host.pages.last:776 author.name:(Ehret Gorham)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Koloini"
+            },
+            {
+              "name": "M. Zumer"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cjce.5450570619"
+          ],
+          "host": {
+            "pages": {
+              "first": "770",
+              "last": "776"
+            },
+            "title": "The Canadian Journal of Chemical Engineering",
+            "volume": "57"
+          },
+          "id": "005C213B884D0F5F5CBEA5DCC40433552D2334D1",
+          "publicationDate": "1979",
+          "title": "Irreversible ion exchange in deep liquid fluidized beds and in series of shallow liquid fluidized beds"
+        },
+        "lucn_query": "(publicationDate:1979 AND host.volume:57) AND (host.pages.first:768 host.title:(Canad J Bot) host.pages.last:776 author.name:(Ehret Gorham))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Kovenklioglu"
+            },
+            {
+              "name": "G. B. Delancey"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cjce.5450570207"
+          ],
+          "host": {
+            "pages": {
+              "first": "165",
+              "last": "175"
+            },
+            "title": "The Canadian Journal of Chemical Engineering",
+            "volume": "57"
+          },
+          "id": "48BD3CAE36ABDD9C6F6ADFE804F349770A0DBEC9",
+          "publicationDate": "1979",
+          "title": "Integral conversion of SO2: Hysteresis and rate discontinuities"
+        },
+        "lucn_query": "(publicationDate:1979 AND host.volume:57) AND (host.pages.first:768 host.title:(Canad* journal Bot*) host.pages.last:776 author.name:(Ehret Gorham))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:768 AND publicationDate:1979 AND host.volume:57 AND host.title:(Canad J Bot) AND host.pages.last:776 AND author.name:(Ehret Gorham)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:768 AND publicationDate:1979 AND host.volume:57 AND host.title:(Canad* journal Bot*) AND host.pages.last:776 AND author.name:(Ehret Gorham)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hsiao</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">C</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann. Rev. Plant Physio!'</title>\n  <imprint>\n   <biblScope unit=\"volume\">24</biblScope>\n   <biblScope unit=\"page\" from=\"519\" to=\"570\"></biblScope>\n   <date type=\"published\" when=\"1973\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Luiz G.R. Ferreira"
+            },
+            {
+              "name": "Jos\u00e9 G. De Souza"
+            },
+            {
+              "name": "Jos\u00e9 T. Prisco"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0044-328X(79)80197-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "189",
+              "last": "199"
+            },
+            "title": "Zeitschrift f\u00fcr Pflanzenphysiology",
+            "volume": "93"
+          },
+          "id": "29B702453A735E88CDD0D764CDA71F99238A69CC",
+          "publicationDate": "1979",
+          "title": "Effects of Water Deficit on Proline Accumulation and Growth of two Cotton Genotypes of Different Drought Resistances"
+        },
+        "lucn_query": "Hsiao T C Ann. Rev. Plant Physio!' 24 1973 519 570",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Ann. Rev. Plant Physio!'\" AND host.pages.first:\"519\" AND host.volume:\"24\" AND host.pages.last:\"570\" AND publicationDate:\"1973\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William R. Michael"
+            },
+            {
+              "name": "Jubran M. Wakim"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0041-008X(73)90213-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "519",
+              "last": "529"
+            },
+            "title": "Toxicology and Applied Pharmacology",
+            "volume": "24"
+          },
+          "id": "B0E08F9CD0AF3D6624B9C332315EA280AB5C10C4",
+          "publicationDate": "1973",
+          "title": "Effect of trisodium nitrilotriacetate (Na3NTA) on the metabolism of selected metal ions"
+        },
+        "lucn_query": "host.title:\"Ann. Rev. Plant Physio!'\" host.pages.first:\"519\" host.volume:\"24\" host.pages.last:\"570\" publicationDate:\"1973\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Z. Zhu"
+            },
+            {
+              "name": "J. Gerend\u00e1s"
+            },
+            {
+              "name": "R. Bendixen"
+            },
+            {
+              "name": "K. Schinner"
+            },
+            {
+              "name": "H. Tabrizi"
+            },
+            {
+              "name": "B. Sattelmacher"
+            },
+            {
+              "name": "U\u2010P. Hansen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1055/s-2000-7498"
+          ],
+          "host": {
+            "pages": {
+              "first": "558",
+              "last": "570"
+            },
+            "title": "Plant Biology",
+            "volume": "2"
+          },
+          "id": "F60DD6B478708D0732B8312A0993214914EEB99E",
+          "publicationDate": "2000",
+          "title": "Different Tolerance to Light Stress in NO3\u2212\u2010 and NH4+\u2010Grown Phaseolus vulgaris L."
+        },
+        "lucn_query": "host.title:(Ann Rev Plant Physio) publicationDate:1973 host.pages.first:519 host.pages.last:570 host.volume:24",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William R. Michael"
+            },
+            {
+              "name": "Jubran M. Wakim"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0041-008X(73)90213-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "519",
+              "last": "529"
+            },
+            "title": "Toxicology and Applied Pharmacology",
+            "volume": "24"
+          },
+          "id": "B0E08F9CD0AF3D6624B9C332315EA280AB5C10C4",
+          "publicationDate": "1973",
+          "title": "Effect of trisodium nitrilotriacetate (Na3NTA) on the metabolism of selected metal ions"
+        },
+        "lucn_query": "(publicationDate:1973 AND host.volume:24) AND (host.title:(Ann Rev Plant Physio) host.pages.first:519 host.pages.last:570)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William R. Michael"
+            },
+            {
+              "name": "Jubran M. Wakim"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0041-008X(73)90213-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "519",
+              "last": "529"
+            },
+            "title": "Toxicology and Applied Pharmacology",
+            "volume": "24"
+          },
+          "id": "B0E08F9CD0AF3D6624B9C332315EA280AB5C10C4",
+          "publicationDate": "1973",
+          "title": "Effect of trisodium nitrilotriacetate (Na3NTA) on the metabolism of selected metal ions"
+        },
+        "lucn_query": "(publicationDate:1973 AND host.volume:24) AND (host.title:(Ann* Rev* Plant* Physio*) host.pages.first:519 host.pages.last:570)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann Rev Plant Physio) AND publicationDate:1973 AND host.pages.first:519 AND host.pages.last:570 AND host.volume:24",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann* Rev* Plant* Physio*) AND publicationDate:1973 AND host.pages.first:519 AND host.pages.last:570 AND host.volume:24",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Ishihara</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Hirasawa</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Plant Cell Physio!'</title>\n  <imprint>\n   <biblScope unit=\"volume\">19</biblScope>\n   <biblScope unit=\"page\" from=\"1289\" to=\"1294\"></biblScope>\n   <date type=\"published\" when=\"1978\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "OSAMU UENO"
+            },
+            {
+              "name": "YUKIKO KAWANO"
+            },
+            {
+              "name": "MASATAKA WAKAYAMA"
+            },
+            {
+              "name": "TOMOSHIRO TAKEDA"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/aob/mcl010"
+          ],
+          "host": {
+            "pages": {
+              "first": "611",
+              "last": "621"
+            },
+            "title": "Annals of Botany",
+            "volume": "97"
+          },
+          "id": "BD7129D9FA2948944FCD518BB5906E15A99AED3A",
+          "publicationDate": "2006",
+          "title": "Leaf Vascular Systems in C3 and C4 Grasses: A Two-dimensional Analysis"
+        },
+        "lucn_query": "Ishihara K T Hirasawa Plant Cell Physio!' 19 1978 1289 1294",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1289\" AND author.name:\"Hirasawa\" AND publicationDate:\"1978\" AND host.title:\"Plant Cell Physio!'\" AND host.volume:\"19\" AND host.pages.last:\"1294\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "host.pages.first:\"1289\" author.name:\"Hirasawa\" publicationDate:\"1978\" host.title:\"Plant Cell Physio!'\" host.volume:\"19\" host.pages.last:\"1294\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "host.pages.first:1289 publicationDate:1978 host.volume:19 host.title:(Plant Cell Physio) host.pages.last:1294 author.name:Hirasawa",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "(publicationDate:1978 AND host.volume:19) AND (host.pages.first:1289 host.title:(Plant Cell Physio) host.pages.last:1294 author.name:Hirasawa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "(publicationDate:1978 AND host.volume:19) AND (host.pages.first:1289 host.title:(Plant* Cell* Physio*) host.pages.last:1294 author.name:Hirasawa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "host.pages.first:1289 AND publicationDate:1978 AND host.volume:19 AND host.title:(Plant Cell Physio) AND host.pages.last:1294 AND author.name:Hirasawa",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kuni Ishihara"
+            },
+            {
+              "name": "Tadashi Hirasawa"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a075710"
+          ],
+          "host": {
+            "pages": {
+              "first": "1289",
+              "last": "1294"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "19"
+          },
+          "id": "A3FC14991969E615B6397BE38AFE52DEEDB5DF4A",
+          "publicationDate": "1978",
+          "title": "Relationship between leaf and xylem water potentials in rice plants"
+        },
+        "lucn_query": "host.pages.first:1289 AND publicationDate:1978 AND host.volume:19 AND host.title:(Plant* Cell* Physio*) AND host.pages.last:1294 AND author.name:Hirasawa",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Milburn</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">A</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology</title>\n  <editor>M. H. ZIMMERMANN and J. A. MILBURN M. H. ZIMMERMANN</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg, New York. , and</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag</publisher>\n   <date type=\"published\" when=\"1972\"></date>\n   <biblScope unit=\"page\" from=\"653\" to=\"665\"></biblScope>\n  </imprint>\n </monogr>\n <note>Transport. in Plants I</note>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "JOHN A. MILBURN"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1006/anbo.1996.0135"
+          ],
+          "host": {
+            "pages": {
+              "first": "399",
+              "last": "407"
+            },
+            "title": "Annals of Botany",
+            "volume": "78"
+          },
+          "id": "77EFBC4A7A2D832B4E1467975E1B36A7817D845A",
+          "publicationDate": "1996",
+          "title": "Sap Ascent in Vascular Plants: Challengers to the Cohesion Theory Ignore the Significance of Immature Xylem and the Recycling of Mu\u0308nch Water"
+        },
+        "lucn_query": "Milburn J A Encyclopedia of Plant Physiology M. H. ZIMMERMANN and J. A. MILBURN M. H. ZIMMERMANN Berlin, Heidelberg, New York. , and Springer-Verlag Transport. in Plants I 1972 653 665",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN M. H. ZIMMERMANN\" AND host.editor:\"Springer-Verlag\" AND host.pages.first:\"653\" AND publicationDate:\"1972\" AND host.title:\"Encyclopedia of Plant Physiology\" AND \"Berlin, Heidelberg, New York. , and\" AND \"Transport. in Plants I\" AND host.pages.last:\"665\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John A. Milburn"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ps.2780030517"
+          ],
+          "host": {
+            "pages": {
+              "first": "653",
+              "last": "665"
+            },
+            "title": "Pesticide Science",
+            "volume": "3"
+          },
+          "id": "4D64F52EA6C755FDBB1897646900FC84E286C299",
+          "publicationDate": "1972",
+          "title": "Phloem transport in Ricinus"
+        },
+        "lucn_query": "host.editor:\"M. H. ZIMMERMANN and J. A. MILBURN M. H. ZIMMERMANN\" host.editor:\"Springer-Verlag\" host.pages.first:\"653\" publicationDate:\"1972\" host.title:\"Encyclopedia of Plant Physiology\" \"Berlin, Heidelberg, New York. , and\" \"Transport. in Plants I\" host.pages.last:\"665\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gisela M\u00e4ck"
+            },
+            {
+              "name": "Rudolf Tischner"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(11)81198-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "351",
+              "last": "357"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "144"
+          },
+          "id": "B2CE2385F6C0AD03A349B73C94EB13E013201C76",
+          "publicationDate": "1994",
+          "title": "Constitutive and Inducible net NH+4 Uptake of Barley (Hordeum vulgare L.) Seedlings"
+        },
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN ZIMMERMANN Springer Verlag) host.pages.first:653 publicationDate:1972 host.title:(Encyclopedia of Plant Physiology) Berlin Heidelberg York Transport Plants host.pages.last:665",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Horst Senger"
+            },
+            {
+              "name": "Norman I. Bishop"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.pcp.a074776"
+          ],
+          "host": {
+            "pages": {
+              "first": "633",
+              "last": "649"
+            },
+            "title": "Plant and Cell Physiology",
+            "volume": "13"
+          },
+          "id": "EF2421D296C7602CB552A0A6E1CA89EB01EA1DB7",
+          "publicationDate": "1972",
+          "title": "The development of structure and function in chloroplasts of greening mutants of Scenedesmus I. Formation of chlorophyll1"
+        },
+        "lucn_query": "(publicationDate:1972) AND (host.editor:(ZIMMERMANN MILBURN ZIMMERMANN Springer Verlag) host.pages.first:653 host.title:(Encyclopedia of Plant Physiology) Berlin Heidelberg York Transport Plants host.pages.last:665)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John A. Milburn"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ps.2780030517"
+          ],
+          "host": {
+            "pages": {
+              "first": "653",
+              "last": "665"
+            },
+            "title": "Pesticide Science",
+            "volume": "3"
+          },
+          "id": "4D64F52EA6C755FDBB1897646900FC84E286C299",
+          "publicationDate": "1972",
+          "title": "Phloem transport in Ricinus"
+        },
+        "lucn_query": "(publicationDate:1972) AND (host.editor:(ZIMMERMANN MILBURN ZIMMERMANN Springer Verlag) host.pages.first:653 host.title:(Encyclopedia* of* Plant* Physiology*) Berlin Heidelberg York Transport Plants host.pages.last:665)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN ZIMMERMANN Springer Verlag) AND host.pages.first:653 AND publicationDate:1972 AND host.title:(Encyclopedia of Plant Physiology) AND Berlin AND Heidelberg AND York AND Transport AND Plants AND host.pages.last:665",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ZIMMERMANN MILBURN ZIMMERMANN Springer Verlag) AND host.pages.first:653 AND publicationDate:1972 AND host.title:(Encyclopedia* of* Plant* Physiology*) AND Berlin AND Heidelberg AND York AND Transport AND Plants AND host.pages.last:665",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Moorby</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Munns</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Walcott</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Austral. J. Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">2</biblScope>\n   <biblScope unit=\"page\" from=\"323\" to=\"333\"></biblScope>\n   <date type=\"published\" when=\"1975\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b17",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Mares"
+            },
+            {
+              "name": "Dr. Marschner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1980.tb03341.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "299",
+              "last": "313"
+            },
+            "title": "Berichte der Deutschen Botanischen Gesellschaft",
+            "volume": "93"
+          },
+          "id": "D4BD7FA2F0329A4995EC1ED15ACBE7F4E0E03EB8",
+          "publicationDate": "1980",
+          "title": "Assimilate Conversion in Potato Tubers in Relation to Starch Deposition and Cell Growth"
+        },
+        "lucn_query": "Moorby J R Munns J Walcott Austral. J. Plant Physiol 2 1975 323 333",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"323\" AND author.name:\"Munns\" AND author.name:\"Walcott\" AND publicationDate:\"1975\" AND host.title:\"Austral. J. Plant Physiol\" AND host.volume:\"2\" AND host.pages.last:\"333\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.I. Walcott"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0033-5894(72)90001-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "14"
+            },
+            "title": "Quaternary Research",
+            "volume": "2"
+          },
+          "id": "803A69C6CB38B9A50B9690021513AC8632184ACC",
+          "publicationDate": "1972",
+          "title": "Past sea levels, eustasy and deformation of the earth"
+        },
+        "lucn_query": "host.pages.first:\"323\" author.name:\"Munns\" author.name:\"Walcott\" publicationDate:\"1975\" host.title:\"Austral. J. Plant Physiol\" host.volume:\"2\" host.pages.last:\"333\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. N. Munns"
+            },
+            {
+              "name": "R. L. Fox"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00015912"
+          ],
+          "host": {
+            "pages": {
+              "first": "533",
+              "last": "548"
+            },
+            "title": "Plant and Soil",
+            "volume": "46"
+          },
+          "id": "F92254590D4D89E1246CC8CCF69A1ED3681067C0",
+          "publicationDate": "1975",
+          "title": "Comparative lime requirements of tropical and temperate legumes"
+        },
+        "lucn_query": "host.pages.first:323 publicationDate:1975 host.volume:2 host.title:(Austral J Plant Physiol) host.pages.last:333 author.name:(Munns Walcott)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Gross"
+            },
+            {
+              "name": "R. Dietz"
+            },
+            {
+              "name": "G. J. Mast"
+            },
+            {
+              "name": "M. Szokol"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1681.1975.tb01839.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "333"
+            },
+            "title": "Clinical and Experimental Pharmacology and Physiology",
+            "volume": "2"
+          },
+          "id": "9FCE5FF108668BDCACEECB41566DAE9501C11D8C",
+          "publicationDate": "1975",
+          "title": "Salt loss as a possible mechanism eliciting an acute malignant phase in renal hypertensive rats"
+        },
+        "lucn_query": "(publicationDate:1975 AND host.volume:2) AND (host.pages.first:323 host.title:(Austral J Plant Physiol) host.pages.last:333 author.name:(Munns Walcott))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Gross"
+            },
+            {
+              "name": "R. Dietz"
+            },
+            {
+              "name": "G. J. Mast"
+            },
+            {
+              "name": "M. Szokol"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1681.1975.tb01839.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "333"
+            },
+            "title": "Clinical and Experimental Pharmacology and Physiology",
+            "volume": "2"
+          },
+          "id": "9FCE5FF108668BDCACEECB41566DAE9501C11D8C",
+          "publicationDate": "1975",
+          "title": "Salt loss as a possible mechanism eliciting an acute malignant phase in renal hypertensive rats"
+        },
+        "lucn_query": "(publicationDate:1975 AND host.volume:2) AND (host.pages.first:323 host.title:(Austral* journal Plant* Physiol*) host.pages.last:333 author.name:(Munns Walcott))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:323 AND publicationDate:1975 AND host.volume:2 AND host.title:(Austral J Plant Physiol) AND host.pages.last:333 AND author.name:(Munns Walcott)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:323 AND publicationDate:1975 AND host.volume:2 AND host.title:(Austral* journal Plant* Physiol*) AND host.pages.last:333 AND author.name:(Munns Walcott)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b18\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Munns</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Pearson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"page\" from=\"529\" to=\"537\"></biblScope>\n   <date type=\"published\" when=\"1974\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b18",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Olaf Wolf"
+            },
+            {
+              "name": "W. Dieter Jeschke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0176-1617(87)80122-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "371",
+              "last": "386"
+            },
+            "title": "Journal of Plant Physiology",
+            "volume": "128"
+          },
+          "id": "C0CCD021F4706F0EC5B063661D40E2FD5B5DCBCC",
+          "publicationDate": "1987",
+          "title": "Modeling of Sodium and Potassium Flows via Phloem and Xylem in the Shoot of Salt-stressed Barley"
+        },
+        "lucn_query": "Munns R C J Pearson J. Plant Physiol 1 1974 529 537",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"529\" AND author.name:\"Pearson\" AND publicationDate:\"1974\" AND host.title:\"J. Plant Physiol\" AND host.volume:\"1\" AND host.pages.last:\"537\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Koropatnick"
+            },
+            {
+              "name": "J. Pearson"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01233093"
+          ],
+          "host": {
+            "pages": {
+              "first": "529",
+              "last": "537"
+            },
+            "title": "Somatic Cell and Molecular Genetics",
+            "volume": "16"
+          },
+          "id": "324173CB7CA28225308D2ED5BF550A9B9E9B2B31",
+          "publicationDate": "1990",
+          "title": "Zinc treatment, metallothionein expression, and resistance to cisplatin in mouse melanoma cells"
+        },
+        "lucn_query": "host.pages.first:\"529\" author.name:\"Pearson\" publicationDate:\"1974\" host.title:\"J. Plant Physiol\" host.volume:\"1\" host.pages.last:\"537\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Koropatnick"
+            },
+            {
+              "name": "J. Pearson"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01233093"
+          ],
+          "host": {
+            "pages": {
+              "first": "529",
+              "last": "537"
+            },
+            "title": "Somatic Cell and Molecular Genetics",
+            "volume": "16"
+          },
+          "id": "324173CB7CA28225308D2ED5BF550A9B9E9B2B31",
+          "publicationDate": "1990",
+          "title": "Zinc treatment, metallothionein expression, and resistance to cisplatin in mouse melanoma cells"
+        },
+        "lucn_query": "host.pages.first:529 publicationDate:1974 host.volume:1 host.title:(J Plant Physiol) host.pages.last:537 author.name:Pearson",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Caroline M. Knowles"
+            },
+            {
+              "name": "Ellen M. Pearson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0093-061X(74)90017-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "241",
+              "last": "250"
+            },
+            "title": "Government Publications Review",
+            "volume": "1"
+          },
+          "id": "A774737BB523E8E61D0B686B61AB9EB0A07E5759",
+          "publicationDate": "1974",
+          "title": "The documentation centre of the University of Guelph Library (Its functions and position within the library organization)"
+        },
+        "lucn_query": "(publicationDate:1974 AND host.volume:1) AND (host.pages.first:529 host.title:(J Plant Physiol) host.pages.last:537 author.name:Pearson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Caroline M. Knowles"
+            },
+            {
+              "name": "Ellen M. Pearson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0093-061X(74)90017-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "241",
+              "last": "250"
+            },
+            "title": "Government Publications Review",
+            "volume": "1"
+          },
+          "id": "A774737BB523E8E61D0B686B61AB9EB0A07E5759",
+          "publicationDate": "1974",
+          "title": "The documentation centre of the University of Guelph Library (Its functions and position within the library organization)"
+        },
+        "lucn_query": "(publicationDate:1974 AND host.volume:1) AND (host.pages.first:529 host.title:(journal Plant* Physiol*) host.pages.last:537 author.name:Pearson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:529 AND publicationDate:1974 AND host.volume:1 AND host.title:(J Plant Physiol) AND host.pages.last:537 AND author.name:Pearson",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:529 AND publicationDate:1974 AND host.volume:1 AND host.title:(journal Plant* Physiol*) AND host.pages.last:537 AND author.name:Pearson",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b19\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Passioura</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">B</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Ashford</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Austral. J. Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"page\" from=\"521\" to=\"527\"></biblScope>\n   <date type=\"published\" when=\"1974\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b19",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. B. Passioura"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1991.tb00250.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "405",
+              "last": "411"
+            },
+            "title": "Botanica Acta",
+            "volume": "104"
+          },
+          "id": "4569CE3D251DEBB390246E590AC63DFDEFE321BC",
+          "publicationDate": "1991",
+          "title": "An Impasse in Plant Water Relations?"
+        },
+        "lucn_query": "Passioura J B A E Ashford Austral. J. Plant Physiol 1 1974 521 527",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"521\" AND author.name:\"Ashford\" AND publicationDate:\"1974\" AND host.title:\"Austral. J. Plant Physiol\" AND host.volume:\"1\" AND host.pages.last:\"527\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. E. Ashford"
+            },
+            {
+              "name": "J. V. Jacobsen"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00388273"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "105"
+            },
+            "title": "Planta",
+            "volume": "120"
+          },
+          "id": "77E25ED864111EF8673F71DCE675E4D13EA94524",
+          "publicationDate": "1974",
+          "title": "Cytochemical localization of phosphatase in barley aleurone cells: The pathway of gibberellic-acid-induced enzyme release"
+        },
+        "lucn_query": "host.pages.first:\"521\" author.name:\"Ashford\" publicationDate:\"1974\" host.title:\"Austral. J. Plant Physiol\" host.volume:\"1\" host.pages.last:\"527\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. E. Ashford"
+            },
+            {
+              "name": "J. V. Jacobsen"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00388273"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "105"
+            },
+            "title": "Planta",
+            "volume": "120"
+          },
+          "id": "77E25ED864111EF8673F71DCE675E4D13EA94524",
+          "publicationDate": "1974",
+          "title": "Cytochemical localization of phosphatase in barley aleurone cells: The pathway of gibberellic-acid-induced enzyme release"
+        },
+        "lucn_query": "host.pages.first:521 publicationDate:1974 host.volume:1 host.title:(Austral J Plant Physiol) host.pages.last:527 author.name:Ashford",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Donald R. Farris"
+            },
+            {
+              "name": "James L. Melsa"
+            },
+            {
+              "name": "David L. Cohn"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0045-7906(74)90006-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "521",
+              "last": "536"
+            },
+            "title": "Computers and Electrical Engineering",
+            "volume": "1"
+          },
+          "id": "1A2EADA86EB0BD4673970F6899A0E7990152FD88",
+          "publicationDate": "1974",
+          "title": "A modem for remote hybrid computer terminals\u2014Design and applications"
+        },
+        "lucn_query": "(publicationDate:1974 AND host.volume:1) AND (host.pages.first:521 host.title:(Austral J Plant Physiol) host.pages.last:527 author.name:Ashford)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K.\u2010E. MARK\u00c9N"
+            },
+            {
+              "name": "P.\u2010G. L\u00d6FBERG"
+            },
+            {
+              "name": "B. HEDEG\u00c5RD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2842.1974.tb01484.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "419"
+            },
+            "title": "Journal of Oral Rehabilitation",
+            "volume": "1"
+          },
+          "id": "939488BE9789EB5EAF8368018AA0A5D0E1706314",
+          "publicationDate": "1974",
+          "title": "Clinical review of patients with fixed bridges (2)*\u2020"
+        },
+        "lucn_query": "(publicationDate:1974 AND host.volume:1) AND (host.pages.first:521 host.title:(Austral* journal Plant* Physiol*) host.pages.last:527 author.name:Ashford)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:521 AND publicationDate:1974 AND host.volume:1 AND host.title:(Austral J Plant Physiol) AND host.pages.last:527 AND author.name:Ashford",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:521 AND publicationDate:1974 AND host.volume:1 AND host.title:(Austral* journal Plant* Physiol*) AND host.pages.last:527 AND author.name:Ashford",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b20\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Peel</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Weatherley</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Nature Ann. Bot</title>\n  <imprint>\n   <biblScope unit=\"volume\">184</biblScope>\n   <biblScope unit=\"issue\">26</biblScope>\n   <biblScope unit=\"page\" from=\"633\" to=\"646\"></biblScope>\n   <date type=\"published\" when=\"1955\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b20",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Shelagh M. Hall"
+            },
+            {
+              "name": "J. A. Milburn"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00385448"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "10"
+            },
+            "title": "Planta",
+            "volume": "109"
+          },
+          "id": "30907E733B57C6A9B5BC217ECEFF7FEC221E7C94",
+          "publicationDate": "1972",
+          "title": "Phloem transport in Ricinus : Its dependence on the water balance of the tissues"
+        },
+        "lucn_query": "Peel A J P E Weatherley Nature Ann. Bot 184 26 1955 633 646",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:\"26\" AND host.pages.first:\"633\" AND host.pages.last:\"646\" AND publicationDate:\"1955\" AND host.title:\"Nature Ann. Bot\" AND host.volume:\"184\" AND author.name:\"Weatherley\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. J. PEEL"
+            },
+            {
+              "name": "P. E. WEATHERLEY"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aob.a083822"
+          ],
+          "host": {
+            "pages": {
+              "first": "633",
+              "last": "646"
+            },
+            "title": "Annals of Botany",
+            "volume": "26"
+          },
+          "id": "D9A7A2F1F229DC24D0A34C86B7A9CF80E8247F1D",
+          "publicationDate": "1962",
+          "title": "Studies in Sieve-tube Exudation through Aphid Mouth-parts: The Effects of Light and Girdling1"
+        },
+        "lucn_query": "host.issue:\"26\" host.pages.first:\"633\" host.pages.last:\"646\" publicationDate:\"1955\" host.title:\"Nature Ann. Bot\" host.volume:\"184\" author.name:\"Weatherley\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. J. PEEL"
+            },
+            {
+              "name": "P. E. WEATHERLEY"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aob.a083822"
+          ],
+          "host": {
+            "pages": {
+              "first": "633",
+              "last": "646"
+            },
+            "title": "Annals of Botany",
+            "volume": "26"
+          },
+          "id": "D9A7A2F1F229DC24D0A34C86B7A9CF80E8247F1D",
+          "publicationDate": "1962",
+          "title": "Studies in Sieve-tube Exudation through Aphid Mouth-parts: The Effects of Light and Girdling1"
+        },
+        "lucn_query": "host.issue:26 host.pages.first:633 author.name:Weatherley host.volume:184 publicationDate:1955 host.title:(Nature Ann Bot) host.pages.last:646",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:184 AND publicationDate:1955) AND (host.issue:26 host.pages.first:633 author.name:Weatherley host.title:(Nature Ann Bot) host.pages.last:646)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:184 AND publicationDate:1955) AND (host.issue:26 host.pages.first:633 author.name:Weatherley host.title:(Nature* Ann* Bot*) host.pages.last:646)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:26 AND host.pages.first:633 AND author.name:Weatherley AND host.volume:184 AND publicationDate:1955 AND host.title:(Nature Ann Bot) AND host.pages.last:646",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:26 AND host.pages.first:633 AND author.name:Weatherley AND host.volume:184 AND publicationDate:1955 AND host.title:(Nature* Ann* Bot*) AND host.pages.last:646",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b21\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Philip</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">R</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">33</biblScope>\n   <biblScope unit=\"page\" from=\"264\" to=\"271\"></biblScope>\n   <date type=\"published\" when=\"1958\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b21",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. T. Lill"
+            },
+            {
+              "name": "R. J. Marquis"
+            },
+            {
+              "name": "R. E. Ricklefs"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/417170a"
+          ],
+          "host": {
+            "pages": {
+              "first": "170",
+              "last": "173"
+            },
+            "title": "Nature",
+            "volume": "417"
+          },
+          "id": "D6CDE81310646482E24BA6E66E0E3DA8282A709F",
+          "publicationDate": "2002",
+          "title": "Host plants influence parasitism of forest caterpillars"
+        },
+        "lucn_query": "Philip J R Plant Physiol 33 1958 264 271",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"Plant Physiol\" AND host.pages.first:\"264\" AND host.volume:\"33\" AND host.pages.last:\"271\" AND publicationDate:\"1958\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Andrew M. Standeven"
+            },
+            {
+              "name": "Richard L. Beard"
+            },
+            {
+              "name": "Alan T. Johnson"
+            },
+            {
+              "name": "Marcus F. Boehm"
+            },
+            {
+              "name": "Maria Escobar"
+            },
+            {
+              "name": "Richard A. Heyman"
+            },
+            {
+              "name": "Roshantha A.S. Chandraratna"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/faat.1996.0164"
+          ],
+          "host": {
+            "pages": {
+              "first": "264",
+              "last": "271"
+            },
+            "title": "Fundamental and Applied Toxicology",
+            "volume": "33"
+          },
+          "id": "7DD7A2EEE8782699D139351BEAB3A20D52ED6E21",
+          "publicationDate": "1996",
+          "title": "Retinoid-Induced Hypertriglyceridemia in Rats Is Mediated by Retinoic Acid Receptors"
+        },
+        "lucn_query": "host.title:\"Plant Physiol\" host.pages.first:\"264\" host.volume:\"33\" host.pages.last:\"271\" publicationDate:\"1958\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. Wiese"
+            },
+            {
+              "name": "U. Heber"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1055/s-2001-15200"
+          ],
+          "host": {
+            "pages": {
+              "first": "263",
+              "last": "271"
+            },
+            "title": "Plant Biology",
+            "volume": "3"
+          },
+          "id": "48C3ACF9D3564A1F8B2B9375DA7CB31BAE92735B",
+          "publicationDate": "2001",
+          "title": "Seasonal Changes in the Photosynthetic Efficiency of Thuja occidentalis (L.) and Chamaecyparis lawsonia (A. Murray bis.)"
+        },
+        "lucn_query": "host.title:(Plant Physiol) publicationDate:1958 host.pages.first:264 host.pages.last:271 host.volume:33",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Bueche"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pol.1958.1203312625"
+          ],
+          "host": {
+            "pages": {
+              "first": "259",
+              "last": "271"
+            },
+            "title": "Journal of Polymer Science",
+            "volume": "33"
+          },
+          "id": "1F1407373AF1523B17CF97B5E548640B01CB6C11",
+          "publicationDate": "1958",
+          "title": "Tensile strength of filled GR\u2010S vulcanizates"
+        },
+        "lucn_query": "(publicationDate:1958 AND host.volume:33) AND (host.title:(Plant Physiol) host.pages.first:264 host.pages.last:271)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Bueche"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pol.1958.1203312625"
+          ],
+          "host": {
+            "pages": {
+              "first": "259",
+              "last": "271"
+            },
+            "title": "Journal of Polymer Science",
+            "volume": "33"
+          },
+          "id": "1F1407373AF1523B17CF97B5E548640B01CB6C11",
+          "publicationDate": "1958",
+          "title": "Tensile strength of filled GR\u2010S vulcanizates"
+        },
+        "lucn_query": "(publicationDate:1958 AND host.volume:33) AND (host.title:(Plant* Physiol*) host.pages.first:264 host.pages.last:271)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Plant Physiol) AND publicationDate:1958 AND host.pages.first:264 AND host.pages.last:271 AND host.volume:33",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Plant* Physiol*) AND publicationDate:1958 AND host.pages.first:264 AND host.pages.last:271 AND host.volume:33",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b22\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Plaut</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Z</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Reinhold</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Austral. J. bioI. Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">20</biblScope>\n   <biblScope unit=\"page\" from=\"297\" to=\"307\"></biblScope>\n   <date type=\"published\" when=\"1967\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b22",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yoichi Nakamura"
+            },
+            {
+              "name": "Mitsunobu Tatsumoto"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0016-7037(88)90157-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "2909",
+              "last": "2924"
+            },
+            "title": "Geochimica et Cosmochimica Acta",
+            "volume": "52"
+          },
+          "id": "7AB3EB29EBAD98561CBC56FA9036987A84E1DB5C",
+          "publicationDate": "1988",
+          "title": "Pb, Nd, and Sr isotopic evidence for a multicomponent source for rocks of Cook-Austral Islands and heterogeneities of mantle plumes"
+        },
+        "lucn_query": "Plaut Z L Reinhold Austral. J. bioI. Sci 20 1967 297 307",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"297\" AND author.name:\"Reinhold\" AND publicationDate:\"1967\" AND host.title:\"Austral. J. bioI. Sci\" AND host.volume:\"20\" AND host.pages.last:\"307\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reinhold Heckmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)80079-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "308"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "20"
+          },
+          "id": "1647B06355043434ED950F512E1089EA480C95F1",
+          "publicationDate": "2000",
+          "title": "Completeness Classes of Equilogical Spaces"
+        },
+        "lucn_query": "host.pages.first:\"297\" author.name:\"Reinhold\" publicationDate:\"1967\" host.title:\"Austral. J. bioI. Sci\" host.volume:\"20\" host.pages.last:\"307\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reinhold Heckmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)80079-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "308"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "20"
+          },
+          "id": "1647B06355043434ED950F512E1089EA480C95F1",
+          "publicationDate": "2000",
+          "title": "Completeness Classes of Equilogical Spaces"
+        },
+        "lucn_query": "host.pages.first:297 publicationDate:1967 host.volume:20 host.title:(Austral J bioI Sci) host.pages.last:307 author.name:Reinhold",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "FRANK FRIEDLANDER"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1744-6570.1967.tb01525.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "289",
+              "last": "307"
+            },
+            "title": "Personnel Psychology",
+            "volume": "20"
+          },
+          "id": "F23FDF520F65345409B350A4F604B71DA11986BB",
+          "publicationDate": "1967",
+          "title": "THE IMPACT OF ORGANIZATIONAL TRAINING LABORATORIES UPON THE EFFECTIVENESS AND INTERACTION OF ONGOING WORK GROUPS"
+        },
+        "lucn_query": "(publicationDate:1967 AND host.volume:20) AND (host.pages.first:297 host.title:(Austral J bioI Sci) host.pages.last:307 author.name:Reinhold)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. A. C. Thomas"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2044-8317.1967.tb00375.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "29"
+            },
+            "title": "British Journal of Mathematical and Statistical Psychology",
+            "volume": "20"
+          },
+          "id": "8512FDAB44CE44172020F0170313B635AB881822",
+          "publicationDate": "1967",
+          "title": "REACTION\u2010TIME STUDIES: THE ANTICIPATION AND INTERACTION OF RESPONSES"
+        },
+        "lucn_query": "(publicationDate:1967 AND host.volume:20) AND (host.pages.first:297 host.title:(Austral* journal bioI* Sci*) host.pages.last:307 author.name:Reinhold)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:297 AND publicationDate:1967 AND host.volume:20 AND host.title:(Austral J bioI Sci) AND host.pages.last:307 AND author.name:Reinhold",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:297 AND publicationDate:1967 AND host.volume:20 AND host.title:(Austral* journal bioI* Sci*) AND host.pages.last:307 AND author.name:Reinhold",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b23\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Reinhold</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Phloem Transport</title>\n  <editor>S. ARONOFF, ]. DAINTY, P. R. GORHAM, L. M. SRIVASTAVA, and C A. SWANSON</editor>\n  <meeting><address><addrLine>New York, London</addrLine></address></meeting>\n  <imprint>\n   <publisher>Plenum Press</publisher>\n   <date type=\"published\" when=\"1975\"></date>\n   <biblScope unit=\"page\" from=\"367\" to=\"388\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b23",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yoichi Nakamura"
+            },
+            {
+              "name": "Mitsunobu Tatsumoto"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0016-7037(88)90157-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "2909",
+              "last": "2924"
+            },
+            "title": "Geochimica et Cosmochimica Acta",
+            "volume": "52"
+          },
+          "id": "7AB3EB29EBAD98561CBC56FA9036987A84E1DB5C",
+          "publicationDate": "1988",
+          "title": "Pb, Nd, and Sr isotopic evidence for a multicomponent source for rocks of Cook-Austral Islands and heterogeneities of mantle plumes"
+        },
+        "lucn_query": "Plaut Z L Reinhold Austral. J. bioI. Sci 20 1967 297 307",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"297\" AND author.name:\"Reinhold\" AND publicationDate:\"1967\" AND host.title:\"Austral. J. bioI. Sci\" AND host.volume:\"20\" AND host.pages.last:\"307\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reinhold Heckmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)80079-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "308"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "20"
+          },
+          "id": "1647B06355043434ED950F512E1089EA480C95F1",
+          "publicationDate": "2000",
+          "title": "Completeness Classes of Equilogical Spaces"
+        },
+        "lucn_query": "host.pages.first:\"297\" author.name:\"Reinhold\" publicationDate:\"1967\" host.title:\"Austral. J. bioI. Sci\" host.volume:\"20\" host.pages.last:\"307\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reinhold Heckmann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)80079-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "308"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "20"
+          },
+          "id": "1647B06355043434ED950F512E1089EA480C95F1",
+          "publicationDate": "2000",
+          "title": "Completeness Classes of Equilogical Spaces"
+        },
+        "lucn_query": "host.pages.first:297 publicationDate:1967 host.volume:20 host.title:(Austral J bioI Sci) host.pages.last:307 author.name:Reinhold",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "FRANK FRIEDLANDER"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1744-6570.1967.tb01525.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "289",
+              "last": "307"
+            },
+            "title": "Personnel Psychology",
+            "volume": "20"
+          },
+          "id": "F23FDF520F65345409B350A4F604B71DA11986BB",
+          "publicationDate": "1967",
+          "title": "THE IMPACT OF ORGANIZATIONAL TRAINING LABORATORIES UPON THE EFFECTIVENESS AND INTERACTION OF ONGOING WORK GROUPS"
+        },
+        "lucn_query": "(publicationDate:1967 AND host.volume:20) AND (host.pages.first:297 host.title:(Austral J bioI Sci) host.pages.last:307 author.name:Reinhold)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. A. C. Thomas"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2044-8317.1967.tb00375.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "29"
+            },
+            "title": "British Journal of Mathematical and Statistical Psychology",
+            "volume": "20"
+          },
+          "id": "8512FDAB44CE44172020F0170313B635AB881822",
+          "publicationDate": "1967",
+          "title": "REACTION\u2010TIME STUDIES: THE ANTICIPATION AND INTERACTION OF RESPONSES"
+        },
+        "lucn_query": "(publicationDate:1967 AND host.volume:20) AND (host.pages.first:297 host.title:(Austral* journal bioI* Sci*) host.pages.last:307 author.name:Reinhold)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:297 AND publicationDate:1967 AND host.volume:20 AND host.title:(Austral J bioI Sci) AND host.pages.last:307 AND author.name:Reinhold",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:297 AND publicationDate:1967 AND host.volume:20 AND host.title:(Austral* journal bioI* Sci*) AND host.pages.last:307 AND author.name:Reinhold",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b24\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Scholander</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">F</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">T</forename>\n    <surname>Hammel</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Hemmingsen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Bradstreet</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Nat. Acad. Sci</title>\n  <meeting>. Nat. Acad. Sci</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1964\"></date>\n   <biblScope unit=\"page\" from=\"119\" to=\"125\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b24",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Kreuzer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(70)90002-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "30"
+            },
+            "title": "Respiration Physiology",
+            "volume": "9"
+          },
+          "id": "F65D1D591A5BF50CB725A0436949DC5AC8ECC286",
+          "publicationDate": "1970",
+          "title": "Facilitated diffusion of oxygen and its possible significance; a review"
+        },
+        "lucn_query": "Scholander P F H T Hammel E A Hemmingsen E D Bradstreet Proc. Nat. Acad. Sci . Nat. Acad. Sci 1964 119 125",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"119\" AND host.pages.last:\"125\" AND publicationDate:\"1964\" AND host.title:\"Proc. Nat. Acad. Sci\" AND host.conference.name:\". Nat. Acad. Sci\" AND author.name:\"Hammel\" AND author.name:\"Hemmingsen\" AND author.name:\"Bradstreet\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ayhan B Erkek"
+            },
+            {
+              "name": "Feza H Remzi"
+            },
+            {
+              "name": "Jeffrey P Hammel"
+            },
+            {
+              "name": "Muhammet Akyuz"
+            },
+            {
+              "name": "Victor W Fazio"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1746.2006.04789.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "125"
+            },
+            "title": "Journal of Gastroenterology and Hepatology",
+            "volume": "23"
+          },
+          "id": "4ACB90309F3F72ED942FF8F7D7B3466C080D4BAD",
+          "publicationDate": "2008",
+          "title": "Effect of small bowel obstruction on functional outcome and quality of life in patients with ileal pouch\u2010anal anastomosis: 10\u2010year follow\u2010up study"
+        },
+        "lucn_query": "host.pages.first:\"119\" host.pages.last:\"125\" publicationDate:\"1964\" host.title:\"Proc. Nat. Acad. Sci\" host.conference.name:\". Nat. Acad. Sci\" author.name:\"Hammel\" author.name:\"Hemmingsen\" author.name:\"Bradstreet\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ayhan B Erkek"
+            },
+            {
+              "name": "Feza H Remzi"
+            },
+            {
+              "name": "Jeffrey P Hammel"
+            },
+            {
+              "name": "Muhammet Akyuz"
+            },
+            {
+              "name": "Victor W Fazio"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1746.2006.04789.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "125"
+            },
+            "title": "Journal of Gastroenterology and Hepatology",
+            "volume": "23"
+          },
+          "id": "4ACB90309F3F72ED942FF8F7D7B3466C080D4BAD",
+          "publicationDate": "2008",
+          "title": "Effect of small bowel obstruction on functional outcome and quality of life in patients with ileal pouch\u2010anal anastomosis: 10\u2010year follow\u2010up study"
+        },
+        "lucn_query": "host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) publicationDate:1964 host.title:(Proc Nat Acad Sci) host.conference.name:Acad host.pages.last:125",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E.F. MacNichol,  Jr."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0042-6989(64)90036-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "133"
+            },
+            "title": "Vision Research",
+            "volume": "4"
+          },
+          "id": "81EA68A9B90479AA1B002A08262F12813ADB71B1",
+          "publicationDate": "1964",
+          "title": "Retinal mechanisms of color vision"
+        },
+        "lucn_query": "(publicationDate:1964) AND (host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) host.title:(Proc Nat Acad Sci) host.conference.name:Acad host.pages.last:125)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. E. Wolstenholme"
+            },
+            {
+              "name": "S. E. Pregun"
+            },
+            {
+              "name": "C. F. Stark"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/app.1964.070080109"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "140"
+            },
+            "title": "Journal of Applied Polymer Science",
+            "volume": "8"
+          },
+          "id": "E765729B26718A38A28325CA18FF603ED2904E13",
+          "publicationDate": "1964",
+          "title": "Factors influencing izod impact properties of thermoplastics measured with the autographic impact test"
+        },
+        "lucn_query": "(publicationDate:1964) AND (host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) host.title:(Proc* Nat* Acad* Sci*) host.conference.name:Acad host.pages.last:125)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:119 AND author.name:(Hammel Hemmingsen Bradstreet) AND publicationDate:1964 AND host.title:(Proc Nat Acad Sci) AND host.conference.name:Acad AND host.pages.last:125",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:119 AND author.name:(Hammel Hemmingsen Bradstreet) AND publicationDate:1964 AND host.title:(Proc* Nat* Acad* Sci*) AND host.conference.name:Acad AND host.pages.last:125",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b25\">\n <analytic>\n  <title level=\"a\" type=\"main\">Phloem transport, solute flux and the kinetics of sap exudation in Ricinus communis L</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Smith</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Milburn</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Planta (in press). --, and --, 1980b: Phloem turgor and the regulation of sucrose loading in Ricinus communis L. Planta</title>\n  <imprint>\n   <date type=\"published\" when=\"1980\"></date>\n  </imprint>\n </monogr>\n <note>in. press</note>\n</biblStruct>\n\n",
+    "bib_id": "b25",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Kreuzer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(70)90002-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "30"
+            },
+            "title": "Respiration Physiology",
+            "volume": "9"
+          },
+          "id": "F65D1D591A5BF50CB725A0436949DC5AC8ECC286",
+          "publicationDate": "1970",
+          "title": "Facilitated diffusion of oxygen and its possible significance; a review"
+        },
+        "lucn_query": "Scholander P F H T Hammel E A Hemmingsen E D Bradstreet Proc. Nat. Acad. Sci . Nat. Acad. Sci 1964 119 125",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"119\" AND host.pages.last:\"125\" AND publicationDate:\"1964\" AND host.title:\"Proc. Nat. Acad. Sci\" AND host.conference.name:\". Nat. Acad. Sci\" AND author.name:\"Hammel\" AND author.name:\"Hemmingsen\" AND author.name:\"Bradstreet\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ayhan B Erkek"
+            },
+            {
+              "name": "Feza H Remzi"
+            },
+            {
+              "name": "Jeffrey P Hammel"
+            },
+            {
+              "name": "Muhammet Akyuz"
+            },
+            {
+              "name": "Victor W Fazio"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1746.2006.04789.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "125"
+            },
+            "title": "Journal of Gastroenterology and Hepatology",
+            "volume": "23"
+          },
+          "id": "4ACB90309F3F72ED942FF8F7D7B3466C080D4BAD",
+          "publicationDate": "2008",
+          "title": "Effect of small bowel obstruction on functional outcome and quality of life in patients with ileal pouch\u2010anal anastomosis: 10\u2010year follow\u2010up study"
+        },
+        "lucn_query": "host.pages.first:\"119\" host.pages.last:\"125\" publicationDate:\"1964\" host.title:\"Proc. Nat. Acad. Sci\" host.conference.name:\". Nat. Acad. Sci\" author.name:\"Hammel\" author.name:\"Hemmingsen\" author.name:\"Bradstreet\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ayhan B Erkek"
+            },
+            {
+              "name": "Feza H Remzi"
+            },
+            {
+              "name": "Jeffrey P Hammel"
+            },
+            {
+              "name": "Muhammet Akyuz"
+            },
+            {
+              "name": "Victor W Fazio"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1746.2006.04789.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "125"
+            },
+            "title": "Journal of Gastroenterology and Hepatology",
+            "volume": "23"
+          },
+          "id": "4ACB90309F3F72ED942FF8F7D7B3466C080D4BAD",
+          "publicationDate": "2008",
+          "title": "Effect of small bowel obstruction on functional outcome and quality of life in patients with ileal pouch\u2010anal anastomosis: 10\u2010year follow\u2010up study"
+        },
+        "lucn_query": "host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) publicationDate:1964 host.title:(Proc Nat Acad Sci) host.conference.name:Acad host.pages.last:125",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E.F. MacNichol,  Jr."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0042-6989(64)90036-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "133"
+            },
+            "title": "Vision Research",
+            "volume": "4"
+          },
+          "id": "81EA68A9B90479AA1B002A08262F12813ADB71B1",
+          "publicationDate": "1964",
+          "title": "Retinal mechanisms of color vision"
+        },
+        "lucn_query": "(publicationDate:1964) AND (host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) host.title:(Proc Nat Acad Sci) host.conference.name:Acad host.pages.last:125)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. E. Wolstenholme"
+            },
+            {
+              "name": "S. E. Pregun"
+            },
+            {
+              "name": "C. F. Stark"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/app.1964.070080109"
+          ],
+          "host": {
+            "pages": {
+              "first": "119",
+              "last": "140"
+            },
+            "title": "Journal of Applied Polymer Science",
+            "volume": "8"
+          },
+          "id": "E765729B26718A38A28325CA18FF603ED2904E13",
+          "publicationDate": "1964",
+          "title": "Factors influencing izod impact properties of thermoplastics measured with the autographic impact test"
+        },
+        "lucn_query": "(publicationDate:1964) AND (host.pages.first:119 author.name:(Hammel Hemmingsen Bradstreet) host.title:(Proc* Nat* Acad* Sci*) host.conference.name:Acad host.pages.last:125)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:119 AND author.name:(Hammel Hemmingsen Bradstreet) AND publicationDate:1964 AND host.title:(Proc Nat Acad Sci) AND host.conference.name:Acad AND host.pages.last:125",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:119 AND author.name:(Hammel Hemmingsen Bradstreet) AND publicationDate:1964 AND host.title:(Proc* Nat* Acad* Sci*) AND host.conference.name:Acad AND host.pages.last:125",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b26\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Thompson</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">G</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Fensom</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Anderson</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Drouin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Leiper</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Canad. J. Bot</title>\n  <imprint>\n   <biblScope unit=\"volume\">57</biblScope>\n   <biblScope unit=\"page\" from=\"845\" to=\"863\"></biblScope>\n   <date type=\"published\" when=\"1979\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b26",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. T. BISHOP"
+            },
+            {
+              "name": "R. G. THOMPSON"
+            },
+            {
+              "name": "D. P. AIKMAN"
+            },
+            {
+              "name": "D. S. FENSOM"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/jxb/37.12.1780"
+          ],
+          "host": {
+            "pages": {
+              "first": "1780",
+              "last": "1794"
+            },
+            "title": "Journal of Experimental Botany",
+            "volume": "37"
+          },
+          "id": "7C1F5C3D947BD3A77DAA8925AF6F50B917966B70",
+          "publicationDate": "1986",
+          "title": "Fine Structure Aberrations in the Movement of 11C and 13N in the Stems of Plants"
+        },
+        "lucn_query": "Thompson R G D S Fensom R R Anderson R Drouin W Leiper Canad. J. Bot 57 1979 845 863",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"845\" AND author.name:\"Fensom\" AND author.name:\"Anderson\" AND author.name:\"Drouin\" AND author.name:\"Leiper\" AND publicationDate:\"1979\" AND host.title:\"Canad. J. Bot\" AND host.volume:\"57\" AND host.pages.last:\"863\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Nell Leiper"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0160-7383(79)90003-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "390",
+              "last": "407"
+            },
+            "title": "Annals of Tourism Research",
+            "volume": "6"
+          },
+          "id": "D0CB567DC6635A0F884570FCA2D3EA4BB2C4FFA8",
+          "publicationDate": "1979",
+          "title": "The framework of tourism"
+        },
+        "lucn_query": "host.pages.first:\"845\" author.name:\"Fensom\" author.name:\"Anderson\" author.name:\"Drouin\" author.name:\"Leiper\" publicationDate:\"1979\" host.title:\"Canad. J. Bot\" host.volume:\"57\" host.pages.last:\"863\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Nell Leiper"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0160-7383(79)90003-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "390",
+              "last": "407"
+            },
+            "title": "Annals of Tourism Research",
+            "volume": "6"
+          },
+          "id": "D0CB567DC6635A0F884570FCA2D3EA4BB2C4FFA8",
+          "publicationDate": "1979",
+          "title": "The framework of tourism"
+        },
+        "lucn_query": "host.pages.first:845 publicationDate:1979 host.volume:57 host.title:(Canad J Bot) host.pages.last:863 author.name:(Fensom Anderson Drouin Leiper)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.R. Anderson"
+            },
+            {
+              "name": "K. Foger"
+            },
+            {
+              "name": "R.J. Breakspere"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9517(79)90012-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "458",
+              "last": "475"
+            },
+            "title": "Journal of Catalysis",
+            "volume": "57"
+          },
+          "id": "E68A8CBCC7924304A217C7BD83B37B29C07418B3",
+          "publicationDate": "1979",
+          "title": "Adsorption and temperature-programmed desorption of hydrogen with dispersed platinum and platinum-gold catalysts"
+        },
+        "lucn_query": "(publicationDate:1979 AND host.volume:57) AND (host.pages.first:845 host.title:(Canad J Bot) host.pages.last:863 author.name:(Fensom Anderson Drouin Leiper))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.R. Anderson"
+            },
+            {
+              "name": "K. Foger"
+            },
+            {
+              "name": "R.J. Breakspere"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9517(79)90012-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "458",
+              "last": "475"
+            },
+            "title": "Journal of Catalysis",
+            "volume": "57"
+          },
+          "id": "E68A8CBCC7924304A217C7BD83B37B29C07418B3",
+          "publicationDate": "1979",
+          "title": "Adsorption and temperature-programmed desorption of hydrogen with dispersed platinum and platinum-gold catalysts"
+        },
+        "lucn_query": "(publicationDate:1979 AND host.volume:57) AND (host.pages.first:845 host.title:(Canad* journal Bot*) host.pages.last:863 author.name:(Fensom Anderson Drouin Leiper))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:845 AND publicationDate:1979 AND host.volume:57 AND host.title:(Canad J Bot) AND host.pages.last:863 AND author.name:(Fensom Anderson Drouin Leiper)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:845 AND publicationDate:1979 AND host.volume:57 AND host.title:(Canad* journal Bot*) AND host.pages.last:863 AND author.name:(Fensom Anderson Drouin Leiper)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b27\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Tinklin</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Weatherley</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">New Phytologist</title>\n  <imprint>\n   <biblScope unit=\"volume\">65</biblScope>\n   <biblScope unit=\"page\" from=\"509\" to=\"517\"></biblScope>\n   <date type=\"published\" when=\"1966\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b27",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. S. Boyer"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00388393"
+          ],
+          "host": {
+            "pages": {
+              "first": "187",
+              "last": "207"
+            },
+            "title": "Planta",
+            "volume": "117"
+          },
+          "id": "827DD0687CEF2F74794DDA20E61B0A7F2C47985C",
+          "publicationDate": "1974",
+          "title": "Water transport in plants: Mechanism of apparent changes in resistance during absorption"
+        },
+        "lucn_query": "Tinklin R P E Weatherley New Phytologist 65 1966 509 517",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"509\" AND author.name:\"Weatherley\" AND publicationDate:\"1966\" AND host.title:\"New Phytologist\" AND host.volume:\"65\" AND host.pages.last:\"517\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.H. Weatherley"
+            },
+            {
+              "name": "H.S. Gill"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0044-8486(87)90270-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "55",
+              "last": "66"
+            },
+            "title": "Aquaculture",
+            "volume": "65"
+          },
+          "id": "8A1750E35ED4D1F2AC8ED810170D8CF3F100ACB6",
+          "publicationDate": "1987",
+          "title": "Growth increases produced by bovine growth hormone in grass pickerel, Esox americanus vermiculatus (Le Sueur), and the underlying dynamics of muscle fiber growth"
+        },
+        "lucn_query": "host.pages.first:\"509\" author.name:\"Weatherley\" publicationDate:\"1966\" host.title:\"New Phytologist\" host.volume:\"65\" host.pages.last:\"517\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.H. Weatherley"
+            },
+            {
+              "name": "H.S. Gill"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0044-8486(87)90270-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "55",
+              "last": "66"
+            },
+            "title": "Aquaculture",
+            "volume": "65"
+          },
+          "id": "8A1750E35ED4D1F2AC8ED810170D8CF3F100ACB6",
+          "publicationDate": "1987",
+          "title": "Growth increases produced by bovine growth hormone in grass pickerel, Esox americanus vermiculatus (Le Sueur), and the underlying dynamics of muscle fiber growth"
+        },
+        "lucn_query": "host.pages.first:509 publicationDate:1966 host.volume:65 host.title:(New Phytologist) host.pages.last:517 author.name:Weatherley",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I. A. Piontkovskii"
+            },
+            {
+              "name": "M. B. Gol'dberg"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00808011"
+          ],
+          "host": {
+            "pages": {
+              "first": "509",
+              "last": "510"
+            },
+            "title": "Bulletin of Experimental Biology and Medicine",
+            "volume": "65"
+          },
+          "id": "15F3CC4CF262F504C151828A3AFAE78E6C95D620",
+          "publicationDate": "1966",
+          "title": "Protecting the central nervous system of antenatally irradiated rats against radiation"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:65) AND (host.pages.first:509 host.title:(New Phytologist) host.pages.last:517 author.name:Weatherley)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I. A. Piontkovskii"
+            },
+            {
+              "name": "M. B. Gol'dberg"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00808011"
+          ],
+          "host": {
+            "pages": {
+              "first": "509",
+              "last": "510"
+            },
+            "title": "Bulletin of Experimental Biology and Medicine",
+            "volume": "65"
+          },
+          "id": "15F3CC4CF262F504C151828A3AFAE78E6C95D620",
+          "publicationDate": "1966",
+          "title": "Protecting the central nervous system of antenatally irradiated rats against radiation"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:65) AND (host.pages.first:509 host.title:(New* Phytologist*) host.pages.last:517 author.name:Weatherley)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:509 AND publicationDate:1966 AND host.volume:65 AND host.title:(New Phytologist) AND host.pages.last:517 AND author.name:Weatherley",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:509 AND publicationDate:1966 AND host.volume:65 AND host.title:(New* Phytologist*) AND host.pages.last:517 AND author.name:Weatherley",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b28\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Troughton</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">H</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">G</forename>\n    <surname>Currie</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Chang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Plant Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">59</biblScope>\n   <biblScope unit=\"page\" from=\"808\" to=\"820\"></biblScope>\n   <date type=\"published\" when=\"1977\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b28",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Siegfried Jahnke"
+            },
+            {
+              "name": "Gerhard St\u00f6cklin"
+            },
+            {
+              "name": "Johannes Willenbrink"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00385318"
+          ],
+          "host": {
+            "pages": {
+              "first": "56",
+              "last": "63"
+            },
+            "title": "Planta",
+            "volume": "153"
+          },
+          "id": "DDF878DC2DEA60CB825F1376382439B52E25F453",
+          "publicationDate": "1981",
+          "title": "Translocation profiles of 11C-assimilates in the petiole of Marsilea quadrifolia L."
+        },
+        "lucn_query": "Troughton J H B G Currie F H Chang Plant Physiol 59 1977 808 820",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"808\" AND author.name:\"Currie\" AND author.name:\"Chang\" AND publicationDate:\"1977\" AND host.title:\"Plant Physiol\" AND host.volume:\"59\" AND host.pages.last:\"820\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.D. Veldsema-Currie"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0306-4492(77)90068-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "181",
+              "last": "187"
+            },
+            "title": "Comparative Biochemistry and Physiology. Part C, Comparative Pharmacology",
+            "volume": "57"
+          },
+          "id": "EEA3F374258D20AB22D840D799D7BB7BA65A4892",
+          "publicationDate": "1977",
+          "title": "Uptake of [methyl-14C] choline by the ventral nerve cord of the prawn Palaemonetes varians (leach), in vitro"
+        },
+        "lucn_query": "host.pages.first:\"808\" author.name:\"Currie\" author.name:\"Chang\" publicationDate:\"1977\" host.title:\"Plant Physiol\" host.volume:\"59\" host.pages.last:\"820\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.H. Troughton"
+            },
+            {
+              "name": "F.H. Chang"
+            },
+            {
+              "name": "B.G. Currie"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4211(74)90131-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "49",
+              "last": "54"
+            },
+            "title": "Plant Science Letters",
+            "volume": "3"
+          },
+          "id": "34888A783A4E7D14F44D1A0910298E2BE1A19748",
+          "publicationDate": "1974",
+          "title": "Estimates of a mean speed of translocation in leaves of oryza sativa L"
+        },
+        "lucn_query": "host.pages.first:808 publicationDate:1977 host.volume:59 host.title:(Plant Physiol) host.pages.last:820 author.name:(Currie Chang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. T. Chang"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/jnci/59.5.1479"
+          ],
+          "host": {
+            "pages": {
+              "first": "1479",
+              "last": "1489"
+            },
+            "title": "Journal of the National Cancer Institute",
+            "volume": "59"
+          },
+          "id": "BB0C16B2FE2A859E8474C9ECBA85A9D4A060DF36",
+          "publicationDate": "1977",
+          "title": "Cinemicrographic Studies on Granulopoiesis2"
+        },
+        "lucn_query": "(publicationDate:1977 AND host.volume:59) AND (host.pages.first:808 host.title:(Plant Physiol) host.pages.last:820 author.name:(Currie Chang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. T. Chang"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/jnci/59.5.1479"
+          ],
+          "host": {
+            "pages": {
+              "first": "1479",
+              "last": "1489"
+            },
+            "title": "Journal of the National Cancer Institute",
+            "volume": "59"
+          },
+          "id": "BB0C16B2FE2A859E8474C9ECBA85A9D4A060DF36",
+          "publicationDate": "1977",
+          "title": "Cinemicrographic Studies on Granulopoiesis2"
+        },
+        "lucn_query": "(publicationDate:1977 AND host.volume:59) AND (host.pages.first:808 host.title:(Plant* Physiol*) host.pages.last:820 author.name:(Currie Chang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:808 AND publicationDate:1977 AND host.volume:59 AND host.title:(Plant Physiol) AND host.pages.last:820 AND author.name:(Currie Chang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:808 AND publicationDate:1977 AND host.volume:59 AND host.title:(Plant* Physiol*) AND host.pages.last:820 AND author.name:(Currie Chang)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b29\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Van</forename>\n    <surname>Die</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">M L</forename>\n    <surname>Tammes</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Proc. Kon. Ned. Akad. Wetensm. C</title>\n  <imprint>\n   <biblScope unit=\"volume\">69</biblScope>\n   <biblScope unit=\"page\" from=\"648\" to=\"654\"></biblScope>\n   <date type=\"published\" when=\"1966\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b29",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jaap van Die"
+            },
+            {
+              "name": "Netty C. M. Willemse"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1980.tb03343.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "327",
+              "last": "337"
+            },
+            "title": "Berichte der Deutschen Botanischen Gesellschaft",
+            "volume": "93"
+          },
+          "id": "CD1B0B8B6E6EB3C7E8BC64E05C948883453C507B",
+          "publicationDate": "1980",
+          "title": "The Supply of Water and Solutes by Phloem and Xylem to Growing Fruits of Yucca flaccida Haw"
+        },
+        "lucn_query": "Van Die J P M L Tammes Proc. Kon. Ned. Akad. Wetensm. C 69 1966 648 654",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"648\" AND author.name:\"Die\" AND author.name:\"Tammes\" AND publicationDate:\"1966\" AND host.title:\"Proc. Kon. Ned. Akad. Wetensm. C\" AND host.volume:\"69\" AND host.pages.last:\"654\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. M. L. TAMMES"
+            },
+            {
+              "name": "J. VAN DIE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1964.tb00140.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "83"
+            },
+            "title": "Acta Botanica Neerlandica",
+            "volume": "13"
+          },
+          "id": "539AF9A87DEFED8ADC9EA4B94E42EF1AD08295E0",
+          "publicationDate": "1964",
+          "title": "STUDIES ON PHLOEM EXUDATION FROM YUCCA FLACCIDA HAW."
+        },
+        "lucn_query": "host.pages.first:\"648\" author.name:\"Die\" author.name:\"Tammes\" publicationDate:\"1966\" host.title:\"Proc. Kon. Ned. Akad. Wetensm. C\" host.volume:\"69\" host.pages.last:\"654\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. M. L. TAMMES"
+            },
+            {
+              "name": "J. VAN DIE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1964.tb00140.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "83"
+            },
+            "title": "Acta Botanica Neerlandica",
+            "volume": "13"
+          },
+          "id": "539AF9A87DEFED8ADC9EA4B94E42EF1AD08295E0",
+          "publicationDate": "1964",
+          "title": "STUDIES ON PHLOEM EXUDATION FROM YUCCA FLACCIDA HAW."
+        },
+        "lucn_query": "host.pages.first:648 publicationDate:1966 host.volume:69 host.title:(Proc Kon Ned Akad Wetensm) host.pages.last:654 author.name:(Die Tammes)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Howard E. Kulin M.D."
+            },
+            {
+              "name": "Kurt Metzl M.D."
+            },
+            {
+              "name": "Ralph Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-3476(66)80055-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "648",
+              "last": "651"
+            },
+            "title": "The Journal of Pediatrics",
+            "volume": "69"
+          },
+          "id": "5EE9CDA5B06D60E851BF5845BC18149B63169819",
+          "publicationDate": "1966",
+          "title": "Urinary tetrahydrocortisone and tetrahydrocortisol in infants born of mothers treated with corticosteroids during pregnancy"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:69) AND (host.pages.first:648 host.title:(Proc Kon Ned Akad Wetensm) host.pages.last:654 author.name:(Die Tammes))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Howard E. Kulin M.D."
+            },
+            {
+              "name": "Kurt Metzl M.D."
+            },
+            {
+              "name": "Ralph Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-3476(66)80055-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "648",
+              "last": "651"
+            },
+            "title": "The Journal of Pediatrics",
+            "volume": "69"
+          },
+          "id": "5EE9CDA5B06D60E851BF5845BC18149B63169819",
+          "publicationDate": "1966",
+          "title": "Urinary tetrahydrocortisone and tetrahydrocortisol in infants born of mothers treated with corticosteroids during pregnancy"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:69) AND (host.pages.first:648 host.title:(Proc* Kon* Ned* Akad* Wetensm*) host.pages.last:654 author.name:(Die Tammes))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND publicationDate:1966 AND host.volume:69 AND host.title:(Proc Kon Ned Akad Wetensm) AND host.pages.last:654 AND author.name:(Die Tammes)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND publicationDate:1966 AND host.volume:69 AND host.title:(Proc* Kon* Ned* Akad* Wetensm*) AND host.pages.last:654 AND author.name:(Die Tammes)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b30\">\n <analytic>\n  <title level=\"a\" type=\"main\">Transport in Plants I, Phloem Transport , 196-222</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">M L</forename>\n    <surname>Vonk</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Tammes</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Encyclopedia of Plant Physiology</title>\n  <editor>M. H. ZIMMERMANN and J. A. MILBURN</editor>\n  <meeting><address><addrLine>Berlin, Heidelberg, New York. --, CR</addrLine></address></meeting>\n  <imprint>\n   <publisher>Springer-Verlag Acta Bot. Need</publisher>\n   <date type=\"published\" when=\"1973\"></date>\n   <biblScope unit=\"page\" from=\"446\" to=\"451\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b30",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jaap van Die"
+            },
+            {
+              "name": "Netty C. M. Willemse"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1980.tb03343.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "327",
+              "last": "337"
+            },
+            "title": "Berichte der Deutschen Botanischen Gesellschaft",
+            "volume": "93"
+          },
+          "id": "CD1B0B8B6E6EB3C7E8BC64E05C948883453C507B",
+          "publicationDate": "1980",
+          "title": "The Supply of Water and Solutes by Phloem and Xylem to Growing Fruits of Yucca flaccida Haw"
+        },
+        "lucn_query": "Van Die J P M L Tammes Proc. Kon. Ned. Akad. Wetensm. C 69 1966 648 654",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"648\" AND author.name:\"Die\" AND author.name:\"Tammes\" AND publicationDate:\"1966\" AND host.title:\"Proc. Kon. Ned. Akad. Wetensm. C\" AND host.volume:\"69\" AND host.pages.last:\"654\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. M. L. TAMMES"
+            },
+            {
+              "name": "J. VAN DIE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1964.tb00140.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "83"
+            },
+            "title": "Acta Botanica Neerlandica",
+            "volume": "13"
+          },
+          "id": "539AF9A87DEFED8ADC9EA4B94E42EF1AD08295E0",
+          "publicationDate": "1964",
+          "title": "STUDIES ON PHLOEM EXUDATION FROM YUCCA FLACCIDA HAW."
+        },
+        "lucn_query": "host.pages.first:\"648\" author.name:\"Die\" author.name:\"Tammes\" publicationDate:\"1966\" host.title:\"Proc. Kon. Ned. Akad. Wetensm. C\" host.volume:\"69\" host.pages.last:\"654\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. M. L. TAMMES"
+            },
+            {
+              "name": "J. VAN DIE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1438-8677.1964.tb00140.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "83"
+            },
+            "title": "Acta Botanica Neerlandica",
+            "volume": "13"
+          },
+          "id": "539AF9A87DEFED8ADC9EA4B94E42EF1AD08295E0",
+          "publicationDate": "1964",
+          "title": "STUDIES ON PHLOEM EXUDATION FROM YUCCA FLACCIDA HAW."
+        },
+        "lucn_query": "host.pages.first:648 publicationDate:1966 host.volume:69 host.title:(Proc Kon Ned Akad Wetensm) host.pages.last:654 author.name:(Die Tammes)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Howard E. Kulin M.D."
+            },
+            {
+              "name": "Kurt Metzl M.D."
+            },
+            {
+              "name": "Ralph Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-3476(66)80055-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "648",
+              "last": "651"
+            },
+            "title": "The Journal of Pediatrics",
+            "volume": "69"
+          },
+          "id": "5EE9CDA5B06D60E851BF5845BC18149B63169819",
+          "publicationDate": "1966",
+          "title": "Urinary tetrahydrocortisone and tetrahydrocortisol in infants born of mothers treated with corticosteroids during pregnancy"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:69) AND (host.pages.first:648 host.title:(Proc Kon Ned Akad Wetensm) host.pages.last:654 author.name:(Die Tammes))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Howard E. Kulin M.D."
+            },
+            {
+              "name": "Kurt Metzl M.D."
+            },
+            {
+              "name": "Ralph Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-3476(66)80055-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "648",
+              "last": "651"
+            },
+            "title": "The Journal of Pediatrics",
+            "volume": "69"
+          },
+          "id": "5EE9CDA5B06D60E851BF5845BC18149B63169819",
+          "publicationDate": "1966",
+          "title": "Urinary tetrahydrocortisone and tetrahydrocortisol in infants born of mothers treated with corticosteroids during pregnancy"
+        },
+        "lucn_query": "(publicationDate:1966 AND host.volume:69) AND (host.pages.first:648 host.title:(Proc* Kon* Ned* Akad* Wetensm*) host.pages.last:654 author.name:(Die Tammes))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND publicationDate:1966 AND host.volume:69 AND host.title:(Proc Kon Ned Akad Wetensm) AND host.pages.last:654 AND author.name:(Die Tammes)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND publicationDate:1966 AND host.volume:69 AND host.title:(Proc* Kon* Ned* Akad* Wetensm*) AND host.pages.last:654 AND author.name:(Die Tammes)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b31\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Wardlaw</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <forename type=\"middle\">F</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Austral. J. bioI. Sci. Bot. Rev. Austral. J. bioI. Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">20</biblScope>\n   <biblScope unit=\"issue\">22</biblScope>\n   <biblScope unit=\"page\" from=\"25\" to=\"39\"></biblScope>\n   <date type=\"published\" when=\"1967\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b31",
+    "findout_errs": [],
+    "parent_doc": "1A40CCA0EEB4D02A02F90A138D1F46467D971309",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. T. Evans"
+            },
+            {
+              "name": "I. F. Wardlaw"
+            },
+            {
+              "name": "R. W. King"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02861084"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "272"
+            },
+            "title": "The Botanical Review",
+            "volume": "51"
+          },
+          "id": "7C657A9703B030249705955E1CF68C160A8085C3",
+          "title": "Plants and environment: Two decades of research at the Canberra phytotron"
+        },
+        "lucn_query": "Wardlaw I F Austral. J. bioI. Sci. Bot. Rev. Austral. J. bioI. Sci 20 22 1967 25 39",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:\"22\" AND host.pages.first:\"25\" AND host.volume:\"20\" AND publicationDate:\"1967\" AND host.title:\"Austral. J. bioI. Sci. Bot. Rev. Austral. J. bioI. Sci\" AND host.pages.last:\"39\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Laurence H. Field"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0020-7322(91)90025-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "25",
+              "last": "39"
+            },
+            "title": "International Journal of Insect Morphology and Embryology",
+            "volume": "20"
+          },
+          "id": "793C94FABECEA7C4932F6FF5CAEA989EAE352718",
+          "publicationDate": "1991",
+          "title": "Mechanism for range fractionation in chordotonal organs of Locusta migratoria (L) and Valanga sp. (Orthoptera : Acrididae)"
+        },
+        "lucn_query": "host.issue:\"22\" host.pages.first:\"25\" host.volume:\"20\" publicationDate:\"1967\" host.title:\"Austral. J. bioI. Sci. Bot. Rev. Austral. J. bioI. Sci\" host.pages.last:\"39\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Letnic"
+            },
+            {
+              "name": "C. R. Dickman"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1442-9993.2004.01410.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "24",
+              "last": "39"
+            },
+            "title": "Austral Ecology",
+            "volume": "30"
+          },
+          "id": "AB95A0FB22E244981A7B1B61F783EA809DB277A7",
+          "publicationDate": "2005",
+          "title": "The responses of small mammals to patches regenerating after fire and rainfall in the Simpson Desert, central Australia"
+        },
+        "lucn_query": "host.issue:22 host.pages.first:25 host.volume:20 publicationDate:1967 host.title:(Austral J bioI Sci Bot Rev Austral J bioI Sci) host.pages.last:39",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Hajnal"
+            },
+            {
+              "name": "I. Juh\u00e1sz"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01894566"
+          ],
+          "host": {
+            "pages": {
+              "first": "25",
+              "last": "37"
+            },
+            "title": "Acta Mathematica Academiae Scientiarum Hungarica",
+            "volume": "20"
+          },
+          "id": "01FFE9F9343533077C5CEB5D0604B9B60E4F4455",
+          "publicationDate": "1967",
+          "title": "Some remarks on a property of topological cardinal functions"
+        },
+        "lucn_query": "(host.volume:20 AND publicationDate:1967) AND (host.issue:22 host.pages.first:25 host.title:(Austral J bioI Sci Bot Rev Austral J bioI Sci) host.pages.last:39)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Hajnal"
+            },
+            {
+              "name": "I. Juh\u00e1sz"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01894566"
+          ],
+          "host": {
+            "pages": {
+              "first": "25",
+              "last": "37"
+            },
+            "title": "Acta Mathematica Academiae Scientiarum Hungarica",
+            "volume": "20"
+          },
+          "id": "01FFE9F9343533077C5CEB5D0604B9B60E4F4455",
+          "publicationDate": "1967",
+          "title": "Some remarks on a property of topological cardinal functions"
+        },
+        "lucn_query": "(host.volume:20 AND publicationDate:1967) AND (host.issue:22 host.pages.first:25 host.title:(Austral J bioI Sci Bot Rev Austral J bioI Sci) host.pages.last:39)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:22 AND host.pages.first:25 AND host.volume:20 AND publicationDate:1967 AND host.title:(Austral J bioI Sci Bot Rev Austral J bioI Sci) AND host.pages.last:39",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.issue:22 AND host.pages.first:25 AND host.volume:20 AND publicationDate:1967 AND host.title:(Austral J bioI Sci Bot Rev Austral J bioI Sci) AND host.pages.last:39",
+        "match_flag": false
+      }
+    ]
+  }
+]
