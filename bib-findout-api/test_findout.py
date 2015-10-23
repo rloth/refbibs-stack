@@ -492,7 +492,7 @@ class BiblStruct(object):
 			#~ print( "REQ %i=%s" % (i,q))
 
 		return queries_to_test
-
+	
 	@staticmethod
 	def run_queries(queries_to_test):
 		"""
@@ -539,8 +539,67 @@ class BiblStruct(object):
 			raise
 		
 		return solved_qs
-
-
+	
+	
+	def test_hit(self, an_answer):
+		"""
+		Après run_queries, on va tester si la notice renvoyée an_answer (json de l'API) correspond à notre bib
+		
+		renvoie True or False
+		
+		NB: actuellement aucune souplesse
+		
+		cf. aussi les matchs dans eval_xml_refbibs
+		
+		TODO: match souple OCR à importer de libtrainers
+		"""
+		# print(self.api_toks)
+		# print(an_answer)
+		
+		test1 = False    # date + imprint + page
+		test2 = False    # date + titre + auteur[0]
+		                 #                ---------
+		                 #       avec split simple côté base
+		                 #        pour découper prénom nom
+		
+		# test 1
+		if (('publicationDate' in self.api_toks
+		     and 'host.title' in self.api_toks
+		     and 'host.volume' in self.api_toks
+		     and 'host.pages.first' in self.api_toks)
+		and ('publicationDate' in an_answer
+		      and 'host' in an_answer
+		          and 'title' in an_answer['host']
+		          and 'volume' in an_answer['host']
+		          and 'pages' in an_answer['host']
+		             and 'first' in an_answer['host']['pages'])):
+		
+			test1 = (
+			         (self.api_toks['publicationDate'] == an_answer['publicationDate'])
+			     and (self.api_toks['host.title'] == an_answer['host']['title'])
+			     and (self.api_toks['host.volume'] == an_answer['host']['volume'])
+			     and (self.api_toks['host.pages.first'] == an_answer['host']['pages']['first'])
+			         )
+			
+			# si le test1 a matché on s'arrête: c'est suffisant
+			if test1:
+				return True
+		
+		# si on n'a pas les infos du test1 et/ou si elles n'ont pas matché
+		if (('publicationDate' in self.api_toks
+		     and 'title' in self.api_toks
+		     and 'author.name' in self.api_toks)
+		and ('publicationDate' in an_answer
+		     and 'title' in an_answer
+		     and 'author' in an_answer
+		          and 'name' in an_answer['author'])):
+			
+			test2 = (
+			         (self.api_toks['title'] == an_answer['title'])
+			     and (self.api_toks['publicationDate'] == an_answer['publicationDate'])
+			     and (self.api_toks['author.name'][0] == " ".split(an_answer['author']['name'][0])[-1])
+			         )
+		return test2
 
 # ---------------------------------
 #        X M L   T O O L S
@@ -1290,6 +1349,15 @@ if __name__ == '__main__':
 				msg = "ERROR: skip run_queries: '%s'" % str(e)
 				warn(msg)
 				bs_obj.log.append(msg)
+			
+			
+			# validation a posteriori
+			for qa in solved_qs:
+				if qa['json_answr']:
+					# on rattache une marque bool
+					qa['match_flag'] =  bs_obj.test_hit(qa['json_answr'])
+				else:
+					qa['match_flag'] = False
 
 			
 			if OUT_MODE == "listing":

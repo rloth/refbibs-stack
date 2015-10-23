@@ -1,0 +1,2249 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Development of a pump-oxygenator to replace the heart and lungs: An apparatus applicable to human patients, and application in one case</title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Dennis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dsj</forename>\n    <surname>Spreng</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ge</forename>\n    <surname>Nelson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">134</biblScope>\n   <biblScope unit=\"page\" from=\"709\" to=\"721\"></biblScope>\n   <date type=\"published\" when=\"1951\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gerald H. Pratt M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9610(57)90675-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "960",
+              "last": "968"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "93"
+          },
+          "id": "19FEB8A511D62189941586E69C4A1A4D526C5968",
+          "publicationDate": "1957",
+          "title": "Experiences with extracorporeal circulation in open cardiac surgery"
+        },
+        "lucn_query": "Development of a pump-oxygenator to replace the heart and lungs\\: An apparatus applicable to human patients, and application in one case C Dennis Dsj Spreng Ge Nelson Ann Surg 134 1951 709 721"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Ann Surg\" AND host.pages.last:\"721\" AND publicationDate:\"1951\" AND author.name:\"Dennis\" AND author.name:\"Spreng\" AND author.name:\"Nelson\" AND title:\"Development of a pump-oxygenator to replace the heart and lungs\\: An apparatus applicable to human patients, and application in one case\" AND host.volume:\"134\" AND host.pages.first:\"709\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dennis R. Nelson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1096-4959(00)00336-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "647",
+              "last": "659"
+            },
+            "title": "Comparative Biochemistry and Physiology, Part B",
+            "volume": "128"
+          },
+          "id": "3FBA324B4ABF2C83A5160EF2BA267B8DF63C9AF5",
+          "publicationDate": "2001",
+          "title": "Discovery of novel trimethylalkanes in the internal hydrocarbons of developing pupae of Heliothis virescens and Helicoverpa zea"
+        },
+        "lucn_query": "host.title:\"Ann Surg\" host.pages.last:\"721\" publicationDate:\"1951\" author.name:\"Dennis\" author.name:\"Spreng\" author.name:\"Nelson\" title:\"Development of a pump-oxygenator to replace the heart and lungs\\: An apparatus applicable to human patients, and application in one case\" host.volume:\"134\" host.pages.first:\"709\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dennis L. McKnight"
+            },
+            {
+              "name": "Rosemery O. Nelson-Gray"
+            },
+            {
+              "name": "Eugenia Gullick"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00961528"
+          ],
+          "host": {
+            "pages": {
+              "first": "269",
+              "last": "289"
+            },
+            "title": "Journal of Psychopathology and Behavioral Assessment",
+            "volume": "11"
+          },
+          "id": "9F7CE776497C8B9F44E4CBC9B4E2BAA5C11B8223",
+          "title": "Interactional patterns of bipolar patients and their spouses"
+        },
+        "lucn_query": "host.title:(Ann Surg) host.pages.last:721 host.pages.first:709 publicationDate:1951 author.name:(Dennis Spreng Nelson) host.volume:134 title:(Development pump oxygenator replace heart lungs apparatus applicable human patients application case)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1951 AND host.volume:134) AND (host.title:(Ann Surg) host.pages.last:721 host.pages.first:709 author.name:(Dennis Spreng Nelson) title:(Development pump oxygenator replace heart lungs apparatus applicable human patients application case))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1951 AND host.volume:134) AND (host.title:(Ann* Surg*) host.pages.last:721 host.pages.first:709 author.name:(Dennis Spreng Nelson) title:(Development pump oxygenator replace heart lungs apparatus applicable human patients application case))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann Surg) AND host.pages.last:721 AND host.pages.first:709 AND publicationDate:1951 AND author.name:(Dennis Spreng Nelson) AND host.volume:134 AND title:(Development pump oxygenator replace heart lungs apparatus applicable human patients application case)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann* Surg*) AND host.pages.last:721 AND host.pages.first:709 AND publicationDate:1951 AND author.name:(Dennis Spreng Nelson) AND host.volume:134 AND title:(Development pump oxygenator replace heart lungs apparatus applicable human patients application case)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Closure of atrial septal defects with aid of hypothermia: Experimental accomplishments and the report of one successful case</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Fj</forename>\n    <surname>Lewis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Taufic</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surgery</title>\n  <imprint>\n   <biblScope unit=\"volume\">33</biblScope>\n   <biblScope unit=\"page\" from=\"52\" to=\"59\"></biblScope>\n   <date type=\"published\" when=\"1953\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lyman A. Brewer,  III MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9610(81)90066-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "618",
+              "last": "631"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "141"
+          },
+          "id": "24E5C3FFEB18337868C9099DFCA9D7C9311EF9EE",
+          "publicationDate": "1981",
+          "title": "Open heart surgery and myocardial revascularization"
+        },
+        "lucn_query": "Closure of atrial septal defects with aid of hypothermia\\: Experimental accomplishments and the report of one successful case Fj Lewis M Taufic Surgery 33 1953 52 59"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Surgery\" AND host.pages.last:\"59\" AND publicationDate:\"1953\" AND author.name:\"Lewis\" AND author.name:\"Taufic\" AND title:\"Closure of atrial septal defects with aid of hypothermia\\: Experimental accomplishments and the report of one successful case\" AND host.volume:\"33\" AND host.pages.first:\"52\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lewis Spitz"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3468(92)90322-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "252",
+              "last": "259"
+            },
+            "title": "Journal of Pediatric Surgery",
+            "volume": "27"
+          },
+          "id": "EB7D165624F4CBEE714631B7CC551F78EC889C89",
+          "publicationDate": "1992",
+          "title": "Gastric transposition for esophageal substitution in children"
+        },
+        "lucn_query": "host.title:\"Surgery\" host.pages.last:\"59\" publicationDate:\"1953\" author.name:\"Lewis\" author.name:\"Taufic\" title:\"Closure of atrial septal defects with aid of hypothermia\\: Experimental accomplishments and the report of one successful case\" host.volume:\"33\" host.pages.first:\"52\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Li Hongxin"
+            },
+            {
+              "name": "Sheng Lijun"
+            },
+            {
+              "name": "Zheng-jun Wang"
+            },
+            {
+              "name": "Jie Zi"
+            },
+            {
+              "name": "Wen-long Zhang"
+            },
+            {
+              "name": "Hai-zhou Zhang"
+            },
+            {
+              "name": "Guo Wenbin"
+            },
+            {
+              "name": "Cheng-wei Zou"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1016/j.ejcts.2008.01.038"
+          ],
+          "host": {
+            "pages": {
+              "first": "1055",
+              "last": "1060"
+            },
+            "title": "European Journal of Cardio-Thoracic Surgery",
+            "volume": "33"
+          },
+          "id": "3FEF6E17E59F460993420E0A05814AE8DFD164F2",
+          "publicationDate": "2008",
+          "title": "Intraoperative device closure of large secundum atrial septal defects; a safe alternative to transcatheter closure"
+        },
+        "lucn_query": "host.title:Surgery host.pages.last:59 host.pages.first:52 publicationDate:1953 author.name:(Lewis Taufic) host.volume:33 title:(Closure atrial septal defects with hypothermia Experimental accomplishments report successful case)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "NIELS ARLEY"
+            },
+            {
+              "name": "SIMON IVERSEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1699-0463.1953.tb01503.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "133",
+              "last": "150"
+            },
+            "title": "Acta Pathologica Microbiologica Scandinavica",
+            "volume": "33"
+          },
+          "id": "6D4DC069BF4A7469DA17C73DD218DC46DD9ABF25",
+          "publicationDate": "1953",
+          "title": "ON THE MECHANISM OF EXPERIMENTAL CARCINOGENESIS3"
+        },
+        "lucn_query": "(publicationDate:1953 AND host.volume:33) AND (host.title:Surgery host.pages.last:59 host.pages.first:52 author.name:(Lewis Taufic) title:(Closure atrial septal defects with hypothermia Experimental accomplishments report successful case))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "NIELS ARLEY"
+            },
+            {
+              "name": "SIMON IVERSEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1699-0463.1953.tb01503.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "133",
+              "last": "150"
+            },
+            "title": "Acta Pathologica Microbiologica Scandinavica",
+            "volume": "33"
+          },
+          "id": "6D4DC069BF4A7469DA17C73DD218DC46DD9ABF25",
+          "publicationDate": "1953",
+          "title": "ON THE MECHANISM OF EXPERIMENTAL CARCINOGENESIS3"
+        },
+        "lucn_query": "(publicationDate:1953 AND host.volume:33) AND (host.title:(Surgery*) host.pages.last:59 host.pages.first:52 author.name:(Lewis Taufic) title:(Closure atrial septal defects with hypothermia Experimental accomplishments report successful case))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:Surgery AND host.pages.last:59 AND host.pages.first:52 AND publicationDate:1953 AND author.name:(Lewis Taufic) AND host.volume:33 AND title:(Closure atrial septal defects with hypothermia Experimental accomplishments report successful case)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Surgery*) AND host.pages.last:59 AND host.pages.first:52 AND publicationDate:1953 AND author.name:(Lewis Taufic) AND host.volume:33 AND title:(Closure atrial septal defects with hypothermia Experimental accomplishments report successful case)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">The experimental creation and closure of auricular septal defects</title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Swan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Maresh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Me</forename>\n    <surname>Johnson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J Thorac Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">20</biblScope>\n   <biblScope unit=\"page\" from=\"542\" to=\"551\"></biblScope>\n   <date type=\"published\" when=\"1950\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. Syamasundar Rao F.I.C.P., F.A.C.C., F.A.C.A."
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02825015"
+          ],
+          "host": {
+            "pages": {
+              "first": "349",
+              "last": "364"
+            },
+            "title": "The Indian Journal of Pediatrics",
+            "volume": "48"
+          },
+          "id": "8D99ECF0A83B8539DE52F45B37CFC4D56A443C33",
+          "title": "Present status of surgery in congenital heart disease"
+        },
+        "lucn_query": "The experimental creation and closure of auricular septal defects H Swan G Maresh Me Johnson J Thorac Surg 20 1950 542 551"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"J Thorac Surg\" AND host.pages.last:\"551\" AND publicationDate:\"1950\" AND author.name:\"Swan\" AND author.name:\"Maresh\" AND author.name:\"Johnson\" AND title:\"The experimental creation and closure of auricular septal defects\" AND host.volume:\"20\" AND host.pages.first:\"542\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Swan M.D."
+            },
+            {
+              "name": "Dr. Hursting Ph.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.20.4.318.34881"
+          ],
+          "host": {
+            "pages": {
+              "first": "318",
+              "last": "329"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "20"
+          },
+          "id": "C642653F4AE0BB62138AEFCF3C9E0320096E6F3B",
+          "publicationDate": "2000",
+          "title": "The Pharmacokinetics and Pharmacodynamics of Argatroban: Effects of Age, Gender, and Hepatic or Renal Dysfunction"
+        },
+        "lucn_query": "host.title:\"J Thorac Surg\" host.pages.last:\"551\" publicationDate:\"1950\" author.name:\"Swan\" author.name:\"Maresh\" author.name:\"Johnson\" title:\"The experimental creation and closure of auricular septal defects\" host.volume:\"20\" host.pages.first:\"542\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. Fischer"
+            },
+            {
+              "name": "H.H. Kramer"
+            },
+            {
+              "name": "J. Stieh"
+            },
+            {
+              "name": "P. Harding"
+            },
+            {
+              "name": "O. Jung"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1053/euhj.1998.1330"
+          ],
+          "host": {
+            "pages": {
+              "first": "541",
+              "last": "549"
+            },
+            "title": "European Heart Journal",
+            "volume": "20"
+          },
+          "id": "70796F2330634A3C800B64C6A65DF6F2E28F6AE4",
+          "publicationDate": "1999",
+          "title": "Transcatheter closure of secundum atrial septal defects with the new self-centering Amplatzer Septal Occluder"
+        },
+        "lucn_query": "host.title:(J Thorac Surg) host.pages.last:551 host.pages.first:542 publicationDate:1950 author.name:(Swan Maresh Johnson) host.volume:20 title:(experimental creation closure auricular septal defects)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "CARL A. WHITAKER M.D."
+            },
+            {
+              "name": "JOHN WARKENTIN Ph.D., M.D."
+            },
+            {
+              "name": "NAN JOHNSON"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1939-0025.1950.tb06077.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "641",
+              "last": "647"
+            },
+            "title": "American Journal of Orthopsychiatry",
+            "volume": "20"
+          },
+          "id": "2B4067389921A56CD68D5FBE19328864C27C1B02",
+          "publicationDate": "1950",
+          "title": "THE PSYCHOTHERAPEUTIC IMPASSE*"
+        },
+        "lucn_query": "(publicationDate:1950 AND host.volume:20) AND (host.title:(J Thorac Surg) host.pages.last:551 host.pages.first:542 author.name:(Swan Maresh Johnson) title:(experimental creation closure auricular septal defects))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. John Johnson"
+            },
+            {
+              "name": "J. Roswell Gallagher"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1746-1561.1950.tb02631.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "72",
+              "last": "81"
+            },
+            "title": "Journal of School Health",
+            "volume": "20"
+          },
+          "id": "D404803C8EA6D816F8969452F90D165D6745298F",
+          "publicationDate": "1950",
+          "title": "THE MODIFICATION OF WEIGHT IN ADOLESCENCE*"
+        },
+        "lucn_query": "(publicationDate:1950 AND host.volume:20) AND (host.title:(journal Thorac* Surg*) host.pages.last:551 host.pages.first:542 author.name:(Swan Maresh Johnson) title:(experimental creation closure auricular septal defects))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(J Thorac Surg) AND host.pages.last:551 AND host.pages.first:542 AND publicationDate:1950 AND author.name:(Swan Maresh Johnson) AND host.volume:20 AND title:(experimental creation closure auricular septal defects)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(journal Thorac* Surg*) AND host.pages.last:551 AND host.pages.first:542 AND publicationDate:1950 AND author.name:(Swan Maresh Johnson) AND host.volume:20 AND title:(experimental creation closure auricular septal defects)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <monogr>\n  <title level=\"m\" type=\"main\">The evolution of cardiac surgery</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hb</forename>\n    <surname>Shumacker</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Jr</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1992\"></date>\n   <publisher>University Press</publisher>\n   <biblScope unit=\"page\" from=\"220\" to=\"241\"></biblScope>\n   <pubPlace>Bloomington, IN</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Surgical closure of defects of the interauricular septum by the atrial well</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Re</forename>\n    <surname>Gross</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Aa</forename>\n    <surname>Pomeranz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ej</forename>\n    <surname>Watkins</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">New Engl J Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">247</biblScope>\n   <biblScope unit=\"page\" from=\"455\" to=\"460\"></biblScope>\n   <date type=\"published\" when=\"1952\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "John A. Waldhausen MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0003-4975(97)01032-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1533",
+              "last": "1539"
+            },
+            "title": "The Annals of Thoracic Surgery",
+            "volume": "64"
+          },
+          "id": "A1DA11F3D5DAE1F8C08D860647F9F31F9091B586",
+          "publicationDate": "1997",
+          "title": "The Early History of Congenital Heart Surgery: Closed Heart Operations"
+        },
+        "lucn_query": "Surgical closure of defects of the interauricular septum by the atrial well Re Gross Aa Pomeranz Ej Watkins New Engl J Med 247 1952 455 460"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"New Engl J Med\" AND host.pages.last:\"460\" AND publicationDate:\"1952\" AND author.name:\"Gross\" AND author.name:\"Pomeranz\" AND author.name:\"Watkins\" AND title:\"Surgical closure of defects of the interauricular septum by the atrial well\" AND host.volume:\"247\" AND host.pages.first:\"455\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel M. Rothfeld"
+            },
+            {
+              "name": "Douglass S. Gross"
+            },
+            {
+              "name": "Linda R. Watkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0006-8993(85)90975-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "309",
+              "last": "315"
+            },
+            "title": "Brain Research",
+            "volume": "358"
+          },
+          "id": "CD840447CEE3BFB7DBCFE0D6A0E01CE94DB2E101",
+          "publicationDate": "1985",
+          "title": "Sexual responsiveness and its relationship to vaginal stimulation-produced analgesia in the rat"
+        },
+        "lucn_query": "host.title:\"New Engl J Med\" host.pages.last:\"460\" publicationDate:\"1952\" author.name:\"Gross\" author.name:\"Pomeranz\" author.name:\"Watkins\" title:\"Surgical closure of defects of the interauricular septum by the atrial well\" host.volume:\"247\" host.pages.first:\"455\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert E. Gross M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0033-0620(62)80012-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "301",
+              "last": "311"
+            },
+            "title": "Progress in Cardiovascular Diseases",
+            "volume": "4"
+          },
+          "id": "CD59CD5460FB6C042226D02EE31EDE29B2D5F6D3",
+          "publicationDate": "1962",
+          "title": "Atrial septal defects of the secundum type"
+        },
+        "lucn_query": "host.title:(New Engl J Med) host.pages.last:460 host.pages.first:455 publicationDate:1952 author.name:(Gross Pomeranz Watkins) host.volume:247 title:(Surgical closure defects interauricular septum atrial well)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1952 AND host.volume:247) AND (host.title:(New Engl J Med) host.pages.last:460 host.pages.first:455 author.name:(Gross Pomeranz Watkins) title:(Surgical closure defects interauricular septum atrial well))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1952 AND host.volume:247) AND (host.title:(New* Engl* journal Med*) host.pages.last:460 host.pages.first:455 author.name:(Gross Pomeranz Watkins) title:(Surgical closure defects interauricular septum atrial well))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(New Engl J Med) AND host.pages.last:460 AND host.pages.first:455 AND publicationDate:1952 AND author.name:(Gross Pomeranz Watkins) AND host.volume:247 AND title:(Surgical closure defects interauricular septum atrial well)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(New* Engl* journal Med*) AND host.pages.last:460 AND host.pages.first:455 AND publicationDate:1952 AND author.name:(Gross Pomeranz Watkins) AND host.volume:247 AND title:(Surgical closure defects interauricular septum atrial well)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title level=\"a\" type=\"main\">Direct vision intracardiac surgical correction of tetralogy of Fallot, pentalogy of Fallot, and pulmonary atresia defects: Report of first ten cases</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Cw</forename>\n    <surname>Lillehei</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Cohen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">He</forename>\n    <surname>Warden</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">142</biblScope>\n   <biblScope unit=\"page\" from=\"418\" to=\"445\"></biblScope>\n   <date type=\"published\" when=\"1955\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Christian P. R. Brizard MDa"
+            },
+            {
+              "name": "Carlos Mas MDa"
+            },
+            {
+              "name": "Young-Sang Sohn MDb"
+            },
+            {
+              "name": "Andrew D. Cochrane FRACSa"
+            },
+            {
+              "name": "Tom R. Karl MDa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-5223(98)00454-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "770",
+              "last": "779"
+            },
+            "title": "The Journal of Thoracic and Cardiovascular Surgery",
+            "volume": "116"
+          },
+          "id": "A14FD6FCA9B17F1D63F21AF0B831595604461709",
+          "publicationDate": "1998",
+          "title": "Transatrial-transpulmonary tetralogy of fallot repair is effective in the presence of anomalous coronary arteries"
+        },
+        "lucn_query": "Direct vision intracardiac surgical correction of tetralogy of Fallot, pentalogy of Fallot, and pulmonary atresia defects\\: Report of first ten cases Cw Lillehei M Cohen He Warden Ann Surg 142 1955 418 445"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Ann Surg\" AND host.pages.last:\"445\" AND publicationDate:\"1955\" AND author.name:\"Lillehei\" AND author.name:\"Cohen\" AND author.name:\"Warden\" AND title:\"Direct vision intracardiac surgical correction of tetralogy of Fallot, pentalogy of Fallot, and pulmonary atresia defects\\: Report of first ten cases\" AND host.volume:\"142\" AND host.pages.first:\"418\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. J. Warden"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02597781"
+          ],
+          "host": {
+            "pages": {
+              "first": "107",
+              "last": "140"
+            },
+            "title": "Bulletin Volcanologique",
+            "volume": "34"
+          },
+          "id": "9DAC445E26F9C5E7FB2C92209DFE172CF54916EB",
+          "publicationDate": "1969",
+          "title": "Evolution of Aoba caldera volcano, New Hebrides"
+        },
+        "lucn_query": "host.title:\"Ann Surg\" host.pages.last:\"445\" publicationDate:\"1955\" author.name:\"Lillehei\" author.name:\"Cohen\" author.name:\"Warden\" title:\"Direct vision intracardiac surgical correction of tetralogy of Fallot, pentalogy of Fallot, and pulmonary atresia defects\\: Report of first ten cases\" host.volume:\"142\" host.pages.first:\"418\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "ROBERT H. ANDERSON M.D."
+            },
+            {
+              "name": "WILLIAM A. DEVINE B.S."
+            },
+            {
+              "name": "PEDRO Del NIDO M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1540-8191.1991.tb00562.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "41",
+              "last": "58"
+            },
+            "title": "Journal of Cardiac Surgery",
+            "volume": "6"
+          },
+          "id": "7C59A4E9AE26AE8D98E8FEC52B5C3011CE116EC2",
+          "publicationDate": "1991",
+          "title": "The Surgical Anatomy of Tetralogy of Fallot with Pulmonary Atresia Rather than Pulmonary Stenosis"
+        },
+        "lucn_query": "host.title:(Ann Surg) host.pages.last:445 host.pages.first:418 publicationDate:1955 author.name:(Lillehei Cohen Warden) host.volume:142 title:(Direct vision intracardiac surgical correction tetralogy Fallot pentalogy Fallot pulmonary atresia defects Report first cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1955 AND host.volume:142) AND (host.title:(Ann Surg) host.pages.last:445 host.pages.first:418 author.name:(Lillehei Cohen Warden) title:(Direct vision intracardiac surgical correction tetralogy Fallot pentalogy Fallot pulmonary atresia defects Report first cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1955 AND host.volume:142) AND (host.title:(Ann* Surg*) host.pages.last:445 host.pages.first:418 author.name:(Lillehei Cohen Warden) title:(Direct vision intracardiac surgical correction tetralogy Fallot pentalogy Fallot pulmonary atresia defects Report first cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann Surg) AND host.pages.last:445 AND host.pages.first:418 AND publicationDate:1955 AND author.name:(Lillehei Cohen Warden) AND host.volume:142 AND title:(Direct vision intracardiac surgical correction tetralogy Fallot pentalogy Fallot pulmonary atresia defects Report first cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann* Surg*) AND host.pages.last:445 AND host.pages.first:418 AND publicationDate:1955 AND author.name:(Lillehei Cohen Warden) AND host.volume:142 AND title:(Direct vision intracardiac surgical correction tetralogy Fallot pentalogy Fallot pulmonary atresia defects Report first cases)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title level=\"a\" type=\"main\">Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation</title>\n  <author>\n   <persName>\n    <forename type=\"first\">At</forename>\n    <surname>Andreasen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Watson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Brit J Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">41</biblScope>\n   <biblScope unit=\"page\" from=\"195\" to=\"206\"></biblScope>\n   <date type=\"published\" when=\"1953\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "Experimental cardiovascular surgery\\: Discussion of results so far obtained and report on experiments concerning a donor circulation At Andreasen F Watson Brit J Surg 41 1953 195 206"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Brit J Surg\" AND host.pages.last:\"206\" AND publicationDate:\"1953\" AND author.name:\"Andreasen\" AND author.name:\"Watson\" AND title:\"Experimental cardiovascular surgery\\: Discussion of results so far obtained and report on experiments concerning a donor circulation\" AND host.volume:\"41\" AND host.pages.first:\"195\""
+      },
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "host.title:\"Brit J Surg\" host.pages.last:\"206\" publicationDate:\"1953\" author.name:\"Andreasen\" author.name:\"Watson\" title:\"Experimental cardiovascular surgery\\: Discussion of results so far obtained and report on experiments concerning a donor circulation\" host.volume:\"41\" host.pages.first:\"195\""
+      },
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "host.title:(Brit J Surg) host.pages.last:206 host.pages.first:195 publicationDate:1953 author.name:(Andreasen Watson) host.volume:41 title:(Experimental cardiovascular surgery Discussion results obtained report experiments concerning donor circulation)"
+      },
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "(publicationDate:1953 AND host.volume:41) AND (host.title:(Brit J Surg) host.pages.last:206 host.pages.first:195 author.name:(Andreasen Watson) title:(Experimental cardiovascular surgery Discussion results obtained report experiments concerning donor circulation))"
+      },
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "(publicationDate:1953 AND host.volume:41) AND (host.title:(Brit* journal Surg*) host.pages.last:206 host.pages.first:195 author.name:(Andreasen Watson) title:(Experimental cardiovascular surgery Discussion results obtained report experiments concerning donor circulation))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Brit J Surg) AND host.pages.last:206 AND host.pages.first:195 AND publicationDate:1953 AND author.name:(Andreasen Watson) AND host.volume:41 AND title:(Experimental cardiovascular surgery Discussion results obtained report experiments concerning donor circulation)"
+      },
+      {
+        "match_flag": true,
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. T. Andreasen"
+            },
+            {
+              "name": "F. Watson"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bjs.18004116617"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "206"
+            },
+            "title": "British Journal of Surgery",
+            "volume": "41"
+          },
+          "id": "DC1F33D4C5A259EDAB1875F59003FD03D2CF53CD",
+          "publicationDate": "1953",
+          "title": "Experimental cardiovascular surgery: Discussion of results so far obtained and report on experiments concerning a donor circulation"
+        },
+        "lucn_query": "host.title:(Brit* journal Surg*) AND host.pages.last:206 AND host.pages.first:195 AND publicationDate:1953 AND author.name:(Andreasen Watson) AND host.volume:41 AND title:(Experimental cardiovascular surgery Discussion results obtained report experiments concerning donor circulation)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title level=\"a\" type=\"main\">Controlled cross-circulation for directvision intracardiac surgery: Correction of ventricular septal defects, atrioventricularis communis, and tetralogy of Fallot</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Cw</forename>\n    <surname>Lillehei</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Postgrad Med J</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"page\" from=\"388\" to=\"396\"></biblScope>\n   <date type=\"published\" when=\"1955\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "John S Hokanson MD"
+            },
+            {
+              "name": "James H Moller MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9149(01)01518-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1271",
+              "last": "1277"
+            },
+            "title": "The American Journal of Cardiology",
+            "volume": "87"
+          },
+          "id": "758BF3A088576A821371C966E27CF6FD4C51AB51",
+          "publicationDate": "2001",
+          "title": "Significance of early transient complete heart block as a predictor of sudden death late after operative correction of tetralogy of fallot"
+        },
+        "lucn_query": "Controlled cross-circulation for directvision intracardiac surgery\\: Correction of ventricular septal defects, atrioventricularis communis, and tetralogy of Fallot Cw Lillehei Postgrad Med J 1 1955 388 396"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Postgrad Med J\" AND host.pages.last:\"396\" AND publicationDate:\"1955\" AND author.name:\"Lillehei\" AND title:\"Controlled cross-circulation for directvision intracardiac surgery\\: Correction of ventricular septal defects, atrioventricularis communis, and tetralogy of Fallot\" AND host.volume:\"1\" AND host.pages.first:\"388\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. Walton Lillehei Chairman"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1749-6632.1964.tb53165.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "950",
+              "last": "966"
+            },
+            "title": "Annals of the New York Academy of SciencesCardiac Pacemakers",
+            "volume": "111"
+          },
+          "id": "A14D3FD7DCECD160562C974DB30CA1C61B2C9CE1",
+          "publicationDate": "1964",
+          "title": "PANEL DISCUSSION\u2014II"
+        },
+        "lucn_query": "host.title:\"Postgrad Med J\" host.pages.last:\"396\" publicationDate:\"1955\" author.name:\"Lillehei\" title:\"Controlled cross-circulation for directvision intracardiac surgery\\: Correction of ventricular septal defects, atrioventricularis communis, and tetralogy of Fallot\" host.volume:\"1\" host.pages.first:\"388\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Morris J. Levy M.D."
+            },
+            {
+              "name": "Leo Cuello M.D."
+            },
+            {
+              "name": "Naip Tuna M.D."
+            },
+            {
+              "name": "C.Walton Lillehei M.D., F.A.C.C."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9149(64)90048-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "587",
+              "last": "598"
+            },
+            "title": "The American Journal of Cardiology",
+            "volume": "14"
+          },
+          "id": "664EB3E885BAF603D4D3E97124370BE9CFCD6E91",
+          "publicationDate": "1964",
+          "title": "Atrioventricularis communis"
+        },
+        "lucn_query": "host.title:(Postgrad Med J) host.pages.last:396 host.pages.first:388 publicationDate:1955 author.name:Lillehei host.volume:1 title:(Controlled cross circulation directvision intracardiac surgery Correction ventricular septal defects atrioventricularis communis tetralogy Fallot)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. D. Alstad"
+            },
+            {
+              "name": "H. S. Isbin"
+            },
+            {
+              "name": "N. R. Amundson"
+            },
+            {
+              "name": "J. P. Silvers"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/aic.690010407"
+          ],
+          "host": {
+            "pages": {
+              "first": "417",
+              "last": "425"
+            },
+            "title": "AIChE Journal",
+            "volume": "1"
+          },
+          "id": "5BA8DB005E01553880896D5CDBA80DD59FF9A12E",
+          "publicationDate": "1955",
+          "title": "Transient behavior of single\u2010phase natural\u2010circulation loop systems"
+        },
+        "lucn_query": "(publicationDate:1955 AND host.volume:1) AND (host.title:(Postgrad Med J) host.pages.last:396 host.pages.first:388 author.name:Lillehei title:(Controlled cross circulation directvision intracardiac surgery Correction ventricular septal defects atrioventricularis communis tetralogy Fallot))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "David P. Barr M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9681(55)90022-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "85"
+            },
+            "title": "Journal of Chronic Diseases",
+            "volume": "1"
+          },
+          "id": "1BD2A7C97D7F9BC662C96FD8480D032789E4C0AA",
+          "publicationDate": "1955",
+          "title": "Influence of sex and sex hormones upon the development of atherosclerosis and upon the lipoproteins of plasma"
+        },
+        "lucn_query": "(publicationDate:1955 AND host.volume:1) AND (host.title:(Postgrad* Med* journal) host.pages.last:396 host.pages.first:388 author.name:Lillehei title:(Controlled cross circulation directvision intracardiac surgery Correction ventricular septal defects atrioventricularis communis tetralogy Fallot))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Postgrad Med J) AND host.pages.last:396 AND host.pages.first:388 AND publicationDate:1955 AND author.name:Lillehei AND host.volume:1 AND title:(Controlled cross circulation directvision intracardiac surgery Correction ventricular septal defects atrioventricularis communis tetralogy Fallot)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Postgrad* Med* journal) AND host.pages.last:396 AND host.pages.first:388 AND publicationDate:1955 AND author.name:Lillehei AND host.volume:1 AND title:(Controlled cross circulation directvision intracardiac surgery Correction ventricular septal defects atrioventricularis communis tetralogy Fallot)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title level=\"a\" type=\"main\">Intracardiac surgery with the aid of a mechanical pumpoxygenator system (Gibbon type): Report of eight cases</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Jw</forename>\n    <surname>Kirklin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jw</forename>\n    <surname>Dushane</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Rt</forename>\n    <surname>Patrick</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Proc Staff Meet Mayo Clin</title>\n  <imprint>\n   <biblScope unit=\"volume\">30</biblScope>\n   <biblScope unit=\"page\" from=\"201\" to=\"206\"></biblScope>\n   <date type=\"published\" when=\"1955\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9149(98)00068-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "1027",
+              "last": "1044"
+            },
+            "title": "The American Journal of Cardiology",
+            "volume": "81"
+          },
+          "id": "57075A33FFB21885BDD44C495745C7F9CABB27C4",
+          "publicationDate": "1998",
+          "title": "Editorial"
+        },
+        "lucn_query": "Intracardiac surgery with the aid of a mechanical pumpoxygenator system \\(Gibbon type\\)\\: Report of eight cases Jw Kirklin Jw Dushane Rt Patrick Proc Staff Meet Mayo Clin 30 1955 201 206"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Proc Staff Meet Mayo Clin\" AND host.pages.last:\"206\" AND publicationDate:\"1955\" AND author.name:\"Kirklin\" AND author.name:\"Dushane\" AND author.name:\"Patrick\" AND title:\"Intracardiac surgery with the aid of a mechanical pumpoxygenator system \\(Gibbon type\\)\\: Report of eight cases\" AND host.volume:\"30\" AND host.pages.first:\"201\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "John T. Shepherd M.D., M.Ch."
+            },
+            {
+              "name": "John A. Callahan M.D."
+            },
+            {
+              "name": "James W. DuShane M.D."
+            },
+            {
+              "name": "John W. Kirklin M.D."
+            },
+            {
+              "name": "Earl H. Wood M.D., Ph.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-8703(55)90319-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "236"
+            },
+            "title": "American Heart Journal",
+            "volume": "50"
+          },
+          "id": "DBAF2E54E9A1F2B44E7C538F1B0CA77BB0B1994E",
+          "publicationDate": "1955",
+          "title": "Coarctation of the aorta with patent ductus arteriosus opening at the coarctation"
+        },
+        "lucn_query": "host.title:\"Proc Staff Meet Mayo Clin\" host.pages.last:\"206\" publicationDate:\"1955\" author.name:\"Kirklin\" author.name:\"Dushane\" author.name:\"Patrick\" title:\"Intracardiac surgery with the aid of a mechanical pumpoxygenator system \\(Gibbon type\\)\\: Report of eight cases\" host.volume:\"30\" host.pages.first:\"201\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "John T. Shepherd M.D., M.Ch."
+            },
+            {
+              "name": "John A. Callahan M.D."
+            },
+            {
+              "name": "James W. DuShane M.D."
+            },
+            {
+              "name": "John W. Kirklin M.D."
+            },
+            {
+              "name": "Earl H. Wood M.D., Ph.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-8703(55)90319-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "236"
+            },
+            "title": "American Heart Journal",
+            "volume": "50"
+          },
+          "id": "DBAF2E54E9A1F2B44E7C538F1B0CA77BB0B1994E",
+          "publicationDate": "1955",
+          "title": "Coarctation of the aorta with patent ductus arteriosus opening at the coarctation"
+        },
+        "lucn_query": "host.title:(Proc Staff Meet Mayo Clin) host.pages.last:206 host.pages.first:201 publicationDate:1955 author.name:(Kirklin Dushane Patrick) host.volume:30 title:(Intracardiac surgery with mechanical pumpoxygenator system Gibbon type Report eight cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Heppner M.D., F.I.C.S."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1600-0447.1955.tb01003.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "471",
+              "last": "481"
+            },
+            "title": "Acta Psychiatrica Scandinavica",
+            "volume": "30"
+          },
+          "id": "F0B8A9F2F75CCFDAA7AF4A6273DC4EAADE0DD63C",
+          "publicationDate": "1955",
+          "title": "MENINGIOMAS OF THE THIRD VENTRICLE IN CHILDREN: Review of the Literature and Report of two Cases with Uneveniful Recovery after Surgery"
+        },
+        "lucn_query": "(publicationDate:1955 AND host.volume:30) AND (host.title:(Proc Staff Meet Mayo Clin) host.pages.last:206 host.pages.first:201 author.name:(Kirklin Dushane Patrick) title:(Intracardiac surgery with mechanical pumpoxygenator system Gibbon type Report eight cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Heppner M.D., F.I.C.S."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1600-0447.1955.tb01003.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "471",
+              "last": "481"
+            },
+            "title": "Acta Psychiatrica Scandinavica",
+            "volume": "30"
+          },
+          "id": "F0B8A9F2F75CCFDAA7AF4A6273DC4EAADE0DD63C",
+          "publicationDate": "1955",
+          "title": "MENINGIOMAS OF THE THIRD VENTRICLE IN CHILDREN: Review of the Literature and Report of two Cases with Uneveniful Recovery after Surgery"
+        },
+        "lucn_query": "(publicationDate:1955 AND host.volume:30) AND (host.title:(Proc* Staff* Meet* Mayo* Clin*) host.pages.last:206 host.pages.first:201 author.name:(Kirklin Dushane Patrick) title:(Intracardiac surgery with mechanical pumpoxygenator system Gibbon type Report eight cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Proc Staff Meet Mayo Clin) AND host.pages.last:206 AND host.pages.first:201 AND publicationDate:1955 AND author.name:(Kirklin Dushane Patrick) AND host.volume:30 AND title:(Intracardiac surgery with mechanical pumpoxygenator system Gibbon type Report eight cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Proc* Staff* Meet* Mayo* Clin*) AND host.pages.last:206 AND host.pages.first:201 AND publicationDate:1955 AND author.name:(Kirklin Dushane Patrick) AND host.volume:30 AND title:(Intracardiac surgery with mechanical pumpoxygenator system Gibbon type Report eight cases)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title level=\"a\" type=\"main\">Application of a mechanical heart and lung apparatus to cardiac surgery</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Jh</forename>\n    <surname>Gibbon</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Minn Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">37</biblScope>\n   <biblScope unit=\"page\" from=\"171\" to=\"180\"></biblScope>\n   <date type=\"published\" when=\"1954\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lyman A. Brewer,  III MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9610(81)90066-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "618",
+              "last": "631"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "141"
+          },
+          "id": "24E5C3FFEB18337868C9099DFCA9D7C9311EF9EE",
+          "publicationDate": "1981",
+          "title": "Open heart surgery and myocardial revascularization"
+        },
+        "lucn_query": "Application of a mechanical heart and lung apparatus to cardiac surgery Jh Gibbon Minn Med 37 1954 171 180"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Minn Med\" AND host.pages.last:\"180\" AND publicationDate:\"1954\" AND author.name:\"Gibbon\" AND title:\"Application of a mechanical heart and lung apparatus to cardiac surgery\" AND host.volume:\"37\" AND host.pages.first:\"171\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "John Gibbon"
+            },
+            {
+              "name": "Russell M. Church"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-0277(90)90017-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "23",
+              "last": "54"
+            },
+            "title": "Cognition",
+            "volume": "37"
+          },
+          "id": "E702507A071EC8E4972BB33F6C2160613E49608B",
+          "publicationDate": "1990",
+          "title": "Representation of time"
+        },
+        "lucn_query": "host.title:\"Minn Med\" host.pages.last:\"180\" publicationDate:\"1954\" author.name:\"Gibbon\" title:\"Application of a mechanical heart and lung apparatus to cardiac surgery\" host.volume:\"37\" host.pages.first:\"171\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hilary Dent"
+            },
+            {
+              "name": "Fiona Gibbon"
+            },
+            {
+              "name": "Bill Hardcastle"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.3109/13682829509082537"
+          ],
+          "host": {
+            "pages": {
+              "first": "264",
+              "last": "277"
+            },
+            "title": "International Journal of Language & Communication Disorders",
+            "volume": "30"
+          },
+          "id": "DD6E65E30366D95932659D0B90CA5914B0E3D45D",
+          "publicationDate": "1995",
+          "title": "The application of electropalatography (EPG) to the remediation of speech disorders in school\u2010aged children and young adults"
+        },
+        "lucn_query": "host.title:(Minn Med) host.pages.last:180 host.pages.first:171 publicationDate:1954 author.name:Gibbon host.volume:37 title:(Application mechanical heart lung apparatus cardiac surgery)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. A. WILLMORE"
+            },
+            {
+              "name": "R. S. DEGENKOLB"
+            },
+            {
+              "name": "R. H. HERRON"
+            },
+            {
+              "name": "A. W. ALLEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1151-2916.1954.tb13976.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "445",
+              "last": "457"
+            },
+            "title": "Journal of the American Ceramic Society",
+            "volume": "37"
+          },
+          "id": "8AD1CE422FEACC4A76BB0CFB6396CACA1CD34B87",
+          "publicationDate": "1954",
+          "title": "Application of Sonic Moduli of Elasticity and Rigidity to Testing of Heavy Refractories"
+        },
+        "lucn_query": "(publicationDate:1954 AND host.volume:37) AND (host.title:(Minn Med) host.pages.last:180 host.pages.first:171 author.name:Gibbon title:(Application mechanical heart lung apparatus cardiac surgery))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. A. WILLMORE"
+            },
+            {
+              "name": "R. S. DEGENKOLB"
+            },
+            {
+              "name": "R. H. HERRON"
+            },
+            {
+              "name": "A. W. ALLEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1151-2916.1954.tb13976.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "445",
+              "last": "457"
+            },
+            "title": "Journal of the American Ceramic Society",
+            "volume": "37"
+          },
+          "id": "8AD1CE422FEACC4A76BB0CFB6396CACA1CD34B87",
+          "publicationDate": "1954",
+          "title": "Application of Sonic Moduli of Elasticity and Rigidity to Testing of Heavy Refractories"
+        },
+        "lucn_query": "(publicationDate:1954 AND host.volume:37) AND (host.title:(Minn* Med*) host.pages.last:180 host.pages.first:171 author.name:Gibbon title:(Application mechanical heart lung apparatus cardiac surgery))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Minn Med) AND host.pages.last:180 AND host.pages.first:171 AND publicationDate:1954 AND author.name:Gibbon AND host.volume:37 AND title:(Application mechanical heart lung apparatus cardiac surgery)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Minn* Med*) AND host.pages.last:180 AND host.pages.first:171 AND publicationDate:1954 AND author.name:Gibbon AND host.volume:37 AND title:(Application mechanical heart lung apparatus cardiac surgery)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title level=\"a\" type=\"main\">A simple , expendable, artificial oxygenator for open heart surgery</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Ra</forename>\n    <surname>Dewall</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">He</forename>\n    <surname>Warden</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Rc</forename>\n    <surname>Read</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surg Clin North Am</title>\n  <imprint>\n   <biblScope unit=\"volume\">36</biblScope>\n   <biblScope unit=\"page\" from=\"1025\" to=\"1034\"></biblScope>\n   <date type=\"published\" when=\"1956\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alfred H. Stammers MSA, CCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1053-0770(97)90095-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "266",
+              "last": "274"
+            },
+            "title": "Journal of Cardiothoracic and Vascular Anesthesia",
+            "volume": "11"
+          },
+          "id": "399EEB88FBC3433D58215D9B1547F731541A147C",
+          "publicationDate": "1997",
+          "title": "Historical aspects of cardiopulmonary by pass: From antiquity to acceptance"
+        },
+        "lucn_query": "A simple , expendable, artificial oxygenator for open heart surgery Ra Dewall He Warden Rc Read Surg Clin North Am 36 1956 1025 1034"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Surg Clin North Am\" AND host.pages.last:\"1034\" AND publicationDate:\"1956\" AND author.name:\"Dewall\" AND author.name:\"Warden\" AND author.name:\"Read\" AND title:\"A simple , expendable, artificial oxygenator for open heart surgery\" AND host.volume:\"36\" AND host.pages.first:\"1025\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. d'Y Dewall"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1080/00049538408255087"
+          ],
+          "host": {
+            "pages": {
+              "first": "149",
+              "last": "160"
+            },
+            "title": "Australian Journal of Psychology",
+            "volume": "36"
+          },
+          "id": "636AFC60405F9A83702F89754860196FCF1570B2",
+          "publicationDate": "1984",
+          "title": "Motivation And Information Processing In Learning Experiments"
+        },
+        "lucn_query": "host.title:\"Surg Clin North Am\" host.pages.last:\"1034\" publicationDate:\"1956\" author.name:\"Dewall\" author.name:\"Warden\" author.name:\"Read\" title:\"A simple , expendable, artificial oxygenator for open heart surgery\" host.volume:\"36\" host.pages.first:\"1025\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. d'Y Dewall"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1080/00049538408255087"
+          ],
+          "host": {
+            "pages": {
+              "first": "149",
+              "last": "160"
+            },
+            "title": "Australian Journal of Psychology",
+            "volume": "36"
+          },
+          "id": "636AFC60405F9A83702F89754860196FCF1570B2",
+          "publicationDate": "1984",
+          "title": "Motivation And Information Processing In Learning Experiments"
+        },
+        "lucn_query": "host.title:(Surg Clin North Am) host.pages.last:1034 host.pages.first:1025 publicationDate:1956 author.name:(Dewall Warden Read) host.volume:36 title:(simple expendable artificial oxygenator open heart surgery)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "STIG COMET"
+            },
+            {
+              "name": "HENRIK LAGERL\u00d6F"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-1716.1956.tb01331.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "348",
+              "last": "359"
+            },
+            "title": "Acta Physiologica Scandinavica",
+            "volume": "36"
+          },
+          "id": "13D41F61B3F2BA73190723811A79C9FC318D9F46",
+          "publicationDate": "1956",
+          "title": "An Extended Analysis of Indicator Dilution Curves, Leading to Direct Calculation of the Pulmonary Blood Volume and the Blood Volume in the Left Heart even in the Presence of Aortic and Mitral Regurgitation."
+        },
+        "lucn_query": "(publicationDate:1956 AND host.volume:36) AND (host.title:(Surg Clin North Am) host.pages.last:1034 host.pages.first:1025 author.name:(Dewall Warden Read) title:(simple expendable artificial oxygenator open heart surgery))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "STIG COMET"
+            },
+            {
+              "name": "HENRIK LAGERL\u00d6F"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-1716.1956.tb01331.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "348",
+              "last": "359"
+            },
+            "title": "Acta Physiologica Scandinavica",
+            "volume": "36"
+          },
+          "id": "13D41F61B3F2BA73190723811A79C9FC318D9F46",
+          "publicationDate": "1956",
+          "title": "An Extended Analysis of Indicator Dilution Curves, Leading to Direct Calculation of the Pulmonary Blood Volume and the Blood Volume in the Left Heart even in the Presence of Aortic and Mitral Regurgitation."
+        },
+        "lucn_query": "(publicationDate:1956 AND host.volume:36) AND (host.title:(Surg* Clin* North* Am*) host.pages.last:1034 host.pages.first:1025 author.name:(Dewall Warden Read) title:(simple expendable artificial oxygenator open heart surgery))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Surg Clin North Am) AND host.pages.last:1034 AND host.pages.first:1025 AND publicationDate:1956 AND author.name:(Dewall Warden Read) AND host.volume:36 AND title:(simple expendable artificial oxygenator open heart surgery)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Surg* Clin* North* Am*) AND host.pages.last:1034 AND host.pages.first:1025 AND publicationDate:1956 AND author.name:(Dewall Warden Read) AND host.volume:36 AND title:(simple expendable artificial oxygenator open heart surgery)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title level=\"a\" type=\"main\">Surgical repair of ruptured interventricular septum following acute myocardial infarction</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Da</forename>\n    <surname>Cooley</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ba</forename>\n    <surname>Belmonte</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Lb</forename>\n    <surname>Zeis</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surgery</title>\n  <imprint>\n   <biblScope unit=\"volume\">41</biblScope>\n   <biblScope unit=\"page\" from=\"930\" to=\"937\"></biblScope>\n   <date type=\"published\" when=\"1957\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. J. Ellis"
+            },
+            {
+              "name": "G. F. Parkinson"
+            },
+            {
+              "name": "W. M. Jaffe"
+            },
+            {
+              "name": "M. J. Campbell"
+            },
+            {
+              "name": "A. R. Kerr"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1445-5994.1995.tb01898.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "330",
+              "last": "336"
+            },
+            "title": "Australian and New Zealand Journal of Medicine",
+            "volume": "25"
+          },
+          "id": "5B5F868F54601531474135BFFBFE294ACDF50FA8",
+          "publicationDate": "1995",
+          "title": "Good long\u2010term outcome following surgical repair of post\u2010infarction ventricular septal defect"
+        },
+        "lucn_query": "Surgical repair of ruptured interventricular septum following acute myocardial infarction Da Cooley Ba Belmonte Lb Zeis Surgery 41 1957 930 937"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Surgery\" AND host.pages.last:\"937\" AND publicationDate:\"1957\" AND author.name:\"Cooley\" AND author.name:\"Belmonte\" AND author.name:\"Zeis\" AND title:\"Surgical repair of ruptured interventricular septum following acute myocardial infarction\" AND host.volume:\"41\" AND host.pages.first:\"930\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Pedro Ta\u00f1\u00e1 MD"
+            },
+            {
+              "name": "Jos\u00e9 Belmonte MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0886-3350(96)80070-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "1211",
+              "last": "1221"
+            },
+            "title": "Journal of Cataract & Refractive Surgery",
+            "volume": "22"
+          },
+          "id": "67C0425D108F65FDD0F22BF67739BA41C0C67789",
+          "publicationDate": "1996",
+          "title": "Experimental study of different intraocular lens designs implanted in the bag after capsulorhexis"
+        },
+        "lucn_query": "host.title:\"Surgery\" host.pages.last:\"937\" publicationDate:\"1957\" author.name:\"Cooley\" author.name:\"Belmonte\" author.name:\"Zeis\" title:\"Surgical repair of ruptured interventricular septum following acute myocardial infarction\" host.volume:\"41\" host.pages.first:\"930\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Charles D Fraser,  Jr MD"
+            },
+            {
+              "name": "E.Dean McKenzie MD"
+            },
+            {
+              "name": "Denton A Cooley MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0003-4975(01)02475-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "1556",
+              "last": "1563"
+            },
+            "title": "The Annals of Thoracic Surgery",
+            "volume": "71"
+          },
+          "id": "F55301E9EBB4A5C6A516FDB74C19970A3E13B3C6",
+          "publicationDate": "2001",
+          "title": "Tetralogy of Fallot: surgical management individualized to the patient"
+        },
+        "lucn_query": "host.title:Surgery host.pages.last:937 host.pages.first:930 publicationDate:1957 author.name:(Cooley Belmonte Zeis) host.volume:41 title:(Surgical repair ruptured interventricular septum following acute myocardial infarction)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. C. Rodger"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/bjo.41.9.544"
+          ],
+          "host": {
+            "pages": {
+              "first": "544"
+            },
+            "title": "British Journal of Ophthalmology",
+            "volume": "41"
+          },
+          "id": "927DC7EA8737F8AE59192A92E05176B2880AC19C",
+          "publicationDate": "1957",
+          "title": "ACUTE OCULAR ONCHOCERCIASIS AND ITS TREATMENT*"
+        },
+        "lucn_query": "(publicationDate:1957 AND host.volume:41) AND (host.title:Surgery host.pages.last:937 host.pages.first:930 author.name:(Cooley Belmonte Zeis) title:(Surgical repair ruptured interventricular septum following acute myocardial infarction))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. C. Rodger"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/bjo.41.9.544"
+          ],
+          "host": {
+            "pages": {
+              "first": "544"
+            },
+            "title": "British Journal of Ophthalmology",
+            "volume": "41"
+          },
+          "id": "927DC7EA8737F8AE59192A92E05176B2880AC19C",
+          "publicationDate": "1957",
+          "title": "ACUTE OCULAR ONCHOCERCIASIS AND ITS TREATMENT*"
+        },
+        "lucn_query": "(publicationDate:1957 AND host.volume:41) AND (host.title:(Surgery*) host.pages.last:937 host.pages.first:930 author.name:(Cooley Belmonte Zeis) title:(Surgical repair ruptured interventricular septum following acute myocardial infarction))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:Surgery AND host.pages.last:937 AND host.pages.first:930 AND publicationDate:1957 AND author.name:(Cooley Belmonte Zeis) AND host.volume:41 AND title:(Surgical repair ruptured interventricular septum following acute myocardial infarction)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Surgery*) AND host.pages.last:937 AND host.pages.first:930 AND publicationDate:1957 AND author.name:(Cooley Belmonte Zeis) AND host.volume:41 AND title:(Surgical repair ruptured interventricular septum following acute myocardial infarction)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <analytic>\n  <title level=\"a\" type=\"main\">The pump oxygenator in cardiovascular surgery: Observations based upon 450 cases</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Da</forename>\n    <surname>Cooley</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ha</forename>\n    <surname>Collins</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jw</forename>\n    <surname>Giacobine</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">24</biblScope>\n   <biblScope unit=\"page\" from=\"870\" to=\"882\"></biblScope>\n   <date type=\"published\" when=\"1958\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Antoine P. Simons"
+            },
+            {
+              "name": "Pieter Wortel"
+            },
+            {
+              "name": "Rob A.T. Van Kan"
+            },
+            {
+              "name": "Frederik H. Van Der Veen"
+            },
+            {
+              "name": "Patrick W. Weerwind"
+            },
+            {
+              "name": "Jos G. Maessen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1525-1594.2009.00853.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "289",
+              "last": "294"
+            },
+            "title": "Artificial Organs",
+            "volume": "34"
+          },
+          "id": "25F32FE9F918E505742DC212A15C276E1C91CF11",
+          "publicationDate": "2010",
+          "title": "Pulse Conductance and Flow\u2010induced Hemolysis During Pulsatile Cardiopulmonary Bypass"
+        },
+        "lucn_query": "The pump oxygenator in cardiovascular surgery\\: Observations based upon 450 cases Da Cooley Ha Collins Jw Giacobine Ann Surg 24 1958 870 882"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Ann Surg\" AND host.pages.last:\"882\" AND publicationDate:\"1958\" AND author.name:\"Cooley\" AND author.name:\"Collins\" AND author.name:\"Giacobine\" AND title:\"The pump oxygenator in cardiovascular surgery\\: Observations based upon 450 cases\" AND host.volume:\"24\" AND host.pages.first:\"870\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Keith Collins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0306-9192(99)00027-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "311",
+              "last": "324"
+            },
+            "title": "Food Policy",
+            "volume": "24"
+          },
+          "id": "7E7C527597D7C6107F2CFA1CF9F657691DED0D2C",
+          "publicationDate": "1999",
+          "title": "Public policy and the supply of food"
+        },
+        "lucn_query": "host.title:\"Ann Surg\" host.pages.last:\"882\" publicationDate:\"1958\" author.name:\"Cooley\" author.name:\"Collins\" author.name:\"Giacobine\" title:\"The pump oxygenator in cardiovascular surgery\\: Observations based upon 450 cases\" host.volume:\"24\" host.pages.first:\"870\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Denton A. Cooley MD, Houston, Texas"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9610(99)80060-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "S53",
+              "last": "S59"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "170"
+          },
+          "id": "C94FE3F6CE43A396B3B566D8561467BF326E3ACE",
+          "publicationDate": "1995",
+          "title": "Conservation of blood during cardiovascular surgery"
+        },
+        "lucn_query": "host.title:(Ann Surg) host.pages.last:882 host.pages.first:870 publicationDate:1958 author.name:(Cooley Collins Giacobine) host.volume:24 title:(pump oxygenator cardiovascular surgery Observations based upon cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Milton G. Crane M.D."
+            },
+            {
+              "name": "Gordon Short M.D."
+            },
+            {
+              "name": "John E. Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9343(58)90319-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "313",
+              "last": "322"
+            },
+            "title": "The American Journal of Medicine",
+            "volume": "24"
+          },
+          "id": "C145F7DAFC3452DBAD042FD3066548FD705A437E",
+          "publicationDate": "1958",
+          "title": "Observations on a case of primary aldosteronism"
+        },
+        "lucn_query": "(publicationDate:1958 AND host.volume:24) AND (host.title:(Ann Surg) host.pages.last:882 host.pages.first:870 author.name:(Cooley Collins Giacobine) title:(pump oxygenator cardiovascular surgery Observations based upon cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Milton G. Crane M.D."
+            },
+            {
+              "name": "Gordon Short M.D."
+            },
+            {
+              "name": "John E. Peterson M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9343(58)90319-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "313",
+              "last": "322"
+            },
+            "title": "The American Journal of Medicine",
+            "volume": "24"
+          },
+          "id": "C145F7DAFC3452DBAD042FD3066548FD705A437E",
+          "publicationDate": "1958",
+          "title": "Observations on a case of primary aldosteronism"
+        },
+        "lucn_query": "(publicationDate:1958 AND host.volume:24) AND (host.title:(Ann* Surg*) host.pages.last:882 host.pages.first:870 author.name:(Cooley Collins Giacobine) title:(pump oxygenator cardiovascular surgery Observations based upon cases))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann Surg) AND host.pages.last:882 AND host.pages.first:870 AND publicationDate:1958 AND author.name:(Cooley Collins Giacobine) AND host.volume:24 AND title:(pump oxygenator cardiovascular surgery Observations based upon cases)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Ann* Surg*) AND host.pages.last:882 AND host.pages.first:870 AND publicationDate:1958 AND author.name:(Cooley Collins Giacobine) AND host.volume:24 AND title:(pump oxygenator cardiovascular surgery Observations based upon cases)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title level=\"a\" type=\"main\">Hypothermic perfusion for open-heart surgical procedures: Report of the use of a heart-lung machine primed with five percent dextrose in water inducing hemodilution</title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <surname>Zuhdi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Mccollough</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Carey</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J Int Coll Surg</title>\n  <imprint>\n   <biblScope unit=\"volume\">35</biblScope>\n   <biblScope unit=\"page\" from=\"319\" to=\"326\"></biblScope>\n   <date type=\"published\" when=\"1961\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Denton A. Cooley MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0003-4975(97)01025-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "1544",
+              "last": "1548"
+            },
+            "title": "The Annals of Thoracic Surgery",
+            "volume": "64"
+          },
+          "id": "9F98BDE54B00F52123A91644AA18D329FE6C848E",
+          "publicationDate": "1997",
+          "title": "Early Development of Congenital Heart Surgery: Open Heart Procedures"
+        },
+        "lucn_query": "Hypothermic perfusion for open-heart surgical procedures\\: Report of the use of a heart-lung machine primed with five percent dextrose in water inducing hemodilution N Zuhdi B Mccollough J Carey J Int Coll Surg 35 1961 319 326"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"J Int Coll Surg\" AND host.pages.last:\"326\" AND publicationDate:\"1961\" AND author.name:\"Zuhdi\" AND author.name:\"Mccollough\" AND author.name:\"Carey\" AND title:\"Hypothermic perfusion for open-heart surgical procedures\\: Report of the use of a heart-lung machine primed with five percent dextrose in water inducing hemodilution\" AND host.volume:\"35\" AND host.pages.first:\"319\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Cynthia Carey"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00344732"
+          ],
+          "host": {
+            "pages": {
+              "first": "197",
+              "last": "219"
+            },
+            "title": "Oecologia",
+            "volume": "35"
+          },
+          "id": "7752FF41F64C6EFB971F9BC9F98B77AE12A9CF02",
+          "publicationDate": "1978",
+          "title": "Factors affecting body temperatures of toads"
+        },
+        "lucn_query": "host.title:\"J Int Coll Surg\" host.pages.last:\"326\" publicationDate:\"1961\" author.name:\"Zuhdi\" author.name:\"Mccollough\" author.name:\"Carey\" title:\"Hypothermic perfusion for open-heart surgical procedures\\: Report of the use of a heart-lung machine primed with five percent dextrose in water inducing hemodilution\" host.volume:\"35\" host.pages.first:\"319\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Debjani Roy"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703207"
+          ],
+          "host": {
+            "pages": {
+              "first": "629",
+              "last": "644"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "4471A7AC4A966A679545A477299512E5C0C38230",
+          "publicationDate": "1994",
+          "title": "Development of hearing in vertebrates with special reference to anuran acoustic communication"
+        },
+        "lucn_query": "host.title:(J Int Coll Surg) host.pages.last:326 host.pages.first:319 publicationDate:1961 author.name:(Zuhdi Mccollough Carey) host.volume:35 title:(Hypothermic perfusion open heart surgical procedures Report heart lung machine primed with five percent dextrose water inducing hemodilution)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1961 AND host.volume:35) AND (host.title:(J Int Coll Surg) host.pages.last:326 host.pages.first:319 author.name:(Zuhdi Mccollough Carey) title:(Hypothermic perfusion open heart surgical procedures Report heart lung machine primed with five percent dextrose water inducing hemodilution))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "(publicationDate:1961 AND host.volume:35) AND (host.title:(journal Int* Coll* Surg*) host.pages.last:326 host.pages.first:319 author.name:(Zuhdi Mccollough Carey) title:(Hypothermic perfusion open heart surgical procedures Report heart lung machine primed with five percent dextrose water inducing hemodilution))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(J Int Coll Surg) AND host.pages.last:326 AND host.pages.first:319 AND publicationDate:1961 AND author.name:(Zuhdi Mccollough Carey) AND host.volume:35 AND title:(Hypothermic perfusion open heart surgical procedures Report heart lung machine primed with five percent dextrose water inducing hemodilution)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(journal Int* Coll* Surg*) AND host.pages.last:326 AND host.pages.first:319 AND publicationDate:1961 AND author.name:(Zuhdi Mccollough Carey) AND host.volume:35 AND title:(Hypothermic perfusion open heart surgical procedures Report heart lung machine primed with five percent dextrose water inducing hemodilution)"
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title level=\"a\" type=\"main\">Open heart operations with disposable oxygenators, five percent dextrose prime, and normothermia</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Da</forename>\n    <surname>Cooley</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ac</forename>\n    <surname>Beall</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Jr</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Grondin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surgery</title>\n  <imprint>\n   <biblScope unit=\"volume\">52</biblScope>\n   <biblScope unit=\"page\" from=\"713\" to=\"719\"></biblScope>\n   <date type=\"published\" when=\"1962\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "7FD49C64DDDE882B3334BA199EC7285B0772B4B5",
+    "solved_qs": [
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Arthur C. Beall,  Jr. M.D., F.A.C.C."
+            },
+            {
+              "name": "Robert D. Bloodwell M.D., F.A.C.C."
+            },
+            {
+              "name": "Donald L. Bricker M.D."
+            },
+            {
+              "name": "J.Edward Okies M.D."
+            },
+            {
+              "name": "Denton A. Cooley M.D., F.A.C.C."
+            },
+            {
+              "name": "Michael E. DeBakey M.D., F.A.C.C."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9149(69)90074-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "250",
+              "last": "257"
+            },
+            "title": "The American Journal of Cardiology",
+            "volume": "23"
+          },
+          "id": "B954E7CB2CD773A5F4F1355C55F018B41CF461BB",
+          "publicationDate": "1969",
+          "title": "Prosthetic replacement of cardiac valves"
+        },
+        "lucn_query": "Open heart operations with disposable oxygenators, five percent dextrose prime, and normothermia Da Cooley Ac Beall Jr P Grondin Surgery 52 1962 713 719"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:\"Surgery\" AND host.pages.last:\"719\" AND publicationDate:\"1962\" AND author.name:\"Cooley\" AND author.name:\"Beall\" AND author.name:\"Jr\" AND author.name:\"Grondin\" AND title:\"Open heart operations with disposable oxygenators, five percent dextrose prime, and normothermia\" AND host.volume:\"52\" AND host.pages.first:\"713\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Arthur C. Beall,  Jr."
+            },
+            {
+              "name": "Herbert L. Fred"
+            },
+            {
+              "name": "Denton A. Cooley"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0011-3840(64)80004-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "47"
+            },
+            "title": "Current Problems in Surgery",
+            "volume": "1"
+          },
+          "id": "7C81D189A6DD604CF859D47976A0BD726191A034",
+          "publicationDate": "1964",
+          "title": "Pulmonary Embolism"
+        },
+        "lucn_query": "host.title:\"Surgery\" host.pages.last:\"719\" publicationDate:\"1962\" author.name:\"Cooley\" author.name:\"Beall\" author.name:\"Jr\" author.name:\"Grondin\" title:\"Open heart operations with disposable oxygenators, five percent dextrose prime, and normothermia\" host.volume:\"52\" host.pages.first:\"713\""
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "Arthur C. Beall,  Jr."
+            },
+            {
+              "name": "Herbert L. Fred"
+            },
+            {
+              "name": "Denton A. Cooley"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0011-3840(64)80004-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "47"
+            },
+            "title": "Current Problems in Surgery",
+            "volume": "1"
+          },
+          "id": "7C81D189A6DD604CF859D47976A0BD726191A034",
+          "publicationDate": "1964",
+          "title": "Pulmonary Embolism"
+        },
+        "lucn_query": "host.title:Surgery host.pages.last:719 host.pages.first:713 publicationDate:1962 author.name:(Cooley Beall Jr Grondin) host.volume:52 title:(Open heart operations with disposable oxygenators five percent dextrose prime normothermia)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "HIROO MAENO"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.jbchem.a127625"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "350"
+            },
+            "title": "The Journal of Biochemistry",
+            "volume": "52"
+          },
+          "id": "F42367070BFB0F34357268DBB42D9B61F9F4369E",
+          "publicationDate": "1962",
+          "title": "Biochemical Analysis of Pathological Lesions Caused by Habu Snake Venom with Special Reference to Hemorrhage"
+        },
+        "lucn_query": "(publicationDate:1962 AND host.volume:52) AND (host.title:Surgery host.pages.last:719 host.pages.first:713 author.name:(Cooley Beall Jr Grondin) title:(Open heart operations with disposable oxygenators five percent dextrose prime normothermia))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": {
+          "author": [
+            {
+              "name": "HIROO MAENO"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.jbchem.a127625"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "350"
+            },
+            "title": "The Journal of Biochemistry",
+            "volume": "52"
+          },
+          "id": "F42367070BFB0F34357268DBB42D9B61F9F4369E",
+          "publicationDate": "1962",
+          "title": "Biochemical Analysis of Pathological Lesions Caused by Habu Snake Venom with Special Reference to Hemorrhage"
+        },
+        "lucn_query": "(publicationDate:1962 AND host.volume:52) AND (host.title:(Surgery*) host.pages.last:719 host.pages.first:713 author.name:(Cooley Beall Jr Grondin) title:(Open heart operations with disposable oxygenators five percent dextrose prime normothermia))"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:Surgery AND host.pages.last:719 AND host.pages.first:713 AND publicationDate:1962 AND author.name:(Cooley Beall Jr Grondin) AND host.volume:52 AND title:(Open heart operations with disposable oxygenators five percent dextrose prime normothermia)"
+      },
+      {
+        "match_flag": false,
+        "json_answr": null,
+        "lucn_query": "host.title:(Surgery*) AND host.pages.last:719 AND host.pages.first:713 AND publicationDate:1962 AND author.name:(Cooley Beall Jr Grondin) AND host.volume:52 AND title:(Open heart operations with disposable oxygenators five percent dextrose prime normothermia)"
+      }
+    ]
+  }
+]
