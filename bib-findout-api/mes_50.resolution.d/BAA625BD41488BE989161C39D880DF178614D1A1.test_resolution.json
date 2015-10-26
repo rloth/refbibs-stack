@@ -502,12 +502,12 @@
           "title": "Molecular recognition of alkali\u2010ions by crown\u2010ether\u2010functionalized poly(alkylthiophenes)"
         },
         "lucn_query": "P Bduerle K U Gaudl Adv. Muter 2 185 1990",
-        "match_flag": false
+        "match_flag": true
       },
       {
         "json_answr": null,
         "lucn_query": "host.title:\"Adv. Muter\" AND host.pages.first:\"185\" AND host.volume:\"2\" AND publicationDate:\"1990\" AND author.name:\"Bduerle\" AND author.name:\"Gaudl\"",
-        "match_flag": false
+        "match_flag": true
       },
       {
         "json_answr": {
@@ -536,7 +536,7 @@
           "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
         },
         "lucn_query": "host.title:\"Adv. Muter\" host.pages.first:\"185\" host.volume:\"2\" publicationDate:\"1990\" author.name:\"Bduerle\" author.name:\"Gaudl\"",
-        "match_flag": false
+        "match_flag": true
       },
       {
         "json_answr": {
@@ -565,7 +565,7 @@
           "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
         },
         "lucn_query": "host.title:(Adv Muter) host.pages.first:185 author.name:(Bduerle Gaudl) publicationDate:1990 host.volume:2",
-        "match_flag": false
+        "match_flag": true
       },
       {
         "json_answr": {
@@ -594,7 +594,7 @@
           "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
         },
         "lucn_query": "(publicationDate:1990 AND host.volume:2) AND (host.title:(Adv Muter) host.pages.first:185 author.name:(Bduerle Gaudl))",
-        "match_flag": false
+        "match_flag": true
       },
       {
         "json_answr": {
@@ -657,7 +657,7 @@
           "title": "Synthesis and properties of viologen functionalized poly(3\u2010alkylthienylenes)"
         },
         "lucn_query": "host.title:(Adv* Muter*) AND host.pages.first:185 AND author.name:(Bduerle Gaudl) AND publicationDate:1990 AND host.volume:2",
-        "match_flag": false
+        "match_flag": true
       }
     ]
   },

@@ -1,0 +1,895 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">II See, for example: I</title>\n </analytic>\n <monogr>\n  <title level=\"j\">Langmuir. J. Am. Chem. Sot</title>\n  <imprint>\n   <biblScope unit=\"volume\">38</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Linus Ravald"
+            },
+            {
+              "name": "Torgny Fornstedt"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0021-9673(00)00965-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "111",
+              "last": "130"
+            },
+            "title": "Journal of Chromatography A",
+            "volume": "908"
+          },
+          "id": "7B9315D40BC1D298D20CE6E46179B418F22F1A85",
+          "publicationDate": "2001",
+          "title": "Theoretical study of the accuracy of the elution by characteristic points method for bi-Langmuir isotherms"
+        },
+        "lucn_query": "II See, for example\\: I Langmuir. J. Am. Chem. Sot 38",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"38\" AND title:\"II See, for example\\: I\" AND host.title:\"Langmuir. J. Am. Chem. Sot\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Carri Ginter"
+            },
+            {
+              "name": "Raul Narits"
+            }
+          ],
+          "corpusName": "brill-journals",
+          "doi": [
+            "10.1163/092598812X13274154887303"
+          ],
+          "host": {
+            "pages": {
+              "first": "54",
+              "last": "76"
+            },
+            "title": "Review of Central and East European Law",
+            "volume": "38"
+          },
+          "id": "7DC26C8DE36C1A3E2DC1B5D62020F42B44AF7482",
+          "publicationDate": "2013",
+          "title": "The Perspective of a Small Member State to the Democratic Deficiency of the ESM"
+        },
+        "lucn_query": "host.volume:\"38\" title:\"II See, for example\\: I\" host.title:\"Langmuir. J. Am. Chem. Sot\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Neal Roberts M.A., J.D. (University of California)"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-2230.1975.tb01406.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "121",
+              "last": "138"
+            },
+            "title": "The Modern Law Review",
+            "volume": "38"
+          },
+          "id": "9EFEFB1606E088FAC1B431EA39726E16C5C3980F",
+          "publicationDate": "1975",
+          "title": "LAND STORAGE\u2014THE SWEDISH EXAMPLE*"
+        },
+        "lucn_query": "host.title:(Langmuir J Am Chem Sot) host.volume:38 title:example",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tianyou Wang"
+            },
+            {
+              "name": "Michael J. Kolen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1745-3984.2001.tb01115.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "19",
+              "last": "49"
+            },
+            "title": "Journal of Educational Measurement",
+            "volume": "38"
+          },
+          "id": "DDA5FF8479E981F697B1444BF52905C9C26614F8",
+          "publicationDate": "2001",
+          "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
+        },
+        "lucn_query": "(host.volume:38) AND (host.title:(Langmuir J Am Chem Sot) title:example)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tianyou Wang"
+            },
+            {
+              "name": "Michael J. Kolen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1745-3984.2001.tb01115.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "19",
+              "last": "49"
+            },
+            "title": "Journal of Educational Measurement",
+            "volume": "38"
+          },
+          "id": "DDA5FF8479E981F697B1444BF52905C9C26614F8",
+          "publicationDate": "2001",
+          "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
+        },
+        "lucn_query": "(host.volume:38) AND (host.title:(Langmuir* journal Am* Chem* Sot*) title:example)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:(Langmuir J Am Chem Sot) AND host.volume:38 AND title:example",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tianyou Wang"
+            },
+            {
+              "name": "Michael J. Kolen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1745-3984.2001.tb01115.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "19",
+              "last": "49"
+            },
+            "title": "Journal of Educational Measurement",
+            "volume": "38"
+          },
+          "id": "DDA5FF8479E981F697B1444BF52905C9C26614F8",
+          "publicationDate": "2001",
+          "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
+        },
+        "lucn_query": "host.title:(Langmuir* journal Am* Chem* Sot*) AND host.volume:38 AND title:example",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Marsh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Farnsworth</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surt. Sci. I</title>\n  <imprint>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. M. Burdick"
+            },
+            {
+              "name": "M. Dionne"
+            },
+            {
+              "name": "R. M. Boumans"
+            },
+            {
+              "name": "F. T. Short"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01876233"
+          ],
+          "host": {
+            "pages": {
+              "first": "129",
+              "last": "144"
+            },
+            "title": "Wetlands Ecology and Management",
+            "volume": "4"
+          },
+          "id": "6A3033FE95A4C48542C02885204087074F9EE60B",
+          "publicationDate": "1996",
+          "title": "Ecological responses to tidal restorations of two northern New England salt marshes"
+        },
+        "lucn_query": "J B Marsh H E Farnsworth Surt. Sci. I",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Marsh\" AND author.name:\"Farnsworth\" AND host.title:\"Surt. Sci. I\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.B. Marsh"
+            },
+            {
+              "name": "H.E. Farnsworth"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(64)90014-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "21"
+            },
+            "title": "Surface Science",
+            "volume": "1"
+          },
+          "id": "5FBD68BD3E19AEAB0D1E8491331CDCBA8413E2D2",
+          "publicationDate": "1964",
+          "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
+        },
+        "lucn_query": "author.name:\"Marsh\" author.name:\"Farnsworth\" host.title:\"Surt. Sci. I\"",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.B. Marsh"
+            },
+            {
+              "name": "H.E. Farnsworth"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(64)90014-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "21"
+            },
+            "title": "Surface Science",
+            "volume": "1"
+          },
+          "id": "5FBD68BD3E19AEAB0D1E8491331CDCBA8413E2D2",
+          "publicationDate": "1964",
+          "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
+        },
+        "lucn_query": "author.name:(Marsh Farnsworth) host.title:(Surt Sci)",
+        "match_flag": true
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Marsh Farnsworth) AND host.title:(Surt Sci)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.B. Marsh"
+            },
+            {
+              "name": "H.E. Farnsworth"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(64)90014-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "21"
+            },
+            "title": "Surface Science",
+            "volume": "1"
+          },
+          "id": "5FBD68BD3E19AEAB0D1E8491331CDCBA8413E2D2",
+          "publicationDate": "1964",
+          "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
+        },
+        "lucn_query": "author.name:(Marsh Farnsworth) AND host.title:(Surt* Sci*)",
+        "match_flag": true
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Germer</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">D</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Hartman. Rev. Sci. In .:rum. i I</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"7\" to=\"4\"></biblScope>\n   <date type=\"published\" when=\"1960\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G.A. Somorjai"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(73)90196-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "156",
+              "last": "176"
+            },
+            "title": "Surface Science",
+            "volume": "34"
+          },
+          "id": "8F1ABC920F388A70E83ACDB3537E378A54879ADB",
+          "publicationDate": "1973",
+          "title": "Low energy electron diffraction and auger electron spectroscopy studies of the structure of adsorbed gases on solid surfaces"
+        },
+        "lucn_query": "L H Germer C D Hartman. Rev. Sci. In .\\:rum. i I 1960 7 4",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Germer\" AND host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" AND host.pages.last:\"4\" AND publicationDate:\"1960\" AND host.pages.first:\"7\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.H. Germer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(60)90137-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "188",
+              "last": "199"
+            },
+            "title": "Wear",
+            "volume": "3"
+          },
+          "id": "E6CBD647BE1A11A3987C39713764249ADDB70EAA",
+          "publicationDate": "1960",
+          "title": "The erosion of relay contacts"
+        },
+        "lucn_query": "author.name:\"Germer\" host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" host.pages.last:\"4\" publicationDate:\"1960\" host.pages.first:\"7\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.H. Germer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(60)90137-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "188",
+              "last": "199"
+            },
+            "title": "Wear",
+            "volume": "3"
+          },
+          "id": "E6CBD647BE1A11A3987C39713764249ADDB70EAA",
+          "publicationDate": "1960",
+          "title": "The erosion of relay contacts"
+        },
+        "lucn_query": "author.name:Germer host.title:(Hartman Rev Sci In rum) host.pages.last:4 publicationDate:1960 host.pages.first:7",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.H. Germer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(60)90137-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "188",
+              "last": "199"
+            },
+            "title": "Wear",
+            "volume": "3"
+          },
+          "id": "E6CBD647BE1A11A3987C39713764249ADDB70EAA",
+          "publicationDate": "1960",
+          "title": "The erosion of relay contacts"
+        },
+        "lucn_query": "(publicationDate:1960) AND (author.name:Germer host.title:(Hartman Rev Sci In rum) host.pages.last:4 host.pages.first:7)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.H. Germer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(60)90137-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "188",
+              "last": "199"
+            },
+            "title": "Wear",
+            "volume": "3"
+          },
+          "id": "E6CBD647BE1A11A3987C39713764249ADDB70EAA",
+          "publicationDate": "1960",
+          "title": "The erosion of relay contacts"
+        },
+        "lucn_query": "(publicationDate:1960) AND (author.name:Germer host.title:(Hartman* Rev* Sci* In* rum*) host.pages.last:4 host.pages.first:7)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:Germer AND host.title:(Hartman Rev Sci In rum) AND host.pages.last:4 AND publicationDate:1960 AND host.pages.first:7",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:Germer AND host.title:(Hartman* Rev* Sci* In* rum*) AND host.pages.last:4 AND publicationDate:1960 AND host.pages.first:7",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">Z</forename>\n    <surname>Wang</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <surname>Tosatti</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Fasolino</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phya. Rev. L,ctt</title>\n  <imprint>\n   <biblScope unit=\"volume\">60</biblScope>\n   <biblScope unit=\"page\">2661</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Fasolino"
+            },
+            {
+              "name": "E. Tosatti"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(86)90325-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "483",
+              "last": "495"
+            },
+            "title": "Surface Science",
+            "volume": "178"
+          },
+          "id": "F167BB112FADD64D91F38F18449DAA4687F93FB2",
+          "publicationDate": "1986",
+          "title": "Incommensurate sandwiches in displacive surface reconstructions"
+        },
+        "lucn_query": "C Z Wang E Tosatti A Fasolino Phya. Rev. L,ctt 60 2661",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Wang\" AND author.name:\"Tosatti\" AND author.name:\"Fasolino\" AND host.title:\"Phya. Rev. L,ctt\" AND host.volume:\"60\" AND host.pages.first:\"2661\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Fasolino"
+            },
+            {
+              "name": "E. Tosatti"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(86)90325-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "483",
+              "last": "495"
+            },
+            "title": "Surface Science",
+            "volume": "178"
+          },
+          "id": "F167BB112FADD64D91F38F18449DAA4687F93FB2",
+          "publicationDate": "1986",
+          "title": "Incommensurate sandwiches in displacive surface reconstructions"
+        },
+        "lucn_query": "author.name:\"Wang\" author.name:\"Tosatti\" author.name:\"Fasolino\" host.title:\"Phya. Rev. L,ctt\" host.volume:\"60\" host.pages.first:\"2661\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Fasolino"
+            },
+            {
+              "name": "E. Tosatti"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(86)90325-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "483",
+              "last": "495"
+            },
+            "title": "Surface Science",
+            "volume": "178"
+          },
+          "id": "F167BB112FADD64D91F38F18449DAA4687F93FB2",
+          "publicationDate": "1986",
+          "title": "Incommensurate sandwiches in displacive surface reconstructions"
+        },
+        "lucn_query": "author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt) host.volume:60 host.pages.first:2661",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "X.T. Wang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-0277(95)00700-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "31",
+              "last": "63"
+            },
+            "title": "Cognition",
+            "volume": "60"
+          },
+          "id": "E5B1B6D621DD7594700E1D66521BA1F150019B73",
+          "publicationDate": "1996",
+          "title": "Domain-specific rationality in human choices: violations of utility axioms and social contexts"
+        },
+        "lucn_query": "(host.volume:60) AND (author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt) host.pages.first:2661)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jiang Wang"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.2307/2298057"
+          ],
+          "host": {
+            "pages": {
+              "first": "249",
+              "last": "282"
+            },
+            "title": "The Review of Economic Studies",
+            "volume": "60"
+          },
+          "id": "DB969B06D2DCB4DDA4784E1BB0C19BA00C5B3886",
+          "publicationDate": "1993",
+          "title": "A Model of Intertemporal Asset Prices Under Asymmetric Information"
+        },
+        "lucn_query": "(host.volume:60) AND (author.name:(Wang Tosatti Fasolino) host.title:(Phya* Rev* ctt*) host.pages.first:2661)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Wang Tosatti Fasolino) AND host.title:(Phya Rev ctt) AND host.volume:60 AND host.pages.first:2661",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Wang Tosatti Fasolino) AND host.title:(Phya* Rev* ctt*) AND host.volume:60 AND host.pages.first:2661",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Handbook of Sut-face Imaging and Visualization (CRC'</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Pa</forename>\n    <surname>Thiel</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Estrup</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Boca Raton. FI</title>\n  <imprint>\n   <date type=\"published\" when=\"19941\"></date>\n  </imprint>\n </monogr>\n <note>in. press</note>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peder J Estrup"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(94)90692-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "722",
+              "last": "730"
+            },
+            "title": "Surface Science",
+            "volume": "299\u2013300"
+          },
+          "id": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+          "publicationDate": "1994",
+          "title": "Surface phases of reconstructed tungsten (100) and molybdenum (100)"
+        },
+        "lucn_query": "Handbook of Sut-face Imaging and Visualization \\(CRC' Pa Thiel P J Estrup Boca Raton. FI in. press 19941",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Thiel\" AND author.name:\"Estrup\" AND host.title:\"Boca Raton. FI\" AND title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" AND publicationDate:\"19941\" AND \"in. press\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.J. Estrup"
+            },
+            {
+              "name": "E.G. McRae"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(71)90209-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "52"
+            },
+            "title": "Surface Science",
+            "volume": "25"
+          },
+          "id": "78B2E19DE1196F1F9D86B056B1A128941EA9810E",
+          "publicationDate": "1971",
+          "title": "Surface studies by electron diffraction"
+        },
+        "lucn_query": "author.name:\"Thiel\" author.name:\"Estrup\" host.title:\"Boca Raton. FI\" title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" publicationDate:\"19941\" \"in. press\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hans Estrup Andersen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/hyp.1277"
+          ],
+          "host": {
+            "pages": {
+              "first": "415",
+              "last": "434"
+            },
+            "title": "Hydrological Processes",
+            "volume": "18"
+          },
+          "id": "2CB22ECF4CD2BEBCCBA75E535BCB85EFA5892864",
+          "publicationDate": "2004",
+          "title": "Hydrology and nitrogen balance of a seasonally inundated Danish floodplain wetland"
+        },
+        "lucn_query": "author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) publicationDate:19941 press",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) press)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca* Raton* FI*) title:(Handbook face Imaging Visualization) press)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca Raton FI) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca* Raton* FI*) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Smith</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Barker</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>E\\trup</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Surl. Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">136</biblScope>\n   <biblScope unit=\"issue\">lYX4</biblScope>\n   <biblScope unit=\"page\">327</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peder J Estrup"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(94)90692-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "722",
+              "last": "730"
+            },
+            "title": "Surface Science",
+            "volume": "299\u2013300"
+          },
+          "id": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+          "publicationDate": "1994",
+          "title": "Surface phases of reconstructed tungsten (100) and molybdenum (100)"
+        },
+        "lucn_query": "Handbook of Sut-face Imaging and Visualization \\(CRC' Pa Thiel P J Estrup Boca Raton. FI in. press 19941",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Thiel\" AND author.name:\"Estrup\" AND host.title:\"Boca Raton. FI\" AND title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" AND publicationDate:\"19941\" AND \"in. press\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.J. Estrup"
+            },
+            {
+              "name": "E.G. McRae"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0039-6028(71)90209-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "52"
+            },
+            "title": "Surface Science",
+            "volume": "25"
+          },
+          "id": "78B2E19DE1196F1F9D86B056B1A128941EA9810E",
+          "publicationDate": "1971",
+          "title": "Surface studies by electron diffraction"
+        },
+        "lucn_query": "author.name:\"Thiel\" author.name:\"Estrup\" host.title:\"Boca Raton. FI\" title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" publicationDate:\"19941\" \"in. press\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hans Estrup Andersen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/hyp.1277"
+          ],
+          "host": {
+            "pages": {
+              "first": "415",
+              "last": "434"
+            },
+            "title": "Hydrological Processes",
+            "volume": "18"
+          },
+          "id": "2CB22ECF4CD2BEBCCBA75E535BCB85EFA5892864",
+          "publicationDate": "2004",
+          "title": "Hydrology and nitrogen balance of a seasonally inundated Danish floodplain wetland"
+        },
+        "lucn_query": "author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) publicationDate:19941 press",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) press)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca* Raton* FI*) title:(Handbook face Imaging Visualization) press)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca Raton FI) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca* Raton* FI*) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Pryhyla</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Chabal</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">J J</forename>\n    <surname>Estrup</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Phys</surname>\n   </persName>\n  </author>\n  <imprint>\n   <biblScope unit=\"page\" from=\"04\" to=\"1491\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b6",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
+    "solved_qs": []
+  }
+]
