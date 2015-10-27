@@ -730,8 +730,9 @@ def text_to_query_fragment(any_text):
 #         - déligatures
 #         - tout en min
 #      -> prépa texte issu de PDF
+#         - multimatch OCR (aka signature simplifiée)
+# £TODO
 #         - jonction accents eg o¨ => ö
-#         - multimatch OCR (aka interpolation)
 #      -> match longueur ?
 #         - caractères intercalés
 #         - quelques caractères en plus à la fin
@@ -741,7 +742,7 @@ def text_to_query_fragment(any_text):
 #     text  = fonction sur une chaîne
 #             (renvoie la chaîne transformée)
 #     text2 = fonction de comparaison de 2 chaînes
-#             (renvoie les 2 chaînes transformées ET un bool de match)
+#             (renvoie un bool de match)
 
 def text2_soft_compare(xmlstr,pdfstr, trace=False):
 	"""
@@ -752,6 +753,15 @@ def text2_soft_compare(xmlstr,pdfstr, trace=False):
 	
 	success = (clean_xmlstr == clean_pdfstr)
 	
+	if not success:
+		xml_ocr_signature = _text_ocr_errors(clean_xmlstr)
+		pdf_ocr_signature = _text_ocr_errors(clean_pdfstr)
+		
+		success = (xml_ocr_signature == pdf_ocr_signature)
+		
+		if success:
+			print ("OCR match (experimental) XML:%s, PDF:%s" % (xml_ocr_signature, pdf_ocr_signature), file=stderr)
+		
 	if trace:
 		return (success, clean_xmlstr, clean_pdfstr)
 	else:
@@ -764,8 +774,6 @@ def _text_common_prepa(my_str):
 	   - jonction césures,
 	   - déligatures
 	   - tout en min
-	
-	Seule fonction text2 qui fera la même chose sur les 2 chaînes
 	"""
 	# for my_str in [xmltext, pdftext]:
 	# --------------
@@ -860,6 +868,43 @@ def _text_common_prepa(my_str):
 	# M I N U S C U L E S
 	# --------------------
 	my_str = my_str.lower()
+	
+	return my_str
+
+
+def _text_ocr_errors(my_str):
+	"""
+	On oblitère les variantes graphiques
+	connues pour être des paires d'erreurs
+	OCR fréquentes ==> permet de comparer
+	ensuite les chaînes ainsi appauvires.
+	"""
+	# c'est visuel... on écrase le niveau de détail des cara 
+	
+	# attention à ne pas trop écraser tout de même !
+	# par exemple G0=Munier  T0=Muller doivent rester différents
+	
+	
+	# ex: y|v -> v
+	my_str = sub(r'nn|rn', 'm', my_str)    # /!\ 'nn' à traiter avant 'n'
+	my_str = sub(r'ü|ti|fi', 'ii', my_str) # /!\ '*i' à traiter avant 'i'
+	
+	my_str = sub(r'O|o|ø|C\)','0', my_str)
+	my_str = sub(r'1|I|l|i', '1', my_str)
+	my_str = sub(r'f|t|e', 'c', my_str)    # f|c|e ?
+	my_str = sub(r'y', 'v', my_str)
+	my_str = sub(r'S', '5', my_str)
+	#~ my_str = sub(r'c', 'e', my_str)
+	my_str = sub(r'E', 'B', my_str)
+	my_str = sub(r'R', 'K', my_str)
+	my_str = sub(r'n|u', 'a', my_str)
+	my_str = sub(r'\]', 'J', my_str)
+	
+	# diacritiques et cara "spéciaux"
+	my_str = sub(r'\[3', 'β', my_str)
+	my_str = sub(r'é|ö', '6', my_str)
+	
+	my_str = sub(r'ç', 'q', my_str)
 	
 	return my_str
 
