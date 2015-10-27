@@ -430,7 +430,7 @@ def make_set(corpus_name,
 			corpora_constraint = " OR ".join(['corpusName:'+corpus for corpus in ok_corpora.split(",")])
 			constraint = "qualityIndicators.refBibsNative:true AND (" + corpora_constraint +")"
 		if isinstance(size, int):
-			my_tab, my_log = sampler.full_run(
+			my_tab = sampler.full_run(
 					['-n', str(size), 
 					 '--outmode', 'tab', 
 					 '--with', constraint,
