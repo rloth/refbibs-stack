@@ -16,7 +16,7 @@ We need a distribution with volumes proportional to the pool on several criteria
 
 Perimeter via -w
 =================
-Another independant "attribute:value" group will define a CONSTRAINT on the sample.
+Another independant "attribute:value" group will define an a priori CONSTRAINT on the sample.
 	Exemple *constraints*:
 		"qualityIndicators.refBibsNative:true"
 		"qualityIndicators.pdfCharCount:[500 TO *]"
@@ -26,7 +26,7 @@ Assumes LC_ALL (aka sys.stdout.encoding) is 'UTF-8'
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.3"
+__version__   = "0.5"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -47,6 +47,7 @@ try:
 	#          au sein d'un package plus grand (exemple: bib-adapt-corpus)
 	from libconsulte import api
 	from libconsulte import field_value_lists
+	from libconsulte import field_combo_count
 	# =<< target_language_values, target_scat_values,
 	#     target_genre_values, target_date_ranges
 except ImportError:
@@ -55,6 +56,7 @@ except ImportError:
 		#           exemple: on veut juste lancer le sampler tout seul
 		import api
 		import field_value_lists
+		import field_combo_count
 		
 	# cas de figure où il n'y a vraiment rien
 	except ImportError:
@@ -73,30 +75,6 @@ MAX_RUNS = 5
 LISSAGE = 0.2
 # list of IDs to exclude from the sample result
 FORBIDDEN_IDS = []
-
-
-# fields allowed as criteria
-# (grouped according to the method we use for value listing)
-
-# auto value-listing via facet query
-TERMFACET_FIELDS_auto = [
-	'corpusName', 
-	'qualityIndicators.pdfVersion', 
-	'qualityIndicators.refBibsNative'
-	]
-
-# value-listing provided locally (stored into field_value_lists.py)
-TERMFACET_FIELDS_local = [
-	'language',
-	'genre',
-	'categories.wos'
-	]
-
-# binned listing via date ranges (also in field_value_lists.py)
-RANGEFACET_FIELDS = [
-	'publicationDate',
-	'copyrightDate'
-	]
 
 # ----------------------------------------------------------------------
 # CONSTANT mapping standard fields
@@ -120,6 +98,7 @@ STD_MAP = {
 	#'firstPage'       : 'in_fpg'    # todo
 	'qualityIndicators.pdfVersion' : 'pdfver',
 	'qualityIndicators.pdfWordCount' : 'pdfwc',
+	'qualityIndicators.refBibsNative' : 'bibnat',
 }
 
 # [+ colonnes calculées]
@@ -142,10 +121,6 @@ def my_parse_args(arglist=None):
 	------------------------------------------------------------""",
 		usage="\n------\n  sampler.py -n 10000 [--with 'lucene query'] [--crit luceneField1 luceneField2 ...]",
 		epilog="""--------------
-/!\\ known bug: until API provides random ranking function, we are going
-               to create *identical* samples for 2 runs with same params
-               (instead of creating 2 different random ones...)
-
 © 2014-2015 :: romain.loth at inist.fr :: Inist-CNRS (ISTEX)
 """
 		)
@@ -222,6 +197,12 @@ def my_parse_args(arglist=None):
 		action='store')
 	
 	
+	parser.add_argument('-l', '--log',
+		help="save log in a file echantillon_DATE_HEURE.log",
+		default=False,
+		required=False,
+		action='store_true')
+	
 	parser.add_argument('-v', '--verbose',
 		help="verbose switch",
 		default=False,
@@ -232,10 +213,9 @@ def my_parse_args(arglist=None):
 	
 	# --- checks and pre-propagation --------
 	#  if known criteria ?
-	known_fields_list = TERMFACET_FIELDS_auto + TERMFACET_FIELDS_local + RANGEFACET_FIELDS
 	flag_ok = True
 	for field_name in args.criteria_list:
-		if field_name not in known_fields_list:
+		if field_name not in field_value_lists.KNOWN_FIELDS:
 			flag_ok = False
 			print("Unknown field in -c args: '%s'" % field_name, 
 			      file=stderr)
@@ -261,42 +241,6 @@ def my_parse_args(arglist=None):
 	
 	return(args)
 
-
-def facet_vals(field_name):
-	"""
-	For each field, returns the list of possible outcomes
-	
-	ex: > facet_vals('corpusName')
-	    > ['elsevier','wiley', 'nature', 'sage', ...]
-	"""
-	
-	if field_name in TERMFACET_FIELDS_auto:
-		# deuxième partie si un "sous.type"
-		facet_name = sub('^[^.]+\.', '', field_name)
-		return(api.terms_facet(facet_name))
-	
-	elif field_name in TERMFACET_FIELDS_local:
-		# on a en stock 3 listes ad hoc
-		if field_name == 'language':
-			return(field_value_lists.LANG)
-		elif field_name == 'genre':
-			return(field_value_lists.GENRE)
-		elif field_name == 'categories.wos':
-			return(field_value_lists.SCAT)
-		else:
-			raise UnimplementedError()
-	
-	elif field_name in RANGEFACET_FIELDS:
-		luc_ranges = []
-		for interval in field_value_lists.DATE:
-			a = str(interval[0])
-			b = str(interval[1])
-			luc_ranges.append('[' + a + ' TO ' + b + ']')
-		return(luc_ranges)
-	
-	else:
-		print ("ERROR: ?? the API doesn't allow a facet query on field '%s' (and I don't have a field_value_lists for this field either :-/ )" % field_name, file=stderr)
-		exit(1)
 
 
 def year_to_range(year):
@@ -369,15 +313,8 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 	
 	
 	####### POOLING ########
-	#
-	N_reponses = 0
-	N_workdocs = 0
-	doc_grand_total = 0
-	# dict of counts for each combo ((crit1:val_1a),(crit2:val_2a)...)
-	abs_freqs = {}
 	
-	
-	# instead do steps (1) (2) maybe we have cached the pools ?
+	# instead of calling pooling() maybe we have cached the pools ?
 	# (always same counts for given criteria) => cache to json
 	cache_filename = pool_cache_path(crit_fields)
 	print('...checking cache for %s' % cache_filename,file=stderr)
@@ -385,95 +322,28 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 	if path.exists(cache_filename):
 		cache = open(cache_filename, 'r')
 		pool_info = load(cache)
-		abs_freqs       = pool_info['f']
-		N_reponses      = pool_info['nr']
-		N_workdocs      = pool_info['nd']
-		doc_grand_total = pool_info['totd']
-		print('...ok cache (%i workdocs)' % N_workdocs,file=stderr)
+		print('...ok cache (%i workdocs)' % pool_info['nd'],file=stderr)
 	else:
 		print('...no cache found',file=stderr)
-		
-		# (1) PARTITIONING THE SEARCH SPACE IN POSSIBLE OUTCOMES --------
-		print("Sending count queries for criteria pools...",file=stderr)
-		## build all "field:values" pairs per criterion field
-		## (list of list of strings: future lucene query chunks)
-		all_possibilities = []
-		n_combos = 1
-		for my_criterion in crit_fields:
-			field_outcomes = facet_vals(my_criterion)
-			n_combos = n_combos * len(field_outcomes)
-			# lucene query chunks
-			all_possibilities.append(
-				[my_criterion + ':' + val for val in field_outcomes]
-			)
-		
-		
-		## list combos (cartesian product of field_outcomes)
-		# we're directly unpacking *args into itertool.product()
-		# (=> we get an iterator over tuples of combinable query chunks)
-		combinations = product(*all_possibilities)
-		
-		
-		# example for -c corpusName, publicationDate
-		#	[
-		#	('corpusName:ecco', 'publicationDate:[* TO 1959]'),
-		#	('corpusName:ecco', 'publicationDate:[1960 TO 1999]'),
-		#	('corpusName:ecco', 'publicationDate:[2000 TO *]'),
-		#	('corpusName:elsevier', 'publicationDate:[* TO 1959]'),
-		#	('corpusName:elsevier', 'publicationDate:[1960 TO 1999]'),
-		#	('corpusName:elsevier', 'publicationDate:[2000 TO *]'),
-		#	(...)
-		#	]
-		
-		# (2) getting total counts for each criteria --------------------
-		
-		# number of counted answers
-		#  (1 doc can give several hits if a criterion was multivalued)
-		N_reponses = 0
-		
-		# do the counting for each combo
-		for i, combi in enumerate(sorted(combinations)):
-			if i % 100 == 0:
-				print("pool %i/%i" % (i,n_combos), file=stderr)
-			
-			query = " AND ".join(combi)
-			
-			# counting requests ++++
-			freq = api.count(query)
-			
-			if verbose:
-				print("pool:'% -30s': % 8i" %(query,freq),file=stderr)
-			
-			# storing and agregation
-			N_reponses += freq
-			abs_freqs[query] = freq
-		
-		# number of documents sending answers (hence normalizing constant N)
-		N_workdocs = api.count(" AND ".join([k+":*" for k in crit_fields]))
-		
-		if verbose:
-			print("--------- pool totals -----------", file=stderr)
-			print("#answered hits :   % 12s" % N_reponses, file=stderr)
-			print("#workdocs (N) :    % 12s" % N_workdocs, file=stderr)
-			# for comparison: all_docs = N + api.count(q="NOT(criterion:*)")
-			doc_grand_total = api.count(q='*')
-			print("#all API docs fyi: % 12s" % doc_grand_total,file=stderr)
-			print("---------------------------------", file=stderr)
-		
-		
-		# cache write
-		cache = open(cache_filename, 'w')
-		pool_info = {'f':abs_freqs, 'nr':N_reponses, 
-		            'nd':N_workdocs, 'totd':doc_grand_total}
-		# json.dump
-		dump(pool_info, cache, indent=1)
-		cache.close()
+		# -> run doc count foreach(combination of crit fields facets) <-
+		#        ---------               
+		pool_info = field_combo_count.pooling(crit_fields, verbose)
+		#           -----------------
 	
+	# dans les deux cas, même type de json
+	abs_freqs       = pool_info['f']
+	N_reponses      = pool_info['nr']
+	N_workdocs      = pool_info['nd']
+	doc_grand_total = pool_info['totd']
+	
+	# cache write
+	cache = open(cache_filename, 'w')
+	dump(pool_info, cache, indent=1, sort_keys=True)
+	cache.close()
 	
 	######### QUOTA ########
 	#
-	# (3) quota computation and availability checking ------------------
-	# quota computation
+	# quota computation = target_corpus_size * pool / N
 	rel_freqs = {}
 	for combi_query in abs_freqs:
 		
@@ -496,57 +366,60 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 	# got_ids_idx clés = ensemble d'ids , 
 	#             valeurs = critères ayant mené au choix
 	
-	print("Retrieving new sample chunks per pool quota...", file=stderr)
+	print("Retrieving random samples in each quota...", file=stderr)
 	
 	for combi_query in sorted(rel_freqs.keys()):
 		
+		json_hits = []
+		
 		# how many hits do we need?
 		my_quota = rel_freqs[combi_query]
-		if not flag_previous_index and not FORBIDDEN_IDS:
-			# option A: direct quota allocation to search limit
-			n_needed = my_quota
-		else:
-			# option B: limit larger than quota by retrieved amount
-			#           (provides deduplication margin if 2nd run)
-			#
-			# /!\ wouldn't be necessary at all if we had none or rare
-			#     duplicates, like with random result ranking)
-			
-			# supplément 1: items to skip
-			n_already_retrieved = len(
-				# lookup retrieved
-				[idi for idi,metad in index.items()
-					if search(escape(combi_query), metad['_q'])]
-				)
-			
-			# supplément 2: prorata de FORBIDDEN_IDS
-			suppl = round(len(FORBIDDEN_IDS) * my_quota / size)
-			n_already_retrieved += suppl
-			n_needed = my_quota + n_already_retrieved
 		
 		# adding constraints
 		if constraint_query:
 			my_query = '('+combi_query+') AND ('+constraint_query+')'
+			# pour les indices dispo, on doit recompter avec la contrainte
+			all_indices = [i for i in range(api.count(my_query))]
+		
+		# si pas de contrainte les indices dispos 
+		# pour le tirage aléatoire sont simplement [0:freq]
 		else:
 			my_query = combi_query
+			all_indices = [i for i in range(abs_freqs[combi_query])]
 		
-		# ----------------- api.search(...) ----------------------------
-		json_hits = api.search(my_query, 
-		                       limit=n_needed,
-		                       outfields=STD_MAP.keys())
-	        # outfields=('id','author.name','title','publicationDate','corpusName')
-
-		# --------------------------------------------------------------
+		
+		# on lance search 1 par 1 avec les indices tirés en FROM ---------
+		
+		# ici => ordre aléatoire
+		shuffle(all_indices)
+		
+		# on ne prend que les n premiers (tirage)
+		local_tirage = all_indices[0:my_quota]
+		
+		# pour infos
+		if verbose:
+			print(" ... drawing among %i docs :\n ... picked => %s" % (len(all_indices), local_tirage))
+		
+		for indice in local_tirage:
+			# ----------------- api.search(...) ----------------------------
+			new_hit = api.search(my_query, 
+								   limit=1,
+								   i_from=indice,
+								   n_docs=abs_freqs[combi_query],
+								   outfields=STD_MAP.keys())
+				# outfields=('id','author.name','title','publicationDate','corpusName')
+			
+			if len(new_hit) != 1:
+				# skip vides
+				# à cause d'une contrainte
+				continue
+			else:
+				# enregistrement
+				json_hits.append(new_hit.pop())
+			# --------------------------------------------------------------
 		
 		# NB: 'id' field would be enough for sampling itself, but we get
-		#     more metadatas to be able to provide an info table or to
-		#     create a human-readable filename
-		
-		# £TODO 1
-		# remplacer api.search() par une future fonction random_search
-		# cf. elasticsearch guide: "random scoring" (=> puis supprimer
-		# l'option B avec n_needed)
-		
+		#     more metadatas to be able to provide an info table
 		my_n_answers = len(json_hits)
 		
 		my_n_got = 0
@@ -603,29 +476,31 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 				else:
 					index[idi]['cat'] = "UNKOWN_SCI_CAT"
 				
-				if 'qualityIndicators' in hit and 'pdfVersion' in hit['qualityIndicators']:
-					index[idi]['ver'] = hit['qualityIndicators']['pdfVersion']
+				if 'qualityIndicators' in hit:
+					if 'pdfVersion' in hit['qualityIndicators']:
+						index[idi]['ver'] = hit['qualityIndicators']['pdfVersion']
+					else:
+						index[idi]['ver'] = "UNKNOWN_PDFVER"
+					if 'pdfWordCount' in hit['qualityIndicators']:
+						index[idi]['wcp'] = hit['qualityIndicators']['pdfWordCount']
+					else:
+						index[idi]['wcp'] = "UNKNOWN_PDFWORDCOUNT"
+					if 'refBibsNative' in hit['qualityIndicators']:
+						index[idi]['bibnat'] = hit['qualityIndicators']['refBibsNative']
+					else:
+						index[idi]['bibnat'] = "UNKNOWN_REFBIBSNATIVE"
 				else:
 					index[idi]['ver'] = "UNKNOWN_PDFVER"
-				
-				if 'qualityIndicators' in hit and 'pdfWordCount' in hit['qualityIndicators']:
-					index[idi]['wcp'] = hit['qualityIndicators']['pdfWordCount']
-				else:
 					index[idi]['wcp'] = "UNKNOWN_PDFWORDCOUNT"
-				
-			# recheck limit: needed as long as n_needed != my_quota 
-			# (should disappear as consequence of removing option B)
-			if my_n_got == my_quota:
-				break
+					index[idi]['bibnat'] = "UNKNOWN_REFBIBSNATIVE"
 		
-		print ("%-70s: %i(%i)/%i" % (
-					my_query[0:67]+"...", 
+		print ("done %-70s: %i/%i" % (
+					my_query[0:64]+"...", 
 					my_n_got, 
-					my_n_answers, 
 					my_quota
 				), file=stderr)
 		
-		# if within whole sample_size scope, we may observe unmeatable
+		# if within whole sample_size scope, we may observe unmeetable
 		# representativity criteria (marked 'LESS' and checked for RLAX)
 		if run_count == 0 and my_n_got < (.85 * (my_quota - LISSAGE)):
 			my_s = "" if my_n_got == 1 else "s"
@@ -640,7 +515,14 @@ def sample(size, crit_fields, constraint_query=None, index=None,
 def pool_cache_path(criteria_list):
 	"""pool_cache filename: sorted-criteria-of-the-set.pool.json"""
 	global HOME
-	cset_pool_path = path.join(HOME, 'pool_cache',
+	
+	cache_dir = path.join(HOME, 'pool_cache')
+	
+	if not path.isdir(cache_dir):
+		print("Creating cache dir: %s" % cache_dir, file=stderr)
+		mkdir(cache_dir)
+	
+	cset_pool_path = path.join(cache_dir,
 			'-'.join(sorted(criteria_list, reverse=True))+'.pool.json')
 	
 	# relative path ./pool_cache/.
@@ -815,7 +697,7 @@ def full_run(arglist=None):
 	elif args.out_type == 'tab':
 		# header line
 		# £TODO STD_MAP
-		output_array.append("\t".join(['istex_id', 'corpus', 'pub_year', 'pub_period', 'pdfver', 'pdfwc',
+		output_array.append("\t".join(['istex_id', 'corpus', 'pub_year', 'pub_period', 'pdfver', 'pdfwc','bibnat',
 						 'author_1','lang','doctype_1','cat_sci', 'title']))
 		# contents
 		for did, info in sorted(got_ids_idx.items(), key=lambda x: x[1]['_q']):
@@ -832,6 +714,7 @@ def full_run(arglist=None):
 			                                period,
 			                                info['ver'],
 			                                str(info['wcp']),
+			                                str(info['bibnat']),
 			                                info['au'],
 			                                info['lg'],
 			                                info['typ'],
@@ -862,8 +745,14 @@ def full_run(arglist=None):
 		
 		LOG.append("SAVE: saved docs in %s/" % my_dir)
 	
+	if args.log:
+		# separate logging lines
+		logfile = open(my_name+'.log', 'w')
+		for lline in LOG:
+			print(lline, file=logfile)
+		logfile.close()
 	
-	return (output_array, LOG)
+	return output_array
 
 ########################################################################
 
@@ -873,14 +762,9 @@ if __name__ == "__main__":
 	my_name = "echantillon_%s" % timestamp
 	
 	# run
-	(stdoutput, LOG) = full_run(arglist = argv[1:])
+	stdoutput = full_run(arglist = argv[1:])
 	
 	# output lines
 	for line in stdoutput:
 		print(line)
 	
-	# separate logging lines
-	logfile = open(my_name+'.log', 'w')
-	for lline in LOG:
-		print(lline, file=logfile)
-	logfile.close()

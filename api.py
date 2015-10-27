@@ -5,7 +5,7 @@ Query the ISTEX API (ES: lucene q => json doc)
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.2"
+__version__   = "0.3"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -50,7 +50,7 @@ def _get(my_url):
 			(url_e.reason, my_url), file=stderr)
 		# Plus d'infos: serveur, Content-Type, WWW-Authenticate..
 		# print ("ERR.info(): \n %s" % url_e.info(), file=stderr)
-		exit(1)
+		raise
 	try:
 		response = remote_file.read()
 	except httplib.IncompleteRead as ir_e:
@@ -111,8 +111,10 @@ def _bget(my_url, user=None, passw=None):
 
 # public functions
 # ----------------
-# £TODO: stockage disque sur fichier tempo si liste grande et champx nbx
-def search(q, api_conf=DEFAULT_API_CONF, limit=None, outfields=('title','host.issn','fulltext')):
+# £TODO1: séparer le mode i_from dans une fonction à part random_search_one
+# £TODO2: limit par défaut à 1 pour éviter de tout télécharger si test rapide ??
+# £TODO3: stockage disque sur fichier tempo si liste grande et champx nbx
+def search(q, api_conf=DEFAULT_API_CONF, limit=None, n_docs=None, outfields=('title','host.issn','fulltext'), i_from=0):
 	"""
 	Query the API and get a (perhaps long) "hits" array of json metadata.
 
@@ -128,6 +130,14 @@ def search(q, api_conf=DEFAULT_API_CONF, limit=None, outfields=('title','host.is
 	   api_conf    -- an inherited http config dict with these 2 keys:
 	                    * api_conf['host']   <- default: "api.istex.fr"
 	                    * api_conf['route']  <- default: "document"
+	   n_docs      -- si on l'a déjà, la taille du pool dans l'api 
+	                  (résultat de count pour la même requête)
+	                  sinon, il sera recalculé pour savoir paginer
+	
+	   i_from      -- mode permettant de fixer &from à un entier [0;n_docs]
+	               TODO actuellement entraîne forcément limit = 1 afin de
+	                    ne pas interférer avec la logique de pagination
+	                    des requêtes plus normales à partir de 0
 
 	Output format is a parsed json with a total value and a hit list:
 	{ 'hits': [ { 'id': '21B88F4EFBA46DC85E863709CA9824DEED7B7BFC',
@@ -139,16 +149,25 @@ def search(q, api_conf=DEFAULT_API_CONF, limit=None, outfields=('title','host.is
 	"""
 	
 	# préparation requête
-	url_encoded_lucene_query = quote(q)
+	url_encoded_lucene_query = my_url_quoting(q)
 	
 	# décompte à part
-	n_docs = count(url_encoded_lucene_query, already_escaped=True)
+	if n_docs is None:
+		n_docs = count(url_encoded_lucene_query, already_escaped=True)
 	# print('%s documents trouvés' % n_docs)
 	
 	# construction de l'URL
 	base_url = 'https:' + '//' + api_conf['host']  + '/' + api_conf['route'] + '/' + '?' + 'q=' + url_encoded_lucene_query + '&output=' + ",".join(outfields)
 	# debug
 	# print("api.search().base_url:", base_url)
+	
+	
+	# éventuel point de départ choisi (à utiliser notamment avec limit = 1 pour aléa)
+	if i_from != 0:
+		if limit != 1:
+			raise NotImplementedError("l'utilisation de from dans les requêtes API n'est ici implémentée que pour des tailles de 1 (use case: choix d'un doc aléatoire)")
+		else:
+			base_url += '&from=' + str(i_from)
 	
 	# limitation éventuelle fournie par le switch --maxi
 	if limit is not None:
@@ -161,7 +180,14 @@ def search(q, api_conf=DEFAULT_API_CONF, limit=None, outfields=('title','host.is
 	if n_docs <= 5000:
 		# requête simple
 		my_url = base_url + '&size=%i' % n_docs
-		json_values = _get(my_url)
+		
+		# debug
+		# print("api.search()._get_url:", my_url0ll)
+		
+		try:
+			json_values = _get(my_url)
+		except:
+			raise
 		all_hits = json_values['hits']
 	
 	else:
@@ -195,7 +221,10 @@ def count(q, api_conf=DEFAULT_API_CONF, already_escaped=False):
 	count_url = 'https:' + '//' + api_conf['host']  + '/' + api_conf['route'] + '/' + '?' + 'q=' + url_encoded_lucene_query + '&size=1'
 	
 	# requête
-	json_values = _get(count_url)
+	try:
+		json_values = _get(count_url)
+	except:
+		raise
 	
 	return int(json_values['total'])
 
@@ -380,6 +409,9 @@ def my_url_quoting(a_query):
 	#      avec l'URL ==> aussi wildcard '?'
 	a_query = sub(r'/','?', a_query)
 	
+	# 2 - les "%" aka '%25' posent problème (devant un chiffre?)
+	# a_query = sub(r'%', '?', a_query)
+	
 	# (2) fonction centrale: urllib.parse.quote()
 	# -------------------------------------------
 	esc_query = quote(a_query, safe=":")
@@ -391,6 +423,8 @@ def my_url_quoting(a_query):
 	esc_query = sub('%20%3F', "%20", esc_query)
 	esc_query = sub('%3F%20', "%20", esc_query)
 	esc_query = sub('%3F$', "", esc_query)
+	
+	
 	
 	#print("APRÈS ESCAPE:", esc_query)
 	
