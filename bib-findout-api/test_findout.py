@@ -35,7 +35,7 @@ from urllib.error import HTTPError
 # ---------------------------------
 
 # encore en mode test => juste 3 docs dans le dossier fourni
-TEST = True
+TEST = False
 
 # "json" ou "listing"
 OUT_MODE = "json"
@@ -387,7 +387,7 @@ class BiblStruct(object):
 		try:
 			champ_api = TEI_TO_LUCENE_MAP[xpath_selector]
 		except KeyError:
-			warn("WARNING: champ '%s' absent de la table TEI_TO_LUCENE_MAP" % champ_api)
+			warn("WARNING: sous-élément tei: '%s' absent de la table TEI_TO_LUCENE_MAP" % xpath_selector)
 			champ_api = '_CHAMP_INCONNU_'
 
 		return champ_api
@@ -553,8 +553,9 @@ class BiblStruct(object):
 		
 		TODO: match souple OCR à importer de libtrainers
 		"""
-		# print(self.api_toks)
-		# print(an_answer)
+		#print(">>> AVANT COMPARAISON <<<")
+		#print("S.STRS", self.api_strs)
+		#print("A.STRS", an_answer)
 		
 		test1 = False    # date + imprint + page
 		test2 = False    # date + titre + auteur[0]
@@ -563,10 +564,10 @@ class BiblStruct(object):
 		                 #        pour découper prénom nom
 		
 		# test 1
-		if (('publicationDate' in self.api_toks
-		     and 'host.title' in self.api_toks
-		     and 'host.volume' in self.api_toks
-		     and 'host.pages.first' in self.api_toks)
+		if (('publicationDate' in self.api_strs
+		     and 'host.title' in self.api_strs
+		     and 'host.volume' in self.api_strs
+		     and 'host.pages.first' in self.api_strs)
 		and ('publicationDate' in an_answer
 		      and 'host' in an_answer
 		          and 'title' in an_answer['host']
@@ -575,31 +576,75 @@ class BiblStruct(object):
 		             and 'first' in an_answer['host']['pages'])):
 		
 			test1 = (
-			         (self.api_toks['publicationDate'] == an_answer['publicationDate'])
+			         (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
 			         # match plus souple pour les contenus texte
-			     and (text2_soft_compare(self.api_toks['host.title'], an_answer['host']['title']))
-			     and (self.api_toks['host.volume'] == an_answer['host']['volume'])
-			     and (self.api_toks['host.pages.first'] == an_answer['host']['pages']['first'])
+			     and (text2_soft_compare(self.api_strs['host.title'][0], an_answer['host']['title']))
+			     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
+			     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
 			         )
 			
 			# si le test1 a matché on s'arrête: c'est suffisant
 			if test1:
 				return True
 		
+		
 		# si on n'a pas les infos du test1 et/ou si elles n'ont pas matché
-		if (('publicationDate' in self.api_toks
-		     and 'title' in self.api_toks
-		     and 'author.name' in self.api_toks)
+		if (('publicationDate' in self.api_strs
+		     and 'title' in self.api_strs
+		     and 'author.name' in self.api_strs)
 		and ('publicationDate' in an_answer
 		     and 'title' in an_answer
 		     and 'author' in an_answer
-		          and 'name' in an_answer['author'])):
+		          and 'name' in an_answer['author'][0])):
+			
+			
+			# NB: les NAMES cumulent plusieurs difficultés
+			# ---------------------------------------------
+			# problème (1/4) >conditions<
+			# dans ce test on ne compare actuellement que 
+			# le premier auteur en combinaison avec titre 
+			# et date
+			
+			# problème (2/4) >structure nom/prénom<
+			# côté API noms / prénoms dans un seul champ
+			# côté BIB noms / prénoms séparés
+			
+			# problème (3/4) >contenu prénom<
+			# côté API prénoms souvent complets
+			# côté BIB prénoms souvent juste initiales => ignorées
+			
+			# problème (4/4) >structure données<
+			# chez nous BIB.api_strs: 'author.name':["AAA",...]
+			# côté API                'author':{[{'name':"AAA"},...]}
+			# donc accesseurs un peu différents:
+			#   bib_premier_auteur = self.api_strs['author.name'][0]
+			#   api_premier_auteur = an_answer['author'][0]['name']
+			our_author_0 = self.api_strs['author.name'][0]
+			api_author_0 = an_answer['author'][0]['name']
+			
+			# on va travailler sur le dernier mot-forme, en espérant que c'est le nom de famille
+			# marchera souvent mais pas à tous les coup (contre-ex: "Jeanne M. Brett, MSci")
+			# mais difficile de faire mieux
+			api_author_0_last_token = api_author_0.split(" ")[-1]
 			
 			test2 = (
-			         (text2_soft_compare(self.api_toks['title'],an_answer['title']))
-			     and (self.api_toks['publicationDate'] == an_answer['publicationDate'])
-			     and (text2_soft_compare(self.api_toks['author.name'][0]," ".split(an_answer['author']['name'][0])[-1]))
+			         (text2_soft_compare(self.api_strs['title'][0],an_answer['title']))
+			     and (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
+			     and (text2_soft_compare(our_author_0,api_author_0_last_token))
 			         )
+			
+			# debug valeurs comparées
+			#~ print ('self tested:TITLE', self.api_strs['title'][0])
+			#~ print ('anws tested:TITLE', an_answer['title'])
+			#~ print ('self tested:DATE', self.api_strs['publicationDate'][0])
+			#~ print ('answ tested:DATE', an_answer['publicationDate'])
+			#~ print ('self tested:AUTH[0]', self.api_strs['author.name'][0])
+			#~ print ('answ prepa:AUTH[0].split', an_answer['author'][0]['name'].split(" "))
+			#~ print ('answ tested:AUTH[0].split[-1]', an_answer['author'][0]['name'].split(" ")[-1])
+			
+			
+		# debug:
+		#~ print ("%=================TEST2", test2)
 		return test2
 
 # ---------------------------------
@@ -1560,7 +1605,10 @@ if __name__ == '__main__':
 					qa['match_flag'] =  bs_obj.test_hit(qa['json_answr'])
 				else:
 					qa['match_flag'] = False
-
+			
+			# debug
+			# print(qa)
+			
 			
 			if OUT_MODE == "listing":
 				# Sortie listing pour lecture CLI
