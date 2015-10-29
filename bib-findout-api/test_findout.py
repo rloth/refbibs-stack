@@ -290,7 +290,7 @@ class BiblStruct(object):
 						field = mon_xpath(elt)+'/@when'
 						value = elt.attrib['when']
 					else:
-						msg = "WARNING: date sans @when sur %s" % self.hstr
+						msg = "WARNING: date sans @when"
 						warn(msg)
 						self.log.append(msg)
 						if elt.text:
@@ -1589,6 +1589,9 @@ if __name__ == '__main__':
 				msg = "ERROR: skip run_queries: '%s'" % str(e)
 				warn(msg)
 				bs_obj.log.append(msg)
+				
+				# on respecte tout de même la structure attendue en sortie, mais avec None partout
+				solved_qs = [{"lucn_query": rb_q, "json_answr": None} for rb_q in queries_to_test]
 			
 			
 			# validation a posteriori : 
