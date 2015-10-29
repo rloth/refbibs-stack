@@ -1,0 +1,3662 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Traditional Chinese herbal medicine</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Zhu</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Woerdenbag</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Pharm. World Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">17</biblScope>\n   <biblScope unit=\"page\" from=\"103\" to=\"112\"></biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Bos"
+            },
+            {
+              "name": "H. Hendriks"
+            },
+            {
+              "name": "J.J.C. Scheffer"
+            },
+            {
+              "name": "H.J. Woerdenbag"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0944-7113(98)80032-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "219",
+              "last": "225"
+            },
+            "title": "Phytomedicine",
+            "volume": "5"
+          },
+          "id": "271CA33E63DA42057D3CF8AF813160BEA6749EE4",
+          "publicationDate": "1998",
+          "title": "Cytotoxic potential of valerian constituents and valerian tinctures"
+        },
+        "lucn_query": "Traditional Chinese herbal medicine Y P Zhu H J Woerdenbag Pharm. World Sci 17 1995 103 112",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"17\" AND title:\"Traditional Chinese herbal medicine\" AND host.pages.first:\"103\" AND host.pages.last:\"112\" AND publicationDate:\"1995\" AND host.title:\"Pharm. World Sci\" AND author.name:\"Zhu\" AND author.name:\"Woerdenbag\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jui\u2010Fen Cheng"
+            },
+            {
+              "name": "Zxy\u2010yann Jane Lu"
+            },
+            {
+              "name": "Yi\u2010Chang Su"
+            },
+            {
+              "name": "Li\u2010Chi Chiang"
+            },
+            {
+              "name": "Ruey\u2010Yun Wang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2702.2008.02382.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "2588",
+              "last": "2595"
+            },
+            "title": "Journal of Clinical Nursing",
+            "volume": "17"
+          },
+          "id": "72224A1B8E062CB55F424789E574D4AB538D0372",
+          "publicationDate": "2008",
+          "title": "A traditional Chinese herbal medicine used to treat dysmenorrhoea among Taiwanese women"
+        },
+        "lucn_query": "host.volume:\"17\" title:\"Traditional Chinese herbal medicine\" host.pages.first:\"103\" host.pages.last:\"112\" publicationDate:\"1995\" host.title:\"Pharm. World Sci\" author.name:\"Zhu\" author.name:\"Woerdenbag\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jui\u2010Fen Cheng"
+            },
+            {
+              "name": "Zxy\u2010yann Jane Lu"
+            },
+            {
+              "name": "Yi\u2010Chang Su"
+            },
+            {
+              "name": "Li\u2010Chi Chiang"
+            },
+            {
+              "name": "Ruey\u2010Yun Wang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2702.2008.02382.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "2588",
+              "last": "2595"
+            },
+            "title": "Journal of Clinical Nursing",
+            "volume": "17"
+          },
+          "id": "72224A1B8E062CB55F424789E574D4AB538D0372",
+          "publicationDate": "2008",
+          "title": "A traditional Chinese herbal medicine used to treat dysmenorrhoea among Taiwanese women"
+        },
+        "lucn_query": "host.volume:17 title:(Traditional Chinese herbal medicine) host.pages.first:103 host.pages.last:112 publicationDate:1995 host.title:(Pharm World Sci) author.name:(Zhu Woerdenbag)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Tanno"
+            },
+            {
+              "name": "D. Zhu"
+            },
+            {
+              "name": "K. Maeda"
+            },
+            {
+              "name": "H. Iijima"
+            },
+            {
+              "name": "I. Ohno"
+            },
+            {
+              "name": "L.-H. Pan"
+            },
+            {
+              "name": "H. Ohtani"
+            },
+            {
+              "name": "H. Nagura"
+            },
+            {
+              "name": "K. Shirato"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0192-0561(95)00088-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "923",
+              "last": "930"
+            },
+            "title": "International Journal of Immunopharmacology",
+            "volume": "17"
+          },
+          "id": "18B0BBB3989561023B44212ADCE1774DC2967711",
+          "publicationDate": "1995",
+          "title": "Effect of Saiboku-to (chai-pu-tang), a traditional herbal medicine, on the expression of tumor necrosis factor during late asthmatic response in guinea-pigs"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1995) AND (title:(Traditional Chinese herbal medicine) host.pages.first:103 host.pages.last:112 host.title:(Pharm World Sci) author.name:(Zhu Woerdenbag))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Tanno"
+            },
+            {
+              "name": "D. Zhu"
+            },
+            {
+              "name": "K. Maeda"
+            },
+            {
+              "name": "H. Iijima"
+            },
+            {
+              "name": "I. Ohno"
+            },
+            {
+              "name": "L.-H. Pan"
+            },
+            {
+              "name": "H. Ohtani"
+            },
+            {
+              "name": "H. Nagura"
+            },
+            {
+              "name": "K. Shirato"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0192-0561(95)00088-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "923",
+              "last": "930"
+            },
+            "title": "International Journal of Immunopharmacology",
+            "volume": "17"
+          },
+          "id": "18B0BBB3989561023B44212ADCE1774DC2967711",
+          "publicationDate": "1995",
+          "title": "Effect of Saiboku-to (chai-pu-tang), a traditional herbal medicine, on the expression of tumor necrosis factor during late asthmatic response in guinea-pigs"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1995) AND (title:(Traditional Chinese herbal medicine) host.pages.first:103 host.pages.last:112 host.title:(Pharm* World* Sci*) author.name:(Zhu Woerdenbag))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Traditional Chinese herbal medicine) AND host.pages.first:103 AND host.pages.last:112 AND publicationDate:1995 AND host.title:(Pharm World Sci) AND author.name:(Zhu Woerdenbag)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Traditional Chinese herbal medicine) AND host.pages.first:103 AND host.pages.last:112 AND publicationDate:1995 AND host.title:(Pharm* World* Sci*) AND author.name:(Zhu Woerdenbag)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Use of Chinese therapies among Chinese patients seeking emergency department care</title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Pearl</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Leo</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">O</forename>\n    <surname>Tsang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann. Emerg. Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">26</biblScope>\n   <biblScope unit=\"page\" from=\"735\" to=\"738\"></biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "Use of Chinese therapies among Chinese patients seeking emergency department care W S Pearl P Leo W O Tsang Ann. Emerg. Med 26 1995 735 738",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"26\" AND title:\"Use of Chinese therapies among Chinese patients seeking emergency department care\" AND host.pages.first:\"735\" AND host.pages.last:\"738\" AND publicationDate:\"1995\" AND host.title:\"Ann. Emerg. Med\" AND author.name:\"Pearl\" AND author.name:\"Leo\" AND author.name:\"Tsang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "host.volume:\"26\" title:\"Use of Chinese therapies among Chinese patients seeking emergency department care\" host.pages.first:\"735\" host.pages.last:\"738\" publicationDate:\"1995\" host.title:\"Ann. Emerg. Med\" author.name:\"Pearl\" author.name:\"Leo\" author.name:\"Tsang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "host.volume:26 title:(Chinese therapies among Chinese patients seeking emergency department care) host.pages.first:735 host.pages.last:738 publicationDate:1995 host.title:(Ann Emerg Med) author.name:(Pearl Leo Tsang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "(host.volume:26 AND publicationDate:1995) AND (title:(Chinese therapies among Chinese patients seeking emergency department care) host.pages.first:735 host.pages.last:738 host.title:(Ann Emerg Med) author.name:(Pearl Leo Tsang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "(host.volume:26 AND publicationDate:1995) AND (title:(Chinese therapies among Chinese patients seeking emergency department care) host.pages.first:735 host.pages.last:738 host.title:(Ann* Emerg* Med*) author.name:(Pearl Leo Tsang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:26 AND title:(Chinese therapies among Chinese patients seeking emergency department care) AND host.pages.first:735 AND host.pages.last:738 AND publicationDate:1995 AND host.title:(Ann Emerg Med) AND author.name:(Pearl Leo Tsang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William S Pearl MD* \u2021"
+            },
+            {
+              "name": "Paul Leo DO*"
+            },
+            {
+              "name": "Wing O Tsang MD*"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0196-0644(95)70046-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "735",
+              "last": "738"
+            },
+            "title": "Annals of Emergency Medicine",
+            "volume": "26"
+          },
+          "id": "29F8467A81C1948A8EB4A498A807FCA6A9674E79",
+          "publicationDate": "1995",
+          "title": "Use of Chinese Therapies Among Chinese Patients Seeking Emergency Department Care"
+        },
+        "lucn_query": "host.volume:26 AND title:(Chinese therapies among Chinese patients seeking emergency department care) AND host.pages.first:735 AND host.pages.last:738 AND publicationDate:1995 AND host.title:(Ann* Emerg* Med*) AND author.name:(Pearl Leo Tsang)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">What future for traditional Chinese medicine outside China?</title>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Ooi</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">World Health Forum</title>\n  <imprint>\n   <biblScope unit=\"volume\">14</biblScope>\n   <biblScope unit=\"page\" from=\"79\" to=\"85\"></biblScope>\n   <date type=\"published\" when=\"1993\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kim Taylor"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/shm/17.1.93"
+          ],
+          "host": {
+            "pages": {
+              "first": "93",
+              "last": "111"
+            },
+            "title": "Social History of Medicine",
+            "volume": "17"
+          },
+          "id": "F59B07C533823CBBBBA60C34D69747477816AD44",
+          "publicationDate": "2004",
+          "title": "Divergent Interests and Cultivated Misunderstandings: The Influence of the West on Modern Chinese Medicine"
+        },
+        "lucn_query": "What future for traditional Chinese medicine outside China? G L Ooi World Health Forum 14 1993 79 85",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"14\" AND title:\"What future for traditional Chinese medicine outside China?\" AND host.pages.first:\"79\" AND host.pages.last:\"85\" AND publicationDate:\"1993\" AND host.title:\"World Health Forum\" AND author.name:\"Ooi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yuki Ooi"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1475-6781.2008.00113.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "77",
+              "last": "90"
+            },
+            "title": "International Journal of Japanese Sociology",
+            "volume": "17"
+          },
+          "id": "00F827211AD5093D2DDC52C3E2AE72A0F25BAF88",
+          "publicationDate": "2008",
+          "title": "Becoming Transnational Through Assimilation: Emergence of National/Ethnic Identity Among Chinese Migrants in Late Nineteenth\u2010Century Chicago"
+        },
+        "lucn_query": "host.volume:\"14\" title:\"What future for traditional Chinese medicine outside China?\" host.pages.first:\"79\" host.pages.last:\"85\" publicationDate:\"1993\" host.title:\"World Health Forum\" author.name:\"Ooi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yuki Ooi"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1475-6781.2008.00113.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "77",
+              "last": "90"
+            },
+            "title": "International Journal of Japanese Sociology",
+            "volume": "17"
+          },
+          "id": "00F827211AD5093D2DDC52C3E2AE72A0F25BAF88",
+          "publicationDate": "2008",
+          "title": "Becoming Transnational Through Assimilation: Emergence of National/Ethnic Identity Among Chinese Migrants in Late Nineteenth\u2010Century Chicago"
+        },
+        "lucn_query": "host.volume:14 title:(What future traditional Chinese medicine outside China) host.pages.first:79 host.pages.last:85 publicationDate:1993 host.title:(World Health Forum) author.name:Ooi",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lorraine V. Klerman Dr. P.H."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/1054-139X(93)90140-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "553",
+              "last": "561"
+            },
+            "title": "Journal of Adolescent Health",
+            "volume": "14"
+          },
+          "id": "2C61D7A7A614191BEF0AC50F8412E070F2D8C4EE",
+          "publicationDate": "1993",
+          "title": "Adolescent pregnancy and parenting: Controversies of the past and lessons for the future"
+        },
+        "lucn_query": "(host.volume:14 AND publicationDate:1993) AND (title:(What future traditional Chinese medicine outside China) host.pages.first:79 host.pages.last:85 host.title:(World Health Forum) author.name:Ooi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lorraine V. Klerman Dr. P.H."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/1054-139X(93)90140-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "553",
+              "last": "561"
+            },
+            "title": "Journal of Adolescent Health",
+            "volume": "14"
+          },
+          "id": "2C61D7A7A614191BEF0AC50F8412E070F2D8C4EE",
+          "publicationDate": "1993",
+          "title": "Adolescent pregnancy and parenting: Controversies of the past and lessons for the future"
+        },
+        "lucn_query": "(host.volume:14 AND publicationDate:1993) AND (title:(What future traditional Chinese medicine outside China) host.pages.first:79 host.pages.last:85 host.title:(World* Health* Forum*) author.name:Ooi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:14 AND title:(What future traditional Chinese medicine outside China) AND host.pages.first:79 AND host.pages.last:85 AND publicationDate:1993 AND host.title:(World Health Forum) AND author.name:Ooi",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:14 AND title:(What future traditional Chinese medicine outside China) AND host.pages.first:79 AND host.pages.last:85 AND publicationDate:1993 AND host.title:(World* Health* Forum*) AND author.name:Ooi",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Acupuncture: the position paper of the National Council Against Health Fraud</title>\n </analytic>\n <monogr>\n  <title level=\"j\">Clin. J. Pain</title>\n  <imprint>\n   <biblScope unit=\"volume\">7</biblScope>\n   <biblScope unit=\"page\" from=\"162\" to=\"166\"></biblScope>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Miles Belgrade"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1058-9139(05)80329-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "73",
+              "last": "83"
+            },
+            "title": "APS Journal",
+            "volume": "3"
+          },
+          "id": "9049557916DC9363072614D68C870CF4EB2053DE",
+          "publicationDate": "1994",
+          "title": "Two decades after ping-pong diplomacy"
+        },
+        "lucn_query": "Acupuncture\\: the position paper of the National Council Against Health Fraud Clin. J. Pain 7 1991 162 166",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"7\" AND title:\"Acupuncture\\: the position paper of the National Council Against Health Fraud\" AND host.pages.first:\"162\" AND host.pages.last:\"166\" AND publicationDate:\"1991\" AND host.title:\"Clin. J. Pain\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Aaron H. Chevinsky MD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ssu.2980070309"
+          ],
+          "host": {
+            "pages": {
+              "first": "162",
+              "last": "166"
+            },
+            "title": "Seminars in Surgical Oncology",
+            "volume": "7"
+          },
+          "id": "CC62F2265564BF1FE0BFB29621CD029D4308112D",
+          "publicationDate": "1991",
+          "title": "CEA in tumors of other than colorectal origin"
+        },
+        "lucn_query": "host.volume:\"7\" title:\"Acupuncture\\: the position paper of the National Council Against Health Fraud\" host.pages.first:\"162\" host.pages.last:\"166\" publicationDate:\"1991\" host.title:\"Clin. J. Pain\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Daland R. Juberg Ph.D."
+            },
+            {
+              "name": "Cindy F. Kleiman M.P.H."
+            },
+            {
+              "name": "Simona C. Kwon M.P.H."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/eesa.1997.1591"
+          ],
+          "host": {
+            "pages": {
+              "first": "162",
+              "last": "180"
+            },
+            "title": "Ecotoxicology and Environmental Safety",
+            "volume": "38"
+          },
+          "id": "75DD786FD6D404801CDCC875DC186CF63CB0B6A9",
+          "publicationDate": "1997",
+          "title": "Position Paper of the American Council on Science and Health: Lead and Human Health"
+        },
+        "lucn_query": "host.volume:7 title:(Acupuncture position paper National Council Against Health Fraud) host.pages.first:162 host.pages.last:166 publicationDate:1991 host.title:(Clin J Pain)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Susan G. Poorman PhD, RN, CS"
+            },
+            {
+              "name": "E.Jane Martin PhD, RN, CS"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/8755-7223(91)90071-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "25",
+              "last": "32"
+            },
+            "title": "Journal of Professional Nursing",
+            "volume": "7"
+          },
+          "id": "56FD4527B08E54F4C9FE211A708E78CDCF8A74FE",
+          "publicationDate": "1991",
+          "title": "The role of nonacademic variables in passing the National Council Licensure Examination"
+        },
+        "lucn_query": "(host.volume:7 AND publicationDate:1991) AND (title:(Acupuncture position paper National Council Against Health Fraud) host.pages.first:162 host.pages.last:166 host.title:(Clin J Pain))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Susan G. Poorman PhD, RN, CS"
+            },
+            {
+              "name": "E.Jane Martin PhD, RN, CS"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/8755-7223(91)90071-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "25",
+              "last": "32"
+            },
+            "title": "Journal of Professional Nursing",
+            "volume": "7"
+          },
+          "id": "56FD4527B08E54F4C9FE211A708E78CDCF8A74FE",
+          "publicationDate": "1991",
+          "title": "The role of nonacademic variables in passing the National Council Licensure Examination"
+        },
+        "lucn_query": "(host.volume:7 AND publicationDate:1991) AND (title:(Acupuncture position paper National Council Against Health Fraud) host.pages.first:162 host.pages.last:166 host.title:(Clin* journal Pain*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:7 AND title:(Acupuncture position paper National Council Against Health Fraud) AND host.pages.first:162 AND host.pages.last:166 AND publicationDate:1991 AND host.title:(Clin J Pain)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:7 AND title:(Acupuncture position paper National Council Against Health Fraud) AND host.pages.first:162 AND host.pages.last:166 AND publicationDate:1991 AND host.title:(Clin* journal Pain*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <monogr>\n  <title level=\"m\" type=\"main\">Fundamentals of Chinese Medicine, Paradigm Publications</title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <surname>Wiseman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Ellis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Zmiewski</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1985\"></date>\n   <pubPlace>Brookline, Massachusetts</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title level=\"a\" type=\"main\">Systematic clinical auditing in complementary medicine &#208; rationale, concept, and a pilot study</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Melchart</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Linde</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">Z</forename>\n    <surname>Liao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hager</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Weidenhammer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Altern. Ther</title>\n  <imprint>\n   <biblScope unit=\"volume\">3</biblScope>\n   <biblScope unit=\"page\" from=\"33\" to=\"39\"></biblScope>\n   <date type=\"published\" when=\"1997\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "Systematic clinical auditing in complementary medicine \u00d0 rationale, concept, and a pilot study D Melchart K Linde J Z Liao S Hager W Weidenhammer Altern. Ther 3 1997 33 39",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"3\" AND title:\"Systematic clinical auditing in complementary medicine \u00d0 rationale, concept, and a pilot study\" AND host.pages.first:\"33\" AND host.pages.last:\"39\" AND publicationDate:\"1997\" AND host.title:\"Altern. Ther\" AND author.name:\"Melchart\" AND author.name:\"Linde\" AND author.name:\"Liao\" AND author.name:\"Hager\" AND author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "S. Hager"
+            },
+            {
+              "name": "J. Kaesmayr"
+            },
+            {
+              "name": "D. Shaw"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "W. Weidenhammer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0965-2299(99)80003-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "208",
+              "last": "216"
+            },
+            "title": "Complementary Therapies in Medicine",
+            "volume": "7"
+          },
+          "id": "458512F7262D186BE193ECB4B5DD1C8B7153E4C7",
+          "publicationDate": "1999",
+          "title": "Monitoring of liver enzymes in patients treated with traditional Chinese drugs"
+        },
+        "lucn_query": "host.volume:\"3\" title:\"Systematic clinical auditing in complementary medicine \u00d0 rationale, concept, and a pilot study\" host.pages.first:\"33\" host.pages.last:\"39\" publicationDate:\"1997\" host.title:\"Altern. Ther\" author.name:\"Melchart\" author.name:\"Linde\" author.name:\"Liao\" author.name:\"Hager\" author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:3 title:(Systematic clinical auditing complementary medicine rationale concept pilot study) host.pages.first:33 host.pages.last:39 publicationDate:1997 host.title:(Altern Ther) author.name:(Melchart Linde Liao Hager Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "ROGER G. PERTWEE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2042-7158.1997.tb00491.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "539",
+              "last": "545"
+            },
+            "title": "Pharmacy and Pharmacology Communications",
+            "volume": "3"
+          },
+          "id": "A633234969F58698307B7CB313B57065AE59703B",
+          "publicationDate": "1997",
+          "title": "Cannabis and Cannabinoids: Pharmacology and Rationale for Clinical Use"
+        },
+        "lucn_query": "(host.volume:3 AND publicationDate:1997) AND (title:(Systematic clinical auditing complementary medicine rationale concept pilot study) host.pages.first:33 host.pages.last:39 host.title:(Altern Ther) author.name:(Melchart Linde Liao Hager Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "ROGER G. PERTWEE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2042-7158.1997.tb00491.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "539",
+              "last": "545"
+            },
+            "title": "Pharmacy and Pharmacology Communications",
+            "volume": "3"
+          },
+          "id": "A633234969F58698307B7CB313B57065AE59703B",
+          "publicationDate": "1997",
+          "title": "Cannabis and Cannabinoids: Pharmacology and Rationale for Clinical Use"
+        },
+        "lucn_query": "(host.volume:3 AND publicationDate:1997) AND (title:(Systematic clinical auditing complementary medicine rationale concept pilot study) host.pages.first:33 host.pages.last:39 host.title:(Altern* Ther*) author.name:(Melchart Linde Liao Hager Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:3 AND title:(Systematic clinical auditing complementary medicine rationale concept pilot study) AND host.pages.first:33 AND host.pages.last:39 AND publicationDate:1997 AND host.title:(Altern Ther) AND author.name:(Melchart Linde Liao Hager Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:3 AND title:(Systematic clinical auditing complementary medicine rationale concept pilot study) AND host.pages.first:33 AND host.pages.last:39 AND publicationDate:1997 AND host.title:(Altern* Ther*) AND author.name:(Melchart Linde Liao Hager Weidenhammer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title level=\"a\" type=\"main\">Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil II: Detaillierte Ergebnisse der Klinik fu&#200; r Traditionelle Chinesische Medizin Ko&#200; tzting</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Melchart</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hager</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">Z</forename>\n    <surname>Liao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Linde</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Weidenhammer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Forsch. Komplementa&#200;rmed</title>\n  <imprint>\n   <biblScope unit=\"volume\">5</biblScope>\n   <biblScope unit=\"page\" from=\"81\" to=\"86\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "S. Hager"
+            },
+            {
+              "name": "J. Kaesmayr"
+            },
+            {
+              "name": "D. Shaw"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "W. Weidenhammer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0965-2299(99)80003-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "208",
+              "last": "216"
+            },
+            "title": "Complementary Therapies in Medicine",
+            "volume": "7"
+          },
+          "id": "458512F7262D186BE193ECB4B5DD1C8B7153E4C7",
+          "publicationDate": "1999",
+          "title": "Monitoring of liver enzymes in patients treated with traditional Chinese drugs"
+        },
+        "lucn_query": "Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil II\\: Detaillierte Ergebnisse der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting D Melchart S Hager J Z Liao K Linde W Weidenhammer Forsch. Komplementa\u00c8rmed 5 1998 81 86",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"5\" AND title:\"Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil II\\: Detaillierte Ergebnisse der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting\" AND host.pages.first:\"81\" AND host.pages.last:\"86\" AND publicationDate:\"1998\" AND host.title:\"Forsch. Komplementa\u00c8rmed\" AND author.name:\"Melchart\" AND author.name:\"Hager\" AND author.name:\"Liao\" AND author.name:\"Linde\" AND author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:\"5\" title:\"Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil II\\: Detaillierte Ergebnisse der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting\" host.pages.first:\"81\" host.pages.last:\"86\" publicationDate:\"1998\" host.title:\"Forsch. Komplementa\u00c8rmed\" author.name:\"Melchart\" author.name:\"Hager\" author.name:\"Liao\" author.name:\"Linde\" author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:5 title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Detaillierte Ergebnisse Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:81 host.pages.last:86 publicationDate:1998 host.title:(Forsch Komplementa\u00c8rmed) author.name:(Melchart Hager Liao Linde Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alexei Kurakin"
+            },
+            {
+              "name": "H. Jakob Larsen"
+            },
+            {
+              "name": "Peter E. Nielsen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1074-5521(98)90142-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "89"
+            },
+            "title": "Chemistry & Biology",
+            "volume": "5"
+          },
+          "id": "AB85E8A0E55E104585F94C3F7DF8AD47E417A5CD",
+          "publicationDate": "1998",
+          "title": "Cooperative strand displacement by peptide nucleic acid (PNA)"
+        },
+        "lucn_query": "(host.volume:5 AND publicationDate:1998) AND (title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Detaillierte Ergebnisse Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:81 host.pages.last:86 host.title:(Forsch Komplementa\u00c8rmed) author.name:(Melchart Hager Liao Linde Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alexei Kurakin"
+            },
+            {
+              "name": "H. Jakob Larsen"
+            },
+            {
+              "name": "Peter E. Nielsen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1074-5521(98)90142-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "89"
+            },
+            "title": "Chemistry & Biology",
+            "volume": "5"
+          },
+          "id": "AB85E8A0E55E104585F94C3F7DF8AD47E417A5CD",
+          "publicationDate": "1998",
+          "title": "Cooperative strand displacement by peptide nucleic acid (PNA)"
+        },
+        "lucn_query": "(host.volume:5 AND publicationDate:1998) AND (title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Detaillierte Ergebnisse Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:81 host.pages.last:86 host.title:(Forsch* Komplementa\u00c8rmed*) author.name:(Melchart Hager Liao Linde Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:5 AND title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Detaillierte Ergebnisse Klinik Traditionelle Chinesische Medizin tzting) AND host.pages.first:81 AND host.pages.last:86 AND publicationDate:1998 AND host.title:(Forsch Komplementa\u00c8rmed) AND author.name:(Melchart Hager Liao Linde Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:5 AND title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Detaillierte Ergebnisse Klinik Traditionelle Chinesische Medizin tzting) AND host.pages.first:81 AND host.pages.last:86 AND publicationDate:1998 AND host.title:(Forsch* Komplementa\u00c8rmed*) AND author.name:(Melchart Hager Liao Linde Weidenhammer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title level=\"a\" type=\"main\">Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil III: Vorla&#200; u&#174;ge Ergebnisse der diagnosespezi&#174;schen Dokumentation Migra&#200; ne in der Klinik fu&#200; r Traditionelle Chinesische Medizin Ko&#200; tzting</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Melchart</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hager</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">Z</forename>\n    <surname>Liao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Weidenhammer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Forsch. Komplementa&#200;rmed</title>\n  <imprint>\n   <biblScope unit=\"volume\">5</biblScope>\n   <biblScope unit=\"page\" from=\"132\" to=\"135\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "S. Hager"
+            },
+            {
+              "name": "J. Kaesmayr"
+            },
+            {
+              "name": "D. Shaw"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "W. Weidenhammer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0965-2299(99)80003-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "208",
+              "last": "216"
+            },
+            "title": "Complementary Therapies in Medicine",
+            "volume": "7"
+          },
+          "id": "458512F7262D186BE193ECB4B5DD1C8B7153E4C7",
+          "publicationDate": "1999",
+          "title": "Monitoring of liver enzymes in patients treated with traditional Chinese drugs"
+        },
+        "lucn_query": "Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil III\\: Vorla\u00c8 u\u00aege Ergebnisse der diagnosespezi\u00aeschen Dokumentation Migra\u00c8 ne in der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting D Melchart S Hager J Z Liao W Weidenhammer Forsch. Komplementa\u00c8rmed 5 1998 132 135",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"5\" AND title:\"Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil III\\: Vorla\u00c8 u\u00aege Ergebnisse der diagnosespezi\u00aeschen Dokumentation Migra\u00c8 ne in der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting\" AND host.pages.first:\"132\" AND host.pages.last:\"135\" AND publicationDate:\"1998\" AND host.title:\"Forsch. Komplementa\u00c8rmed\" AND author.name:\"Melchart\" AND author.name:\"Hager\" AND author.name:\"Liao\" AND author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:\"5\" title:\"Beobachtungsstudien in einem naturheilkundlichen Klinikverbund. Teil III\\: Vorla\u00c8 u\u00aege Ergebnisse der diagnosespezi\u00aeschen Dokumentation Migra\u00c8 ne in der Klinik fu\u00c8 r Traditionelle Chinesische Medizin Ko\u00c8 tzting\" host.pages.first:\"132\" host.pages.last:\"135\" publicationDate:\"1998\" host.title:\"Forsch. Komplementa\u00c8rmed\" author.name:\"Melchart\" author.name:\"Hager\" author.name:\"Liao\" author.name:\"Weidenhammer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:5 title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Vorla\u00c8 Ergebnisse diagnosespezi schen Dokumentation Migra\u00c8 Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:132 host.pages.last:135 publicationDate:1998 host.title:(Forsch Komplementa\u00c8rmed) author.name:(Melchart Hager Liao Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Makiko Kumagai\u2010Braesch"
+            },
+            {
+              "name": "Masahiro Satake"
+            },
+            {
+              "name": "Yunjian Qian"
+            },
+            {
+              "name": "Jan Holgersson"
+            },
+            {
+              "name": "Erna M\u00f6ller"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1399-3089.1998.tb00019.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "132",
+              "last": "145"
+            },
+            "title": "Xenotransplantation",
+            "volume": "5"
+          },
+          "id": "8B5CF52B947699C409AA149BDAB001930C1686DC",
+          "publicationDate": "1998",
+          "title": "Human NK cell and ADCC reactivity against xenogeneic porcine target cells including fetal porcine islet cells"
+        },
+        "lucn_query": "(host.volume:5 AND publicationDate:1998) AND (title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Vorla\u00c8 Ergebnisse diagnosespezi schen Dokumentation Migra\u00c8 Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:132 host.pages.last:135 host.title:(Forsch Komplementa\u00c8rmed) author.name:(Melchart Hager Liao Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Makiko Kumagai\u2010Braesch"
+            },
+            {
+              "name": "Masahiro Satake"
+            },
+            {
+              "name": "Yunjian Qian"
+            },
+            {
+              "name": "Jan Holgersson"
+            },
+            {
+              "name": "Erna M\u00f6ller"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1399-3089.1998.tb00019.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "132",
+              "last": "145"
+            },
+            "title": "Xenotransplantation",
+            "volume": "5"
+          },
+          "id": "8B5CF52B947699C409AA149BDAB001930C1686DC",
+          "publicationDate": "1998",
+          "title": "Human NK cell and ADCC reactivity against xenogeneic porcine target cells including fetal porcine islet cells"
+        },
+        "lucn_query": "(host.volume:5 AND publicationDate:1998) AND (title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Vorla\u00c8 Ergebnisse diagnosespezi schen Dokumentation Migra\u00c8 Klinik Traditionelle Chinesische Medizin tzting) host.pages.first:132 host.pages.last:135 host.title:(Forsch* Komplementa\u00c8rmed*) author.name:(Melchart Hager Liao Weidenhammer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:5 AND title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Vorla\u00c8 Ergebnisse diagnosespezi schen Dokumentation Migra\u00c8 Klinik Traditionelle Chinesische Medizin tzting) AND host.pages.first:132 AND host.pages.last:135 AND publicationDate:1998 AND host.title:(Forsch Komplementa\u00c8rmed) AND author.name:(Melchart Hager Liao Weidenhammer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:5 AND title:(Beobachtungsstudien einem naturheilkundlichen Klinikverbund Teil Vorla\u00c8 Ergebnisse diagnosespezi schen Dokumentation Migra\u00c8 Klinik Traditionelle Chinesische Medizin tzting) AND host.pages.first:132 AND host.pages.last:135 AND publicationDate:1998 AND host.title:(Forsch* Komplementa\u00c8rmed*) AND author.name:(Melchart Hager Liao Weidenhammer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <monogr>\n  <title level=\"m\" type=\"main\">Chinese Drugs of Plant Origin</title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Tang</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Eisenbrand</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1992\"></date>\n   <publisher>Springer Verlag</publisher>\n   <pubPlace>Berlin, Heidelberg, New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title level=\"a\" type=\"main\">Comparative study on therapeutic e&#129;cacy of earthworm K for hypertensive disease</title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Mao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Wang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Chin. J. Cardiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">11</biblScope>\n   <biblScope unit=\"page\" from=\"290\" to=\"294\"></biblScope>\n   <date type=\"published\" when=\"1983\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.C. Buckerfield"
+            },
+            {
+              "name": "K.E. Lee"
+            },
+            {
+              "name": "C.W. Davoren"
+            },
+            {
+              "name": "J.N. Hannay"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0038-0717(96)00033-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "547",
+              "last": "554"
+            },
+            "title": "Soil Biology and Biochemistry",
+            "volume": "29"
+          },
+          "id": "C1E2B49C7270C25AEBA45E6876D02AE3EE473A7A",
+          "publicationDate": "1997",
+          "title": "Earthworms as indicators of sustainable production in dryland cropping in southern Australia"
+        },
+        "lucn_query": "Comparative study on therapeutic e\u0081cacy of earthworm K for hypertensive disease W H Mao L R Wang Chin. J. Cardiol 11 1983 290 294",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"11\" AND title:\"Comparative study on therapeutic e\u0081cacy of earthworm K for hypertensive disease\" AND host.pages.first:\"290\" AND host.pages.last:\"294\" AND publicationDate:\"1983\" AND host.title:\"Chin. J. Cardiol\" AND author.name:\"Mao\" AND author.name:\"Wang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Limin Mao"
+            },
+            {
+              "name": "John Q. Wang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0169-328X(00)00276-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "125",
+              "last": "137"
+            },
+            "title": "Molecular Brain Research",
+            "volume": "86"
+          },
+          "id": "22477D33B7D27A75E2C00C40427414BAD403918C",
+          "publicationDate": "2001",
+          "title": "Upregulation of preprodynorphin and preproenkephalin mRNA expression by selective activation of group I metabotropic glutamate receptors in characterized primary cultures of rat striatal neurons"
+        },
+        "lucn_query": "host.volume:\"11\" title:\"Comparative study on therapeutic e\u0081cacy of earthworm K for hypertensive disease\" host.pages.first:\"290\" host.pages.last:\"294\" publicationDate:\"1983\" host.title:\"Chin. J. Cardiol\" author.name:\"Mao\" author.name:\"Wang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chien-Pei Mao"
+            },
+            {
+              "name": "Geng Wang"
+            },
+            {
+              "name": "Norman Chigier"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(88)80298-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "665",
+              "last": "673"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "21"
+          },
+          "id": "9846F65AEA31E504DD1095C621A7CA431D3D7BBC",
+          "publicationDate": "1988",
+          "title": "An experimental study of air-assist atomizer spray flames"
+        },
+        "lucn_query": "host.volume:11 title:(Comparative study therapeutic cacy earthworm hypertensive disease) host.pages.first:290 host.pages.last:294 publicationDate:1983 host.title:(Chin J Cardiol) author.name:(Mao Wang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "MANFRED G. SCHMIDT"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1475-6765.1983.tb00040.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "26"
+            },
+            "title": "European Journal of Political Research",
+            "volume": "11"
+          },
+          "id": "C3398E0D5104A409E81978623BBC74A7B62883A9",
+          "publicationDate": "1983",
+          "title": "The Welfare State and the Economy in Periods of Economic Crisis: A Comparative Study of Twenty\u2010three OECD Nations"
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1983) AND (title:(Comparative study therapeutic cacy earthworm hypertensive disease) host.pages.first:290 host.pages.last:294 host.title:(Chin J Cardiol) author.name:(Mao Wang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. B\u00f6ttiger"
+            },
+            {
+              "name": "C. de Verdier"
+            },
+            {
+              "name": "A. Lind"
+            },
+            {
+              "name": "R. Beskow"
+            },
+            {
+              "name": "G. Linden"
+            },
+            {
+              "name": "B. Granath"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0092-1157(83)80040-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "12"
+            },
+            "title": "Journal of Biological Standardization",
+            "volume": "11"
+          },
+          "id": "B842212D152C5116B7887B6F3F53F16A1C64FECE",
+          "publicationDate": "1983",
+          "title": "A comparative study of Danish (Statens Seruminstitut), Glaxo and Behringwerke vaccines\u2014revaccination of schoolchildren"
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1983) AND (title:(Comparative study therapeutic cacy earthworm hypertensive disease) host.pages.first:290 host.pages.last:294 host.title:(Chin* journal Cardiol*) author.name:(Mao Wang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:11 AND title:(Comparative study therapeutic cacy earthworm hypertensive disease) AND host.pages.first:290 AND host.pages.last:294 AND publicationDate:1983 AND host.title:(Chin J Cardiol) AND author.name:(Mao Wang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:11 AND title:(Comparative study therapeutic cacy earthworm hypertensive disease) AND host.pages.first:290 AND host.pages.last:294 AND publicationDate:1983 AND host.title:(Chin* journal Cardiol*) AND author.name:(Mao Wang)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <monogr>\n  <title level=\"m\" type=\"main\">Practical Traditional Chinese Medicine and Pharmacology &#208; Medicinal Herbs</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Geng</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Huang</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Ren</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">X</forename>\n    <surname>Ma</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1991\"></date>\n   <publisher>New World Press</publisher>\n   <pubPlace>Beijing</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Wagner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Bauer</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Xiao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Chen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>O&#128;ermann</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Radix Bupleuri (Chaihu). Chinese Drug Monographs and Analysis</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"issue\">1</biblScope>\n   <date type=\"published\" when=\"1996\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Katsuyuki Haranaka"
+            },
+            {
+              "name": "Nobuko Satomi"
+            },
+            {
+              "name": "Akiko Sakurai"
+            },
+            {
+              "name": "Ruriko Haranaka"
+            },
+            {
+              "name": "Naoko Okada"
+            },
+            {
+              "name": "Mosaburo Kobayashi"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00199765"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "5"
+            },
+            "title": "Cancer Immunology, Immunotherapy",
+            "volume": "20"
+          },
+          "id": "9DFF434656F80E2ECE355A1A33D6E57D772A815F",
+          "publicationDate": "1984",
+          "title": "Antitumor activities and tumor necrosis factor producibility of traditional Chinese medicines and crude drugs"
+        },
+        "lucn_query": "H Wagner R Bauer P Xiao J Chen F O\u0080ermann Radix Bupleuri \\(Chaihu\\). Chinese Drug Monographs and Analysis 1 1 1996",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"1\" AND host.issue:\"1\" AND publicationDate:\"1996\" AND host.title:\"Radix Bupleuri \\(Chaihu\\). Chinese Drug Monographs and Analysis\" AND author.name:\"Wagner\" AND author.name:\"Bauer\" AND author.name:\"Xiao\" AND author.name:\"Chen\" AND author.name:\"O\u0080ermann\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "F. Worku"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "H. Wagner"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0944-7113(11)80072-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "245",
+              "last": "254"
+            },
+            "title": "Phytomedicine",
+            "volume": "1"
+          },
+          "id": "A50447D1D2287F7BE0E45B4EAD0523F76C461335",
+          "publicationDate": "1994",
+          "title": "Immunomodulation with echinacea \u2014 a systematic review of controlled clinical trials"
+        },
+        "lucn_query": "host.volume:\"1\" host.issue:\"1\" publicationDate:\"1996\" host.title:\"Radix Bupleuri \\(Chaihu\\). Chinese Drug Monographs and Analysis\" author.name:\"Wagner\" author.name:\"Bauer\" author.name:\"Xiao\" author.name:\"Chen\" author.name:\"O\u0080ermann\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ying Liu"
+            },
+            {
+              "name": "Dr Uboh"
+            },
+            {
+              "name": "Lawrence R. Soma"
+            },
+            {
+              "name": "Xiaoqing Li"
+            },
+            {
+              "name": "Fuyu Guan"
+            },
+            {
+              "name": "Youwen You"
+            },
+            {
+              "name": "Jeffrey A. Rudy"
+            },
+            {
+              "name": "Jin\u2010Wen Chen"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/dta.168"
+          ],
+          "host": {
+            "pages": {
+              "first": "54",
+              "last": "67"
+            },
+            "title": "Drug Testing and Analysis",
+            "volume": "3"
+          },
+          "id": "ACA1CBC402554CAFEC6A44653465BEE88C2F8C08",
+          "publicationDate": "2011",
+          "title": "Detection and confirmation of 60 anabolic and androgenic steroids in equine plasma by liquid chromatography\u2010tandem mass spectrometry with instant library searching"
+        },
+        "lucn_query": "host.volume:1 host.issue:1 publicationDate:1996 host.title:(Radix Bupleuri Chaihu Chinese Drug Monographs and Analysis) author.name:(Wagner Bauer Xiao Chen ermann)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xiao\u2010Yuan Dong"
+            },
+            {
+              "name": "Louis Putterman"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-0106.1996.tb00174.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "59",
+              "last": "78"
+            },
+            "title": "Pacific Economic Review",
+            "volume": "1"
+          },
+          "id": "3DF149BF9CFB7B24BCD69BA443F106FF395A7AC5",
+          "publicationDate": "1996",
+          "title": "CHINA'S RURAL INDUSTRY AND MONOPSONY: AN EXPLORATION"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1996) AND (host.issue:1 host.title:(Radix Bupleuri Chaihu Chinese Drug Monographs and Analysis) author.name:(Wagner Bauer Xiao Chen ermann))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xiao\u2010Yuan Dong"
+            },
+            {
+              "name": "Louis Putterman"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-0106.1996.tb00174.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "59",
+              "last": "78"
+            },
+            "title": "Pacific Economic Review",
+            "volume": "1"
+          },
+          "id": "3DF149BF9CFB7B24BCD69BA443F106FF395A7AC5",
+          "publicationDate": "1996",
+          "title": "CHINA'S RURAL INDUSTRY AND MONOPSONY: AN EXPLORATION"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1996) AND (host.issue:1 host.title:(Radix Bupleuri Chaihu Chinese Drug Monographs and Analysis) author.name:(Wagner Bauer Xiao Chen ermann))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yaosong Chen"
+            },
+            {
+              "name": "Yuanfeng Bi"
+            },
+            {
+              "name": "Tao Jiang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1007-5704(96)90025-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "48",
+              "last": "51"
+            },
+            "title": "Communications in Nonlinear Science and Numerical Simulation",
+            "volume": "1"
+          },
+          "id": "AECD21C21E6196644DE87C9EF156ABC93EA28042",
+          "publicationDate": "1996",
+          "title": "The liquid bridge with marangoni effect"
+        },
+        "lucn_query": "host.volume:1 AND host.issue:1 AND publicationDate:1996 AND host.title:(Radix Bupleuri Chaihu Chinese Drug Monographs and Analysis) AND author.name:(Wagner Bauer Xiao Chen ermann)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yaosong Chen"
+            },
+            {
+              "name": "Yuanfeng Bi"
+            },
+            {
+              "name": "Tao Jiang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1007-5704(96)90025-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "48",
+              "last": "51"
+            },
+            "title": "Communications in Nonlinear Science and Numerical Simulation",
+            "volume": "1"
+          },
+          "id": "AECD21C21E6196644DE87C9EF156ABC93EA28042",
+          "publicationDate": "1996",
+          "title": "The liquid bridge with marangoni effect"
+        },
+        "lucn_query": "host.volume:1 AND host.issue:1 AND publicationDate:1996 AND host.title:(Radix Bupleuri Chaihu Chinese Drug Monographs and Analysis) AND author.name:(Wagner Bauer Xiao Chen ermann)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">Y</forename>\n    <surname>Yen</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">The Illustrated Chinese Materia Medica</title>\n  <meeting><address><addrLine>Taipei</addrLine></address></meeting>\n  <imprint>\n   <publisher>SMC Publishing</publisher>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Pei\u2010Ning Wang MD"
+            },
+            {
+              "name": "Shuu\u2010Jiun Wang MD"
+            },
+            {
+              "name": "Jong\u2010Ling Fuh MD"
+            },
+            {
+              "name": "Evelyn Lee Teng PhD"
+            },
+            {
+              "name": "Chia\u2010Yih Liu MD"
+            },
+            {
+              "name": "Cheng\u2010Huai Lin MD"
+            },
+            {
+              "name": "Hann\u2010Yeh Shyu MD"
+            },
+            {
+              "name": "Sbiang\u2010Ru Lu MD"
+            },
+            {
+              "name": "Chao\u2010Ching Chen MD"
+            },
+            {
+              "name": "Hsiu\u2010Chih Liu MD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1532-5415.2000.tb02649.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "295",
+              "last": "299"
+            },
+            "title": "Journal of the American Geriatrics Society",
+            "volume": "48"
+          },
+          "id": "02F0F85E97080125F8F3F08A47984995FFC469B7",
+          "publicationDate": "2000",
+          "title": "Subjective Memory Complaint in Relation to Cognitive Performance and Depression: A Longitudinal Study of a Rural Chinese Population"
+        },
+        "lucn_query": "K Y Yen The Illustrated Chinese Materia Medica Taipei SMC Publishing 1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"SMC Publishing\" AND author.name:\"Yen\" AND publicationDate:\"1992\" AND host.title:\"The Illustrated Chinese Materia Medica\" AND \"Taipei\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jen-Yen Chen"
+            },
+            {
+              "name": "Pei Hsia"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0096-0551(92)90029-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "211"
+            },
+            "title": "Computer Languages",
+            "volume": "17"
+          },
+          "id": "9F7B7034FBF7E222E7F768614B2254D070D3FA8E",
+          "publicationDate": "1992",
+          "title": "MDL (Methodology Definition Language): A language for defining and automating software development processes"
+        },
+        "lucn_query": "host.editor:\"SMC Publishing\" author.name:\"Yen\" publicationDate:\"1992\" host.title:\"The Illustrated Chinese Materia Medica\" \"Taipei\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wen\u2010Jui Liao"
+            },
+            {
+              "name": "Yen\u2010Ju Wang"
+            },
+            {
+              "name": "Jhy\u2010Der Chen"
+            },
+            {
+              "name": "Ying\u2010Chih Lin"
+            },
+            {
+              "name": "Ling\u2010Kang Liu"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jccs.199200054"
+          ],
+          "host": {
+            "pages": {
+              "first": "311",
+              "last": "317"
+            },
+            "title": "Journal of the Chinese Chemical Society",
+            "volume": "39"
+          },
+          "id": "19CE8B396DC20BEA67783E461FFE7E1382230A63",
+          "publicationDate": "1992",
+          "title": "Syntheses and Reactions of Rhenium Carbamoyl Complexes of the Type (CO)4Re(NH2R)(CONHR) (R = Ethyl, Allyl or Isopropyl)"
+        },
+        "lucn_query": "host.editor:Publishing Taipei author.name:Yen host.title:(The Illustrated Chinese Materia Medica) publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wen\u2010Jui Liao"
+            },
+            {
+              "name": "Yen\u2010Ju Wang"
+            },
+            {
+              "name": "Jhy\u2010Der Chen"
+            },
+            {
+              "name": "Ying\u2010Chih Lin"
+            },
+            {
+              "name": "Ling\u2010Kang Liu"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jccs.199200054"
+          ],
+          "host": {
+            "pages": {
+              "first": "311",
+              "last": "317"
+            },
+            "title": "Journal of the Chinese Chemical Society",
+            "volume": "39"
+          },
+          "id": "19CE8B396DC20BEA67783E461FFE7E1382230A63",
+          "publicationDate": "1992",
+          "title": "Syntheses and Reactions of Rhenium Carbamoyl Complexes of the Type (CO)4Re(NH2R)(CONHR) (R = Ethyl, Allyl or Isopropyl)"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.editor:Publishing Taipei author.name:Yen host.title:(The Illustrated Chinese Materia Medica))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gary R. Beck"
+            },
+            {
+              "name": "David W. L. Yen"
+            },
+            {
+              "name": "Thomas L. Anderson"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01205183"
+          ],
+          "host": {
+            "pages": {
+              "first": "143",
+              "last": "180"
+            },
+            "title": "The Journal of Supercomputing",
+            "volume": "7"
+          },
+          "id": "1902CF7241E9BDD429E99BE2CE0F8E7E2F401CA3",
+          "publicationDate": "1992",
+          "title": "The cydra 5 minisupercomputer: Architecture and implementation"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.editor:Publishing Taipei author.name:Yen host.title:(The* Illustrated* Chinese* Materia* Medica*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:Publishing AND Taipei AND author.name:Yen AND host.title:(The Illustrated Chinese Materia Medica) AND publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:Publishing AND Taipei AND author.name:Yen AND host.title:(The* Illustrated* Chinese* Materia* Medica*) AND publicationDate:1992",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title level=\"a\" type=\"main\">E&#129;cacy of traditional Chinese herbal therapy in adult atopic dermatitis</title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Sheehan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">H A</forename>\n    <surname>Rustin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Atherton</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Lancet</title>\n  <imprint>\n   <biblScope unit=\"volume\">340</biblScope>\n   <biblScope unit=\"page\" from=\"13\" to=\"17\"></biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Anthony Butler"
+            },
+            {
+              "name": "Georgina Eltenton"
+            }
+          ],
+          "corpusName": "brill-journals",
+          "doi": [
+            "10.1163/15734218-12341259"
+          ],
+          "host": {
+            "pages": {
+              "first": "405",
+              "last": "420"
+            },
+            "title": "Asian Medicine",
+            "volume": "7"
+          },
+          "id": "7C0F84E64BAA4E64C23185BE9AC74AD8FDDE7343",
+          "publicationDate": "2014",
+          "title": "The Treatment of Eczema in Traditional Chinese Medicine: An Attempt at Westernisation"
+        },
+        "lucn_query": "E\u0081cacy of traditional Chinese herbal therapy in adult atopic dermatitis M P Sheehan M H A Rustin D J Atherton Lancet 340 1992 13 17",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"340\" AND title:\"E\u0081cacy of traditional Chinese herbal therapy in adult atopic dermatitis\" AND host.pages.first:\"13\" AND host.pages.last:\"17\" AND publicationDate:\"1992\" AND host.title:\"Lancet\" AND author.name:\"Sheehan\" AND author.name:\"Rustin\" AND author.name:\"Atherton\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "host.volume:\"340\" title:\"E\u0081cacy of traditional Chinese herbal therapy in adult atopic dermatitis\" host.pages.first:\"13\" host.pages.last:\"17\" publicationDate:\"1992\" host.title:\"Lancet\" author.name:\"Sheehan\" author.name:\"Rustin\" author.name:\"Atherton\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "host.volume:340 title:(cacy traditional Chinese herbal therapy adult atopic dermatitis) host.pages.first:13 host.pages.last:17 publicationDate:1992 host.title:Lancet author.name:(Sheehan Rustin Atherton)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "(host.volume:340 AND publicationDate:1992) AND (title:(cacy traditional Chinese herbal therapy adult atopic dermatitis) host.pages.first:13 host.pages.last:17 host.title:Lancet author.name:(Sheehan Rustin Atherton))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "(host.volume:340 AND publicationDate:1992) AND (title:(cacy traditional Chinese herbal therapy adult atopic dermatitis) host.pages.first:13 host.pages.last:17 host.title:(Lancet*) author.name:(Sheehan Rustin Atherton))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "host.volume:340 AND title:(cacy traditional Chinese herbal therapy adult atopic dermatitis) AND host.pages.first:13 AND host.pages.last:17 AND publicationDate:1992 AND host.title:Lancet AND author.name:(Sheehan Rustin Atherton)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. Sheehan MRCPI"
+            },
+            {
+              "name": "M.H.A. Rustin MRCP"
+            },
+            {
+              "name": "C. Buckley MRCP"
+            },
+            {
+              "name": "D.J. Harris MRCP"
+            },
+            {
+              "name": "L. Ostlere MRCP"
+            },
+            {
+              "name": "A. Dawson MA"
+            },
+            {
+              "name": "D.J. Atherton FRCP"
+            },
+            {
+              "name": "J. Brostoff FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)92424-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "17"
+            },
+            "title": "The Lancet",
+            "volume": "340"
+          },
+          "id": "8412C198E526070C22305F0164045CDC4E7B378B",
+          "publicationDate": "1992",
+          "title": "Efficacy of traditional Chinese herbal therapy in adult atopic dermatitis"
+        },
+        "lucn_query": "host.volume:340 AND title:(cacy traditional Chinese herbal therapy adult atopic dermatitis) AND host.pages.first:13 AND host.pages.last:17 AND publicationDate:1992 AND host.title:(Lancet*) AND author.name:(Sheehan Rustin Atherton)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title level=\"a\" type=\"main\">Randomized study of glibenclamide versus traditional Chinese treatment in type 2 diabetic patients. Chinese-French Scienti&#174;c Committee for the Study of Diabetes</title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Vray</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Attali</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Diabet. Metab</title>\n  <imprint>\n   <biblScope unit=\"volume\">21</biblScope>\n   <biblScope unit=\"page\" from=\"433\" to=\"439\"></biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Alvarsson"
+            },
+            {
+              "name": "G. Sundkvist"
+            },
+            {
+              "name": "I. Lager"
+            },
+            {
+              "name": "K. Berntorp"
+            },
+            {
+              "name": "E. Fernqvist\u2010Forbes"
+            },
+            {
+              "name": "L. Steen"
+            },
+            {
+              "name": "T. \u00d6rn"
+            },
+            {
+              "name": "M. A. Holberg"
+            },
+            {
+              "name": "N. Kirks\u00e6ther"
+            },
+            {
+              "name": "V. Grill"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1463-1326.2007.00719.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "421",
+              "last": "429"
+            },
+            "title": "Diabetes, Obesity and Metabolism",
+            "volume": "10"
+          },
+          "id": "EAB5E1DBBBBFC790776170DC7D8CFCB23E2798E0",
+          "publicationDate": "2008",
+          "title": "Effects of insulin vs. glibenclamide in recently diagnosed patients with type 2 diabetes: a 4\u2010year follow\u2010up"
+        },
+        "lucn_query": "Randomized study of glibenclamide versus traditional Chinese treatment in type 2 diabetic patients. Chinese-French Scienti\u00aec Committee for the Study of Diabetes M Vray J R Attali Diabet. Metab 21 1995 433 439",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"21\" AND title:\"Randomized study of glibenclamide versus traditional Chinese treatment in type 2 diabetic patients. Chinese-French Scienti\u00aec Committee for the Study of Diabetes\" AND host.pages.first:\"433\" AND host.pages.last:\"439\" AND publicationDate:\"1995\" AND host.title:\"Diabet. Metab\" AND author.name:\"Vray\" AND author.name:\"Attali\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Walid Aoudi"
+            },
+            {
+              "name": "Didier Vray"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ima.20249"
+          ],
+          "host": {
+            "pages": {
+              "first": "268",
+              "last": "276"
+            },
+            "title": "International Journal of Imaging Systems and Technology",
+            "volume": "20"
+          },
+          "id": "3CF403A75BC744BDBA04D5FC5E9A56F11BA78D01",
+          "publicationDate": "2010",
+          "title": "Estimation of a dense velocity field based on the statistics of dynamic speckle"
+        },
+        "lucn_query": "host.volume:\"21\" title:\"Randomized study of glibenclamide versus traditional Chinese treatment in type 2 diabetic patients. Chinese-French Scienti\u00aec Committee for the Study of Diabetes\" host.pages.first:\"433\" host.pages.last:\"439\" publicationDate:\"1995\" host.title:\"Diabet. Metab\" author.name:\"Vray\" author.name:\"Attali\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Varroud\u2010Vial"
+            },
+            {
+              "name": "D. Simon"
+            },
+            {
+              "name": "J. Attali"
+            },
+            {
+              "name": "I. Durand\u2010Zaleski"
+            },
+            {
+              "name": "L. Bera"
+            },
+            {
+              "name": "C. Attali"
+            },
+            {
+              "name": "C. Letondeur"
+            },
+            {
+              "name": "K. Strauss"
+            },
+            {
+              "name": "C. Petit"
+            },
+            {
+              "name": "G. Charpentier"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1464-5491.2004.01207.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "592",
+              "last": "598"
+            },
+            "title": "Diabetic Medicine",
+            "volume": "21"
+          },
+          "id": "16F7387DD1936112BB2CAB65E777A5E5D0A4A8F0",
+          "publicationDate": "2004",
+          "title": "Improving glycaemic control of patients with Type 2 diabetes in a primary care setting: a French application of the Staged Diabetes Management programme"
+        },
+        "lucn_query": "host.volume:21 title:(Randomized study glibenclamide versus traditional Chinese treatment type diabetic patients Chinese French Scienti Committee Study Diabetes) host.pages.first:433 host.pages.last:439 publicationDate:1995 host.title:(Diabet Metab) author.name:(Vray Attali)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ricard Sol\u00e1"
+            },
+            {
+              "name": "Montserrat Andreu"
+            },
+            {
+              "name": "Susana Coll"
+            },
+            {
+              "name": "Maria Carme Vila"
+            },
+            {
+              "name": "Maria Isabel Oliver"
+            },
+            {
+              "name": "Vicente Arroyo"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0270-9139(95)90090-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "340",
+              "last": "344"
+            },
+            "title": "Hepatology",
+            "volume": "21"
+          },
+          "id": "2ABA42E8BA59A22A0CB5907FFF4AF0C379DD342C",
+          "publicationDate": "1995",
+          "title": "Spontaneous bacterial peritonitis in cirrhotic patients treated using paracentesis or diuretics: Results of a randomized study"
+        },
+        "lucn_query": "(host.volume:21 AND publicationDate:1995) AND (title:(Randomized study glibenclamide versus traditional Chinese treatment type diabetic patients Chinese French Scienti Committee Study Diabetes) host.pages.first:433 host.pages.last:439 host.title:(Diabet Metab) author.name:(Vray Attali))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ricard Sol\u00e1"
+            },
+            {
+              "name": "Montserrat Andreu"
+            },
+            {
+              "name": "Susana Coll"
+            },
+            {
+              "name": "Maria Carme Vila"
+            },
+            {
+              "name": "Maria Isabel Oliver"
+            },
+            {
+              "name": "Vicente Arroyo"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0270-9139(95)90090-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "340",
+              "last": "344"
+            },
+            "title": "Hepatology",
+            "volume": "21"
+          },
+          "id": "2ABA42E8BA59A22A0CB5907FFF4AF0C379DD342C",
+          "publicationDate": "1995",
+          "title": "Spontaneous bacterial peritonitis in cirrhotic patients treated using paracentesis or diuretics: Results of a randomized study"
+        },
+        "lucn_query": "(host.volume:21 AND publicationDate:1995) AND (title:(Randomized study glibenclamide versus traditional Chinese treatment type diabetic patients Chinese French Scienti Committee Study Diabetes) host.pages.first:433 host.pages.last:439 host.title:(Diabet* Metab*) author.name:(Vray Attali))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:21 AND title:(Randomized study glibenclamide versus traditional Chinese treatment type diabetic patients Chinese French Scienti Committee Study Diabetes) AND host.pages.first:433 AND host.pages.last:439 AND publicationDate:1995 AND host.title:(Diabet Metab) AND author.name:(Vray Attali)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:21 AND title:(Randomized study glibenclamide versus traditional Chinese treatment type diabetic patients Chinese French Scienti Committee Study Diabetes) AND host.pages.first:433 AND host.pages.last:439 AND publicationDate:1995 AND host.title:(Diabet* Metab*) AND author.name:(Vray Attali)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title level=\"a\" type=\"main\">Usage and adverse e&#128;ects of Chinese herbal medicines</title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">Y K</forename>\n    <surname>Chan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">A J H</forename>\n    <surname>Critchley</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Hum. Exp. Toxicol</title>\n  <imprint>\n   <biblScope unit=\"volume\">15</biblScope>\n   <biblScope unit=\"page\" from=\"5\" to=\"12\"></biblScope>\n   <date type=\"published\" when=\"1996\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Catherine C. Crone M.D."
+            },
+            {
+              "name": "Thomas N. Wise M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0033-3182(98)71374-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "13"
+            },
+            "title": "Psychosomatics",
+            "volume": "39"
+          },
+          "id": "FF2B57C0471DAB7B9F62DA0AE2AA3F1AF659DD22",
+          "publicationDate": "2011",
+          "title": "Use of Herbal Medicines Among Consultation-Liaison Populations"
+        },
+        "lucn_query": "Usage and adverse e\u0080ects of Chinese herbal medicines T Y K Chan J A J H Critchley Hum. Exp. Toxicol 15 1996 5 12",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"15\" AND title:\"Usage and adverse e\u0080ects of Chinese herbal medicines\" AND host.pages.first:\"5\" AND host.pages.last:\"12\" AND publicationDate:\"1996\" AND host.title:\"Hum. Exp. Toxicol\" AND author.name:\"Chan\" AND author.name:\"Critchley\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Simon Critchley"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/1467-9329.00182"
+          ],
+          "host": {
+            "pages": {
+              "first": "154",
+              "last": "175"
+            },
+            "title": "Ratio",
+            "volume": "15"
+          },
+          "id": "3BCD5E9EB4BA204D16B1545452A1385FEBE05C67",
+          "publicationDate": "2002",
+          "title": "Enigma Variations: An Interpretation of Heidegger's Sein und Zeit"
+        },
+        "lucn_query": "host.volume:\"15\" title:\"Usage and adverse e\u0080ects of Chinese herbal medicines\" host.pages.first:\"5\" host.pages.last:\"12\" publicationDate:\"1996\" host.title:\"Hum. Exp. Toxicol\" author.name:\"Chan\" author.name:\"Critchley\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "TYK Chan MRCP"
+            },
+            {
+              "name": "JCN Chan MRCP"
+            },
+            {
+              "name": "B Tomlinson MRCP"
+            },
+            {
+              "name": "JAJH Critchley FRCP"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0140-6736(05)80091-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1532",
+              "last": "1534"
+            },
+            "title": "The Lancet",
+            "volume": "342"
+          },
+          "id": "55F41D63875EA69FB2BC7F7908D8EF8EC06A40B6",
+          "publicationDate": "1993",
+          "title": "Chinese herbal medicines revisited: a Hong Kong perspective"
+        },
+        "lucn_query": "host.volume:15 title:(Usage adverse ects Chinese herbal medicines) host.pages.first:5 host.pages.last:12 publicationDate:1996 host.title:(Hum Exp Toxicol) author.name:(Chan Critchley)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. Gu"
+            },
+            {
+              "name": "K. Chan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0278-6125(96)84550-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "240",
+              "last": "255"
+            },
+            "title": "Journal of Manufacturing Systems",
+            "volume": "15"
+          },
+          "id": "179487B64F2C263723EE82D1524AA840C3D7A792",
+          "publicationDate": "1996",
+          "title": "Generative inspection process and probe path planning for coordinate measuring machines"
+        },
+        "lucn_query": "(host.volume:15 AND publicationDate:1996) AND (title:(Usage adverse ects Chinese herbal medicines) host.pages.first:5 host.pages.last:12 host.title:(Hum Exp Toxicol) author.name:(Chan Critchley))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. Gu"
+            },
+            {
+              "name": "K. Chan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0278-6125(96)84550-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "240",
+              "last": "255"
+            },
+            "title": "Journal of Manufacturing Systems",
+            "volume": "15"
+          },
+          "id": "179487B64F2C263723EE82D1524AA840C3D7A792",
+          "publicationDate": "1996",
+          "title": "Generative inspection process and probe path planning for coordinate measuring machines"
+        },
+        "lucn_query": "(host.volume:15 AND publicationDate:1996) AND (title:(Usage adverse ects Chinese herbal medicines) host.pages.first:5 host.pages.last:12 host.title:(Hum* Exp* Toxicol*) author.name:(Chan Critchley))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:15 AND title:(Usage adverse ects Chinese herbal medicines) AND host.pages.first:5 AND host.pages.last:12 AND publicationDate:1996 AND host.title:(Hum Exp Toxicol) AND author.name:(Chan Critchley)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:15 AND title:(Usage adverse ects Chinese herbal medicines) AND host.pages.first:5 AND host.pages.last:12 AND publicationDate:1996 AND host.title:(Hum* Exp* Toxicol*) AND author.name:(Chan Critchley)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <analytic>\n  <title level=\"a\" type=\"main\">Rapidly progressive interstitial renal &#174;brosis in young women: association with slimming regimen including Chinese herbs</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Vanherwegem</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Depierreux</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Tielemans</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Lancet</title>\n  <imprint>\n   <biblScope unit=\"volume\">341</biblScope>\n   <biblScope unit=\"page\" from=\"387\" to=\"391\"></biblScope>\n   <date type=\"published\" when=\"1993\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "Rapidly progressive interstitial renal \u00aebrosis in young women\\: association with slimming regimen including Chinese herbs J L Vanherwegem M Depierreux C Tielemans Lancet 341 1993 387 391",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"341\" AND title:\"Rapidly progressive interstitial renal \u00aebrosis in young women\\: association with slimming regimen including Chinese herbs\" AND host.pages.first:\"387\" AND host.pages.last:\"391\" AND publicationDate:\"1993\" AND host.title:\"Lancet\" AND author.name:\"Vanherwegem\" AND author.name:\"Depierreux\" AND author.name:\"Tielemans\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "host.volume:\"341\" title:\"Rapidly progressive interstitial renal \u00aebrosis in young women\\: association with slimming regimen including Chinese herbs\" host.pages.first:\"387\" host.pages.last:\"391\" publicationDate:\"1993\" host.title:\"Lancet\" author.name:\"Vanherwegem\" author.name:\"Depierreux\" author.name:\"Tielemans\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "host.volume:341 title:(Rapidly progressive interstitial renal brosis young women association with slimming regimen including Chinese herbs) host.pages.first:387 host.pages.last:391 publicationDate:1993 host.title:Lancet author.name:(Vanherwegem Depierreux Tielemans)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "(host.volume:341 AND publicationDate:1993) AND (title:(Rapidly progressive interstitial renal brosis young women association with slimming regimen including Chinese herbs) host.pages.first:387 host.pages.last:391 host.title:Lancet author.name:(Vanherwegem Depierreux Tielemans))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "(host.volume:341 AND publicationDate:1993) AND (title:(Rapidly progressive interstitial renal brosis young women association with slimming regimen including Chinese herbs) host.pages.first:387 host.pages.last:391 host.title:(Lancet*) author.name:(Vanherwegem Depierreux Tielemans))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "host.volume:341 AND title:(Rapidly progressive interstitial renal brosis young women association with slimming regimen including Chinese herbs) AND host.pages.first:387 AND host.pages.last:391 AND publicationDate:1993 AND host.title:Lancet AND author.name:(Vanherwegem Depierreux Tielemans)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J-L. Vanherweghem Prof MD"
+            },
+            {
+              "name": "C. Tielemans MD"
+            },
+            {
+              "name": "D. Abramowicz MD"
+            },
+            {
+              "name": "M. Depierreux MD"
+            },
+            {
+              "name": "R. Vanhaelen-Fastre Prof PhD"
+            },
+            {
+              "name": "M. Vanhaelen PhD"
+            },
+            {
+              "name": "M. Dratwa MD"
+            },
+            {
+              "name": "C. Richard MD"
+            },
+            {
+              "name": "D. Vandervelde MD"
+            },
+            {
+              "name": "D. Verbeelen MD"
+            },
+            {
+              "name": "M. Jadoul MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(93)92984-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "391"
+            },
+            "title": "The Lancet",
+            "volume": "341"
+          },
+          "id": "0619503F5C8618D5895392CC56966B30BEDC1322",
+          "publicationDate": "1993",
+          "title": "Rapidly progressive interstitial renal fibrosis in young women: association with slimming regimen including Chinese herbs"
+        },
+        "lucn_query": "host.volume:341 AND title:(Rapidly progressive interstitial renal brosis young women association with slimming regimen including Chinese herbs) AND host.pages.first:387 AND host.pages.last:391 AND publicationDate:1993 AND host.title:(Lancet*) AND author.name:(Vanherwegem Depierreux Tielemans)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <analytic>\n  <title level=\"a\" type=\"main\">Possible association of liver damage with the use of Chinese herbal medicine for skin disease</title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Perharic</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Shaw</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Leon</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">A G M</forename>\n    <surname>De Smet</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n    <forename type=\"middle\">S G</forename>\n    <surname>Murray</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Vet. Human Toxicol</title>\n  <imprint>\n   <biblScope unit=\"volume\">37</biblScope>\n   <biblScope unit=\"page\" from=\"562\" to=\"566\"></biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b17",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Edzard Ernst,  MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9343(97)00397-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "170",
+              "last": "178"
+            },
+            "title": "The American Journal of Medicine",
+            "volume": "104"
+          },
+          "id": "642136D902BFF5E509AAA1A58FB80B06BB242995",
+          "publicationDate": "1998",
+          "title": "Harmless Herbs? A Review of the Recent Literature"
+        },
+        "lucn_query": "Possible association of liver damage with the use of Chinese herbal medicine for skin disease L Perharic D Shaw C Leon P A G M De Smet V S G Murray Vet. Human Toxicol 37 1995 562 566",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"37\" AND title:\"Possible association of liver damage with the use of Chinese herbal medicine for skin disease\" AND host.pages.first:\"562\" AND host.pages.last:\"566\" AND publicationDate:\"1995\" AND host.title:\"Vet. Human Toxicol\" AND author.name:\"Perharic\" AND author.name:\"Shaw\" AND author.name:\"Leon\" AND author.name:\"De Smet\" AND author.name:\"Murray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Guyette"
+            },
+            {
+              "name": "M. De Smet"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0029-5493(95)90010-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "183",
+              "last": "195"
+            },
+            "title": "Nuclear Engineering and Design",
+            "volume": "153"
+          },
+          "id": "4322DE501251FA6D566B19A72C41F20BC3295B64",
+          "publicationDate": "1995",
+          "title": "Inverse and direct transfer functions for the fatigue follow-up of piping systems submitted to stratification"
+        },
+        "lucn_query": "host.volume:\"37\" title:\"Possible association of liver damage with the use of Chinese herbal medicine for skin disease\" host.pages.first:\"562\" host.pages.last:\"566\" publicationDate:\"1995\" host.title:\"Vet. Human Toxicol\" author.name:\"Perharic\" author.name:\"Shaw\" author.name:\"Leon\" author.name:\"De Smet\" author.name:\"Murray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Sbastien Leidgens"
+            },
+            {
+              "name": "Sbastien De Smet"
+            },
+            {
+              "name": "Franoise Foury"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/hmg/ddp495"
+          ],
+          "host": {
+            "pages": {
+              "first": "276",
+              "last": "286"
+            },
+            "title": "Human Molecular Genetics",
+            "volume": "19"
+          },
+          "id": "7D524A89BC8FF4F6F0C765A0B2D89CC68AC3CBE3",
+          "publicationDate": "2010",
+          "title": "Frataxin interacts with Isu1 through a conserved tryptophan in its -sheet"
+        },
+        "lucn_query": "host.volume:37 title:(Possible association liver damage with Chinese herbal medicine skin disease) host.pages.first:562 host.pages.last:566 publicationDate:1995 host.title:(Vet Human Toxicol) author.name:(Perharic Shaw Leon De Smet Murray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Angela M. Murray PhD"
+            },
+            {
+              "name": "Fredric B. Weihmueller PhD"
+            },
+            {
+              "name": "John F. Marshall PhD"
+            },
+            {
+              "name": "Howard I. Hurtig MD"
+            },
+            {
+              "name": "Gary L. Gottleib MD, MA"
+            },
+            {
+              "name": "Dr Joyce PhD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ana.410370306"
+          ],
+          "host": {
+            "pages": {
+              "first": "300",
+              "last": "312"
+            },
+            "title": "Annals of Neurology",
+            "volume": "37"
+          },
+          "id": "0779E99CA796FA022C602D54B22C390B394CDC6A",
+          "publicationDate": "1995",
+          "title": "Damage to dopamine systems differs between parkinson's disease and alzheimer's disease with parkinsonism"
+        },
+        "lucn_query": "(host.volume:37 AND publicationDate:1995) AND (title:(Possible association liver damage with Chinese herbal medicine skin disease) host.pages.first:562 host.pages.last:566 host.title:(Vet Human Toxicol) author.name:(Perharic Shaw Leon De Smet Murray))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Angela M. Murray PhD"
+            },
+            {
+              "name": "Fredric B. Weihmueller PhD"
+            },
+            {
+              "name": "John F. Marshall PhD"
+            },
+            {
+              "name": "Howard I. Hurtig MD"
+            },
+            {
+              "name": "Gary L. Gottleib MD, MA"
+            },
+            {
+              "name": "Dr Joyce PhD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ana.410370306"
+          ],
+          "host": {
+            "pages": {
+              "first": "300",
+              "last": "312"
+            },
+            "title": "Annals of Neurology",
+            "volume": "37"
+          },
+          "id": "0779E99CA796FA022C602D54B22C390B394CDC6A",
+          "publicationDate": "1995",
+          "title": "Damage to dopamine systems differs between parkinson's disease and alzheimer's disease with parkinsonism"
+        },
+        "lucn_query": "(host.volume:37 AND publicationDate:1995) AND (title:(Possible association liver damage with Chinese herbal medicine skin disease) host.pages.first:562 host.pages.last:566 host.title:(Vet* Human* Toxicol*) author.name:(Perharic Shaw Leon De Smet Murray))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:37 AND title:(Possible association liver damage with Chinese herbal medicine skin disease) AND host.pages.first:562 AND host.pages.last:566 AND publicationDate:1995 AND host.title:(Vet Human Toxicol) AND author.name:(Perharic Shaw Leon De Smet Murray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:37 AND title:(Possible association liver damage with Chinese herbal medicine skin disease) AND host.pages.first:562 AND host.pages.last:566 AND publicationDate:1995 AND host.title:(Vet* Human* Toxicol*) AND author.name:(Perharic Shaw Leon De Smet Murray)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b18\">\n <analytic>\n  <title level=\"a\" type=\"main\">Tolerance of and compliance with traditional drug therapy among patients in a hospital for Chinese medicine in Germany</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Melchart</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hager</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Weidenhammer</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">Z</forename>\n    <surname>Liao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>So&#232; Llner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Linde</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Int. J. Risk Safety Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">11</biblScope>\n   <biblScope unit=\"page\" from=\"61\" to=\"64\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b18",
+    "findout_errs": [],
+    "parent_doc": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "S. Hager"
+            },
+            {
+              "name": "J. Kaesmayr"
+            },
+            {
+              "name": "D. Shaw"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "W. Weidenhammer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0965-2299(99)80003-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "208",
+              "last": "216"
+            },
+            "title": "Complementary Therapies in Medicine",
+            "volume": "7"
+          },
+          "id": "458512F7262D186BE193ECB4B5DD1C8B7153E4C7",
+          "publicationDate": "1999",
+          "title": "Monitoring of liver enzymes in patients treated with traditional Chinese drugs"
+        },
+        "lucn_query": "Tolerance of and compliance with traditional drug therapy among patients in a hospital for Chinese medicine in Germany D Melchart S Hager W Weidenhammer J Z Liao C So\u00e8 Llner K Linde Int. J. Risk Safety Med 11 1998 61 64",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"11\" AND title:\"Tolerance of and compliance with traditional drug therapy among patients in a hospital for Chinese medicine in Germany\" AND host.pages.first:\"61\" AND host.pages.last:\"64\" AND publicationDate:\"1998\" AND host.title:\"Int. J. Risk Safety Med\" AND author.name:\"Melchart\" AND author.name:\"Hager\" AND author.name:\"Weidenhammer\" AND author.name:\"Liao\" AND author.name:\"So\u00e8 Llner\" AND author.name:\"Linde\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Melchart"
+            },
+            {
+              "name": "K. Linde"
+            },
+            {
+              "name": "S. Hager"
+            },
+            {
+              "name": "J. Kaesmayr"
+            },
+            {
+              "name": "D. Shaw"
+            },
+            {
+              "name": "R. Bauer"
+            },
+            {
+              "name": "W. Weidenhammer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0965-2299(99)80003-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "208",
+              "last": "216"
+            },
+            "title": "Complementary Therapies in Medicine",
+            "volume": "7"
+          },
+          "id": "458512F7262D186BE193ECB4B5DD1C8B7153E4C7",
+          "publicationDate": "1999",
+          "title": "Monitoring of liver enzymes in patients treated with traditional Chinese drugs"
+        },
+        "lucn_query": "host.volume:\"11\" title:\"Tolerance of and compliance with traditional drug therapy among patients in a hospital for Chinese medicine in Germany\" host.pages.first:\"61\" host.pages.last:\"64\" publicationDate:\"1998\" host.title:\"Int. J. Risk Safety Med\" author.name:\"Melchart\" author.name:\"Hager\" author.name:\"Weidenhammer\" author.name:\"Liao\" author.name:\"So\u00e8 Llner\" author.name:\"Linde\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dieter Melchart"
+            },
+            {
+              "name": "Klaus Linde"
+            },
+            {
+              "name": "Wolfgang Weidenhammer"
+            },
+            {
+              "name": "Stefan Hager"
+            },
+            {
+              "name": "Jiazhen Liao"
+            },
+            {
+              "name": "Rudolf Bauer"
+            },
+            {
+              "name": "Hildebert Wagner"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1099-1557(199903/04)8:2<115::AID-PDS412>3.0.CO;2-I"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "120"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "8"
+          },
+          "id": "9F2E02B59E6B456D1EAE21D989C3897479AAF7BD",
+          "publicationDate": "1999",
+          "title": "Use of traditional drugs in a hospital of Chinese medicine in Germany"
+        },
+        "lucn_query": "host.volume:11 title:(Tolerance compliance with traditional drug therapy among patients hospital Chinese medicine Germany) host.pages.first:61 host.pages.last:64 publicationDate:1998 host.title:(Int J Risk Safety Med) author.name:(Melchart Hager Weidenhammer Liao So\u00e8 Llner Linde)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. Richard Barthel MD"
+            },
+            {
+              "name": "Lawrence S. Miller MD"
+            },
+            {
+              "name": "William W. Deardorff PhD"
+            },
+            {
+              "name": "Ren\u00e9e Portenier OTR, CHT"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0894-1130(98)80037-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "191",
+              "last": "199"
+            },
+            "title": "Journal of Hand Therapy",
+            "volume": "11"
+          },
+          "id": "4D1879878E6B7D059E8AC99E9DE87F41C2074554",
+          "publicationDate": "1998",
+          "title": "Presentation and response of patients with upper extremity repetitive use syndrome to a multidisciplinary rehabilitation program"
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1998) AND (title:(Tolerance compliance with traditional drug therapy among patients hospital Chinese medicine Germany) host.pages.first:61 host.pages.last:64 host.title:(Int J Risk Safety Med) author.name:(Melchart Hager Weidenhammer Liao So\u00e8 Llner Linde))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ingomar-Werner Franz"
+            },
+            {
+              "name": "Ulrich T\u00f6nnesmann"
+            },
+            {
+              "name": "Joachim F.M. M\u00fcller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0895-7061(98)00024-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "631",
+              "last": "639"
+            },
+            "title": "American Journal of Hypertension",
+            "volume": "11"
+          },
+          "id": "F704FBC91226DA41318BCC91AE9318DC913AE8AB",
+          "publicationDate": "1998",
+          "title": "Time Course of Complete Normalization of Left Ventricular Hypertrophy During Long-Term Antihypertensive Therapy With Angiotensin Converting Enzyme Inhibitors1The study medication was generously supplied by Goedecke/Parke-Davis, Freiburg, Germany."
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1998) AND (title:(Tolerance compliance with traditional drug therapy among patients hospital Chinese medicine Germany) host.pages.first:61 host.pages.last:64 host.title:(Int* journal Risk* Safety* Med*) author.name:(Melchart Hager Weidenhammer Liao So\u00e8 Llner Linde))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:11 AND title:(Tolerance compliance with traditional drug therapy among patients hospital Chinese medicine Germany) AND host.pages.first:61 AND host.pages.last:64 AND publicationDate:1998 AND host.title:(Int J Risk Safety Med) AND author.name:(Melchart Hager Weidenhammer Liao So\u00e8 Llner Linde)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:11 AND title:(Tolerance compliance with traditional drug therapy among patients hospital Chinese medicine Germany) AND host.pages.first:61 AND host.pages.last:64 AND publicationDate:1998 AND host.title:(Int* journal Risk* Safety* Med*) AND author.name:(Melchart Hager Weidenhammer Liao So\u00e8 Llner Linde)",
+        "match_flag": false
+      }
+    ]
+  }
+]

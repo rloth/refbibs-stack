@@ -1,0 +1,16 @@
+#b14-remarques:
+---------------
+badrequest < "1%3" dans vol < OCR 1963
+
+#b0-remarques:
+---------------
+abbrev bloque le filtre "Acta. Met."
+
+#b6-remarques:
+---------------
+badrequest<%<"1%5" dans champ vol < OCR (1965)
+
+#b12-remarques:
+---------------
+gb:mon <an
+

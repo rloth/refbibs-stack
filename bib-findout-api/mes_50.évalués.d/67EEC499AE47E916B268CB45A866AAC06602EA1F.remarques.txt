@@ -1,0 +1,8 @@
+#doc-remarques:
+---------------
+OCR de mauvaise qualité : on peut quand même en retrouver 2/5
+
+#b1-remarques:
+---------------
+pdftotext: "198932938234" < date 1989 vol 29 pp 823-6
+

@@ -1,0 +1,27 @@
+#b7-remarques:
+---------------
+gb:"Proc. R." < "Proc. R. Soc. Lond."
+et oublie le volume "A4" (?)
+
+#b9-remarques:
+---------------
+gb:(author: "IMA J" + title[j]: "Applied Math")< IMA Journal of Applied Math
+
+A cause de ça difficile à valider...
+
+#b1-remarques:
+---------------
+Extraction journal title partielle
+
+#b5-remarques:
+---------------
+L'auteur de l'article s'est trompé en mettant "Twenty-Fourth Symposium" au lieu de 23, mais on trouve la bib via les méthodes 2 et 3 (invalidable)
+
+#b8-remarques:
+---------------
+gb:an < mon
+
+#doc-remarques:
+---------------
+Beaucoup retrouvés mais peu validés par le filtre : intéressant pour tests
+

@@ -1,0 +1,583 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Contidedtial unit exclusion (CUE) is just another test (letter)</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Hb</forename>\n    <surname>Soloway</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Transfusion</title>\n  <imprint>\n   <biblScope unit=\"volume\">31</biblScope>\n   <biblScope unit=\"page\" from=\"286\" to=\"7\"></biblScope>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "67EEC499AE47E916B268CB45A866AAC06602EA1F",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.J. KORELITZ PhD"
+            },
+            {
+              "name": "A.E. WILLIAMS"
+            },
+            {
+              "name": "M.P. BUSCH"
+            },
+            {
+              "name": "T.F. ZUCK"
+            },
+            {
+              "name": "H.E. OWNBY"
+            },
+            {
+              "name": "L.J. MATIJAS"
+            },
+            {
+              "name": "D.J. WRIGHT"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1994.341095026972.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "870",
+              "last": "876"
+            },
+            "title": "Transfusion",
+            "volume": "34"
+          },
+          "id": "AD012B547BA81930A4C01B8A631C565EF4DA04B5",
+          "publicationDate": "1994",
+          "title": "Demographic characteristics and prevalence of serologic markers among donors who use the confidential unit exclusion process: the Retrovirus Epidemiology Donor Study"
+        },
+        "lucn_query": "Contidedtial unit exclusion \\(CUE\\) is just another test \\(letter\\) Hb Soloway Transfusion 31 1991 286 7",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"31\" AND title:\"Contidedtial unit exclusion \\(CUE\\) is just another test \\(letter\\)\" AND host.pages.first:\"286\" AND host.pages.last:\"7\" AND publicationDate:\"1991\" AND host.title:\"Transfusion\" AND author.name:\"Soloway\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.M. Lazarus MD"
+            },
+            {
+              "name": "S. B. Cohen"
+            },
+            {
+              "name": "D. O. Clegg"
+            },
+            {
+              "name": "J. E. Menitove"
+            },
+            {
+              "name": "S. B. Sorin"
+            },
+            {
+              "name": "S. Hinkle"
+            },
+            {
+              "name": "J. A. Markenson"
+            },
+            {
+              "name": "S. Saal"
+            },
+            {
+              "name": "L. T. Goodnough"
+            },
+            {
+              "name": "R. M. Fleischmann"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1991.31291142942.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "122",
+              "last": "128"
+            },
+            "title": "Transfusion",
+            "volume": "31"
+          },
+          "id": "8CF8A42E80B828AB15D74DDF31E376EDAF944FFE",
+          "publicationDate": "1991",
+          "title": "Selective in vivo removal of rheumatoid factor by an extracorporeal treatment device in rheumatoid arthritis patients"
+        },
+        "lucn_query": "host.volume:\"31\" title:\"Contidedtial unit exclusion \\(CUE\\) is just another test \\(letter\\)\" host.pages.first:\"286\" host.pages.last:\"7\" publicationDate:\"1991\" host.title:\"Transfusion\" author.name:\"Soloway\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Henry B. Soloway MD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1991.31391165185.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "286",
+              "last": "287"
+            },
+            "title": "Transfusion",
+            "volume": "31"
+          },
+          "id": "7E943A4FED3F8372DE073BE397E80F66E7569C0A",
+          "publicationDate": "1991",
+          "title": "Confidential unit exclusion (CUE) is just another test"
+        },
+        "lucn_query": "host.volume:31 title:(Contidedtial unit exclusion just another test letter) host.pages.first:286 host.pages.last:7 publicationDate:1991 host.title:Transfusion author.name:Soloway",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Henry B. Soloway MD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1991.31391165185.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "286",
+              "last": "287"
+            },
+            "title": "Transfusion",
+            "volume": "31"
+          },
+          "id": "7E943A4FED3F8372DE073BE397E80F66E7569C0A",
+          "publicationDate": "1991",
+          "title": "Confidential unit exclusion (CUE) is just another test"
+        },
+        "lucn_query": "(host.volume:31 AND publicationDate:1991) AND (title:(Contidedtial unit exclusion just another test letter) host.pages.first:286 host.pages.last:7 host.title:Transfusion author.name:Soloway)",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Henry B. Soloway MD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1991.31391165185.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "286",
+              "last": "287"
+            },
+            "title": "Transfusion",
+            "volume": "31"
+          },
+          "id": "7E943A4FED3F8372DE073BE397E80F66E7569C0A",
+          "publicationDate": "1991",
+          "title": "Confidential unit exclusion (CUE) is just another test"
+        },
+        "lucn_query": "(host.volume:31 AND publicationDate:1991) AND (title:(Contidedtial unit exclusion just another test letter) host.pages.first:286 host.pages.last:7 host.title:(Transfusion*) author.name:Soloway)",
+        "match_flag": true
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:31 AND title:(Contidedtial unit exclusion just another test letter) AND host.pages.first:286 AND host.pages.last:7 AND publicationDate:1991 AND host.title:Transfusion AND author.name:Soloway",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:31 AND title:(Contidedtial unit exclusion just another test letter) AND host.pages.first:286 AND host.pages.last:7 AND publicationDate:1991 AND host.title:(Transfusion*) AND author.name:Soloway",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Efficacy of varioua methods of confidential unit exclusion in identi- Qing potentially infectious blood donations</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Br</forename>\n    <surname>Loiacono</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Gr</forename>\n    <surname>Cuter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Carter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Sf</forename>\n    <surname>Lcitman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Hg</forename>\n    <surname>Klcin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Transfusion</title>\n  <imprint>\n   <date>198932938234</date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: date sans @when"
+    ],
+    "parent_doc": "67EEC499AE47E916B268CB45A866AAC06602EA1F",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.J. KORELITZ PhD"
+            },
+            {
+              "name": "A.E. WILLIAMS"
+            },
+            {
+              "name": "M.P. BUSCH"
+            },
+            {
+              "name": "T.F. ZUCK"
+            },
+            {
+              "name": "H.E. OWNBY"
+            },
+            {
+              "name": "L.J. MATIJAS"
+            },
+            {
+              "name": "D.J. WRIGHT"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1994.341095026972.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "870",
+              "last": "876"
+            },
+            "title": "Transfusion",
+            "volume": "34"
+          },
+          "id": "AD012B547BA81930A4C01B8A631C565EF4DA04B5",
+          "publicationDate": "1994",
+          "title": "Demographic characteristics and prevalence of serologic markers among donors who use the confidential unit exclusion process: the Retrovirus Epidemiology Donor Study"
+        },
+        "lucn_query": "Efficacy of varioua methods of confidential unit exclusion in identi- Qing potentially infectious blood donations Br Loiacono Gr Cuter C S Carter Sf Lcitman Hg Klcin Transfusion 198932938234",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "_CHAMP_INCONNU_:\"198932938234\" AND title:\"Efficacy of varioua methods of confidential unit exclusion in identi- Qing potentially infectious blood donations\" AND host.title:\"Transfusion\" AND author.name:\"Loiacono\" AND author.name:\"Cuter\" AND author.name:\"Carter\" AND author.name:\"Lcitman\" AND author.name:\"Klcin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.R. LOIACONO"
+            },
+            {
+              "name": "G.R. CARTER"
+            },
+            {
+              "name": "C.S. CARTER"
+            },
+            {
+              "name": "S.F. LEITMAN"
+            },
+            {
+              "name": "H.G. KLEIN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1989.29990070189.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "823",
+              "last": "826"
+            },
+            "title": "Transfusion",
+            "volume": "29"
+          },
+          "id": "96D8AC0DCD8D33D6C25678E32C85E3B28B3C0AA1",
+          "publicationDate": "1989",
+          "title": "Efficacy of various methods of confidential unit exclusion in identifying potentially infectious blood donations"
+        },
+        "lucn_query": "_CHAMP_INCONNU_:\"198932938234\" title:\"Efficacy of varioua methods of confidential unit exclusion in identi- Qing potentially infectious blood donations\" host.title:\"Transfusion\" author.name:\"Loiacono\" author.name:\"Cuter\" author.name:\"Carter\" author.name:\"Lcitman\" author.name:\"Klcin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.R. LOIACONO"
+            },
+            {
+              "name": "G.R. CARTER"
+            },
+            {
+              "name": "C.S. CARTER"
+            },
+            {
+              "name": "S.F. LEITMAN"
+            },
+            {
+              "name": "H.G. KLEIN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1989.29990070189.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "823",
+              "last": "826"
+            },
+            "title": "Transfusion",
+            "volume": "29"
+          },
+          "id": "96D8AC0DCD8D33D6C25678E32C85E3B28B3C0AA1",
+          "publicationDate": "1989",
+          "title": "Efficacy of various methods of confidential unit exclusion in identifying potentially infectious blood donations"
+        },
+        "lucn_query": "_CHAMP_INCONNU_:198932938234 title:(Efficacy varioua methods confidential unit exclusion identi Qing potentially infectious blood donations) host.title:Transfusion author.name:(Loiacono Cuter Carter Lcitman Klcin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "_CHAMP_INCONNU_:198932938234 AND title:(Efficacy varioua methods confidential unit exclusion identi Qing potentially infectious blood donations) AND host.title:Transfusion AND author.name:(Loiacono Cuter Carter Lcitman Klcin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "_CHAMP_INCONNU_:198932938234 AND title:(Efficacy varioua methods confidential unit exclusion identi Qing potentially infectious blood donations) AND host.title:(Transfusion*) AND author.name:(Loiacono Cuter Carter Lcitman Klcin)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">Screening of selectui male blood donors for p24 antigen of human immunodeficiency virus typc 1. The Transfusion Safety Study Group</title>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">W ~ Mp. T ~ I O ~ Pe</forename>\n    <surname>Hncs</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ba</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">N Engl J Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">323</biblScope>\n   <biblScope unit=\"page\" from=\"130\" to=\"12\"></biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "67EEC499AE47E916B268CB45A866AAC06602EA1F",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. BUSCH"
+            },
+            {
+              "name": "L.L.L. LEE"
+            },
+            {
+              "name": "G.A. SATTEN"
+            },
+            {
+              "name": "D.R. HENRARD"
+            },
+            {
+              "name": "H. FARZADEGAN"
+            },
+            {
+              "name": "K. E. NELSON"
+            },
+            {
+              "name": "S. READ"
+            },
+            {
+              "name": "R.Y. DODD"
+            },
+            {
+              "name": "L.R. PETERSEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1995.35295125745.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "91",
+              "last": "97"
+            },
+            "title": "Transfusion",
+            "volume": "35"
+          },
+          "id": "14EBE936D51D8616F8A2B7312B21B3CE592E5D24",
+          "publicationDate": "1995",
+          "title": "Time course of detection of viral and serologic markers preceding human immunodeficiency virus type 1 seroconversion: implications for screening of blood and tissue donors"
+        },
+        "lucn_query": "Screening of selectui male blood donors for p24 antigen of human immunodeficiency virus typc 1. The Transfusion Safety Study Group B W ? Mp. T ? I O ? Pe Hncs Ba N Engl J Med 323 1990 130 12",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"323\" AND title:\"Screening of selectui male blood donors for p24 antigen of human immunodeficiency virus typc 1. The Transfusion Safety Study Group\" AND host.pages.first:\"130\" AND host.pages.last:\"12\" AND publicationDate:\"1990\" AND host.title:\"N Engl J Med\" AND author.name:\"Hncs\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Clifford R. Mynatt"
+            },
+            {
+              "name": "Elizabeth Rice Allgeier"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1559-1816.1990.tb00403.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "130",
+              "last": "153"
+            },
+            "title": "Journal of Applied Social Psychology",
+            "volume": "20"
+          },
+          "id": "54B95D27C7E71B8052AEEB381058581DD41FB300",
+          "publicationDate": "1990",
+          "title": "Risk Factors, Self\u2010Attributions, and Adjustment Problems Among Victims of Sexual Coercion1"
+        },
+        "lucn_query": "host.volume:\"323\" title:\"Screening of selectui male blood donors for p24 antigen of human immunodeficiency virus typc 1. The Transfusion Safety Study Group\" host.pages.first:\"130\" host.pages.last:\"12\" publicationDate:\"1990\" host.title:\"N Engl J Med\" author.name:\"Hncs\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.P. BUSCH"
+            },
+            {
+              "name": "E.A. OPERSKALSKI"
+            },
+            {
+              "name": "J.W. MOSLEY MD"
+            },
+            {
+              "name": "C.E. STEVENS"
+            },
+            {
+              "name": "E.R. SCHIFF"
+            },
+            {
+              "name": "S.H. KLEINMAN"
+            },
+            {
+              "name": "H. LEE"
+            },
+            {
+              "name": "M. LEE"
+            },
+            {
+              "name": "M. HARRIS"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1537-2995.1994.341095026970.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "858",
+              "last": "864"
+            },
+            "title": "Transfusion",
+            "volume": "34"
+          },
+          "id": "8BBF08A3289D5DC5CDB6B410BEB2C4DBEE12B918",
+          "publicationDate": "1994",
+          "title": "Epidemiologic background and long\u2010term course of disease in human immunodeficiency virus type 1\u2010infected blood donors identified before routine laboratory screening. Transfusion Safety Study Group"
+        },
+        "lucn_query": "host.volume:323 title:(Screening selectui male blood donors antigen human immunodeficiency virus typc Transfusion Safety Study Group) host.pages.first:130 host.pages.last:12 publicationDate:1990 host.title:(Engl J Med) author.name:Hncs",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hildegard Spahn"
+            },
+            {
+              "name": "Werner Henke"
+            },
+            {
+              "name": "Peter Langguth"
+            },
+            {
+              "name": "J\u00fcrgen Schloos"
+            },
+            {
+              "name": "Ernst Mutschler"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ardp.19903230805"
+          ],
+          "host": {
+            "pages": {
+              "first": "465",
+              "last": "469"
+            },
+            "title": "Archiv der Pharmazie",
+            "volume": "323"
+          },
+          "id": "7A1D8F54259ACD5DB3207353E097CCC0160AC8AB",
+          "publicationDate": "1990",
+          "title": "Measurement of Carvedilol Enantiomers in Human Plasma and Urine Using S\u2010Naproxen Chloride for Chiral Derivatization"
+        },
+        "lucn_query": "(host.volume:323 AND publicationDate:1990) AND (title:(Screening selectui male blood donors antigen human immunodeficiency virus typc Transfusion Safety Study Group) host.pages.first:130 host.pages.last:12 host.title:(Engl J Med) author.name:Hncs)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Hildegard Spahn"
+            },
+            {
+              "name": "Werner Henke"
+            },
+            {
+              "name": "Peter Langguth"
+            },
+            {
+              "name": "J\u00fcrgen Schloos"
+            },
+            {
+              "name": "Ernst Mutschler"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ardp.19903230805"
+          ],
+          "host": {
+            "pages": {
+              "first": "465",
+              "last": "469"
+            },
+            "title": "Archiv der Pharmazie",
+            "volume": "323"
+          },
+          "id": "7A1D8F54259ACD5DB3207353E097CCC0160AC8AB",
+          "publicationDate": "1990",
+          "title": "Measurement of Carvedilol Enantiomers in Human Plasma and Urine Using S\u2010Naproxen Chloride for Chiral Derivatization"
+        },
+        "lucn_query": "(host.volume:323 AND publicationDate:1990) AND (title:(Screening selectui male blood donors antigen human immunodeficiency virus typc Transfusion Safety Study Group) host.pages.first:130 host.pages.last:12 host.title:(Engl* journal Med*) author.name:Hncs)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:323 AND title:(Screening selectui male blood donors antigen human immunodeficiency virus typc Transfusion Safety Study Group) AND host.pages.first:130 AND host.pages.last:12 AND publicationDate:1990 AND host.title:(Engl J Med) AND author.name:Hncs",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:323 AND title:(Screening selectui male blood donors antigen human immunodeficiency virus typc Transfusion Safety Study Group) AND host.pages.first:130 AND host.pages.last:12 AND publicationDate:1990 AND host.title:(Engl* journal Med*) AND author.name:Hncs",
+        "match_flag": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+#b0-remarques:
+---------------
+gb:bibzone err
+
+#b1-remarques:
+---------------
+gb:bibzone err
+(pas de bibs dans le doc)
+

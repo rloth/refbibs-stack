@@ -1,0 +1,1612 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">A means for achieving a high degree of compaction on scan-digitized printed text</title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Ascher</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Nagy</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">IEEE Trans. Comput. C-23</title>\n  <imprint>\n   <biblScope unit=\"issue\">11</biblScope>\n   <biblScope unit=\"page\" from=\"1174\" to=\"1179\"></biblScope>\n   <date type=\"published\" when=\"1974\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yibing Yang"
+            },
+            {
+              "name": "Hong Yan"
+            },
+            {
+              "name": "Donggang Yu"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0031-3203(99)00112-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1277",
+              "last": "1293"
+            },
+            "title": "Pattern Recognition",
+            "volume": "33"
+          },
+          "id": "319D7164E812A6A66B87554AB4FAC97B8586A393",
+          "publicationDate": "2000",
+          "title": "Content-lossless document image compression based on structural analysis and pattern matching"
+        },
+        "lucn_query": "A means for achieving a high degree of compaction on scan-digitized printed text R N Ascher G Nagy IEEE Trans. Comput. C-23 11 1974 1174 1179",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:\"A means for achieving a high degree of compaction on scan-digitized printed text\" AND host.pages.first:\"1174\" AND host.pages.last:\"1179\" AND host.issue:\"11\" AND publicationDate:\"1974\" AND host.title:\"IEEE Trans. Comput. C-23\" AND author.name:\"Ascher\" AND author.name:\"Nagy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert Ascher"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.0022-3840.1974.00241.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "241",
+              "last": "253"
+            },
+            "title": "The Journal of Popular Culture",
+            "volume": "8"
+          },
+          "id": "C028F52F2F4AA8E826479B939BDA6A520B50BA08",
+          "publicationDate": "1974",
+          "title": "How to Build A Time Capsule"
+        },
+        "lucn_query": "title:\"A means for achieving a high degree of compaction on scan-digitized printed text\" host.pages.first:\"1174\" host.pages.last:\"1179\" host.issue:\"11\" publicationDate:\"1974\" host.title:\"IEEE Trans. Comput. C-23\" author.name:\"Ascher\" author.name:\"Nagy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert Ascher"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.0022-3840.1974.00241.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "241",
+              "last": "253"
+            },
+            "title": "The Journal of Popular Culture",
+            "volume": "8"
+          },
+          "id": "C028F52F2F4AA8E826479B939BDA6A520B50BA08",
+          "publicationDate": "1974",
+          "title": "How to Build A Time Capsule"
+        },
+        "lucn_query": "title:(means achieving high degree compaction scan digitized printed text) host.pages.first:1174 host.pages.last:1179 host.issue:11 publicationDate:1974 host.title:(IEEE Trans Comput 23) author.name:(Ascher Nagy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. W. G. Ronald"
+            },
+            {
+              "name": "P. D. Ascher"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00264754"
+          ],
+          "host": {
+            "pages": {
+              "first": "45",
+              "last": "54"
+            },
+            "title": "Theoretical and Applied Genetics",
+            "volume": "46"
+          },
+          "id": "34358956CA04CA010FE8AFFF349CBD65E900D462",
+          "publicationDate": "1974",
+          "title": "Self compatibility in garden Chrysanthemum: occurrence, inheritance and breeding potential"
+        },
+        "lucn_query": "(publicationDate:1974) AND (title:(means achieving high degree compaction scan digitized printed text) host.pages.first:1174 host.pages.last:1179 host.issue:11 host.title:(IEEE Trans Comput 23) author.name:(Ascher Nagy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. Knudson"
+            },
+            {
+              "name": "D. Nagy"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0045-7825(74)90010-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "321",
+              "last": "348"
+            },
+            "title": "Computer Methods in Applied Mechanics and Engineering",
+            "volume": "4"
+          },
+          "id": "9B19BDDD615038E4609BA5D202795CB96CFE438B",
+          "publicationDate": "1974",
+          "title": "Discrete data smoothing by spline interpolation with application to initial geometry of cable nets"
+        },
+        "lucn_query": "(publicationDate:1974) AND (title:(means achieving high degree compaction scan digitized printed text) host.pages.first:1174 host.pages.last:1179 host.issue:11 host.title:(IEEE* Trans* Comput* 23*) author.name:(Ascher Nagy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(means achieving high degree compaction scan digitized printed text) AND host.pages.first:1174 AND host.pages.last:1179 AND host.issue:11 AND publicationDate:1974 AND host.title:(IEEE Trans Comput 23) AND author.name:(Ascher Nagy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(means achieving high degree compaction scan digitized printed text) AND host.pages.first:1174 AND host.pages.last:1179 AND host.issue:11 AND publicationDate:1974 AND host.title:(IEEE* Trans* Comput* 23*) AND author.name:(Ascher Nagy)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Autonomous reading machine</title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Casey</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Nagy</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">IEEE Trans. Comput</title>\n  <imprint>\n   <biblScope unit=\"page\">7</biblScope>\n   <date type=\"published\" when=\"1968\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Mantas"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0031-3203(86)90040-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "425",
+              "last": "430"
+            },
+            "title": "Pattern Recognition",
+            "volume": "19"
+          },
+          "id": "3331FFF724DB6A58C0F43B5FDC9BE6BDB39A24E8",
+          "publicationDate": "1986",
+          "title": "An overview of character recognition methodologies"
+        },
+        "lucn_query": "Autonomous reading machine R Casey G Nagy IEEE Trans. Comput 7 1968",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"7\" AND title:\"Autonomous reading machine\" AND publicationDate:\"1968\" AND host.title:\"IEEE Trans. Comput\" AND author.name:\"Casey\" AND author.name:\"Nagy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. A. Casey"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01057319"
+          ],
+          "host": {
+            "pages": {
+              "first": "7",
+              "last": "18"
+            },
+            "title": "Journal of Fusion Energy",
+            "volume": "9"
+          },
+          "id": "F296F4B9EFB2EEBB14C4BFD102A92F494EA0A78C",
+          "title": "CIT gyrotron ECRH system design"
+        },
+        "lucn_query": "host.pages.first:\"7\" title:\"Autonomous reading machine\" publicationDate:\"1968\" host.title:\"IEEE Trans. Comput\" author.name:\"Casey\" author.name:\"Nagy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Casey Dorman"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02648065"
+          ],
+          "host": {
+            "pages": {
+              "first": "166",
+              "last": "188"
+            },
+            "title": "Annals of Dyslexia",
+            "volume": "37"
+          },
+          "id": "289AD6FF5B39C4E1305A5B70B9E448F648E21033",
+          "title": "Reading disability subtypes in neurologically-impaired students"
+        },
+        "lucn_query": "host.pages.first:7 title:(Autonomous reading machine) publicationDate:1968 host.title:(IEEE Trans Comput) author.name:(Casey Nagy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.B. Panish"
+            },
+            {
+              "name": "H.C. Casey,  Jr."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90155-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "1719",
+              "last": "1726"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "0070F4328D3BB4D77C7DD6EE88B7975AD849B32A",
+          "publicationDate": "1968",
+          "title": "The 1040\u00b0C solid solubility isotherm of zinc in GaP: The fermi level as a function of hole concentration"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.pages.first:7 title:(Autonomous reading machine) host.title:(IEEE Trans Comput) author.name:(Casey Nagy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.B. Panish"
+            },
+            {
+              "name": "H.C. Casey,  Jr."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90155-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "1719",
+              "last": "1726"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "0070F4328D3BB4D77C7DD6EE88B7975AD849B32A",
+          "publicationDate": "1968",
+          "title": "The 1040\u00b0C solid solubility isotherm of zinc in GaP: The fermi level as a function of hole concentration"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.pages.first:7 title:(Autonomous reading machine) host.title:(IEEE* Trans* Comput*) author.name:(Casey Nagy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:7 AND title:(Autonomous reading machine) AND publicationDate:1968 AND host.title:(IEEE Trans Comput) AND author.name:(Casey Nagy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:7 AND title:(Autonomous reading machine) AND publicationDate:1968 AND host.title:(IEEE* Trans* Comput*) AND author.name:(Casey Nagy)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">The emerging JBIG2 standard</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Howard</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Kossentini</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Martins</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Forchhammer</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Rucklidge</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">IEEE Trans. Circuits Systems Video Technol</title>\n  <imprint>\n   <biblScope unit=\"volume\">8</biblScope>\n   <biblScope unit=\"issue\">7</biblScope>\n   <biblScope unit=\"page\" from=\"838\" to=\"848\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Sergio Vicente Denser Pamboukian"
+            },
+            {
+              "name": "Hae Yong Kim"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/11551492_22"
+          ],
+          "host": {
+            "pages": {
+              "first": "286",
+              "last": "298"
+            },
+            "title": "Digital Watermarking",
+            "volume": "3710"
+          },
+          "id": "AADB3C65B2799B98B33C0354798B40461F8DD803",
+          "title": "New Public-Key Authentication Watermarking for JBIG2 Resistant to Parity Attacks"
+        },
+        "lucn_query": "The emerging JBIG2 standard P Howard F Kossentini B Martins S Forchhammer W J Rucklidge IEEE Trans. Circuits Systems Video Technol 8 7 1998 838 848",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"8\" AND title:\"The emerging JBIG2 standard\" AND host.pages.first:\"838\" AND host.pages.last:\"848\" AND host.issue:\"7\" AND publicationDate:\"1998\" AND host.title:\"IEEE Trans. Circuits Systems Video Technol\" AND author.name:\"Howard\" AND author.name:\"Kossentini\" AND author.name:\"Martins\" AND author.name:\"Forchhammer\" AND author.name:\"Rucklidge\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter Ashwin"
+            },
+            {
+              "name": "A.M. Rucklidge"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0167-2789(98)00174-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "134",
+              "last": "154"
+            },
+            "title": "Physica D: Nonlinear Phenomena",
+            "volume": "122"
+          },
+          "id": "0B10FB107708F68E160940D1E267C051AEA71CFC",
+          "publicationDate": "1998",
+          "title": "Cycling chaos: its creation, persistence and loss of stability in a model of nonlinear magnetoconvection"
+        },
+        "lucn_query": "host.volume:\"8\" title:\"The emerging JBIG2 standard\" host.pages.first:\"838\" host.pages.last:\"848\" host.issue:\"7\" publicationDate:\"1998\" host.title:\"IEEE Trans. Circuits Systems Video Technol\" author.name:\"Howard\" author.name:\"Kossentini\" author.name:\"Martins\" author.name:\"Forchhammer\" author.name:\"Rucklidge\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Howard Carmichael"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/978-3-540-47620-7_5"
+          ],
+          "host": {
+            "pages": {
+              "first": "58",
+              "last": "77"
+            },
+            "title": "An Open Systems Approach to Quantum Optics",
+            "volume": "18"
+          },
+          "id": "E09BFCD38CC7A2CC04F4653996911BAF098C8BA3",
+          "title": "Standard Methods of Analysis II"
+        },
+        "lucn_query": "host.volume:8 title:(emerging JBIG2 standard) host.pages.first:838 host.pages.last:848 host.issue:7 publicationDate:1998 host.title:(IEEE Trans Circuits Systems Video Technol) author.name:(Howard Kossentini Martins Forchhammer Rucklidge)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Marian Baird"
+            },
+            {
+              "name": "Russell D. Lansbury"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1520-6564(199821)8:2<141::AID-HFM4>3.0.CO;2-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "141",
+              "last": "153"
+            },
+            "title": "Human Factors and Ergonomics in Manufacturing & Service Industries",
+            "volume": "8"
+          },
+          "id": "77EB44CE288688431F4A7D688A5FEE0870A4B4D7",
+          "publicationDate": "1998",
+          "title": "Emerging production systems and industrial relations: Confusion, diffusion, and exclusion?"
+        },
+        "lucn_query": "(host.volume:8 AND publicationDate:1998) AND (title:(emerging JBIG2 standard) host.pages.first:838 host.pages.last:848 host.issue:7 host.title:(IEEE Trans Circuits Systems Video Technol) author.name:(Howard Kossentini Martins Forchhammer Rucklidge))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Marian Baird"
+            },
+            {
+              "name": "Russell D. Lansbury"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1520-6564(199821)8:2<141::AID-HFM4>3.0.CO;2-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "141",
+              "last": "153"
+            },
+            "title": "Human Factors and Ergonomics in Manufacturing & Service Industries",
+            "volume": "8"
+          },
+          "id": "77EB44CE288688431F4A7D688A5FEE0870A4B4D7",
+          "publicationDate": "1998",
+          "title": "Emerging production systems and industrial relations: Confusion, diffusion, and exclusion?"
+        },
+        "lucn_query": "(host.volume:8 AND publicationDate:1998) AND (title:(emerging JBIG2 standard) host.pages.first:838 host.pages.last:848 host.issue:7 host.title:(IEEE* Trans* Circuits* Systems* Video* Technol*) author.name:(Howard Kossentini Martins Forchhammer Rucklidge))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:8 AND title:(emerging JBIG2 standard) AND host.pages.first:838 AND host.pages.last:848 AND host.issue:7 AND publicationDate:1998 AND host.title:(IEEE Trans Circuits Systems Video Technol) AND author.name:(Howard Kossentini Martins Forchhammer Rucklidge)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:8 AND title:(emerging JBIG2 standard) AND host.pages.first:838 AND host.pages.last:848 AND host.issue:7 AND publicationDate:1998 AND host.title:(IEEE* Trans* Circuits* Systems* Video* Technol*) AND author.name:(Howard Kossentini Martins Forchhammer Rucklidge)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">The in&#174;nite memory multifunction machine</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Hull</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Hart</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Pre-proceedings 3rd IAPR Workshop on Document Analysis Systems</title>\n  <meeting><address><addrLine>Nagano, Japan, 4&#177;6 November</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1998\"></date>\n   <biblScope unit=\"page\" from=\"49\" to=\"58\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dar-Shyang Lee"
+            },
+            {
+              "name": "Jonathan J. Hull"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0167-8655(00)00115-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "545",
+              "last": "550"
+            },
+            "title": "Pattern Recognition Letters",
+            "volume": "22"
+          },
+          "id": "0217076D3221547FE8AA6B55176A55561373ED49",
+          "publicationDate": "2001",
+          "title": "Detecting duplicates among symbolically compressed images in a large document database"
+        },
+        "lucn_query": "The in\u00aenite memory multifunction machine J J Hull P Hart Pre-proceedings 3rd IAPR Workshop on Document Analysis Systems Nagano, Japan, 4\u00b16 November 1998 49 58",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Hull\" AND author.name:\"Hart\" AND title:\"The in\u00aenite memory multifunction machine\" AND host.pages.first:\"49\" AND host.pages.last:\"58\" AND publicationDate:\"1998\" AND host.title:\"Pre-proceedings 3rd IAPR Workshop on Document Analysis Systems\" AND \"Nagano, Japan, 4\u00b16 November\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Angela Hull"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0264-2751(98)00028-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "327",
+              "last": "335"
+            },
+            "title": "Cities",
+            "volume": "15"
+          },
+          "id": "5696C2DFADE2A3C90397208BF6DE3191309A51CF",
+          "publicationDate": "1998",
+          "title": "Spatial planning"
+        },
+        "lucn_query": "author.name:\"Hull\" author.name:\"Hart\" title:\"The in\u00aenite memory multifunction machine\" host.pages.first:\"49\" host.pages.last:\"58\" publicationDate:\"1998\" host.title:\"Pre-proceedings 3rd IAPR Workshop on Document Analysis Systems\" \"Nagano, Japan, 4\u00b16 November\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dar-Shyang Lee"
+            },
+            {
+              "name": "Jonathan J. Hull"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/3-540-48172-9_2"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "21"
+            },
+            "title": "Document Analysis Systems: Theory and Practice",
+            "volume": "1655"
+          },
+          "id": "61ED5FE10F8E041B0736DE470E0E19E9B31B0296",
+          "title": "Group 4 Compressed Document Matching"
+        },
+        "lucn_query": "title:(nite memory multifunction machine) host.pages.first:49 host.pages.last:58 Nagano Japan November author.name:(Hull Hart) host.title:(Pre proceedings 3rd IAPR Workshop on Document Analysis Systems) publicationDate:1998",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Hart\u2010Landsberg"
+            },
+            {
+              "name": "Paul Burkett"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1944-8287.1998.tb00107.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "87",
+              "last": "110"
+            },
+            "title": "Economic Geography",
+            "volume": "74"
+          },
+          "id": "D6ADD122A842C975EF3E2E7F1AA95DDAB6544F2F",
+          "publicationDate": "1998",
+          "title": "Contradictions of Capitalist Industrialization in East Asia: A Critique of \u201cFlying Geese\u201d Theories of Development"
+        },
+        "lucn_query": "(publicationDate:1998) AND (title:(nite memory multifunction machine) host.pages.first:49 host.pages.last:58 Nagano Japan November author.name:(Hull Hart) host.title:(Pre proceedings 3rd IAPR Workshop on Document Analysis Systems))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Hart\u2010Landsberg"
+            },
+            {
+              "name": "Paul Burkett"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1944-8287.1998.tb00107.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "87",
+              "last": "110"
+            },
+            "title": "Economic Geography",
+            "volume": "74"
+          },
+          "id": "D6ADD122A842C975EF3E2E7F1AA95DDAB6544F2F",
+          "publicationDate": "1998",
+          "title": "Contradictions of Capitalist Industrialization in East Asia: A Critique of \u201cFlying Geese\u201d Theories of Development"
+        },
+        "lucn_query": "(publicationDate:1998) AND (title:(nite memory multifunction machine) host.pages.first:49 host.pages.last:58 Nagano Japan November author.name:(Hull Hart) host.title:(Pre proceedings 3rd IAPR Workshop on Document Analysis Systems))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(nite memory multifunction machine) AND host.pages.first:49 AND host.pages.last:58 AND Nagano AND Japan AND November AND author.name:(Hull Hart) AND host.title:(Pre proceedings 3rd IAPR Workshop on Document Analysis Systems) AND publicationDate:1998",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(nite memory multifunction machine) AND host.pages.first:49 AND host.pages.last:58 AND Nagano AND Japan AND November AND author.name:(Hull Hart) AND host.title:(Pre proceedings 3rd IAPR Workshop on Document Analysis Systems) AND publicationDate:1998",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Document analysis techniques for the in&#174;nite memory multifunction machine</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Hull</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Lee</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Cullen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Hart</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. 10th Internat. Workshop on Database and Expert System Applications</title>\n  <meeting>. 10th Internat. Workshop on Database and Expert System Applications<address><addrLine>Florence, Italy</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1999-09-13\"></date>\n   <biblScope unit=\"page\" from=\"561\" to=\"565\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dar-Shyang Lee"
+            },
+            {
+              "name": "Jonathan J. Hull"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0167-8655(00)00115-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "545",
+              "last": "550"
+            },
+            "title": "Pattern Recognition Letters",
+            "volume": "22"
+          },
+          "id": "0217076D3221547FE8AA6B55176A55561373ED49",
+          "publicationDate": "2001",
+          "title": "Detecting duplicates among symbolically compressed images in a large document database"
+        },
+        "lucn_query": "Document analysis techniques for the in\u00aenite memory multifunction machine J J Hull D S Lee J Cullen P Hart Proc. 10th Internat. Workshop on Database and Expert System Applications . 10th Internat. Workshop on Database and Expert System Applications Florence, Italy 1999-09-13 561 565",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 10th Internat. Workshop on Database and Expert System Applications\" AND title:\"Document analysis techniques for the in\u00aenite memory multifunction machine\" AND host.pages.first:\"561\" AND author.name:\"Hull\" AND author.name:\"Lee\" AND author.name:\"Cullen\" AND author.name:\"Hart\" AND host.pages.last:\"565\" AND publicationDate:\"1999-09-13\" AND host.title:\"Proc. 10th Internat. Workshop on Database and Expert System Applications\" AND \"Florence, Italy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lee Cullen Khanna"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0277-5395(84)90063-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "97",
+              "last": "102"
+            },
+            "title": "Women's Studies International Forum",
+            "volume": "7"
+          },
+          "id": "A491687D796038B44327F18FFD88333BE84DC6BD",
+          "publicationDate": "1984",
+          "title": "Frontiers of imagination: Feminist worlds"
+        },
+        "lucn_query": "host.conference.name:\". 10th Internat. Workshop on Database and Expert System Applications\" title:\"Document analysis techniques for the in\u00aenite memory multifunction machine\" host.pages.first:\"561\" author.name:\"Hull\" author.name:\"Lee\" author.name:\"Cullen\" author.name:\"Hart\" host.pages.last:\"565\" publicationDate:\"1999-09-13\" host.title:\"Proc. 10th Internat. Workshop on Database and Expert System Applications\" \"Florence, Italy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chung-Hong Lee"
+            },
+            {
+              "name": "Lee-Feng Chien"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/3-540-48309-8_5"
+          ],
+          "host": {
+            "pages": {
+              "first": "46",
+              "last": "55"
+            },
+            "title": "Database and Expert Systems Applications",
+            "volume": "1677"
+          },
+          "id": "94C3A98CE7DAEAAF9AB111525304E7CA2210DAEE",
+          "title": "An OODBMS-IRS Integration Based on a Statistical Corpus Extraction Method for Document Management"
+        },
+        "lucn_query": "host.conference.name:(10th Internat Workshop Database Expert System Applications) title:(Document analysis techniques nite memory multifunction machine) host.pages.first:561 host.pages.last:565 Florence Italy author.name:(Hull Lee Cullen Hart) host.title:(Proc 10th Internat Workshop on Database and Expert System Applications) publicationDate:1999",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Richard Hull"
+            },
+            {
+              "name": "Fernando Gomez"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0957-4174(98)00075-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "261",
+              "last": "270"
+            },
+            "title": "Expert Systems With Applications",
+            "volume": "16"
+          },
+          "id": "852B6DAA267ED64AB0B65AD1743463BD16FA3BD5",
+          "publicationDate": "1999",
+          "title": "Automatic acquisition of biographic knowledge from encyclopedic texts"
+        },
+        "lucn_query": "(publicationDate:1999) AND (host.conference.name:(10th Internat Workshop Database Expert System Applications) title:(Document analysis techniques nite memory multifunction machine) host.pages.first:561 host.pages.last:565 Florence Italy author.name:(Hull Lee Cullen Hart) host.title:(Proc 10th Internat Workshop on Database and Expert System Applications))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Richard Hull"
+            },
+            {
+              "name": "Fernando Gomez"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0957-4174(98)00075-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "261",
+              "last": "270"
+            },
+            "title": "Expert Systems With Applications",
+            "volume": "16"
+          },
+          "id": "852B6DAA267ED64AB0B65AD1743463BD16FA3BD5",
+          "publicationDate": "1999",
+          "title": "Automatic acquisition of biographic knowledge from encyclopedic texts"
+        },
+        "lucn_query": "(publicationDate:1999) AND (host.conference.name:(10th Internat Workshop Database Expert System Applications) title:(Document analysis techniques nite memory multifunction machine) host.pages.first:561 host.pages.last:565 Florence Italy author.name:(Hull Lee Cullen Hart) host.title:(Proc 10th Internat Workshop on Database and Expert System Applications))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(10th Internat Workshop Database Expert System Applications) AND title:(Document analysis techniques nite memory multifunction machine) AND host.pages.first:561 AND host.pages.last:565 AND Florence AND Italy AND author.name:(Hull Lee Cullen Hart) AND host.title:(Proc 10th Internat Workshop on Database and Expert System Applications) AND publicationDate:1999",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(10th Internat Workshop Database Expert System Applications) AND title:(Document analysis techniques nite memory multifunction machine) AND host.pages.first:561 AND host.pages.last:565 AND Florence AND Italy AND author.name:(Hull Lee Cullen Hart) AND host.title:(Proc 10th Internat Workshop on Database and Expert System Applications) AND publicationDate:1999",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title level=\"a\" type=\"main\">An implementation of probabilistic relaxation in the cryptanalysis of simple substitution ciphers</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>King</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Bahler</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Cryptologia</title>\n  <imprint>\n   <biblScope unit=\"volume\">16</biblScope>\n   <biblScope unit=\"issue\">3</biblScope>\n   <biblScope unit=\"page\" from=\"215\" to=\"225\"></biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jean-Charles Faug\u00e8re"
+            },
+            {
+              "name": "Ludovic Perret"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/978-3-642-16342-5_19"
+          ],
+          "host": {
+            "pages": {
+              "first": "266",
+              "last": "277"
+            },
+            "title": "Information Security and Cryptology",
+            "volume": "6151"
+          },
+          "id": "4F123D198C39C18D699160A687319E86D03494BE",
+          "title": "Algebraic Cryptanalysis of Curry and Flurry Using Correlated Messages"
+        },
+        "lucn_query": "An implementation of probabilistic relaxation in the cryptanalysis of simple substitution ciphers J King D Bahler Cryptologia 16 3 1992 215 225",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"16\" AND title:\"An implementation of probabilistic relaxation in the cryptanalysis of simple substitution ciphers\" AND host.pages.first:\"215\" AND host.pages.last:\"225\" AND host.issue:\"3\" AND publicationDate:\"1992\" AND host.title:\"Cryptologia\" AND author.name:\"King\" AND author.name:\"Bahler\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Bowen"
+            },
+            {
+              "name": "D. Bahler"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0954-1810(92)90013-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "226"
+            },
+            "title": "Artificial Intelligence in Engineering",
+            "volume": "7"
+          },
+          "id": "BA0450D71136A3E0FF409CE1F1C86D8A4E92F767",
+          "publicationDate": "1992",
+          "title": "Frames, quantification, perspectives, and negotiation in constraint networks for life-cycle engineering"
+        },
+        "lucn_query": "host.volume:\"16\" title:\"An implementation of probabilistic relaxation in the cryptanalysis of simple substitution ciphers\" host.pages.first:\"215\" host.pages.last:\"225\" host.issue:\"3\" publicationDate:\"1992\" host.title:\"Cryptologia\" author.name:\"King\" author.name:\"Bahler\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Bowen"
+            },
+            {
+              "name": "D. Bahler"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0954-1810(92)90013-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "226"
+            },
+            "title": "Artificial Intelligence in Engineering",
+            "volume": "7"
+          },
+          "id": "BA0450D71136A3E0FF409CE1F1C86D8A4E92F767",
+          "publicationDate": "1992",
+          "title": "Frames, quantification, perspectives, and negotiation in constraint networks for life-cycle engineering"
+        },
+        "lucn_query": "host.volume:16 title:(implementation probabilistic relaxation cryptanalysis simple substitution ciphers) host.pages.first:215 host.pages.last:225 host.issue:3 publicationDate:1992 host.title:Cryptologia author.name:(King Bahler)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. R. Thomas"
+            },
+            {
+              "name": "S. D. King"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/nag.1610161005"
+          ],
+          "host": {
+            "pages": {
+              "first": "757",
+              "last": "773"
+            },
+            "title": "International Journal for Numerical and Analytical Methods in Geomechanics",
+            "volume": "16"
+          },
+          "id": "4243883A32957CA4341BD7D863C8576255058EFC",
+          "publicationDate": "1992",
+          "title": "Coupled heat and mass transfer in unsaturated soil\u2014a potential\u2010based solution"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1992) AND (title:(implementation probabilistic relaxation cryptanalysis simple substitution ciphers) host.pages.first:215 host.pages.last:225 host.issue:3 host.title:Cryptologia author.name:(King Bahler))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H. R. Thomas"
+            },
+            {
+              "name": "S. D. King"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/nag.1610161005"
+          ],
+          "host": {
+            "pages": {
+              "first": "757",
+              "last": "773"
+            },
+            "title": "International Journal for Numerical and Analytical Methods in Geomechanics",
+            "volume": "16"
+          },
+          "id": "4243883A32957CA4341BD7D863C8576255058EFC",
+          "publicationDate": "1992",
+          "title": "Coupled heat and mass transfer in unsaturated soil\u2014a potential\u2010based solution"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1992) AND (title:(implementation probabilistic relaxation cryptanalysis simple substitution ciphers) host.pages.first:215 host.pages.last:225 host.issue:3 host.title:(Cryptologia*) author.name:(King Bahler))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:16 AND title:(implementation probabilistic relaxation cryptanalysis simple substitution ciphers) AND host.pages.first:215 AND host.pages.last:225 AND host.issue:3 AND publicationDate:1992 AND host.title:Cryptologia AND author.name:(King Bahler)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:16 AND title:(implementation probabilistic relaxation cryptanalysis simple substitution ciphers) AND host.pages.first:215 AND host.pages.last:225 AND host.issue:3 AND publicationDate:1992 AND host.title:(Cryptologia*) AND author.name:(King Bahler)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title level=\"a\" type=\"main\">Information extraction from symbolically compressed document images</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Lee</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Hull</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. 1999 Symposium on Document Image Understanding Technology</title>\n  <meeting>. 1999 Symposium on Document Image Understanding Technology<address><addrLine>Annapolis, MD</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1999-04-1416\"></date>\n   <biblScope unit=\"page\" from=\"176\" to=\"182\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "Information extraction from symbolically compressed document images D S Lee J J Hull Proc. 1999 Symposium on Document Image Understanding Technology . 1999 Symposium on Document Image Understanding Technology Annapolis, MD 1999-04-1416 176 182",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 1999 Symposium on Document Image Understanding Technology\" AND title:\"Information extraction from symbolically compressed document images\" AND host.pages.first:\"176\" AND author.name:\"Lee\" AND author.name:\"Hull\" AND host.pages.last:\"182\" AND publicationDate:\"1999-04-1416\" AND host.title:\"Proc. 1999 Symposium on Document Image Understanding Technology\" AND \"Annapolis, MD\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 1999 Symposium on Document Image Understanding Technology\" title:\"Information extraction from symbolically compressed document images\" host.pages.first:\"176\" author.name:\"Lee\" author.name:\"Hull\" host.pages.last:\"182\" publicationDate:\"1999-04-1416\" host.title:\"Proc. 1999 Symposium on Document Image Understanding Technology\" \"Annapolis, MD\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(1999 Symposium Document Image Understanding Technology) title:(Information extraction from symbolically compressed document images) host.pages.first:176 host.pages.last:182 Annapolis author.name:(Lee Hull) host.title:(Proc 1999 Symposium on Document Image Understanding Technology) publicationDate:(1999 1416)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:(1999 1416)) AND (host.conference.name:(1999 Symposium Document Image Understanding Technology) title:(Information extraction from symbolically compressed document images) host.pages.first:176 host.pages.last:182 Annapolis author.name:(Lee Hull) host.title:(Proc 1999 Symposium on Document Image Understanding Technology))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:(1999 1416)) AND (host.conference.name:(1999 Symposium Document Image Understanding Technology) title:(Information extraction from symbolically compressed document images) host.pages.first:176 host.pages.last:182 Annapolis author.name:(Lee Hull) host.title:(Proc 1999 Symposium on Document Image Understanding Technology))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(1999 Symposium Document Image Understanding Technology) AND title:(Information extraction from symbolically compressed document images) AND host.pages.first:176 AND host.pages.last:182 AND Annapolis AND author.name:(Lee Hull) AND host.title:(Proc 1999 Symposium on Document Image Understanding Technology) AND publicationDate:(1999 1416)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(1999 Symposium Document Image Understanding Technology) AND title:(Information extraction from symbolically compressed document images) AND host.pages.first:176 AND host.pages.last:182 AND Annapolis AND author.name:(Lee Hull) AND host.title:(Proc 1999 Symposium on Document Image Understanding Technology) AND publicationDate:(1999 1416)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title level=\"a\" type=\"main\">Duplicate detection for symbolically compressed documents</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Lee</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Hull</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. 5th Internat. Conf. Document Analysis and Recognition</title>\n  <meeting>. 5th Internat. Conf. Document Analysis and Recognition<address><addrLine>Bangalore, India</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1999-09-2022\"></date>\n   <biblScope unit=\"page\" from=\"305\" to=\"308\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "Duplicate detection for symbolically compressed documents D S Lee J J Hull Proc. 5th Internat. Conf. Document Analysis and Recognition . 5th Internat. Conf. Document Analysis and Recognition Bangalore, India 1999-09-2022 305 308",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 5th Internat. Conf. Document Analysis and Recognition\" AND title:\"Duplicate detection for symbolically compressed documents\" AND host.pages.first:\"305\" AND author.name:\"Lee\" AND author.name:\"Hull\" AND host.pages.last:\"308\" AND publicationDate:\"1999-09-2022\" AND host.title:\"Proc. 5th Internat. Conf. Document Analysis and Recognition\" AND \"Bangalore, India\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 5th Internat. Conf. Document Analysis and Recognition\" title:\"Duplicate detection for symbolically compressed documents\" host.pages.first:\"305\" author.name:\"Lee\" author.name:\"Hull\" host.pages.last:\"308\" publicationDate:\"1999-09-2022\" host.title:\"Proc. 5th Internat. Conf. Document Analysis and Recognition\" \"Bangalore, India\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Internat Conf Document Analysis Recognition) title:(Duplicate detection symbolically compressed documents) host.pages.first:305 host.pages.last:308 Bangalore India author.name:(Lee Hull) host.title:(Proc 5th Internat Conf Document Analysis and Recognition) publicationDate:(1999 2022)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:(1999 2022)) AND (host.conference.name:(Internat Conf Document Analysis Recognition) title:(Duplicate detection symbolically compressed documents) host.pages.first:305 host.pages.last:308 Bangalore India author.name:(Lee Hull) host.title:(Proc 5th Internat Conf Document Analysis and Recognition))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(publicationDate:(1999 2022)) AND (host.conference.name:(Internat Conf Document Analysis Recognition) title:(Duplicate detection symbolically compressed documents) host.pages.first:305 host.pages.last:308 Bangalore India author.name:(Lee Hull) host.title:(Proc 5th Internat Conf Document Analysis and Recognition))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Internat Conf Document Analysis Recognition) AND title:(Duplicate detection symbolically compressed documents) AND host.pages.first:305 AND host.pages.last:308 AND Bangalore AND India AND author.name:(Lee Hull) AND host.title:(Proc 5th Internat Conf Document Analysis and Recognition) AND publicationDate:(1999 2022)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Internat Conf Document Analysis Recognition) AND title:(Duplicate detection symbolically compressed documents) AND host.pages.first:305 AND host.pages.last:308 AND Bangalore AND India AND author.name:(Lee Hull) AND host.title:(Proc 5th Internat Conf Document Analysis and Recognition) AND publicationDate:(1999 2022)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title level=\"a\" type=\"main\">Breaking substitution ciphers using a relaxation algorithm</title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Peleg</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Rosenfeld</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Commun. ACM</title>\n  <imprint>\n   <biblScope unit=\"volume\">22</biblScope>\n   <biblScope unit=\"issue\">11</biblScope>\n   <biblScope unit=\"page\" from=\"598\" to=\"605\"></biblScope>\n   <date type=\"published\" when=\"1979\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J Kittler"
+            },
+            {
+              "name": "J Illingworth"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0262-8856(85)90009-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "206",
+              "last": "216"
+            },
+            "title": "Image and Vision Computing",
+            "volume": "3"
+          },
+          "id": "82C98F34D5269E1C380DB1383DE2D2C6806224EE",
+          "publicationDate": "1985",
+          "title": "Relaxation labelling algorithms \u2014 a review"
+        },
+        "lucn_query": "Breaking substitution ciphers using a relaxation algorithm S Peleg A Rosenfeld Commun. ACM 22 11 1979 598 605",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"22\" AND title:\"Breaking substitution ciphers using a relaxation algorithm\" AND host.pages.first:\"598\" AND host.pages.last:\"605\" AND host.issue:\"11\" AND publicationDate:\"1979\" AND host.title:\"Commun. ACM\" AND author.name:\"Peleg\" AND author.name:\"Rosenfeld\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kalman Peleg"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9290(85)90481-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "843",
+              "last": "862"
+            },
+            "title": "Journal of Biomechanics",
+            "volume": "18"
+          },
+          "id": "AD3AC847D77AC94A58724D8AA66C87346CDDFA4B",
+          "publicationDate": "1985",
+          "title": "Biomechanics of fruits and vegetables"
+        },
+        "lucn_query": "host.volume:\"22\" title:\"Breaking substitution ciphers using a relaxation algorithm\" host.pages.first:\"598\" host.pages.last:\"605\" host.issue:\"11\" publicationDate:\"1979\" host.title:\"Commun. ACM\" author.name:\"Peleg\" author.name:\"Rosenfeld\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kalman Peleg"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9290(85)90481-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "843",
+              "last": "862"
+            },
+            "title": "Journal of Biomechanics",
+            "volume": "18"
+          },
+          "id": "AD3AC847D77AC94A58724D8AA66C87346CDDFA4B",
+          "publicationDate": "1985",
+          "title": "Biomechanics of fruits and vegetables"
+        },
+        "lucn_query": "host.volume:22 title:(Breaking substitution ciphers using relaxation algorithm) host.pages.first:598 host.pages.last:605 host.issue:11 publicationDate:1979 host.title:(Commun ACM) author.name:(Peleg Rosenfeld)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Deepak Dhar"
+            },
+            {
+              "name": "Mustansir Barma"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01008051"
+          ],
+          "host": {
+            "pages": {
+              "first": "259",
+              "last": "277"
+            },
+            "title": "Journal of Statistical Physics",
+            "volume": "22"
+          },
+          "id": "DCF127855CF682BE403DD9C5D515A7E931569147",
+          "publicationDate": "1979",
+          "title": "Effect of disorder on relaxation in the one-dimensional Glauber model"
+        },
+        "lucn_query": "(host.volume:22 AND publicationDate:1979) AND (title:(Breaking substitution ciphers using relaxation algorithm) host.pages.first:598 host.pages.last:605 host.issue:11 host.title:(Commun ACM) author.name:(Peleg Rosenfeld))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Deepak Dhar"
+            },
+            {
+              "name": "Mustansir Barma"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01008051"
+          ],
+          "host": {
+            "pages": {
+              "first": "259",
+              "last": "277"
+            },
+            "title": "Journal of Statistical Physics",
+            "volume": "22"
+          },
+          "id": "DCF127855CF682BE403DD9C5D515A7E931569147",
+          "publicationDate": "1979",
+          "title": "Effect of disorder on relaxation in the one-dimensional Glauber model"
+        },
+        "lucn_query": "(host.volume:22 AND publicationDate:1979) AND (title:(Breaking substitution ciphers using relaxation algorithm) host.pages.first:598 host.pages.last:605 host.issue:11 host.title:(Commun* ACM*) author.name:(Peleg Rosenfeld))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:22 AND title:(Breaking substitution ciphers using relaxation algorithm) AND host.pages.first:598 AND host.pages.last:605 AND host.issue:11 AND publicationDate:1979 AND host.title:(Commun ACM) AND author.name:(Peleg Rosenfeld)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:22 AND title:(Breaking substitution ciphers using relaxation algorithm) AND host.pages.first:598 AND host.pages.last:605 AND host.issue:11 AND publicationDate:1979 AND host.title:(Commun* ACM*) AND author.name:(Peleg Rosenfeld)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title level=\"a\" type=\"main\">CD-ROM document database standard</title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <forename type=\"middle\">T</forename>\n    <surname>Phillips</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Chen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Haralick</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. 2nd ICDAR</title>\n  <meeting>. 2nd ICDAR</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1993\"></date>\n   <biblScope unit=\"page\" from=\"478\" to=\"483\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Rangachar Kasturi"
+            },
+            {
+              "name": "Lawrence O\u2019Gorman"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02627001"
+          ],
+          "host": {
+            "pages": {
+              "first": "231",
+              "last": "243"
+            },
+            "title": "Machine Vision and Applications",
+            "volume": "5"
+          },
+          "id": "5F2467281B3C43ED79323292C1E4E6798B7AC000",
+          "title": "Document image analysis: A bibliography"
+        },
+        "lucn_query": "CD-ROM document database standard I T Phillips S Chen R M Haralick Proc. 2nd ICDAR . 2nd ICDAR 1993 478 483",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". 2nd ICDAR\" AND title:\"CD-ROM document database standard\" AND host.pages.first:\"478\" AND host.pages.last:\"483\" AND publicationDate:\"1993\" AND host.title:\"Proc. 2nd ICDAR\" AND author.name:\"Phillips\" AND author.name:\"Chen\" AND author.name:\"Haralick\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Su Chen"
+            },
+            {
+              "name": "Robert M. Haralick"
+            },
+            {
+              "name": "Ihsin T. Phillips"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1098-1098(199624)7:4<343::AID-IMA9>3.0.CO;2-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "356"
+            },
+            "title": "International Journal of Imaging Systems and Technology",
+            "volume": "7"
+          },
+          "id": "59747285746A6A45390C1AE051667E78EEB781D5",
+          "publicationDate": "1996",
+          "title": "Extraction of text lines and text blocks on document images based on statistical modeling"
+        },
+        "lucn_query": "host.conference.name:\". 2nd ICDAR\" title:\"CD-ROM document database standard\" host.pages.first:\"478\" host.pages.last:\"483\" publicationDate:\"1993\" host.title:\"Proc. 2nd ICDAR\" author.name:\"Phillips\" author.name:\"Chen\" author.name:\"Haralick\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Su Chen"
+            },
+            {
+              "name": "Robert M. Haralick"
+            },
+            {
+              "name": "Ihsin T. Phillips"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1098-1098(199624)7:4<343::AID-IMA9>3.0.CO;2-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "356"
+            },
+            "title": "International Journal of Imaging Systems and Technology",
+            "volume": "7"
+          },
+          "id": "59747285746A6A45390C1AE051667E78EEB781D5",
+          "publicationDate": "1996",
+          "title": "Extraction of text lines and text blocks on document images based on statistical modeling"
+        },
+        "lucn_query": "host.conference.name:ICDAR title:(document database standard) host.pages.first:478 host.pages.last:483 publicationDate:1993 host.title:(Proc 2nd ICDAR) author.name:(Phillips Chen Haralick)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Valerie Chen PhD"
+            },
+            {
+              "name": "Bardara Phillips PhD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-0361.1993.tb00522.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "262",
+              "last": "269"
+            },
+            "title": "The Journal of Rural Health",
+            "volume": "9"
+          },
+          "id": "F2E7D594BBE2FA6D3BBB667557BB3E278298C663",
+          "publicationDate": "1993",
+          "title": "Adequate Access to Posthospital Home Health Services: Differences Between Urban and Rural Areas"
+        },
+        "lucn_query": "(publicationDate:1993) AND (host.conference.name:ICDAR title:(document database standard) host.pages.first:478 host.pages.last:483 host.title:(Proc 2nd ICDAR) author.name:(Phillips Chen Haralick))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Philippe Chauvet"
+            },
+            {
+              "name": "Jaime Lopez-Krahe"
+            },
+            {
+              "name": "Erik Taflin"
+            },
+            {
+              "name": "Henri Ma\u00eetre"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-1684(93)90041-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "161",
+              "last": "190"
+            },
+            "title": "Signal Processing",
+            "volume": "32"
+          },
+          "id": "C65DA217D5E93B79F5E8B1DA6922ABCEB3277DF2",
+          "publicationDate": "1993",
+          "title": "System for an intelligent office document analysis, recognition and description"
+        },
+        "lucn_query": "(publicationDate:1993) AND (host.conference.name:ICDAR title:(document database standard) host.pages.first:478 host.pages.last:483 host.title:(Proc* 2nd* ICDAR*) author.name:(Phillips Chen Haralick))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:ICDAR AND title:(document database standard) AND host.pages.first:478 AND host.pages.last:483 AND publicationDate:1993 AND host.title:(Proc 2nd ICDAR) AND author.name:(Phillips Chen Haralick)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:ICDAR AND title:(document database standard) AND host.pages.first:478 AND host.pages.last:483 AND publicationDate:1993 AND host.title:(Proc* 2nd* ICDAR*) AND author.name:(Phillips Chen Haralick)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title level=\"a\" type=\"main\">An introduction to hidden Markov models</title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Rabiner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Juang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">IEEE ASSP Magazine</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"4\" to=\"16\"></biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "X.D. Huang"
+            },
+            {
+              "name": "M.A. Jack"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0885-2308(89)90020-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "239",
+              "last": "251"
+            },
+            "title": "Computer Speech & Language",
+            "volume": "3"
+          },
+          "id": "986826E6F1847BEDAF7273EF27FA71CFE557D8B2",
+          "publicationDate": "1989",
+          "title": "Semi-continuous hidden Markov models for speech signals"
+        },
+        "lucn_query": "An introduction to hidden Markov models L R Rabiner B H Juang IEEE ASSP Magazine 1986 4 16",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:\"An introduction to hidden Markov models\" AND host.pages.first:\"4\" AND host.pages.last:\"16\" AND publicationDate:\"1986\" AND host.title:\"IEEE ASSP Magazine\" AND author.name:\"Rabiner\" AND author.name:\"Juang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.R. Rabiner"
+            },
+            {
+              "name": "J.G. Wilpon"
+            },
+            {
+              "name": "B.H. Juang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0885-2308(86)80021-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "197"
+            },
+            "title": "Computer Speech & Language",
+            "volume": "1"
+          },
+          "id": "7889A1A930A816AD6A5456531F853385D79E9976",
+          "publicationDate": "1986",
+          "title": "A model-based connected-digit recognition system using either hidden Markov models or templates"
+        },
+        "lucn_query": "title:\"An introduction to hidden Markov models\" host.pages.first:\"4\" host.pages.last:\"16\" publicationDate:\"1986\" host.title:\"IEEE ASSP Magazine\" author.name:\"Rabiner\" author.name:\"Juang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.R. Rabiner"
+            },
+            {
+              "name": "J.G. Wilpon"
+            },
+            {
+              "name": "B.H. Juang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0885-2308(86)80021-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "197"
+            },
+            "title": "Computer Speech & Language",
+            "volume": "1"
+          },
+          "id": "7889A1A930A816AD6A5456531F853385D79E9976",
+          "publicationDate": "1986",
+          "title": "A model-based connected-digit recognition system using either hidden Markov models or templates"
+        },
+        "lucn_query": "title:(introduction hidden Markov models) host.pages.first:4 host.pages.last:16 publicationDate:1986 host.title:(IEEE ASSP Magazine) author.name:(Rabiner Juang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.R. Rabiner"
+            },
+            {
+              "name": "J.G. Wilpon"
+            },
+            {
+              "name": "B.H. Juang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0885-2308(86)80021-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "197"
+            },
+            "title": "Computer Speech & Language",
+            "volume": "1"
+          },
+          "id": "7889A1A930A816AD6A5456531F853385D79E9976",
+          "publicationDate": "1986",
+          "title": "A model-based connected-digit recognition system using either hidden Markov models or templates"
+        },
+        "lucn_query": "(publicationDate:1986) AND (title:(introduction hidden Markov models) host.pages.first:4 host.pages.last:16 host.title:(IEEE ASSP Magazine) author.name:(Rabiner Juang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.R. Rabiner"
+            },
+            {
+              "name": "J.G. Wilpon"
+            },
+            {
+              "name": "B.H. Juang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0885-2308(86)80021-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "197"
+            },
+            "title": "Computer Speech & Language",
+            "volume": "1"
+          },
+          "id": "7889A1A930A816AD6A5456531F853385D79E9976",
+          "publicationDate": "1986",
+          "title": "A model-based connected-digit recognition system using either hidden Markov models or templates"
+        },
+        "lucn_query": "(publicationDate:1986) AND (title:(introduction hidden Markov models) host.pages.first:4 host.pages.last:16 host.title:(IEEE* ASSP* Magazine*) author.name:(Rabiner Juang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(introduction hidden Markov models) AND host.pages.first:4 AND host.pages.last:16 AND publicationDate:1986 AND host.title:(IEEE ASSP Magazine) AND author.name:(Rabiner Juang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(introduction hidden Markov models) AND host.pages.first:4 AND host.pages.last:16 AND publicationDate:1986 AND host.title:(IEEE* ASSP* Magazine*) AND author.name:(Rabiner Juang)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <monogr>\n  <title level=\"m\" type=\"main\">Managing Gigabytes: Compressing and Indexing Documents and Images</title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <surname>Witten</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Mo&#128;at</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Bell</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1994\"></date>\n   <publisher>Van Nostrand Reinhold</publisher>\n   <pubPlace>New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b11",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "0217076D3221547FE8AA6B55176A55561373ED49",
+    "solved_qs": []
+  }
+]

@@ -1,0 +1,3340 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <surname>Coppens</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Angew</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1977\"></date>\n   <biblScope unit=\"page\">32</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Coppens</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Stevens</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Adv</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Quantum Chem</title>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Philip Coppens"
+            },
+            {
+              "name": "Anatoliy Volkov"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0108767304014953"
+          ],
+          "host": {
+            "pages": {
+              "first": "357",
+              "last": "364"
+            },
+            "title": "Acta Crystallographica Section A",
+            "volume": "60"
+          },
+          "id": "3D1FFAD30568F0A39D33F3AC30ED2C42AF452FDD",
+          "publicationDate": "2004",
+          "title": "The interplay between experiment and theory in charge\u2010density analysis"
+        },
+        "lucn_query": "P Coppens E D Stevens Adv Quantum Chem",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Coppens\" AND author.name:\"Stevens\" AND author.name:\"Adv\" AND host.title:\"Quantum Chem\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. D. Stevens"
+            },
+            {
+              "name": "P. Coppens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0567740880007388"
+          ],
+          "host": {
+            "pages": {
+              "first": "1864",
+              "last": "1876"
+            },
+            "title": "Acta Crystallographica Section B",
+            "volume": "36"
+          },
+          "id": "C5597BBC637573E29694A95F96DBADC32FC33C36",
+          "publicationDate": "1980",
+          "title": "Experimental electron density distributions of hydrogen bonds. High\u2010resolution study of \u03b1\u2010oxalic acid dihydrate at 100 K"
+        },
+        "lucn_query": "author.name:\"Coppens\" author.name:\"Stevens\" author.name:\"Adv\" host.title:\"Quantum Chem\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Philip Coppens"
+            },
+            {
+              "name": "Irina V. Novozhilova"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.20316"
+          ],
+          "host": {
+            "pages": {
+              "first": "611",
+              "last": "623"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "101"
+          },
+          "id": "6EFD8057DE542F7EE8B4BCFDE9CC5977B6FC7530",
+          "publicationDate": "2005",
+          "title": "DFT calculations of light\u2010induced excited states and comparison with time\u2010resolved crystallographic results"
+        },
+        "lucn_query": "author.name:(Coppens Stevens Adv) host.title:(Quantum Chem)",
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Philip Coppens"
+            },
+            {
+              "name": "Irina V. Novozhilova"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.20316"
+          ],
+          "host": {
+            "pages": {
+              "first": "611",
+              "last": "623"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "101"
+          },
+          "id": "6EFD8057DE542F7EE8B4BCFDE9CC5977B6FC7530",
+          "publicationDate": "2005",
+          "title": "DFT calculations of light\u2010induced excited states and comparison with time\u2010resolved crystallographic results"
+        },
+        "lucn_query": "author.name:(Coppens Stevens Adv) AND host.title:(Quantum Chem)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Philip Coppens"
+            },
+            {
+              "name": "Edwin D. Stevens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ijch.197700030"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "179"
+            },
+            "title": "Israel Journal of Chemistry",
+            "volume": "16"
+          },
+          "id": "3919BA985CA89532077B35AECC1B77780D8F7FE3",
+          "publicationDate": "1977",
+          "title": "XIV. Static Versus Dynamic Densities"
+        },
+        "lucn_query": "author.name:(Coppens Stevens Adv) AND host.title:(Quantum* Chem*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Saito</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Inorg. Chem. Concept</title>\n  <imprint>\n   <biblScope unit=\"volume\">4</biblScope>\n   <biblScope unit=\"page\">89</biblScope>\n   <date type=\"published\" when=\"1979\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Iakovidis"
+            },
+            {
+              "name": "N. Hadjiliadis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-8545(94)80064-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "17",
+              "last": "63"
+            },
+            "title": "Coordination Chemistry Reviews",
+            "volume": "135\u2013136"
+          },
+          "id": "851E36DFEC572FF3F98608B902B4F0EF2F0E4458",
+          "publicationDate": "1994",
+          "title": "Complex compounds of platinum (II) and (IV) with amino acids, peptides and their derivatives"
+        },
+        "lucn_query": "Y Saito Inorg. Chem. Concept 4 89 1979",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"89\" AND host.volume:\"4\" AND publicationDate:\"1979\" AND host.title:\"Inorg. Chem. Concept\" AND author.name:\"Saito\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Saito"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0306-4522(79)90102-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "399"
+            },
+            "title": "Neuroscience",
+            "volume": "4"
+          },
+          "id": "B57E3AADD25BFE550D0737624ACDF2BB343162A1",
+          "publicationDate": "1979",
+          "title": "Branchings at the central node of Ranvier, observed in the anterior horn and Clarke's nucleus of the cat. An electron microscopic study"
+        },
+        "lucn_query": "host.pages.first:\"89\" host.volume:\"4\" publicationDate:\"1979\" host.title:\"Inorg. Chem. Concept\" author.name:\"Saito\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Saito"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0306-4522(79)90102-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "399"
+            },
+            "title": "Neuroscience",
+            "volume": "4"
+          },
+          "id": "B57E3AADD25BFE550D0737624ACDF2BB343162A1",
+          "publicationDate": "1979",
+          "title": "Branchings at the central node of Ranvier, observed in the anterior horn and Clarke's nucleus of the cat. An electron microscopic study"
+        },
+        "lucn_query": "host.pages.first:89 host.volume:4 publicationDate:1979 host.title:(Inorg Chem Concept) author.name:Saito",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Saito"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0306-4522(79)90102-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "399"
+            },
+            "title": "Neuroscience",
+            "volume": "4"
+          },
+          "id": "B57E3AADD25BFE550D0737624ACDF2BB343162A1",
+          "publicationDate": "1979",
+          "title": "Branchings at the central node of Ranvier, observed in the anterior horn and Clarke's nucleus of the cat. An electron microscopic study"
+        },
+        "lucn_query": "(host.volume:4 AND publicationDate:1979) AND (host.pages.first:89 host.title:(Inorg Chem Concept) author.name:Saito)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Saito"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0306-4522(79)90102-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "399"
+            },
+            "title": "Neuroscience",
+            "volume": "4"
+          },
+          "id": "B57E3AADD25BFE550D0737624ACDF2BB343162A1",
+          "publicationDate": "1979",
+          "title": "Branchings at the central node of Ranvier, observed in the anterior horn and Clarke's nucleus of the cat. An electron microscopic study"
+        },
+        "lucn_query": "(host.volume:4 AND publicationDate:1979) AND (host.pages.first:89 host.title:(Inorg* Chem* Concept*) author.name:Saito)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:89 AND host.volume:4 AND publicationDate:1979 AND host.title:(Inorg Chem Concept) AND author.name:Saito",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:89 AND host.volume:4 AND publicationDate:1979 AND host.title:(Inorg* Chem* Concept*) AND author.name:Saito",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Coppens</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Hall</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Electronic Distribution and the Chemical Bond</title>\n  <meeting><address><addrLine>New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Plenum Press</publisher>\n   <date type=\"published\" when=\"1982\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jey\u2010Jau Lee Dr."
+            },
+            {
+              "name": "Gene Hsiang Lee"
+            },
+            {
+              "name": "Yu Wang Prof. Dr."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/1521-3765(20020415)8:8<1821::AID-CHEM1821>3.0.CO;2-Q"
+          ],
+          "host": {
+            "pages": {
+              "first": "1821",
+              "last": "1832"
+            },
+            "title": "Chemistry \u2013 A European Journal",
+            "volume": "8"
+          },
+          "id": "9F26CFC303964B914A1C846504A89558100A587A",
+          "publicationDate": "2002",
+          "title": "Topological Analysis and Charge Density Studies of an \u03b1\u2010Diimine Macrocyclic Complex of Cobalt(II)\u2014A Combined Experimental and Theoretical Study"
+        },
+        "lucn_query": "P Coppens M B Hall Electronic Distribution and the Chemical Bond New York Plenum Press 1982",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"Plenum Press\" AND author.name:\"Coppens\" AND author.name:\"Hall\" AND publicationDate:\"1982\" AND host.title:\"Electronic Distribution and the Chemical Bond\" AND \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Marc Coppens"
+            },
+            {
+              "name": "Takao Kato"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02568358"
+          ],
+          "host": {
+            "pages": {
+              "first": "5",
+              "last": "25"
+            },
+            "title": "manuscripta mathematica",
+            "volume": "70"
+          },
+          "id": "3EF56BF7C59596BD1B517410259CE537AD20CDFD",
+          "publicationDate": "1990",
+          "title": "The gonality of smooth curves with plane models"
+        },
+        "lucn_query": "host.editor:\"Plenum Press\" author.name:\"Coppens\" author.name:\"Hall\" publicationDate:\"1982\" host.title:\"Electronic Distribution and the Chemical Bond\" \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. H. Tytko"
+            },
+            {
+              "name": "J. Mehmke"
+            },
+            {
+              "name": "D. Kurad"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BFb0103379"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "66"
+            },
+            "title": "Bonding and Charge Distribution in Polyoxometalates: A Bond Valence Approach",
+            "volume": "93"
+          },
+          "id": "F1143315A215CC550C6B52E448090EDFF7CC3A55",
+          "title": "Bond length-bond valence relationships with particular reference to polyoxometalate chemistry"
+        },
+        "lucn_query": "host.editor:(Plenum Press) York author.name:(Coppens Hall) host.title:(Electronic Distribution and the Chemical Bond) publicationDate:1982",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Geoffrey Hall"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0023-9690(82)90027-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "26",
+              "last": "43"
+            },
+            "title": "Learning and Motivation",
+            "volume": "13"
+          },
+          "id": "DC3D07FBE1A2504AB2D5D76DF2C29DD893B7808D",
+          "publicationDate": "1982",
+          "title": "Effects of a brief stimulus accompanying reinforcement on instrumental responding in pigeons"
+        },
+        "lucn_query": "(publicationDate:1982) AND (host.editor:(Plenum Press) York author.name:(Coppens Hall) host.title:(Electronic Distribution and the Chemical Bond))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Geoffrey Hall"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0023-9690(82)90027-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "26",
+              "last": "43"
+            },
+            "title": "Learning and Motivation",
+            "volume": "13"
+          },
+          "id": "DC3D07FBE1A2504AB2D5D76DF2C29DD893B7808D",
+          "publicationDate": "1982",
+          "title": "Effects of a brief stimulus accompanying reinforcement on instrumental responding in pigeons"
+        },
+        "lucn_query": "(publicationDate:1982) AND (host.editor:(Plenum Press) York author.name:(Coppens Hall) host.title:(Electronic* Distribution* and* the* Chemical* Bond*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Plenum Press) AND York AND author.name:(Coppens Hall) AND host.title:(Electronic Distribution and the Chemical Bond) AND publicationDate:1982",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Plenum Press) AND York AND author.name:(Coppens Hall) AND host.title:(Electronic* Distribution* and* the* Chemical* Bond*) AND publicationDate:1982",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <monogr>\n  <title level=\"m\" type=\"main\">Adv. in lnorg. Chem. and Radiochern</title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Toriumi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Saito</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1983\"></date>\n   <biblScope unit=\"page\" from=\"27\" to=\"27\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Hansen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Coppens</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Crystallogr: Sec. A: Cryst. Phys. Differ; Theor: Gen. Crystallogt</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"34\" to=\"909\"></biblScope>\n   <date type=\"published\" when=\"1978\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Vladimir G. Tsirelson"
+            },
+            {
+              "name": "Anastasia V. Shishkina"
+            },
+            {
+              "name": "Adam I. Stash"
+            },
+            {
+              "name": "Simon Parsons"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0108768109028821"
+          ],
+          "host": {
+            "pages": {
+              "first": "647",
+              "last": "658"
+            },
+            "title": "Acta Crystallographica Section B",
+            "volume": "65"
+          },
+          "id": "7D0E22A4D019CBFF0EDE69E6A3C5A8E7FF7B10DF",
+          "publicationDate": "2009",
+          "title": "The experimental and theoretical QTAIMC study of the atomic and molecular interactions in dinitrogen tetroxide"
+        },
+        "lucn_query": "N K Hansen P Coppens Acta. Crystallogr\\: Sec. A\\: Cryst. Phys. Differ; Theor\\: Gen. Crystallogt 1978 34 909",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"34\" AND host.pages.last:\"909\" AND publicationDate:\"1978\" AND host.title:\"Acta. Crystallogr\\: Sec. A\\: Cryst. Phys. Differ; Theor\\: Gen. Crystallogt\" AND author.name:\"Hansen\" AND author.name:\"Coppens\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. K. Hansen"
+            },
+            {
+              "name": "P. Coppens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0567739478001886"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "921"
+            },
+            "title": "Acta Crystallographica Section A",
+            "volume": "34"
+          },
+          "id": "5971A7F7E2702664DA493075464998B48EEE250C",
+          "publicationDate": "1978",
+          "title": "Testing aspherical atom refinements on small\u2010molecule data sets"
+        },
+        "lucn_query": "host.pages.first:\"34\" host.pages.last:\"909\" publicationDate:\"1978\" host.title:\"Acta. Crystallogr\\: Sec. A\\: Cryst. Phys. Differ; Theor\\: Gen. Crystallogt\" author.name:\"Hansen\" author.name:\"Coppens\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. K. Hansen"
+            },
+            {
+              "name": "P. Coppens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0567739478001886"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "921"
+            },
+            "title": "Acta Crystallographica Section A",
+            "volume": "34"
+          },
+          "id": "5971A7F7E2702664DA493075464998B48EEE250C",
+          "publicationDate": "1978",
+          "title": "Testing aspherical atom refinements on small\u2010molecule data sets"
+        },
+        "lucn_query": "host.pages.first:34 host.pages.last:909 publicationDate:1978 host.title:(Acta Crystallogr Sec Cryst Phys Differ Theor Gen Crystallogt) author.name:(Hansen Coppens)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. K. Hansen"
+            },
+            {
+              "name": "P. Coppens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0567739478001886"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "921"
+            },
+            "title": "Acta Crystallographica Section A",
+            "volume": "34"
+          },
+          "id": "5971A7F7E2702664DA493075464998B48EEE250C",
+          "publicationDate": "1978",
+          "title": "Testing aspherical atom refinements on small\u2010molecule data sets"
+        },
+        "lucn_query": "(publicationDate:1978) AND (host.pages.first:34 host.pages.last:909 host.title:(Acta Crystallogr Sec Cryst Phys Differ Theor Gen Crystallogt) author.name:(Hansen Coppens))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. K. Hansen"
+            },
+            {
+              "name": "P. Coppens"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0567739478001886"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "921"
+            },
+            "title": "Acta Crystallographica Section A",
+            "volume": "34"
+          },
+          "id": "5971A7F7E2702664DA493075464998B48EEE250C",
+          "publicationDate": "1978",
+          "title": "Testing aspherical atom refinements on small\u2010molecule data sets"
+        },
+        "lucn_query": "(publicationDate:1978) AND (host.pages.first:34 host.pages.last:909 host.title:(Acta Crystallogr Sec Cryst Phys Differ Theor Gen Crystallogt) author.name:(Hansen Coppens))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:34 AND host.pages.last:909 AND publicationDate:1978 AND host.title:(Acta Crystallogr Sec Cryst Phys Differ Theor Gen Crystallogt) AND author.name:(Hansen Coppens)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:34 AND host.pages.last:909 AND publicationDate:1978 AND host.title:(Acta Crystallogr Sec Cryst Phys Differ Theor Gen Crystallogt) AND author.name:(Hansen Coppens)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Kunze</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Hall</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am. Chern. Soc</title>\n  <imprint>\n   <biblScope unit=\"volume\">108</biblScope>\n   <biblScope unit=\"page\">5122</biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. Kunze"
+            },
+            {
+              "name": "H. Schulz"
+            },
+            {
+              "name": "H. Ahrens"
+            },
+            {
+              "name": "H.-J. Gabius"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0940-2993(97)80004-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "180"
+            },
+            "title": "Experimental and Toxicologic Pathology",
+            "volume": "49"
+          },
+          "id": "ED3CF07F128E01BD2222A3527CBF12693AA11574",
+          "publicationDate": "1997",
+          "title": "Lack of an antitumoral effect of immunomodulatory galactoside-specific mistletoe lectin on N-methyl-N-nitrosourea-induced urinary bladder carcinogenesis in rats"
+        },
+        "lucn_query": "K L Kunze M B Hall Am. Chern. Soc 108 5122 1986",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"5122\" AND host.volume:\"108\" AND publicationDate:\"1986\" AND host.title:\"Am. Chern. Soc\" AND author.name:\"Kunze\" AND author.name:\"Hall\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. Kunze"
+            },
+            {
+              "name": "G. Gassner"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00394932"
+          ],
+          "host": {
+            "pages": {
+              "first": "11",
+              "last": "18"
+            },
+            "title": "Journal of Cancer Research and Clinical Oncology",
+            "volume": "112"
+          },
+          "id": "54045D6127ED91080B2989DF2C3B9AA92B1551A5",
+          "publicationDate": "1986",
+          "title": "Modification of N-methyl-N-nitrosourea-induced urinary bladder carcinogenesis in rats following stimulation of urothelial proliferation by a partial cystectomy"
+        },
+        "lucn_query": "host.pages.first:\"5122\" host.volume:\"108\" publicationDate:\"1986\" host.title:\"Am. Chern. Soc\" author.name:\"Kunze\" author.name:\"Hall\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. Kunze"
+            },
+            {
+              "name": "G. Gassner"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00394932"
+          ],
+          "host": {
+            "pages": {
+              "first": "11",
+              "last": "18"
+            },
+            "title": "Journal of Cancer Research and Clinical Oncology",
+            "volume": "112"
+          },
+          "id": "54045D6127ED91080B2989DF2C3B9AA92B1551A5",
+          "publicationDate": "1986",
+          "title": "Modification of N-methyl-N-nitrosourea-induced urinary bladder carcinogenesis in rats following stimulation of urothelial proliferation by a partial cystectomy"
+        },
+        "lucn_query": "host.pages.first:5122 host.volume:108 publicationDate:1986 host.title:(Am Chern Soc) author.name:(Kunze Hall)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:108 AND publicationDate:1986) AND (host.pages.first:5122 host.title:(Am Chern Soc) author.name:(Kunze Hall))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:108 AND publicationDate:1986) AND (host.pages.first:5122 host.title:(Am* Chern* Soc*) author.name:(Kunze Hall))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:5122 AND host.volume:108 AND publicationDate:1986 AND host.title:(Am Chern Soc) AND author.name:(Kunze Hall)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:5122 AND host.volume:108 AND publicationDate:1986 AND host.title:(Am* Chern* Soc*) AND author.name:(Kunze Hall)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">H E</forename>\n    <surname>Schwarz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Ruedenberg</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Menshing</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1988\"></date>\n   <biblScope unit=\"page\">6926</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">G</forename>\n    <surname>Jarsen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Fitzgerald</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">93</biblScope>\n   <biblScope unit=\"page\">2554</biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B\u00e4rbel Koribalski"
+            },
+            {
+              "name": "Scott Gordon"
+            },
+            {
+              "name": "Keith Jones"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1365-8711.2003.06277.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1203",
+              "last": "1222"
+            },
+            "title": "Monthly Notices of the Royal Astronomical Society",
+            "volume": "339"
+          },
+          "id": "D6C6D9221BA4DE7FBA89A3E0278A8D471D15966D",
+          "publicationDate": "2003",
+          "title": "ATCA H\u2003i observations of the peculiar galaxy IC 2554"
+        },
+        "lucn_query": "P G Jarsen G J Fitzgerald Chern Phys 93 2554 1990",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"2554\" AND host.volume:\"93\" AND publicationDate:\"1990\" AND host.title:\"Phys\" AND author.name:\"Jarsen\" AND author.name:\"Fitzgerald\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Maureen Fitzgerald"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0738-0593(09)90006-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "289",
+              "last": "302"
+            },
+            "title": "International Journal of Educational Development",
+            "volume": "10"
+          },
+          "id": "B20C0FA9BB6E760A678AF57E49317FF51CF6D1C3",
+          "publicationDate": "1990",
+          "title": "Education for sustainable development: Decision-making for environmental education in Ethiopia"
+        },
+        "lucn_query": "host.pages.first:\"2554\" host.volume:\"93\" publicationDate:\"1990\" host.title:\"Phys\" author.name:\"Jarsen\" author.name:\"Fitzgerald\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Clark"
+            },
+            {
+              "name": "Laura A. Chern"
+            },
+            {
+              "name": "Jennifer A. Hogler"
+            },
+            {
+              "name": "Christine M. Mennicke"
+            },
+            {
+              "name": "Elizabeth D. Atkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0025-3227(90)90078-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "94"
+            },
+            "title": "Marine Geology",
+            "volume": "93"
+          },
+          "id": "5CBAA1074E7201F26337CB5AD5A646C79BA8297C",
+          "publicationDate": "1990",
+          "title": "Late Neogene climate evolution of the central Arctic Ocean"
+        },
+        "lucn_query": "host.pages.first:2554 host.volume:93 publicationDate:1990 host.title:Phys author.name:(Jarsen Fitzgerald Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Clark"
+            },
+            {
+              "name": "Laura A. Chern"
+            },
+            {
+              "name": "Jennifer A. Hogler"
+            },
+            {
+              "name": "Christine M. Mennicke"
+            },
+            {
+              "name": "Elizabeth D. Atkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0025-3227(90)90078-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "94"
+            },
+            "title": "Marine Geology",
+            "volume": "93"
+          },
+          "id": "5CBAA1074E7201F26337CB5AD5A646C79BA8297C",
+          "publicationDate": "1990",
+          "title": "Late Neogene climate evolution of the central Arctic Ocean"
+        },
+        "lucn_query": "(host.volume:93 AND publicationDate:1990) AND (host.pages.first:2554 host.title:Phys author.name:(Jarsen Fitzgerald Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Clark"
+            },
+            {
+              "name": "Laura A. Chern"
+            },
+            {
+              "name": "Jennifer A. Hogler"
+            },
+            {
+              "name": "Christine M. Mennicke"
+            },
+            {
+              "name": "Elizabeth D. Atkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0025-3227(90)90078-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "94"
+            },
+            "title": "Marine Geology",
+            "volume": "93"
+          },
+          "id": "5CBAA1074E7201F26337CB5AD5A646C79BA8297C",
+          "publicationDate": "1990",
+          "title": "Late Neogene climate evolution of the central Arctic Ocean"
+        },
+        "lucn_query": "(host.volume:93 AND publicationDate:1990) AND (host.pages.first:2554 host.title:(Phys*) author.name:(Jarsen Fitzgerald Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2554 AND host.volume:93 AND publicationDate:1990 AND host.title:Phys AND author.name:(Jarsen Fitzgerald Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2554 AND host.volume:93 AND publicationDate:1990 AND host.title:(Phys*) AND author.name:(Jarsen Fitzgerald Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Koopman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Pnysica</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1933\"></date>\n   <biblScope unit=\"page\">104</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Wang</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">V</forename>\n    <surname>W&#187;</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Cheng</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta CrystaUogr., Sect. B .Struct. Sci</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"046\" to=\"850\"></biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yin\u2010Zheng WANG"
+            },
+            {
+              "name": "Ru\u2010Bing MAO"
+            },
+            {
+              "name": "Yan LIU"
+            },
+            {
+              "name": "Jia\u2010Mei LI"
+            },
+            {
+              "name": "Yang DONG"
+            },
+            {
+              "name": "Zhen\u2010Yu LI"
+            },
+            {
+              "name": "James F. SMITH"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1759-6831.2010.00113.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "50",
+              "last": "64"
+            },
+            "title": "Journal of Systematics and Evolution",
+            "volume": "49"
+          },
+          "id": "763945DC269D06EEAB30599304D1656F88CCCD82",
+          "publicationDate": "2011",
+          "title": "Phylogenetic reconstruction of Chirita and allies (Gesneriaceae) with taxonomic treatments"
+        },
+        "lucn_query": "Y Wang S V W\u00bb A C Cheng Acta CrystaUogr., Sect. B .Struct. Sci 1990 046 850",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"046\" AND host.pages.last:\"850\" AND publicationDate:\"1990\" AND host.title:\"Acta CrystaUogr., Sect. B .Struct. Sci\" AND author.name:\"Wang\" AND author.name:\"W\u00bb\" AND author.name:\"Cheng\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Whyte"
+            },
+            {
+              "name": "M.-W. Wang"
+            },
+            {
+              "name": "J.T. Cheng"
+            },
+            {
+              "name": "R.B. Heap"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-0378(92)90013-T"
+          ],
+          "host": {
+            "pages": {
+              "first": "153",
+              "last": "172"
+            },
+            "title": "Journal of Reproductive Immunology",
+            "volume": "22"
+          },
+          "id": "0FDA62DEF75D0C93B871DCB6A3F13BB570D674FA",
+          "publicationDate": "1992",
+          "title": "Proto-oncogene erbA expression and increased abundance of progesterone receptors in the mouse uterus after passive immunisation against progesterone before implantation"
+        },
+        "lucn_query": "host.pages.first:\"046\" host.pages.last:\"850\" publicationDate:\"1990\" host.title:\"Acta CrystaUogr., Sect. B .Struct. Sci\" author.name:\"Wang\" author.name:\"W\u00bb\" author.name:\"Cheng\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wang Pinxian"
+            },
+            {
+              "name": "Xia Lunyu"
+            },
+            {
+              "name": "Wang Lujiang"
+            },
+            {
+              "name": "Cheng Xinrong"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1755-6724.1991.mp4004007.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "427",
+              "last": "439"
+            },
+            "title": "Acta Geologica Sinica \u2010 English Edition",
+            "volume": "4"
+          },
+          "id": "8802AAF09A06167512F4872F648D17CF70B2C472",
+          "publicationDate": "1991",
+          "title": "Lower Boundary of the Marine Pleistocene in Northern Shelf of the South China Sea"
+        },
+        "lucn_query": "host.pages.first:046 host.pages.last:850 publicationDate:1990 host.title:(Acta CrystaUogr Sect Struct Sci) author.name:(Wang Cheng)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xi-Cheng Wang"
+            },
+            {
+              "name": "Hai-Meng Zhou"
+            },
+            {
+              "name": "Zhi-Xin Wang"
+            },
+            {
+              "name": "Chen-Lu Tsou"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0167-4838(90)90264-G"
+          ],
+          "host": {
+            "pages": {
+              "first": "313",
+              "last": "317"
+            },
+            "title": "Biochimica et Biophysica Acta (BBA)/Protein Structure and Molecular Enzymology",
+            "volume": "1039"
+          },
+          "id": "1FD6500B93CE9D1D585C65E9DF688A3CBB3C0E09",
+          "publicationDate": "1990",
+          "title": "Is the subunit the minimal function unit of creatine kinase?"
+        },
+        "lucn_query": "(publicationDate:1990) AND (host.pages.first:046 host.pages.last:850 host.title:(Acta CrystaUogr Sect Struct Sci) author.name:(Wang Cheng))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wen -Kuan Wang"
+            },
+            {
+              "name": "Cheng -Tzu Kuo"
+            },
+            {
+              "name": "Tsung -Shune Chin"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00542900"
+          ],
+          "host": {
+            "pages": {
+              "first": "1440",
+              "last": "1444"
+            },
+            "title": "Journal of Materials Science",
+            "volume": "27"
+          },
+          "id": "4A6D93C2E4303E005CB24607E675276EB6A69E7B",
+          "publicationDate": "1990",
+          "title": "Effect of melt temperature on the formation of air pockets during splat quenching"
+        },
+        "lucn_query": "(publicationDate:1990) AND (host.pages.first:046 host.pages.last:850 host.title:(Acta* CrystaUogr* Sect* Struct* Sci*) author.name:(Wang Cheng))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:046 AND host.pages.last:850 AND publicationDate:1990 AND host.title:(Acta CrystaUogr Sect Struct Sci) AND author.name:(Wang Cheng)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:046 AND host.pages.last:850 AND publicationDate:1990 AND host.title:(Acta* CrystaUogr* Sect* Struct* Sci*) AND author.name:(Wang Cheng)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Wang</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Yeh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">Y</forename>\n    <surname>Wu</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">T</forename>\n    <surname>Pai</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Lee</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Lin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta Crystallogr., Sect. B: Struct. Sci</title>\n  <imprint>\n   <biblScope unit=\"page\">047298</biblScope>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jens Hausmann"
+            },
+            {
+              "name": "Satwik Kamtekar"
+            },
+            {
+              "name": "Evangelos Christodoulou"
+            },
+            {
+              "name": "Jacqueline E Day"
+            },
+            {
+              "name": "Tao Wu"
+            },
+            {
+              "name": "Zachary Fulkerson"
+            },
+            {
+              "name": "Harald M H G Albers"
+            },
+            {
+              "name": "Laurens A van Meeteren"
+            },
+            {
+              "name": "Anna J S Houben"
+            },
+            {
+              "name": "Leonie van Zeijl"
+            },
+            {
+              "name": "Silvia Jansen"
+            },
+            {
+              "name": "Maria Andries"
+            },
+            {
+              "name": "Troii Hall"
+            },
+            {
+              "name": "Lyle E Pegg"
+            },
+            {
+              "name": "Timothy E Benson"
+            },
+            {
+              "name": "Mobien Kasiem"
+            },
+            {
+              "name": "Karl Harlos"
+            },
+            {
+              "name": "Craig W Vander Kooi"
+            },
+            {
+              "name": "Susan S Smyth"
+            },
+            {
+              "name": "Huib Ovaa"
+            },
+            {
+              "name": "Mathieu Bollen"
+            },
+            {
+              "name": "Andrew J Morris"
+            },
+            {
+              "name": "Wouter H Moolenaar"
+            },
+            {
+              "name": "Anastassis Perrakis"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nsmb.1980"
+          ],
+          "host": {
+            "pages": {
+              "first": "198",
+              "last": "204"
+            },
+            "title": "Nature Structural & Molecular Biology",
+            "volume": "18"
+          },
+          "id": "5386BF2D525A32F3C43FDBAE35954C64D4F0C1C7",
+          "publicationDate": "2011",
+          "title": "Structural basis of substrate discrimination and integrin binding by autotaxin"
+        },
+        "lucn_query": "Y Wang S K Yeh S Y Wu C T Pai C R Lee K J Lin Acta Crystallogr., Sect. B\\: Struct. Sci 047298 1991",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"047298\" AND publicationDate:\"1991\" AND host.title:\"Acta Crystallogr., Sect. B\\: Struct. Sci\" AND author.name:\"Wang\" AND author.name:\"Yeh\" AND author.name:\"Wu\" AND author.name:\"Pai\" AND author.name:\"Lee\" AND author.name:\"Lin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ming-Shien Wen MD"
+            },
+            {
+              "name": "San-Jou Yeh MD"
+            },
+            {
+              "name": "Chun-Chieh Wang MD"
+            },
+            {
+              "name": "Fun-Chung Lin MD"
+            },
+            {
+              "name": "Delon Wu MD, FACC"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0735-1097(97)00247-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1024",
+              "last": "1031"
+            },
+            "title": "Journal of the American College of Cardiology",
+            "volume": "30"
+          },
+          "id": "D511D04BEF6CA5E7246170266CC510D01D0499B1",
+          "publicationDate": "1997",
+          "title": "Successful Radiofrequency Ablation of Idiopathic Left Ventricular Tachycardia at a Site Away From the Tachycardia Exit"
+        },
+        "lucn_query": "host.pages.first:\"047298\" publicationDate:\"1991\" host.title:\"Acta Crystallogr., Sect. B\\: Struct. Sci\" author.name:\"Wang\" author.name:\"Yeh\" author.name:\"Wu\" author.name:\"Pai\" author.name:\"Lee\" author.name:\"Lin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Wang"
+            },
+            {
+              "name": "S. K. Yeh"
+            },
+            {
+              "name": "S. Y. Wu"
+            },
+            {
+              "name": "C. T. Pai"
+            },
+            {
+              "name": "C. R. Lee"
+            },
+            {
+              "name": "K. J. Lin"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0108768190012770"
+          ],
+          "host": {
+            "pages": {
+              "first": "298",
+              "last": "303"
+            },
+            "title": "Acta Crystallographica Section B",
+            "volume": "47"
+          },
+          "id": "F680AE1022746E9A19D1013C4772FF69C3F76833",
+          "publicationDate": "1991",
+          "title": "Deformation\u2010density studies of thiathiophthenes. II. 2,4\u2010diphenyl\u20106a\u2010thiathiophthene"
+        },
+        "lucn_query": "host.pages.first:047298 publicationDate:1991 host.title:(Acta Crystallogr Sect Struct Sci) author.name:(Wang Yeh Wu Pai Lee Lin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Wang"
+            },
+            {
+              "name": "S. K. Yeh"
+            },
+            {
+              "name": "S. Y. Wu"
+            },
+            {
+              "name": "C. T. Pai"
+            },
+            {
+              "name": "C. R. Lee"
+            },
+            {
+              "name": "K. J. Lin"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0108768190012770"
+          ],
+          "host": {
+            "pages": {
+              "first": "298",
+              "last": "303"
+            },
+            "title": "Acta Crystallographica Section B",
+            "volume": "47"
+          },
+          "id": "F680AE1022746E9A19D1013C4772FF69C3F76833",
+          "publicationDate": "1991",
+          "title": "Deformation\u2010density studies of thiathiophthenes. II. 2,4\u2010diphenyl\u20106a\u2010thiathiophthene"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.pages.first:047298 host.title:(Acta Crystallogr Sect Struct Sci) author.name:(Wang Yeh Wu Pai Lee Lin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Wang"
+            },
+            {
+              "name": "S. K. Yeh"
+            },
+            {
+              "name": "S. Y. Wu"
+            },
+            {
+              "name": "C. T. Pai"
+            },
+            {
+              "name": "C. R. Lee"
+            },
+            {
+              "name": "K. J. Lin"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0108768190012770"
+          ],
+          "host": {
+            "pages": {
+              "first": "298",
+              "last": "303"
+            },
+            "title": "Acta Crystallographica Section B",
+            "volume": "47"
+          },
+          "id": "F680AE1022746E9A19D1013C4772FF69C3F76833",
+          "publicationDate": "1991",
+          "title": "Deformation\u2010density studies of thiathiophthenes. II. 2,4\u2010diphenyl\u20106a\u2010thiathiophthene"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.pages.first:047298 host.title:(Acta* Crystallogr* Sect* Struct* Sci*) author.name:(Wang Yeh Wu Pai Lee Lin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:047298 AND publicationDate:1991 AND host.title:(Acta Crystallogr Sect Struct Sci) AND author.name:(Wang Yeh Wu Pai Lee Lin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:047298 AND publicationDate:1991 AND host.title:(Acta* Crystallogr* Sect* Struct* Sci*) AND author.name:(Wang Yeh Wu Pai Lee Lin)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Lin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Wang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Phys. Chem</title>\n  <imprint>\n   <biblScope unit=\"volume\">97</biblScope>\n   <biblScope unit=\"page\">3176</biblScope>\n   <date type=\"published\" when=\"1993\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Daniel D. Shaye"
+            },
+            {
+              "name": "Iva Greenwald"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature01234"
+          ],
+          "host": {
+            "pages": {
+              "first": "686",
+              "last": "690"
+            },
+            "title": "Nature",
+            "volume": "420"
+          },
+          "id": "B9C2BA896A15E9DBCF2F75AB6F7186CAA9D330BF",
+          "publicationDate": "2002",
+          "title": "Endocytosis-mediated downregulation of LIN-12/Notch upon Ras activation in Caenorhabditis elegans"
+        },
+        "lucn_query": "K J Lin Y Wang J. Phys. Chem 97 3176 1993",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"3176\" AND host.volume:\"97\" AND publicationDate:\"1993\" AND host.title:\"J. Phys. Chem\" AND author.name:\"Lin\" AND author.name:\"Wang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "QING CAI"
+            },
+            {
+              "name": "DAMING ZHANG"
+            },
+            {
+              "name": "ZHAN-LIN LIU"
+            },
+            {
+              "name": "XIAO-RU WANG"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/aob/mcl030"
+          ],
+          "host": {
+            "pages": {
+              "first": "715",
+              "last": "722"
+            },
+            "title": "Annals of Botany",
+            "volume": "97"
+          },
+          "id": "2C3B4975CCE02A8C0212224D238186E78C097C47",
+          "publicationDate": "2006",
+          "title": "Chromosomal Localization of 5S and 18S rDNA in Five Species of Subgenus Strobus and their Implications for Genome Evolution of Pinus"
+        },
+        "lucn_query": "host.pages.first:\"3176\" host.volume:\"97\" publicationDate:\"1993\" host.title:\"J. Phys. Chem\" author.name:\"Lin\" author.name:\"Wang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "QING CAI"
+            },
+            {
+              "name": "DAMING ZHANG"
+            },
+            {
+              "name": "ZHAN-LIN LIU"
+            },
+            {
+              "name": "XIAO-RU WANG"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/aob/mcl030"
+          ],
+          "host": {
+            "pages": {
+              "first": "715",
+              "last": "722"
+            },
+            "title": "Annals of Botany",
+            "volume": "97"
+          },
+          "id": "2C3B4975CCE02A8C0212224D238186E78C097C47",
+          "publicationDate": "2006",
+          "title": "Chromosomal Localization of 5S and 18S rDNA in Five Species of Subgenus Strobus and their Implications for Genome Evolution of Pinus"
+        },
+        "lucn_query": "host.pages.first:3176 host.volume:97 publicationDate:1993 host.title:(J Phys Chem) author.name:(Lin Wang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chun Wang"
+            },
+            {
+              "name": "B. Dreher"
+            },
+            {
+              "name": "W. Burke"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00241539"
+          ],
+          "host": {
+            "pages": {
+              "first": "451",
+              "last": "465"
+            },
+            "title": "Experimental Brain Research",
+            "volume": "97"
+          },
+          "id": "092232ECE3C3047428CD74878B12A898E4284756",
+          "publicationDate": "1993",
+          "title": "Non-dominant suppression in the dorsal lateral geniculate nucleus of the cat: laminar differences and class specificity"
+        },
+        "lucn_query": "(host.volume:97 AND publicationDate:1993) AND (host.pages.first:3176 host.title:(J Phys Chem) author.name:(Lin Wang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chun Wang"
+            },
+            {
+              "name": "B. Dreher"
+            },
+            {
+              "name": "W. Burke"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00241539"
+          ],
+          "host": {
+            "pages": {
+              "first": "451",
+              "last": "465"
+            },
+            "title": "Experimental Brain Research",
+            "volume": "97"
+          },
+          "id": "092232ECE3C3047428CD74878B12A898E4284756",
+          "publicationDate": "1993",
+          "title": "Non-dominant suppression in the dorsal lateral geniculate nucleus of the cat: laminar differences and class specificity"
+        },
+        "lucn_query": "(host.volume:97 AND publicationDate:1993) AND (host.pages.first:3176 host.title:(journal Phys* Chem*) author.name:(Lin Wang))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3176 AND host.volume:97 AND publicationDate:1993 AND host.title:(J Phys Chem) AND author.name:(Lin Wang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3176 AND host.volume:97 AND publicationDate:1993 AND host.title:(journal Phys* Chem*) AND author.name:(Lin Wang)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Gleiter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Hornung</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hogberg</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <surname>Lozac 'h</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Leu</title>\n  <imprint>\n   <biblScope unit=\"volume\">11</biblScope>\n   <biblScope unit=\"page\">401</biblScope>\n   <date type=\"published\" when=\"1971\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "SHIH\u2010LO LEE"
+            },
+            {
+              "name": "JOHN R. WHITAKER"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1745-4514.1979.tb00635.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "53",
+              "last": "72"
+            },
+            "title": "Journal of Food Biochemistry",
+            "volume": "3"
+          },
+          "id": "3E22B1E18F9D6149F4B3A112E5A5BA52322B55BE",
+          "publicationDate": "1979",
+          "title": "ACYL TRANSPEPTIDATION AND HYDROLYTIC REACTIONS CATALYZED BY ENDOTHIA PARASITICA PROTEASE WITH SMALL PEPTIDE SUBSTRATES"
+        },
+        "lucn_query": "R Gleiter Y Hornung S Hogberg N Lozac 'h Chern Phys. Leu 11 401 1971",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"401\" AND host.volume:\"11\" AND publicationDate:\"1971\" AND host.title:\"Phys. Leu\" AND author.name:\"Gleiter\" AND author.name:\"Hornung\" AND author.name:\"Hogberg\" AND author.name:\"Lozac 'h\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Gleiter"
+            },
+            {
+              "name": "E. Heilbronner"
+            },
+            {
+              "name": "V. Hornung"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/hlca.19720550130"
+          ],
+          "host": {
+            "pages": {
+              "first": "255",
+              "last": "274"
+            },
+            "title": "Helvetica Chimica Acta",
+            "volume": "55"
+          },
+          "id": "0E076ADE22DB992AF0FCA82E8BF70E92B42F6D2D",
+          "publicationDate": "1972",
+          "title": "Photoelectron Spectra of Azabenzenes and Azanaphthalenes: I. Pyridine, diazines, s\u2010triazine and s\u2010tetrazine"
+        },
+        "lucn_query": "host.pages.first:\"401\" host.volume:\"11\" publicationDate:\"1971\" host.title:\"Phys. Leu\" author.name:\"Gleiter\" author.name:\"Hornung\" author.name:\"Hogberg\" author.name:\"Lozac 'h\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. Heilbronner"
+            },
+            {
+              "name": "R. Gleiter"
+            },
+            {
+              "name": "H. Hopf"
+            },
+            {
+              "name": "V. Hornung"
+            },
+            {
+              "name": "A. De Meijere"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/hlca.19710540303"
+          ],
+          "host": {
+            "pages": {
+              "first": "783",
+              "last": "794"
+            },
+            "title": "Helvetica Chimica Acta",
+            "volume": "54"
+          },
+          "id": "C488B7080CB70648F481E3DECE8AF6B45C51D147",
+          "publicationDate": "1971",
+          "title": "Photoelectron\u2010Spectroscopic Evidence for the Orbital Sequence in Fulvene and 3, 4\u2010Dimethylene\u2010cyclobutene"
+        },
+        "lucn_query": "host.pages.first:401 host.volume:11 publicationDate:1971 host.title:(Phys Leu) author.name:(Gleiter Hornung Hogberg Lozac Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Gleiter"
+            },
+            {
+              "name": "V. Hornung"
+            },
+            {
+              "name": "B. Lindberg"
+            },
+            {
+              "name": "S. H\u00f6gberg"
+            },
+            {
+              "name": "N. Lozac'h"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(71)80369-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "401",
+              "last": "404"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "11"
+          },
+          "id": "CFCBF25D577DC1C16ECCB9392FE6E19DDFB16D7F",
+          "publicationDate": "1971",
+          "title": "The He-584 \u00c5 and X-ray photoelectron spectra of thiathiophthenes"
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1971) AND (host.pages.first:401 host.title:(Phys Leu) author.name:(Gleiter Hornung Hogberg Lozac Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Gleiter"
+            },
+            {
+              "name": "V. Hornung"
+            },
+            {
+              "name": "B. Lindberg"
+            },
+            {
+              "name": "S. H\u00f6gberg"
+            },
+            {
+              "name": "N. Lozac'h"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(71)80369-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "401",
+              "last": "404"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "11"
+          },
+          "id": "CFCBF25D577DC1C16ECCB9392FE6E19DDFB16D7F",
+          "publicationDate": "1971",
+          "title": "The He-584 \u00c5 and X-ray photoelectron spectra of thiathiophthenes"
+        },
+        "lucn_query": "(host.volume:11 AND publicationDate:1971) AND (host.pages.first:401 host.title:(Phys* Leu*) author.name:(Gleiter Hornung Hogberg Lozac Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:401 AND host.volume:11 AND publicationDate:1971 AND host.title:(Phys Leu) AND author.name:(Gleiter Hornung Hogberg Lozac Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Gleiter"
+            },
+            {
+              "name": "V. Hornung"
+            },
+            {
+              "name": "B. Lindberg"
+            },
+            {
+              "name": "S. H\u00f6gberg"
+            },
+            {
+              "name": "N. Lozac'h"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(71)80369-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "401",
+              "last": "404"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "11"
+          },
+          "id": "CFCBF25D577DC1C16ECCB9392FE6E19DDFB16D7F",
+          "publicationDate": "1971",
+          "title": "The He-584 \u00c5 and X-ray photoelectron spectra of thiathiophthenes"
+        },
+        "lucn_query": "host.pages.first:401 AND host.volume:11 AND publicationDate:1971 AND host.title:(Phys* Leu*) AND author.name:(Gleiter Hornung Hogberg Lozac Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Deuy</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">92</biblScope>\n   <biblScope unit=\"page\">508</biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. Hartke"
+            },
+            {
+              "name": "E. Kolba"
+            },
+            {
+              "name": "J. Manz"
+            },
+            {
+              "name": "H. H. R. Schor"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bbpc.199000022"
+          ],
+          "host": {
+            "pages": {
+              "first": "1312",
+              "last": "1318"
+            },
+            "title": "Berichte der Bunsengesellschaft f\u00fcr physikalische Chemie",
+            "volume": "94"
+          },
+          "id": "27681315C5FCFAB4FC50AF0802D2A3A4B6AC43EA",
+          "publicationDate": "1990",
+          "title": "Model Calculations on Laser Induced Dissociation of Bromine with Control of Electronic Product Excitation"
+        },
+        "lucn_query": "B J Deuy Chern Phys 92 508 1990",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"508\" AND host.volume:\"92\" AND publicationDate:\"1990\" AND host.title:\"Phys\" AND author.name:\"Deuy\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chorng\u2010Shyan Chern"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/app.1990.070401130"
+          ],
+          "host": {
+            "pages": {
+              "first": "2189",
+              "last": "2205"
+            },
+            "title": "Journal of Applied Polymer Science",
+            "volume": "40"
+          },
+          "id": "640C5A1E7D08503D0A3D3CEDC8185529BF4719B7",
+          "publicationDate": "1990",
+          "title": "Curing kinetics of polyurethane reactions"
+        },
+        "lucn_query": "host.pages.first:\"508\" host.volume:\"92\" publicationDate:\"1990\" host.title:\"Phys\" author.name:\"Deuy\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chorng\u2010Shyan Chern"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/app.1990.070401130"
+          ],
+          "host": {
+            "pages": {
+              "first": "2189",
+              "last": "2205"
+            },
+            "title": "Journal of Applied Polymer Science",
+            "volume": "40"
+          },
+          "id": "640C5A1E7D08503D0A3D3CEDC8185529BF4719B7",
+          "publicationDate": "1990",
+          "title": "Curing kinetics of polyurethane reactions"
+        },
+        "lucn_query": "host.pages.first:508 host.volume:92 publicationDate:1990 host.title:Phys author.name:(Deuy Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:92 AND publicationDate:1990) AND (host.pages.first:508 host.title:Phys author.name:(Deuy Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:92 AND publicationDate:1990) AND (host.pages.first:508 host.title:(Phys*) author.name:(Deuy Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:508 AND host.volume:92 AND publicationDate:1990 AND host.title:Phys AND author.name:(Deuy Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:508 AND host.volume:92 AND publicationDate:1990 AND host.title:(Phys*) AND author.name:(Deuy Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>St-Amant</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Salahub</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Lett</title>\n  <imprint>\n   <biblScope unit=\"volume\">169</biblScope>\n   <biblScope unit=\"page\">387</biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Fiona Sim"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            },
+            {
+              "name": "Steven Chin"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.560430403"
+          ],
+          "host": {
+            "pages": {
+              "first": "463",
+              "last": "479"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "43"
+          },
+          "id": "051BDD76E087CFE8B205EF1CD6B5B3043FD24599",
+          "publicationDate": "1992",
+          "title": "The accurate calculation of dipole moments and dipole polarizabilities using Gaussian\u2010based density functional methods"
+        },
+        "lucn_query": "A St-Amant D R Salahub Chern Phys. Lett 169 387 1990",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"387\" AND host.volume:\"169\" AND publicationDate:\"1990\" AND host.title:\"Phys. Lett\" AND author.name:\"St-Amant\" AND author.name:\"Salahub\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alain St-Amant"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(90)87064-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "392"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "169"
+          },
+          "id": "E88ADF58CD99A845B42FA7472210B8176A668900",
+          "publicationDate": "1990",
+          "title": "New algorithm for the optimization of geometries in local density functional theory"
+        },
+        "lucn_query": "host.pages.first:\"387\" host.volume:\"169\" publicationDate:\"1990\" host.title:\"Phys. Lett\" author.name:\"St-Amant\" author.name:\"Salahub\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alain St-Amant"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(90)87064-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "392"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "169"
+          },
+          "id": "E88ADF58CD99A845B42FA7472210B8176A668900",
+          "publicationDate": "1990",
+          "title": "New algorithm for the optimization of geometries in local density functional theory"
+        },
+        "lucn_query": "host.pages.first:387 host.volume:169 publicationDate:1990 host.title:(Phys Lett) author.name:(St Amant Salahub Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alain St-Amant"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(90)87064-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "392"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "169"
+          },
+          "id": "E88ADF58CD99A845B42FA7472210B8176A668900",
+          "publicationDate": "1990",
+          "title": "New algorithm for the optimization of geometries in local density functional theory"
+        },
+        "lucn_query": "(host.volume:169 AND publicationDate:1990) AND (host.pages.first:387 host.title:(Phys Lett) author.name:(St Amant Salahub Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alain St-Amant"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(90)87064-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "392"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "169"
+          },
+          "id": "E88ADF58CD99A845B42FA7472210B8176A668900",
+          "publicationDate": "1990",
+          "title": "New algorithm for the optimization of geometries in local density functional theory"
+        },
+        "lucn_query": "(host.volume:169 AND publicationDate:1990) AND (host.pages.first:387 host.title:(Phys* Lett*) author.name:(St Amant Salahub Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:387 AND host.volume:169 AND publicationDate:1990 AND host.title:(Phys Lett) AND author.name:(St Amant Salahub Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alain St-Amant"
+            },
+            {
+              "name": "Dennis R. Salahub"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(90)87064-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "392"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "169"
+          },
+          "id": "E88ADF58CD99A845B42FA7472210B8176A668900",
+          "publicationDate": "1990",
+          "title": "New algorithm for the optimization of geometries in local density functional theory"
+        },
+        "lucn_query": "host.pages.first:387 AND host.volume:169 AND publicationDate:1990 AND host.title:(Phys* Lett*) AND author.name:(St Amant Salahub Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>St-Amant</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Almlof</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">R J</forename>\n    <surname>Tayjor</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">84</biblScope>\n   <biblScope unit=\"page\">4070</biblScope>\n   <date type=\"published\" when=\"1987\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b17",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Isaiah Shavitt"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ijch.199300044"
+          ],
+          "host": {
+            "pages": {
+              "first": "357",
+              "last": "367"
+            },
+            "title": "Israel Journal of Chemistry",
+            "volume": "33"
+          },
+          "id": "3F0F70CCE131165BE86D28F8CF9DFCE6B1BD7CC2",
+          "publicationDate": "1993",
+          "title": "The History and Evolution of Gaussian Basis Sets"
+        },
+        "lucn_query": "J Almlof P R J Tayjor Chern Phys 84 4070 1987",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"4070\" AND host.volume:\"84\" AND publicationDate:\"1987\" AND host.title:\"Phys\" AND author.name:\"Almlof\" AND author.name:\"Tayjor\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chorng\u2010Shyan Chern"
+            },
+            {
+              "name": "Gary W. Poehlein"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pola.1987.080250215"
+          ],
+          "host": {
+            "pages": {
+              "first": "617",
+              "last": "635"
+            },
+            "title": "Journal of Polymer Science Part A: Polymer Chemistry",
+            "volume": "25"
+          },
+          "id": "DF0E09AEEB73114DA0BFB1CDAC16D759C65F9CE4",
+          "publicationDate": "1987",
+          "title": "Polymerization in nonuniform latex particles: Distribution of free radicals"
+        },
+        "lucn_query": "host.pages.first:\"4070\" host.volume:\"84\" publicationDate:\"1987\" host.title:\"Phys\" author.name:\"Almlof\" author.name:\"Tayjor\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chorng\u2010Shyan Chern"
+            },
+            {
+              "name": "Gary W. Poehlein"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pola.1987.080250215"
+          ],
+          "host": {
+            "pages": {
+              "first": "617",
+              "last": "635"
+            },
+            "title": "Journal of Polymer Science Part A: Polymer Chemistry",
+            "volume": "25"
+          },
+          "id": "DF0E09AEEB73114DA0BFB1CDAC16D759C65F9CE4",
+          "publicationDate": "1987",
+          "title": "Polymerization in nonuniform latex particles: Distribution of free radicals"
+        },
+        "lucn_query": "host.pages.first:4070 host.volume:84 publicationDate:1987 host.title:Phys author.name:(Almlof Tayjor Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:84 AND publicationDate:1987) AND (host.pages.first:4070 host.title:Phys author.name:(Almlof Tayjor Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:84 AND publicationDate:1987) AND (host.pages.first:4070 host.title:(Phys*) author.name:(Almlof Tayjor Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:4070 AND host.volume:84 AND publicationDate:1987 AND host.title:Phys AND author.name:(Almlof Tayjor Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:4070 AND host.volume:84 AND publicationDate:1987 AND host.title:(Phys*) AND author.name:(Almlof Tayjor Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b18\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Vasko</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Wilk</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Nusair</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Can. J. Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">58</biblScope>\n   <biblScope unit=\"page\">1200</biblScope>\n   <date type=\"published\" when=\"1980\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b18",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Nishihata"
+            },
+            {
+              "name": "J. Mizuki"
+            },
+            {
+              "name": "T. Akao"
+            },
+            {
+              "name": "H. Tanaka"
+            },
+            {
+              "name": "M. Uenishi"
+            },
+            {
+              "name": "M. Kimura"
+            },
+            {
+              "name": "T. Okamoto"
+            },
+            {
+              "name": "N. Hamada"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature00893"
+          ],
+          "host": {
+            "pages": {
+              "first": "164",
+              "last": "167"
+            },
+            "title": "Nature",
+            "volume": "418"
+          },
+          "id": "3A656A78DF38536F06DBA7955DA7630316F88267",
+          "publicationDate": "2002",
+          "title": "Self-regeneration of a Pd-perovskite catalyst for automotive emissions control"
+        },
+        "lucn_query": "S J Vasko L Wilk M Nusair Can. J. Phys 58 1200 1980",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1200\" AND host.volume:\"58\" AND publicationDate:\"1980\" AND host.title:\"Can. J. Phys\" AND author.name:\"Vasko\" AND author.name:\"Wilk\" AND author.name:\"Nusair\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Treleani"
+            },
+            {
+              "name": "G. Wilk"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02902473"
+          ],
+          "host": {
+            "pages": {
+              "first": "201",
+              "last": "219"
+            },
+            "title": "Il Nuovo Cimento A",
+            "volume": "60"
+          },
+          "id": "CEA09CB31128FD7CDE518257156D190637A45ADE",
+          "publicationDate": "1980",
+          "title": "Large- p T jet production on nuclei"
+        },
+        "lucn_query": "host.pages.first:\"1200\" host.volume:\"58\" publicationDate:\"1980\" host.title:\"Can. J. Phys\" author.name:\"Vasko\" author.name:\"Wilk\" author.name:\"Nusair\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Treleani"
+            },
+            {
+              "name": "G. Wilk"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02902473"
+          ],
+          "host": {
+            "pages": {
+              "first": "201",
+              "last": "219"
+            },
+            "title": "Il Nuovo Cimento A",
+            "volume": "60"
+          },
+          "id": "CEA09CB31128FD7CDE518257156D190637A45ADE",
+          "publicationDate": "1980",
+          "title": "Large- p T jet production on nuclei"
+        },
+        "lucn_query": "host.pages.first:1200 host.volume:58 publicationDate:1980 host.title:(Can J Phys) author.name:(Vasko Wilk Nusair)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:58 AND publicationDate:1980) AND (host.pages.first:1200 host.title:(Can J Phys) author.name:(Vasko Wilk Nusair))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Vijayan"
+            },
+            {
+              "name": "C. Ramachandran"
+            },
+            {
+              "name": "D. R. Woods"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cjce.5450580411"
+          ],
+          "host": {
+            "pages": {
+              "first": "485",
+              "last": "496"
+            },
+            "title": "The Canadian Journal of Chemical Engineering",
+            "volume": "58"
+          },
+          "id": "360E9932CB5A01230ED99F185790DD8DA32F5D2D",
+          "publicationDate": "1980",
+          "title": "Bulk and interfacial physical properties of aqueous solutions of sodium lauryl sulphate: Part IV: Dilute aqueous solution behavior by electron spin resonance studies and by pH and surface tension measurements"
+        },
+        "lucn_query": "(host.volume:58 AND publicationDate:1980) AND (host.pages.first:1200 host.title:(Can* journal Phys*) author.name:(Vasko Wilk Nusair))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1200 AND host.volume:58 AND publicationDate:1980 AND host.title:(Can J Phys) AND author.name:(Vasko Wilk Nusair)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1200 AND host.volume:58 AND publicationDate:1980 AND host.title:(Can* journal Phys*) AND author.name:(Vasko Wilk Nusair)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b19\">\n <monogr>\n  <title level=\"m\" type=\"main\">Quantum Cnem</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Slater</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Adv</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1972\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b19",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b20\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Asbrink</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Fridh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <surname>Lindholm</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Lett</title>\n  <imprint>\n   <biblScope unit=\"volume\">52</biblScope>\n   <biblScope unit=\"page\">69</biblScope>\n   <date type=\"published\" when=\"1977\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b20",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Min Yu"
+            },
+            {
+              "name": "Qing Jiang"
+            },
+            {
+              "name": "Pierre R. LeBreton"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.560440707"
+          ],
+          "host": {
+            "pages": {
+              "first": "27",
+              "last": "41"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "44"
+          },
+          "id": "39FC96A8949C993BD8A93C27E5D810C8916FBB7C",
+          "publicationDate": "1992",
+          "title": "Configuration interaction effects on He(I) photoelectron spectra of nucleotide bases: Evidence for valence electron hole\u2010mixing in 1,9\u2010dimethylguanine"
+        },
+        "lucn_query": "L Asbrink C Fridh E Lindholm Chern Phys. Lett 52 69 1977",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"69\" AND host.volume:\"52\" AND publicationDate:\"1977\" AND host.title:\"Phys. Lett\" AND author.name:\"Asbrink\" AND author.name:\"Fridh\" AND author.name:\"Lindholm\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. \u00c5sbrink"
+            },
+            {
+              "name": "C. Fridh"
+            },
+            {
+              "name": "E. Lindholm"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(77)85121-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "68"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "52"
+          },
+          "id": "38CDFABB64EDB63EF60199AF81313C08C74F3587",
+          "publicationDate": "1977",
+          "title": "HAM/3, a semi-empirical MO theory. I. The SCF method"
+        },
+        "lucn_query": "host.pages.first:\"69\" host.volume:\"52\" publicationDate:\"1977\" host.title:\"Phys. Lett\" author.name:\"Asbrink\" author.name:\"Fridh\" author.name:\"Lindholm\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. \u00c5sbrink"
+            },
+            {
+              "name": "C. Fridh"
+            },
+            {
+              "name": "E. Lindholm"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(77)85121-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "68"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "52"
+          },
+          "id": "38CDFABB64EDB63EF60199AF81313C08C74F3587",
+          "publicationDate": "1977",
+          "title": "HAM/3, a semi-empirical MO theory. I. The SCF method"
+        },
+        "lucn_query": "host.pages.first:69 host.volume:52 publicationDate:1977 host.title:(Phys Lett) author.name:(Asbrink Fridh Lindholm Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. \u00c5sbrink"
+            },
+            {
+              "name": "C. Fridh"
+            },
+            {
+              "name": "E. Lindholm"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(77)85121-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "68"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "52"
+          },
+          "id": "38CDFABB64EDB63EF60199AF81313C08C74F3587",
+          "publicationDate": "1977",
+          "title": "HAM/3, a semi-empirical MO theory. I. The SCF method"
+        },
+        "lucn_query": "(host.volume:52 AND publicationDate:1977) AND (host.pages.first:69 host.title:(Phys Lett) author.name:(Asbrink Fridh Lindholm Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. \u00c5sbrink"
+            },
+            {
+              "name": "C. Fridh"
+            },
+            {
+              "name": "E. Lindholm"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(77)85121-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "63",
+              "last": "68"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "52"
+          },
+          "id": "38CDFABB64EDB63EF60199AF81313C08C74F3587",
+          "publicationDate": "1977",
+          "title": "HAM/3, a semi-empirical MO theory. I. The SCF method"
+        },
+        "lucn_query": "(host.volume:52 AND publicationDate:1977) AND (host.pages.first:69 host.title:(Phys* Lett*) author.name:(Asbrink Fridh Lindholm Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:69 AND host.volume:52 AND publicationDate:1977 AND host.title:(Phys Lett) AND author.name:(Asbrink Fridh Lindholm Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. \u00c5sbrink"
+            },
+            {
+              "name": "C. Fridh"
+            },
+            {
+              "name": "E. Lindholm"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(77)85122-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "71"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "52"
+          },
+          "id": "31A6A05919420F56B2BD89073EA4F9EB46E39F1B",
+          "publicationDate": "1977",
+          "title": "HAM/3, a semi-empirical MO theory. II. Photoelectron spectra"
+        },
+        "lucn_query": "host.pages.first:69 AND host.volume:52 AND publicationDate:1977 AND host.title:(Phys* Lett*) AND author.name:(Asbrink Fridh Lindholm Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b21\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Chong</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Chin. Chem. Soc</title>\n  <imprint>\n   <biblScope unit=\"volume\">6</biblScope>\n   <biblScope unit=\"page\">20</biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b21",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Liu"
+            },
+            {
+              "name": "I.P. Sugar"
+            },
+            {
+              "name": "P.L. Chong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0006-3495(97)78868-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "2243",
+              "last": "2254"
+            },
+            "title": "Biophysical Journal",
+            "volume": "72"
+          },
+          "id": "1B8F6C1843E7F3074584D8B1A60EF1CC4AABF95D",
+          "publicationDate": "1997",
+          "title": "Cholesterol and ergosterol superlattices in three-component liquid crystalline lipid bilayers as revealed by dehydroergosterol fluorescence"
+        },
+        "lucn_query": "D P Chong J. Chin. Chem. Soc 6 20 1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"20\" AND host.volume:\"6\" AND publicationDate:\"1992\" AND host.title:\"J. Chin. Chem. Soc\" AND author.name:\"Chong\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. H. Chong"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1445-5994.1992.tb02796.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "145",
+              "last": "152"
+            },
+            "title": "Australian and New Zealand Journal of Medicine",
+            "volume": "22"
+          },
+          "id": "6BF971986CC7AE163BFA1B930A67E06995D3B530",
+          "publicationDate": "1992",
+          "title": "Heparin\u2010induced thrombocytopenia"
+        },
+        "lucn_query": "host.pages.first:\"20\" host.volume:\"6\" publicationDate:\"1992\" host.title:\"J. Chin. Chem. Soc\" author.name:\"Chong\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. H. Chong"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1445-5994.1992.tb02796.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "145",
+              "last": "152"
+            },
+            "title": "Australian and New Zealand Journal of Medicine",
+            "volume": "22"
+          },
+          "id": "6BF971986CC7AE163BFA1B930A67E06995D3B530",
+          "publicationDate": "1992",
+          "title": "Heparin\u2010induced thrombocytopenia"
+        },
+        "lucn_query": "host.pages.first:20 host.volume:6 publicationDate:1992 host.title:(J Chin Chem Soc) author.name:Chong",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jonathan K. Chong"
+            },
+            {
+              "name": "Lois Cantrell"
+            },
+            {
+              "name": "Mazhar Husain"
+            },
+            {
+              "name": "Sue Riesing"
+            },
+            {
+              "name": "Barney E. Miller"
+            },
+            {
+              "name": "Jack Wands"
+            },
+            {
+              "name": "Suzanne de la Monte"
+            },
+            {
+              "name": "Hossein A. Ghanbari"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jcla.1860060608"
+          ],
+          "host": {
+            "pages": {
+              "first": "379",
+              "last": "383"
+            },
+            "title": "Journal of Clinical Laboratory Analysis",
+            "volume": "6"
+          },
+          "id": "5B91559C7E4D276FFECCCB179E68ACCB7D182D14",
+          "publicationDate": "1992",
+          "title": "Automated microparticle enzyme immunoassay for neural thread protein in cerebrospinal fluid from alzheimer's disease patients"
+        },
+        "lucn_query": "(host.volume:6 AND publicationDate:1992) AND (host.pages.first:20 host.title:(J Chin Chem Soc) author.name:Chong)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jonathan K. Chong"
+            },
+            {
+              "name": "Lois Cantrell"
+            },
+            {
+              "name": "Mazhar Husain"
+            },
+            {
+              "name": "Sue Riesing"
+            },
+            {
+              "name": "Barney E. Miller"
+            },
+            {
+              "name": "Jack Wands"
+            },
+            {
+              "name": "Suzanne de la Monte"
+            },
+            {
+              "name": "Hossein A. Ghanbari"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jcla.1860060608"
+          ],
+          "host": {
+            "pages": {
+              "first": "379",
+              "last": "383"
+            },
+            "title": "Journal of Clinical Laboratory Analysis",
+            "volume": "6"
+          },
+          "id": "5B91559C7E4D276FFECCCB179E68ACCB7D182D14",
+          "publicationDate": "1992",
+          "title": "Automated microparticle enzyme immunoassay for neural thread protein in cerebrospinal fluid from alzheimer's disease patients"
+        },
+        "lucn_query": "(host.volume:6 AND publicationDate:1992) AND (host.pages.first:20 host.title:(journal Chin* Chem* Soc*) author.name:Chong)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:20 AND host.volume:6 AND publicationDate:1992 AND host.title:(J Chin Chem Soc) AND author.name:Chong",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:20 AND host.volume:6 AND publicationDate:1992 AND host.title:(journal Chin* Chem* Soc*) AND author.name:Chong",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b22\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Hirshfeld</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">/</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Isr</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chem</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1977\"></date>\n   <biblScope unit=\"page\">226</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b22",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b23\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Meyer</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1987\"></date>\n   <biblScope unit=\"page\">81</biblScope>\n  </imprint>\n </monogr>\n <note>Struct. .i'Iheochem</note>\n</biblStruct>\n\n",
+    "bib_id": "b23",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b24\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <surname>Meyer</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Lett</title>\n  <imprint>\n   <biblScope unit=\"volume\">97</biblScope>\n   <biblScope unit=\"page\">270</biblScope>\n   <date type=\"published\" when=\"1983\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b24",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. Hartke"
+            },
+            {
+              "name": "E. Kolba"
+            },
+            {
+              "name": "J. Manz"
+            },
+            {
+              "name": "H. H. R. Schor"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bbpc.199000022"
+          ],
+          "host": {
+            "pages": {
+              "first": "1312",
+              "last": "1318"
+            },
+            "title": "Berichte der Bunsengesellschaft f\u00fcr physikalische Chemie",
+            "volume": "94"
+          },
+          "id": "27681315C5FCFAB4FC50AF0802D2A3A4B6AC43EA",
+          "publicationDate": "1990",
+          "title": "Model Calculations on Laser Induced Dissociation of Bromine with Control of Electronic Product Excitation"
+        },
+        "lucn_query": "I Meyer Chern Phys. Lett 97 270 1983",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"270\" AND host.volume:\"97\" AND publicationDate:\"1983\" AND host.title:\"Phys. Lett\" AND author.name:\"Meyer\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y.P. Vaid"
+            },
+            {
+              "name": "J.C. Chern"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0261-7277(83)90014-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "171",
+              "last": "177"
+            },
+            "title": "International Journal of Soil Dynamics and Earthquake Engineering",
+            "volume": "2"
+          },
+          "id": "825152F21C01EEA1624BB5795FEBF99C449F48AA",
+          "publicationDate": "1983",
+          "title": "Mechanism of deformation during cyclic undrained loading of saturated sands"
+        },
+        "lucn_query": "host.pages.first:\"270\" host.volume:\"97\" publicationDate:\"1983\" host.title:\"Phys. Lett\" author.name:\"Meyer\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y.P. Vaid"
+            },
+            {
+              "name": "J.C. Chern"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0261-7277(83)90014-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "171",
+              "last": "177"
+            },
+            "title": "International Journal of Soil Dynamics and Earthquake Engineering",
+            "volume": "2"
+          },
+          "id": "825152F21C01EEA1624BB5795FEBF99C449F48AA",
+          "publicationDate": "1983",
+          "title": "Mechanism of deformation during cyclic undrained loading of saturated sands"
+        },
+        "lucn_query": "host.pages.first:270 host.volume:97 publicationDate:1983 host.title:(Phys Lett) author.name:(Meyer Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Breitenstein"
+            },
+            {
+              "name": "Andreas Endesfelder"
+            },
+            {
+              "name": "Hermann Meyer"
+            },
+            {
+              "name": "Armin Schweig"
+            },
+            {
+              "name": "Werner Zittlau"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(83)80517-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "403",
+              "last": "409"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "97"
+          },
+          "id": "86979E28524D0E9CAFCA99C7AE655305D827E288",
+          "publicationDate": "1983",
+          "title": "Electron-correlation effects in electron-scattering cross-section calculations of N2"
+        },
+        "lucn_query": "(host.volume:97 AND publicationDate:1983) AND (host.pages.first:270 host.title:(Phys Lett) author.name:(Meyer Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin Breitenstein"
+            },
+            {
+              "name": "Andreas Endesfelder"
+            },
+            {
+              "name": "Hermann Meyer"
+            },
+            {
+              "name": "Armin Schweig"
+            },
+            {
+              "name": "Werner Zittlau"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0009-2614(83)80517-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "403",
+              "last": "409"
+            },
+            "title": "Chemical Physics Letters",
+            "volume": "97"
+          },
+          "id": "86979E28524D0E9CAFCA99C7AE655305D827E288",
+          "publicationDate": "1983",
+          "title": "Electron-correlation effects in electron-scattering cross-section calculations of N2"
+        },
+        "lucn_query": "(host.volume:97 AND publicationDate:1983) AND (host.pages.first:270 host.title:(Phys* Lett*) author.name:(Meyer Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:270 AND host.volume:97 AND publicationDate:1983 AND host.title:(Phys Lett) AND author.name:(Meyer Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:270 AND host.volume:97 AND publicationDate:1983 AND host.title:(Phys* Lett*) AND author.name:(Meyer Chern)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b25\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Reed</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Weinhold</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Curtiss</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Chern</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Rev</title>\n  <imprint>\n   <biblScope unit=\"page\">88899</biblScope>\n   <date type=\"published\" when=\"1988\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b25",
+    "findout_errs": [],
+    "parent_doc": "9C12CBC2CDB61154C26A020A05245CA8C35E12BC",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alan E. Reed"
+            },
+            {
+              "name": "Frank Weinhold"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ijch.199100032"
+          ],
+          "host": {
+            "pages": {
+              "first": "277",
+              "last": "285"
+            },
+            "title": "Israel Journal of Chemistry",
+            "volume": "31"
+          },
+          "id": "A3804FBAB0884E76BE94BFD5172467B497F8D917",
+          "publicationDate": "1991",
+          "title": "Natural Bond Orbital Analysis of Internal Rotation Barriers and Related Phenomena"
+        },
+        "lucn_query": "A E Reed F Weinhold L A Curtiss Chern Rev 88899 1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"88899\" AND publicationDate:\"1988\" AND host.title:\"Rev\" AND author.name:\"Reed\" AND author.name:\"Weinhold\" AND author.name:\"Curtiss\" AND author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Larry A. Curtiss"
+            },
+            {
+              "name": "Carlos A. Melendres"
+            },
+            {
+              "name": "Alan E. Reed"
+            },
+            {
+              "name": "Frank Weinhold"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jcc.540070307"
+          ],
+          "host": {
+            "pages": {
+              "first": "294",
+              "last": "305"
+            },
+            "title": "Journal of Computational Chemistry",
+            "volume": "7"
+          },
+          "id": "FB7DE066C9E89778CA08F7E3659AD39E8F38E4A6",
+          "publicationDate": "1986",
+          "title": "Theoretical studies of O2\u2212:(H2O)n clusters"
+        },
+        "lucn_query": "host.pages.first:\"88899\" publicationDate:\"1988\" host.title:\"Rev\" author.name:\"Reed\" author.name:\"Weinhold\" author.name:\"Curtiss\" author.name:\"Chern\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Larry A. Curtiss"
+            },
+            {
+              "name": "Carlos A. Melendres"
+            },
+            {
+              "name": "Alan E. Reed"
+            },
+            {
+              "name": "Frank Weinhold"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jcc.540070307"
+          ],
+          "host": {
+            "pages": {
+              "first": "294",
+              "last": "305"
+            },
+            "title": "Journal of Computational Chemistry",
+            "volume": "7"
+          },
+          "id": "FB7DE066C9E89778CA08F7E3659AD39E8F38E4A6",
+          "publicationDate": "1986",
+          "title": "Theoretical studies of O2\u2212:(H2O)n clusters"
+        },
+        "lucn_query": "host.pages.first:88899 publicationDate:1988 host.title:Rev author.name:(Reed Weinhold Curtiss Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.E. Carpenter"
+            },
+            {
+              "name": "F. Weinhold"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0166-1280(88)80248-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "41",
+              "last": "62"
+            },
+            "title": "Journal of Molecular Structure: THEOCHEM",
+            "volume": "169"
+          },
+          "id": "F9850501965B7BE9F3A714FC46CAB5A2538E02A9",
+          "publicationDate": "1988",
+          "title": "Analysis of the geometry of the hydroxymethyl radical by the \u201cdifferent hybrids for different spins\u201d natural bond orbital procedure"
+        },
+        "lucn_query": "(publicationDate:1988) AND (host.pages.first:88899 host.title:Rev author.name:(Reed Weinhold Curtiss Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.E. Carpenter"
+            },
+            {
+              "name": "F. Weinhold"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0166-1280(88)80248-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "41",
+              "last": "62"
+            },
+            "title": "Journal of Molecular Structure: THEOCHEM",
+            "volume": "169"
+          },
+          "id": "F9850501965B7BE9F3A714FC46CAB5A2538E02A9",
+          "publicationDate": "1988",
+          "title": "Analysis of the geometry of the hydroxymethyl radical by the \u201cdifferent hybrids for different spins\u201d natural bond orbital procedure"
+        },
+        "lucn_query": "(publicationDate:1988) AND (host.pages.first:88899 host.title:(Rev*) author.name:(Reed Weinhold Curtiss Chern))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:88899 AND publicationDate:1988 AND host.title:Rev AND author.name:(Reed Weinhold Curtiss Chern)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:88899 AND publicationDate:1988 AND host.title:(Rev*) AND author.name:(Reed Weinhold Curtiss Chern)",
+        "match_flag": false
+      }
+    ]
+  }
+]

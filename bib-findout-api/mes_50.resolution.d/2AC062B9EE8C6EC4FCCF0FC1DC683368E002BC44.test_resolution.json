@@ -1,0 +1,1524 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">The Theory of Sound Scientific papers Vols. I, II and III (Cambridge, 1902)</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Lord</forename>\n    <surname>Rayleigh</surname>\n   </persName>\n  </author>\n  <editor>. S. Chandrasekhar, Hydrodynamic and Hydromagnetic Stability</editor>\n  <imprint>\n   <date type=\"published\" when=\"1945\"></date>\n   <publisher>Dover</publisher>\n   <pubPlace>New York ; Dover, New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Hertz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Hermanrud</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Fluid Mech</title>\n  <imprint>\n   <biblScope unit=\"volume\">131</biblScope>\n   <biblScope unit=\"page\">271</biblScope>\n   <date type=\"published\" when=\"1983\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Radev"
+            },
+            {
+              "name": "B. Tchavdarov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0301-9322(88)90034-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "67",
+              "last": "79"
+            },
+            "title": "International Journal of Multiphase Flow",
+            "volume": "14"
+          },
+          "id": "7A0EE2668D6545B494FE5A39BE6F0AABDBC58433",
+          "publicationDate": "1988",
+          "title": "Linear capillary instability of compound jets"
+        },
+        "lucn_query": "C H Hertz B Hermanrud J. Fluid Mech 131 271 1983",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"271\" AND host.volume:\"131\" AND publicationDate:\"1983\" AND host.title:\"J. Fluid Mech\" AND author.name:\"Hertz\" AND author.name:\"Hermanrud\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wolfgang Walz"
+            },
+            {
+              "name": "Leif Hertz"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0006-8993(83)90940-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "321",
+              "last": "328"
+            },
+            "title": "Brain Research",
+            "volume": "277"
+          },
+          "id": "0BF5E682110EEDCFBCFDB9D70FC4B31CFA988BD3",
+          "publicationDate": "1983",
+          "title": "Comparison between fluxes of potassium and of chloride in astrocytes in primary cultures"
+        },
+        "lucn_query": "host.pages.first:\"271\" host.volume:\"131\" publicationDate:\"1983\" host.title:\"J. Fluid Mech\" author.name:\"Hertz\" author.name:\"Hermanrud\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wolfgang Walz"
+            },
+            {
+              "name": "Leif Hertz"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0006-8993(83)90940-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "321",
+              "last": "328"
+            },
+            "title": "Brain Research",
+            "volume": "277"
+          },
+          "id": "0BF5E682110EEDCFBCFDB9D70FC4B31CFA988BD3",
+          "publicationDate": "1983",
+          "title": "Comparison between fluxes of potassium and of chloride in astrocytes in primary cultures"
+        },
+        "lucn_query": "host.pages.first:271 host.volume:131 publicationDate:1983 host.title:(J Fluid Mech) author.name:(Hertz Hermanrud)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.G. Miller"
+            },
+            {
+              "name": "J.P. Vary"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0370-2693(83)90496-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "274"
+            },
+            "title": "Physics Letters B",
+            "volume": "131"
+          },
+          "id": "944D16F99BBE9CA178F2F35A2721F03A5227C95A",
+          "publicationDate": "1983",
+          "title": "Spurious center of mass effects in a dynamically determined basis"
+        },
+        "lucn_query": "(host.volume:131 AND publicationDate:1983) AND (host.pages.first:271 host.title:(J Fluid Mech) author.name:(Hertz Hermanrud))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.G. Miller"
+            },
+            {
+              "name": "J.P. Vary"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0370-2693(83)90496-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "274"
+            },
+            "title": "Physics Letters B",
+            "volume": "131"
+          },
+          "id": "944D16F99BBE9CA178F2F35A2721F03A5227C95A",
+          "publicationDate": "1983",
+          "title": "Spurious center of mass effects in a dynamically determined basis"
+        },
+        "lucn_query": "(host.volume:131 AND publicationDate:1983) AND (host.pages.first:271 host.title:(journal Fluid* Mech*) author.name:(Hertz Hermanrud))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:271 AND host.volume:131 AND publicationDate:1983 AND host.title:(J Fluid Mech) AND author.name:(Hertz Hermanrud)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:271 AND host.volume:131 AND publicationDate:1983 AND host.title:(journal Fluid* Mech*) AND author.name:(Hertz Hermanrud)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Surin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Evchenko</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Rubin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Eng. Phys. (USA)</title>\n  <imprint>\n   <biblScope unit=\"volume\">45</biblScope>\n   <biblScope unit=\"page\">1091</biblScope>\n   <date type=\"published\" when=\"1983\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xiangfeng Duan"
+            },
+            {
+              "name": "Chunming Niu"
+            },
+            {
+              "name": "Vijendra Sahi"
+            },
+            {
+              "name": "Jian Chen"
+            },
+            {
+              "name": "J. Wallace Parce"
+            },
+            {
+              "name": "Stephen Empedocles"
+            },
+            {
+              "name": "Jay L. Goldman"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature01996"
+          ],
+          "host": {
+            "pages": {
+              "first": "274",
+              "last": "278"
+            },
+            "title": "Nature",
+            "volume": "425"
+          },
+          "id": "2E79F9FCCF4FC2C83F1886C382475332FF0AE3FA",
+          "publicationDate": "2003",
+          "title": "High-performance thin-film transistors using semiconductor nanowires and nanoribbons"
+        },
+        "lucn_query": "V A Surin V N Evchenko V M Rubin J. Eng. Phys. \\(USA\\) 45 1091 1983",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1091\" AND host.volume:\"45\" AND publicationDate:\"1983\" AND host.title:\"J. Eng. Phys. \\(USA\\)\" AND author.name:\"Surin\" AND author.name:\"Evchenko\" AND author.name:\"Rubin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. A. Surin"
+            },
+            {
+              "name": "V. N. Evchenko"
+            },
+            {
+              "name": "V. M. Rubin"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00827076"
+          ],
+          "host": {
+            "pages": {
+              "first": "1091",
+              "last": "1101"
+            },
+            "title": "Journal of engineering physics",
+            "volume": "45"
+          },
+          "id": "230E5EEE1560C585894DB8F00725C3289582CE0B",
+          "publicationDate": "1982",
+          "title": "Propagation of a gas jet in a liquid"
+        },
+        "lucn_query": "host.pages.first:\"1091\" host.volume:\"45\" publicationDate:\"1983\" host.title:\"J. Eng. Phys. \\(USA\\)\" author.name:\"Surin\" author.name:\"Evchenko\" author.name:\"Rubin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. A. Surin"
+            },
+            {
+              "name": "V. N. Evchenko"
+            },
+            {
+              "name": "V. M. Rubin"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00827076"
+          ],
+          "host": {
+            "pages": {
+              "first": "1091",
+              "last": "1101"
+            },
+            "title": "Journal of engineering physics",
+            "volume": "45"
+          },
+          "id": "230E5EEE1560C585894DB8F00725C3289582CE0B",
+          "publicationDate": "1982",
+          "title": "Propagation of a gas jet in a liquid"
+        },
+        "lucn_query": "host.pages.first:1091 host.volume:45 publicationDate:1983 host.title:(J Eng Phys USA) author.name:(Surin Evchenko Rubin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:45 AND publicationDate:1983) AND (host.pages.first:1091 host.title:(J Eng Phys USA) author.name:(Surin Evchenko Rubin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Narcisi"
+            },
+            {
+              "name": "A. Bailey"
+            },
+            {
+              "name": "G. Federico"
+            },
+            {
+              "name": "L. Wlodyka"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0021-9169(83)81107-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "461",
+              "last": "478"
+            },
+            "title": "Journal of Atmospheric and Terrestrial Physics",
+            "volume": "45"
+          },
+          "id": "6818826343E20D6060BC862536D4A4DE32DD53E3",
+          "publicationDate": "1983",
+          "title": "Positive and negative ion composition measurements in the D- and E-regions during the 26 February 1979 solar eclipse"
+        },
+        "lucn_query": "(host.volume:45 AND publicationDate:1983) AND (host.pages.first:1091 host.title:(journal Eng* Phys* USA*) author.name:(Surin Evchenko Rubin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1091 AND host.volume:45 AND publicationDate:1983 AND host.title:(J Eng Phys USA) AND author.name:(Surin Evchenko Rubin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1091 AND host.volume:45 AND publicationDate:1983 AND host.title:(journal Eng* Phys* USA*) AND author.name:(Surin Evchenko Rubin)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Esser</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">I</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Fluids Eng. (USA)</title>\n  <imprint>\n   <biblScope unit=\"volume\">106</biblScope>\n   <biblScope unit=\"page\">45</biblScope>\n   <date type=\"published\" when=\"1984\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Prof. Dr. Esser"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cite.330530602"
+          ],
+          "host": {
+            "pages": {
+              "first": "401",
+              "last": "408"
+            },
+            "title": "Chemie Ingenieur Technik",
+            "volume": "53"
+          },
+          "id": "47C03FB5E36D7ED8F491E30D6E57F8216C9C1E4E",
+          "publicationDate": "1981",
+          "title": "Genetik: Aufgaben, M\u00f6glichkeiten und Grenzen in der Biotechnologie"
+        },
+        "lucn_query": "P D Esser S I J. Fluids Eng. \\(USA\\) 106 45 1984",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"45\" AND host.volume:\"106\" AND publicationDate:\"1984\" AND host.title:\"J. Fluids Eng. \\(USA\\)\" AND author.name:\"Esser\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Esser"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.560260303"
+          ],
+          "host": {
+            "pages": {
+              "first": "313",
+              "last": "338"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "26"
+          },
+          "id": "37A305D8BEB19E9309EFC3C73DDA2A136A0674DA",
+          "publicationDate": "1984",
+          "title": "Direct MRCI method for the calculation of relativistic many\u2010electron wavefunctions. I. General formalism"
+        },
+        "lucn_query": "host.pages.first:\"45\" host.volume:\"106\" publicationDate:\"1984\" host.title:\"J. Fluids Eng. \\(USA\\)\" author.name:\"Esser\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. Esser"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/qua.560260303"
+          ],
+          "host": {
+            "pages": {
+              "first": "313",
+              "last": "338"
+            },
+            "title": "International Journal of Quantum Chemistry",
+            "volume": "26"
+          },
+          "id": "37A305D8BEB19E9309EFC3C73DDA2A136A0674DA",
+          "publicationDate": "1984",
+          "title": "Direct MRCI method for the calculation of relativistic many\u2010electron wavefunctions. I. General formalism"
+        },
+        "lucn_query": "host.pages.first:45 host.volume:106 publicationDate:1984 host.title:(J Fluids Eng USA) author.name:Esser",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Cynthia J. Fisher"
+            },
+            {
+              "name": "W.Michael O'Guin"
+            },
+            {
+              "name": "Roger H. Sawyer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0012-1606(84)90059-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "45",
+              "last": "52"
+            },
+            "title": "Developmental Biology",
+            "volume": "106"
+          },
+          "id": "390DC161730F460392AB07C53E09457B7C555DEF",
+          "publicationDate": "1984",
+          "title": "Altered keratin biosynthesis follows inhibition of scale morphogenesis by hydrocortisone"
+        },
+        "lucn_query": "(host.volume:106 AND publicationDate:1984) AND (host.pages.first:45 host.title:(J Fluids Eng USA) author.name:Esser)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Rudolf Markstein"
+            },
+            {
+              "name": "Dominique Lahaye"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0014-2999(84)90717-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "301",
+              "last": "311"
+            },
+            "title": "European Journal of Pharmacology",
+            "volume": "106"
+          },
+          "id": "23DB68424CB1123082D3DF620AC375F150A0053F",
+          "publicationDate": "1984",
+          "title": "Neurochemical investigations in vitro with 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) in preparations of rat brain"
+        },
+        "lucn_query": "(host.volume:106 AND publicationDate:1984) AND (host.pages.first:45 host.title:(journal Fluids* Eng* USA*) author.name:Esser)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:45 AND host.volume:106 AND publicationDate:1984 AND host.title:(J Fluids Eng USA) AND author.name:Esser",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:45 AND host.volume:106 AND publicationDate:1984 AND host.title:(journal Fluids* Eng* USA*) AND author.name:Esser",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">Y</forename>\n    <surname>Cheng</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Fluids</title>\n  <imprint>\n   <biblScope unit=\"volume\">28</biblScope>\n   <biblScope unit=\"page\">2614</biblScope>\n   <date type=\"published\" when=\"1985\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.Z. Cheng"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0370-1573(92)90166-W"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "51"
+            },
+            "title": "Physics Reports",
+            "volume": "211"
+          },
+          "id": "60B7836CCCFA0419048FA1F18E996D5E19E3A443",
+          "publicationDate": "1992",
+          "title": "Kinetic extensions of magnetohydrodynamics for axisymmetric toroidal plasmas"
+        },
+        "lucn_query": "L Y Cheng Phys. Fluids 28 2614 1985",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"2614\" AND host.volume:\"28\" AND publicationDate:\"1985\" AND host.title:\"Phys. Fluids\" AND author.name:\"Cheng\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.T. Hsu"
+            },
+            {
+              "name": "P. Cheng"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0017-9310(85)90190-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "683",
+              "last": "697"
+            },
+            "title": "International Journal of Heat and Mass Transfer",
+            "volume": "28"
+          },
+          "id": "1D13965D898677418F8AEF1F4141E14309033A0A",
+          "publicationDate": "1985",
+          "title": "The Brinkman model for natural convection about a semi-infinite vertical flat plate in a porous medium"
+        },
+        "lucn_query": "host.pages.first:\"2614\" host.volume:\"28\" publicationDate:\"1985\" host.title:\"Phys. Fluids\" author.name:\"Cheng\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.T. Hsu"
+            },
+            {
+              "name": "P. Cheng"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0017-9310(85)90190-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "683",
+              "last": "697"
+            },
+            "title": "International Journal of Heat and Mass Transfer",
+            "volume": "28"
+          },
+          "id": "1D13965D898677418F8AEF1F4141E14309033A0A",
+          "publicationDate": "1985",
+          "title": "The Brinkman model for natural convection about a semi-infinite vertical flat plate in a porous medium"
+        },
+        "lucn_query": "host.pages.first:2614 host.volume:28 publicationDate:1985 host.title:(Phys Fluids) author.name:Cheng",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.T. Hsu"
+            },
+            {
+              "name": "P. Cheng"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0017-9310(85)90190-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "683",
+              "last": "697"
+            },
+            "title": "International Journal of Heat and Mass Transfer",
+            "volume": "28"
+          },
+          "id": "1D13965D898677418F8AEF1F4141E14309033A0A",
+          "publicationDate": "1985",
+          "title": "The Brinkman model for natural convection about a semi-infinite vertical flat plate in a porous medium"
+        },
+        "lucn_query": "(host.volume:28 AND publicationDate:1985) AND (host.pages.first:2614 host.title:(Phys Fluids) author.name:Cheng)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.T. Hsu"
+            },
+            {
+              "name": "P. Cheng"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0017-9310(85)90190-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "683",
+              "last": "697"
+            },
+            "title": "International Journal of Heat and Mass Transfer",
+            "volume": "28"
+          },
+          "id": "1D13965D898677418F8AEF1F4141E14309033A0A",
+          "publicationDate": "1985",
+          "title": "The Brinkman model for natural convection about a semi-infinite vertical flat plate in a porous medium"
+        },
+        "lucn_query": "(host.volume:28 AND publicationDate:1985) AND (host.pages.first:2614 host.title:(Phys* Fluids*) author.name:Cheng)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2614 AND host.volume:28 AND publicationDate:1985 AND host.title:(Phys Fluids) AND author.name:Cheng",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2614 AND host.volume:28 AND publicationDate:1985 AND host.title:(Phys* Fluids*) AND author.name:Cheng",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Kendall</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Fluids</title>\n  <imprint>\n   <biblScope unit=\"volume\">29</biblScope>\n   <biblScope unit=\"page\">2086</biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. P. FOSTER"
+            },
+            {
+              "name": "P. LEES"
+            },
+            {
+              "name": "M. J. ANDREWS"
+            },
+            {
+              "name": "F. M. CUNNINGHAM"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2042-3306.1992.tb02815.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "207"
+            },
+            "title": "Equine Veterinary Journal",
+            "volume": "24"
+          },
+          "id": "22C53904BB772F9F36965B38AC284134D5399ABC",
+          "publicationDate": "1992",
+          "title": "Effects of WEB 2086, an antagonist to the receptor for platelet\u2010activating factor (PAF), on PAF\u2010induced responses in the horse"
+        },
+        "lucn_query": "J M Kendall Phys. Fluids 29 2086 1986",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"2086\" AND host.volume:\"29\" AND publicationDate:\"1986\" AND host.title:\"Phys. Fluids\" AND author.name:\"Kendall\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. Kendall"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00313918"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "335"
+            },
+            "title": "Journal of Neurology",
+            "volume": "233"
+          },
+          "id": "1FC8BF0E887D2564D194272262204A5100E477EF",
+          "publicationDate": "1986",
+          "title": "Embolisation techniques in neuroradiology"
+        },
+        "lucn_query": "host.pages.first:\"2086\" host.volume:\"29\" publicationDate:\"1986\" host.title:\"Phys. Fluids\" author.name:\"Kendall\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. Kendall"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00313918"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "335"
+            },
+            "title": "Journal of Neurology",
+            "volume": "233"
+          },
+          "id": "1FC8BF0E887D2564D194272262204A5100E477EF",
+          "publicationDate": "1986",
+          "title": "Embolisation techniques in neuroradiology"
+        },
+        "lucn_query": "host.pages.first:2086 host.volume:29 publicationDate:1986 host.title:(Phys Fluids) author.name:Kendall",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. E. Kendall"
+            },
+            {
+              "name": "S. G. Boyd"
+            },
+            {
+              "name": "J. Egger"
+            },
+            {
+              "name": "B. N. Harding"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00327545"
+          ],
+          "host": {
+            "pages": {
+              "first": "174",
+              "last": "180"
+            },
+            "title": "Neuroradiology",
+            "volume": "29"
+          },
+          "id": "A476BF9D6CEF05687C9BD08ADADA10CFA3246BE6",
+          "publicationDate": "1986",
+          "title": "Progressive neuronal degeneration of childhood with liver disease"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1986) AND (host.pages.first:2086 host.title:(Phys Fluids) author.name:Kendall)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. E. Kendall"
+            },
+            {
+              "name": "S. G. Boyd"
+            },
+            {
+              "name": "J. Egger"
+            },
+            {
+              "name": "B. N. Harding"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00327545"
+          ],
+          "host": {
+            "pages": {
+              "first": "174",
+              "last": "180"
+            },
+            "title": "Neuroradiology",
+            "volume": "29"
+          },
+          "id": "A476BF9D6CEF05687C9BD08ADADA10CFA3246BE6",
+          "publicationDate": "1986",
+          "title": "Progressive neuronal degeneration of childhood with liver disease"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1986) AND (host.pages.first:2086 host.title:(Phys* Fluids*) author.name:Kendall)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2086 AND host.volume:29 AND publicationDate:1986 AND host.title:(Phys Fluids) AND author.name:Kendall",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2086 AND host.volume:29 AND publicationDate:1986 AND host.title:(Phys* Fluids*) AND author.name:Kendall",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Monin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Sov. Phys. USP (USA) Phys. Abst., Sci. Abst</title>\n  <editor>1104. A.E. Radwan and S.S. Elazab</editor>\n  <imprint>\n   <biblScope unit=\"volume\">29</biblScope>\n   <biblScope unit=\"page\" from=\"843\" to=\"61\"></biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n <note>series A</note>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.ndt.a091770"
+          ],
+          "host": {
+            "pages": {
+              "first": "851",
+              "last": "851"
+            },
+            "title": "Nephrology Dialysis Transplantation",
+            "volume": "3"
+          },
+          "id": "FF5A522254798A29D6F20470044E63C0EB5B9C3F",
+          "publicationDate": "1988",
+          "title": "Author Index to Volume 3"
+        },
+        "lucn_query": "A S Monin Sov. Phys. USP \\(USA\\) Phys. Abst., Sci. Abst 1104. A.E. Radwan and S.S. Elazab 29 series A 1986 843 61",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"29\" AND host.editor:\"1104. A.E. Radwan and S.S. Elazab\" AND host.pages.first:\"843\" AND author.name:\"Monin\" AND host.pages.last:\"61\" AND publicationDate:\"1986\" AND host.title:\"Sov. Phys. USP \\(USA\\) Phys. Abst., Sci. Abst\" AND \"series A\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.S. Monin"
+            },
+            {
+              "name": "E.A. Plakhin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0198-0149(82)90008-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1271",
+              "last": "1291"
+            },
+            "title": "Deep Sea Research Part A, Oceanographic Research Papers",
+            "volume": "29"
+          },
+          "id": "F691F74CED6B6CDEFD21BF517F48DFDEA83D9C7F",
+          "publicationDate": "1982",
+          "title": "Stratification and space-time variability of Red Sea hot brines"
+        },
+        "lucn_query": "host.volume:\"29\" host.editor:\"1104. A.E. Radwan and S.S. Elazab\" host.pages.first:\"843\" author.name:\"Monin\" host.pages.last:\"61\" publicationDate:\"1986\" host.title:\"Sov. Phys. USP \\(USA\\) Phys. Abst., Sci. Abst\" \"series A\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.S. Monin"
+            },
+            {
+              "name": "E.A. Plakhin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0198-0149(82)90008-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1271",
+              "last": "1291"
+            },
+            "title": "Deep Sea Research Part A, Oceanographic Research Papers",
+            "volume": "29"
+          },
+          "id": "F691F74CED6B6CDEFD21BF517F48DFDEA83D9C7F",
+          "publicationDate": "1982",
+          "title": "Stratification and space-time variability of Red Sea hot brines"
+        },
+        "lucn_query": "host.volume:29 host.pages.first:843 host.editor:(1104 Radwan Elazab) host.pages.last:61 series author.name:Monin host.title:(Sov Phys USP USA Phys Abst Sci Abst) publicationDate:1986",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. N. Chernega"
+            },
+            {
+              "name": "M. Yu. Antipin"
+            },
+            {
+              "name": "Yu. T. Struchkov"
+            },
+            {
+              "name": "E. A. Monin"
+            },
+            {
+              "name": "Z. S. Novikova"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00748836"
+          ],
+          "host": {
+            "pages": {
+              "first": "610",
+              "last": "614"
+            },
+            "title": "Journal of Structural Chemistry",
+            "volume": "29"
+          },
+          "id": "FAFD97EF6C9594ECE9CB92DF7937F90733FD9411",
+          "publicationDate": "1986",
+          "title": "Structure of phosphororganic compounds. XL. X-ray structural investigation of 1-tert-butyl-2, 4--bis(tert-butylamino)-4-methyl-1, 2\u03bb3, 4\u03bb5- azadiphosphetidine Iodide"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1986) AND (host.pages.first:843 host.editor:(1104 Radwan Elazab) host.pages.last:61 series author.name:Monin host.title:(Sov Phys USP USA Phys Abst Sci Abst))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. N. Chernega"
+            },
+            {
+              "name": "M. Yu. Antipin"
+            },
+            {
+              "name": "Yu. T. Struchkov"
+            },
+            {
+              "name": "E. A. Monin"
+            },
+            {
+              "name": "Z. S. Novikova"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00748836"
+          ],
+          "host": {
+            "pages": {
+              "first": "610",
+              "last": "614"
+            },
+            "title": "Journal of Structural Chemistry",
+            "volume": "29"
+          },
+          "id": "FAFD97EF6C9594ECE9CB92DF7937F90733FD9411",
+          "publicationDate": "1986",
+          "title": "Structure of phosphororganic compounds. XL. X-ray structural investigation of 1-tert-butyl-2, 4--bis(tert-butylamino)-4-methyl-1, 2\u03bb3, 4\u03bb5- azadiphosphetidine Iodide"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1986) AND (host.pages.first:843 host.editor:(1104 Radwan Elazab) host.pages.last:61 series author.name:Monin host.title:(Sov Phys USP USA Phys Abst Sci Abst))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:29 AND host.pages.first:843 AND host.editor:(1104 Radwan Elazab) AND host.pages.last:61 AND series AND author.name:Monin AND host.title:(Sov Phys USP USA Phys Abst Sci Abst) AND publicationDate:1986",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:29 AND host.pages.first:843 AND host.editor:(1104 Radwan Elazab) AND host.pages.last:61 AND series AND author.name:Monin AND host.title:(Sov Phys USP USA Phys Abst Sci Abst) AND publicationDate:1986",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Cahebaut</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Radwan</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Int. Conf. on Computing in Plasma Physics</title>\n  <editor>A.E. Radwan and CaIlebaut</editor>\n  <meeting>. Int. Conf. on Computing in Plasma Physics</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1986\"></date>\n   <biblScope unit=\"page\">6</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ahmed E. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-8853(89)90090-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "85",
+              "last": "104"
+            },
+            "title": "Journal of Magnetism and Magnetic Materials",
+            "volume": "78"
+          },
+          "id": "7A0F28D79F70549BB893CAB5E4A1184FB9B6604B",
+          "publicationDate": "1989",
+          "title": "Linear and nonlinear stability theory of the magnetofluid dynamics of an annular jet (fluid cylinder having a solid axis as a mantle)"
+        },
+        "lucn_query": "D K Cahebaut A E Radwan Proc. Int. Conf. on Computing in Plasma Physics A.E. Radwan and CaIlebaut . Int. Conf. on Computing in Plasma Physics 6 1986",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Int. Conf. on Computing in Plasma Physics\" AND host.pages.first:\"6\" AND host.editor:\"A.E. Radwan and CaIlebaut\" AND publicationDate:\"1986\" AND host.title:\"Proc. Int. Conf. on Computing in Plasma Physics\" AND author.name:\"Cahebaut\" AND author.name:\"Radwan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mohamed Hossny Elzarka"
+            },
+            {
+              "name": "Ibrahim Ahmed F. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0899-5362(86)90018-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "319"
+            },
+            "title": "Journal of African Earth Sciences",
+            "volume": "5"
+          },
+          "id": "B82F6DDD9BBE3020430BC1EF83DB6127BC941956",
+          "publicationDate": "1986",
+          "title": "Subsurface geology of the Tertiary rocks of the northeastern district of the western Desert of Egypt"
+        },
+        "lucn_query": "host.conference.name:\". Int. Conf. on Computing in Plasma Physics\" host.pages.first:\"6\" host.editor:\"A.E. Radwan and CaIlebaut\" publicationDate:\"1986\" host.title:\"Proc. Int. Conf. on Computing in Plasma Physics\" author.name:\"Cahebaut\" author.name:\"Radwan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. Riggins"
+            },
+            {
+              "name": "M. Underwood"
+            },
+            {
+              "name": "B. McMillin"
+            },
+            {
+              "name": "L. Reeves"
+            },
+            {
+              "name": "E. Jui-Lin Lu"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-0521(92)90107-T"
+          ],
+          "host": {
+            "pages": {
+              "first": "217",
+              "last": "229"
+            },
+            "title": "Computing Systems in Engineering",
+            "volume": "3"
+          },
+          "id": "84B0F8A5B2E9A2F8D8B64FF2E791C5957F92BBDF",
+          "publicationDate": "1992",
+          "title": "Modeling of supersonic combustor flows using parallel computing"
+        },
+        "lucn_query": "host.conference.name:(Conf Computing Plasma Physics) host.editor:(Radwan CaIlebaut) host.pages.first:6 publicationDate:1986 host.title:(Proc Int Conf on Computing in Plasma Physics) author.name:(Cahebaut Radwan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mohamed Hossny Elzarka"
+            },
+            {
+              "name": "Ibrahim Ahmed F. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0899-5362(86)90018-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "319"
+            },
+            "title": "Journal of African Earth Sciences",
+            "volume": "5"
+          },
+          "id": "B82F6DDD9BBE3020430BC1EF83DB6127BC941956",
+          "publicationDate": "1986",
+          "title": "Subsurface geology of the Tertiary rocks of the northeastern district of the western Desert of Egypt"
+        },
+        "lucn_query": "(publicationDate:1986) AND (host.conference.name:(Conf Computing Plasma Physics) host.editor:(Radwan CaIlebaut) host.pages.first:6 host.title:(Proc Int Conf on Computing in Plasma Physics) author.name:(Cahebaut Radwan))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mohamed Hossny Elzarka"
+            },
+            {
+              "name": "Ibrahim Ahmed F. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0899-5362(86)90018-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "319"
+            },
+            "title": "Journal of African Earth Sciences",
+            "volume": "5"
+          },
+          "id": "B82F6DDD9BBE3020430BC1EF83DB6127BC941956",
+          "publicationDate": "1986",
+          "title": "Subsurface geology of the Tertiary rocks of the northeastern district of the western Desert of Egypt"
+        },
+        "lucn_query": "(publicationDate:1986) AND (host.conference.name:(Conf Computing Plasma Physics) host.editor:(Radwan CaIlebaut) host.pages.first:6 host.title:(Proc Int Conf on Computing in Plasma Physics) author.name:(Cahebaut Radwan))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Conf Computing Plasma Physics) AND host.editor:(Radwan CaIlebaut) AND host.pages.first:6 AND publicationDate:1986 AND host.title:(Proc Int Conf on Computing in Plasma Physics) AND author.name:(Cahebaut Radwan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Conf Computing Plasma Physics) AND host.editor:(Radwan CaIlebaut) AND host.pages.first:6 AND publicationDate:1986 AND host.title:(Proc Int Conf on Computing in Plasma Physics) AND author.name:(Cahebaut Radwan)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Radwan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Cailebaut</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Proc. Belg. Phys. Sot. P.P</title>\n  <imprint>\n   <biblScope unit=\"page\">21</biblScope>\n   <date type=\"published\" when=\"1985\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ahmed E. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-8853(89)90090-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "85",
+              "last": "104"
+            },
+            "title": "Journal of Magnetism and Magnetic Materials",
+            "volume": "78"
+          },
+          "id": "7A0F28D79F70549BB893CAB5E4A1184FB9B6604B",
+          "publicationDate": "1989",
+          "title": "Linear and nonlinear stability theory of the magnetofluid dynamics of an annular jet (fluid cylinder having a solid axis as a mantle)"
+        },
+        "lucn_query": "A E Radwan D K Cailebaut Proc. Belg. Phys. Sot. P.P 21 1985",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"21\" AND publicationDate:\"1985\" AND host.title:\"Proc. Belg. Phys. Sot. P.P\" AND author.name:\"Radwan\" AND author.name:\"Cailebaut\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.A. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(85)90077-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "191",
+              "last": "204"
+            },
+            "title": "Wear",
+            "volume": "101"
+          },
+          "id": "1AC587A03D2C7EB75A9807D3DBB9B81CE5A7B353",
+          "publicationDate": "1985",
+          "title": "Investigation of secondary deformation zone and mean coefficient of friction during the machining of 5083-H34 aluminum alloy"
+        },
+        "lucn_query": "host.pages.first:\"21\" publicationDate:\"1985\" host.title:\"Proc. Belg. Phys. Sot. P.P\" author.name:\"Radwan\" author.name:\"Cailebaut\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.A. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(85)90077-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "191",
+              "last": "204"
+            },
+            "title": "Wear",
+            "volume": "101"
+          },
+          "id": "1AC587A03D2C7EB75A9807D3DBB9B81CE5A7B353",
+          "publicationDate": "1985",
+          "title": "Investigation of secondary deformation zone and mean coefficient of friction during the machining of 5083-H34 aluminum alloy"
+        },
+        "lucn_query": "host.pages.first:21 publicationDate:1985 host.title:(Proc Belg Phys Sot) author.name:(Radwan Cailebaut)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.A. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(85)90077-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "191",
+              "last": "204"
+            },
+            "title": "Wear",
+            "volume": "101"
+          },
+          "id": "1AC587A03D2C7EB75A9807D3DBB9B81CE5A7B353",
+          "publicationDate": "1985",
+          "title": "Investigation of secondary deformation zone and mean coefficient of friction during the machining of 5083-H34 aluminum alloy"
+        },
+        "lucn_query": "(publicationDate:1985) AND (host.pages.first:21 host.title:(Proc Belg Phys Sot) author.name:(Radwan Cailebaut))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.A. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0043-1648(85)90077-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "191",
+              "last": "204"
+            },
+            "title": "Wear",
+            "volume": "101"
+          },
+          "id": "1AC587A03D2C7EB75A9807D3DBB9B81CE5A7B353",
+          "publicationDate": "1985",
+          "title": "Investigation of secondary deformation zone and mean coefficient of friction during the machining of 5083-H34 aluminum alloy"
+        },
+        "lucn_query": "(publicationDate:1985) AND (host.pages.first:21 host.title:(Proc* Belg* Phys* Sot*) author.name:(Radwan Cailebaut))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:21 AND publicationDate:1985 AND host.title:(Proc Belg Phys Sot) AND author.name:(Radwan Cailebaut)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:21 AND publicationDate:1985 AND host.title:(Proc* Belg* Phys* Sot*) AND author.name:(Radwan Cailebaut)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Radwan</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Abramowitz and I. Stegun, Handbook of Mathematical Functions</title>\n  <meeting><address><addrLine>New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Dover</publisher>\n   <date type=\"published\" when=\"1965\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "2AC062B9EE8C6EC4FCCF0FC1DC683368E002BC44",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ahmed E. Radwan"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00642684"
+          ],
+          "host": {
+            "pages": {
+              "first": "9",
+              "last": "25"
+            },
+            "title": "Astrophysics and Space Science",
+            "volume": "187"
+          },
+          "id": "D109E1C156D519B216DD065069E41DBF1F2205E1",
+          "publicationDate": "1991",
+          "title": "Magnetohydrodynamic oscillation of a gas jet of zero inertia dispersed in a resistive liquid with energy conservation"
+        },
+        "lucn_query": "A E Radwan Abramowitz and I. Stegun, Handbook of Mathematical Functions New York Dover 1965",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"Dover\" AND author.name:\"Radwan\" AND publicationDate:\"1965\" AND host.title:\"Abramowitz and I. Stegun, Handbook of Mathematical Functions\" AND \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jacek Radwan"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00216601"
+          ],
+          "host": {
+            "pages": {
+              "first": "201",
+              "last": "208"
+            },
+            "title": "Behavioral Ecology and Sociobiology",
+            "volume": "33"
+          },
+          "id": "C6CAEC59ABB19228606C08F9CD46F9317929D8FF",
+          "publicationDate": "1992",
+          "title": "The adaptive significance of male polymorphism in the acarid mite Caloglyphus berlesei"
+        },
+        "lucn_query": "host.editor:\"Dover\" author.name:\"Radwan\" publicationDate:\"1965\" host.title:\"Abramowitz and I. Stegun, Handbook of Mathematical Functions\" \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jacek Radwan"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00216601"
+          ],
+          "host": {
+            "pages": {
+              "first": "201",
+              "last": "208"
+            },
+            "title": "Behavioral Ecology and Sociobiology",
+            "volume": "33"
+          },
+          "id": "C6CAEC59ABB19228606C08F9CD46F9317929D8FF",
+          "publicationDate": "1992",
+          "title": "The adaptive significance of male polymorphism in the acarid mite Caloglyphus berlesei"
+        },
+        "lucn_query": "host.editor:Dover York author.name:Radwan host.title:(Abramowitz and Stegun Handbook of Mathematical Functions) publicationDate:1965",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. C. Atkinson"
+            },
+            {
+              "name": "R. A. Kanchla"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2044-8317.1965.tb00341.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "183",
+              "last": "206"
+            },
+            "title": "British Journal of Mathematical and Statistical Psychology",
+            "volume": "18"
+          },
+          "id": "25B69201CB941657F8545BC07B8A801EC5E19422",
+          "publicationDate": "1965",
+          "title": "A LEARNING MODEL FOR FORCED\u2010CHOICE DETECTION EXPERIMENTS1"
+        },
+        "lucn_query": "(publicationDate:1965) AND (host.editor:Dover York author.name:Radwan host.title:(Abramowitz and Stegun Handbook of Mathematical Functions))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.T. Elmunajjed"
+            },
+            {
+              "name": "M.B.E. Fayez"
+            },
+            {
+              "name": "A.S. Radwan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0031-9422(00)86220-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "587",
+              "last": "592"
+            },
+            "title": "Phytochemistry",
+            "volume": "4"
+          },
+          "id": "9933CD974811634F5E609A1F4891DBFCFF43956C",
+          "publicationDate": "1965",
+          "title": "Steroid sapogenins\u2014IX"
+        },
+        "lucn_query": "(publicationDate:1965) AND (host.editor:Dover York author.name:Radwan host.title:(Abramowitz* and* Stegun* Handbook* of* Mathematical* Functions*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:Dover AND York AND author.name:Radwan AND host.title:(Abramowitz and Stegun Handbook of Mathematical Functions) AND publicationDate:1965",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:Dover AND York AND author.name:Radwan AND host.title:(Abramowitz* and* Stegun* Handbook* of* Mathematical* Functions*) AND publicationDate:1965",
+        "match_flag": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,2260 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Morgadozm</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Vu</surname>\n   </persName>\n  </author>\n  <imprint>\n   <biblScope unit=\"page\">26506</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Ii</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>De</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">And</forename>\n    <forename type=\"middle\">G</forename>\n    <surname>Vries</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Zubay</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sci. U.S</title>\n  <meeting>. Natl. Acad. Sci. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1967\"></date>\n   <biblScope unit=\"page\">1010</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Cenatiempo"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0300-9084(86)80195-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "505",
+              "last": "515"
+            },
+            "title": "Biochimie",
+            "volume": "68"
+          },
+          "id": "10A97BC03C4C955806AA0FD943684ED882595417",
+          "publicationDate": "1986",
+          "title": "Prokaryotic gene expression in vitro: transcription-translation coupled systems"
+        },
+        "lucn_query": "I J Ii De And G Vries Zubay Proc. Natl. Acad. Sci. U.S . Natl. Acad. Sci. U.S 1010 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" AND host.pages.first:\"1010\" AND publicationDate:\"1967\" AND host.title:\"Proc. Natl. Acad. Sci. U.S\" AND author.name:\"Ii\" AND author.name:\"De\" AND author.name:\"Vries\" AND author.name:\"Zubay\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J.P. Veerman"
+            },
+            {
+              "name": "H. De Vries"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0300-872X(76)80035-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "202",
+              "last": "218"
+            },
+            "title": "Zeitschrift f\u00fcr Immunit\u00e4tsforschung: Immunobiology",
+            "volume": "151"
+          },
+          "id": "9A88F4C043D250789035E1BE995D060DC01611A6",
+          "publicationDate": "1976",
+          "title": "T- and B-Areas in Immune Reactions Volume Changes in T and B Cell Compartments of the Rat Spleen Following Intravenous Administration of a Thymus-Dependent (SRBC) and a Thymus-Independent (Paratyphoid Vaccin-Endotoxin) Antigen. A Histometric Study"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" host.pages.first:\"1010\" publicationDate:\"1967\" host.title:\"Proc. Natl. Acad. Sci. U.S\" author.name:\"Ii\" author.name:\"De\" author.name:\"Vries\" author.name:\"Zubay\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wytske De Vries"
+            },
+            {
+              "name": "Sj.J. Gerbrandy"
+            },
+            {
+              "name": "A.H. Stouthamer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4165(67)90001-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "415",
+              "last": "425"
+            },
+            "title": "BBA - General Subjects",
+            "volume": "136"
+          },
+          "id": "6B801436BA4357163054C5E0AE34AB40A77C87D6",
+          "publicationDate": "1967",
+          "title": "Carbohydrate metabolism in Bifidobacterium bifidum"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:1010 publicationDate:1967 host.title:(Proc Natl Acad Sci) author.name:(Ii De Vries Zubay)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wytske De Vries"
+            },
+            {
+              "name": "Sj.J. Gerbrandy"
+            },
+            {
+              "name": "A.H. Stouthamer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4165(67)90001-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "415",
+              "last": "425"
+            },
+            "title": "BBA - General Subjects",
+            "volume": "136"
+          },
+          "id": "6B801436BA4357163054C5E0AE34AB40A77C87D6",
+          "publicationDate": "1967",
+          "title": "Carbohydrate metabolism in Bifidobacterium bifidum"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:1010 host.title:(Proc Natl Acad Sci) author.name:(Ii De Vries Zubay))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Wytske De Vries"
+            },
+            {
+              "name": "Sj.J. Gerbrandy"
+            },
+            {
+              "name": "A.H. Stouthamer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4165(67)90001-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "415",
+              "last": "425"
+            },
+            "title": "BBA - General Subjects",
+            "volume": "136"
+          },
+          "id": "6B801436BA4357163054C5E0AE34AB40A77C87D6",
+          "publicationDate": "1967",
+          "title": "Carbohydrate metabolism in Bifidobacterium bifidum"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:1010 host.title:(Proc* Natl* Acad* Sci*) author.name:(Ii De Vries Zubay))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1010 AND publicationDate:1967 AND host.title:(Proc Natl Acad Sci) AND author.name:(Ii De Vries Zubay)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1010 AND publicationDate:1967 AND host.title:(Proc* Natl* Acad* Sci*) AND author.name:(Ii De Vries Zubay)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Zubay</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Lederman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>De</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Vries</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sci. U.S</title>\n  <meeting>. Natl. Acad. Sci. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1967\"></date>\n   <biblScope unit=\"page\">1669</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Cenatiempo"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0300-9084(86)80195-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "505",
+              "last": "515"
+            },
+            "title": "Biochimie",
+            "volume": "68"
+          },
+          "id": "10A97BC03C4C955806AA0FD943684ED882595417",
+          "publicationDate": "1986",
+          "title": "Prokaryotic gene expression in vitro: transcription-translation coupled systems"
+        },
+        "lucn_query": "M Zubay J K Lederman De Vries Proc. Natl. Acad. Sci. U.S . Natl. Acad. Sci. U.S 1669 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" AND host.pages.first:\"1669\" AND publicationDate:\"1967\" AND host.title:\"Proc. Natl. Acad. Sci. U.S\" AND author.name:\"Zubay\" AND author.name:\"Lederman\" AND author.name:\"De\" AND author.name:\"Vries\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Muriel Lederman"
+            },
+            {
+              "name": "Geoffrey Zubay"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(67)90706-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "253",
+              "last": "258"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "149"
+          },
+          "id": "CA188738A28E7C2E95EBAC945CBD53BFE4B44444",
+          "publicationDate": "1967",
+          "title": "DNA-directed peptide synthesis I. A comparison of T2 and Escherichia coli DNA-directed peptide synthesis in two cell-free systems"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" host.pages.first:\"1669\" publicationDate:\"1967\" host.title:\"Proc. Natl. Acad. Sci. U.S\" author.name:\"Zubay\" author.name:\"Lederman\" author.name:\"De\" author.name:\"Vries\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Muriel Lederman"
+            },
+            {
+              "name": "Geoffrey Zubay"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(67)90706-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "253",
+              "last": "258"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "149"
+          },
+          "id": "CA188738A28E7C2E95EBAC945CBD53BFE4B44444",
+          "publicationDate": "1967",
+          "title": "DNA-directed peptide synthesis I. A comparison of T2 and Escherichia coli DNA-directed peptide synthesis in two cell-free systems"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:1669 publicationDate:1967 host.title:(Proc Natl Acad Sci) author.name:(Zubay Lederman De Vries)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Muriel Lederman"
+            },
+            {
+              "name": "Geoffrey Zubay"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(67)90706-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "253",
+              "last": "258"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "149"
+          },
+          "id": "CA188738A28E7C2E95EBAC945CBD53BFE4B44444",
+          "publicationDate": "1967",
+          "title": "DNA-directed peptide synthesis I. A comparison of T2 and Escherichia coli DNA-directed peptide synthesis in two cell-free systems"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:1669 host.title:(Proc Natl Acad Sci) author.name:(Zubay Lederman De Vries))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Muriel Lederman"
+            },
+            {
+              "name": "Geoffrey Zubay"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(67)90706-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "253",
+              "last": "258"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "149"
+          },
+          "id": "CA188738A28E7C2E95EBAC945CBD53BFE4B44444",
+          "publicationDate": "1967",
+          "title": "DNA-directed peptide synthesis I. A comparison of T2 and Escherichia coli DNA-directed peptide synthesis in two cell-free systems"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:1669 host.title:(Proc* Natl* Acad* Sci*) author.name:(Zubay Lederman De Vries))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1669 AND publicationDate:1967 AND host.title:(Proc Natl Acad Sci) AND author.name:(Zubay Lederman De Vries)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1669 AND publicationDate:1967 AND host.title:(Proc* Natl* Acad* Sci*) AND author.name:(Zubay Lederman De Vries)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Gesteland</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Salser</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Bolle</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sci. U.S</title>\n  <meeting>. Natl. Acad. Sci. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1967\"></date>\n   <biblScope unit=\"page\">2036</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. Salser"
+            },
+            {
+              "name": "A. Bolle"
+            },
+            {
+              "name": "R. Epstein"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-2836(70)90246-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "295"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "49"
+          },
+          "id": "E9D78B9E487197CB3F1D0160C7DB1B53C927558A",
+          "publicationDate": "1970",
+          "title": "Transcription during bacteriophage T4 development: A demonstration that distinct subclasses of the \u201cearly\u201d RNA appear at different times and that some are \u201cturned off\u201d at late times"
+        },
+        "lucn_query": "K F Gesteland W A Salser Bolle Proc. Natl. Acad. Sci. U.S . Natl. Acad. Sci. U.S 2036 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" AND host.pages.first:\"2036\" AND publicationDate:\"1967\" AND host.title:\"Proc. Natl. Acad. Sci. U.S\" AND author.name:\"Gesteland\" AND author.name:\"Salser\" AND author.name:\"Bolle\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. Salser"
+            },
+            {
+              "name": "A. Bolle"
+            },
+            {
+              "name": "R. Epstein"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-2836(70)90246-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "295"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "49"
+          },
+          "id": "E9D78B9E487197CB3F1D0160C7DB1B53C927558A",
+          "publicationDate": "1970",
+          "title": "Transcription during bacteriophage T4 development: A demonstration that distinct subclasses of the \u201cearly\u201d RNA appear at different times and that some are \u201cturned off\u201d at late times"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" host.pages.first:\"2036\" publicationDate:\"1967\" host.title:\"Proc. Natl. Acad. Sci. U.S\" author.name:\"Gesteland\" author.name:\"Salser\" author.name:\"Bolle\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W. Salser"
+            },
+            {
+              "name": "A. Bolle"
+            },
+            {
+              "name": "R. Epstein"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-2836(70)90246-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "295"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "49"
+          },
+          "id": "E9D78B9E487197CB3F1D0160C7DB1B53C927558A",
+          "publicationDate": "1970",
+          "title": "Transcription during bacteriophage T4 development: A demonstration that distinct subclasses of the \u201cearly\u201d RNA appear at different times and that some are \u201cturned off\u201d at late times"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:2036 publicationDate:1967 host.title:(Proc Natl Acad Sci) author.name:(Gesteland Salser Bolle)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Josephine S. Salser"
+            },
+            {
+              "name": "Daniel G. Miller"
+            },
+            {
+              "name": "M. Earl Balis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0014-4800(67)90055-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "212"
+            },
+            "title": "Experimental and Molecular Pathology",
+            "volume": "6"
+          },
+          "id": "2460FFBE206C70D957EB55C596BFE9F22032E1EB",
+          "publicationDate": "1967",
+          "title": "Interaction of 6-mercaptopurine and antigens with cellular syntheses"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:2036 host.title:(Proc Natl Acad Sci) author.name:(Gesteland Salser Bolle))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Josephine S. Salser"
+            },
+            {
+              "name": "Daniel G. Miller"
+            },
+            {
+              "name": "M. Earl Balis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0014-4800(67)90055-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "212"
+            },
+            "title": "Experimental and Molecular Pathology",
+            "volume": "6"
+          },
+          "id": "2460FFBE206C70D957EB55C596BFE9F22032E1EB",
+          "publicationDate": "1967",
+          "title": "Interaction of 6-mercaptopurine and antigens with cellular syntheses"
+        },
+        "lucn_query": "(publicationDate:1967) AND (host.conference.name:(Natl Acad) host.pages.first:2036 host.title:(Proc* Natl* Acad* Sci*) author.name:(Gesteland Salser Bolle))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:2036 AND publicationDate:1967 AND host.title:(Proc Natl Acad Sci) AND author.name:(Gesteland Salser Bolle)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:2036 AND publicationDate:1967 AND host.title:(Proc* Natl* Acad* Sci*) AND author.name:(Gesteland Salser Bolle)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">K V</forename>\n    <surname>Arnstein</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Cox</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">And</forename>\n    <forename type=\"middle\">J A</forename>\n    <surname>Hunt</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Biochem. J</title>\n  <imprint>\n   <biblScope unit=\"volume\">924</biblScope>\n   <biblScope unit=\"page\">648</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.J. Gould"
+            },
+            {
+              "name": "H.R.V. Arnstein"
+            },
+            {
+              "name": "R.A. Cox"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80130-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "600",
+              "last": "618"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "15"
+          },
+          "id": "91307A109FA20A964E1D46EB46318211D8A6D871",
+          "publicationDate": "1966",
+          "title": "The dissociation of reticulocyte polysomes into subunits and the location of messenger RNA"
+        },
+        "lucn_query": "H K V Arnstein R A Cox And J A Hunt Biochem. J 924 648",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"648\" AND host.volume:\"924\" AND author.name:\"Arnstein\" AND author.name:\"Cox\" AND author.name:\"Hunt\" AND host.title:\"Biochem. J\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.J. Gould"
+            },
+            {
+              "name": "H.R.V. Arnstein"
+            },
+            {
+              "name": "R.A. Cox"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80130-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "600",
+              "last": "618"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "15"
+          },
+          "id": "91307A109FA20A964E1D46EB46318211D8A6D871",
+          "publicationDate": "1966",
+          "title": "The dissociation of reticulocyte polysomes into subunits and the location of messenger RNA"
+        },
+        "lucn_query": "host.pages.first:\"648\" host.volume:\"924\" author.name:\"Arnstein\" author.name:\"Cox\" author.name:\"Hunt\" host.title:\"Biochem. J\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.pages.first:648 host.volume:924 author.name:(Arnstein Cox Hunt) host.title:(Biochem J)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lawrence A. Hunt"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4165(87)90085-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "184"
+            },
+            "title": "BBA - General Subjects",
+            "volume": "924"
+          },
+          "id": "79B7DC94875AFB209091C092F4D54DC6BD0FE0CD",
+          "publicationDate": "1987",
+          "title": "Oligosaccharides of the Hazelhurst vesicular stomatitis virus glycoprotein are more extensively processed in Rous sarcoma virus-transformed baby hamster kidney cells"
+        },
+        "lucn_query": "(host.volume:924) AND (host.pages.first:648 author.name:(Arnstein Cox Hunt) host.title:(Biochem J))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lawrence A. Hunt"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-4165(87)90085-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "184"
+            },
+            "title": "BBA - General Subjects",
+            "volume": "924"
+          },
+          "id": "79B7DC94875AFB209091C092F4D54DC6BD0FE0CD",
+          "publicationDate": "1987",
+          "title": "Oligosaccharides of the Hazelhurst vesicular stomatitis virus glycoprotein are more extensively processed in Rous sarcoma virus-transformed baby hamster kidney cells"
+        },
+        "lucn_query": "(host.volume:924) AND (host.pages.first:648 author.name:(Arnstein Cox Hunt) host.title:(Biochem* journal))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND host.volume:924 AND author.name:(Arnstein Cox Hunt) AND host.title:(Biochem J)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:648 AND host.volume:924 AND author.name:(Arnstein Cox Hunt) AND host.title:(Biochem* journal)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Marks</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Burke</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Conconi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Pearl</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Rifkind</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sm. U.S</title>\n  <meeting>. Natl. Acad. Sm. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1965\"></date>\n   <biblScope unit=\"page\">1437</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Nikolay G Kolev"
+            },
+            {
+              "name": "Joan A Steitz"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nsmb1075"
+          ],
+          "host": {
+            "pages": {
+              "first": "347",
+              "last": "353"
+            },
+            "title": "Nature Structural & Molecular Biology",
+            "volume": "13"
+          },
+          "id": "2155C0C35A149749BAF001F5950C2AEE3CC84322",
+          "publicationDate": "2006",
+          "title": "In vivo assembly of functional U7 snRNP requires RNA backbone flexibility within the Sm-binding site"
+        },
+        "lucn_query": "P A Marks E R Burke F Conconi W Pearl R A Rifkind Proc. Natl. Acad. Sm. U.S . Natl. Acad. Sm. U.S 1437 1965",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sm. U.S\" AND host.pages.first:\"1437\" AND publicationDate:\"1965\" AND host.title:\"Proc. Natl. Acad. Sm. U.S\" AND author.name:\"Marks\" AND author.name:\"Burke\" AND author.name:\"Conconi\" AND author.name:\"Pearl\" AND author.name:\"Rifkind\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Francesco M. Conconi"
+            },
+            {
+              "name": "Arthur Bank"
+            },
+            {
+              "name": "Paul A. Marks"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80020-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "525",
+              "last": "540"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "D7185DFBCF7CDA14FE0AFEAFED96182BE5666EE6",
+          "publicationDate": "1966",
+          "title": "Polyribosomes and control of protein synthesis: Effects of sodium fluoride and temperature in reticulocytes"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sm. U.S\" host.pages.first:\"1437\" publicationDate:\"1965\" host.title:\"Proc. Natl. Acad. Sm. U.S\" author.name:\"Marks\" author.name:\"Burke\" author.name:\"Conconi\" author.name:\"Pearl\" author.name:\"Rifkind\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Francesco M. Conconi"
+            },
+            {
+              "name": "Arthur Bank"
+            },
+            {
+              "name": "Paul A. Marks"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80020-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "525",
+              "last": "540"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "D7185DFBCF7CDA14FE0AFEAFED96182BE5666EE6",
+          "publicationDate": "1966",
+          "title": "Polyribosomes and control of protein synthesis: Effects of sodium fluoride and temperature in reticulocytes"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:1437 publicationDate:1965 host.title:(Proc Natl Acad Sm) author.name:(Marks Burke Conconi Pearl Rifkind)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David Rifkind"
+            }
+          ],
+          "corpusName": "bmj",
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "394"
+            },
+            "title": "California Medicine",
+            "volume": "103"
+          },
+          "id": "1014C8FD79A367ECDD6E52855DC24B408313A5D3",
+          "publicationDate": "1965",
+          "title": "Respiratory Viruses\u2014Current Status and Future Prospects"
+        },
+        "lucn_query": "(publicationDate:1965) AND (host.conference.name:(Natl Acad) host.pages.first:1437 host.title:(Proc Natl Acad Sm) author.name:(Marks Burke Conconi Pearl Rifkind))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David Rifkind"
+            }
+          ],
+          "corpusName": "bmj",
+          "host": {
+            "pages": {
+              "first": "387",
+              "last": "394"
+            },
+            "title": "California Medicine",
+            "volume": "103"
+          },
+          "id": "1014C8FD79A367ECDD6E52855DC24B408313A5D3",
+          "publicationDate": "1965",
+          "title": "Respiratory Viruses\u2014Current Status and Future Prospects"
+        },
+        "lucn_query": "(publicationDate:1965) AND (host.conference.name:(Natl Acad) host.pages.first:1437 host.title:(Proc* Natl* Acad* Sm*) author.name:(Marks Burke Conconi Pearl Rifkind))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1437 AND publicationDate:1965 AND host.title:(Proc Natl Acad Sm) AND author.name:(Marks Burke Conconi Pearl Rifkind)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:1437 AND publicationDate:1965 AND host.title:(Proc* Natl* Acad* Sm*) AND author.name:(Marks Burke Conconi Pearl Rifkind)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">M A</forename>\n    <surname>Heywood</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Rich</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sci. U.S</title>\n  <meeting>. Natl. Acad. Sci. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1968\"></date>\n   <biblScope unit=\"page\">582</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Glen A. Evans"
+            },
+            {
+              "name": "Michael G. Rosenfeld"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(75)90355-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "342",
+              "last": "351"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "390"
+          },
+          "id": "A9EB47D233C4C0CC0D7D9D27AD63B71CFBFE2BCA",
+          "publicationDate": "1975",
+          "title": "Inhibitor of protein synthesis co-isolating with polyribosomal RNA"
+        },
+        "lucn_query": "S M A Heywood Rich Proc. Natl. Acad. Sci. U.S . Natl. Acad. Sci. U.S 582 1968",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" AND host.pages.first:\"582\" AND publicationDate:\"1968\" AND host.title:\"Proc. Natl. Acad. Sci. U.S\" AND author.name:\"Heywood\" AND author.name:\"Rich\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.B. Heywood"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-1910(65)90048-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "413",
+              "last": "420"
+            },
+            "title": "Journal of Insect Physiology",
+            "volume": "11"
+          },
+          "id": "AFE83BD663F3036DABA79915B11C7CE2248DA2FB",
+          "publicationDate": "1965",
+          "title": "Changes occurring in the central nervous system of Pieris brassicae L. (Lepidoptera) during metamorphosis"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" host.pages.first:\"582\" publicationDate:\"1968\" host.title:\"Proc. Natl. Acad. Sci. U.S\" author.name:\"Heywood\" author.name:\"Rich\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.B. Heywood"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-1910(65)90048-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "413",
+              "last": "420"
+            },
+            "title": "Journal of Insect Physiology",
+            "volume": "11"
+          },
+          "id": "AFE83BD663F3036DABA79915B11C7CE2248DA2FB",
+          "publicationDate": "1965",
+          "title": "Changes occurring in the central nervous system of Pieris brassicae L. (Lepidoptera) during metamorphosis"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:582 publicationDate:1968 host.title:(Proc Natl Acad Sci) author.name:(Heywood Rich)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Prof. Dr. Heywood"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/fedr.19680790102"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "68"
+            },
+            "title": "Feddes Repertorium",
+            "volume": "79"
+          },
+          "id": "F3EAE4129E55B5185A2D3AEB771DC4DA239E31C5",
+          "publicationDate": "1968",
+          "title": "Flora Europaea Notulae Systematicae ad Floram Europaeam spectantes"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.conference.name:(Natl Acad) host.pages.first:582 host.title:(Proc Natl Acad Sci) author.name:(Heywood Rich))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Prof. Dr. Heywood"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/fedr.19680790102"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "68"
+            },
+            "title": "Feddes Repertorium",
+            "volume": "79"
+          },
+          "id": "F3EAE4129E55B5185A2D3AEB771DC4DA239E31C5",
+          "publicationDate": "1968",
+          "title": "Flora Europaea Notulae Systematicae ad Floram Europaeam spectantes"
+        },
+        "lucn_query": "(publicationDate:1968) AND (host.conference.name:(Natl Acad) host.pages.first:582 host.title:(Proc* Natl* Acad* Sci*) author.name:(Heywood Rich))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:582 AND publicationDate:1968 AND host.title:(Proc Natl Acad Sci) AND author.name:(Heywood Rich)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:582 AND publicationDate:1968 AND host.title:(Proc* Natl* Acad* Sci*) AND author.name:(Heywood Rich)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Hayashi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Granner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Tomkins</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Biol. Chem</title>\n  <imprint>\n   <biblScope unit=\"volume\">242</biblScope>\n   <biblScope unit=\"page\">3998</biblScope>\n   <date type=\"published\" when=\"1967\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E.Brad Thompson"
+            },
+            {
+              "name": "D.K. Granner"
+            },
+            {
+              "name": "G.M. Tomkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-2836(70)90424-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "159",
+              "last": "175"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "54"
+          },
+          "id": "69296281EA2F3ABD8E686B957235450A0176A828",
+          "publicationDate": "1970",
+          "title": "Superinduction of tyrosine aminotransferase by actinomycin D in rat hepatoma (HTC) cells"
+        },
+        "lucn_query": "S Hayashi D K Granner G M Tomkins J. Biol. Chem 242 3998 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"3998\" AND host.volume:\"242\" AND publicationDate:\"1967\" AND host.title:\"J. Biol. Chem\" AND author.name:\"Hayashi\" AND author.name:\"Granner\" AND author.name:\"Tomkins\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Daryl K. Granner"
+            },
+            {
+              "name": "Shin-ichi Hayashi"
+            },
+            {
+              "name": "E. Brad Thompson"
+            },
+            {
+              "name": "Gordon M. Tomkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(68)80025-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "291",
+              "last": "301"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "35"
+          },
+          "id": "B0B4CAA14EAEA24529EA754F221DA18050928710",
+          "publicationDate": "1968",
+          "title": "Stimulation of tyrosine aminotransferase synthesis by dexamethasone phosphate in cell culture"
+        },
+        "lucn_query": "host.pages.first:\"3998\" host.volume:\"242\" publicationDate:\"1967\" host.title:\"J. Biol. Chem\" author.name:\"Hayashi\" author.name:\"Granner\" author.name:\"Tomkins\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Daryl K. Granner"
+            },
+            {
+              "name": "Shin-ichi Hayashi"
+            },
+            {
+              "name": "E. Brad Thompson"
+            },
+            {
+              "name": "Gordon M. Tomkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(68)80025-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "291",
+              "last": "301"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "35"
+          },
+          "id": "B0B4CAA14EAEA24529EA754F221DA18050928710",
+          "publicationDate": "1968",
+          "title": "Stimulation of tyrosine aminotransferase synthesis by dexamethasone phosphate in cell culture"
+        },
+        "lucn_query": "host.pages.first:3998 host.volume:242 publicationDate:1967 host.title:(J Biol Chem) author.name:(Hayashi Granner Tomkins)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:242 AND publicationDate:1967) AND (host.pages.first:3998 host.title:(J Biol Chem) author.name:(Hayashi Granner Tomkins))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I. Saj\u00f3"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00530192"
+          ],
+          "host": {
+            "pages": {
+              "first": "165",
+              "last": "172"
+            },
+            "title": "Fresenius' Zeitschrift f\u00fcr analytische Chemie",
+            "volume": "242"
+          },
+          "id": "1B28DD53A90EBD1073B33C6FE2592BB344B8BE85",
+          "publicationDate": "1967",
+          "title": "Schnellbestimmung des Siliciumgehaltes von St\u00e4hlen durch thermometrische Differentialanalyse mit direkter Prozentanzeige"
+        },
+        "lucn_query": "(host.volume:242 AND publicationDate:1967) AND (host.pages.first:3998 host.title:(journal Biol* Chem*) author.name:(Hayashi Granner Tomkins))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3998 AND host.volume:242 AND publicationDate:1967 AND host.title:(J Biol Chem) AND author.name:(Hayashi Granner Tomkins)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3998 AND host.volume:242 AND publicationDate:1967 AND host.title:(journal Biol* Chem*) AND author.name:(Hayashi Granner Tomkins)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">I</forename>\n    <surname>Di~mondstone</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Anal. Biochem</title>\n  <imprint>\n   <biblScope unit=\"volume\">16</biblScope>\n   <biblScope unit=\"page\">395</biblScope>\n   <date type=\"published\" when=\"1966\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joellyn M. McMillan"
+            },
+            {
+              "name": "Joseph G. Shaddock"
+            },
+            {
+              "name": "Daniel A. Casciano"
+            },
+            {
+              "name": "Michael P. Arlotto"
+            },
+            {
+              "name": "Julian E.A. Leakey"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0027-5107(91)90134-A"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "92"
+            },
+            "title": "Mutation Research - Fundamental and Molecular Mechanisms of Mutagenesis",
+            "volume": "249"
+          },
+          "id": "5CB180DBB5F420D149774A5D4D67BDFBB8479428",
+          "publicationDate": "1991",
+          "title": "Differential stability of drug-metabolizing enzyme activities in primary rat hepatocytes, cultured in the absence or presence of dexamethasone"
+        },
+        "lucn_query": "T I Di?mondstone Anal. Biochem 16 395 1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"395\" AND host.volume:\"16\" AND publicationDate:\"1966\" AND host.title:\"Anal. Biochem\" AND author.name:\"Di?mondstone\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert C. Kissel"
+            },
+            {
+              "name": "Thomas L. Whitman"
+            },
+            {
+              "name": "Dennis H. Reid"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1901/jaba.1983.16-395"
+          ],
+          "host": {
+            "pages": {
+              "first": "395",
+              "last": "415"
+            },
+            "title": "Journal of Applied Behavior Analysis",
+            "volume": "16"
+          },
+          "id": "2C6E13D353A4F371347C27C52E3C984CF61A3D9B",
+          "publicationDate": "1983",
+          "title": "AN INSTITUTIONAL STAFF TRAINING AND SELF\u2010MANAGEMENT PROGRAM FOR DEVELOPING MULTIPLE SELF\u2010CARE SKILLS IN SEVERELY/PROFOUNDLY RETARDED INDIVIDUALS"
+        },
+        "lucn_query": "host.pages.first:\"395\" host.volume:\"16\" publicationDate:\"1966\" host.title:\"Anal. Biochem\" author.name:\"Di?mondstone\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lucia Di Giovine Vecchione"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00294391"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "216"
+            },
+            "title": "Histochemie",
+            "volume": "9"
+          },
+          "id": "1BB870F9A3F77F26A0B87A23513BD950B69B15A8",
+          "publicationDate": "1966",
+          "title": "Osservazioni sulla secrezione delle ghiandole sottomandibolare e sottolinguale di embrione di topo, in condizioni normali e in cultura in vitro"
+        },
+        "lucn_query": "host.pages.first:395 host.volume:16 publicationDate:1966 host.title:(Anal Biochem) author.name:(Di mondstone)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Thomas I. Diamondstone"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0003-2697(66)90220-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "395",
+              "last": "401"
+            },
+            "title": "Analytical Biochemistry",
+            "volume": "16"
+          },
+          "id": "6CD507F8488993BBCD7DA3C4FDDF3477396A04D1",
+          "publicationDate": "1966",
+          "title": "Assay of tyrosine transaminase activity by conversion of p-hydroxyphenylpyruvate to p-hydroxybenzaldehyde"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1966) AND (host.pages.first:395 host.title:(Anal Biochem) author.name:(Di mondstone))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Walter Dedio"
+            },
+            {
+              "name": "Saul Zalik"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0003-2697(66)90078-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "36",
+              "last": "52"
+            },
+            "title": "Analytical Biochemistry",
+            "volume": "16"
+          },
+          "id": "9AB9165790749352C71B380D5B14FA9A87113D49",
+          "publicationDate": "1966",
+          "title": "Gas chromatography of indole auxins"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1966) AND (host.pages.first:395 host.title:(Anal* Biochem*) author.name:(Di mondstone))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:395 AND host.volume:16 AND publicationDate:1966 AND host.title:(Anal Biochem) AND author.name:(Di mondstone)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:395 AND host.volume:16 AND publicationDate:1966 AND host.title:(Anal* Biochem*) AND author.name:(Di mondstone)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Bray</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Anal. Biochenz., I</title>\n  <imprint>\n   <biblScope unit=\"page\">279</biblScope>\n   <date type=\"published\" when=\"1960\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. K. Benbi"
+            },
+            {
+              "name": "R. J. Gilkes"
+            },
+            {
+              "name": "M. D. A. Bolland"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01049770"
+          ],
+          "host": {
+            "pages": {
+              "first": "137",
+              "last": "155"
+            },
+            "title": "Fertilizer research",
+            "volume": "16"
+          },
+          "id": "2BFC9876A31220D93CD8BB05488EABDC82ACBE41",
+          "title": "An assessment of soil tests for phosphate for the prediction of cereal yields on a sandy soil in Western Australia"
+        },
+        "lucn_query": "G Bray Anal. Biochenz., I 279 1960",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"279\" AND publicationDate:\"1960\" AND host.title:\"Anal. Biochenz., I\" AND author.name:\"Bray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "MARGARET BRAY"
+            },
+            {
+              "name": "CHARLES GOODHART"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1467-9957.2008.01060.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "300"
+            },
+            "title": "The Manchester School",
+            "volume": "76"
+          },
+          "id": "7B3178041D5F0DBE5DAF75E1872C7AF1BA000043",
+          "publicationDate": "2008",
+          "title": "\u2018YOU MIGHT AS WELL BE HUNG FOR A SHEEP AS A LAMB\u2019: THE LOSS FUNCTION OF AN AGENT*"
+        },
+        "lucn_query": "host.pages.first:\"279\" publicationDate:\"1960\" host.title:\"Anal. Biochenz., I\" author.name:\"Bray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "MARGARET BRAY"
+            },
+            {
+              "name": "CHARLES GOODHART"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1467-9957.2008.01060.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "300"
+            },
+            "title": "The Manchester School",
+            "volume": "76"
+          },
+          "id": "7B3178041D5F0DBE5DAF75E1872C7AF1BA000043",
+          "publicationDate": "2008",
+          "title": "\u2018YOU MIGHT AS WELL BE HUNG FOR A SHEEP AS A LAMB\u2019: THE LOSS FUNCTION OF AN AGENT*"
+        },
+        "lucn_query": "host.pages.first:279 publicationDate:1960 host.title:(Anal Biochenz) author.name:Bray",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "George A. Bray"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0003-2697(60)90025-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "285"
+            },
+            "title": "Analytical Biochemistry",
+            "volume": "1"
+          },
+          "id": "9CCF2616550147678DEBDED07B5E4181FB662E9C",
+          "publicationDate": "1960",
+          "title": "A simple efficient liquid scintillator for counting aqueous solutions in a liquid scintillation counter"
+        },
+        "lucn_query": "(publicationDate:1960) AND (host.pages.first:279 host.title:(Anal Biochenz) author.name:Bray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "George A. Bray"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0003-2697(60)90025-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "285"
+            },
+            "title": "Analytical Biochemistry",
+            "volume": "1"
+          },
+          "id": "9CCF2616550147678DEBDED07B5E4181FB662E9C",
+          "publicationDate": "1960",
+          "title": "A simple efficient liquid scintillator for counting aqueous solutions in a liquid scintillation counter"
+        },
+        "lucn_query": "(publicationDate:1960) AND (host.pages.first:279 host.title:(Anal* Biochenz*) author.name:Bray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:279 AND publicationDate:1960 AND host.title:(Anal Biochenz) AND author.name:Bray",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "George A. Bray"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0003-2697(60)90025-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "285"
+            },
+            "title": "Analytical Biochemistry",
+            "volume": "1"
+          },
+          "id": "9CCF2616550147678DEBDED07B5E4181FB662E9C",
+          "publicationDate": "1960",
+          "title": "A simple efficient liquid scintillator for counting aqueous solutions in a liquid scintillation counter"
+        },
+        "lucn_query": "host.pages.first:279 AND publicationDate:1960 AND host.title:(Anal* Biochenz*) AND author.name:Bray",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Tryfiates</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Laszlo</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Natzsre</forename>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1967\"></date>\n   <biblScope unit=\"page\" from=\"213\" to=\"1025\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Redman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Sabatini</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Natl. Acad. Sci. U.S</title>\n  <meeting>. Natl. Acad. Sci. U.S</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1966\"></date>\n   <biblScope unit=\"page\">608</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Fitzpatrick"
+            }
+          ],
+          "corpusName": "brill-journals",
+          "doi": [
+            "10.1163/156854096X00565"
+          ],
+          "host": {
+            "pages": {
+              "first": "251",
+              "last": "264"
+            },
+            "title": "Crustaceana",
+            "volume": "69"
+          },
+          "id": "7B9FE65F0375F2AC1D211F2553427A7EF18C89B7",
+          "publicationDate": "1996",
+          "title": "Horton H. Hobs, Jr. (29 March 1914-22 March 1994)"
+        },
+        "lucn_query": "C W Redman D D Sabatini Proc. Natl. Acad. Sci. U.S . Natl. Acad. Sci. U.S 608 1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" AND host.pages.first:\"608\" AND publicationDate:\"1966\" AND host.title:\"Proc. Natl. Acad. Sci. U.S\" AND author.name:\"Redman\" AND author.name:\"Sabatini\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.D. Sabatini"
+            },
+            {
+              "name": "Y. Tashiro"
+            },
+            {
+              "name": "G.E. Palade"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80019-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "503",
+              "last": "524"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "AC0CCCF6F1793DEC689A04D156303DD34788DBD6",
+          "publicationDate": "1966",
+          "title": "On the attachment of ribosomes to microsomal membranes"
+        },
+        "lucn_query": "host.conference.name:\". Natl. Acad. Sci. U.S\" host.pages.first:\"608\" publicationDate:\"1966\" host.title:\"Proc. Natl. Acad. Sci. U.S\" author.name:\"Redman\" author.name:\"Sabatini\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.D. Sabatini"
+            },
+            {
+              "name": "Y. Tashiro"
+            },
+            {
+              "name": "G.E. Palade"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80019-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "503",
+              "last": "524"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "AC0CCCF6F1793DEC689A04D156303DD34788DBD6",
+          "publicationDate": "1966",
+          "title": "On the attachment of ribosomes to microsomal membranes"
+        },
+        "lucn_query": "host.conference.name:(Natl Acad) host.pages.first:608 publicationDate:1966 host.title:(Proc Natl Acad Sci) author.name:(Redman Sabatini)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.D. Sabatini"
+            },
+            {
+              "name": "Y. Tashiro"
+            },
+            {
+              "name": "G.E. Palade"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80019-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "503",
+              "last": "524"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "AC0CCCF6F1793DEC689A04D156303DD34788DBD6",
+          "publicationDate": "1966",
+          "title": "On the attachment of ribosomes to microsomal membranes"
+        },
+        "lucn_query": "(publicationDate:1966) AND (host.conference.name:(Natl Acad) host.pages.first:608 host.title:(Proc Natl Acad Sci) author.name:(Redman Sabatini))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.D. Sabatini"
+            },
+            {
+              "name": "Y. Tashiro"
+            },
+            {
+              "name": "G.E. Palade"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-2836(66)80019-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "503",
+              "last": "524"
+            },
+            "title": "Journal of Molecular Biology",
+            "volume": "19"
+          },
+          "id": "AC0CCCF6F1793DEC689A04D156303DD34788DBD6",
+          "publicationDate": "1966",
+          "title": "On the attachment of ribosomes to microsomal membranes"
+        },
+        "lucn_query": "(publicationDate:1966) AND (host.conference.name:(Natl Acad) host.pages.first:608 host.title:(Proc* Natl* Acad* Sci*) author.name:(Redman Sabatini))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:608 AND publicationDate:1966 AND host.title:(Proc Natl Acad Sci) AND author.name:(Redman Sabatini)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Natl Acad) AND host.pages.first:608 AND publicationDate:1966 AND host.title:(Proc* Natl* Acad* Sci*) AND author.name:(Redman Sabatini)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Von</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">And</forename>\n    <forename type=\"middle\">P N</forename>\n    <surname>Decken</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Campbell</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Biochem. J</title>\n  <imprint>\n   <biblScope unit=\"volume\">84</biblScope>\n   <biblScope unit=\"page\">449</biblScope>\n   <date type=\"published\" when=\"1962\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Maria Klaude"
+            },
+            {
+              "name": "Gisela Persson"
+            },
+            {
+              "name": "Alexandra von der Decken"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0921-8777(89)90019-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "135",
+              "last": "142"
+            },
+            "title": "Mutation Research-DNA Repair",
+            "volume": "218"
+          },
+          "id": "D262605DB65FB7BBDFF2651CFFC641EA951406B0",
+          "publicationDate": "1989",
+          "title": "Combined effect of dimethylnitrosamine and a lysine-restricted diet on O6-methylguanine-DNA methyltransferase levels in mouse tissues"
+        },
+        "lucn_query": "A Von And P N Decken Campbell Biochem. J 84 449 1962",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"449\" AND host.volume:\"84\" AND publicationDate:\"1962\" AND host.title:\"Biochem. J\" AND author.name:\"Von\" AND author.name:\"Decken\" AND author.name:\"Campbell\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.B. von der Decken"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0029-5493(72)90147-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "333"
+            },
+            "title": "Nuclear Engineering and Design",
+            "volume": "18"
+          },
+          "id": "B30F8E6E6E07914E818B02730242044C12B87AA1",
+          "publicationDate": "1972",
+          "title": "Mechanical problems of a pebble bed reactor core"
+        },
+        "lucn_query": "host.pages.first:\"449\" host.volume:\"84\" publicationDate:\"1962\" host.title:\"Biochem. J\" author.name:\"Von\" author.name:\"Decken\" author.name:\"Campbell\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.B. von der Decken"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0029-5493(72)90147-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "323",
+              "last": "333"
+            },
+            "title": "Nuclear Engineering and Design",
+            "volume": "18"
+          },
+          "id": "B30F8E6E6E07914E818B02730242044C12B87AA1",
+          "publicationDate": "1972",
+          "title": "Mechanical problems of a pebble bed reactor core"
+        },
+        "lucn_query": "host.pages.first:449 host.volume:84 publicationDate:1962 host.title:(Biochem J) author.name:(Von Decken Campbell)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. H. Jones"
+            },
+            {
+              "name": "P. J. Campbell"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/path.1700840218"
+          ],
+          "host": {
+            "pages": {
+              "first": "428",
+              "last": "433"
+            },
+            "title": "The Journal of Pathology and Bacteriology",
+            "volume": "84"
+          },
+          "id": "A47B09505B62146770DAF702FE0CFFD21B998161",
+          "publicationDate": "1962",
+          "title": "The effect of artificial reduction of deep body temperature(hypothermia) on the course of an acute infection in the rat"
+        },
+        "lucn_query": "(host.volume:84 AND publicationDate:1962) AND (host.pages.first:449 host.title:(Biochem J) author.name:(Von Decken Campbell))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. H. Jones"
+            },
+            {
+              "name": "P. J. Campbell"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/path.1700840218"
+          ],
+          "host": {
+            "pages": {
+              "first": "428",
+              "last": "433"
+            },
+            "title": "The Journal of Pathology and Bacteriology",
+            "volume": "84"
+          },
+          "id": "A47B09505B62146770DAF702FE0CFFD21B998161",
+          "publicationDate": "1962",
+          "title": "The effect of artificial reduction of deep body temperature(hypothermia) on the course of an acute infection in the rat"
+        },
+        "lucn_query": "(host.volume:84 AND publicationDate:1962) AND (host.pages.first:449 host.title:(Biochem* journal) author.name:(Von Decken Campbell))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:449 AND host.volume:84 AND publicationDate:1962 AND host.title:(Biochem J) AND author.name:(Von Decken Campbell)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:449 AND host.volume:84 AND publicationDate:1962 AND host.title:(Biochem* journal) AND author.name:(Von Decken Campbell)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <forename type=\"middle\">H J</forename>\n    <surname>Lowry</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Rosebrough</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Farr</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Randall</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Biol. Chew</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"3\" to=\"1951\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John A. Berges"
+            },
+            {
+              "name": "Anne E. Fisher"
+            },
+            {
+              "name": "Paul J. Harrison"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00346334"
+          ],
+          "host": {
+            "pages": {
+              "first": "187",
+              "last": "193"
+            },
+            "title": "Marine Biology",
+            "volume": "115"
+          },
+          "id": "6CB685E7750D14D625264EF35F5E85A338852338",
+          "publicationDate": "1992",
+          "title": "A comparison of Lowry, Bradford and Smith protein assays using different protein standards and protein isolated from the marine diatom Thalassiosira pseudonana"
+        },
+        "lucn_query": "N H J Lowry A L Rosebrough R J Farr Randall J. Biol. Chew 3 1951",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"3\" AND host.pages.last:\"1951\" AND author.name:\"Lowry\" AND author.name:\"Rosebrough\" AND author.name:\"Farr\" AND author.name:\"Randall\" AND host.title:\"J. Biol. Chew\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "ROBERT M. FARR"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2044-8325.1977.tb00353.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "14"
+            },
+            "title": "Journal of Occupational Psychology",
+            "volume": "50"
+          },
+          "id": "90C0C50AAA054B1EDC181CDA86213674E848316D",
+          "publicationDate": "1977",
+          "title": "On the nature of attributional artifacts in qualitative research: Herzberg's two\u2010factor theory of work motivation"
+        },
+        "lucn_query": "host.pages.first:\"3\" host.pages.last:\"1951\" author.name:\"Lowry\" author.name:\"Rosebrough\" author.name:\"Farr\" author.name:\"Randall\" host.title:\"J. Biol. Chew\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.pages.first:3 host.pages.last:1951 author.name:(Lowry Rosebrough Farr Randall) host.title:(J Biol Chew)",
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3 AND host.pages.last:1951 AND author.name:(Lowry Rosebrough Farr Randall) AND host.title:(J Biol Chew)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:3 AND host.pages.last:1951 AND author.name:(Lowry Rosebrough Farr Randall) AND host.title:(journal Biol* Chew*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">C C</forename>\n    <surname>Lin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Pitt</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Civen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Knox</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Biol. Chew</title>\n  <imprint>\n   <biblScope unit=\"volume\">233</biblScope>\n   <biblScope unit=\"page\">668</biblScope>\n   <date type=\"published\" when=\"1958\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Sang-Youn Park"
+            },
+            {
+              "name": "Peter P Borbat"
+            },
+            {
+              "name": "Gabriela Gonzalez-Bonet"
+            },
+            {
+              "name": "Jaya Bhatnagar"
+            },
+            {
+              "name": "Abiola M Pollard"
+            },
+            {
+              "name": "Jack H Freed"
+            },
+            {
+              "name": "Alexandrine M Bilwes"
+            },
+            {
+              "name": "Brian R Crane"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nsmb1085"
+          ],
+          "host": {
+            "pages": {
+              "first": "400",
+              "last": "407"
+            },
+            "title": "Nature Structural & Molecular Biology",
+            "volume": "13"
+          },
+          "id": "C156A47D09B2E042A2244D9F020AF097D3AC09D4",
+          "publicationDate": "2006",
+          "title": "Reconstruction of the chemotaxis receptorkinase assembly"
+        },
+        "lucn_query": "E C C Lin B M Pitt M Civen W E Knox J. Biol. Chew 233 668 1958",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"668\" AND host.volume:\"233\" AND publicationDate:\"1958\" AND host.title:\"J. Biol. Chew\" AND author.name:\"Lin\" AND author.name:\"Pitt\" AND author.name:\"Civen\" AND author.name:\"Knox\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Pang Pang"
+            },
+            {
+              "name": "Pitt Pitt"
+            },
+            {
+              "name": "Petkova Petkova"
+            },
+            {
+              "name": "Knox Knox"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1365-2222.1998.00311.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1050",
+              "last": "1058"
+            },
+            "title": "Clinical & Experimental Allergy",
+            "volume": "28"
+          },
+          "id": "64A48D53A0927CD9742DC7131846DC05A8EC2BAE",
+          "publicationDate": "1998",
+          "title": "The COX\u20101/COX\u20102 balance in asthma"
+        },
+        "lucn_query": "host.pages.first:\"668\" host.volume:\"233\" publicationDate:\"1958\" host.title:\"J. Biol. Chew\" author.name:\"Lin\" author.name:\"Pitt\" author.name:\"Civen\" author.name:\"Knox\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.pages.first:668 host.volume:233 publicationDate:1958 host.title:(J Biol Chew) author.name:(Lin Pitt Civen Knox)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:233 AND publicationDate:1958) AND (host.pages.first:668 host.title:(J Biol Chew) author.name:(Lin Pitt Civen Knox))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:233 AND publicationDate:1958) AND (host.pages.first:668 host.title:(journal Biol* Chew*) author.name:(Lin Pitt Civen Knox))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:668 AND host.volume:233 AND publicationDate:1958 AND host.title:(J Biol Chew) AND author.name:(Lin Pitt Civen Knox)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:668 AND host.volume:233 AND publicationDate:1958 AND host.title:(journal Biol* Chew*) AND author.name:(Lin Pitt Civen Knox)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title level=\"a\" type=\"main\">Received November zgth, 1968 _ * Observations to be reported in other manuscript</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Z</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Canellakis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">0</forename>\n    <surname>Cohen</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Biol. Chew. Biochinz. Biophys. Acta</title>\n  <imprint>\n   <biblScope unit=\"volume\">222</biblScope>\n   <biblScope unit=\"issue\">53</biblScope>\n   <biblScope unit=\"page\" from=\"174\" to=\"779\"></biblScope>\n   <date type=\"published\" when=\"1956\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "A8DA21B12709A4A7A04D2C6567BFD82B23A9E5E2",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Arnold I. Meisler"
+            },
+            {
+              "name": "Burton E. Tropp"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0005-2787(69)90277-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "476",
+              "last": "490"
+            },
+            "title": "BBA Section Nucleic Acids And Protein Synthesis",
+            "volume": "174"
+          },
+          "id": "F3F5722D86E513490EC49D9B55FF9B9BBDEB07C9",
+          "publicationDate": "1969",
+          "title": "Studies on ribonucleic acid synthesis in nuclei isolated from rat liver"
+        },
+        "lucn_query": "Received November zgth, 1968 _ * Observations to be reported in other manuscript Z N Canellakis P 0 Cohen J. Biol. Chew. Biochinz. Biophys. Acta 222 53 1956 174 779",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"222\" AND title:\"Received November zgth, 1968 _ * Observations to be reported in other manuscript\" AND host.pages.first:\"174\" AND host.pages.last:\"779\" AND host.issue:\"53\" AND publicationDate:\"1956\" AND host.title:\"J. Biol. Chew. Biochinz. Biophys. Acta\" AND author.name:\"Canellakis\" AND author.name:\"Cohen\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. Vitkauskas"
+            },
+            {
+              "name": "E.S. Canellakis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0014-4827(84)90656-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "541",
+              "last": "551"
+            },
+            "title": "Experimental Cell Research",
+            "volume": "152"
+          },
+          "id": "5784D13CFC4ADB1EBCA67EA479D7622AF71B2192",
+          "publicationDate": "1984",
+          "title": "The regulation of hypoxanthine guanine phosphoribosyl transferase activity through transfer of PRPP by metabolic cooperation"
+        },
+        "lucn_query": "host.volume:\"222\" title:\"Received November zgth, 1968 _ * Observations to be reported in other manuscript\" host.pages.first:\"174\" host.pages.last:\"779\" host.issue:\"53\" publicationDate:\"1956\" host.title:\"J. Biol. Chew. Biochinz. Biophys. Acta\" author.name:\"Canellakis\" author.name:\"Cohen\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Edward Herbert"
+            },
+            {
+              "name": "E.S. Canellakis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0006-3002(61)90832-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "85",
+              "last": "92"
+            },
+            "title": "BBA - Biochimica et Biophysica Acta",
+            "volume": "47"
+          },
+          "id": "9250C6BCB30B0C0CB77FA44B38446D7C17AF2262",
+          "publicationDate": "1961",
+          "title": "s-RNA synthesis V. Reconstitution of a biological property of phosphodiesterase-treated s-RNA"
+        },
+        "lucn_query": "host.volume:222 title:(Received November zgth 1968 Observations reported other manuscript) host.pages.first:174 host.pages.last:779 host.issue:53 publicationDate:1956 host.title:(J Biol Chew Biochinz Biophys Acta) author.name:(Canellakis Cohen)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:222 AND publicationDate:1956) AND (title:(Received November zgth 1968 Observations reported other manuscript) host.pages.first:174 host.pages.last:779 host.issue:53 host.title:(J Biol Chew Biochinz Biophys Acta) author.name:(Canellakis Cohen))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:222 AND publicationDate:1956) AND (title:(Received November zgth 1968 Observations reported other manuscript) host.pages.first:174 host.pages.last:779 host.issue:53 host.title:(journal Biol* Chew* Biochinz* Biophys* Acta*) author.name:(Canellakis Cohen))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:222 AND title:(Received November zgth 1968 Observations reported other manuscript) AND host.pages.first:174 AND host.pages.last:779 AND host.issue:53 AND publicationDate:1956 AND host.title:(J Biol Chew Biochinz Biophys Acta) AND author.name:(Canellakis Cohen)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:222 AND title:(Received November zgth 1968 Observations reported other manuscript) AND host.pages.first:174 AND host.pages.last:779 AND host.issue:53 AND publicationDate:1956 AND host.title:(journal Biol* Chew* Biochinz* Biophys* Acta*) AND author.name:(Canellakis Cohen)",
+        "match_flag": false
+      }
+    ]
+  }
+]

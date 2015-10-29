@@ -1,0 +1,620 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Circular fluid energy mill</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Nair</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Ramanujam</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Adv. Powder Technol</title>\n  <imprint>\n   <biblScope unit=\"volume\">3</biblScope>\n   <biblScope unit=\"page\" from=\"385\" to=\"398\"></biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B Rajendran Nair"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0032-5910(99)00067-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "45",
+              "last": "53"
+            },
+            "title": "Powder Technology",
+            "volume": "106"
+          },
+          "id": "695414451716DC5097F4C729294B74EA31A99AFA",
+          "publicationDate": "1999",
+          "title": "Breakage parameters and the operating variables of a circular fluid energy mill"
+        },
+        "lucn_query": "Circular fluid energy mill P B Nair M Ramanujam Adv. Powder Technol 3 1992 385 398",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"3\" AND title:\"Circular fluid energy mill\" AND host.pages.first:\"385\" AND host.pages.last:\"398\" AND publicationDate:\"1992\" AND host.title:\"Adv. Powder Technol\" AND author.name:\"Nair\" AND author.name:\"Ramanujam\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B. Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-8831(08)60664-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "298"
+            },
+            "title": "Advanced Powder Technology",
+            "volume": "3"
+          },
+          "id": "100E8642B58FB55128FA2703B321FBA0046F545D",
+          "publicationDate": "1992",
+          "title": "Circular fluid energy mill"
+        },
+        "lucn_query": "host.volume:\"3\" title:\"Circular fluid energy mill\" host.pages.first:\"385\" host.pages.last:\"398\" publicationDate:\"1992\" host.title:\"Adv. Powder Technol\" author.name:\"Nair\" author.name:\"Ramanujam\"",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B. Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-8831(08)60664-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "298"
+            },
+            "title": "Advanced Powder Technology",
+            "volume": "3"
+          },
+          "id": "100E8642B58FB55128FA2703B321FBA0046F545D",
+          "publicationDate": "1992",
+          "title": "Circular fluid energy mill"
+        },
+        "lucn_query": "host.volume:3 title:(Circular fluid energy mill) host.pages.first:385 host.pages.last:398 publicationDate:1992 host.title:(Adv Powder Technol) author.name:(Nair Ramanujam)",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B. Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-8831(08)60664-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "298"
+            },
+            "title": "Advanced Powder Technology",
+            "volume": "3"
+          },
+          "id": "100E8642B58FB55128FA2703B321FBA0046F545D",
+          "publicationDate": "1992",
+          "title": "Circular fluid energy mill"
+        },
+        "lucn_query": "(host.volume:3 AND publicationDate:1992) AND (title:(Circular fluid energy mill) host.pages.first:385 host.pages.last:398 host.title:(Adv Powder Technol) author.name:(Nair Ramanujam))",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B. Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-8831(08)60664-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "285",
+              "last": "298"
+            },
+            "title": "Advanced Powder Technology",
+            "volume": "3"
+          },
+          "id": "100E8642B58FB55128FA2703B321FBA0046F545D",
+          "publicationDate": "1992",
+          "title": "Circular fluid energy mill"
+        },
+        "lucn_query": "(host.volume:3 AND publicationDate:1992) AND (title:(Circular fluid energy mill) host.pages.first:385 host.pages.last:398 host.title:(Adv* Powder* Technol*) author.name:(Nair Ramanujam))",
+        "match_flag": true
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:3 AND title:(Circular fluid energy mill) AND host.pages.first:385 AND host.pages.last:398 AND publicationDate:1992 AND host.title:(Adv Powder Technol) AND author.name:(Nair Ramanujam)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:3 AND title:(Circular fluid energy mill) AND host.pages.first:385 AND host.pages.last:398 AND publicationDate:1992 AND host.title:(Adv* Powder* Technol*) AND author.name:(Nair Ramanujam)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title level=\"m\" type=\"main\">Fluid energy grinding</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Nair</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1986\"></date>\n   <publisher>Indian Institute of Technology</publisher>\n   <pubPlace>Madras, India</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <monogr>\n  <title level=\"m\" type=\"main\">Cyclones</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Leith</surname>\n   </persName>\n  </author>\n  <editor>M. E. Fayed and L. Otten</editor>\n  <imprint>\n   <date type=\"published\" when=\"1984\"></date>\n   <publisher>Reinhold Company</publisher>\n   <biblScope unit=\"page\" from=\"730\" to=\"752\"></biblScope>\n   <pubPlace>Van Nostrand ; New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Classification function in fluid energy grinding</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Nair</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Ramanujam</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Powder Technol</title>\n  <imprint>\n   <biblScope unit=\"volume\">68</biblScope>\n   <biblScope unit=\"page\" from=\"79\" to=\"84\"></biblScope>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "Classification function in fluid energy grinding P B Nair M Ramanujam Powder Technol 68 1991 79 84",
+        "match_flag": true
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"68\" AND title:\"Classification function in fluid energy grinding\" AND host.pages.first:\"79\" AND host.pages.last:\"84\" AND publicationDate:\"1991\" AND host.title:\"Powder Technol\" AND author.name:\"Nair\" AND author.name:\"Ramanujam\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "host.volume:\"68\" title:\"Classification function in fluid energy grinding\" host.pages.first:\"79\" host.pages.last:\"84\" publicationDate:\"1991\" host.title:\"Powder Technol\" author.name:\"Nair\" author.name:\"Ramanujam\"",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "host.volume:68 title:(Classification function fluid energy grinding) host.pages.first:79 host.pages.last:84 publicationDate:1991 host.title:(Powder Technol) author.name:(Nair Ramanujam)",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "(host.volume:68 AND publicationDate:1991) AND (title:(Classification function fluid energy grinding) host.pages.first:79 host.pages.last:84 host.title:(Powder Technol) author.name:(Nair Ramanujam))",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "(host.volume:68 AND publicationDate:1991) AND (title:(Classification function fluid energy grinding) host.pages.first:79 host.pages.last:84 host.title:(Powder* Technol*) author.name:(Nair Ramanujam))",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "host.volume:68 AND title:(Classification function fluid energy grinding) AND host.pages.first:79 AND host.pages.last:84 AND publicationDate:1991 AND host.title:(Powder Technol) AND author.name:(Nair Ramanujam)",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B.Rajendran Nair"
+            },
+            {
+              "name": "M. Ramanujam"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0032-5910(91)80066-R"
+          ],
+          "host": {
+            "pages": {
+              "first": "79",
+              "last": "84"
+            },
+            "title": "Powder Technology",
+            "volume": "68"
+          },
+          "id": "B12DCE65BB2D962C0841ED2E325D78B0C88168D8",
+          "publicationDate": "1991",
+          "title": "Classification function in fluid energy grinding"
+        },
+        "lucn_query": "host.volume:68 AND title:(Classification function fluid energy grinding) AND host.pages.first:79 AND host.pages.last:84 AND publicationDate:1991 AND host.title:(Powder* Technol*) AND author.name:(Nair Ramanujam)",
+        "match_flag": true
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Narayanan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Nair</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Microfines Fluidised Bed Jet Mill. Design registered under the Indian Patent Act</title>\n  <imprint>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.B. Rajendran Nair"
+            },
+            {
+              "name": "S.S. Narayanan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-8831(08)60446-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "145",
+              "last": "157"
+            },
+            "title": "Advanced Powder Technology",
+            "volume": "10"
+          },
+          "id": "49548E3D7ED1292A50FE084E3BDA06A085EABD4A",
+          "publicationDate": "1999",
+          "title": "Microfines disk centrifuge pneumatic classifier for fluid energy-based comminution systems"
+        },
+        "lucn_query": "S S Narayanan P B Nair Microfines Fluidised Bed Jet Mill. Design registered under the Indian Patent Act 1998",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "publicationDate:\"1998\" AND host.title:\"Microfines Fluidised Bed Jet Mill. Design registered under the Indian Patent Act\" AND author.name:\"Narayanan\" AND author.name:\"Nair\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Renji"
+            },
+            {
+              "name": "P.S. Nair"
+            },
+            {
+              "name": "S. Narayanan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/jsvi.1997.1438"
+          ],
+          "host": {
+            "pages": {
+              "first": "583",
+              "last": "598"
+            },
+            "title": "Journal of Sound and Vibration",
+            "volume": "212"
+          },
+          "id": "5A71B4388B83ABABF0FDDF2C992FB20EE8803096",
+          "publicationDate": "1998",
+          "title": "ON ACOUSTIC RADIATION RESISTANCE OF PLATES"
+        },
+        "lucn_query": "publicationDate:\"1998\" host.title:\"Microfines Fluidised Bed Jet Mill. Design registered under the Indian Patent Act\" author.name:\"Narayanan\" author.name:\"Nair\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chinnachamy Karthika"
+            },
+            {
+              "name": "Narayanan Nair Muraleedharan"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/jsfa.3661"
+          ],
+          "host": {
+            "pages": {
+              "first": "1851",
+              "last": "1856"
+            },
+            "title": "Journal of the Science of Food and Agriculture",
+            "volume": "89"
+          },
+          "id": "5F2267A50B0FBBB2E7781326CF0391F7B7A37B2A",
+          "publicationDate": "2009",
+          "title": "Residual deposits in green tea shoots and black tea after individual and combined application of propiconazole and copper oxychloride"
+        },
+        "lucn_query": "publicationDate:1998 host.title:(Microfines Fluidised Bed Jet Mill Design registered under the Indian Patent Act) author.name:(Narayanan Nair)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Renji"
+            },
+            {
+              "name": "P.S. Nair"
+            },
+            {
+              "name": "S. Narayanan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/jsvi.1997.1438"
+          ],
+          "host": {
+            "pages": {
+              "first": "583",
+              "last": "598"
+            },
+            "title": "Journal of Sound and Vibration",
+            "volume": "212"
+          },
+          "id": "5A71B4388B83ABABF0FDDF2C992FB20EE8803096",
+          "publicationDate": "1998",
+          "title": "ON ACOUSTIC RADIATION RESISTANCE OF PLATES"
+        },
+        "lucn_query": "(publicationDate:1998) AND (host.title:(Microfines Fluidised Bed Jet Mill Design registered under the Indian Patent Act) author.name:(Narayanan Nair))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Renji"
+            },
+            {
+              "name": "P.S. Nair"
+            },
+            {
+              "name": "S. Narayanan"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/jsvi.1997.1438"
+          ],
+          "host": {
+            "pages": {
+              "first": "583",
+              "last": "598"
+            },
+            "title": "Journal of Sound and Vibration",
+            "volume": "212"
+          },
+          "id": "5A71B4388B83ABABF0FDDF2C992FB20EE8803096",
+          "publicationDate": "1998",
+          "title": "ON ACOUSTIC RADIATION RESISTANCE OF PLATES"
+        },
+        "lucn_query": "(publicationDate:1998) AND (host.title:(Microfines Fluidised Bed Jet Mill Design registered under the Indian Patent Act) author.name:(Narayanan Nair))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Nair"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1365-8711.1998.02082.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "315",
+              "last": "322"
+            },
+            "title": "Monthly Notices of the Royal Astronomical Society",
+            "volume": "301"
+          },
+          "id": "E594851F90951F6B1685B17B696BBDB3D99C678F",
+          "publicationDate": "1998",
+          "title": "Modelling the 10\u2010image lensed system B1933+503"
+        },
+        "lucn_query": "publicationDate:1998 AND host.title:(Microfines Fluidised Bed Jet Mill Design registered under the Indian Patent Act) AND author.name:(Narayanan Nair)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Nair"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1365-8711.1998.02082.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "315",
+              "last": "322"
+            },
+            "title": "Monthly Notices of the Royal Astronomical Society",
+            "volume": "301"
+          },
+          "id": "E594851F90951F6B1685B17B696BBDB3D99C678F",
+          "publicationDate": "1998",
+          "title": "Modelling the 10\u2010image lensed system B1933+503"
+        },
+        "lucn_query": "publicationDate:1998 AND host.title:(Microfines Fluidised Bed Jet Mill Design registered under the Indian Patent Act) AND author.name:(Narayanan Nair)",
+        "match_flag": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,821 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">Porluguese C t South-eusr A,/rictr</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">E</forename>\n    <surname>Axelson</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1969\"></date>\n   <pubPlace>Johannesburg</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title level=\"m\" type=\"main\">The Irincrcirio q</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">D</forename>\n    <surname>Lockhart</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1984\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"middle\">C</forename>\n    <surname>Parr</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Mck</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Mnrco Polo</title>\n  <meeting><address><addrLine>New York</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1964-01\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tatiana Moutinho\u2010Santos"
+            },
+            {
+              "name": "Paula Sampaio"
+            },
+            {
+              "name": "Isabel Amorim"
+            },
+            {
+              "name": "Madalena Costa"
+            },
+            {
+              "name": "Claudio E Sunkel"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1768-322X.1999.tb01104.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "585",
+              "last": "596"
+            },
+            "title": "Biology of the Cell",
+            "volume": "91"
+          },
+          "id": "2E631D174E6F636ECA659CCBB1F55F4F29696D13",
+          "publicationDate": "1999",
+          "title": "In vivo localisation of the mitotic POLO kinase shows a highly dynamic association with the mitotic apparatus during early embryogenesis in Drosophila"
+        },
+        "lucn_query": "C Parr Mck Mnrco Polo New York 1964-01",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "\"New York\" AND publicationDate:\"1964-01\" AND host.title:\"Mnrco Polo\" AND author.name:\"Parr\" AND author.name:\"Mck\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Winchell McK. Craig M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9610(31)90059-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "303",
+              "last": "313"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "12"
+          },
+          "id": "87EEE86D4C00CCA32F99AF32460DA61EF07F38F9",
+          "publicationDate": "1931",
+          "title": "Spinal cord compression: Tumors and allied non-traumatic conditions"
+        },
+        "lucn_query": "\"New York\" publicationDate:\"1964-01\" host.title:\"Mnrco Polo\" author.name:\"Parr\" author.name:\"Mck\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Winchell McK. Craig M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9610(31)90059-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "303",
+              "last": "313"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "12"
+          },
+          "id": "87EEE86D4C00CCA32F99AF32460DA61EF07F38F9",
+          "publicationDate": "1931",
+          "title": "Spinal cord compression: Tumors and allied non-traumatic conditions"
+        },
+        "lucn_query": "author.name:(Parr Mck) publicationDate:1964 host.title:(Mnrco Polo) York",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. E. Parr"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2151-6952.1964.tb01608.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "131",
+              "last": "142"
+            },
+            "title": "Curator: The Museum Journal",
+            "volume": "7"
+          },
+          "id": "11766C1E08D347590E07B6C70D4B783F80F0F895",
+          "publicationDate": "1964",
+          "title": "Remarks on Layout, Display, and Response to Design1"
+        },
+        "lucn_query": "(publicationDate:1964) AND (author.name:(Parr Mck) host.title:(Mnrco Polo) York)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. E. Parr"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2151-6952.1964.tb01608.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "131",
+              "last": "142"
+            },
+            "title": "Curator: The Museum Journal",
+            "volume": "7"
+          },
+          "id": "11766C1E08D347590E07B6C70D4B783F80F0F895",
+          "publicationDate": "1964",
+          "title": "Remarks on Layout, Display, and Response to Design1"
+        },
+        "lucn_query": "(publicationDate:1964) AND (author.name:(Parr Mck) host.title:(Mnrco* Polo*) York)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Parr Mck) AND publicationDate:1964 AND host.title:(Mnrco Polo) AND York",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:(Parr Mck) AND publicationDate:1964 AND host.title:(Mnrco* Polo*) AND York",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"middle\">J H</forename>\n    <surname>Parry</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">The Manila Galleott</title>\n  <meeting><address><addrLine>New York</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1939\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Javier Calero Cuervo"
+            },
+            {
+              "name": "David HO Kim Hin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0264-2751(98)00016-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "245",
+              "last": "256"
+            },
+            "title": "Cities",
+            "volume": "15"
+          },
+          "id": "FA31C9770AC7D5476AD6F9B62569D1FCCAB5D575",
+          "publicationDate": "1998",
+          "title": "Todaro migration and primacy models:"
+        },
+        "lucn_query": "J H Parry The Manila Galleott New York 1939",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "\"New York\" AND publicationDate:\"1939\" AND host.title:\"The Manila Galleott\" AND author.name:\"Parry\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "KATE PARRY"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.2307/3587929"
+          ],
+          "host": {
+            "pages": {
+              "first": "665",
+              "last": "692"
+            },
+            "title": "TESOL Quarterly",
+            "volume": "30"
+          },
+          "id": "5B0A8AD9575D49DE9646FCA388857FF170440FA1",
+          "publicationDate": "1996",
+          "title": "Culture, Literacy, and L2 Reading"
+        },
+        "lucn_query": "\"New York\" publicationDate:\"1939\" host.title:\"The Manila Galleott\" author.name:\"Parry\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John Parry-Williams"
+            }
+          ],
+          "corpusName": "brill-journals",
+          "doi": [
+            "10.1163/157181893X00322"
+          ],
+          "host": {
+            "pages": {
+              "first": "49",
+              "last": "69"
+            },
+            "title": "The International Journal of Children's Rights",
+            "volume": "1"
+          },
+          "id": "EF1DF8F4974D873229FB224AD6C2ADF65AE6A52A",
+          "publicationDate": "1993",
+          "title": "Legal reform and children's rights in Uganda - some critical issues"
+        },
+        "lucn_query": "author.name:Parry publicationDate:1939 host.title:(The Manila Galleott) York",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Chalmers Parry M.R.C.S., L.R.C.P., D.P.H."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0033-3506(39)80150-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "223",
+              "last": "224"
+            },
+            "title": "Public Health",
+            "volume": "53"
+          },
+          "id": "2EFA7EE5D0CFD07EB555BF95C22759739EF001B7",
+          "publicationDate": "1939",
+          "title": "An investigation of a small epidemic of diphtheria in the hop-fields"
+        },
+        "lucn_query": "(publicationDate:1939) AND (author.name:Parry host.title:(The Manila Galleott) York)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Chalmers Parry M.R.C.S., L.R.C.P., D.P.H."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0033-3506(39)80150-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "223",
+              "last": "224"
+            },
+            "title": "Public Health",
+            "volume": "53"
+          },
+          "id": "2EFA7EE5D0CFD07EB555BF95C22759739EF001B7",
+          "publicationDate": "1939",
+          "title": "An investigation of a small epidemic of diphtheria in the hop-fields"
+        },
+        "lucn_query": "(publicationDate:1939) AND (author.name:Parry host.title:(The* Manila* Galleott*) York)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:Parry AND publicationDate:1939 AND host.title:(The Manila Galleott) AND York",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:Parry AND publicationDate:1939 AND host.title:(The* Manila* Galleott*) AND York",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Rrcordy ofSourli-errsrrrri Africa 9 vols. Govt. of the Cape Colony ScienliJic studies in early mining and extractive metallurgy</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">G</forename>\n    <surname>Thttal</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Mcc</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Hakluyt SOC. First Series No. 71. References Bachmann, H-G. Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations , in (P. T. Craddock</title>\n  <meeting><address><addrLine>London</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1900\"></date>\n   <biblScope unit=\"page\" from=\"103\" to=\"34\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David J. Killick"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1095-9270.1986.tb00545.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "59",
+              "last": "63"
+            },
+            "title": "International Journal of Nautical Archaeology",
+            "volume": "15"
+          },
+          "id": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+          "publicationDate": "1986",
+          "title": "Appendix A by David J. Killick"
+        },
+        "lucn_query": "Rrcordy ofSourli-errsrrrri Africa 9 vols. Govt. of the Cape Colony ScienliJic studies in early mining and extractive metallurgy G Thttal Mcc Hakluyt SOC. First Series No. 71. References Bachmann, H-G. Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations , in \\(P. T. Craddock London 1900 103 34",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Thttal\" AND author.name:\"Mcc\" AND title:\"Rrcordy ofSourli-errsrrrri Africa 9 vols. Govt. of the Cape Colony ScienliJic studies in early mining and extractive metallurgy\" AND host.pages.first:\"103\" AND host.pages.last:\"34\" AND publicationDate:\"1900\" AND host.title:\"Hakluyt SOC. First Series No. 71. References Bachmann, H-G. Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations , in \\(P. T. Craddock\" AND \"London\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D. McC. Newbery"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00540123"
+          ],
+          "host": {
+            "pages": {
+              "first": "171",
+              "last": "179"
+            },
+            "title": "Oecologia",
+            "volume": "46"
+          },
+          "id": "5ECC1C130C43D11C643016590CFE50B960EFC182",
+          "publicationDate": "1980",
+          "title": "Interactions between the coccid, Icerya seychellarum (Westw.), and its host tree species on Aldabra Atoll"
+        },
+        "lucn_query": "author.name:\"Thttal\" author.name:\"Mcc\" title:\"Rrcordy ofSourli-errsrrrri Africa 9 vols. Govt. of the Cape Colony ScienliJic studies in early mining and extractive metallurgy\" host.pages.first:\"103\" host.pages.last:\"34\" publicationDate:\"1900\" host.title:\"Hakluyt SOC. First Series No. 71. References Bachmann, H-G. Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations , in \\(P. T. Craddock\" \"London\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Chandler McC. Brooks"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-1838(83)90073-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "199",
+              "last": "212"
+            },
+            "title": "Journal of the Autonomic Nervous System",
+            "volume": "7"
+          },
+          "id": "F9EB282C530295C894098BB8F47075F90F58A5E0",
+          "publicationDate": "1983",
+          "title": "Newer concepts of the autonomic system's role derived from reductionist and behavioral studies of various animal species"
+        },
+        "lucn_query": "title:(Rrcordy ofSourli errsrrrri Africa vols Govt Cape Colony ScienliJic studies early mining extractive metallurgy) host.pages.first:103 host.pages.last:34 London author.name:(Thttal Mcc) host.title:(Hakluyt SOC First Series No 71 References Bachmann Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations in Craddock) publicationDate:1900",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "AlbertJ. Chalmers M.D. VICT, F.R.C.S. ENG."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0140-6736(01)99958-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1262",
+              "last": "1264"
+            },
+            "title": "The Lancet",
+            "volume": "156"
+          },
+          "id": "986FADC7272581E16C97709D7E6315F7C31E2CC4",
+          "publicationDate": "1900",
+          "title": "UNCOMPLICATED \u00c6STIVO-AUTUMNAL FEVER IN EUROPEANS IN THE GOLD COAST COLONY, WEST AFRICA."
+        },
+        "lucn_query": "(publicationDate:1900) AND (title:(Rrcordy ofSourli errsrrrri Africa vols Govt Cape Colony ScienliJic studies early mining extractive metallurgy) host.pages.first:103 host.pages.last:34 London author.name:(Thttal Mcc) host.title:(Hakluyt SOC First Series No 71 References Bachmann Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations in Craddock))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "AlbertJ. Chalmers M.D. VICT, F.R.C.S. ENG."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0140-6736(01)99958-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1262",
+              "last": "1264"
+            },
+            "title": "The Lancet",
+            "volume": "156"
+          },
+          "id": "986FADC7272581E16C97709D7E6315F7C31E2CC4",
+          "publicationDate": "1900",
+          "title": "UNCOMPLICATED \u00c6STIVO-AUTUMNAL FEVER IN EUROPEANS IN THE GOLD COAST COLONY, WEST AFRICA."
+        },
+        "lucn_query": "(publicationDate:1900) AND (title:(Rrcordy ofSourli errsrrrri Africa vols Govt Cape Colony ScienliJic studies early mining extractive metallurgy) host.pages.first:103 host.pages.last:34 London author.name:(Thttal Mcc) host.title:(Hakluyt SOC First Series No 71 References Bachmann Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations in Craddock))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Rrcordy ofSourli errsrrrri Africa vols Govt Cape Colony ScienliJic studies early mining extractive metallurgy) AND host.pages.first:103 AND host.pages.last:34 AND London AND author.name:(Thttal Mcc) AND host.title:(Hakluyt SOC First Series No 71 References Bachmann Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations in Craddock) AND publicationDate:1900",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Rrcordy ofSourli errsrrrri Africa vols Govt Cape Colony ScienliJic studies early mining extractive metallurgy) AND host.pages.first:103 AND host.pages.last:34 AND London AND author.name:(Thttal Mcc) AND host.title:(Hakluyt SOC First Series No 71 References Bachmann Early copper smelting techniques in Sinai and in the Negev as deduced from slag investigations in Craddock) AND publicationDate:1900",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title level=\"a\" type=\"main\">The system FeO-SiO, American JournaloJ</title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Bowen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Schairer</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Science</title>\n  <imprint>\n   <biblScope unit=\"volume\">141</biblScope>\n   <biblScope unit=\"page\" from=\"177\" to=\"213\"></biblScope>\n   <date type=\"published\" when=\"1932\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. F. SCHAIRER"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1151-2916.1957.tb12608.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "215",
+              "last": "235"
+            },
+            "title": "Journal of the American Ceramic Society",
+            "volume": "40"
+          },
+          "id": "EB2CEE2A5408DDBE28FC36A487D133A13105BB11",
+          "publicationDate": "1957",
+          "title": "Melting Relations of the Common Rock\u2010Forming Oxides"
+        },
+        "lucn_query": "The system FeO-SiO, American JournaloJ N L Bowen J F Schairer Science 141 1932 177 213",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"141\" AND title:\"The system FeO-SiO, American JournaloJ\" AND host.pages.first:\"177\" AND host.pages.last:\"213\" AND publicationDate:\"1932\" AND host.title:\"Science\" AND author.name:\"Bowen\" AND author.name:\"Schairer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Axel Schairer"
+            },
+            {
+              "name": "Serge Autexier"
+            },
+            {
+              "name": "Dieter Hutter"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)00286-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "216"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "58"
+          },
+          "id": "CAF846907C9853F054BD3800F45148DB37710A33",
+          "publicationDate": "2001",
+          "title": "A Pragmatic Approach to Reuse in Tactical Theorem Proving"
+        },
+        "lucn_query": "host.volume:\"141\" title:\"The system FeO-SiO, American JournaloJ\" host.pages.first:\"177\" host.pages.last:\"213\" publicationDate:\"1932\" host.title:\"Science\" author.name:\"Bowen\" author.name:\"Schairer\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Axel Schairer"
+            },
+            {
+              "name": "Serge Autexier"
+            },
+            {
+              "name": "Dieter Hutter"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1571-0661(04)00286-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "216"
+            },
+            "title": "Electronic Notes in Theoretical Computer Science",
+            "volume": "58"
+          },
+          "id": "CAF846907C9853F054BD3800F45148DB37710A33",
+          "publicationDate": "2001",
+          "title": "A Pragmatic Approach to Reuse in Tactical Theorem Proving"
+        },
+        "lucn_query": "host.volume:141 title:(system American JournaloJ) host.pages.first:177 host.pages.last:213 publicationDate:1932 host.title:Science author.name:(Bowen Schairer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:141 AND publicationDate:1932) AND (title:(system American JournaloJ) host.pages.first:177 host.pages.last:213 host.title:Science author.name:(Bowen Schairer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:141 AND publicationDate:1932) AND (title:(system American JournaloJ) host.pages.first:177 host.pages.last:213 host.title:(Science*) author.name:(Bowen Schairer))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:141 AND title:(system American JournaloJ) AND host.pages.first:177 AND host.pages.last:213 AND publicationDate:1932 AND host.title:Science AND author.name:(Bowen Schairer)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:141 AND title:(system American JournaloJ) AND host.pages.first:177 AND host.pages.last:213 AND publicationDate:1932 AND host.title:(Science*) AND author.name:(Bowen Schairer)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <monogr>\n  <title level=\"m\" type=\"main\">Prehistoric man in ihe Ciskei and Trunskei. Cape Town; Struik</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">R</forename>\n    <surname>Drrricourt</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1977\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <monogr>\n  <title level=\"m\" type=\"main\">The .smic!ure and compwition of archueolo~ica1,ferrousprocess slags</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">S</forename>\n    <surname>Fells</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1983\"></date>\n   <publisher>University of Aston</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Hoover</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Hoover</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1912\"></date>\n   <pubPlace>London</pubPlace>\n  </imprint>\n </monogr>\n <note>Ge0rgiu. .P Agricolu Dc remeiullica</note>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <monogr>\n  <title level=\"m\" type=\"main\">Phase equilibrium diagrams ofoside sysrems</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">E F</forename>\n    <surname>Osborn</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Muan</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1960\"></date>\n   <publisher>American Ceramic Society</publisher>\n   <pubPlace>Columbus</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title level=\"a\" type=\"main\">Chalcolilhic copper smel/ing: excavaiions and e The Pirolechnia of Vannoccio Biringuccio</title>\n  <author>\n   <persName>\n    <forename type=\"middle\">B</forename>\n    <surname>Rothenberg</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">R F</forename>\n    <surname>Tylecote</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Boydell</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">London: Institute of Archaeo-metallurgical Studies</title>\n  <editor>rperinienrs. Smith, Cyril</editor>\n  <meeting><address><addrLine>Cambridge</addrLine></address></meeting>\n  <imprint>\n   <publisher>MIT Press</publisher>\n   <date type=\"published\" when=\"1966\"></date>\n  </imprint>\n </monogr>\n <note>Monograph. no. I</note>\n</biblStruct>\n\n   ",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David J. Killick"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1095-9270.1986.tb00545.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "59",
+              "last": "63"
+            },
+            "title": "International Journal of Nautical Archaeology",
+            "volume": "15"
+          },
+          "id": "CB2C5260EA06388EA8F36665C1AE00BFFD5C5AE8",
+          "publicationDate": "1986",
+          "title": "Appendix A by David J. Killick"
+        },
+        "lucn_query": "Chalcolilhic copper smel/ing\\: excavaiions and e The Pirolechnia of Vannoccio Biringuccio B Rothenberg R F Tylecote P J Boydell London\\: Institute of Archaeo-metallurgical Studies rperinienrs. Smith, Cyril Cambridge MIT Press Monograph. no. I 1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Rothenberg\" AND author.name:\"Tylecote\" AND author.name:\"Boydell\" AND title:\"Chalcolilhic copper smel/ing\\: excavaiions and e The Pirolechnia of Vannoccio Biringuccio\" AND host.editor:\"rperinienrs. Smith, Cyril\" AND host.editor:\"MIT Press\" AND publicationDate:\"1966\" AND host.title:\"London\\: Institute of Archaeo-metallurgical Studies\" AND \"Cambridge\" AND \"Monograph. no. I\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.F. Tylecote"
+            },
+            {
+              "name": "H.A. Ghaznavi"
+            },
+            {
+              "name": "P.J. Boydell"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0305-4403(77)90027-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "305",
+              "last": "333"
+            },
+            "title": "Journal of Archaeological Science",
+            "volume": "4"
+          },
+          "id": "CFFBA9C157BFC80BF1E7818436CD359DEC8D6869",
+          "publicationDate": "1977",
+          "title": "Partitioning of trace elements between the ores, fluxes, slags and metal during the smelting of copper"
+        },
+        "lucn_query": "author.name:\"Rothenberg\" author.name:\"Tylecote\" author.name:\"Boydell\" title:\"Chalcolilhic copper smel/ing\\: excavaiions and e The Pirolechnia of Vannoccio Biringuccio\" host.editor:\"rperinienrs. Smith, Cyril\" host.editor:\"MIT Press\" publicationDate:\"1966\" host.title:\"London\\: Institute of Archaeo-metallurgical Studies\" \"Cambridge\" \"Monograph. no. I\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.F. Tylecote"
+            },
+            {
+              "name": "H.A. Ghaznavi"
+            },
+            {
+              "name": "P.J. Boydell"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0305-4403(77)90027-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "305",
+              "last": "333"
+            },
+            "title": "Journal of Archaeological Science",
+            "volume": "4"
+          },
+          "id": "CFFBA9C157BFC80BF1E7818436CD359DEC8D6869",
+          "publicationDate": "1977",
+          "title": "Partitioning of trace elements between the ores, fluxes, slags and metal during the smelting of copper"
+        },
+        "lucn_query": "title:(Chalcolilhic copper smel excavaiions Pirolechnia Vannoccio Biringuccio) host.editor:(rperinienrs Smith Cyril Press) Cambridge Monograph author.name:(Rothenberg Tylecote Boydell) host.title:(London Institute of Archaeo metallurgical Studies) publicationDate:1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Eric A. Havelock"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2041-5370.1966.tb00030.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "44",
+              "last": "67"
+            },
+            "title": "Bulletin of the Institute of Classical Studies",
+            "volume": "13"
+          },
+          "id": "B3FDCA7AD894257DB18083F4CE5F052C24A46E07",
+          "publicationDate": "1966",
+          "title": "PRE\u2010LITERACY AND THE PRE\u2010SOCRATICS"
+        },
+        "lucn_query": "(publicationDate:1966) AND (title:(Chalcolilhic copper smel excavaiions Pirolechnia Vannoccio Biringuccio) host.editor:(rperinienrs Smith Cyril Press) Cambridge Monograph author.name:(Rothenberg Tylecote Boydell) host.title:(London Institute of Archaeo metallurgical Studies))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. I. Rothenberg"
+            },
+            {
+              "name": "J. M. Smith"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cjce.5450440203"
+          ],
+          "host": {
+            "pages": {
+              "first": "67",
+              "last": "73"
+            },
+            "title": "The Canadian Journal of Chemical Engineering",
+            "volume": "44"
+          },
+          "id": "1AE28ABD9F11FC33B1B00B9B46CE4DADF49267E1",
+          "publicationDate": "1966",
+          "title": "Dissociation and heat transfer in laminar flow"
+        },
+        "lucn_query": "(publicationDate:1966) AND (title:(Chalcolilhic copper smel excavaiions Pirolechnia Vannoccio Biringuccio) host.editor:(rperinienrs Smith Cyril Press) Cambridge Monograph author.name:(Rothenberg Tylecote Boydell) host.title:(London* Institute* of* Archaeo* metallurgical* Studies*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Chalcolilhic copper smel excavaiions Pirolechnia Vannoccio Biringuccio) AND host.editor:(rperinienrs Smith Cyril Press) AND Cambridge AND Monograph AND author.name:(Rothenberg Tylecote Boydell) AND host.title:(London Institute of Archaeo metallurgical Studies) AND publicationDate:1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Chalcolilhic copper smel excavaiions Pirolechnia Vannoccio Biringuccio) AND host.editor:(rperinienrs Smith Cyril Press) AND Cambridge AND Monograph AND author.name:(Rothenberg Tylecote Boydell) AND host.title:(London* Institute* of* Archaeo* metallurgical* Studies*) AND publicationDate:1966",
+        "match_flag": false
+      }
+    ]
+  }
+]

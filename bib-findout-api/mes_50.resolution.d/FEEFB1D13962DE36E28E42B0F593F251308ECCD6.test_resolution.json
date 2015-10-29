@@ -1,0 +1,3377 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Christian</forename>\n    <forename type=\"middle\">J W</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Met</title>\n  <imprint>\n   <biblScope unit=\"volume\">6</biblScope>\n   <biblScope unit=\"page\">377</biblScope>\n   <date type=\"published\" when=\"1958\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P Gaunt"
+            },
+            {
+              "name": "J.W Christian"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(59)90189-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "534",
+              "last": "543"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "7"
+          },
+          "id": "0C0561396DC014F48FB6127AF50427ECE76EB563",
+          "publicationDate": "1959",
+          "title": "The crystallography of the \u03b2-\u03b1 transformation in zirconium and in two titanium-molybdenum alloys"
+        },
+        "lucn_query": "Christian J W Acta. Met 6 377 1958",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"377\" AND host.volume:\"6\" AND publicationDate:\"1958\" AND host.title:\"Acta. Met\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1467-954X.1958.tb01069.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "125",
+              "last": "156"
+            },
+            "title": "The Sociological Review",
+            "volume": "6"
+          },
+          "id": "F70B0400258A22EEAC0010DDA26C6A6E5EE39415",
+          "publicationDate": "1958",
+          "title": "REVIEWS"
+        },
+        "lucn_query": "host.pages.first:\"377\" host.volume:\"6\" publicationDate:\"1958\" host.title:\"Acta. Met\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. M. Hoffmann"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01984635"
+          ],
+          "host": {
+            "pages": {
+              "first": "377",
+              "last": "390"
+            },
+            "title": "Rheologica Acta",
+            "volume": "6"
+          },
+          "id": "61AA72C6F3D9BF37BD8D5F7F78DE7FDC924D4CE1",
+          "publicationDate": "1967",
+          "title": "Der Einflu\u00df von Verhakungen auf die mechanische Relaxation und das Flie\u00dfen der amorphen Polymeren"
+        },
+        "lucn_query": "host.pages.first:377 host.volume:6 publicationDate:1958 host.title:(Acta Met)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J.W. Moore"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(58)90150-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "304"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "6"
+          },
+          "id": "374EA69B9FD104C5DCBCC54DFC5DFB18370C8417",
+          "publicationDate": "1958",
+          "title": "The influence of surface energy on thermal etching"
+        },
+        "lucn_query": "(host.volume:6 AND publicationDate:1958) AND (host.pages.first:377 host.title:(Acta Met))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J.W. Moore"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(58)90150-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "293",
+              "last": "304"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "6"
+          },
+          "id": "374EA69B9FD104C5DCBCC54DFC5DFB18370C8417",
+          "publicationDate": "1958",
+          "title": "The influence of surface energy on thermal etching"
+        },
+        "lucn_query": "(host.volume:6 AND publicationDate:1958) AND (host.pages.first:377 host.title:(Acta* Met*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.W. Christian"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(58)90077-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "377",
+              "last": "379"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "6"
+          },
+          "id": "95A03432BBF57A8D30E53521F98B0CAC5D6FE481",
+          "publicationDate": "1958",
+          "title": "Accommodation strains in martensite formation, and the use of a dilatation parameter"
+        },
+        "lucn_query": "host.pages.first:377 AND host.volume:6 AND publicationDate:1958 AND host.title:(Acta Met)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.W. Christian"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(58)90077-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "377",
+              "last": "379"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "6"
+          },
+          "id": "95A03432BBF57A8D30E53521F98B0CAC5D6FE481",
+          "publicationDate": "1958",
+          "title": "Accommodation strains in martensite formation, and the use of a dilatation parameter"
+        },
+        "lucn_query": "host.pages.first:377 AND host.volume:6 AND publicationDate:1958 AND host.title:(Acta* Met*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Gefen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Rosen</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phil. Maa</title>\n  <imprint>\n   <biblScope unit=\"volume\">26</biblScope>\n   <biblScope unit=\"page\">727</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Baram"
+            },
+            {
+              "name": "M. Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(82)90114-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "655",
+              "last": "662"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "30"
+          },
+          "id": "DC99FBEDCB278FBDAA8E1F5EBA34BE4C3216B71E",
+          "publicationDate": "1982",
+          "title": "On the nature of the thermoelastic martensitic phase transformation in Au-47.5 at.% Cd determined by acoustic emission"
+        },
+        "lucn_query": "Y Gefen M Rosen Phil. Maa 26 727",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"727\" AND host.volume:\"26\" AND author.name:\"Gefen\" AND author.name:\"Rosen\" AND host.title:\"Phil. Maa\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Gefen"
+            },
+            {
+              "name": "M. Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(76)90003-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "669",
+              "last": "674"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "37"
+          },
+          "id": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+          "publicationDate": "1976",
+          "title": "The ultrasonic equation of state in the vicinity of the martensitic transformation in Au-47.5 at.% Cd"
+        },
+        "lucn_query": "host.pages.first:\"727\" host.volume:\"26\" author.name:\"Gefen\" author.name:\"Rosen\" host.title:\"Phil. Maa\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Y. Gefen"
+            },
+            {
+              "name": "M. Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(76)90003-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "669",
+              "last": "674"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "37"
+          },
+          "id": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+          "publicationDate": "1976",
+          "title": "The ultrasonic equation of state in the vicinity of the martensitic transformation in Au-47.5 at.% Cd"
+        },
+        "lucn_query": "host.pages.first:727 host.volume:26 author.name:(Gefen Rosen) host.title:(Phil Maa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Michael Mayer"
+            },
+            {
+              "name": "Fred Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0026-0495(77)90013-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "937",
+              "last": "962"
+            },
+            "title": "Metabolism",
+            "volume": "26"
+          },
+          "id": "BCA66B2E0045F145702D443D17E359D484A51F78",
+          "publicationDate": "1977",
+          "title": "Interaction of glucocorticoids and androgens with skeletal muscle"
+        },
+        "lucn_query": "(host.volume:26) AND (host.pages.first:727 author.name:(Gefen Rosen) host.title:(Phil Maa))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Michael Mayer"
+            },
+            {
+              "name": "Fred Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0026-0495(77)90013-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "937",
+              "last": "962"
+            },
+            "title": "Metabolism",
+            "volume": "26"
+          },
+          "id": "BCA66B2E0045F145702D443D17E359D484A51F78",
+          "publicationDate": "1977",
+          "title": "Interaction of glucocorticoids and androgens with skeletal muscle"
+        },
+        "lucn_query": "(host.volume:26) AND (host.pages.first:727 author.name:(Gefen Rosen) host.title:(Phil* Maa*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:727 AND host.volume:26 AND author.name:(Gefen Rosen) AND host.title:(Phil Maa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:727 AND host.volume:26 AND author.name:(Gefen Rosen) AND host.title:(Phil* Maa*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Zirinsky</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Met. b</title>\n  <imprint>\n   <biblScope unit=\"volume\">164</biblScope>\n   <date type=\"published\" when=\"1972\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Klaus Krompholz"
+            },
+            {
+              "name": "Alarich Weiss"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/bbpc.197800050"
+          ],
+          "host": {
+            "pages": {
+              "first": "334",
+              "last": "341"
+            },
+            "title": "Berichte der Bunsengesellschaft f\u00fcr physikalische Chemie",
+            "volume": "82"
+          },
+          "id": "A0EA4210649C50D4C98B5F3F3E54F7E928BB2744",
+          "publicationDate": "1978",
+          "title": "On the Martensitic Transformation in the Intermetallic System \u03b2\u2032\u2010(Au, Pd)\u223c0.5Zn\u223c0.5"
+        },
+        "lucn_query": "S Zirinsky Acta. Met. b 164 1972",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"164\" AND publicationDate:\"1972\" AND host.title:\"Acta. Met. b\" AND author.name:\"Zirinsky\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Zirinsky"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02666237"
+          ],
+          "host": {
+            "pages": {
+              "first": "591",
+              "last": "624"
+            },
+            "title": "Journal of Electronic Materials",
+            "volume": "4"
+          },
+          "id": "09FC9FD0F6BEEDBF34FB7B1F2B3E95CCE1D84BD6",
+          "publicationDate": "1974",
+          "title": "Charge transfer properties of mnos structures as influenced by processing parameters"
+        },
+        "lucn_query": "host.volume:\"164\" publicationDate:\"1972\" host.title:\"Acta. Met. b\" author.name:\"Zirinsky\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Stanley Zirinsky"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(56)90134-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "164",
+              "last": "171"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "4"
+          },
+          "id": "E44F5C68049D0421999E8B1F1959A05C24C3557E",
+          "publicationDate": "1955",
+          "title": "The temperature dependence of the elastic constants of gold-cadmium alloys"
+        },
+        "lucn_query": "host.volume:164 publicationDate:1972 host.title:(Acta Met) author.name:Zirinsky",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:164 AND publicationDate:1972) AND (host.title:(Acta Met) author.name:Zirinsky)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:164 AND publicationDate:1972) AND (host.title:(Acta* Met*) author.name:Zirinsky)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:164 AND publicationDate:1972 AND host.title:(Acta Met) AND author.name:Zirinsky",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:164 AND publicationDate:1972 AND host.title:(Acta* Met*) AND author.name:Zirinsky",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Hasigoti</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Iwasaki</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Appl. Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">39</biblScope>\n   <biblScope unit=\"page\">2182</biblScope>\n   <date type=\"published\" when=\"1968\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Souma"
+            },
+            {
+              "name": "Y. Machida"
+            },
+            {
+              "name": "T. Sato"
+            },
+            {
+              "name": "T. Takahashi"
+            },
+            {
+              "name": "H. Matsui"
+            },
+            {
+              "name": "S.-C. Wang"
+            },
+            {
+              "name": "H. Ding"
+            },
+            {
+              "name": "A. Kaminski"
+            },
+            {
+              "name": "J. C. Campuzano"
+            },
+            {
+              "name": "S. Sasaki"
+            },
+            {
+              "name": "K. Kadowaki"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nature01619"
+          ],
+          "host": {
+            "pages": {
+              "first": "65",
+              "last": "67"
+            },
+            "title": "Nature",
+            "volume": "423"
+          },
+          "id": "10185350A3E93F090DA92EF41620678E625FAF10",
+          "publicationDate": "2003",
+          "title": "The origin of multiple superconducting gaps in MgB2"
+        },
+        "lucn_query": "R R Hasigoti K Iwasaki J. Appl. Phys 39 2182 1968",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"2182\" AND host.volume:\"39\" AND publicationDate:\"1968\" AND host.title:\"J. Appl. Phys\" AND author.name:\"Hasigoti\" AND author.name:\"Iwasaki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tatsuo Iwasaki"
+            },
+            {
+              "name": "Ryo Ogura"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0042-6822(68)90007-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "46",
+              "last": "59"
+            },
+            "title": "Virology",
+            "volume": "34"
+          },
+          "id": "490C0A4E9CC7A7458217A00FB13970309A5B0709",
+          "publicationDate": "1968",
+          "title": "Studies on complement-potentiated neutralizing antibodies (C\u2032-PNAb) induced in rabbits inoculated with japanese encephalitis virus (JEV)"
+        },
+        "lucn_query": "host.pages.first:\"2182\" host.volume:\"39\" publicationDate:\"1968\" host.title:\"J. Appl. Phys\" author.name:\"Hasigoti\" author.name:\"Iwasaki\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Masahiko Iwasaki"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/978-3-642-00961-7_8"
+          ],
+          "host": {
+            "pages": {
+              "first": "195",
+              "last": "229"
+            },
+            "title": "Particle and Nuclear Physics at J-PARC",
+            "volume": "781"
+          },
+          "id": "7EFCDE1D1DFE13084EE68C8A2E233DD449D930D1",
+          "title": "Experimental Investigations of Mesonic Bound States in Nuclei"
+        },
+        "lucn_query": "host.pages.first:2182 host.volume:39 publicationDate:1968 host.title:(J Appl Phys) author.name:(Hasigoti Iwasaki)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:39 AND publicationDate:1968) AND (host.pages.first:2182 host.title:(J Appl Phys) author.name:(Hasigoti Iwasaki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.W.M. Dekker"
+            },
+            {
+              "name": "P.F.A. Klinkenberg"
+            },
+            {
+              "name": "J.F. Langkemper"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0031-8914(68)90092-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "393",
+              "last": "412"
+            },
+            "title": "Physica",
+            "volume": "39"
+          },
+          "id": "C106616E7813625DAB4B6C75970CFB6A85109780",
+          "publicationDate": "1968",
+          "title": "Optical isotope shifts and nuclear deformation in dysprosium"
+        },
+        "lucn_query": "(host.volume:39 AND publicationDate:1968) AND (host.pages.first:2182 host.title:(journal Appl* Phys*) author.name:(Hasigoti Iwasaki))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2182 AND host.volume:39 AND publicationDate:1968 AND host.title:(J Appl Phys) AND author.name:(Hasigoti Iwasaki)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2182 AND host.volume:39 AND publicationDate:1968 AND host.title:(journal Appl* Phys*) AND author.name:(Hasigoti Iwasaki)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Pace</forename>\n    <forename type=\"middle\">N G</forename>\n    <surname>Saunders</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">A</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phil. Msg</title>\n  <imprint>\n   <biblScope unit=\"volume\">73</biblScope>\n   <biblScope unit=\"page\">73</biblScope>\n   <date type=\"published\" when=\"1970\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "O. Lugaz"
+            },
+            {
+              "name": "A.-M. Pillias"
+            },
+            {
+              "name": "A. Faurion"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/chemse/27.2.105"
+          ],
+          "host": {
+            "pages": {
+              "first": "105",
+              "last": "115"
+            },
+            "title": "Chemical Senses",
+            "volume": "27"
+          },
+          "id": "BAA3A5C59CABD1BCBD3CA7B3C10988932485A6A5",
+          "publicationDate": "2002",
+          "title": "A New Specific Ageusia"
+        },
+        "lucn_query": "Pace N G Saunders G A Phil. Msg 73 73 1970",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"73\" AND host.volume:\"73\" AND publicationDate:\"1970\" AND host.title:\"Phil. Msg\" AND author.name:\"Saunders\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.W Barry"
+            },
+            {
+              "name": "G.M Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9797(70)90182-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "300",
+              "last": "315"
+            },
+            "title": "Journal of Colloid And Interface Science",
+            "volume": "34"
+          },
+          "id": "54B2E5CE5849016C92143B58D08693A5E4664B8D",
+          "publicationDate": "1970",
+          "title": "The self-bodying action of the mixed emulsifier cetrimide/ cetostearyl alcohol"
+        },
+        "lucn_query": "host.pages.first:\"73\" host.volume:\"73\" publicationDate:\"1970\" host.title:\"Phil. Msg\" author.name:\"Saunders\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.W Barry"
+            },
+            {
+              "name": "G.M Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-9797(70)90182-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "300",
+              "last": "315"
+            },
+            "title": "Journal of Colloid And Interface Science",
+            "volume": "34"
+          },
+          "id": "54B2E5CE5849016C92143B58D08693A5E4664B8D",
+          "publicationDate": "1970",
+          "title": "The self-bodying action of the mixed emulsifier cetrimide/ cetostearyl alcohol"
+        },
+        "lucn_query": "host.pages.first:73 host.volume:73 publicationDate:1970 host.title:(Phil Msg) author.name:Saunders",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:73 AND publicationDate:1970) AND (host.pages.first:73 host.title:(Phil Msg) author.name:Saunders)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:73 AND publicationDate:1970) AND (host.pages.first:73 host.title:(Phil* Msg*) author.name:Saunders)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:73 AND host.volume:73 AND publicationDate:1970 AND host.title:(Phil Msg) AND author.name:Saunders",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:73 AND host.volume:73 AND publicationDate:1970 AND host.title:(Phil* Msg*) AND author.name:Saunders",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Pace</forename>\n    <forename type=\"middle\">N G</forename>\n    <surname>Saunders</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">A</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Roy. Sot</title>\n  <meeting>. Roy. Sot<address><addrLine>London</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1972\"></date>\n   <biblScope unit=\"page\">521</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Sridhar Komarneni"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00425970"
+          ],
+          "host": {
+            "pages": {
+              "first": "127",
+              "last": "138"
+            },
+            "title": "Journal of Sol-Gel Science and Technology",
+            "volume": "6"
+          },
+          "id": "AF835B3A9592155F8C874521B2A214C5A4DC0E86",
+          "publicationDate": "1995",
+          "title": "Some significant advances in sol-gel processing of dense structural ceramics"
+        },
+        "lucn_query": "Pace N G Saunders G A Proc. Roy. Sot . Roy. Sot London 521 1972",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Roy. Sot\" AND host.pages.first:\"521\" AND author.name:\"Saunders\" AND publicationDate:\"1972\" AND host.title:\"Proc. Roy. Sot\" AND \"London\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter M. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0011-7471(72)90015-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "467",
+              "last": "480"
+            },
+            "title": "Deep-Sea Research and Oceanographic Abstracts",
+            "volume": "19"
+          },
+          "id": "84C7BE55BC91EA2F13D3014DCAF0F137AD95A815",
+          "publicationDate": "1972",
+          "title": "Space and time variability of temperature in the upper ocean"
+        },
+        "lucn_query": "host.conference.name:\". Roy. Sot\" host.pages.first:\"521\" author.name:\"Saunders\" publicationDate:\"1972\" host.title:\"Proc. Roy. Sot\" \"London\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter M. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0011-7471(72)90015-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "467",
+              "last": "480"
+            },
+            "title": "Deep-Sea Research and Oceanographic Abstracts",
+            "volume": "19"
+          },
+          "id": "84C7BE55BC91EA2F13D3014DCAF0F137AD95A815",
+          "publicationDate": "1972",
+          "title": "Space and time variability of temperature in the upper ocean"
+        },
+        "lucn_query": "host.pages.first:521 London author.name:Saunders host.title:(Proc Roy Sot) publicationDate:1972",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter M. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0011-7471(72)90015-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "467",
+              "last": "480"
+            },
+            "title": "Deep-Sea Research and Oceanographic Abstracts",
+            "volume": "19"
+          },
+          "id": "84C7BE55BC91EA2F13D3014DCAF0F137AD95A815",
+          "publicationDate": "1972",
+          "title": "Space and time variability of temperature in the upper ocean"
+        },
+        "lucn_query": "(publicationDate:1972) AND (host.pages.first:521 London author.name:Saunders host.title:(Proc Roy Sot))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter M. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0011-7471(72)90015-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "467",
+              "last": "480"
+            },
+            "title": "Deep-Sea Research and Oceanographic Abstracts",
+            "volume": "19"
+          },
+          "id": "84C7BE55BC91EA2F13D3014DCAF0F137AD95A815",
+          "publicationDate": "1972",
+          "title": "Space and time variability of temperature in the upper ocean"
+        },
+        "lucn_query": "(publicationDate:1972) AND (host.pages.first:521 London author.name:Saunders host.title:(Proc* Roy* Sot*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:521 AND London AND author.name:Saunders AND host.title:(Proc Roy Sot) AND publicationDate:1972",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:521 AND London AND author.name:Saunders AND host.title:(Proc* Roy* Sot*) AND publicationDate:1972",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Novotny</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">I F</forename>\n    <surname>Smith</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Met</title>\n  <imprint>\n   <biblScope unit=\"volume\">13</biblScope>\n   <biblScope unit=\"issue\">1%5</biblScope>\n   <biblScope unit=\"page\">881</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "D B Novotny I F Smith Acta. Met 13 1%5 881",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"881\" AND host.volume:\"13\" AND host.issue:\"1%5\" AND author.name:\"Novotny\" AND author.name:\"Smith\" AND host.title:\"Acta. Met\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"881\" host.volume:\"13\" host.issue:\"1%5\" author.name:\"Novotny\" author.name:\"Smith\" host.title:\"Acta. Met\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:881 host.volume:13 host.issue:(1 5) author.name:(Novotny Smith) host.title:(Acta Met)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:13) AND (host.pages.first:881 host.issue:(1 5) author.name:(Novotny Smith) host.title:(Acta Met))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:13) AND (host.pages.first:881 host.issue:(1 5) author.name:(Novotny Smith) host.title:(Acta* Met*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:881 AND host.volume:13 AND host.issue:(1 5) AND author.name:(Novotny Smith) AND host.title:(Acta Met)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:881 AND host.volume:13 AND host.issue:(1 5) AND author.name:(Novotny Smith) AND host.title:(Acta* Met*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Goldman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Robertson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Met</title>\n  <imprint>\n   <biblScope unit=\"volume\">12</biblScope>\n   <biblScope unit=\"page\">1265</biblScope>\n   <date type=\"published\" when=\"1964\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(65)90066-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "391",
+              "last": "401"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "13"
+          },
+          "id": "64D083479D6527306EEDBF3773D876FE0B78B45A",
+          "publicationDate": "1965",
+          "title": "A correlation of elastic moduli, supercooling and heat evolved in the martensitic transformation in iron alloys"
+        },
+        "lucn_query": "A J Goldman W D Robertson Acta. Met 12 1265 1964",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1265\" AND host.volume:\"12\" AND publicationDate:\"1964\" AND host.title:\"Acta. Met\" AND author.name:\"Goldman\" AND author.name:\"Robertson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "host.pages.first:\"1265\" host.volume:\"12\" publicationDate:\"1964\" host.title:\"Acta. Met\" author.name:\"Goldman\" author.name:\"Robertson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "host.pages.first:1265 host.volume:12 publicationDate:1964 host.title:(Acta Met) author.name:(Goldman Robertson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "(host.volume:12 AND publicationDate:1964) AND (host.pages.first:1265 host.title:(Acta Met) author.name:(Goldman Robertson))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "(host.volume:12 AND publicationDate:1964) AND (host.pages.first:1265 host.title:(Acta* Met*) author.name:(Goldman Robertson))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "host.pages.first:1265 AND host.volume:12 AND publicationDate:1964 AND host.title:(Acta Met) AND author.name:(Goldman Robertson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.J Goldman"
+            },
+            {
+              "name": "W.D Robertson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(64)90111-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "1265",
+              "last": "1275"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "12"
+          },
+          "id": "8B04972E5689D366D1D510229ACC049FDA48E15D",
+          "publicationDate": "1964",
+          "title": "Elastic properties of austenite and martensite in iron-nickel alloys"
+        },
+        "lucn_query": "host.pages.first:1265 AND host.volume:12 AND publicationDate:1964 AND host.title:(Acta* Met*) AND author.name:(Goldman Robertson)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Salama</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Alers</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Appl. Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">39</biblScope>\n   <biblScope unit=\"issue\">1%8</biblScope>\n   <biblScope unit=\"page\">4857</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "K Salama G A Alers J. Appl. Phys 39 1%8 4857",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"4857\" AND host.volume:\"39\" AND host.issue:\"1%8\" AND author.name:\"Salama\" AND author.name:\"Alers\" AND host.title:\"J. Appl. Phys\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"4857\" host.volume:\"39\" host.issue:\"1%8\" author.name:\"Salama\" author.name:\"Alers\" host.title:\"J. Appl. Phys\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:4857 host.volume:39 host.issue:(1 8) author.name:(Salama Alers) host.title:(J Appl Phys)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:39) AND (host.pages.first:4857 host.issue:(1 8) author.name:(Salama Alers) host.title:(J Appl Phys))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:39) AND (host.pages.first:4857 host.issue:(1 8) author.name:(Salama Alers) host.title:(journal Appl* Phys*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:4857 AND host.volume:39 AND host.issue:(1 8) AND author.name:(Salama Alers) AND host.title:(J Appl Phys)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:4857 AND host.volume:39 AND host.issue:(1 8) AND author.name:(Salama Alers) AND host.title:(journal Appl* Phys*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <monogr>\n  <title level=\"m\" type=\"main\">Elasticity and Anelasticity of Metals</title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <surname>Zener</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1948\"></date>\n   <publisher>University of Chicago Press</publisher>\n   <pubPlace>Chicago</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Anderson</forename>\n    <forename type=\"middle\">0 L</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Phys. Chem. Solids</title>\n  <imprint>\n   <biblScope unit=\"volume\">27</biblScope>\n   <biblScope unit=\"issue\">547</biblScope>\n   <date type=\"published\" when=\"1966\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Fern\u00e1ndez Guillermet"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02093479"
+          ],
+          "host": {
+            "pages": {
+              "first": "1009",
+              "last": "1026"
+            },
+            "title": "International Journal of Thermophysics",
+            "volume": "16"
+          },
+          "id": "098C328C68895399DB95ABA57350274A09AA5366",
+          "publicationDate": "1994",
+          "title": "Thermodynamic properties of the generalized Murnaghan equation of state of solids"
+        },
+        "lucn_query": "Anderson 0 L J. Phys. Chem. Solids 27 547 1966",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"27\" AND host.issue:\"547\" AND publicationDate:\"1966\" AND host.title:\"J. Phys. Chem. Solids\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lars N. Overrein"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01373975"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "19"
+            },
+            "title": "Plant and Soil",
+            "volume": "27"
+          },
+          "id": "0599EDE6EE28387EDDA8656C6254AF70B9A400C3",
+          "publicationDate": "1966",
+          "title": "Immobilization and mineralization of tracer nitrogen in forest raw humus"
+        },
+        "lucn_query": "host.volume:\"27\" host.issue:\"547\" publicationDate:\"1966\" host.title:\"J. Phys. Chem. Solids\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.volume:27 host.issue:547 publicationDate:1966 host.title:(J Phys Chem Solids)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry H. Clarke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(66)90042-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "353",
+              "last": "362"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "27"
+          },
+          "id": "56463DC967345B499C40E3F06F3D359B47D3FC24",
+          "publicationDate": "1966",
+          "title": "Resonance relaxation in MnxFeyO4 by slow relaxing manganic and ferrous ions"
+        },
+        "lucn_query": "(host.volume:27 AND publicationDate:1966) AND (host.issue:547 host.title:(J Phys Chem Solids))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry H. Clarke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(66)90042-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "353",
+              "last": "362"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "27"
+          },
+          "id": "56463DC967345B499C40E3F06F3D359B47D3FC24",
+          "publicationDate": "1966",
+          "title": "Resonance relaxation in MnxFeyO4 by slow relaxing manganic and ferrous ions"
+        },
+        "lucn_query": "(host.volume:27 AND publicationDate:1966) AND (host.issue:547 host.title:(journal Phys* Chem* Solids*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:27 AND host.issue:547 AND publicationDate:1966 AND host.title:(J Phys Chem Solids)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:27 AND host.issue:547 AND publicationDate:1966 AND host.title:(journal Phys* Chem* Solids*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Murnaghan</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. Nat. Acad. Sci</title>\n  <meeting>. Nat. Acad. Sci</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1944\"></date>\n   <biblScope unit=\"page\">244</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. K. Graham"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1111/j.1365-246X.1973.tb06517.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "15",
+              "last": "34"
+            },
+            "title": "Geophysical Journal International",
+            "volume": "32"
+          },
+          "id": "A233BE5FC40FE9AC88F365D9FA0C436C1B88C5A8",
+          "publicationDate": "1973",
+          "title": "On the Compression of Stishovite"
+        },
+        "lucn_query": "F D Murnaghan Proc. Nat. Acad. Sci . Nat. Acad. Sci 244 1944",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". Nat. Acad. Sci\" AND host.pages.first:\"244\" AND publicationDate:\"1944\" AND host.title:\"Proc. Nat. Acad. Sci\" AND author.name:\"Murnaghan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "SHEILA MURNAGHAN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2041-5370.2006.tb02333.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "99",
+              "last": "112"
+            },
+            "title": "Bulletin of the Institute of Classical Studies",
+            "volume": "49"
+          },
+          "id": "3F7DF23C73640D7AC4819AF2DB6D91230929A43C",
+          "publicationDate": "2006",
+          "title": "THE DAUGHTERS OF CADMUS: CHORUS AND CHARACTERS IN EURIPIDES' BACCHAE AND ION*"
+        },
+        "lucn_query": "host.conference.name:\". Nat. Acad. Sci\" host.pages.first:\"244\" publicationDate:\"1944\" host.title:\"Proc. Nat. Acad. Sci\" author.name:\"Murnaghan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "SHEILA MURNAGHAN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2041-5370.2006.tb02333.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "99",
+              "last": "112"
+            },
+            "title": "Bulletin of the Institute of Classical Studies",
+            "volume": "49"
+          },
+          "id": "3F7DF23C73640D7AC4819AF2DB6D91230929A43C",
+          "publicationDate": "2006",
+          "title": "THE DAUGHTERS OF CADMUS: CHORUS AND CHARACTERS IN EURIPIDES' BACCHAE AND ION*"
+        },
+        "lucn_query": "host.conference.name:Acad host.pages.first:244 publicationDate:1944 host.title:(Proc Nat Acad Sci) author.name:Murnaghan",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Donal P. Murnaghan M.D. Flight Lieutenant, R.C.A.F."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-8703(44)90547-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "550",
+              "last": "558"
+            },
+            "title": "American Heart Journal",
+            "volume": "27"
+          },
+          "id": "8138A9C51B851F1B02ABD3635AFB7CA5CAFF6606",
+          "publicationDate": "1944",
+          "title": "Some observations on the cardiovascular examination for aircrew fitness"
+        },
+        "lucn_query": "(publicationDate:1944) AND (host.conference.name:Acad host.pages.first:244 host.title:(Proc Nat Acad Sci) author.name:Murnaghan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Donal P. Murnaghan M.D. Flight Lieutenant, R.C.A.F."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-8703(44)90547-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "550",
+              "last": "558"
+            },
+            "title": "American Heart Journal",
+            "volume": "27"
+          },
+          "id": "8138A9C51B851F1B02ABD3635AFB7CA5CAFF6606",
+          "publicationDate": "1944",
+          "title": "Some observations on the cardiovascular examination for aircrew fitness"
+        },
+        "lucn_query": "(publicationDate:1944) AND (host.conference.name:Acad host.pages.first:244 host.title:(Proc* Nat* Acad* Sci*) author.name:Murnaghan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:Acad AND host.pages.first:244 AND publicationDate:1944 AND host.title:(Proc Nat Acad Sci) AND author.name:Murnaghan",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:Acad AND host.pages.first:244 AND publicationDate:1944 AND host.title:(Proc* Nat* Acad* Sci*) AND author.name:Murnaghan",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Tong</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Wayman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Scripta</forename>\n    <surname>Met</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1974\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Lieberman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Wechsler</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Read</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys</title>\n  <imprint>\n   <biblScope unit=\"volume\">26</biblScope>\n   <biblScope unit=\"page\">473</biblScope>\n   <date type=\"published\" when=\"1955\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.S Lieberman"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(66)90025-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1723",
+              "last": "1734"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "14"
+          },
+          "id": "598134D787532A0844B02954A4AC1AED67B74821",
+          "publicationDate": "1966",
+          "title": "The phenomenological theory of composite martensite part I\u2014The {hhl} habit in steels"
+        },
+        "lucn_query": "D S Lieberman M S Wechsler T E Read Phys 26 473 1955",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"473\" AND host.volume:\"26\" AND publicationDate:\"1955\" AND host.title:\"Phys\" AND author.name:\"Lieberman\" AND author.name:\"Wechsler\" AND author.name:\"Read\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robbie Lieberman"
+            },
+            {
+              "name": "David Cochran"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/0149-0508.00196"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "331"
+            },
+            "title": "Peace & Change",
+            "volume": "26"
+          },
+          "id": "EAC16A11BC796BB8973D521368DC7F8CD4A987BA",
+          "publicationDate": "2001",
+          "title": "\u201cWe Closed Down the Damn School\u201d: The Party Culture and Student Protest at Southern Illinois University During the Vietnam War Era"
+        },
+        "lucn_query": "host.pages.first:\"473\" host.volume:\"26\" publicationDate:\"1955\" host.title:\"Phys\" author.name:\"Lieberman\" author.name:\"Wechsler\" author.name:\"Read\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robbie Lieberman"
+            },
+            {
+              "name": "David Cochran"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/0149-0508.00196"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "331"
+            },
+            "title": "Peace & Change",
+            "volume": "26"
+          },
+          "id": "EAC16A11BC796BB8973D521368DC7F8CD4A987BA",
+          "publicationDate": "2001",
+          "title": "\u201cWe Closed Down the Damn School\u201d: The Party Culture and Student Protest at Southern Illinois University During the Vietnam War Era"
+        },
+        "lucn_query": "host.pages.first:473 host.volume:26 publicationDate:1955 host.title:Phys author.name:(Lieberman Wechsler Read)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:26 AND publicationDate:1955) AND (host.pages.first:473 host.title:Phys author.name:(Lieberman Wechsler Read))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:26 AND publicationDate:1955) AND (host.pages.first:473 host.title:(Phys*) author.name:(Lieberman Wechsler Read))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:473 AND host.volume:26 AND publicationDate:1955 AND host.title:Phys AND author.name:(Lieberman Wechsler Read)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:473 AND host.volume:26 AND publicationDate:1955 AND host.title:(Phys*) AND author.name:(Lieberman Wechsler Read)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <surname>Nakanishi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Wayman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Trans</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">AIME</title>\n  <imprint>\n   <biblScope unit=\"volume\">227</biblScope>\n   <biblScope unit=\"issue\">1%3</biblScope>\n   <biblScope unit=\"page\">500</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "N Nakanishi C M Wayman Trans AIME 227 1%3 500",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"500\" AND host.volume:\"227\" AND host.issue:\"1%3\" AND author.name:\"Nakanishi\" AND author.name:\"Wayman\" AND author.name:\"Trans\" AND host.title:\"AIME\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"500\" host.volume:\"227\" host.issue:\"1%3\" author.name:\"Nakanishi\" author.name:\"Wayman\" author.name:\"Trans\" host.title:\"AIME\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:500 host.volume:227 host.issue:(1 3) author.name:(Nakanishi Wayman Trans) host.title:AIME",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:227) AND (host.pages.first:500 host.issue:(1 3) author.name:(Nakanishi Wayman Trans) host.title:AIME)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:227) AND (host.pages.first:500 host.issue:(1 3) author.name:(Nakanishi Wayman Trans) host.title:(AIME*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:500 AND host.volume:227 AND host.issue:(1 3) AND author.name:(Nakanishi Wayman Trans) AND host.title:AIME",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:500 AND host.volume:227 AND host.issue:(1 3) AND author.name:(Nakanishi Wayman Trans) AND host.title:(AIME*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Gefen</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Halwany</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Rosen</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phil. Mag</title>\n  <imprint>\n   <biblScope unit=\"volume\">28</biblScope>\n   <biblScope unit=\"page\">1</biblScope>\n   <date type=\"published\" when=\"1973\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. Baram"
+            },
+            {
+              "name": "M. Rosen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(82)90114-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "655",
+              "last": "662"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "30"
+          },
+          "id": "DC99FBEDCB278FBDAA8E1F5EBA34BE4C3216B71E",
+          "publicationDate": "1982",
+          "title": "On the nature of the thermoelastic martensitic phase transformation in Au-47.5 at.% Cd determined by acoustic emission"
+        },
+        "lucn_query": "Y Gefen A Halwany M Rosen Phil. Mag 28 1 1973",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1\" AND host.volume:\"28\" AND publicationDate:\"1973\" AND host.title:\"Phil. Mag\" AND author.name:\"Gefen\" AND author.name:\"Halwany\" AND author.name:\"Rosen\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David Gefen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0305-0483(00)00021-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "725",
+              "last": "737"
+            },
+            "title": "Omega",
+            "volume": "28"
+          },
+          "id": "BFA089CE7ECA9A9C568086864B925C2F1FB822C0",
+          "publicationDate": "2000",
+          "title": "E-commerce: the role of familiarity and trust"
+        },
+        "lucn_query": "host.pages.first:\"1\" host.volume:\"28\" publicationDate:\"1973\" host.title:\"Phil. Mag\" author.name:\"Gefen\" author.name:\"Halwany\" author.name:\"Rosen\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David Gefen"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0305-0483(00)00021-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "725",
+              "last": "737"
+            },
+            "title": "Omega",
+            "volume": "28"
+          },
+          "id": "BFA089CE7ECA9A9C568086864B925C2F1FB822C0",
+          "publicationDate": "2000",
+          "title": "E-commerce: the role of familiarity and trust"
+        },
+        "lucn_query": "host.pages.first:1 host.volume:28 publicationDate:1973 host.title:(Phil Mag) author.name:(Gefen Halwany Rosen)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Julio Martinez"
+            },
+            {
+              "name": "Tatsuo Ohya"
+            },
+            {
+              "name": "J. T. Jabbour"
+            },
+            {
+              "name": "D. Due\u00f1as"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00687513"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "13"
+            },
+            "title": "Acta Neuropathologica",
+            "volume": "28"
+          },
+          "id": "7938DAAB52842D0880E1C4CBA3A685B957196010",
+          "publicationDate": "1973",
+          "title": "Subacute sclerosing panencephalitis (SSPE) reappraisal of nuclear, cytoplasmic and axonal inclusions ultrastructural study of eight cases"
+        },
+        "lucn_query": "(host.volume:28 AND publicationDate:1973) AND (host.pages.first:1 host.title:(Phil Mag) author.name:(Gefen Halwany Rosen))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Julio Martinez"
+            },
+            {
+              "name": "Tatsuo Ohya"
+            },
+            {
+              "name": "J. T. Jabbour"
+            },
+            {
+              "name": "D. Due\u00f1as"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00687513"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "13"
+            },
+            "title": "Acta Neuropathologica",
+            "volume": "28"
+          },
+          "id": "7938DAAB52842D0880E1C4CBA3A685B957196010",
+          "publicationDate": "1973",
+          "title": "Subacute sclerosing panencephalitis (SSPE) reappraisal of nuclear, cytoplasmic and axonal inclusions ultrastructural study of eight cases"
+        },
+        "lucn_query": "(host.volume:28 AND publicationDate:1973) AND (host.pages.first:1 host.title:(Phil* Mag*) author.name:(Gefen Halwany Rosen))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1 AND host.volume:28 AND publicationDate:1973 AND host.title:(Phil Mag) AND author.name:(Gefen Halwany Rosen)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1 AND host.volume:28 AND publicationDate:1973 AND host.title:(Phil* Mag*) AND author.name:(Gefen Halwany Rosen)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Pace</forename>\n    <forename type=\"middle\">N G</forename>\n    <surname>Saunders</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">A</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Solid State Commun</title>\n  <imprint>\n   <biblScope unit=\"volume\">9</biblScope>\n   <date type=\"published\" when=\"1971\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Antonio Cevese"
+            },
+            {
+              "name": "Giuseppe Verlato"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-1838(85)90070-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "125",
+              "last": "136"
+            },
+            "title": "Journal of the Autonomic Nervous System",
+            "volume": "14"
+          },
+          "id": "DD4062E2BF75A1F0E2BF30D68F46D3350DE90DC1",
+          "publicationDate": "1985",
+          "title": "Haemodynamic effects of withdrawal of efferent cervical vagal stimulation on anesthetized dogs\u2014relative importance of chronotropic and non-chronotropic mechanisms"
+        },
+        "lucn_query": "Pace N G Saunders G A Solid State Commun 9 1971",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"9\" AND publicationDate:\"1971\" AND host.title:\"Solid State Commun\" AND author.name:\"Saunders\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.M. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0011-7471(71)90027-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1207",
+              "last": "1219"
+            },
+            "title": "Deep-Sea Research and Oceanographic Abstracts",
+            "volume": "18"
+          },
+          "id": "6772FF990F5598AAD702A1E3B7781657C4384141",
+          "publicationDate": "1971",
+          "title": "Anticyclonic eddies formed from shoreward meanders of the Gulf Stream"
+        },
+        "lucn_query": "host.volume:\"9\" publicationDate:\"1971\" host.title:\"Solid State Commun\" author.name:\"Saunders\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.J. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0038-1101(68)90007-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1165",
+              "last": "1173"
+            },
+            "title": "Solid State Electronics",
+            "volume": "11"
+          },
+          "id": "C9E07E587F7689D591CD7900D6FA64D468F58451",
+          "publicationDate": "1968",
+          "title": "A gallium arsenide double injection diode"
+        },
+        "lucn_query": "host.volume:9 publicationDate:1971 host.title:(Solid State Commun) author.name:Saunders",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G. Pace"
+            },
+            {
+              "name": "G.A. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0038-1098(71)90005-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "331",
+              "last": "334"
+            },
+            "title": "Solid State Communications",
+            "volume": "9"
+          },
+          "id": "7DFCB1CA9D46C8DD585EF98C8F79AC0FBB209709",
+          "publicationDate": "1971",
+          "title": "Lattice properties in the vicinity of the martensitic transformation in TiNi"
+        },
+        "lucn_query": "(host.volume:9 AND publicationDate:1971) AND (host.title:(Solid State Commun) author.name:Saunders)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G. Pace"
+            },
+            {
+              "name": "G.A. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0038-1098(71)90005-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "331",
+              "last": "334"
+            },
+            "title": "Solid State Communications",
+            "volume": "9"
+          },
+          "id": "7DFCB1CA9D46C8DD585EF98C8F79AC0FBB209709",
+          "publicationDate": "1971",
+          "title": "Lattice properties in the vicinity of the martensitic transformation in TiNi"
+        },
+        "lucn_query": "(host.volume:9 AND publicationDate:1971) AND (host.title:(Solid* State* Commun*) author.name:Saunders)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G. Pace"
+            },
+            {
+              "name": "G.A. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0038-1098(71)90005-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "331",
+              "last": "334"
+            },
+            "title": "Solid State Communications",
+            "volume": "9"
+          },
+          "id": "7DFCB1CA9D46C8DD585EF98C8F79AC0FBB209709",
+          "publicationDate": "1971",
+          "title": "Lattice properties in the vicinity of the martensitic transformation in TiNi"
+        },
+        "lucn_query": "host.volume:9 AND publicationDate:1971 AND host.title:(Solid State Commun) AND author.name:Saunders",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G. Pace"
+            },
+            {
+              "name": "G.A. Saunders"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0038-1098(71)90005-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "331",
+              "last": "334"
+            },
+            "title": "Solid State Communications",
+            "volume": "9"
+          },
+          "id": "7DFCB1CA9D46C8DD585EF98C8F79AC0FBB209709",
+          "publicationDate": "1971",
+          "title": "Lattice properties in the vicinity of the martensitic transformation in TiNi"
+        },
+        "lucn_query": "host.volume:9 AND publicationDate:1971 AND host.title:(Solid* State* Commun*) AND author.name:Saunders",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Mcskimin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Andreatch</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Acoust. Sot. Am</title>\n  <imprint>\n   <biblScope unit=\"volume\">41</biblScope>\n   <biblScope unit=\"page\">1052</biblScope>\n   <date type=\"published\" when=\"1967\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b17",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ganglin Chen"
+            },
+            {
+              "name": "Ronald Miletich"
+            },
+            {
+              "name": "Klaus Mueller"
+            },
+            {
+              "name": "Hartmut A. Spetzler"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0031-9201(96)03205-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "273",
+              "last": "287"
+            },
+            "title": "Physics of the Earth and Planetary Interiors",
+            "volume": "99"
+          },
+          "id": "41A7F6E45BCD7F9D71059769D30DB26332A707A8",
+          "publicationDate": "1997",
+          "title": "Shear and compressional mode measurements with GHz ultrasonic interferometry and velocity-composition systematics for the pyrope-almandine solid solution series"
+        },
+        "lucn_query": "H J Mcskimin P Andreatch J. Acoust. Sot. Am 41 1052 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1052\" AND host.volume:\"41\" AND publicationDate:\"1967\" AND host.title:\"J. Acoust. Sot. Am\" AND author.name:\"Mcskimin\" AND author.name:\"Andreatch\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jack Minker"
+            },
+            {
+              "name": "Daniel H. Fishman"
+            },
+            {
+              "name": "James R. McSkimin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-3702(73)90013-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "243"
+            },
+            "title": "Artificial Intelligence",
+            "volume": "4"
+          },
+          "id": "5331EFF63D6F8C7358229C2D0E6932B512F257FA",
+          "publicationDate": "1973",
+          "title": "The Q\u2217 algorithm\u2014a search strategy for a deductive question-answering system"
+        },
+        "lucn_query": "host.pages.first:\"1052\" host.volume:\"41\" publicationDate:\"1967\" host.title:\"J. Acoust. Sot. Am\" author.name:\"Mcskimin\" author.name:\"Andreatch\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jack Minker"
+            },
+            {
+              "name": "Daniel H. Fishman"
+            },
+            {
+              "name": "James R. McSkimin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-3702(73)90013-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "243"
+            },
+            "title": "Artificial Intelligence",
+            "volume": "4"
+          },
+          "id": "5331EFF63D6F8C7358229C2D0E6932B512F257FA",
+          "publicationDate": "1973",
+          "title": "The Q\u2217 algorithm\u2014a search strategy for a deductive question-answering system"
+        },
+        "lucn_query": "host.pages.first:1052 host.volume:41 publicationDate:1967 host.title:(J Acoust Sot Am) author.name:(Mcskimin Andreatch)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:41 AND publicationDate:1967) AND (host.pages.first:1052 host.title:(J Acoust Sot Am) author.name:(Mcskimin Andreatch))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. V. Knyazyuk"
+            },
+            {
+              "name": "I. P. Fishman"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01060310"
+          ],
+          "host": {
+            "pages": {
+              "first": "273",
+              "last": "278"
+            },
+            "title": "Ukrainian Mathematical Journal",
+            "volume": "41"
+          },
+          "id": "8FDF8513692DE35E44BA1F632C88BAF9D30FA566",
+          "publicationDate": "1967",
+          "title": "Boundary values of solutions of operator-differential equations of an arbitrary order"
+        },
+        "lucn_query": "(host.volume:41 AND publicationDate:1967) AND (host.pages.first:1052 host.title:(journal Acoust* Sot* Am*) author.name:(Mcskimin Andreatch))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1052 AND host.volume:41 AND publicationDate:1967 AND host.title:(J Acoust Sot Am) AND author.name:(Mcskimin Andreatch)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1052 AND host.volume:41 AND publicationDate:1967 AND host.title:(journal Acoust* Sot* Am*) AND author.name:(Mcskimin Andreatch)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b18\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Mcskimin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Acoust. Sot. Am</title>\n  <imprint>\n   <biblScope unit=\"volume\">33</biblScope>\n   <biblScope unit=\"page\">12</biblScope>\n   <date type=\"published\" when=\"1961\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b18",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Petre Stoica"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-1684(93)90090-W"
+          ],
+          "host": {
+            "pages": {
+              "first": "329",
+              "last": "340"
+            },
+            "title": "Signal Processing",
+            "volume": "31"
+          },
+          "id": "7010FED47A0146ED4E5D4F621B9BE41B3694A478",
+          "publicationDate": "1993",
+          "title": "List of references on spectral line analysis"
+        },
+        "lucn_query": "H J Mcskimin J. Acoust. Sot. Am 33 12 1961",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"12\" AND host.volume:\"33\" AND publicationDate:\"1961\" AND host.title:\"J. Acoust. Sot. Am\" AND author.name:\"Mcskimin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jack Minker"
+            },
+            {
+              "name": "Daniel H. Fishman"
+            },
+            {
+              "name": "James R. McSkimin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-3702(73)90013-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "243"
+            },
+            "title": "Artificial Intelligence",
+            "volume": "4"
+          },
+          "id": "5331EFF63D6F8C7358229C2D0E6932B512F257FA",
+          "publicationDate": "1973",
+          "title": "The Q\u2217 algorithm\u2014a search strategy for a deductive question-answering system"
+        },
+        "lucn_query": "host.pages.first:\"12\" host.volume:\"33\" publicationDate:\"1961\" host.title:\"J. Acoust. Sot. Am\" author.name:\"Mcskimin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jack Minker"
+            },
+            {
+              "name": "Daniel H. Fishman"
+            },
+            {
+              "name": "James R. McSkimin"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-3702(73)90013-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "225",
+              "last": "243"
+            },
+            "title": "Artificial Intelligence",
+            "volume": "4"
+          },
+          "id": "5331EFF63D6F8C7358229C2D0E6932B512F257FA",
+          "publicationDate": "1973",
+          "title": "The Q\u2217 algorithm\u2014a search strategy for a deductive question-answering system"
+        },
+        "lucn_query": "host.pages.first:12 host.volume:33 publicationDate:1961 host.title:(J Acoust Sot Am) author.name:Mcskimin",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:33 AND publicationDate:1961) AND (host.pages.first:12 host.title:(J Acoust Sot Am) author.name:Mcskimin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "DAVID W. BARRON"
+            },
+            {
+              "name": "JOHN W. DUNDEE"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/bja/33.2.81"
+          ],
+          "host": {
+            "pages": {
+              "first": "81",
+              "last": "91"
+            },
+            "title": "BJA: British Journal of Anaesthesia",
+            "volume": "33"
+          },
+          "id": "0ADD1FAFD50B9B0D5C8CC8ACD305F4D3A51930E1",
+          "publicationDate": "1961",
+          "title": "THE RECENTLY INTRODUCED RAPIDLY-ACTING BARBITURATES; A REVIEW AND CRITICAL APPRAISAL IN RELATION TO THIOPENTONE"
+        },
+        "lucn_query": "(host.volume:33 AND publicationDate:1961) AND (host.pages.first:12 host.title:(journal Acoust* Sot* Am*) author.name:Mcskimin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:12 AND host.volume:33 AND publicationDate:1961 AND host.title:(J Acoust Sot Am) AND author.name:Mcskimin",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:12 AND host.volume:33 AND publicationDate:1961 AND host.title:(journal Acoust* Sot* Am*) AND author.name:Mcskimin",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b19\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Bystrom</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Almin</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta. Chem. Stand</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"page\">75</biblScope>\n   <date type=\"published\" when=\"1974\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b19",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Mukherjee"
+            },
+            {
+              "name": "M. Chandrasekaran"
+            },
+            {
+              "name": "M. Kato"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pssa.2210830231"
+          ],
+          "host": {
+            "pages": {
+              "first": "657",
+              "last": "667"
+            },
+            "title": "physica status solidi (a)",
+            "volume": "83"
+          },
+          "id": "A20CACF2D75DE530B652F9202A5F9A4A23763CD9",
+          "publicationDate": "1984",
+          "title": "Electrical resistivity of an equiatomic solid and liquid Au\uf8ffCd alloy"
+        },
+        "lucn_query": "A Bystrom K E Almin Acta. Chem. Stand 1 75 1974",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"75\" AND host.volume:\"1\" AND publicationDate:\"1974\" AND host.title:\"Acta. Chem. Stand\" AND author.name:\"Bystrom\" AND author.name:\"Almin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Susan Hawkins"
+            },
+            {
+              "name": "Mary B. Coney"
+            },
+            {
+              "name": "Karl\u2010Erik Bystrom"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.2168-9830.1996.tb00204.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "27",
+              "last": "33"
+            },
+            "title": "Journal of Engineering Education",
+            "volume": "85"
+          },
+          "id": "E552A57793A59AB0324AA356908E14044422428D",
+          "publicationDate": "1996",
+          "title": "Incidental Writing in the Engineering Classroom"
+        },
+        "lucn_query": "host.pages.first:\"75\" host.volume:\"1\" publicationDate:\"1974\" host.title:\"Acta. Chem. Stand\" author.name:\"Bystrom\" author.name:\"Almin\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Lars-Erik Briggner"
+            },
+            {
+              "name": "Graham Buckton"
+            },
+            {
+              "name": "Katarina Bystrom"
+            },
+            {
+              "name": "Patricia Darcy"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0378-5173(94)90458-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "125",
+              "last": "135"
+            },
+            "title": "International Journal of Pharmaceutics",
+            "volume": "105"
+          },
+          "id": "43BB1E6E654D3797DD67BBFF74751897AC294B9A",
+          "publicationDate": "1994",
+          "title": "The use of isothermal microcalorimetry in the study of changes in crystallinity induced during the processing of powders"
+        },
+        "lucn_query": "host.pages.first:75 host.volume:1 publicationDate:1974 host.title:(Acta Chem Stand) author.name:(Bystrom Almin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tau-Yi Toong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0094-5765(74)90101-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "317",
+              "last": "344"
+            },
+            "title": "Acta Astronautica",
+            "volume": "1"
+          },
+          "id": "20F1B0456C21874FF40C6914013A080675C43EA9",
+          "publicationDate": "1974",
+          "title": "Instabilities in reacting flows"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1974) AND (host.pages.first:75 host.title:(Acta Chem Stand) author.name:(Bystrom Almin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.M. McKirdy"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0301-9268(74)90019-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "75",
+              "last": "137"
+            },
+            "title": "Precambrian Research",
+            "volume": "1"
+          },
+          "id": "DAFB7B4A007E62ED12F25D8DFE8C3783EDC56F70",
+          "publicationDate": "1974",
+          "title": "Organic geochemistry in Precambrian research"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1974) AND (host.pages.first:75 host.title:(Acta* Chem* Stand*) author.name:(Bystrom Almin))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:75 AND host.volume:1 AND publicationDate:1974 AND host.title:(Acta Chem Stand) AND author.name:(Bystrom Almin)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:75 AND host.volume:1 AND publicationDate:1974 AND host.title:(Acta* Chem* Stand*) AND author.name:(Bystrom Almin)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b20\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Cook</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Acoust. Sot. Am</title>\n  <imprint>\n   <biblScope unit=\"volume\">29</biblScope>\n   <biblScope unit=\"page\">445</biblScope>\n   <date type=\"published\" when=\"1957\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b20",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Petre Stoica"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0165-1684(93)90090-W"
+          ],
+          "host": {
+            "pages": {
+              "first": "329",
+              "last": "340"
+            },
+            "title": "Signal Processing",
+            "volume": "31"
+          },
+          "id": "7010FED47A0146ED4E5D4F621B9BE41B3694A478",
+          "publicationDate": "1993",
+          "title": "List of references on spectral line analysis"
+        },
+        "lucn_query": "R K Cook J. Acoust. Sot. Am 29 445 1957",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"445\" AND host.volume:\"29\" AND publicationDate:\"1957\" AND host.title:\"J. Acoust. Sot. Am\" AND author.name:\"Cook\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G.W. Cook"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0148-9062(92)93656-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "198",
+              "last": "223"
+            },
+            "title": "International Journal of Rock Mechanics and Mining Sciences and Geomechanics Abstracts",
+            "volume": "29"
+          },
+          "id": "B3C77D10AD1E0DAC19D01F712EAE2A43D4E28345",
+          "publicationDate": "1992",
+          "title": "Natural joints in rock: Mechanical, hydraulic and seismic behaviour and properties under normal stress"
+        },
+        "lucn_query": "host.pages.first:\"445\" host.volume:\"29\" publicationDate:\"1957\" host.title:\"J. Acoust. Sot. Am\" author.name:\"Cook\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N.G.W. Cook"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0148-9062(92)93656-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "198",
+              "last": "223"
+            },
+            "title": "International Journal of Rock Mechanics and Mining Sciences and Geomechanics Abstracts",
+            "volume": "29"
+          },
+          "id": "B3C77D10AD1E0DAC19D01F712EAE2A43D4E28345",
+          "publicationDate": "1992",
+          "title": "Natural joints in rock: Mechanical, hydraulic and seismic behaviour and properties under normal stress"
+        },
+        "lucn_query": "host.pages.first:445 host.volume:29 publicationDate:1957 host.title:(J Acoust Sot Am) author.name:Cook",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:29 AND publicationDate:1957) AND (host.pages.first:445 host.title:(J Acoust Sot Am) author.name:Cook)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M. H. ARMSTRONG DAVISON"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/bja/29.6.284"
+          ],
+          "host": {
+            "pages": {
+              "first": "284",
+              "last": "291"
+            },
+            "title": "BJA: British Journal of Anaesthesia",
+            "volume": "29"
+          },
+          "id": "CAD4B46B10DF6FBE4559673A8ED0757D3333FC7F",
+          "publicationDate": "1957",
+          "title": "THE EVOLUTION OF ANAESTHESIA"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1957) AND (host.pages.first:445 host.title:(journal Acoust* Sot* Am*) author.name:Cook)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:445 AND host.volume:29 AND publicationDate:1957 AND host.title:(J Acoust Sot Am) AND author.name:Cook",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:445 AND host.volume:29 AND publicationDate:1957 AND host.title:(journal Acoust* Sot* Am*) AND author.name:Cook",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b21\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Chang</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Acta Crystallogr</title>\n  <imprint>\n   <biblScope unit=\"volume\">4</biblScope>\n   <biblScope unit=\"page\">320</biblScope>\n   <date type=\"published\" when=\"1951\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b21",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Masami Yamashita"
+            },
+            {
+              "name": "Kazuo Kurokawa"
+            },
+            {
+              "name": "Yusuke Sato"
+            },
+            {
+              "name": "Atsushi Yamagata"
+            },
+            {
+              "name": "Hisatoshi Mimura"
+            },
+            {
+              "name": "Azusa Yoshikawa"
+            },
+            {
+              "name": "Ken Sato"
+            },
+            {
+              "name": "Akihiko Nakano"
+            },
+            {
+              "name": "Shuya Fukai"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/nsmb.1722"
+          ],
+          "host": {
+            "pages": {
+              "first": "180",
+              "last": "186"
+            },
+            "title": "Nature Structural & Molecular Biology",
+            "volume": "17"
+          },
+          "id": "1EDB142BBC3E8A4EE775F46396885AF84B7AD3F9",
+          "publicationDate": "2010",
+          "title": "Structural basis for the Rho- and phosphoinositide-dependent localization of the exocyst subunit Sec3"
+        },
+        "lucn_query": "L C Chang Acta Crystallogr 4 320 1951",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"320\" AND host.volume:\"4\" AND publicationDate:\"1951\" AND host.title:\"Acta Crystallogr\" AND author.name:\"Chang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "William Y. Chey"
+            },
+            {
+              "name": "Ta-min Chang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1159/000055831"
+          ],
+          "host": {
+            "pages": {
+              "first": "320",
+              "last": "335"
+            },
+            "title": "PAN",
+            "volume": "1"
+          },
+          "id": "274F1CB69A4361EF57FA1C2A8CD9AD6A78AADF5E",
+          "publicationDate": "2001",
+          "title": "Neural hormonal regulation of exocrine pancreatic secretion"
+        },
+        "lucn_query": "host.pages.first:\"320\" host.volume:\"4\" publicationDate:\"1951\" host.title:\"Acta Crystallogr\" author.name:\"Chang\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. Kase"
+            },
+            {
+              "name": "M. Chang"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01331800"
+          ],
+          "host": {
+            "pages": {
+              "first": "46",
+              "last": "59"
+            },
+            "title": "Rheologica Acta",
+            "volume": "29"
+          },
+          "id": "64D025E6E8674AEB6DF6745C047AE0CF7C43BF30",
+          "publicationDate": "1988",
+          "title": "Neck propagation as a shock wave"
+        },
+        "lucn_query": "host.pages.first:320 host.volume:4 publicationDate:1951 host.title:(Acta Crystallogr) author.name:Chang",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.\u2010C. Chang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0365110X51001057"
+          ],
+          "host": {
+            "pages": {
+              "first": "320",
+              "last": "324"
+            },
+            "title": "Acta Crystallographica",
+            "volume": "4"
+          },
+          "id": "33EB3A957558FC621F17BD2ABC0AE6B90800AA37",
+          "publicationDate": "1951",
+          "title": "Atomic displacements and crystallographic mechanisms in diffusionless transformation of gold\u2013cadium single crystals containing 47.5 atomic per cent cadmium"
+        },
+        "lucn_query": "(host.volume:4 AND publicationDate:1951) AND (host.pages.first:320 host.title:(Acta Crystallogr) author.name:Chang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.\u2010C. Chang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0365110X51001057"
+          ],
+          "host": {
+            "pages": {
+              "first": "320",
+              "last": "324"
+            },
+            "title": "Acta Crystallographica",
+            "volume": "4"
+          },
+          "id": "33EB3A957558FC621F17BD2ABC0AE6B90800AA37",
+          "publicationDate": "1951",
+          "title": "Atomic displacements and crystallographic mechanisms in diffusionless transformation of gold\u2013cadium single crystals containing 47.5 atomic per cent cadmium"
+        },
+        "lucn_query": "(host.volume:4 AND publicationDate:1951) AND (host.pages.first:320 host.title:(Acta* Crystallogr*) author.name:Chang)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.\u2010C. Chang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0365110X51001057"
+          ],
+          "host": {
+            "pages": {
+              "first": "320",
+              "last": "324"
+            },
+            "title": "Acta Crystallographica",
+            "volume": "4"
+          },
+          "id": "33EB3A957558FC621F17BD2ABC0AE6B90800AA37",
+          "publicationDate": "1951",
+          "title": "Atomic displacements and crystallographic mechanisms in diffusionless transformation of gold\u2013cadium single crystals containing 47.5 atomic per cent cadmium"
+        },
+        "lucn_query": "host.pages.first:320 AND host.volume:4 AND publicationDate:1951 AND host.title:(Acta Crystallogr) AND author.name:Chang",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.\u2010C. Chang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1107/S0365110X51001057"
+          ],
+          "host": {
+            "pages": {
+              "first": "320",
+              "last": "324"
+            },
+            "title": "Acta Crystallographica",
+            "volume": "4"
+          },
+          "id": "33EB3A957558FC621F17BD2ABC0AE6B90800AA37",
+          "publicationDate": "1951",
+          "title": "Atomic displacements and crystallographic mechanisms in diffusionless transformation of gold\u2013cadium single crystals containing 47.5 atomic per cent cadmium"
+        },
+        "lucn_query": "host.pages.first:320 AND host.volume:4 AND publicationDate:1951 AND host.title:(Acta* Crystallogr*) AND author.name:Chang",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b22\">\n <monogr>\n  <title level=\"m\" type=\"main\">Introduction to Chemical Physics</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Slater</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1939\"></date>\n   <publisher>McGraw-Hill</publisher>\n   <biblScope unit=\"page\">239</biblScope>\n   <pubPlace>New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b22",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b23\">\n <monogr>\n  <title level=\"m\" type=\"main\">Non-Crystalline Solids, Chap</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Anderson</forename>\n    <forename type=\"middle\">0</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">.</forename>\n    <forename type=\"middle\">L</forename>\n    <surname>Dienes</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">L</forename>\n   </persName>\n  </author>\n  <editor>V. D. Frechette</editor>\n  <imprint>\n   <publisher>Wiley</publisher>\n   <pubPlace>New York (l%O</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b23",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b24\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Schuele</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Smith</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Phys. Gem. Solids</title>\n  <imprint>\n   <biblScope unit=\"volume\">25</biblScope>\n   <biblScope unit=\"page\">801</biblScope>\n   <date type=\"published\" when=\"1964\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b24",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K.F. Loje"
+            },
+            {
+              "name": "D.E. Schuele"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(70)90007-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "2051",
+              "last": "2067"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "31"
+          },
+          "id": "8E5B2A01E47FB2DE534FC43AAA4608542EB8C49A",
+          "publicationDate": "1970",
+          "title": "The pressure and temperature derivatives of the elastic constants of AgBr AND AgCl"
+        },
+        "lucn_query": "D E Schuele C S Smith J. Phys. Gem. Solids 25 801 1964",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"801\" AND host.volume:\"25\" AND publicationDate:\"1964\" AND host.title:\"J. Phys. Gem. Solids\" AND author.name:\"Schuele\" AND author.name:\"Smith\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "host.pages.first:\"801\" host.volume:\"25\" publicationDate:\"1964\" host.title:\"J. Phys. Gem. Solids\" author.name:\"Schuele\" author.name:\"Smith\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "host.pages.first:801 host.volume:25 publicationDate:1964 host.title:(J Phys Gem Solids) author.name:(Schuele Smith)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "(host.volume:25 AND publicationDate:1964) AND (host.pages.first:801 host.title:(J Phys Gem Solids) author.name:(Schuele Smith))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "(host.volume:25 AND publicationDate:1964) AND (host.pages.first:801 host.title:(journal Phys* Gem* Solids*) author.name:(Schuele Smith))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "host.pages.first:801 AND host.volume:25 AND publicationDate:1964 AND host.title:(J Phys Gem Solids) AND author.name:(Schuele Smith)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.E. Schuele"
+            },
+            {
+              "name": "Charles S. Smith"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(64)90091-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "801",
+              "last": "814"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "25"
+          },
+          "id": "12B5CAC37EEA9716281ADA12731198FD2ADB1E82",
+          "publicationDate": "1964",
+          "title": "Low temperature thermal expansion of RbI"
+        },
+        "lucn_query": "host.pages.first:801 AND host.volume:25 AND publicationDate:1964 AND host.title:(journal Phys* Gem* Solids*) AND author.name:(Schuele Smith)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b25\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Swenson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Phys. Chem. Solids</title>\n  <imprint>\n   <biblScope unit=\"volume\">29</biblScope>\n   <biblScope unit=\"page\">1337</biblScope>\n   <date type=\"published\" when=\"1968\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b25",
+    "findout_errs": [],
+    "parent_doc": "FEEFB1D13962DE36E28E42B0F593F251308ECCD6",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "C A Swenson J. Phys. Chem. Solids 29 1337 1968",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1337\" AND host.volume:\"29\" AND publicationDate:\"1968\" AND host.title:\"J. Phys. Chem. Solids\" AND author.name:\"Swenson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "host.pages.first:\"1337\" host.volume:\"29\" publicationDate:\"1968\" host.title:\"J. Phys. Chem. Solids\" author.name:\"Swenson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "host.pages.first:1337 host.volume:29 publicationDate:1968 host.title:(J Phys Chem Solids) author.name:Swenson",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1968) AND (host.pages.first:1337 host.title:(J Phys Chem Solids) author.name:Swenson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "(host.volume:29 AND publicationDate:1968) AND (host.pages.first:1337 host.title:(journal Phys* Chem* Solids*) author.name:Swenson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "host.pages.first:1337 AND host.volume:29 AND publicationDate:1968 AND host.title:(J Phys Chem Solids) AND author.name:Swenson",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.A. Swenson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(68)90185-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1348"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "29"
+          },
+          "id": "A1CB649EC42678FD91ACF71980C7A004B89C934B",
+          "publicationDate": "1968",
+          "title": "Equation of state of cubic solids; some generalizations"
+        },
+        "lucn_query": "host.pages.first:1337 AND host.volume:29 AND publicationDate:1968 AND host.title:(journal Phys* Chem* Solids*) AND author.name:Swenson",
+        "match_flag": false
+      }
+    ]
+  }
+]

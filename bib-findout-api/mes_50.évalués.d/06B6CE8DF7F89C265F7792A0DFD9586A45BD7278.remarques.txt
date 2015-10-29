@@ -1,0 +1,4 @@
+#doc-remarques:
+---------------
+Problème bibzone chez grobid: mise en page compliquée a fait perdre 6 bibs
+

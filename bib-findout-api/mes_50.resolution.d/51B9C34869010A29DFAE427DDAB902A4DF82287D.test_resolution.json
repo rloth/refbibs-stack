@@ -1,0 +1,2552 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"middle\">R</forename>\n    <surname>Raman</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>German</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Meicdl</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Trans. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">26</biblScope>\n   <biblScope unit=\"page\">653</biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. J. Ruiz\u2010Chica"
+            },
+            {
+              "name": "M. A. Medina"
+            },
+            {
+              "name": "F. Sa\u0301nchez\u2010Jime\u0301nez"
+            },
+            {
+              "name": "F. J. Rami\u0301rez"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/nar/gkh232"
+          ],
+          "host": {
+            "pages": {
+              "first": "579",
+              "last": "589"
+            },
+            "title": "Nucleic Acids Research",
+            "volume": "32"
+          },
+          "id": "5B583130C851C1D358A05C057EE93B7EBE1D46DB",
+          "publicationDate": "2004",
+          "title": "On the interpretation of Raman spectra of 1\u2010aminooxy\u2010spermine/DNA complexes"
+        },
+        "lucn_query": "R Raman R M German Meicdl Trans. A 26 653 1995",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"653\" AND host.volume:\"26\" AND publicationDate:\"1995\" AND host.title:\"Trans. A\" AND author.name:\"Raman\" AND author.name:\"German\" AND author.name:\"Meicdl\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Raman"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02663915"
+          ],
+          "host": {
+            "pages": {
+              "first": "653",
+              "last": "659"
+            },
+            "title": "Metallurgical and Materials Transactions A",
+            "volume": "26"
+          },
+          "id": "EAD1C92CA70E08E3C7FCEB0F6136D7325825F3E7",
+          "publicationDate": "1993",
+          "title": "A mathematical model for gravity-induced distortion during liquid-phase sintering"
+        },
+        "lucn_query": "host.pages.first:\"653\" host.volume:\"26\" publicationDate:\"1995\" host.title:\"Trans. A\" author.name:\"Raman\" author.name:\"German\" author.name:\"Meicdl\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Raman"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02663915"
+          ],
+          "host": {
+            "pages": {
+              "first": "653",
+              "last": "659"
+            },
+            "title": "Metallurgical and Materials Transactions A",
+            "volume": "26"
+          },
+          "id": "EAD1C92CA70E08E3C7FCEB0F6136D7325825F3E7",
+          "publicationDate": "1993",
+          "title": "A mathematical model for gravity-induced distortion during liquid-phase sintering"
+        },
+        "lucn_query": "host.pages.first:653 host.volume:26 publicationDate:1995 host.title:Trans author.name:(Raman German Meicdl)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Harinder Gogia MD"
+            },
+            {
+              "name": "Anilkumar Mehra MD"
+            },
+            {
+              "name": "Sunita Parikh MD"
+            },
+            {
+              "name": "Murli Raman MD"
+            },
+            {
+              "name": "Jasvir Ajit-Uppal MD"
+            },
+            {
+              "name": "Janet V. Johnson RN, BSN"
+            },
+            {
+              "name": "Uri Elkayam MD, FACC"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0735-1097(95)00368-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1575",
+              "last": "1580"
+            },
+            "title": "Journal of the American College of Cardiology",
+            "volume": "26"
+          },
+          "id": "8533D91EB8BB19EBCCA0E1AB7E97A0B83A0B0DB3",
+          "publicationDate": "1995",
+          "title": "Prevention of tolerance to hemodynamic effects of nitrates with concomitant use of hydralazine in patients with chronic heart failure"
+        },
+        "lucn_query": "(host.volume:26 AND publicationDate:1995) AND (host.pages.first:653 host.title:Trans author.name:(Raman German Meicdl))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Harinder Gogia MD"
+            },
+            {
+              "name": "Anilkumar Mehra MD"
+            },
+            {
+              "name": "Sunita Parikh MD"
+            },
+            {
+              "name": "Murli Raman MD"
+            },
+            {
+              "name": "Jasvir Ajit-Uppal MD"
+            },
+            {
+              "name": "Janet V. Johnson RN, BSN"
+            },
+            {
+              "name": "Uri Elkayam MD, FACC"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0735-1097(95)00368-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "1575",
+              "last": "1580"
+            },
+            "title": "Journal of the American College of Cardiology",
+            "volume": "26"
+          },
+          "id": "8533D91EB8BB19EBCCA0E1AB7E97A0B83A0B0DB3",
+          "publicationDate": "1995",
+          "title": "Prevention of tolerance to hemodynamic effects of nitrates with concomitant use of hydralazine in patients with chronic heart failure"
+        },
+        "lucn_query": "(host.volume:26 AND publicationDate:1995) AND (host.pages.first:653 host.title:(Trans*) author.name:(Raman German Meicdl))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:653 AND host.volume:26 AND publicationDate:1995 AND host.title:Trans AND author.name:(Raman German Meicdl)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:653 AND host.volume:26 AND publicationDate:1995 AND host.title:(Trans*) AND author.name:(Raman German Meicdl)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Lifshitz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">V V Y</forename>\n    <surname>Slyozov</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Chem. Solids</title>\n  <imprint>\n   <biblScope unit=\"volume\">19</biblScope>\n   <biblScope unit=\"page\">35</biblScope>\n   <date type=\"published\" when=\"1961\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yi Cao"
+            },
+            {
+              "name": "Hongdong Zhang"
+            },
+            {
+              "name": "Zang Xiong"
+            },
+            {
+              "name": "Yuliang Yang"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/1521-3919(20010401)10:4<314::AID-MATS314>3.0.CO;2-A"
+          ],
+          "host": {
+            "pages": {
+              "first": "314",
+              "last": "324"
+            },
+            "title": "Macromolecular Theory and Simulations",
+            "volume": "10"
+          },
+          "id": "95B29B3BB2A14955120E8F80883DAB0BA1CB146D",
+          "publicationDate": "2001",
+          "title": "Viscoelastic Effects on the Dynamics of Spinodal Decomposition in Binary Polymer Mixtures"
+        },
+        "lucn_query": "I M Lifshitz V V Y Slyozov Phys. Chem. Solids 19 35 1961",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"35\" AND host.volume:\"19\" AND publicationDate:\"1961\" AND host.title:\"Phys. Chem. Solids\" AND author.name:\"Lifshitz\" AND author.name:\"Slyozov\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "host.pages.first:\"35\" host.volume:\"19\" publicationDate:\"1961\" host.title:\"Phys. Chem. Solids\" author.name:\"Lifshitz\" author.name:\"Slyozov\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "host.pages.first:35 host.volume:19 publicationDate:1961 host.title:(Phys Chem Solids) author.name:(Lifshitz Slyozov)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "(host.volume:19 AND publicationDate:1961) AND (host.pages.first:35 host.title:(Phys Chem Solids) author.name:(Lifshitz Slyozov))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "(host.volume:19 AND publicationDate:1961) AND (host.pages.first:35 host.title:(Phys* Chem* Solids*) author.name:(Lifshitz Slyozov))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "host.pages.first:35 AND host.volume:19 AND publicationDate:1961 AND host.title:(Phys Chem Solids) AND author.name:(Lifshitz Slyozov)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "I.M. Lifshitz"
+            },
+            {
+              "name": "V.V. Slyozov"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(61)90054-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "50"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "19"
+          },
+          "id": "B089B024E3B3CE3A4BD9A95BE3680FF634F48DD4",
+          "publicationDate": "1961",
+          "title": "The kinetics of precipitation from supersaturated solid solutions"
+        },
+        "lucn_query": "host.pages.first:35 AND host.volume:19 AND publicationDate:1961 AND host.title:(Phys* Chem* Solids*) AND author.name:(Lifshitz Slyozov)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>German</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Trans. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">18</biblScope>\n   <biblScope unit=\"page\">909</biblScope>\n   <date type=\"published\" when=\"1987\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Castelli\u2010Dezza"
+            },
+            {
+              "name": "A. Silvestri"
+            },
+            {
+              "name": "D. Zaninelli"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/etep.4450040306"
+          ],
+          "host": {
+            "pages": {
+              "first": "213",
+              "last": "221"
+            },
+            "title": "European Transactions on Electrical Power",
+            "volume": "4"
+          },
+          "id": "45094AB240EA5FA26A682C5F2DB7F1247CB0739C",
+          "publicationDate": "1994",
+          "title": "The iec 909 standard and dynamic simulation of short\u2010circuit currents"
+        },
+        "lucn_query": "R M German Trans. A 18 909 1987",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"909\" AND host.volume:\"18\" AND publicationDate:\"1987\" AND host.title:\"Trans. A\" AND author.name:\"German\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "German Torres"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/syn.890180208"
+          ],
+          "host": {
+            "pages": {
+              "first": "161",
+              "last": "167"
+            },
+            "title": "Synapse",
+            "volume": "18"
+          },
+          "id": "70C04A819435B4C19A582C4F60D680A9F652DF1B",
+          "publicationDate": "1994",
+          "title": "Acute administration of alcohol blocks cocaine\u2010induced striatal c\u2010fos immunoreactivity protein in the rat"
+        },
+        "lucn_query": "host.pages.first:\"909\" host.volume:\"18\" publicationDate:\"1987\" host.title:\"Trans. A\" author.name:\"German\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02646932"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "914"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "18"
+          },
+          "id": "6B8955F1178A50ECDFFFCD02C007C56DFE909791",
+          "publicationDate": "1986",
+          "title": "The two-dimensional connectivity of"
+        },
+        "lucn_query": "host.pages.first:909 host.volume:18 publicationDate:1987 host.title:Trans author.name:German",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.S. Tischler MD"
+            },
+            {
+              "name": "Y. Dayal MD"
+            },
+            {
+              "name": "K. Balogh MD"
+            },
+            {
+              "name": "R.B. Cohen MD"
+            },
+            {
+              "name": "J.L. Connolly MD"
+            },
+            {
+              "name": "K. Tallberg BS"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0046-8177(87)80268-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "909",
+              "last": "917"
+            },
+            "title": "Human Pathology",
+            "volume": "18"
+          },
+          "id": "B8212492F076D40C615DB087C9D1AC86199A5EFA",
+          "publicationDate": "1987",
+          "title": "The distribution of immunoreactive chromogranins, S-100 protein, and vasoactive intestinal peptide in compound tumors of the adrenal medulla"
+        },
+        "lucn_query": "(host.volume:18 AND publicationDate:1987) AND (host.pages.first:909 host.title:Trans author.name:German)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Prabir K. Chaudhury"
+            },
+            {
+              "name": "Farghalli A. Mohamed"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02647082"
+          ],
+          "host": {
+            "pages": {
+              "first": "2105",
+              "last": "2114"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "18"
+          },
+          "id": "A32EA01658E228140BFE2E1CE8B8BBBBADC2C69E",
+          "publicationDate": "1987",
+          "title": "Creep and ductility in an Al-Cu solid-solution alloy"
+        },
+        "lucn_query": "(host.volume:18 AND publicationDate:1987) AND (host.pages.first:909 host.title:(Trans*) author.name:German)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:909 AND host.volume:18 AND publicationDate:1987 AND host.title:Trans AND author.name:German",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:909 AND host.volume:18 AND publicationDate:1987 AND host.title:(Trans*) AND author.name:German",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Kaysser</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Takajo</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">G</forename>\n    <surname>Petzow</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Mod. Rev. Powder Metull</title>\n  <imprint>\n   <biblScope unit=\"volume\">12</biblScope>\n   <biblScope unit=\"page\">413</biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02664666"
+          ],
+          "host": {
+            "pages": {
+              "first": "279",
+              "last": "288"
+            },
+            "title": "Metallurgical and Materials Transactions A",
+            "volume": "26"
+          },
+          "id": "F88920C35F5283AA25144502AD19D42FEF3DF8B3",
+          "publicationDate": "1993",
+          "title": "Microstructure of the gravitationally settled region in a liquid-phase sintered dilute tungsten heavy alloy"
+        },
+        "lucn_query": "W A Kaysser S Takajo G Petzow Mod. Rev. Powder Metull 12 413 1981",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"413\" AND host.volume:\"12\" AND publicationDate:\"1981\" AND host.title:\"Mod. Rev. Powder Metull\" AND author.name:\"Kaysser\" AND author.name:\"Takajo\" AND author.name:\"Petzow\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W.A. Kaysser"
+            },
+            {
+              "name": "S. Takajo"
+            },
+            {
+              "name": "G. Petzow"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(84)90208-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "122"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "32"
+          },
+          "id": "91D35C974B42E6591849AA7A0A508B69D04845C2",
+          "publicationDate": "1984",
+          "title": "Particle growth by coalescence during liquid phase sintering of Fe-Cu"
+        },
+        "lucn_query": "host.pages.first:\"413\" host.volume:\"12\" publicationDate:\"1981\" host.title:\"Mod. Rev. Powder Metull\" author.name:\"Kaysser\" author.name:\"Takajo\" author.name:\"Petzow\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W.A. Kaysser"
+            },
+            {
+              "name": "S. Takajo"
+            },
+            {
+              "name": "G. Petzow"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(84)90208-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "115",
+              "last": "122"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "32"
+          },
+          "id": "91D35C974B42E6591849AA7A0A508B69D04845C2",
+          "publicationDate": "1984",
+          "title": "Particle growth by coalescence during liquid phase sintering of Fe-Cu"
+        },
+        "lucn_query": "host.pages.first:413 host.volume:12 publicationDate:1981 host.title:(Mod Rev Powder Metull) author.name:(Kaysser Takajo Petzow)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. A. JOHNSON"
+            },
+            {
+              "name": "M. PELEG"
+            },
+            {
+              "name": "R. A. SEGARS"
+            },
+            {
+              "name": "J. G. KAPSALIS"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1745-4603.1981.tb00258.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "413",
+              "last": "425"
+            },
+            "title": "Journal of Texture Studies",
+            "volume": "12"
+          },
+          "id": "05A57A33498A9FAA124771A54020FE6CF82D47FE",
+          "publicationDate": "1981",
+          "title": "A GENERALIZED PHENOMENOLOGICAL RHEOLOGICAL MODEL FOR FISH FLESH"
+        },
+        "lucn_query": "(host.volume:12 AND publicationDate:1981) AND (host.pages.first:413 host.title:(Mod Rev Powder Metull) author.name:(Kaysser Takajo Petzow))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. Borighem"
+            },
+            {
+              "name": "J. Vereecken"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0304-3800(81)90040-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "231",
+              "last": "243"
+            },
+            "title": "Ecological Modelling",
+            "volume": "12"
+          },
+          "id": "D3FA20088B71ECE4252256D1396FF78C5F67D7C8",
+          "publicationDate": "1981",
+          "title": "Model of a chemostat utilising phenol as inhibitory substrate"
+        },
+        "lucn_query": "(host.volume:12 AND publicationDate:1981) AND (host.pages.first:413 host.title:(Mod* Rev* Powder* Metull*) author.name:(Kaysser Takajo Petzow))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:413 AND host.volume:12 AND publicationDate:1981 AND host.title:(Mod Rev Powder Metull) AND author.name:(Kaysser Takajo Petzow)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:413 AND host.volume:12 AND publicationDate:1981 AND host.title:(Mod* Rev* Powder* Metull*) AND author.name:(Kaysser Takajo Petzow)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Niemi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Baxa</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Lee</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Courtney</forename>\n    <forename type=\"middle\">T H</forename>\n    <surname>Mod</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Reo</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Masuda, Y. and Watanabe, R.. in Sintwing Processes</title>\n  <editor>G. Kuczynski</editor>\n  <meeting><address><addrLine>New York</addrLine></address></meeting>\n  <imprint>\n   <publisher>Plenum Press</publisher>\n   <date type=\"published\" when=\"1980\"></date>\n   <biblScope unit=\"page\" from=\"483\" to=\"3\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.N Niemi"
+            },
+            {
+              "name": "T.H Courtney"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(83)90009-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1393",
+              "last": "1401"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "31"
+          },
+          "id": "11EEBC430FFD99AD30523598549E12707A7B87FA",
+          "publicationDate": "1983",
+          "title": "Settling in solid-liquid systems with specific application to liquid phase sintering"
+        },
+        "lucn_query": "A N Niemi L E Baxa J K Lee Courtney T H Mod Reo Masuda, Y. and Watanabe, R.. in Sintwing Processes G. Kuczynski New York Plenum Press 1980 483 3",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Niemi\" AND author.name:\"Baxa\" AND author.name:\"Lee\" AND author.name:\"Mod\" AND author.name:\"Reo\" AND host.pages.first:\"483\" AND host.editor:\"G. Kuczynski\" AND host.editor:\"Plenum Press\" AND host.pages.last:\"3\" AND publicationDate:\"1980\" AND host.title:\"Masuda, Y. and Watanabe, R.. in Sintwing Processes\" AND \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reo Yoshitani"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01020443"
+          ],
+          "host": {
+            "pages": {
+              "first": "347",
+              "last": "378"
+            },
+            "title": "Journal of Statistical Physics",
+            "volume": "2"
+          },
+          "id": "79DF3C6F5C4F11BD9CF5D9F4C7A31CD4B993D88A",
+          "publicationDate": "1970",
+          "title": "On the detectabillity limit of coherent optical signals in thermal radiation"
+        },
+        "lucn_query": "author.name:\"Niemi\" author.name:\"Baxa\" author.name:\"Lee\" author.name:\"Mod\" author.name:\"Reo\" host.pages.first:\"483\" host.editor:\"G. Kuczynski\" host.editor:\"Plenum Press\" host.pages.last:\"3\" publicationDate:\"1980\" host.title:\"Masuda, Y. and Watanabe, R.. in Sintwing Processes\" \"New York\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Reo Yoshitani"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01020443"
+          ],
+          "host": {
+            "pages": {
+              "first": "347",
+              "last": "378"
+            },
+            "title": "Journal of Statistical Physics",
+            "volume": "2"
+          },
+          "id": "79DF3C6F5C4F11BD9CF5D9F4C7A31CD4B993D88A",
+          "publicationDate": "1970",
+          "title": "On the detectabillity limit of coherent optical signals in thermal radiation"
+        },
+        "lucn_query": "host.editor:(Kuczynski Plenum Press) host.pages.first:483 host.pages.last:3 York author.name:(Niemi Baxa Lee Mod Reo) host.title:(Masuda and Watanabe in Sintwing Processes) publicationDate:1980",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Martin S. Beevers"
+            },
+            {
+              "name": "Graham Williams"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0378-4487(80)80024-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "193"
+            },
+            "title": "Advances in Molecular Relaxation and Interaction Processes",
+            "volume": "16"
+          },
+          "id": "2E758299379D624170D32A53E8F0774A60F8C74F",
+          "publicationDate": "1980",
+          "title": "A consideration of orientational correlation functions, time-dependent distribution functions and pictorial representations of the orientational motions of molecules."
+        },
+        "lucn_query": "(publicationDate:1980) AND (host.editor:(Kuczynski Plenum Press) host.pages.first:483 host.pages.last:3 York author.name:(Niemi Baxa Lee Mod Reo) host.title:(Masuda and Watanabe in Sintwing Processes))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "PEKKA NIEMI"
+            },
+            {
+              "name": "ESKO KESKINEN"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1467-9450.1980.tb00357.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "184"
+            },
+            "title": "Scandinavian Journal of Psychology",
+            "volume": "21"
+          },
+          "id": "1B7621936A4BA4D741052B3A89212A9885867C25",
+          "publicationDate": "1980",
+          "title": "Visual stimulus intensity and location probability: Interactive effects on choice reaction time"
+        },
+        "lucn_query": "(publicationDate:1980) AND (host.editor:(Kuczynski Plenum Press) host.pages.first:483 host.pages.last:3 York author.name:(Niemi Baxa Lee Mod Reo) host.title:(Masuda* and* Watanabe* in* Sintwing* Processes*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Kuczynski Plenum Press) AND host.pages.first:483 AND host.pages.last:3 AND York AND author.name:(Niemi Baxa Lee Mod Reo) AND host.title:(Masuda and Watanabe in Sintwing Processes) AND publicationDate:1980",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Kuczynski Plenum Press) AND host.pages.first:483 AND host.pages.last:3 AND York AND author.name:(Niemi Baxa Lee Mod Reo) AND host.title:(Masuda* and* Watanabe* in* Sintwing* Processes*) AND publicationDate:1980",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Niemi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Courtney</forename>\n    <forename type=\"middle\">T</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Muter. Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">16</biblScope>\n   <biblScope unit=\"page\">226</biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.N Niemi"
+            },
+            {
+              "name": "T.H Courtney"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(83)90009-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1393",
+              "last": "1401"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "31"
+          },
+          "id": "11EEBC430FFD99AD30523598549E12707A7B87FA",
+          "publicationDate": "1983",
+          "title": "Settling in solid-liquid systems with specific application to liquid phase sintering"
+        },
+        "lucn_query": "A Niemi Courtney T J. Muter. Sci 16 226 1981",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"226\" AND host.volume:\"16\" AND publicationDate:\"1981\" AND host.title:\"J. Muter. Sci\" AND author.name:\"Niemi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. N. Niemi"
+            },
+            {
+              "name": "T. H. Courtney"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00552076"
+          ],
+          "host": {
+            "pages": {
+              "first": "226",
+              "last": "236"
+            },
+            "title": "Journal of Materials Science",
+            "volume": "16"
+          },
+          "id": "6533C0682DDFF658770CDB85AC53ED0ECD4F537C",
+          "publicationDate": "1980",
+          "title": "Microstructural development and evolution in liquid-phase sintered Fe-Cu alloys"
+        },
+        "lucn_query": "host.pages.first:\"226\" host.volume:\"16\" publicationDate:\"1981\" host.title:\"J. Muter. Sci\" author.name:\"Niemi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. N. Niemi"
+            },
+            {
+              "name": "T. H. Courtney"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00552076"
+          ],
+          "host": {
+            "pages": {
+              "first": "226",
+              "last": "236"
+            },
+            "title": "Journal of Materials Science",
+            "volume": "16"
+          },
+          "id": "6533C0682DDFF658770CDB85AC53ED0ECD4F537C",
+          "publicationDate": "1980",
+          "title": "Microstructural development and evolution in liquid-phase sintered Fe-Cu alloys"
+        },
+        "lucn_query": "host.pages.first:226 host.volume:16 publicationDate:1981 host.title:(J Muter Sci) author.name:Niemi",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:16 AND publicationDate:1981) AND (host.pages.first:226 host.title:(J Muter Sci) author.name:Niemi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "O. T. Inal"
+            },
+            {
+              "name": "C. V. Robino"
+            },
+            {
+              "name": "L. Keller"
+            },
+            {
+              "name": "F. G. Yost"
+            },
+            {
+              "name": "M. M. Karnowsky"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00540327"
+          ],
+          "host": {
+            "pages": {
+              "first": "3183",
+              "last": "3193"
+            },
+            "title": "Journal of Materials Science",
+            "volume": "16"
+          },
+          "id": "6A77084ED4DC7507595A110D91A97668931EA234",
+          "publicationDate": "1981",
+          "title": "Annealing behaviour of amorphous Fe80B20 on continuous heating"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1981) AND (host.pages.first:226 host.title:(journal Muter* Sci*) author.name:Niemi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:226 AND host.volume:16 AND publicationDate:1981 AND host.title:(J Muter Sci) AND author.name:Niemi",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:226 AND host.volume:16 AND publicationDate:1981 AND host.title:(journal Muter* Sci*) AND author.name:Niemi",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>German</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Bose</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">S S</forename>\n    <surname>Mani</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Metull. Trans. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">23</biblScope>\n   <biblScope unit=\"page\">211</biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. M. German"
+            },
+            {
+              "name": "A. Bose"
+            },
+            {
+              "name": "S. S. Mani"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02660866"
+          ],
+          "host": {
+            "pages": {
+              "first": "211",
+              "last": "219"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "23"
+          },
+          "id": "96FFCDE2FC6C4187B7DBF00E9DCA2EE6EF5E13DE",
+          "publicationDate": "1990",
+          "title": "Sintering time and atmosphere influences on the microstructure and mechanical properties of tungsten heavy alloys"
+        },
+        "lucn_query": "R M German A Bose S S Mani Metull. Trans. A 23 211 1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"211\" AND host.volume:\"23\" AND publicationDate:\"1992\" AND host.title:\"Metull. Trans. A\" AND author.name:\"German\" AND author.name:\"Bose\" AND author.name:\"Mani\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. M. German"
+            },
+            {
+              "name": "A. Bose"
+            },
+            {
+              "name": "S. S. Mani"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02660866"
+          ],
+          "host": {
+            "pages": {
+              "first": "211",
+              "last": "219"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "23"
+          },
+          "id": "96FFCDE2FC6C4187B7DBF00E9DCA2EE6EF5E13DE",
+          "publicationDate": "1990",
+          "title": "Sintering time and atmosphere influences on the microstructure and mechanical properties of tungsten heavy alloys"
+        },
+        "lucn_query": "host.pages.first:\"211\" host.volume:\"23\" publicationDate:\"1992\" host.title:\"Metull. Trans. A\" author.name:\"German\" author.name:\"Bose\" author.name:\"Mani\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. M. German"
+            },
+            {
+              "name": "A. Bose"
+            },
+            {
+              "name": "S. S. Mani"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02660866"
+          ],
+          "host": {
+            "pages": {
+              "first": "211",
+              "last": "219"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "23"
+          },
+          "id": "96FFCDE2FC6C4187B7DBF00E9DCA2EE6EF5E13DE",
+          "publicationDate": "1990",
+          "title": "Sintering time and atmosphere influences on the microstructure and mechanical properties of tungsten heavy alloys"
+        },
+        "lucn_query": "host.pages.first:211 host.volume:23 publicationDate:1992 host.title:(Metull Trans) author.name:(German Bose Mani)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter T. Scardino MD"
+            },
+            {
+              "name": "Robert Weaver MD"
+            },
+            {
+              "name": "M'Liss A. Hudson MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0046-8177(92)90102-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "211",
+              "last": "222"
+            },
+            "title": "Human Pathology",
+            "volume": "23"
+          },
+          "id": "BB223D6F8EE5D3E1ADDB6246FA237FE2BF8557C0",
+          "publicationDate": "1992",
+          "title": "Early detection of prostate cancer"
+        },
+        "lucn_query": "(host.volume:23 AND publicationDate:1992) AND (host.pages.first:211 host.title:(Metull Trans) author.name:(German Bose Mani))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Ikeuchi"
+            },
+            {
+              "name": "Y. Zhou"
+            },
+            {
+              "name": "H. Kokawa"
+            },
+            {
+              "name": "T. H. North"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02651768"
+          ],
+          "host": {
+            "pages": {
+              "first": "2905",
+              "last": "2915"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "23"
+          },
+          "id": "720B6F2F4E4AE1120371133993EBC0275FEB8EF6",
+          "publicationDate": "1992",
+          "title": "Liquid- solid interface migration at grain boundary regions during transient liquid phase brazing"
+        },
+        "lucn_query": "(host.volume:23 AND publicationDate:1992) AND (host.pages.first:211 host.title:(Metull* Trans*) author.name:(German Bose Mani))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:211 AND host.volume:23 AND publicationDate:1992 AND host.title:(Metull Trans) AND author.name:(German Bose Mani)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:211 AND host.volume:23 AND publicationDate:1992 AND host.title:(Metull* Trans*) AND author.name:(German Bose Mani)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Bender</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">D</forename>\n    <surname>Ph</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Thesis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">N</forename>\n    <surname>Rwth Aachen Akaiwa</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">S</forename>\n    <surname>Hardy</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Voorhees</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Actu metull. muter</title>\n  <imprint>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.L. Wolfsdorf"
+            },
+            {
+              "name": "W.H. Bender"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1359-6454(96)00338-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2295"
+            },
+            "title": "Acta Materialia",
+            "volume": "45"
+          },
+          "id": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+          "publicationDate": "1997",
+          "title": "The morphology of high volume fraction solid-liquid mixtures: An application of microstructural tomography"
+        },
+        "lucn_query": "W H Bender D Ph Thesis N Rwth Aachen Akaiwa S Hardy P W Voorhees Actu metull. muter 1991",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "publicationDate:\"1991\" AND host.title:\"Actu metull. muter\" AND author.name:\"Bender\" AND author.name:\"Ph\" AND author.name:\"Thesis\" AND author.name:\"Rwth Aachen Akaiwa\" AND author.name:\"Hardy\" AND author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Akaiwa"
+            },
+            {
+              "name": "S.C. Hardy"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(91)90109-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "2931",
+              "last": "2942"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "39"
+          },
+          "id": "D68BB03728DE123FA58BB5A79A4B738E21E579A6",
+          "publicationDate": "1991",
+          "title": "The effects of convection on Ostwald ripening in solid-liquid mixtures"
+        },
+        "lucn_query": "publicationDate:\"1991\" host.title:\"Actu metull. muter\" author.name:\"Bender\" author.name:\"Ph\" author.name:\"Thesis\" author.name:\"Rwth Aachen Akaiwa\" author.name:\"Hardy\" author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Akaiwa"
+            },
+            {
+              "name": "S.C. Hardy"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(91)90109-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "2931",
+              "last": "2942"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "39"
+          },
+          "id": "D68BB03728DE123FA58BB5A79A4B738E21E579A6",
+          "publicationDate": "1991",
+          "title": "The effects of convection on Ostwald ripening in solid-liquid mixtures"
+        },
+        "lucn_query": "publicationDate:1991 host.title:(Actu metull muter) author.name:(Bender Ph Thesis Rwth Aachen Akaiwa Hardy Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Akaiwa"
+            },
+            {
+              "name": "S.C. Hardy"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(91)90109-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "2931",
+              "last": "2942"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "39"
+          },
+          "id": "D68BB03728DE123FA58BB5A79A4B738E21E579A6",
+          "publicationDate": "1991",
+          "title": "The effects of convection on Ostwald ripening in solid-liquid mixtures"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.title:(Actu metull muter) author.name:(Bender Ph Thesis Rwth Aachen Akaiwa Hardy Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Akaiwa"
+            },
+            {
+              "name": "S.C. Hardy"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(91)90109-E"
+          ],
+          "host": {
+            "pages": {
+              "first": "2931",
+              "last": "2942"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "39"
+          },
+          "id": "D68BB03728DE123FA58BB5A79A4B738E21E579A6",
+          "publicationDate": "1991",
+          "title": "The effects of convection on Ostwald ripening in solid-liquid mixtures"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.title:(Actu* metull* muter*) author.name:(Bender Ph Thesis Rwth Aachen Akaiwa Hardy Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "publicationDate:1991 AND host.title:(Actu metull muter) AND author.name:(Bender Ph Thesis Rwth Aachen Akaiwa Hardy Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. Hardy"
+            },
+            {
+              "name": "A. Billat"
+            },
+            {
+              "name": "G. Villermain-Lecolier"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0924-4247(91)80027-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "13",
+              "last": "19"
+            },
+            "title": "Sensors & Actuators: A. Physical",
+            "volume": "29"
+          },
+          "id": "A5EAEC6B11F49E4CB8C9CFF779B599969CE732F2",
+          "publicationDate": "1991",
+          "title": "Flat eddy-current matrix sensor for detecting metallic objects"
+        },
+        "lucn_query": "publicationDate:1991 AND host.title:(Actu* metull* muter*) AND author.name:(Bender Ph Thesis Rwth Aachen Akaiwa Hardy Voorhees)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Hardy</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">P W</forename>\n    <surname>Voorhees</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">itl&amp;dl. Trans. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">19</biblScope>\n   <biblScope unit=\"page\">2713</biblScope>\n   <date type=\"published\" when=\"1988\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G.K Lavrenchenko"
+            },
+            {
+              "name": "J.V Zmitrochenko"
+            },
+            {
+              "name": "S.M Nesterenko"
+            },
+            {
+              "name": "M.G Khmelnuk"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0140-7007(97)00034-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "517",
+              "last": "527"
+            },
+            "title": "International Journal of Refrigeration",
+            "volume": "20"
+          },
+          "id": "E9BD94C26DCBC6CEC4210836E879C61F1A1B0446",
+          "publicationDate": "1997",
+          "title": "Characteristics of Voorhees refrigerating machine with hermetic piston compressor producing refrigeration at one or two temperature levels"
+        },
+        "lucn_query": "S C Hardy P W Voorhees itl&dl. Trans. A 19 2713 1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"2713\" AND host.volume:\"19\" AND publicationDate:\"1988\" AND host.title:\"itl&dl. Trans. A\" AND author.name:\"Hardy\" AND author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. C. Hardy"
+            },
+            {
+              "name": "P. W. Voorhees"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02645806"
+          ],
+          "host": {
+            "pages": {
+              "first": "2713",
+              "last": "2721"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "19"
+          },
+          "id": "9105B0E9796A3554431A1E66012B3073402828BD",
+          "publicationDate": "1987",
+          "title": "Ostwald ripening in a system with a high volume fraction of coarsening phase"
+        },
+        "lucn_query": "host.pages.first:\"2713\" host.volume:\"19\" publicationDate:\"1988\" host.title:\"itl&dl. Trans. A\" author.name:\"Hardy\" author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "S. C. Hardy"
+            },
+            {
+              "name": "P. W. Voorhees"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02645806"
+          ],
+          "host": {
+            "pages": {
+              "first": "2713",
+              "last": "2721"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "19"
+          },
+          "id": "9105B0E9796A3554431A1E66012B3073402828BD",
+          "publicationDate": "1987",
+          "title": "Ostwald ripening in a system with a high volume fraction of coarsening phase"
+        },
+        "lucn_query": "host.pages.first:2713 host.volume:19 publicationDate:1988 host.title:(itl dl Trans) author.name:(Hardy Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Fran\u00e7oise Robert MD"
+            },
+            {
+              "name": "Georges Pelletier MD, PhD"
+            },
+            {
+              "name": "Omar Serri MD, PhD"
+            },
+            {
+              "name": "Jules Hardy MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0046-8177(88)80288-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1327",
+              "last": "1334"
+            },
+            "title": "Human Pathology",
+            "volume": "19"
+          },
+          "id": "20B4963B373B18A94391E277F902023DE6F2B82F",
+          "publicationDate": "1988",
+          "title": "Mixed growth hormone and prolactin-secreting human pituitary adenomas: A pathologic, immunocytochemical, ultrastructural, and immunoelectron microscopic study"
+        },
+        "lucn_query": "(host.volume:19 AND publicationDate:1988) AND (host.pages.first:2713 host.title:(itl dl Trans) author.name:(Hardy Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Fran\u00e7oise Robert MD"
+            },
+            {
+              "name": "Georges Pelletier MD, PhD"
+            },
+            {
+              "name": "Omar Serri MD, PhD"
+            },
+            {
+              "name": "Jules Hardy MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0046-8177(88)80288-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1327",
+              "last": "1334"
+            },
+            "title": "Human Pathology",
+            "volume": "19"
+          },
+          "id": "20B4963B373B18A94391E277F902023DE6F2B82F",
+          "publicationDate": "1988",
+          "title": "Mixed growth hormone and prolactin-secreting human pituitary adenomas: A pathologic, immunocytochemical, ultrastructural, and immunoelectron microscopic study"
+        },
+        "lucn_query": "(host.volume:19 AND publicationDate:1988) AND (host.pages.first:2713 host.title:(itl* dl* Trans*) author.name:(Hardy Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2713 AND host.volume:19 AND publicationDate:1988 AND host.title:(itl dl Trans) AND author.name:(Hardy Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:2713 AND host.volume:19 AND publicationDate:1988 AND host.title:(itl* dl* Trans*) AND author.name:(Hardy Voorhees)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Vogel</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ratke</forename>\n    <forename type=\"middle\">L</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Actu metall. muter</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"39\" to=\"641\"></biblScope>\n   <date type=\"published\" when=\"1991\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. Ratke"
+            },
+            {
+              "name": "S. Diefenbach"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0927-796X(95)00180-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "263",
+              "last": "347"
+            },
+            "title": "Materials Science & Engineering R",
+            "volume": "15"
+          },
+          "id": "B229D89FD110367823BA8BC5AF51E55B880FB90D",
+          "publicationDate": "1995",
+          "title": "Liquid immiscible alloys"
+        },
+        "lucn_query": "H Vogel Ratke L Actu metall. muter 1991 39 641",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"39\" AND host.pages.last:\"641\" AND publicationDate:\"1991\" AND host.title:\"Actu metall. muter\" AND author.name:\"Vogel\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Vogel"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00217113"
+          ],
+          "host": {
+            "pages": {
+              "first": "127",
+              "last": "146"
+            },
+            "title": "Human Genetics",
+            "volume": "89"
+          },
+          "id": "F1EC9B90C898C5AEA929338F0A46877F3DD9F62A",
+          "publicationDate": "1991",
+          "title": "Risk calculations for hereditary effects of ionizing radiation in humans"
+        },
+        "lucn_query": "host.pages.first:\"39\" host.pages.last:\"641\" publicationDate:\"1991\" host.title:\"Actu metall. muter\" author.name:\"Vogel\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Vogel"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00217113"
+          ],
+          "host": {
+            "pages": {
+              "first": "127",
+              "last": "146"
+            },
+            "title": "Human Genetics",
+            "volume": "89"
+          },
+          "id": "F1EC9B90C898C5AEA929338F0A46877F3DD9F62A",
+          "publicationDate": "1991",
+          "title": "Risk calculations for hereditary effects of ionizing radiation in humans"
+        },
+        "lucn_query": "host.pages.first:39 host.pages.last:641 publicationDate:1991 host.title:(Actu metall muter) author.name:Vogel",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F. Vogel"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00217113"
+          ],
+          "host": {
+            "pages": {
+              "first": "127",
+              "last": "146"
+            },
+            "title": "Human Genetics",
+            "volume": "89"
+          },
+          "id": "F1EC9B90C898C5AEA929338F0A46877F3DD9F62A",
+          "publicationDate": "1991",
+          "title": "Risk calculations for hereditary effects of ionizing radiation in humans"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.pages.first:39 host.pages.last:641 host.title:(Actu metall muter) author.name:Vogel)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.J. Vogel"
+            },
+            {
+              "name": "L. Ratke"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(91)90132-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "641",
+              "last": "649"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "39"
+          },
+          "id": "B659A2BE4279456C97D7BCD708CF0A06EECD5252",
+          "publicationDate": "1991",
+          "title": "Instability of grain boundary grooves due to equilibrium grain boundary diffusion"
+        },
+        "lucn_query": "(publicationDate:1991) AND (host.pages.first:39 host.pages.last:641 host.title:(Actu* metall* muter*) author.name:Vogel)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:39 AND host.pages.last:641 AND publicationDate:1991 AND host.title:(Actu metall muter) AND author.name:Vogel",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:39 AND host.pages.last:641 AND publicationDate:1991 AND host.title:(Actu* metall* muter*) AND author.name:Vogel",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Voorhees</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">R J</forename>\n    <surname>Schaefer</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n <note>unpublished. research</note>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <monogr>\n  <title level=\"m\" type=\"main\">Scripta muter</title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Courtney</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1996\"></date>\n   <biblScope unit=\"page\">567</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <monogr>\n  <title level=\"m\" type=\"main\">Actu mctull</title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Neimi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Courtney</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1983\"></date>\n   <biblScope unit=\"page\">1393</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Louis</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">A</forename>\n    <surname>Gokhale</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Tu</forename>\n    <surname>Ac</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Muter</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1996\"></date>\n   <biblScope unit=\"page\">1519</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">D J</forename>\n    <surname>Kingery</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Phfs</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Huppman</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1958\"></date>\n   <biblScope unit=\"page\">693</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <surname>Liu</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Heaney</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">R</forename>\n    <surname>German</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Im</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Actu metall. muter</title>\n  <imprint>\n   <biblScope unit=\"page\" from=\"43\" to=\"1587\"></biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E.P. George"
+            },
+            {
+              "name": "C.T. Liu"
+            },
+            {
+              "name": "H. Lin"
+            },
+            {
+              "name": "D.P. Pope"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0921-5093(94)03236-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "277",
+              "last": "288"
+            },
+            "title": "Materials Science & Engineering A",
+            "volume": "192\u2013193"
+          },
+          "id": "2BC7FDBEAC9CF9B3A78CB580CF7224B63DC0F8AC",
+          "publicationDate": "1995",
+          "title": "Environmental embrittlement and other causes of brittle grain boundary fracture in Ni3Al"
+        },
+        "lucn_query": "Y Liu D F Heaney R German Im Actu metall. muter 1995 43 1587",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"43\" AND host.pages.last:\"1587\" AND publicationDate:\"1995\" AND host.title:\"Actu metall. muter\" AND author.name:\"Liu\" AND author.name:\"Heaney\" AND author.name:\"German\" AND author.name:\"Im\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yixiong Liu"
+            },
+            {
+              "name": "Donald F. Heaney"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(94)00363-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "1587",
+              "last": "1592"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "43"
+          },
+          "id": "79D334B9BF359DC6DD946A75AFF548D32A6B3821",
+          "publicationDate": "1995",
+          "title": "Gravity induced solid grain packing during liquid phase sintering"
+        },
+        "lucn_query": "host.pages.first:\"43\" host.pages.last:\"1587\" publicationDate:\"1995\" host.title:\"Actu metall. muter\" author.name:\"Liu\" author.name:\"Heaney\" author.name:\"German\" author.name:\"Im\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yixiong Liu"
+            },
+            {
+              "name": "Donald F. Heaney"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(94)00363-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "1587",
+              "last": "1592"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "43"
+          },
+          "id": "79D334B9BF359DC6DD946A75AFF548D32A6B3821",
+          "publicationDate": "1995",
+          "title": "Gravity induced solid grain packing during liquid phase sintering"
+        },
+        "lucn_query": "host.pages.first:43 host.pages.last:1587 publicationDate:1995 host.title:(Actu metall muter) author.name:(Liu Heaney German Im)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yixiong Liu"
+            },
+            {
+              "name": "Donald F. Heaney"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(94)00363-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "1587",
+              "last": "1592"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "43"
+          },
+          "id": "79D334B9BF359DC6DD946A75AFF548D32A6B3821",
+          "publicationDate": "1995",
+          "title": "Gravity induced solid grain packing during liquid phase sintering"
+        },
+        "lucn_query": "(publicationDate:1995) AND (host.pages.first:43 host.pages.last:1587 host.title:(Actu metall muter) author.name:(Liu Heaney German Im))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yixiong Liu"
+            },
+            {
+              "name": "Donald F. Heaney"
+            },
+            {
+              "name": "Randall M. German"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0956-7151(94)00363-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "1587",
+              "last": "1592"
+            },
+            "title": "Acta Metallurgica Et Materialia",
+            "volume": "43"
+          },
+          "id": "79D334B9BF359DC6DD946A75AFF548D32A6B3821",
+          "publicationDate": "1995",
+          "title": "Gravity induced solid grain packing during liquid phase sintering"
+        },
+        "lucn_query": "(publicationDate:1995) AND (host.pages.first:43 host.pages.last:1587 host.title:(Actu* metall* muter*) author.name:(Liu Heaney German Im))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:43 AND host.pages.last:1587 AND publicationDate:1995 AND host.title:(Actu metall muter) AND author.name:(Liu Heaney German Im)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:43 AND host.pages.last:1587 AND publicationDate:1995 AND host.title:(Actu* metall* muter*) AND author.name:(Liu Heaney German Im)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Voorhees</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">G B</forename>\n    <surname>Mcfadden</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Boisvert</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">I</forename>\n    <surname>Mieron</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Actu metall</title>\n  <imprint>\n   <biblScope unit=\"volume\">36</biblScope>\n   <date type=\"published\" when=\"1988\"></date>\n  </imprint>\n </monogr>\n <note>2j. 's. Rev. E.. submitted</note>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.H. Su"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/1359-6454(95)00285-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "2001",
+              "last": "2016"
+            },
+            "title": "Acta Materialia",
+            "volume": "44"
+          },
+          "id": "850A48AEC2952B9C1C7A0A63C96B8B2D6A33B150",
+          "publicationDate": "1996",
+          "title": "The dynamics of precipitate evolution in elastically stressed solids\u2014II. Particle alignment"
+        },
+        "lucn_query": "P W Voorhees G B Mcfadden R F Boisvert D I Mieron Actu metall 36 2j. 's. Rev. E.. submitted 1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"36\" AND author.name:\"Voorhees\" AND author.name:\"Mcfadden\" AND author.name:\"Boisvert\" AND author.name:\"Mieron\" AND publicationDate:\"1988\" AND host.title:\"Actu metall\" AND \"2j. 's. Rev. E.. submitted\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.W. Voorhees"
+            },
+            {
+              "name": "G.B. McFadden"
+            },
+            {
+              "name": "R.F. Boisvert"
+            },
+            {
+              "name": "D.I. Meiron"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(88)90039-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "222"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "36"
+          },
+          "id": "A30D921FB1BE3B5C409A5E80E8E5F8BCC687B60A",
+          "publicationDate": "1988",
+          "title": "Numerical simulation of morphological development during ostwald ripening"
+        },
+        "lucn_query": "host.volume:\"36\" author.name:\"Voorhees\" author.name:\"Mcfadden\" author.name:\"Boisvert\" author.name:\"Mieron\" publicationDate:\"1988\" host.title:\"Actu metall\" \"2j. 's. Rev. E.. submitted\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.W. Voorhees"
+            },
+            {
+              "name": "G.B. McFadden"
+            },
+            {
+              "name": "R.F. Boisvert"
+            },
+            {
+              "name": "D.I. Meiron"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(88)90039-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "222"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "36"
+          },
+          "id": "A30D921FB1BE3B5C409A5E80E8E5F8BCC687B60A",
+          "publicationDate": "1988",
+          "title": "Numerical simulation of morphological development during ostwald ripening"
+        },
+        "lucn_query": "host.volume:36 submitted author.name:(Voorhees Mcfadden Boisvert Mieron) host.title:(Actu metall) publicationDate:1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.W. Voorhees"
+            },
+            {
+              "name": "G.B. McFadden"
+            },
+            {
+              "name": "R.F. Boisvert"
+            },
+            {
+              "name": "D.I. Meiron"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(88)90039-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "222"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "36"
+          },
+          "id": "A30D921FB1BE3B5C409A5E80E8E5F8BCC687B60A",
+          "publicationDate": "1988",
+          "title": "Numerical simulation of morphological development during ostwald ripening"
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1988) AND (submitted author.name:(Voorhees Mcfadden Boisvert Mieron) host.title:(Actu metall))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.W. Voorhees"
+            },
+            {
+              "name": "G.B. McFadden"
+            },
+            {
+              "name": "R.F. Boisvert"
+            },
+            {
+              "name": "D.I. Meiron"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(88)90039-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "222"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "36"
+          },
+          "id": "A30D921FB1BE3B5C409A5E80E8E5F8BCC687B60A",
+          "publicationDate": "1988",
+          "title": "Numerical simulation of morphological development during ostwald ripening"
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1988) AND (submitted author.name:(Voorhees Mcfadden Boisvert Mieron) host.title:(Actu* metall*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:36 AND submitted AND author.name:(Voorhees Mcfadden Boisvert Mieron) AND host.title:(Actu metall) AND publicationDate:1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.W. Voorhees"
+            },
+            {
+              "name": "G.B. McFadden"
+            },
+            {
+              "name": "R.F. Boisvert"
+            },
+            {
+              "name": "D.I. Meiron"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0001-6160(88)90039-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "207",
+              "last": "222"
+            },
+            "title": "Acta Metallurgica",
+            "volume": "36"
+          },
+          "id": "A30D921FB1BE3B5C409A5E80E8E5F8BCC687B60A",
+          "publicationDate": "1988",
+          "title": "Numerical simulation of morphological development during ostwald ripening"
+        },
+        "lucn_query": "host.volume:36 AND submitted AND author.name:(Voorhees Mcfadden Boisvert Mieron) AND host.title:(Actu* metall*) AND publicationDate:1988",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"middle\">D</forename>\n    <surname>Fan</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1996\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b17",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b18\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H.-H</forename>\n    <surname>Park</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Yoon</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1985\"></date>\n   <biblScope unit=\"page\">923</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b18",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b19\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Gut-Tin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Voorhees</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Proc. R. Sot. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">440</biblScope>\n   <biblScope unit=\"page\">323</biblScope>\n   <date type=\"published\" when=\"1993\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b19",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G.K Lavrenchenko"
+            },
+            {
+              "name": "J.V Zmitrochenko"
+            },
+            {
+              "name": "S.M Nesterenko"
+            },
+            {
+              "name": "M.G Khmelnuk"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0140-7007(97)00034-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "517",
+              "last": "527"
+            },
+            "title": "International Journal of Refrigeration",
+            "volume": "20"
+          },
+          "id": "E9BD94C26DCBC6CEC4210836E879C61F1A1B0446",
+          "publicationDate": "1997",
+          "title": "Characteristics of Voorhees refrigerating machine with hermetic piston compressor producing refrigeration at one or two temperature levels"
+        },
+        "lucn_query": "M E Gut-Tin P W Voorhees Proc. R. Sot. A 440 323 1993",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"323\" AND host.volume:\"440\" AND publicationDate:\"1993\" AND host.title:\"Proc. R. Sot. A\" AND author.name:\"Gut-Tin\" AND author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Burton Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0167-2789(93)90086-G"
+          ],
+          "host": {
+            "pages": {
+              "first": "283",
+              "last": "292"
+            },
+            "title": "Physica D: Nonlinear Phenomena",
+            "volume": "68"
+          },
+          "id": "C09C580D337FC09203DD1DF8466149E760D7AEF3",
+          "publicationDate": "1993",
+          "title": "Predecessors of cellular automata states"
+        },
+        "lucn_query": "host.pages.first:\"323\" host.volume:\"440\" publicationDate:\"1993\" host.title:\"Proc. R. Sot. A\" author.name:\"Gut-Tin\" author.name:\"Voorhees\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Burton Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0167-2789(93)90086-G"
+          ],
+          "host": {
+            "pages": {
+              "first": "283",
+              "last": "292"
+            },
+            "title": "Physica D: Nonlinear Phenomena",
+            "volume": "68"
+          },
+          "id": "C09C580D337FC09203DD1DF8466149E760D7AEF3",
+          "publicationDate": "1993",
+          "title": "Predecessors of cellular automata states"
+        },
+        "lucn_query": "host.pages.first:323 host.volume:440 publicationDate:1993 host.title:(Proc Sot) author.name:(Gut Tin Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:440 AND publicationDate:1993) AND (host.pages.first:323 host.title:(Proc Sot) author.name:(Gut Tin Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:440 AND publicationDate:1993) AND (host.pages.first:323 host.title:(Proc* Sot*) author.name:(Gut Tin Voorhees))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:323 AND host.volume:440 AND publicationDate:1993 AND host.title:(Proc Sot) AND author.name:(Gut Tin Voorhees)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:323 AND host.volume:440 AND publicationDate:1993 AND host.title:(Proc* Sot*) AND author.name:(Gut Tin Voorhees)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b20\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Kipput</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">A</forename>\n    <surname>Bose</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"middle\">S</forename>\n    <surname>Faroow</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>German</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Metuii</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Trans. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">19</biblScope>\n   <date type=\"published\" when=\"1905\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b20",
+    "findout_errs": [],
+    "parent_doc": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.L. Wolfsdorf"
+            },
+            {
+              "name": "W.H. Bender"
+            },
+            {
+              "name": "P.W. Voorhees"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S1359-6454(96)00338-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2295"
+            },
+            "title": "Acta Materialia",
+            "volume": "45"
+          },
+          "id": "51B9C34869010A29DFAE427DDAB902A4DF82287D",
+          "publicationDate": "1997",
+          "title": "The morphology of high volume fraction solid-liquid mixtures: An application of microstructural tomography"
+        },
+        "lucn_query": "C M Kipput A Bose S Faroow R M German Metuii Trans. A 19 1905",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"19\" AND publicationDate:\"1905\" AND host.title:\"Trans. A\" AND author.name:\"Kipput\" AND author.name:\"Bose\" AND author.name:\"Faroow\" AND author.name:\"German\" AND author.name:\"Metuii\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Bose"
+            },
+            {
+              "name": "R. M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02645474"
+          ],
+          "host": {
+            "pages": {
+              "first": "2467",
+              "last": "2476"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "19"
+          },
+          "id": "B2D07881E04808C89E19130178B39837BF0358D0",
+          "publicationDate": "1987",
+          "title": "Sintering atmosphere effects on tensile properties of heavy alloys"
+        },
+        "lucn_query": "host.volume:\"19\" publicationDate:\"1905\" host.title:\"Trans. A\" author.name:\"Kipput\" author.name:\"Bose\" author.name:\"Faroow\" author.name:\"German\" author.name:\"Metuii\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Bose"
+            },
+            {
+              "name": "R. M. German"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02645474"
+          ],
+          "host": {
+            "pages": {
+              "first": "2467",
+              "last": "2476"
+            },
+            "title": "Metallurgical Transactions A",
+            "volume": "19"
+          },
+          "id": "B2D07881E04808C89E19130178B39837BF0358D0",
+          "publicationDate": "1987",
+          "title": "Sintering atmosphere effects on tensile properties of heavy alloys"
+        },
+        "lucn_query": "host.volume:19 publicationDate:1905 host.title:Trans author.name:(Kipput Bose Faroow German Metuii)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:19 AND publicationDate:1905) AND (host.title:Trans author.name:(Kipput Bose Faroow German Metuii))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:19 AND publicationDate:1905) AND (host.title:(Trans*) author.name:(Kipput Bose Faroow German Metuii))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:19 AND publicationDate:1905 AND host.title:Trans AND author.name:(Kipput Bose Faroow German Metuii)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:19 AND publicationDate:1905 AND host.title:(Trans*) AND author.name:(Kipput Bose Faroow German Metuii)",
+        "match_flag": false
+      }
+    ]
+  }
+]

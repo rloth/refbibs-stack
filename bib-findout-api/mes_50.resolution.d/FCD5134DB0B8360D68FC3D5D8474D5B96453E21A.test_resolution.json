@@ -1,0 +1,1598 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Experimental measurements and empirical modelling of the regional deposition of inhaled particles in humans Respiratory tract deposition and fate of inhaled aerosols and sulfur dioxide</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Chan</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">L</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Lippmann</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Air Quality Criteria for Paniculate Matter and Sulfur Oxides</title>\n  <meeting><address><addrLine>EPA, Research Triangle Park, NC</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1980\"></date>\n   <biblScope unit=\"page\" from=\"399\" to=\"409\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bahman Asgharian"
+            },
+            {
+              "name": "James T. Kelly"
+            },
+            {
+              "name": "Earl W. Tewksbury"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/toxsci/71.1.104"
+          ],
+          "host": {
+            "pages": {
+              "first": "104",
+              "last": "111"
+            },
+            "title": "Toxicological Sciences",
+            "volume": "71"
+          },
+          "id": "9A04B4BBC4AB81A8E7CAC20CDDB1B8C5AB97FC43",
+          "publicationDate": "2003",
+          "title": "Respiratory Deposition and Inhalability of Monodisperse Aerosols in Long-Evans Rats"
+        },
+        "lucn_query": "Experimental measurements and empirical modelling of the regional deposition of inhaled particles in humans Respiratory tract deposition and fate of inhaled aerosols and sulfur dioxide Chan T L Lippmann M Air Quality Criteria for Paniculate Matter and Sulfur Oxides EPA, Research Triangle Park, NC 1980 399 409",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:\"Experimental measurements and empirical modelling of the regional deposition of inhaled particles in humans Respiratory tract deposition and fate of inhaled aerosols and sulfur dioxide\" AND host.pages.first:\"399\" AND host.pages.last:\"409\" AND publicationDate:\"1980\" AND host.title:\"Air Quality Criteria for Paniculate Matter and Sulfur Oxides\" AND \"EPA, Research Triangle Park, NC\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.M. Pratapas"
+            },
+            {
+              "name": "J. Calcagni"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0160-4120(83)90009-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "529",
+              "last": "538"
+            },
+            "title": "Environment International",
+            "volume": "9"
+          },
+          "id": "E50F4555A60456846A93F63041A3E253F61F697C",
+          "publicationDate": "1984",
+          "title": "Ozone control strategies in the United States"
+        },
+        "lucn_query": "title:\"Experimental measurements and empirical modelling of the regional deposition of inhaled particles in humans Respiratory tract deposition and fate of inhaled aerosols and sulfur dioxide\" host.pages.first:\"399\" host.pages.last:\"409\" publicationDate:\"1980\" host.title:\"Air Quality Criteria for Paniculate Matter and Sulfur Oxides\" \"EPA, Research Triangle Park, NC\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.G. Cuddihy"
+            },
+            {
+              "name": "D.G. Brownstein"
+            },
+            {
+              "name": "O.G. Raabe"
+            },
+            {
+              "name": "G.M. Kanapilly"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(73)90115-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "35",
+              "last": "38"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "4"
+          },
+          "id": "42240864314067D613CAEE1A51EBB3FD34E4698D",
+          "publicationDate": "1973",
+          "title": "Respiratory tract deposition of inhaled polydisperse aerosols in beagle dogs"
+        },
+        "lucn_query": "title:(Experimental measurements empirical modelling regional deposition inhaled particles humans Respiratory tract deposition fate inhaled aerosols sulfur dioxide) host.pages.first:399 host.pages.last:409 publicationDate:1980 host.title:(Air Quality Criteria for Paniculate Matter and Sulfur Oxides) Research Triangle Park",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M Lippmann"
+            },
+            {
+              "name": "D B Yeates"
+            },
+            {
+              "name": "R E Albert"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.37.4.337"
+          ],
+          "host": {
+            "pages": {
+              "first": "337"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "37"
+          },
+          "id": "45A294043A74B06A69511C19859A6E0DA5C5309A",
+          "publicationDate": "1980",
+          "title": "Deposition, retention, and clearance of inhaled particles."
+        },
+        "lucn_query": "(publicationDate:1980) AND (title:(Experimental measurements empirical modelling regional deposition inhaled particles humans Respiratory tract deposition fate inhaled aerosols sulfur dioxide) host.pages.first:399 host.pages.last:409 host.title:(Air Quality Criteria for Paniculate Matter and Sulfur Oxides) Research Triangle Park)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M Lippmann"
+            },
+            {
+              "name": "D B Yeates"
+            },
+            {
+              "name": "R E Albert"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.37.4.337"
+          ],
+          "host": {
+            "pages": {
+              "first": "337"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "37"
+          },
+          "id": "45A294043A74B06A69511C19859A6E0DA5C5309A",
+          "publicationDate": "1980",
+          "title": "Deposition, retention, and clearance of inhaled particles."
+        },
+        "lucn_query": "(publicationDate:1980) AND (title:(Experimental measurements empirical modelling regional deposition inhaled particles humans Respiratory tract deposition fate inhaled aerosols sulfur dioxide) host.pages.first:399 host.pages.last:409 host.title:(Air Quality Criteria for Paniculate Matter and Sulfur Oxides) Research Triangle Park)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Experimental measurements empirical modelling regional deposition inhaled particles humans Respiratory tract deposition fate inhaled aerosols sulfur dioxide) AND host.pages.first:399 AND host.pages.last:409 AND publicationDate:1980 AND host.title:(Air Quality Criteria for Paniculate Matter and Sulfur Oxides) AND Research AND Triangle AND Park",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "title:(Experimental measurements empirical modelling regional deposition inhaled particles humans Respiratory tract deposition fate inhaled aerosols sulfur dioxide) AND host.pages.first:399 AND host.pages.last:409 AND publicationDate:1980 AND host.title:(Air Quality Criteria for Paniculate Matter and Sulfur Oxides) AND Research AND Triangle AND Park",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Regional deposition of 2.5-7.5 /an diameter inhaled particles in healthy male non-smokers</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Foord</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">N</forename>\n    <surname>Black</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Walsh</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Aerosol Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">9</biblScope>\n   <biblScope unit=\"page\" from=\"343\" to=\"357\"></biblScope>\n   <date type=\"published\" when=\"1978\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "Regional deposition of 2.5-7.5 /an diameter inhaled particles in healthy male non-smokers Foord N Black A Walsh M J. Aerosol Sci 9 1978 343 357",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"9\" AND title:\"Regional deposition of 2.5-7.5 /an diameter inhaled particles in healthy male non-smokers\" AND host.pages.first:\"343\" AND host.pages.last:\"357\" AND publicationDate:\"1978\" AND host.title:\"J. Aerosol Sci\" AND author.name:\"Black\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "host.volume:\"9\" title:\"Regional deposition of 2.5-7.5 /an diameter inhaled particles in healthy male non-smokers\" host.pages.first:\"343\" host.pages.last:\"357\" publicationDate:\"1978\" host.title:\"J. Aerosol Sci\" author.name:\"Black\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "host.volume:9 title:(Regional deposition diameter inhaled particles healthy male smokers) host.pages.first:343 host.pages.last:357 publicationDate:1978 host.title:(J Aerosol Sci) author.name:Black",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "(host.volume:9 AND publicationDate:1978) AND (title:(Regional deposition diameter inhaled particles healthy male smokers) host.pages.first:343 host.pages.last:357 host.title:(J Aerosol Sci) author.name:Black)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "(host.volume:9 AND publicationDate:1978) AND (title:(Regional deposition diameter inhaled particles healthy male smokers) host.pages.first:343 host.pages.last:357 host.title:(journal Aerosol* Sci*) author.name:Black)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "host.volume:9 AND title:(Regional deposition diameter inhaled particles healthy male smokers) AND host.pages.first:343 AND host.pages.last:357 AND publicationDate:1978 AND host.title:(J Aerosol Sci) AND author.name:Black",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "N. Foord"
+            },
+            {
+              "name": "A. Black"
+            },
+            {
+              "name": "M. Walsh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(78)90037-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "343",
+              "last": "357"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "9"
+          },
+          "id": "C75E6427A2036310AF7AD630F6B8447FA3D5ED28",
+          "publicationDate": "1978",
+          "title": "Regional deposition of 2.5\u20137.5 \u03bcm diameter inhaled particles in healthy male non-smokers"
+        },
+        "lucn_query": "host.volume:9 AND title:(Regional deposition diameter inhaled particles healthy male smokers) AND host.pages.first:343 AND host.pages.last:357 AND publicationDate:1978 AND host.title:(journal Aerosol* Sci*) AND author.name:Black",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <monogr>\n  <title level=\"m\" type=\"main\">Studies of particle deposition and clearance in humans, Symposium of the Federal Health Office, Institute of Drugs</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Heyder</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1984-04-02\"></date>\n   <pubPlace>Berlin</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Report of the Task Group on Reference Man</title>\n </analytic>\n <monogr>\n  <title level=\"j\">INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION</title>\n  <imprint>\n   <publisher>ICRP Publication 23 Pergamon Press</publisher>\n   <date type=\"published\" when=\"1975\"></date>\n   <publisher>ICRP Publication 23 Pergamon Press</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L. Bertelli"
+            },
+            {
+              "name": "M. E. Wrenn"
+            },
+            {
+              "name": "N. P. Singh"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02040222"
+          ],
+          "host": {
+            "pages": {
+              "first": "67",
+              "last": "78"
+            },
+            "title": "Journal of Radioanalytical and Nuclear Chemistry",
+            "volume": "197"
+          },
+          "id": "8FEDB351C54C01C6773F9DB677FF8E8F76F50F6A",
+          "publicationDate": "1995",
+          "title": "Interpretation of bioassay measurements using different systemic models for plutonium"
+        },
+        "lucn_query": "Report of the Task Group on Reference Man INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION ICRP Publication 23 Pergamon Press ICRP Publication 23 Pergamon Press 1975",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"ICRP Publication 23 Pergamon Press\" AND host.editor:\"ICRP Publication 23 Pergamon Press\" AND title:\"Report of the Task Group on Reference Man\" AND publicationDate:\"1975\" AND host.title:\"INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "W.B. Mann"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0020-708X(77)90145-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "448",
+              "last": "449"
+            },
+            "title": "The International Journal Of Applied Radiation And Isotopes",
+            "volume": "28"
+          },
+          "id": "4A18BAB819F5645C80587D1AE65827C1D0A8FB22",
+          "publicationDate": "1977",
+          "title": "Report of the task group on reference man"
+        },
+        "lucn_query": "host.editor:\"ICRP Publication 23 Pergamon Press\" host.editor:\"ICRP Publication 23 Pergamon Press\" title:\"Report of the Task Group on Reference Man\" publicationDate:\"1975\" host.title:\"INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.J. Curran"
+            },
+            {
+              "name": "W.J. Pitz"
+            },
+            {
+              "name": "C.K. Westbrook"
+            },
+            {
+              "name": "G.V. Callahan"
+            },
+            {
+              "name": "F.L. Dryer"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(98)80426-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "379",
+              "last": "387"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "27"
+          },
+          "id": "82C08BB2325E91C18E2E39F4759FF345B4AF0D4D",
+          "publicationDate": "1998",
+          "title": "Oxidation of automotive primary reference fuels at elevated pressures"
+        },
+        "lucn_query": "host.editor:(ICRP Publication Pergamon Press ICRP Publication Pergamon Press) title:(Report Task Group Reference) publicationDate:1975 host.title:(INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Franklin J. Wright"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(75)80403-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1449",
+              "last": "1460"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "15"
+          },
+          "id": "C7C30D0C158BC4FC95B955729FAD873908175C18",
+          "publicationDate": "1975",
+          "title": "The oxidation of soot by O atoms"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(ICRP Publication Pergamon Press ICRP Publication Pergamon Press) title:(Report Task Group Reference) host.title:(INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/tie.5060170120"
+          ],
+          "host": {
+            "pages": {
+              "first": "33",
+              "last": "64"
+            },
+            "title": "The International Executive",
+            "volume": "17"
+          },
+          "id": "874A3375A938BAAB7D90CEC25307FAFA7677B6AA",
+          "publicationDate": "1975",
+          "title": "Reference guide"
+        },
+        "lucn_query": "(publicationDate:1975) AND (host.editor:(ICRP Publication Pergamon Press ICRP Publication Pergamon Press) title:(Report Task Group Reference) host.title:(INTERNATIONAL* COMMISSION* ON* RADIOLOGICAL* PROTECTION*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ICRP Publication Pergamon Press ICRP Publication Pergamon Press) AND title:(Report Task Group Reference) AND publicationDate:1975 AND host.title:(INTERNATIONAL COMMISSION ON RADIOLOGICAL PROTECTION)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(ICRP Publication Pergamon Press ICRP Publication Pergamon Press) AND title:(Report Task Group Reference) AND publicationDate:1975 AND host.title:(INTERNATIONAL* COMMISSION* ON* RADIOLOGICAL* PROTECTION*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Deposition and clearance of inhaled particles in the human nose</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Lippmann</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Ann. Otol. Rhinol. Laryngol</title>\n  <imprint>\n   <biblScope unit=\"volume\">79</biblScope>\n   <biblScope unit=\"page\" from=\"519\" to=\"528\"></biblScope>\n   <date type=\"published\" when=\"1970\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M Lippmann"
+            },
+            {
+              "name": "D B Yeates"
+            },
+            {
+              "name": "R E Albert"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.37.4.337"
+          ],
+          "host": {
+            "pages": {
+              "first": "337"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "37"
+          },
+          "id": "45A294043A74B06A69511C19859A6E0DA5C5309A",
+          "publicationDate": "1980",
+          "title": "Deposition, retention, and clearance of inhaled particles."
+        },
+        "lucn_query": "Deposition and clearance of inhaled particles in the human nose Lippmann M Ann. Otol. Rhinol. Laryngol 79 1970 519 528",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"79\" AND title:\"Deposition and clearance of inhaled particles in the human nose\" AND host.pages.first:\"519\" AND host.pages.last:\"528\" AND publicationDate:\"1970\" AND host.title:\"Ann. Otol. Rhinol. Laryngol\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gee Tsang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(70)90021-1"
+          ],
+          "host": {
+            "pages": {
+              "first": "519",
+              "last": "528"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "4"
+          },
+          "id": "C8A8E4EE1FC23A2ED5A6F3E1C11863BC02AD24C3",
+          "publicationDate": "1970",
+          "title": "Laboratory study of two-dimensional starting plumes"
+        },
+        "lucn_query": "host.volume:\"79\" title:\"Deposition and clearance of inhaled particles in the human nose\" host.pages.first:\"519\" host.pages.last:\"528\" publicationDate:\"1970\" host.title:\"Ann. Otol. Rhinol. Laryngol\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M Lippmann"
+            },
+            {
+              "name": "D B Yeates"
+            },
+            {
+              "name": "R E Albert"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.37.4.337"
+          ],
+          "host": {
+            "pages": {
+              "first": "337"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "37"
+          },
+          "id": "45A294043A74B06A69511C19859A6E0DA5C5309A",
+          "publicationDate": "1980",
+          "title": "Deposition, retention, and clearance of inhaled particles."
+        },
+        "lucn_query": "host.volume:79 title:(Deposition clearance inhaled particles human nose) host.pages.first:519 host.pages.last:528 publicationDate:1970 host.title:(Ann Otol Rhinol Laryngol)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jens Otto Wieth"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-1716.1970.tb04703.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "87"
+            },
+            "title": "Acta Physiologica Scandinavica",
+            "volume": "79"
+          },
+          "id": "5A65027050AA3A9391F5BC4C5190CFBB2FC71B76",
+          "publicationDate": "1970",
+          "title": "Effects of Monovalent Cations on Sodium Permeability of Human Red Cells"
+        },
+        "lucn_query": "(host.volume:79 AND publicationDate:1970) AND (title:(Deposition clearance inhaled particles human nose) host.pages.first:519 host.pages.last:528 host.title:(Ann Otol Rhinol Laryngol))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jens Otto Wieth"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-1716.1970.tb04703.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "76",
+              "last": "87"
+            },
+            "title": "Acta Physiologica Scandinavica",
+            "volume": "79"
+          },
+          "id": "5A65027050AA3A9391F5BC4C5190CFBB2FC71B76",
+          "publicationDate": "1970",
+          "title": "Effects of Monovalent Cations on Sodium Permeability of Human Red Cells"
+        },
+        "lucn_query": "(host.volume:79 AND publicationDate:1970) AND (title:(Deposition clearance inhaled particles human nose) host.pages.first:519 host.pages.last:528 host.title:(Ann* Otol* Rhinol* Laryngol*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:79 AND title:(Deposition clearance inhaled particles human nose) AND host.pages.first:519 AND host.pages.last:528 AND publicationDate:1970 AND host.title:(Ann Otol Rhinol Laryngol)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:79 AND title:(Deposition clearance inhaled particles human nose) AND host.pages.first:519 AND host.pages.last:528 AND publicationDate:1970 AND host.title:(Ann* Otol* Rhinol* Laryngol*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <monogr>\n  <title level=\"m\" type=\"main\">Regional deposition of particles in the human respiratory tract, In: Handbook of Physiology&#8212;Reaction to</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Lippmann</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n   </persName>\n  </author>\n  <editor>D.H.K. LEE</editor>\n  <imprint>\n   <date type=\"published\" when=\"1977\"></date>\n   <publisher>The American Physiological Society</publisher>\n   <biblScope unit=\"page\" from=\"213\" to=\"232\"></biblScope>\n   <pubPlace>Bethesda, MD</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title level=\"a\" type=\"main\">Dosimetry and species sensitivity: key factors in hazard evaluation using animal exposure data</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Martonen</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">B</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Miller</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J. Aerosol Sci</title>\n  <imprint>\n   <biblScope unit=\"volume\">17</biblScope>\n   <biblScope unit=\"page\" from=\"316\" to=\"319\"></biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "Y. Yang"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(93)90087-P"
+          ],
+          "host": {
+            "pages": {
+              "first": "103",
+              "last": "113"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "24"
+          },
+          "id": "5FD894889AAF73F185794C700FFEDFF02C3BFF1A",
+          "publicationDate": "1993",
+          "title": "Simulation of aerosol deposition in extrathoracic and laryngeal passages of the laboratory rat"
+        },
+        "lucn_query": "Dosimetry and species sensitivity\\: key factors in hazard evaluation using animal exposure data Martonen T B Miller F J J. Aerosol Sci 17 1986 316 319",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"17\" AND title:\"Dosimetry and species sensitivity\\: key factors in hazard evaluation using animal exposure data\" AND host.pages.first:\"316\" AND host.pages.last:\"319\" AND publicationDate:\"1986\" AND host.title:\"J. Aerosol Sci\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "host.volume:\"17\" title:\"Dosimetry and species sensitivity\\: key factors in hazard evaluation using animal exposure data\" host.pages.first:\"316\" host.pages.last:\"319\" publicationDate:\"1986\" host.title:\"J. Aerosol Sci\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "host.volume:17 title:(Dosimetry species sensitivity factors hazard evaluation using animal exposure data) host.pages.first:316 host.pages.last:319 publicationDate:1986 host.title:(J Aerosol Sci)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1986) AND (title:(Dosimetry species sensitivity factors hazard evaluation using animal exposure data) host.pages.first:316 host.pages.last:319 host.title:(J Aerosol Sci))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1986) AND (title:(Dosimetry species sensitivity factors hazard evaluation using animal exposure data) host.pages.first:316 host.pages.last:319 host.title:(journal Aerosol* Sci*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "host.volume:17 AND title:(Dosimetry species sensitivity factors hazard evaluation using animal exposure data) AND host.pages.first:316 AND host.pages.last:319 AND publicationDate:1986 AND host.title:(J Aerosol Sci)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.B. Martonen"
+            },
+            {
+              "name": "F.J. Miller"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(86)90095-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "316",
+              "last": "319"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "17"
+          },
+          "id": "E475836C6A6445A2EA92EC80C1EF5902AA9306DA",
+          "publicationDate": "1986",
+          "title": "Dosimetry and species sensitivity: Key factors in hazard evaluation using animal exposure data"
+        },
+        "lucn_query": "host.volume:17 AND title:(Dosimetry species sensitivity factors hazard evaluation using animal exposure data) AND host.pages.first:316 AND host.pages.last:319 AND publicationDate:1986 AND host.title:(journal Aerosol* Sci*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title level=\"a\" type=\"main\">Oronasal distribution of respiratory airflow</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Niinimaa</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Cole</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Mintz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Shephard</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Respir. Physiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">43</biblScope>\n   <biblScope unit=\"page\" from=\"69\" to=\"75\"></biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.M. Becquemin"
+            },
+            {
+              "name": "J.F. Bertholon"
+            },
+            {
+              "name": "A. Bouchikhi"
+            },
+            {
+              "name": "J.L. Malarbet"
+            },
+            {
+              "name": "M. Roy"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.rpd.a032588"
+          ],
+          "host": {
+            "pages": {
+              "first": "221",
+              "last": "228"
+            },
+            "title": "Radiation Protection Dosimetry",
+            "volume": "81"
+          },
+          "id": "A2D43CD48357D9BE2346EDBBE5F5EDB4E32C02A8",
+          "publicationDate": "1999",
+          "title": "Oronasal Ventilation Partitioning in Adults and Children: Effect on Aerosol Deposition in Airways"
+        },
+        "lucn_query": "Oronasal distribution of respiratory airflow Niinimaa V Cole P Mintz S Shephard R J Respir. Physiol 43 1981 69 75",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"43\" AND title:\"Oronasal distribution of respiratory airflow\" AND host.pages.first:\"69\" AND host.pages.last:\"75\" AND publicationDate:\"1981\" AND host.title:\"Respir. Physiol\" AND author.name:\"Mintz\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. Niinimaa"
+            },
+            {
+              "name": "P. Cole"
+            },
+            {
+              "name": "R.J. Shephard"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(81)90089-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "75"
+            },
+            "title": "Respiration Physiology",
+            "volume": "43"
+          },
+          "id": "26FEB8A36D450074CB0240007AD4082610E8F905",
+          "publicationDate": "1981",
+          "title": "Oronasal distribution of respiratory airflow"
+        },
+        "lucn_query": "host.volume:\"43\" title:\"Oronasal distribution of respiratory airflow\" host.pages.first:\"69\" host.pages.last:\"75\" publicationDate:\"1981\" host.title:\"Respir. Physiol\" author.name:\"Mintz\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. Niinimaa"
+            },
+            {
+              "name": "P. Cole"
+            },
+            {
+              "name": "R.J. Shephard"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(81)90089-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "75"
+            },
+            "title": "Respiration Physiology",
+            "volume": "43"
+          },
+          "id": "26FEB8A36D450074CB0240007AD4082610E8F905",
+          "publicationDate": "1981",
+          "title": "Oronasal distribution of respiratory airflow"
+        },
+        "lucn_query": "host.volume:43 title:(Oronasal distribution respiratory airflow) host.pages.first:69 host.pages.last:75 publicationDate:1981 host.title:(Respir Physiol) author.name:Mintz",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. Niinimaa"
+            },
+            {
+              "name": "P. Cole"
+            },
+            {
+              "name": "R.J. Shephard"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(81)90089-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "75"
+            },
+            "title": "Respiration Physiology",
+            "volume": "43"
+          },
+          "id": "26FEB8A36D450074CB0240007AD4082610E8F905",
+          "publicationDate": "1981",
+          "title": "Oronasal distribution of respiratory airflow"
+        },
+        "lucn_query": "(host.volume:43 AND publicationDate:1981) AND (title:(Oronasal distribution respiratory airflow) host.pages.first:69 host.pages.last:75 host.title:(Respir Physiol) author.name:Mintz)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "V. Niinimaa"
+            },
+            {
+              "name": "P. Cole"
+            },
+            {
+              "name": "R.J. Shephard"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0034-5687(81)90089-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "75"
+            },
+            "title": "Respiration Physiology",
+            "volume": "43"
+          },
+          "id": "26FEB8A36D450074CB0240007AD4082610E8F905",
+          "publicationDate": "1981",
+          "title": "Oronasal distribution of respiratory airflow"
+        },
+        "lucn_query": "(host.volume:43 AND publicationDate:1981) AND (title:(Oronasal distribution respiratory airflow) host.pages.first:69 host.pages.last:75 host.title:(Respir* Physiol*) author.name:Mintz)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:43 AND title:(Oronasal distribution respiratory airflow) AND host.pages.first:69 AND host.pages.last:75 AND publicationDate:1981 AND host.title:(Respir Physiol) AND author.name:Mintz",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:43 AND title:(Oronasal distribution respiratory airflow) AND host.pages.first:69 AND host.pages.last:75 AND publicationDate:1981 AND host.title:(Respir* Physiol*) AND author.name:Mintz",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title level=\"a\" type=\"main\">Human respiratory deposition of particles during oronasal breathing</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Swift</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">L</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Proctor</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">F</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Atmos. Environ</title>\n  <imprint>\n   <biblScope unit=\"volume\">16</biblScope>\n   <biblScope unit=\"page\" from=\"2279\" to=\"2282\"></biblScope>\n   <date type=\"published\" when=\"1982\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "M.M. Becquemin"
+            },
+            {
+              "name": "J.F. Bertholon"
+            },
+            {
+              "name": "A. Bouchikhi"
+            },
+            {
+              "name": "J.L. Malarbet"
+            },
+            {
+              "name": "M. Roy"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.rpd.a032588"
+          ],
+          "host": {
+            "pages": {
+              "first": "221",
+              "last": "228"
+            },
+            "title": "Radiation Protection Dosimetry",
+            "volume": "81"
+          },
+          "id": "A2D43CD48357D9BE2346EDBBE5F5EDB4E32C02A8",
+          "publicationDate": "1999",
+          "title": "Oronasal Ventilation Partitioning in Adults and Children: Effect on Aerosol Deposition in Airways"
+        },
+        "lucn_query": "Human respiratory deposition of particles during oronasal breathing Swift D L Proctor D F Atmos. Environ 16 1982 2279 2282",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"16\" AND title:\"Human respiratory deposition of particles during oronasal breathing\" AND host.pages.first:\"2279\" AND host.pages.last:\"2282\" AND publicationDate:\"1982\" AND host.title:\"Atmos. Environ\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Swift"
+            },
+            {
+              "name": "Donald F. Proctor"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(82)90307-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2282"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "16"
+          },
+          "id": "2AB71D894A5295F194626DF3C28C4AF1CD01EA62",
+          "publicationDate": "1982",
+          "title": "Human respiratory deposition of particles during oronasal breathing"
+        },
+        "lucn_query": "host.volume:\"16\" title:\"Human respiratory deposition of particles during oronasal breathing\" host.pages.first:\"2279\" host.pages.last:\"2282\" publicationDate:\"1982\" host.title:\"Atmos. Environ\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Swift"
+            },
+            {
+              "name": "Donald F. Proctor"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(82)90307-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2282"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "16"
+          },
+          "id": "2AB71D894A5295F194626DF3C28C4AF1CD01EA62",
+          "publicationDate": "1982",
+          "title": "Human respiratory deposition of particles during oronasal breathing"
+        },
+        "lucn_query": "host.volume:16 title:(Human respiratory deposition particles during oronasal breathing) host.pages.first:2279 host.pages.last:2282 publicationDate:1982 host.title:(Atmos Environ)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Swift"
+            },
+            {
+              "name": "Donald F. Proctor"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(82)90307-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2282"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "16"
+          },
+          "id": "2AB71D894A5295F194626DF3C28C4AF1CD01EA62",
+          "publicationDate": "1982",
+          "title": "Human respiratory deposition of particles during oronasal breathing"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1982) AND (title:(Human respiratory deposition particles during oronasal breathing) host.pages.first:2279 host.pages.last:2282 host.title:(Atmos Environ))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Swift"
+            },
+            {
+              "name": "Donald F. Proctor"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(82)90307-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2282"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "16"
+          },
+          "id": "2AB71D894A5295F194626DF3C28C4AF1CD01EA62",
+          "publicationDate": "1982",
+          "title": "Human respiratory deposition of particles during oronasal breathing"
+        },
+        "lucn_query": "(host.volume:16 AND publicationDate:1982) AND (title:(Human respiratory deposition particles during oronasal breathing) host.pages.first:2279 host.pages.last:2282 host.title:(Atmos* Environ*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:16 AND title:(Human respiratory deposition particles during oronasal breathing) AND host.pages.first:2279 AND host.pages.last:2282 AND publicationDate:1982 AND host.title:(Atmos Environ)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "David L. Swift"
+            },
+            {
+              "name": "Donald F. Proctor"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0004-6981(82)90307-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "2279",
+              "last": "2282"
+            },
+            "title": "Atmospheric Environment (1967)",
+            "volume": "16"
+          },
+          "id": "2AB71D894A5295F194626DF3C28C4AF1CD01EA62",
+          "publicationDate": "1982",
+          "title": "Human respiratory deposition of particles during oronasal breathing"
+        },
+        "lucn_query": "host.volume:16 AND title:(Human respiratory deposition particles during oronasal breathing) AND host.pages.first:2279 AND host.pages.last:2282 AND publicationDate:1982 AND host.title:(Atmos* Environ*)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title level=\"a\" type=\"main\">Statistical analysis of aerosol deposition in nose and mouth</title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Yu</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Diu</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Soong</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">T</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am. Ind. Hyg. Assoc. J</title>\n  <imprint>\n   <biblScope unit=\"volume\">42</biblScope>\n   <biblScope unit=\"page\" from=\"726\" to=\"733\"></biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T.H. Hsieh"
+            },
+            {
+              "name": "C.P. Yu"
+            },
+            {
+              "name": "G\u00fcnter Oberd\u00f6rster"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/rtph.1999.1313"
+          ],
+          "host": {
+            "pages": {
+              "first": "18",
+              "last": "28"
+            },
+            "title": "Regulatory Toxicology and Pharmacology",
+            "volume": "30"
+          },
+          "id": "FF1CE2D54423674C92394894BC35C826974A1F6E",
+          "publicationDate": "1999",
+          "title": "Modeling of Deposition and Clearance of Inhaled Ni Compounds in the Human Lung"
+        },
+        "lucn_query": "Statistical analysis of aerosol deposition in nose and mouth C P Yu C K Diu Soong T T Am. Ind. Hyg. Assoc. J 42 1981 726 733",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"42\" AND title:\"Statistical analysis of aerosol deposition in nose and mouth\" AND host.pages.first:\"726\" AND host.pages.last:\"733\" AND publicationDate:\"1981\" AND host.title:\"Am. Ind. Hyg. Assoc. J\" AND author.name:\"Yu\" AND author.name:\"Diu\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.P. Yu"
+            },
+            {
+              "name": "C.K. Diu"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(83)90065-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "599",
+              "last": "609"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "14"
+          },
+          "id": "88BC1BE03AB8D99B8E79A8EC5FDFECCC18703859",
+          "publicationDate": "1983",
+          "title": "Total and regional deposition of inhaled aerosols in humans"
+        },
+        "lucn_query": "host.volume:\"42\" title:\"Statistical analysis of aerosol deposition in nose and mouth\" host.pages.first:\"726\" host.pages.last:\"733\" publicationDate:\"1981\" host.title:\"Am. Ind. Hyg. Assoc. J\" author.name:\"Yu\" author.name:\"Diu\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.P. Yu"
+            },
+            {
+              "name": "C.K. Diu"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0021-8502(83)90065-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "599",
+              "last": "609"
+            },
+            "title": "Journal of Aerosol Science",
+            "volume": "14"
+          },
+          "id": "88BC1BE03AB8D99B8E79A8EC5FDFECCC18703859",
+          "publicationDate": "1983",
+          "title": "Total and regional deposition of inhaled aerosols in humans"
+        },
+        "lucn_query": "host.volume:42 title:(Statistical analysis aerosol deposition nose mouth) host.pages.first:726 host.pages.last:733 publicationDate:1981 host.title:(Am Ind Hyg Assoc J) author.name:(Yu Diu)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.B. Yu"
+            },
+            {
+              "name": "R.F. Davis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(81)90092-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "83",
+              "last": "87"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "42"
+          },
+          "id": "16D49DC7834706C302BDE6D594D01513380E3346",
+          "publicationDate": "1981",
+          "title": "Self-diffusion of 95Nb in single crystals of NbCx"
+        },
+        "lucn_query": "(host.volume:42 AND publicationDate:1981) AND (title:(Statistical analysis aerosol deposition nose mouth) host.pages.first:726 host.pages.last:733 host.title:(Am Ind Hyg Assoc J) author.name:(Yu Diu))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.B. Yu"
+            },
+            {
+              "name": "R.F. Davis"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0022-3697(81)90092-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "83",
+              "last": "87"
+            },
+            "title": "Journal of Physics and Chemistry of Solids",
+            "volume": "42"
+          },
+          "id": "16D49DC7834706C302BDE6D594D01513380E3346",
+          "publicationDate": "1981",
+          "title": "Self-diffusion of 95Nb in single crystals of NbCx"
+        },
+        "lucn_query": "(host.volume:42 AND publicationDate:1981) AND (title:(Statistical analysis aerosol deposition nose mouth) host.pages.first:726 host.pages.last:733 host.title:(Am* Ind* Hyg* Assoc* journal) author.name:(Yu Diu))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:42 AND title:(Statistical analysis aerosol deposition nose mouth) AND host.pages.first:726 AND host.pages.last:733 AND publicationDate:1981 AND host.title:(Am Ind Hyg Assoc J) AND author.name:(Yu Diu)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:42 AND title:(Statistical analysis aerosol deposition nose mouth) AND host.pages.first:726 AND host.pages.last:733 AND publicationDate:1981 AND host.title:(Am* Ind* Hyg* Assoc* journal) AND author.name:(Yu Diu)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <monogr>\n  <title level=\"m\" type=\"main\">Your nonlinear regression for the tracheo bronchia/ region is independent of flow rate. Should such a dependence be present ?</title>\n  <author>\n   <persName>\n    <forename type=\"first\">C</forename>\n    <forename type=\"middle\">P</forename>\n    <surname>Yu</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <monogr>\n  <title level=\"m\" type=\"main\">Tracheobronchial deposition was based upon aerodynamic diameter, D ae , so that effects of both sedimentation and inertial impaction were included. For extrathoracic deposition curves, we fit a parameter (pd 2 Q) which accounts primarily for inertial impaction. Thus, our analyses do include the dependence of deposition on flow rate since we used log (pd 2 Q) for the abscissa in extrathoracic deposition analyses</title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Miller</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n <note>and. log D ae for tracheobronchial analyses</note>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <monogr>\n  <title level=\"m\" type=\"main\">There is significant deposition of larger particles in the laryngeal region. Did you include the larynx deposition in the thoracic or extrathoracic fractions?</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Otto</forename>\n    <surname>Raabe</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <monogr>\n  <title level=\"m\" type=\"main\">MILLER: Laryngeal deposition for all particulate sizes is included in the extrathoracic components of our analyses when oral breathing is used</title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <monogr>\n  <title level=\"m\" type=\"main\">Your nonlinear regression fit to the data for extrathoracic deposition with mouth breathing, appears to underestimate significantly deposition for large particles, and overestimate deposition for particles less than 3 fun. The latter appears to be zero</title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>James</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <monogr>\n  <title level=\"m\" type=\"main\">Your point is well taken For the large number of analyses presented in the figures, omitting confidence limits aided in the clarity of presentation. However, such information is a by-product of the computation processes used and could be made available in an expanded discussion of the data</title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">J</forename>\n    <surname>Miller</surname>\n   </persName>\n  </author>\n  <imprint></imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b15",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "FCD5134DB0B8360D68FC3D5D8474D5B96453E21A",
+    "solved_qs": []
+  }
+]

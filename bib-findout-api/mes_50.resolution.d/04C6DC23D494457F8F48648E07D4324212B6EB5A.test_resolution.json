@@ -1,0 +1,197 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">Particulate air pollution and daily mortality in Steubenville, Ohio</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <surname>Schwartz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dw</forename>\n    <surname>Dockery</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am J Epidemiol</title>\n  <imprint>\n   <biblScope unit=\"volume\">135</biblScope>\n   <biblScope unit=\"page\" from=\"12\" to=\"19\"></biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "04C6DC23D494457F8F48648E07D4324212B6EB5A",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Douglas W. Dockery"
+            },
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "John D. Spengler"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0013-9351(05)80042-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "362",
+              "last": "373"
+            },
+            "title": "Environmental Research",
+            "volume": "59"
+          },
+          "id": "C3C7E91C7F9BC501275FFB85CB661738C021508D",
+          "publicationDate": "1992",
+          "title": "Air pollution and daily mortality: Associations with particulates and acid aerosols"
+        },
+        "lucn_query": "Particulate air pollution and daily mortality in Steubenville, Ohio J Schwartz Dw Dockery Am J Epidemiol 135 1992 12 19",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"135\" AND title:\"Particulate air pollution and daily mortality in Steubenville, Ohio\" AND host.pages.first:\"12\" AND host.pages.last:\"19\" AND publicationDate:\"1992\" AND host.title:\"Am J Epidemiol\" AND author.name:\"Schwartz\" AND author.name:\"Dockery\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "Douglas W. Dockery"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aje.a116195"
+          ],
+          "host": {
+            "pages": {
+              "first": "12",
+              "last": "19"
+            },
+            "title": "American Journal of Epidemiology",
+            "volume": "135"
+          },
+          "id": "33F6AC02FBD2BFBA8E62E71F826836BE727A1E28",
+          "publicationDate": "1992",
+          "title": "Particulate Air Pollution and Daily Mortality in Steubenville, Ohio"
+        },
+        "lucn_query": "host.volume:\"135\" title:\"Particulate air pollution and daily mortality in Steubenville, Ohio\" host.pages.first:\"12\" host.pages.last:\"19\" publicationDate:\"1992\" host.title:\"Am J Epidemiol\" author.name:\"Schwartz\" author.name:\"Dockery\"",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "Douglas W. Dockery"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aje.a116195"
+          ],
+          "host": {
+            "pages": {
+              "first": "12",
+              "last": "19"
+            },
+            "title": "American Journal of Epidemiology",
+            "volume": "135"
+          },
+          "id": "33F6AC02FBD2BFBA8E62E71F826836BE727A1E28",
+          "publicationDate": "1992",
+          "title": "Particulate Air Pollution and Daily Mortality in Steubenville, Ohio"
+        },
+        "lucn_query": "host.volume:135 title:(Particulate pollution daily mortality Steubenville Ohio) host.pages.first:12 host.pages.last:19 publicationDate:1992 host.title:(Am J Epidemiol) author.name:(Schwartz Dockery)",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "Douglas W. Dockery"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aje.a116195"
+          ],
+          "host": {
+            "pages": {
+              "first": "12",
+              "last": "19"
+            },
+            "title": "American Journal of Epidemiology",
+            "volume": "135"
+          },
+          "id": "33F6AC02FBD2BFBA8E62E71F826836BE727A1E28",
+          "publicationDate": "1992",
+          "title": "Particulate Air Pollution and Daily Mortality in Steubenville, Ohio"
+        },
+        "lucn_query": "(host.volume:135 AND publicationDate:1992) AND (title:(Particulate pollution daily mortality Steubenville Ohio) host.pages.first:12 host.pages.last:19 host.title:(Am J Epidemiol) author.name:(Schwartz Dockery))",
+        "match_flag": true
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "Douglas W. Dockery"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aje.a116195"
+          ],
+          "host": {
+            "pages": {
+              "first": "12",
+              "last": "19"
+            },
+            "title": "American Journal of Epidemiology",
+            "volume": "135"
+          },
+          "id": "33F6AC02FBD2BFBA8E62E71F826836BE727A1E28",
+          "publicationDate": "1992",
+          "title": "Particulate Air Pollution and Daily Mortality in Steubenville, Ohio"
+        },
+        "lucn_query": "(host.volume:135 AND publicationDate:1992) AND (title:(Particulate pollution daily mortality Steubenville Ohio) host.pages.first:12 host.pages.last:19 host.title:(Am* journal Epidemiol*) author.name:(Schwartz Dockery))",
+        "match_flag": true
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:135 AND title:(Particulate pollution daily mortality Steubenville Ohio) AND host.pages.first:12 AND host.pages.last:19 AND publicationDate:1992 AND host.title:(Am J Epidemiol) AND author.name:(Schwartz Dockery)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joel Schwartz"
+            },
+            {
+              "name": "Douglas W. Dockery"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/oxfordjournals.aje.a116195"
+          ],
+          "host": {
+            "pages": {
+              "first": "12",
+              "last": "19"
+            },
+            "title": "American Journal of Epidemiology",
+            "volume": "135"
+          },
+          "id": "33F6AC02FBD2BFBA8E62E71F826836BE727A1E28",
+          "publicationDate": "1992",
+          "title": "Particulate Air Pollution and Daily Mortality in Steubenville, Ohio"
+        },
+        "lucn_query": "host.volume:135 AND title:(Particulate pollution daily mortality Steubenville Ohio) AND host.pages.first:12 AND host.pages.last:19 AND publicationDate:1992 AND host.title:(Am* journal Epidemiol*) AND author.name:(Schwartz Dockery)",
+        "match_flag": true
+      }
+    ]
+  }
+]

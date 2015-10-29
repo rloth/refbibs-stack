@@ -1,0 +1,3136 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">Department of Health and Human Services Healthy People 2000: National Health Promotion and Disease Prevention Objectives</title>\n  <author>\n   <persName>\n    <forename type=\"first\">U</forename>\n    <forename type=\"middle\">S</forename>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1991\"></date>\n   <publisher>U.S. Public Health Service</publisher>\n   <biblScope unit=\"page\" from=\"195\" to=\"206\"></biblScope>\n   <pubPlace>Washington, DC</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Evaluation and Treatment of High Blood Pressure. The sixth report of the Joint National Committee on Prevention, Detection, Evaluation and Treatment of High Blood Pressure (JNC-IV)</title>\n </analytic>\n <monogr>\n  <title level=\"j\">Arch Intern Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">157</biblScope>\n   <biblScope unit=\"page\" from=\"2413\" to=\"46\"></biblScope>\n   <date type=\"published\" when=\"1997\"></date>\n  </imprint>\n </monogr>\n <note>Joint. National Committee on Prevention, Detection</note>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Milchak Pharm.D."
+            },
+            {
+              "name": "Dr. Carter Pharm.D., FCCP, FAHA"
+            },
+            {
+              "name": "Dr. Ardery Ph.D., R.N."
+            },
+            {
+              "name": "Dr. Dawson Sc.D."
+            },
+            {
+              "name": "Mr. Harmston M.A."
+            },
+            {
+              "name": "Dr. Franciscus M.S."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.28.7.843"
+          ],
+          "host": {
+            "pages": {
+              "first": "843",
+              "last": "851"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "28"
+          },
+          "id": "26A6CE010DC3C80B2D54DBDCD9CB7EE700C706D4",
+          "publicationDate": "2008",
+          "title": "Physician Adherence to Blood Pressure Guidelines and Its Effect on Seniors"
+        },
+        "lucn_query": "Evaluation and Treatment of High Blood Pressure. The sixth report of the Joint National Committee on Prevention, Detection, Evaluation and Treatment of High Blood Pressure \\(JNC-IV\\) Arch Intern Med 157 Joint. National Committee on Prevention, Detection 1997 2413 46",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"157\" AND title:\"Evaluation and Treatment of High Blood Pressure. The sixth report of the Joint National Committee on Prevention, Detection, Evaluation and Treatment of High Blood Pressure \\(JNC-IV\\)\" AND host.pages.first:\"2413\" AND host.pages.last:\"46\" AND publicationDate:\"1997\" AND host.title:\"Arch Intern Med\" AND \"Joint. National Committee on Prevention, Detection\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Robert M. Guthrie MD"
+            },
+            {
+              "name": "Richard L. Siegel MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0149-2918(99)80052-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "1732",
+              "last": "1748"
+            },
+            "title": "Clinical Therapeutics",
+            "volume": "21"
+          },
+          "id": "0D7844B24A77AB0B5DCD02B1F0E596F80252F339",
+          "publicationDate": "1997",
+          "title": "A multicenter, community-based study of doxazosin in the treatment of concomitant hypertension and symptomatic benign prostatic hyperplasia: the hypertension and BPH intervention trial (HABIT)"
+        },
+        "lucn_query": "host.volume:\"157\" title:\"Evaluation and Treatment of High Blood Pressure. The sixth report of the Joint National Committee on Prevention, Detection, Evaluation and Treatment of High Blood Pressure \\(JNC-IV\\)\" host.pages.first:\"2413\" host.pages.last:\"46\" publicationDate:\"1997\" host.title:\"Arch Intern Med\" \"Joint. National Committee on Prevention, Detection\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Cheng Pharm.D."
+            },
+            {
+              "name": "Dr. Kalis Ph.D."
+            },
+            {
+              "name": "Mr. Feifer M.S."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.21.9.828.34557"
+          ],
+          "host": {
+            "pages": {
+              "first": "828",
+              "last": "841"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "21"
+          },
+          "id": "6345F5433926A7F95AFAE7A46F63C16B841B5717",
+          "publicationDate": "2001",
+          "title": "Patient\u2010Reported Adherence to Guidelines of the Sixth Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure"
+        },
+        "lucn_query": "host.volume:157 title:(Evaluation Treatment High Blood Pressure sixth report Joint National Committee Prevention Detection Evaluation Treatment High Blood Pressure) host.pages.first:2413 host.pages.last:46 publicationDate:1997 host.title:(Arch Intern Med) Joint National Committee Prevention Detection",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ilan E. Gruenwald"
+            },
+            {
+              "name": "Avi Stein"
+            },
+            {
+              "name": "Roman Rashcovitsky"
+            },
+            {
+              "name": "Galia Shifroni"
+            },
+            {
+              "name": "Aharon Lurie"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-5347(01)65183-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "487",
+              "last": "491"
+            },
+            "title": "The Journal of Urology",
+            "volume": "157"
+          },
+          "id": "4AEF512031FC88025500C14EEDFE9BC218181E3E",
+          "publicationDate": "1997",
+          "title": "A 12 Versus 6-Week Course of Bacillus Calmette-Guerin Prophylaxis for the Treatment of High Risk Superficial Bladder Cancer"
+        },
+        "lucn_query": "(host.volume:157 AND publicationDate:1997) AND (title:(Evaluation Treatment High Blood Pressure sixth report Joint National Committee Prevention Detection Evaluation Treatment High Blood Pressure) host.pages.first:2413 host.pages.last:46 host.title:(Arch Intern Med) Joint National Committee Prevention Detection)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ilan E. Gruenwald"
+            },
+            {
+              "name": "Avi Stein"
+            },
+            {
+              "name": "Roman Rashcovitsky"
+            },
+            {
+              "name": "Galia Shifroni"
+            },
+            {
+              "name": "Aharon Lurie"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-5347(01)65183-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "487",
+              "last": "491"
+            },
+            "title": "The Journal of Urology",
+            "volume": "157"
+          },
+          "id": "4AEF512031FC88025500C14EEDFE9BC218181E3E",
+          "publicationDate": "1997",
+          "title": "A 12 Versus 6-Week Course of Bacillus Calmette-Guerin Prophylaxis for the Treatment of High Risk Superficial Bladder Cancer"
+        },
+        "lucn_query": "(host.volume:157 AND publicationDate:1997) AND (title:(Evaluation Treatment High Blood Pressure sixth report Joint National Committee Prevention Detection Evaluation Treatment High Blood Pressure) host.pages.first:2413 host.pages.last:46 host.title:(Arch* Intern* Med*) Joint National Committee Prevention Detection)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:157 AND title:(Evaluation Treatment High Blood Pressure sixth report Joint National Committee Prevention Detection Evaluation Treatment High Blood Pressure) AND host.pages.first:2413 AND host.pages.last:46 AND publicationDate:1997 AND host.title:(Arch Intern Med) AND Joint AND National AND Committee AND Prevention AND Detection",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:157 AND title:(Evaluation Treatment High Blood Pressure sixth report Joint National Committee Prevention Detection Evaluation Treatment High Blood Pressure) AND host.pages.first:2413 AND host.pages.last:46 AND publicationDate:1997 AND host.title:(Arch* Intern* Med*) AND Joint AND National AND Committee AND Prevention AND Detection",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">New HEDIS means more information about HMOs</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Pl</forename>\n    <surname>Grimaldi</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J Health Care Finance</title>\n  <imprint>\n   <biblScope unit=\"volume\">23</biblScope>\n   <biblScope unit=\"page\" from=\"40\" to=\"50\"></biblScope>\n   <date type=\"published\" when=\"1997\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "DC Green"
+            },
+            {
+              "name": "JP Koplan"
+            },
+            {
+              "name": "GM Cutler"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/intqhc/11.6.465"
+          ],
+          "host": {
+            "pages": {
+              "first": "465",
+              "last": "473"
+            },
+            "title": "International Journal for Quality in Health Care",
+            "volume": "11"
+          },
+          "id": "0D12405D5964A671D3AC82AB483E8ADA53F233FA",
+          "publicationDate": "1999",
+          "title": "Prenatal care in the first trimester: misleading findings from HEDIS"
+        },
+        "lucn_query": "New HEDIS means more information about HMOs Pl Grimaldi J Health Care Finance 23 1997 40 50",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"23\" AND title:\"New HEDIS means more information about HMOs\" AND host.pages.first:\"40\" AND host.pages.last:\"50\" AND publicationDate:\"1997\" AND host.title:\"J Health Care Finance\" AND author.name:\"Grimaldi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Piercesare Grimaldi"
+            },
+            {
+              "name": "Ferdinando Rossi"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1460-9568.2006.04803.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "2657",
+              "last": "2668"
+            },
+            "title": "European Journal of Neuroscience",
+            "volume": "23"
+          },
+          "id": "A36A01E7F5B968DFA2B6D9C310F613F8B09D3A39",
+          "publicationDate": "2006",
+          "title": "Lack of neurogenesis in the adult rat cerebellum after Purkinje cell degeneration and growth factor infusion"
+        },
+        "lucn_query": "host.volume:\"23\" title:\"New HEDIS means more information about HMOs\" host.pages.first:\"40\" host.pages.last:\"50\" publicationDate:\"1997\" host.title:\"J Health Care Finance\" author.name:\"Grimaldi\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Piercesare Grimaldi"
+            },
+            {
+              "name": "Ferdinando Rossi"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1460-9568.2006.04803.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "2657",
+              "last": "2668"
+            },
+            "title": "European Journal of Neuroscience",
+            "volume": "23"
+          },
+          "id": "A36A01E7F5B968DFA2B6D9C310F613F8B09D3A39",
+          "publicationDate": "2006",
+          "title": "Lack of neurogenesis in the adult rat cerebellum after Purkinje cell degeneration and growth factor infusion"
+        },
+        "lucn_query": "host.volume:23 title:(HEDIS means more information about HMOs) host.pages.first:40 host.pages.last:50 publicationDate:1997 host.title:(J Health Care Finance) author.name:Grimaldi",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H Cleave"
+            },
+            {
+              "name": "A Charlton"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2214.1997.tb00907.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "399",
+              "last": "413"
+            },
+            "title": "Child: Care, Health and Development",
+            "volume": "23"
+          },
+          "id": "78FD3FD6FCE7894F428D54E3106B9A1AE2AA89E8",
+          "publicationDate": "1997",
+          "title": "Evaluation of a cancer\u2010based coping and caring course used in three different settings"
+        },
+        "lucn_query": "(host.volume:23 AND publicationDate:1997) AND (title:(HEDIS means more information about HMOs) host.pages.first:40 host.pages.last:50 host.title:(J Health Care Finance) author.name:Grimaldi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Gerd Geerling MD"
+            },
+            {
+              "name": "Carsten Meyer MD"
+            },
+            {
+              "name": "Horst Laqua MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0886-3350(97)80108-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1311",
+              "last": "1316"
+            },
+            "title": "Journal of Cataract & Refractive Surgery",
+            "volume": "23"
+          },
+          "id": "ABEB92A608936FE6F2FB2419A4214E571DD560AC",
+          "publicationDate": "1997",
+          "title": "Patient expectations and recollection of information about photorefractive keratectomy"
+        },
+        "lucn_query": "(host.volume:23 AND publicationDate:1997) AND (title:(HEDIS means more information about HMOs) host.pages.first:40 host.pages.last:50 host.title:(journal Health* Care* Finance*) author.name:Grimaldi)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:23 AND title:(HEDIS means more information about HMOs) AND host.pages.first:40 AND host.pages.last:50 AND publicationDate:1997 AND host.title:(J Health Care Finance) AND author.name:Grimaldi",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:23 AND title:(HEDIS means more information about HMOs) AND host.pages.first:40 AND host.pages.last:50 AND publicationDate:1997 AND host.title:(journal Health* Care* Finance*) AND author.name:Grimaldi",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Management of essential hypertension</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Bl</forename>\n    <surname>Carter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Bertch</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Dunsworth</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Fagan</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Pharmacotherapy Self- Assessment Program</title>\n  <meeting><address><addrLine>Kansas City</addrLine></address></meeting>\n  <imprint>\n   <publisher>American College of Clinical Pharmacy In press</publisher>\n  </imprint>\n </monogr>\n <note>4th. ed</note>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Romain Pharm.D."
+            },
+            {
+              "name": "Dr. Patel Pharm. D."
+            },
+            {
+              "name": "Dr. Heaberlin Pharm.D."
+            },
+            {
+              "name": "Dr. Zarowitz Pharm.D., FCCP"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.23.8.1060.32879"
+          ],
+          "host": {
+            "pages": {
+              "first": "1060",
+              "last": "1070"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "23"
+          },
+          "id": "08DE0D914A065AE5CB0908AAEE9E1F6FC7E91EBD",
+          "publicationDate": "2003",
+          "title": "Assessment of Factors Influencing Blood Pressure Control in a Managed Care Population"
+        },
+        "lucn_query": "Management of essential hypertension Bl Carter K Bertch T Dunsworth S Fagan Pharmacotherapy Self- Assessment Program Kansas City American College of Clinical Pharmacy In press 4th. ed",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:\"American College of Clinical Pharmacy In press\" AND title:\"Management of essential hypertension\" AND author.name:\"Carter\" AND author.name:\"Bertch\" AND author.name:\"Dunsworth\" AND author.name:\"Fagan\" AND host.title:\"Pharmacotherapy Self- Assessment Program\" AND \"Kansas City\" AND \"4th. ed\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Giuseppe Mancia"
+            },
+            {
+              "name": "Guido Grassi"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/bmb/ldq004"
+          ],
+          "host": {
+            "pages": {
+              "first": "189",
+              "last": "199"
+            },
+            "title": "British Medical Bulletin",
+            "volume": "94"
+          },
+          "id": "7997FD4D3EEEC011FB2B3AD496AAAEF2FF791E21",
+          "publicationDate": "2010",
+          "title": "Management of essential hypertension"
+        },
+        "lucn_query": "host.editor:\"American College of Clinical Pharmacy In press\" title:\"Management of essential hypertension\" author.name:\"Carter\" author.name:\"Bertch\" author.name:\"Dunsworth\" author.name:\"Fagan\" host.title:\"Pharmacotherapy Self- Assessment Program\" \"Kansas City\" \"4th. ed\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Steven Fahrion"
+            },
+            {
+              "name": "Patricia Norris"
+            },
+            {
+              "name": "Alyce Green"
+            },
+            {
+              "name": "Elmer Green"
+            },
+            {
+              "name": "Carol Snarr"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF01000163"
+          ],
+          "host": {
+            "pages": {
+              "first": "257",
+              "last": "277"
+            },
+            "title": "Biofeedback and Self-regulation",
+            "volume": "11"
+          },
+          "id": "083C5B885CB99C4B0063B8BC5090AA8EEED8D35C",
+          "publicationDate": "1987",
+          "title": "Biobehavioral treatment of essential hypertension: A group outcome study"
+        },
+        "lucn_query": "host.editor:(American College Clinical Pharmacy press) title:(Management essential hypertension) author.name:(Carter Bertch Dunsworth Fagan) host.title:(Pharmacotherapy Self Assessment Program) Kansas City",
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(American College Clinical Pharmacy press) AND title:(Management essential hypertension) AND author.name:(Carter Bertch Dunsworth Fagan) AND host.title:(Pharmacotherapy Self Assessment Program) AND Kansas AND City",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(American College Clinical Pharmacy press) AND title:(Management essential hypertension) AND author.name:(Carter Bertch Dunsworth Fagan) AND host.title:(Pharmacotherapy* Self* Assessment* Program*) AND Kansas AND City",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title level=\"a\" type=\"main\">Improving prescribing patterns for the elderly through an online drug utilization review intervention: A system linking the physician, pharmacist, and computer</title>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Monane</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dm</forename>\n    <surname>Matthias</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ba</forename>\n    <surname>Nagle</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ma</forename>\n    <surname>Kelly</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">JAMA</title>\n  <imprint>\n   <biblScope unit=\"volume\">280</biblScope>\n   <biblScope unit=\"page\" from=\"1249\" to=\"52\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jean\u2010Frederic Westphal"
+            },
+            {
+              "name": "Francois Jehl"
+            },
+            {
+              "name": "Herve Javelot"
+            },
+            {
+              "name": "Cathy Nonnenmacher"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pds.2078"
+          ],
+          "host": {
+            "pages": {
+              "first": "162",
+              "last": "168"
+            },
+            "title": "Pharmacoepidemiology and Drug Safety",
+            "volume": "20"
+          },
+          "id": "A9CD1B0248D2A311F331C58C95386FEE49DBCDB4",
+          "publicationDate": "2011",
+          "title": "Enhanced physician adherence to antibiotic use guidelines through increased availability of guidelines at the time of drug ordering in hospital setting"
+        },
+        "lucn_query": "Improving prescribing patterns for the elderly through an online drug utilization review intervention\\: A system linking the physician, pharmacist, and computer M Monane Dm Matthias Ba Nagle Ma Kelly JAMA 280 1998 1249 52",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"280\" AND title:\"Improving prescribing patterns for the elderly through an online drug utilization review intervention\\: A system linking the physician, pharmacist, and computer\" AND host.pages.first:\"1249\" AND host.pages.last:\"52\" AND publicationDate:\"1998\" AND host.title:\"JAMA\" AND author.name:\"Monane\" AND author.name:\"Matthias\" AND author.name:\"Nagle\" AND author.name:\"Kelly\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Stephanie Tristram-Nagle"
+            },
+            {
+              "name": "Horia I. Petrache"
+            },
+            {
+              "name": "John F. Nagle"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0006-3495(98)77580-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "917",
+              "last": "925"
+            },
+            "title": "Biophysical Journal",
+            "volume": "75"
+          },
+          "id": "9C28DB95ABD6963754B27200E4A581660D3CE817",
+          "publicationDate": "1998",
+          "title": "Structure and Interactions of Fully Hydrated Dioleoylphosphatidylcholine Bilayers"
+        },
+        "lucn_query": "host.volume:\"280\" title:\"Improving prescribing patterns for the elderly through an online drug utilization review intervention\\: A system linking the physician, pharmacist, and computer\" host.pages.first:\"1249\" host.pages.last:\"52\" publicationDate:\"1998\" host.title:\"JAMA\" author.name:\"Monane\" author.name:\"Matthias\" author.name:\"Nagle\" author.name:\"Kelly\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ricardo P\u00e9rez-Cuevas"
+            },
+            {
+              "name": "Hector Guiscafr\u00e9"
+            },
+            {
+              "name": "Onofre Mu\u00f1oz"
+            },
+            {
+              "name": "Hortensia Reyes"
+            },
+            {
+              "name": "Patricia Tom\u00e9"
+            },
+            {
+              "name": "Vita Libreros"
+            },
+            {
+              "name": "Gonzalo Guti\u00e9rrez"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0277-9536(95)00398-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1185",
+              "last": "1194"
+            },
+            "title": "Social Science & Medicine",
+            "volume": "42"
+          },
+          "id": "207797B91EAD29F4FF4DF4DF76538224D98CAF9C",
+          "publicationDate": "1996",
+          "title": "Improving physician prescribing patterns to treat rhinopharyngitis. Intervention strategies in two health systems of Mexico"
+        },
+        "lucn_query": "host.volume:280 title:(Improving prescribing patterns elderly through online drug utilization review intervention system linking physician pharmacist computer) host.pages.first:1249 host.pages.last:52 publicationDate:1998 host.title:JAMA author.name:(Monane Matthias Nagle Kelly)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Seung\u2010Jae Noh"
+            },
+            {
+              "name": "Jin\u2010Kwan Han"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1097-010X(19980101)280:1<45::AID-JEZ6>3.0.CO;2-H"
+          ],
+          "host": {
+            "pages": {
+              "first": "45",
+              "last": "56"
+            },
+            "title": "Journal of Experimental Zoology",
+            "volume": "280"
+          },
+          "id": "5701903696E342C71AD3873FEC34DED52870A1BA",
+          "publicationDate": "1998",
+          "title": "Inhibition of the adenylyl cyclase and activation of the phosphatidylinositol pathway in oocytes through expression of serotonin receptors does not induce oocyte maturation"
+        },
+        "lucn_query": "(host.volume:280 AND publicationDate:1998) AND (title:(Improving prescribing patterns elderly through online drug utilization review intervention system linking physician pharmacist computer) host.pages.first:1249 host.pages.last:52 host.title:JAMA author.name:(Monane Matthias Nagle Kelly))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Seung\u2010Jae Noh"
+            },
+            {
+              "name": "Jin\u2010Kwan Han"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/(SICI)1097-010X(19980101)280:1<45::AID-JEZ6>3.0.CO;2-H"
+          ],
+          "host": {
+            "pages": {
+              "first": "45",
+              "last": "56"
+            },
+            "title": "Journal of Experimental Zoology",
+            "volume": "280"
+          },
+          "id": "5701903696E342C71AD3873FEC34DED52870A1BA",
+          "publicationDate": "1998",
+          "title": "Inhibition of the adenylyl cyclase and activation of the phosphatidylinositol pathway in oocytes through expression of serotonin receptors does not induce oocyte maturation"
+        },
+        "lucn_query": "(host.volume:280 AND publicationDate:1998) AND (title:(Improving prescribing patterns elderly through online drug utilization review intervention system linking physician pharmacist computer) host.pages.first:1249 host.pages.last:52 host.title:(journal) author.name:(Monane Matthias Nagle Kelly))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:280 AND title:(Improving prescribing patterns elderly through online drug utilization review intervention system linking physician pharmacist computer) AND host.pages.first:1249 AND host.pages.last:52 AND publicationDate:1998 AND host.title:JAMA AND author.name:(Monane Matthias Nagle Kelly)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:280 AND title:(Improving prescribing patterns elderly through online drug utilization review intervention system linking physician pharmacist computer) AND host.pages.first:1249 AND host.pages.last:52 AND publicationDate:1998 AND host.title:(journal) AND author.name:(Monane Matthias Nagle Kelly)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title level=\"a\" type=\"main\">The effect of clinical pharmacy services on patients with essential hypertension</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Jm</forename>\n    <surname>Mckenney</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jm</forename>\n    <surname>Slining</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Hr</forename>\n    <surname>Henderson</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Devins</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">M</forename>\n    <surname>Barr</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Circulation</title>\n  <imprint>\n   <biblScope unit=\"volume\">48</biblScope>\n   <biblScope unit=\"page\" from=\"1104\" to=\"11\"></biblScope>\n   <date type=\"published\" when=\"1973\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter"
+            },
+            {
+              "name": "J.W. Foppe van Mil"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1038/ajh.2010.136"
+          ],
+          "host": {
+            "pages": {
+              "first": "949",
+              "last": "955"
+            },
+            "title": "American Journal of Hypertension",
+            "volume": "23"
+          },
+          "id": "EA1429FDD11D380EE1E8E54D56BE3FCECE391D98",
+          "publicationDate": "2010",
+          "title": "Comparative Effectiveness Research: Evaluating Pharmacist Interventions and Strategies to Improve Medication Adherence"
+        },
+        "lucn_query": "The effect of clinical pharmacy services on patients with essential hypertension Jm Mckenney Jm Slining Hr Henderson D Devins M Barr Circulation 48 1973 1104 11",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"48\" AND title:\"The effect of clinical pharmacy services on patients with essential hypertension\" AND host.pages.first:\"1104\" AND host.pages.last:\"11\" AND publicationDate:\"1973\" AND host.title:\"Circulation\" AND author.name:\"Mckenney\" AND author.name:\"Slining\" AND author.name:\"Henderson\" AND author.name:\"Devins\" AND author.name:\"Barr\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.F. Henderson"
+            },
+            {
+              "name": "E.B. Barr"
+            },
+            {
+              "name": "Y.S. Cheng"
+            },
+            {
+              "name": "W.C. Griffith"
+            },
+            {
+              "name": "F.F. Hahn"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0272-0590(92)90175-H"
+          ],
+          "host": {
+            "pages": {
+              "first": "367",
+              "last": "374"
+            },
+            "title": "Fundamental and Applied Toxicology",
+            "volume": "19"
+          },
+          "id": "09C3340E8C43E28739C2BC8DA484793672951DCF",
+          "publicationDate": "1992",
+          "title": "The effect of exposure pattern on the accumulation of particles and the response of the lung to inhaled particles"
+        },
+        "lucn_query": "host.volume:\"48\" title:\"The effect of clinical pharmacy services on patients with essential hypertension\" host.pages.first:\"1104\" host.pages.last:\"11\" publicationDate:\"1973\" host.title:\"Circulation\" author.name:\"Mckenney\" author.name:\"Slining\" author.name:\"Henderson\" author.name:\"Devins\" author.name:\"Barr\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Danielle Spicer MSC"
+            },
+            {
+              "name": "Thomas H. Marwick MBBS, PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1046/j.1444-2892.2000.009003098.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "98",
+              "last": "107"
+            },
+            "title": "Heart, Lung and Circulation",
+            "volume": "9"
+          },
+          "id": "80DE6F6D3AA6BD21F40FF68AAA4C0BDCC6B1A1DD",
+          "publicationDate": "2000",
+          "title": "Three-dimensional echocardiography: Research toy or clinical tool?"
+        },
+        "lucn_query": "host.volume:48 title:(effect clinical pharmacy services patients with essential hypertension) host.pages.first:1104 host.pages.last:11 publicationDate:1973 host.title:Circulation author.name:(Mckenney Slining Henderson Devins Barr)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. \u00c5KE NORBERG"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1469-185X.1973.tb01569.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "561",
+              "last": "596"
+            },
+            "title": "Biological Reviews",
+            "volume": "48"
+          },
+          "id": "2C200463416C40BB1378BFB2FD58F7F0B84D4897",
+          "publicationDate": "1973",
+          "title": "AUTOROTATION, SELF\u2010STABILITY, AND STRUCTURE OF SINGLE\u2010WINGED FRUITS AND SEEDS (SAMARAS) WITH COMPARATIVE REMARKS ON ANIMAL FLIGHT"
+        },
+        "lucn_query": "(host.volume:48 AND publicationDate:1973) AND (title:(effect clinical pharmacy services patients with essential hypertension) host.pages.first:1104 host.pages.last:11 host.title:Circulation author.name:(Mckenney Slining Henderson Devins Barr))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. \u00c5KE NORBERG"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1469-185X.1973.tb01569.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "561",
+              "last": "596"
+            },
+            "title": "Biological Reviews",
+            "volume": "48"
+          },
+          "id": "2C200463416C40BB1378BFB2FD58F7F0B84D4897",
+          "publicationDate": "1973",
+          "title": "AUTOROTATION, SELF\u2010STABILITY, AND STRUCTURE OF SINGLE\u2010WINGED FRUITS AND SEEDS (SAMARAS) WITH COMPARATIVE REMARKS ON ANIMAL FLIGHT"
+        },
+        "lucn_query": "(host.volume:48 AND publicationDate:1973) AND (title:(effect clinical pharmacy services patients with essential hypertension) host.pages.first:1104 host.pages.last:11 host.title:(Circulation*) author.name:(Mckenney Slining Henderson Devins Barr))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:48 AND title:(effect clinical pharmacy services patients with essential hypertension) AND host.pages.first:1104 AND host.pages.last:11 AND publicationDate:1973 AND host.title:Circulation AND author.name:(Mckenney Slining Henderson Devins Barr)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:48 AND title:(effect clinical pharmacy services patients with essential hypertension) AND host.pages.first:1104 AND host.pages.last:11 AND publicationDate:1973 AND host.title:(Circulation*) AND author.name:(Mckenney Slining Henderson Devins Barr)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title level=\"a\" type=\"main\">Effect of pharmacist drug monitoring and patient education on hypertensive patients</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Jm</forename>\n    <surname>Mckenney</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ed</forename>\n    <surname>Brown</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Necsary</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Hl</forename>\n    <surname>Reavis</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Contemp Pharm Pract</title>\n  <imprint>\n   <biblScope unit=\"volume\">1</biblScope>\n   <biblScope unit=\"page\" from=\"50\" to=\"6\"></biblScope>\n   <date type=\"published\" when=\"1978\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ms. John M.B.A."
+            },
+            {
+              "name": "Dr. Vavra Pharm.D."
+            },
+            {
+              "name": "Dr. Farris Ph.D."
+            },
+            {
+              "name": "Dr. Currie Pharm.D."
+            },
+            {
+              "name": "Dr. Doucette Ph.D."
+            },
+            {
+              "name": "Dr. Button\u2010Neumann Pharm.D."
+            },
+            {
+              "name": "Mr. Osterhaus B.S."
+            },
+            {
+              "name": "Ms. Kumbera B.S."
+            },
+            {
+              "name": "Mr. Halterman B.S."
+            },
+            {
+              "name": "Dr. Bullock Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.26.10.1511"
+          ],
+          "host": {
+            "pages": {
+              "first": "1511",
+              "last": "1517"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "26"
+          },
+          "id": "8FFB6AC2F1FA18C9C5EB91C2F25A212CDCA21954",
+          "publicationDate": "2006",
+          "title": "Workplace\u2010Based Cardiovascular Risk Management by Community Pharmacists: Impact on Blood Pressure, Lipid Levels, and Weight"
+        },
+        "lucn_query": "Effect of pharmacist drug monitoring and patient education on hypertensive patients Jm Mckenney Ed Brown R Necsary Hl Reavis Contemp Pharm Pract 1 1978 50 6",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"1\" AND title:\"Effect of pharmacist drug monitoring and patient education on hypertensive patients\" AND host.pages.first:\"50\" AND host.pages.last:\"6\" AND publicationDate:\"1978\" AND host.title:\"Contemp Pharm Pract\" AND author.name:\"Mckenney\" AND author.name:\"Brown\" AND author.name:\"Necsary\" AND author.name:\"Reavis\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "James M. McKenney PharmD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1046/j.1524-4733.1998.140212.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "212",
+              "last": "215"
+            },
+            "title": "Value in Health",
+            "volume": "1"
+          },
+          "id": "162C62CD2B06299A4FCB8A5F283A92C4CCB79094",
+          "publicationDate": "1998",
+          "title": "Patient Education and Compliance: How to Make It Cost-Effective"
+        },
+        "lucn_query": "host.volume:\"1\" title:\"Effect of pharmacist drug monitoring and patient education on hypertensive patients\" host.pages.first:\"50\" host.pages.last:\"6\" publicationDate:\"1978\" host.title:\"Contemp Pharm Pract\" author.name:\"Mckenney\" author.name:\"Brown\" author.name:\"Necsary\" author.name:\"Reavis\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "James M. McKenney PharmD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1046/j.1524-4733.1998.140212.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "212",
+              "last": "215"
+            },
+            "title": "Value in Health",
+            "volume": "1"
+          },
+          "id": "162C62CD2B06299A4FCB8A5F283A92C4CCB79094",
+          "publicationDate": "1998",
+          "title": "Patient Education and Compliance: How to Make It Cost-Effective"
+        },
+        "lucn_query": "host.volume:1 title:(Effect pharmacist drug monitoring patient education hypertensive patients) host.pages.first:50 host.pages.last:6 publicationDate:1978 host.title:(Contemp Pharm Pract) author.name:(Mckenney Brown Necsary Reavis)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joan R. Bloom Ph.D."
+            },
+            {
+              "name": "Robert D. Ross M.A."
+            },
+            {
+              "name": "Georege Burnell M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0738-3991(78)80002-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "50",
+              "last": "59"
+            },
+            "title": "Patient Counselling and Health Education",
+            "volume": "1"
+          },
+          "id": "84CFA02DD182577D64BFFD29FC9EB5BF527D9F05",
+          "publicationDate": "1978",
+          "title": "The effect of social support on patient adjustment after breast surgery"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1978) AND (title:(Effect pharmacist drug monitoring patient education hypertensive patients) host.pages.first:50 host.pages.last:6 host.title:(Contemp Pharm Pract) author.name:(Mckenney Brown Necsary Reavis))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Joan R. Bloom Ph.D."
+            },
+            {
+              "name": "Robert D. Ross M.A."
+            },
+            {
+              "name": "Georege Burnell M.D."
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0738-3991(78)80002-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "50",
+              "last": "59"
+            },
+            "title": "Patient Counselling and Health Education",
+            "volume": "1"
+          },
+          "id": "84CFA02DD182577D64BFFD29FC9EB5BF527D9F05",
+          "publicationDate": "1978",
+          "title": "The effect of social support on patient adjustment after breast surgery"
+        },
+        "lucn_query": "(host.volume:1 AND publicationDate:1978) AND (title:(Effect pharmacist drug monitoring patient education hypertensive patients) host.pages.first:50 host.pages.last:6 host.title:(Contemp* Pharm* Pract*) author.name:(Mckenney Brown Necsary Reavis))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:1 AND title:(Effect pharmacist drug monitoring patient education hypertensive patients) AND host.pages.first:50 AND host.pages.last:6 AND publicationDate:1978 AND host.title:(Contemp Pharm Pract) AND author.name:(Mckenney Brown Necsary Reavis)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:1 AND title:(Effect pharmacist drug monitoring patient education hypertensive patients) AND host.pages.first:50 AND host.pages.last:6 AND publicationDate:1978 AND host.title:(Contemp* Pharm* Pract*) AND author.name:(Mckenney Brown Necsary Reavis)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title level=\"a\" type=\"main\">Comprehensive pharmaceutical care in the chain setting: drug therapy monitoring and counseling by pharmacists contributed to improved blood pressure control in study patients</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Jj</forename>\n    <surname>Park</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Kelly</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Bl</forename>\n    <surname>Carter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Pp</forename>\n    <surname>Burgess</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J Am Pharm Assoc</title>\n  <imprint>\n   <biblScope unit=\"volume\">36</biblScope>\n   <biblScope unit=\"page\" from=\"443\" to=\"51\"></biblScope>\n   <date type=\"published\" when=\"1996\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "Comprehensive pharmaceutical care in the chain setting\\: drug therapy monitoring and counseling by pharmacists contributed to improved blood pressure control in study patients Jj Park P Kelly Bl Carter Pp Burgess J Am Pharm Assoc 36 1996 443 51",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"36\" AND title:\"Comprehensive pharmaceutical care in the chain setting\\: drug therapy monitoring and counseling by pharmacists contributed to improved blood pressure control in study patients\" AND host.pages.first:\"443\" AND host.pages.last:\"51\" AND publicationDate:\"1996\" AND host.title:\"J Am Pharm Assoc\" AND author.name:\"Park\" AND author.name:\"Kelly\" AND author.name:\"Carter\" AND author.name:\"Burgess\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John Burgess"
+            },
+            {
+              "name": "Iain G. Carter"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0346-251X(96)85377-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "211",
+              "last": "222"
+            },
+            "title": "System",
+            "volume": "24"
+          },
+          "id": "EDA1404CB12C520EEE3B49A1A3B8FB504C95374C",
+          "publicationDate": "1996",
+          "title": "Common codes for mainstream ESL support across the curriculum"
+        },
+        "lucn_query": "host.volume:\"36\" title:\"Comprehensive pharmaceutical care in the chain setting\\: drug therapy monitoring and counseling by pharmacists contributed to improved blood pressure control in study patients\" host.pages.first:\"443\" host.pages.last:\"51\" publicationDate:\"1996\" host.title:\"J Am Pharm Assoc\" author.name:\"Park\" author.name:\"Kelly\" author.name:\"Carter\" author.name:\"Burgess\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.volume:36 title:(Comprehensive pharmaceutical care chain setting drug therapy monitoring counseling pharmacists contributed improved blood pressure control study patients) host.pages.first:443 host.pages.last:51 publicationDate:1996 host.title:(J Am Pharm Assoc) author.name:(Park Kelly Carter Burgess)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Daniel F. Baldwin"
+            },
+            {
+              "name": "Chul B. Park"
+            },
+            {
+              "name": "Nam P. Suh"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/pen.10538"
+          ],
+          "host": {
+            "pages": {
+              "first": "1437",
+              "last": "1445"
+            },
+            "title": "Polymer Engineering & Science",
+            "volume": "36"
+          },
+          "id": "3BB66AB2FCED5E357999446EE81E5F94008FCBCE",
+          "publicationDate": "1996",
+          "title": "A microcellular processing study of poly(ethylene terephthalate) in the amorphous and semicrystalline states. Part I: Microcell nucleation"
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1996) AND (title:(Comprehensive pharmaceutical care chain setting drug therapy monitoring counseling pharmacists contributed improved blood pressure control study patients) host.pages.first:443 host.pages.last:51 host.title:(J Am Pharm Assoc) author.name:(Park Kelly Carter Burgess))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C.G. Bailey"
+            },
+            {
+              "name": "I.W. Burgess"
+            },
+            {
+              "name": "R.J. Plank"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0143-974X(95)00014-M"
+          ],
+          "host": {
+            "pages": {
+              "first": "101",
+              "last": "119"
+            },
+            "title": "Journal of Constructional Steel Research",
+            "volume": "36"
+          },
+          "id": "57F57B87CED5511228955AC9606E8BD706054834",
+          "publicationDate": "1996",
+          "title": "The lateral-torsional buckling of unrestrained steel beams in fire"
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1996) AND (title:(Comprehensive pharmaceutical care chain setting drug therapy monitoring counseling pharmacists contributed improved blood pressure control study patients) host.pages.first:443 host.pages.last:51 host.title:(journal Am* Pharm* Assoc*) author.name:(Park Kelly Carter Burgess))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:36 AND title:(Comprehensive pharmaceutical care chain setting drug therapy monitoring counseling pharmacists contributed improved blood pressure control study patients) AND host.pages.first:443 AND host.pages.last:51 AND publicationDate:1996 AND host.title:(J Am Pharm Assoc) AND author.name:(Park Kelly Carter Burgess)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:36 AND title:(Comprehensive pharmaceutical care chain setting drug therapy monitoring counseling pharmacists contributed improved blood pressure control study patients) AND host.pages.first:443 AND host.pages.last:51 AND publicationDate:1996 AND host.title:(journal Am* Pharm* Assoc*) AND author.name:(Park Kelly Carter Burgess)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title level=\"a\" type=\"main\">Evaluation hypertensive patients after care provided by community pharmacists in a rural setting</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Bl</forename>\n    <surname>Carter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dj</forename>\n    <surname>Barnette</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <surname>Chrischilles</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Gj</forename>\n    <surname>Mazzotti</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Zj</forename>\n    <surname>Asali</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Pharmacotherapy</title>\n  <imprint>\n   <biblScope unit=\"volume\">17</biblScope>\n   <biblScope unit=\"page\" from=\"1274\" to=\"85\"></biblScope>\n   <date type=\"published\" when=\"1997\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "Evaluation hypertensive patients after care provided by community pharmacists in a rural setting Bl Carter Dj Barnette E Chrischilles Gj Mazzotti Zj Asali Pharmacotherapy 17 1997 1274 85",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"17\" AND title:\"Evaluation hypertensive patients after care provided by community pharmacists in a rural setting\" AND host.pages.first:\"1274\" AND host.pages.last:\"85\" AND publicationDate:\"1997\" AND host.title:\"Pharmacotherapy\" AND author.name:\"Carter\" AND author.name:\"Barnette\" AND author.name:\"Chrischilles\" AND author.name:\"Mazzotti\" AND author.name:\"Asali\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "host.volume:\"17\" title:\"Evaluation hypertensive patients after care provided by community pharmacists in a rural setting\" host.pages.first:\"1274\" host.pages.last:\"85\" publicationDate:\"1997\" host.title:\"Pharmacotherapy\" author.name:\"Carter\" author.name:\"Barnette\" author.name:\"Chrischilles\" author.name:\"Mazzotti\" author.name:\"Asali\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "host.volume:17 title:(Evaluation hypertensive patients after care provided community pharmacists rural setting) host.pages.first:1274 host.pages.last:85 publicationDate:1997 host.title:Pharmacotherapy author.name:(Carter Barnette Chrischilles Mazzotti Asali)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1997) AND (title:(Evaluation hypertensive patients after care provided community pharmacists rural setting) host.pages.first:1274 host.pages.last:85 host.title:Pharmacotherapy author.name:(Carter Barnette Chrischilles Mazzotti Asali))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Barry L. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Debra J. Barnette Pharm.D."
+            },
+            {
+              "name": "Elizabeth Chrischilles Ph.D."
+            },
+            {
+              "name": "Gordon J. Mazzotti B.S."
+            },
+            {
+              "name": "Ziad J. Asali M.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03092.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1274",
+              "last": "1285"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "C352C6B4BB3C9A10A3CE6E1FBBA2E9E85D339CDF",
+          "publicationDate": "1997",
+          "title": "Evaluation of Hypertensive Patients after Care Provided by Community Pharmacists in a Rural Setting"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1997) AND (title:(Evaluation hypertensive patients after care provided community pharmacists rural setting) host.pages.first:1274 host.pages.last:85 host.title:(Pharmacotherapy*) author.name:(Carter Barnette Chrischilles Mazzotti Asali))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Evaluation hypertensive patients after care provided community pharmacists rural setting) AND host.pages.first:1274 AND host.pages.last:85 AND publicationDate:1997 AND host.title:Pharmacotherapy AND author.name:(Carter Barnette Chrischilles Mazzotti Asali)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Evaluation hypertensive patients after care provided community pharmacists rural setting) AND host.pages.first:1274 AND host.pages.last:85 AND publicationDate:1997 AND host.title:(Pharmacotherapy*) AND author.name:(Carter Barnette Chrischilles Mazzotti Asali)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title level=\"a\" type=\"main\">The pharmacist as prescriber of drug therapy: the USC pilot project</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Gl</forename>\n    <surname>Stimmel</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Wf</forename>\n    <surname>Mcghan</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Drug Intell Clin Pharm</title>\n  <imprint>\n   <biblScope unit=\"volume\">15</biblScope>\n   <biblScope unit=\"page\" from=\"665\" to=\"72\"></biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "DAMIAN CHILD"
+            },
+            {
+              "name": "CHRISTINE HIRSCH MSc, MRPharmS"
+            },
+            {
+              "name": "MICHAEL BERRY PhD, MRPharmS"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2042-7174.1998.tb00932.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "159",
+              "last": "169"
+            },
+            "title": "International Journal of Pharmacy Practice",
+            "volume": "6"
+          },
+          "id": "81BB3B6DA4D328B4FF5CD3C47E451D0BB96660BA",
+          "publicationDate": "1998",
+          "title": "Health care professionals' views on hospital pharmacist prescribing in the United Kingdom"
+        },
+        "lucn_query": "The pharmacist as prescriber of drug therapy\\: the USC pilot project Gl Stimmel Wf Mcghan Drug Intell Clin Pharm 15 1981 665 72",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"15\" AND title:\"The pharmacist as prescriber of drug therapy\\: the USC pilot project\" AND host.pages.first:\"665\" AND host.pages.last:\"72\" AND publicationDate:\"1981\" AND host.title:\"Drug Intell Clin Pharm\" AND author.name:\"Stimmel\" AND author.name:\"Mcghan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Glen L. Stimmel Pharm.D., FCCP"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1995.tb02910.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "100S",
+              "last": "104S"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "15"
+          },
+          "id": "D153E1C99C4A097329A27B22640A2085018B1D75",
+          "publicationDate": "1995",
+          "title": "How To Counsel Patients About Depression and Its Treatment"
+        },
+        "lucn_query": "host.volume:\"15\" title:\"The pharmacist as prescriber of drug therapy\\: the USC pilot project\" host.pages.first:\"665\" host.pages.last:\"72\" publicationDate:\"1981\" host.title:\"Drug Intell Clin Pharm\" author.name:\"Stimmel\" author.name:\"Mcghan\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Gutierrez Pharm.D."
+            },
+            {
+              "name": "Dr. Stimmel Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.19.10.823.31553"
+          ],
+          "host": {
+            "pages": {
+              "first": "823",
+              "last": "831"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "19"
+          },
+          "id": "48AB01AEA23426308E67F0CD7DE63EA27D57BD85",
+          "publicationDate": "1999",
+          "title": "Management of and Counseling for Psychotropic Drug\u2010Induced Sexual Dysfunction"
+        },
+        "lucn_query": "host.volume:15 title:(pharmacist prescriber drug therapy pilot project) host.pages.first:665 host.pages.last:72 publicationDate:1981 host.title:(Drug Intell Clin Pharm) author.name:(Stimmel Mcghan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Masamba ma Mpolo"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0160-7987(81)90068-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "405",
+              "last": "413"
+            },
+            "title": "Social Science and Medicine. Part B Medical Anthropology",
+            "volume": "15"
+          },
+          "id": "64A99E84A2DEA1887A8BE05BC567B8FC523D79E6",
+          "publicationDate": "1981",
+          "title": "Kindoki as diagnosis and therapy"
+        },
+        "lucn_query": "(host.volume:15 AND publicationDate:1981) AND (title:(pharmacist prescriber drug therapy pilot project) host.pages.first:665 host.pages.last:72 host.title:(Drug Intell Clin Pharm) author.name:(Stimmel Mcghan))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Michael J. Marks"
+            },
+            {
+              "name": "Douglas M. Patinkin"
+            },
+            {
+              "name": "Linda D. Artman"
+            },
+            {
+              "name": "James B. Burch"
+            },
+            {
+              "name": "Allan C. Collins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0091-3057(81)90187-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "271",
+              "last": "279"
+            },
+            "title": "Pharmacology, Biochemistry and Behavior",
+            "volume": "15"
+          },
+          "id": "DA25282E098DC9EFD64020A587C2F13AE5DD2A9B",
+          "publicationDate": "1981",
+          "title": "Genetic influences on cholinergic drug response"
+        },
+        "lucn_query": "(host.volume:15 AND publicationDate:1981) AND (title:(pharmacist prescriber drug therapy pilot project) host.pages.first:665 host.pages.last:72 host.title:(Drug* Intell* Clin* Pharm*) author.name:(Stimmel Mcghan))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:15 AND title:(pharmacist prescriber drug therapy pilot project) AND host.pages.first:665 AND host.pages.last:72 AND publicationDate:1981 AND host.title:(Drug Intell Clin Pharm) AND author.name:(Stimmel Mcghan)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:15 AND title:(pharmacist prescriber drug therapy pilot project) AND host.pages.first:665 AND host.pages.last:72 AND publicationDate:1981 AND host.title:(Drug* Intell* Clin* Pharm*) AND author.name:(Stimmel Mcghan)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title level=\"a\" type=\"main\">A comparison of pharmacists and physicians on the quality of prescribing for ambulatory hypertensive patients</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Wf</forename>\n    <surname>Mcghan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Gl</forename>\n    <surname>Stimmel</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Tg</forename>\n    <surname>Hall</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Tm</forename>\n    <surname>Gilman</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Med Care</title>\n  <imprint>\n   <biblScope unit=\"volume\">21</biblScope>\n   <biblScope unit=\"page\" from=\"435\" to=\"44\"></biblScope>\n   <date type=\"published\" when=\"1983\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "DAMIAN CHILD"
+            },
+            {
+              "name": "CHRISTINE HIRSCH MSc, MRPharmS"
+            },
+            {
+              "name": "MICHAEL BERRY PhD, MRPharmS"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2042-7174.1998.tb00932.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "159",
+              "last": "169"
+            },
+            "title": "International Journal of Pharmacy Practice",
+            "volume": "6"
+          },
+          "id": "81BB3B6DA4D328B4FF5CD3C47E451D0BB96660BA",
+          "publicationDate": "1998",
+          "title": "Health care professionals' views on hospital pharmacist prescribing in the United Kingdom"
+        },
+        "lucn_query": "A comparison of pharmacists and physicians on the quality of prescribing for ambulatory hypertensive patients Wf Mcghan Gl Stimmel Tg Hall Tm Gilman Med Care 21 1983 435 44",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"21\" AND title:\"A comparison of pharmacists and physicians on the quality of prescribing for ambulatory hypertensive patients\" AND host.pages.first:\"435\" AND host.pages.last:\"44\" AND publicationDate:\"1983\" AND host.title:\"Med Care\" AND author.name:\"Mcghan\" AND author.name:\"Stimmel\" AND author.name:\"Hall\" AND author.name:\"Gilman\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Sid Gilman"
+            },
+            {
+              "name": "Harvey C. Ebel"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0006-8993(70)90417-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "367",
+              "last": "384"
+            },
+            "title": "Brain Research",
+            "volume": "21"
+          },
+          "id": "375ABB80C7544907AEBE5B85EF117559507FF8B1",
+          "publicationDate": "1970",
+          "title": "Fusimotor neuron responses to natural stimuli as a function of prestimulus fusimotor activity in decerebellate cats"
+        },
+        "lucn_query": "host.volume:\"21\" title:\"A comparison of pharmacists and physicians on the quality of prescribing for ambulatory hypertensive patients\" host.pages.first:\"435\" host.pages.last:\"44\" publicationDate:\"1983\" host.title:\"Med Care\" author.name:\"Mcghan\" author.name:\"Stimmel\" author.name:\"Hall\" author.name:\"Gilman\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "THOMAS G. McGUIRE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1465-7295.1983.tb00626.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "222"
+            },
+            "title": "Economic Inquiry",
+            "volume": "21"
+          },
+          "id": "8DF9395A84D8A3F59248955EED5AE049BD2E6049",
+          "publicationDate": "1983",
+          "title": "PATIENTS\u2018 TRUST AND THE QUALITY OF PHYSICIANS"
+        },
+        "lucn_query": "host.volume:21 title:(comparison pharmacists physicians quality prescribing ambulatory hypertensive patients) host.pages.first:435 host.pages.last:44 publicationDate:1983 host.title:(Med Care) author.name:(Mcghan Stimmel Hall Gilman)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "THOMAS G. McGUIRE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1465-7295.1983.tb00626.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "222"
+            },
+            "title": "Economic Inquiry",
+            "volume": "21"
+          },
+          "id": "8DF9395A84D8A3F59248955EED5AE049BD2E6049",
+          "publicationDate": "1983",
+          "title": "PATIENTS\u2018 TRUST AND THE QUALITY OF PHYSICIANS"
+        },
+        "lucn_query": "(host.volume:21 AND publicationDate:1983) AND (title:(comparison pharmacists physicians quality prescribing ambulatory hypertensive patients) host.pages.first:435 host.pages.last:44 host.title:(Med Care) author.name:(Mcghan Stimmel Hall Gilman))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "THOMAS G. McGUIRE"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1465-7295.1983.tb00626.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "203",
+              "last": "222"
+            },
+            "title": "Economic Inquiry",
+            "volume": "21"
+          },
+          "id": "8DF9395A84D8A3F59248955EED5AE049BD2E6049",
+          "publicationDate": "1983",
+          "title": "PATIENTS\u2018 TRUST AND THE QUALITY OF PHYSICIANS"
+        },
+        "lucn_query": "(host.volume:21 AND publicationDate:1983) AND (title:(comparison pharmacists physicians quality prescribing ambulatory hypertensive patients) host.pages.first:435 host.pages.last:44 host.title:(Med* Care*) author.name:(Mcghan Stimmel Hall Gilman))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:21 AND title:(comparison pharmacists physicians quality prescribing ambulatory hypertensive patients) AND host.pages.first:435 AND host.pages.last:44 AND publicationDate:1983 AND host.title:(Med Care) AND author.name:(Mcghan Stimmel Hall Gilman)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:21 AND title:(comparison pharmacists physicians quality prescribing ambulatory hypertensive patients) AND host.pages.first:435 AND host.pages.last:44 AND publicationDate:1983 AND host.title:(Med* Care*) AND author.name:(Mcghan Stimmel Hall Gilman)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b11\">\n <analytic>\n  <title level=\"a\" type=\"main\">for the IMPROVE investigators Characteristics of ambulatory care clinics and pharmacists in Veterans Affairs Medical Centers</title>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Alsuwaidan</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dc</forename>\n    <surname>Malone</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Sj</forename>\n    <surname>Billups</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Bl</forename>\n    <surname>Carter</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am J Health-Syst Pharm</title>\n  <imprint>\n   <biblScope unit=\"volume\">55</biblScope>\n   <biblScope unit=\"page\" from=\"68\" to=\"72\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b11",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Ellis Pharm.D."
+            },
+            {
+              "name": "Dr. Billups Pharm.D."
+            },
+            {
+              "name": "Dr. Malone Ph.D."
+            },
+            {
+              "name": "Dr. Carter Pharm.D., FCCP"
+            },
+            {
+              "name": "Dr. Covey Pharm. D.M.H.A."
+            },
+            {
+              "name": "Dr. Mason Pharm.D."
+            },
+            {
+              "name": "Dr. Jue Pharm.D., FASHP"
+            },
+            {
+              "name": "Dr. Carmichael Pharm.D., FCCP"
+            },
+            {
+              "name": "Ms. Guthrie B.S."
+            },
+            {
+              "name": "Mr. Sintek M.S."
+            },
+            {
+              "name": "Dr. Dombrowski Pharm.D."
+            },
+            {
+              "name": "Dr. Geraets Pharm.D., FCCP"
+            },
+            {
+              "name": "Dr. Amato Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.20.5.429.35055"
+          ],
+          "host": {
+            "pages": {
+              "first": "429",
+              "last": "435"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "20"
+          },
+          "id": "5E23B084374F7EEEB76EE9DEDD9066D361235C52",
+          "publicationDate": "2000",
+          "title": "Types of Interventions Made by Clinical Pharmacists in the IMPROVE Study"
+        },
+        "lucn_query": "for the IMPROVE investigators Characteristics of ambulatory care clinics and pharmacists in Veterans Affairs Medical Centers S Alsuwaidan Dc Malone Sj Billups Bl Carter Am J Health-Syst Pharm 55 1998 68 72",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"55\" AND title:\"for the IMPROVE investigators Characteristics of ambulatory care clinics and pharmacists in Veterans Affairs Medical Centers\" AND host.pages.first:\"68\" AND host.pages.last:\"72\" AND publicationDate:\"1998\" AND host.title:\"Am J Health-Syst Pharm\" AND author.name:\"Alsuwaidan\" AND author.name:\"Malone\" AND author.name:\"Billups\" AND author.name:\"Carter\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Billups Pharm.D."
+            },
+            {
+              "name": "Dr. Malone Ph.D."
+            },
+            {
+              "name": "Dr. Carter Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.20.11.941.35266"
+          ],
+          "host": {
+            "pages": {
+              "first": "941",
+              "last": "949"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "20"
+          },
+          "id": "CA64895FA16752E1A029423B4AF52885D1FF82F3",
+          "publicationDate": "2000",
+          "title": "The Relationship between Drug Therapy Noncompliance and Patient Characteristics, Health\u2010Related Quality of Life, and Health Care Costs"
+        },
+        "lucn_query": "host.volume:\"55\" title:\"for the IMPROVE investigators Characteristics of ambulatory care clinics and pharmacists in Veterans Affairs Medical Centers\" host.pages.first:\"68\" host.pages.last:\"72\" publicationDate:\"1998\" host.title:\"Am J Health-Syst Pharm\" author.name:\"Alsuwaidan\" author.name:\"Malone\" author.name:\"Billups\" author.name:\"Carter\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Billups Pharm.D."
+            },
+            {
+              "name": "Dr. Malone Ph.D."
+            },
+            {
+              "name": "Dr. Carter Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.20.11.941.35266"
+          ],
+          "host": {
+            "pages": {
+              "first": "941",
+              "last": "949"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "20"
+          },
+          "id": "CA64895FA16752E1A029423B4AF52885D1FF82F3",
+          "publicationDate": "2000",
+          "title": "The Relationship between Drug Therapy Noncompliance and Patient Characteristics, Health\u2010Related Quality of Life, and Health Care Costs"
+        },
+        "lucn_query": "host.volume:55 title:(IMPROVE investigators Characteristics ambulatory care clinics pharmacists Veterans Affairs Medical Centers) host.pages.first:68 host.pages.last:72 publicationDate:1998 host.title:(Am J Health Syst Pharm) author.name:(Alsuwaidan Malone Billups Carter)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J M Harrington"
+            },
+            {
+              "name": "J T Carter"
+            },
+            {
+              "name": "L Birrell"
+            },
+            {
+              "name": "D Gompertz"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.55.4.264"
+          ],
+          "host": {
+            "pages": {
+              "first": "264"
+            },
+            "title": "Occupational and Environmental Medicine",
+            "volume": "55"
+          },
+          "id": "FF6EBE1F3BB5912C316D2A5D4088D66CFE192355",
+          "publicationDate": "1998",
+          "title": "Surveillance case definitions for work related upper limb pain syndromes."
+        },
+        "lucn_query": "(host.volume:55 AND publicationDate:1998) AND (title:(IMPROVE investigators Characteristics ambulatory care clinics pharmacists Veterans Affairs Medical Centers) host.pages.first:68 host.pages.last:72 host.title:(Am J Health Syst Pharm) author.name:(Alsuwaidan Malone Billups Carter))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R.LUCILLE ROBERTS"
+            },
+            {
+              "name": "JESSIE R. WILLIAMS"
+            },
+            {
+              "name": "ALICIA K. WANG"
+            },
+            {
+              "name": "C.SUE CARTER"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/anbe.1997.0659"
+          ],
+          "host": {
+            "pages": {
+              "first": "1131",
+              "last": "1140"
+            },
+            "title": "Animal Behaviour",
+            "volume": "55"
+          },
+          "id": "E09E9EAF3C5C3D6655D4F780064F16D520CACFA4",
+          "publicationDate": "1998",
+          "title": "Cooperative breeding and monogamy in prairie voles: influence of the sire and geographical variation"
+        },
+        "lucn_query": "(host.volume:55 AND publicationDate:1998) AND (title:(IMPROVE investigators Characteristics ambulatory care clinics pharmacists Veterans Affairs Medical Centers) host.pages.first:68 host.pages.last:72 host.title:(Am* journal Health* Syst* Pharm*) author.name:(Alsuwaidan Malone Billups Carter))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:55 AND title:(IMPROVE investigators Characteristics ambulatory care clinics pharmacists Veterans Affairs Medical Centers) AND host.pages.first:68 AND host.pages.last:72 AND publicationDate:1998 AND host.title:(Am J Health Syst Pharm) AND author.name:(Alsuwaidan Malone Billups Carter)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:55 AND title:(IMPROVE investigators Characteristics ambulatory care clinics pharmacists Veterans Affairs Medical Centers) AND host.pages.first:68 AND host.pages.last:72 AND publicationDate:1998 AND host.title:(Am* journal Health* Syst* Pharm*) AND author.name:(Alsuwaidan Malone Billups Carter)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b12\">\n <analytic>\n  <title level=\"a\" type=\"main\">Role of the clinical pharmacist in improving drug therapy: clinical pharmacists in outpatient therapy</title>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Monson</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ca</forename>\n    <surname>Bond</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Schuna</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Arch Intern Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">141</biblScope>\n   <biblScope unit=\"page\" from=\"1441\" to=\"4\"></biblScope>\n   <date type=\"published\" when=\"1981\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b12",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. A. Bond Pharm.D., FASHP, FCCP"
+            },
+            {
+              "name": "Cynthia L. Raehl Pharm.D., FASHP, FCCP"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.26.10.1369"
+          ],
+          "host": {
+            "pages": {
+              "first": "1369",
+              "last": "1378"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "26"
+          },
+          "id": "34D71B240F92C3AE838BD5AF898B1C5559E4B5FD",
+          "publicationDate": "2006",
+          "title": "Clinical and Economic Outcomes of Pharmacist\u2010Managed Antiepileptic Drug Therapy"
+        },
+        "lucn_query": "Role of the clinical pharmacist in improving drug therapy\\: clinical pharmacists in outpatient therapy R Monson Ca Bond A Schuna Arch Intern Med 141 1981 1441 4",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"141\" AND title:\"Role of the clinical pharmacist in improving drug therapy\\: clinical pharmacists in outpatient therapy\" AND host.pages.first:\"1441\" AND host.pages.last:\"4\" AND publicationDate:\"1981\" AND host.title:\"Arch Intern Med\" AND author.name:\"Monson\" AND author.name:\"Bond\" AND author.name:\"Schuna\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0738-3991(82)80020-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "171"
+            },
+            "title": "Patient Counselling and Health Education",
+            "volume": "3"
+          },
+          "id": "D56649CB38CDF4A5EB9E44F3B578452A04096F4F",
+          "publicationDate": "1982",
+          "title": "Role of the clinical pharmacist in improving drug therapy. Clinical pharmacists in outpatient therapy"
+        },
+        "lucn_query": "host.volume:\"141\" title:\"Role of the clinical pharmacist in improving drug therapy\\: clinical pharmacists in outpatient therapy\" host.pages.first:\"1441\" host.pages.last:\"4\" publicationDate:\"1981\" host.title:\"Arch Intern Med\" author.name:\"Monson\" author.name:\"Bond\" author.name:\"Schuna\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. A. Bond Pharm.D., FASHP, FCCP"
+            },
+            {
+              "name": "Cynthia L. Raehl Pharm.D., FASHP, FCCP"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.26.10.1369"
+          ],
+          "host": {
+            "pages": {
+              "first": "1369",
+              "last": "1378"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "26"
+          },
+          "id": "34D71B240F92C3AE838BD5AF898B1C5559E4B5FD",
+          "publicationDate": "2006",
+          "title": "Clinical and Economic Outcomes of Pharmacist\u2010Managed Antiepileptic Drug Therapy"
+        },
+        "lucn_query": "host.volume:141 title:(Role clinical pharmacist improving drug therapy clinical pharmacists outpatient therapy) host.pages.first:1441 host.pages.last:4 publicationDate:1981 host.title:(Arch Intern Med) author.name:(Monson Bond Schuna)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Allyn G. May MD"
+            },
+            {
+              "name": "Arthur Moss MD"
+            },
+            {
+              "name": "Oscar H. Gutierrez MD"
+            },
+            {
+              "name": "S.Zane Burday MD"
+            },
+            {
+              "name": "Robert G. Campbell MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9610(81)90194-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "346",
+              "last": "352"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "141"
+          },
+          "id": "BBAE409CA3BF4B6D63B90C1AD875BC5E5530F11A",
+          "publicationDate": "1981",
+          "title": "Clinical study of pheochromocytoma"
+        },
+        "lucn_query": "(host.volume:141 AND publicationDate:1981) AND (title:(Role clinical pharmacist improving drug therapy clinical pharmacists outpatient therapy) host.pages.first:1441 host.pages.last:4 host.title:(Arch Intern Med) author.name:(Monson Bond Schuna))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Allyn G. May MD"
+            },
+            {
+              "name": "Arthur Moss MD"
+            },
+            {
+              "name": "Oscar H. Gutierrez MD"
+            },
+            {
+              "name": "S.Zane Burday MD"
+            },
+            {
+              "name": "Robert G. Campbell MD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0002-9610(81)90194-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "346",
+              "last": "352"
+            },
+            "title": "The American Journal of Surgery",
+            "volume": "141"
+          },
+          "id": "BBAE409CA3BF4B6D63B90C1AD875BC5E5530F11A",
+          "publicationDate": "1981",
+          "title": "Clinical study of pheochromocytoma"
+        },
+        "lucn_query": "(host.volume:141 AND publicationDate:1981) AND (title:(Role clinical pharmacist improving drug therapy clinical pharmacists outpatient therapy) host.pages.first:1441 host.pages.last:4 host.title:(Arch* Intern* Med*) author.name:(Monson Bond Schuna))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:141 AND title:(Role clinical pharmacist improving drug therapy clinical pharmacists outpatient therapy) AND host.pages.first:1441 AND host.pages.last:4 AND publicationDate:1981 AND host.title:(Arch Intern Med) AND author.name:(Monson Bond Schuna)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:141 AND title:(Role clinical pharmacist improving drug therapy clinical pharmacists outpatient therapy) AND host.pages.first:1441 AND host.pages.last:4 AND publicationDate:1981 AND host.title:(Arch* Intern* Med*) AND author.name:(Monson Bond Schuna)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b13\">\n <analytic>\n  <title level=\"a\" type=\"main\">Sustained improvement in drug documentation, compliance, and disease control: a four-year analysis of an ambulatory care model</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Ca</forename>\n    <surname>Bond</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Monson</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Arch Intern Med</title>\n  <imprint>\n   <biblScope unit=\"volume\">144</biblScope>\n   <biblScope unit=\"page\" from=\"1159\" to=\"62\"></biblScope>\n   <date type=\"published\" when=\"1984\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b13",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. A. Petrilla"
+            },
+            {
+              "name": "J. S. Benner"
+            },
+            {
+              "name": "D. S. Battleman"
+            },
+            {
+              "name": "J. C. Tierce"
+            },
+            {
+              "name": "E. H. Hazard"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1368-5031.2005.00704.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1441",
+              "last": "1451"
+            },
+            "title": "International Journal of Clinical Practice",
+            "volume": "59"
+          },
+          "id": "8D88E6D2FB410AFE9F0BE4636441C9171BA07FD0",
+          "publicationDate": "2005",
+          "title": "Evidence\u2010based interventions to improve patient compliance with antihypertensive and lipid\u2010lowering medications"
+        },
+        "lucn_query": "Sustained improvement in drug documentation, compliance, and disease control\\: a four-year analysis of an ambulatory care model Ca Bond R Monson Arch Intern Med 144 1984 1159 62",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"144\" AND title:\"Sustained improvement in drug documentation, compliance, and disease control\\: a four-year analysis of an ambulatory care model\" AND host.pages.first:\"1159\" AND host.pages.last:\"62\" AND publicationDate:\"1984\" AND host.title:\"Arch Intern Med\" AND author.name:\"Bond\" AND author.name:\"Monson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John Bond"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1468-3156.1984.tb00184.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "21",
+              "last": "25"
+            },
+            "title": "Journal of the British Institute of Mental Handicap (APEX)",
+            "volume": "12"
+          },
+          "id": "1BCB9477A910AAF9E03858A05CB50B1A8284709A",
+          "publicationDate": "1984",
+          "title": "Our \u201cBlue Rose\u201d\u2014 a parent's experience of tuberous sclerosis"
+        },
+        "lucn_query": "host.volume:\"144\" title:\"Sustained improvement in drug documentation, compliance, and disease control\\: a four-year analysis of an ambulatory care model\" host.pages.first:\"1159\" host.pages.last:\"62\" publicationDate:\"1984\" host.title:\"Arch Intern Med\" author.name:\"Bond\" author.name:\"Monson\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "D.B. McGuigan"
+            },
+            {
+              "name": "P.A. Monson"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0378-3812(90)85124-S"
+          ],
+          "host": {
+            "pages": {
+              "first": "227",
+              "last": "247"
+            },
+            "title": "Fluid Phase Equilibria",
+            "volume": "57"
+          },
+          "id": "4D69EFA6EF7FA898B8211383EA57A11769DA045E",
+          "publicationDate": "1990",
+          "title": "Analysis of infinite dilution partial molar volumes using a distribution function theory"
+        },
+        "lucn_query": "host.volume:144 title:(Sustained improvement drug documentation compliance disease control four year analysis ambulatory care model) host.pages.first:1159 host.pages.last:62 publicationDate:1984 host.title:(Arch Intern Med) author.name:(Bond Monson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. G\u00e9rard"
+            },
+            {
+              "name": "A. Bachy"
+            },
+            {
+              "name": "O. Battisti"
+            },
+            {
+              "name": "J. Senterre"
+            },
+            {
+              "name": "J. Rigo"
+            },
+            {
+              "name": "E. Adam"
+            },
+            {
+              "name": "P. Beauduin"
+            },
+            {
+              "name": "J. Bartholom\u00e9"
+            },
+            {
+              "name": "S. El Bouz"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF00451944"
+          ],
+          "host": {
+            "pages": {
+              "first": "219",
+              "last": "224"
+            },
+            "title": "European Journal of Pediatrics",
+            "volume": "144"
+          },
+          "id": "DE73A494A981B7DC26E6A30DCC8C3B5DEC2EC39F",
+          "publicationDate": "1984",
+          "title": "Mortality in 504 infants weighing less than 1501 g at birth and treated in four neonatal intensive care units of South-Belgium between 1976 and 1980"
+        },
+        "lucn_query": "(host.volume:144 AND publicationDate:1984) AND (title:(Sustained improvement drug documentation compliance disease control four year analysis ambulatory care model) host.pages.first:1159 host.pages.last:62 host.title:(Arch Intern Med) author.name:(Bond Monson))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr Jones"
+            },
+            {
+              "name": "J. Crocker"
+            },
+            {
+              "name": "J. Gregory"
+            },
+            {
+              "name": "Mary Guibarra"
+            },
+            {
+              "name": "R. C. Curran"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/path.1711440208"
+          ],
+          "host": {
+            "pages": {
+              "first": "131",
+              "last": "147"
+            },
+            "title": "The Journal of Pathology",
+            "volume": "144"
+          },
+          "id": "F8098E8C4A6DD6D43EFC2C4FB36170913CB727C5",
+          "publicationDate": "1984",
+          "title": "Angiofollicular lymph node hyperplasia (Castleman's disease): An immunohistochemical and enzyme\u2010histochemical study of the hyaline\u2010vascular form of lesion"
+        },
+        "lucn_query": "(host.volume:144 AND publicationDate:1984) AND (title:(Sustained improvement drug documentation compliance disease control four year analysis ambulatory care model) host.pages.first:1159 host.pages.last:62 host.title:(Arch* Intern* Med*) author.name:(Bond Monson))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:144 AND title:(Sustained improvement drug documentation compliance disease control four year analysis ambulatory care model) AND host.pages.first:1159 AND host.pages.last:62 AND publicationDate:1984 AND host.title:(Arch Intern Med) AND author.name:(Bond Monson)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:144 AND title:(Sustained improvement drug documentation compliance disease control four year analysis ambulatory care model) AND host.pages.first:1159 AND host.pages.last:62 AND publicationDate:1984 AND host.title:(Arch* Intern* Med*) AND author.name:(Bond Monson)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b14\">\n <analytic>\n  <title level=\"a\" type=\"main\">Clinical and economic outcomes in the hypertension and COPD arms of a multicenter outcomes study</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Dk</forename>\n    <surname>Solomon</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ts</forename>\n    <surname>Portner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ge</forename>\n    <surname>Bass</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Dr</forename>\n    <surname>Gourley</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ga</forename>\n    <surname>Gourley</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jm</forename>\n    <surname>Holt</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">J Am Pharm Assoc</title>\n  <imprint>\n   <biblScope unit=\"volume\">38</biblScope>\n   <biblScope unit=\"page\" from=\"574\" to=\"85\"></biblScope>\n   <date type=\"published\" when=\"1998\"></date>\n  </imprint>\n </monogr>\n <note>Part. 2</note>\n</biblStruct>\n\n",
+    "bib_id": "b14",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E. E. Roughead BPharm, PhD"
+            },
+            {
+              "name": "Dr. Semple B.Pharm, PhD"
+            },
+            {
+              "name": "A. I. Vitry PharmD, PhD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1211/0022357055551"
+          ],
+          "host": {
+            "pages": {
+              "first": "53",
+              "last": "70"
+            },
+            "title": "International Journal of Pharmacy Practice",
+            "volume": "13"
+          },
+          "id": "E9DBE9F4FB5B6EDB5A17A85157146B73A42911B4",
+          "publicationDate": "2005",
+          "title": "Pharmaceutical care services: a systematic review of published studies, 1990 to 2003, examining effectiveness in improving patient outcomes"
+        },
+        "lucn_query": "Clinical and economic outcomes in the hypertension and COPD arms of a multicenter outcomes study Dk Solomon Ts Portner Ge Bass Dr Gourley Ga Gourley Jm Holt J Am Pharm Assoc 38 Part. 2 1998 574 85",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"38\" AND title:\"Clinical and economic outcomes in the hypertension and COPD arms of a multicenter outcomes study\" AND host.pages.first:\"574\" AND author.name:\"Solomon\" AND author.name:\"Portner\" AND author.name:\"Bass\" AND author.name:\"Gourley\" AND author.name:\"Gourley\" AND author.name:\"Holt\" AND host.pages.last:\"85\" AND publicationDate:\"1998\" AND host.title:\"J Am Pharm Assoc\" AND \"Part. 2\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "C. Gourley"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0960-9776(98)90072-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "308",
+              "last": "313"
+            },
+            "title": "The Breast",
+            "volume": "7"
+          },
+          "id": "483E42D6D5DC875E921B6379A83721088DDF0559",
+          "publicationDate": "1998",
+          "title": "HLA in breast cancer: its relevance for immunotherapy"
+        },
+        "lucn_query": "host.volume:\"38\" title:\"Clinical and economic outcomes in the hypertension and COPD arms of a multicenter outcomes study\" host.pages.first:\"574\" author.name:\"Solomon\" author.name:\"Portner\" author.name:\"Bass\" author.name:\"Gourley\" author.name:\"Gourley\" author.name:\"Holt\" host.pages.last:\"85\" publicationDate:\"1998\" host.title:\"J Am Pharm Assoc\" \"Part. 2\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J. GOURLEY"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1748-5827.1966.tb04378.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "33",
+              "last": "61"
+            },
+            "title": "Journal of Small Animal Practice",
+            "volume": "7"
+          },
+          "id": "DF9BF5994368EA3D683A3B5C3A8E581872DE9D22",
+          "publicationDate": "1966",
+          "title": "Practice Improvement\u2014VI Office and Paper Work*"
+        },
+        "lucn_query": "host.volume:38 title:(Clinical economic outcomes hypertension COPD arms multicenter outcomes study) host.pages.first:574 host.pages.last:85 Part author.name:(Solomon Portner Bass Gourley Gourley Holt) host.title:(J Am Pharm Assoc) publicationDate:1998",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Darrell J. Fader MDa,b,e"
+            },
+            {
+              "name": "Christopher G. Wise PhD MHAd"
+            },
+            {
+              "name": "Daniel P. Normolle PhDe"
+            },
+            {
+              "name": "Timothy M. Johnson MDa,b,c,e"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0190-9622(98)70203-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "742",
+              "last": "751"
+            },
+            "title": "Journal of the American Academy of Dermatology",
+            "volume": "38"
+          },
+          "id": "4FD6A1A49F3B2F93489EE1C5B94D6DD5732A6B0F",
+          "publicationDate": "1998",
+          "title": "The multidisciplinary melanoma clinic: A cost outcomes analysis of specialty care"
+        },
+        "lucn_query": "(host.volume:38 AND publicationDate:1998) AND (title:(Clinical economic outcomes hypertension COPD arms multicenter outcomes study) host.pages.first:574 host.pages.last:85 Part author.name:(Solomon Portner Bass Gourley Gourley Holt) host.title:(J Am Pharm Assoc))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Darrell J. Fader MDa,b,e"
+            },
+            {
+              "name": "Christopher G. Wise PhD MHAd"
+            },
+            {
+              "name": "Daniel P. Normolle PhDe"
+            },
+            {
+              "name": "Timothy M. Johnson MDa,b,c,e"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0190-9622(98)70203-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "742",
+              "last": "751"
+            },
+            "title": "Journal of the American Academy of Dermatology",
+            "volume": "38"
+          },
+          "id": "4FD6A1A49F3B2F93489EE1C5B94D6DD5732A6B0F",
+          "publicationDate": "1998",
+          "title": "The multidisciplinary melanoma clinic: A cost outcomes analysis of specialty care"
+        },
+        "lucn_query": "(host.volume:38 AND publicationDate:1998) AND (title:(Clinical economic outcomes hypertension COPD arms multicenter outcomes study) host.pages.first:574 host.pages.last:85 Part author.name:(Solomon Portner Bass Gourley Gourley Holt) host.title:(journal Am* Pharm* Assoc*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:38 AND title:(Clinical economic outcomes hypertension COPD arms multicenter outcomes study) AND host.pages.first:574 AND host.pages.last:85 AND Part AND author.name:(Solomon Portner Bass Gourley Gourley Holt) AND host.title:(J Am Pharm Assoc) AND publicationDate:1998",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:38 AND title:(Clinical economic outcomes hypertension COPD arms multicenter outcomes study) AND host.pages.first:574 AND host.pages.last:85 AND Part AND author.name:(Solomon Portner Bass Gourley Gourley Holt) AND host.title:(journal Am* Pharm* Assoc*) AND publicationDate:1998",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b15\">\n <analytic>\n  <title level=\"a\" type=\"main\">Evaluation of a clinical pharmacist in caring for hypertensive and diabetic patients</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Dw</forename>\n    <surname>Hawkins</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Fp</forename>\n    <surname>Fiedler</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Hl</forename>\n    <surname>Douglas</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Rc</forename>\n    <surname>Eschbach</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am J Hosp Pharm</title>\n  <imprint>\n   <biblScope unit=\"volume\">36</biblScope>\n   <biblScope unit=\"page\" from=\"1321\" to=\"5\"></biblScope>\n   <date type=\"published\" when=\"1979\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b15",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Okamoto Pharm.D."
+            },
+            {
+              "name": "Dr. Nakahiro Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.21.17.1337.34424"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1344"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "21"
+          },
+          "id": "DD4A47B0A581A45F0BF2EFE53784FD7BF8D7C320",
+          "publicationDate": "2001",
+          "title": "Pharmacoeconomic Evaluation of a Pharmacist\u2010Managed Hypertension Clinic"
+        },
+        "lucn_query": "Evaluation of a clinical pharmacist in caring for hypertensive and diabetic patients Dw Hawkins Fp Fiedler Hl Douglas Rc Eschbach Am J Hosp Pharm 36 1979 1321 5",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"36\" AND title:\"Evaluation of a clinical pharmacist in caring for hypertensive and diabetic patients\" AND host.pages.first:\"1321\" AND host.pages.last:\"5\" AND publicationDate:\"1979\" AND host.title:\"Am J Hosp Pharm\" AND author.name:\"Hawkins\" AND author.name:\"Fiedler\" AND author.name:\"Douglas\" AND author.name:\"Eschbach\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Douglas M. Hawkins"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0167-9473(94)00017-D"
+          ],
+          "host": {
+            "pages": {
+              "first": "519",
+              "last": "538"
+            },
+            "title": "Computational Statistics and Data Analysis",
+            "volume": "19"
+          },
+          "id": "9023BBB654905CF3340EE87F12F75546266DC9E7",
+          "publicationDate": "1995",
+          "title": "Convergence of the feasible solution algorithm for least median of squares regression"
+        },
+        "lucn_query": "host.volume:\"36\" title:\"Evaluation of a clinical pharmacist in caring for hypertensive and diabetic patients\" host.pages.first:\"1321\" host.pages.last:\"5\" publicationDate:\"1979\" host.title:\"Am J Hosp Pharm\" author.name:\"Hawkins\" author.name:\"Fiedler\" author.name:\"Douglas\" author.name:\"Eschbach\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mugdha Gore PhD"
+            },
+            {
+              "name": "Gergana Zlateva PhD"
+            },
+            {
+              "name": "Kei\u2010Sing Tai MS"
+            },
+            {
+              "name": "Arthi Bala Chandran MPH"
+            },
+            {
+              "name": "Douglas Leslie PhD"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1533-2500.2010.00415.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "167",
+              "last": "179"
+            },
+            "title": "Pain Practice",
+            "volume": "11"
+          },
+          "id": "D067389F793C6416D12F1F8FA9F8C4578DC9BC87",
+          "publicationDate": "2011",
+          "title": "Retrospective Evaluation of Clinical Characteristics, Pharmacotherapy and Healthcare Resource Use among Patients Prescribed Pregabalin or Duloxetine for Diabetic Peripheral Neuropathy in Usual Care"
+        },
+        "lucn_query": "host.volume:36 title:(Evaluation clinical pharmacist caring hypertensive diabetic patients) host.pages.first:1321 host.pages.last:5 publicationDate:1979 host.title:(Am J Hosp Pharm) author.name:(Hawkins Fiedler Douglas Eschbach)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E L Baker Jr"
+            },
+            {
+              "name": "P J Landrigan"
+            },
+            {
+              "name": "A G Barbour"
+            },
+            {
+              "name": "D H Cox"
+            },
+            {
+              "name": "D S Folland"
+            },
+            {
+              "name": "R N Ligo"
+            },
+            {
+              "name": "J Throckmorton"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.36.4.314"
+          ],
+          "host": {
+            "pages": {
+              "first": "314"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "36"
+          },
+          "id": "D05525A421086896B2FAB9168D7E4D96BC72430E",
+          "publicationDate": "1979",
+          "title": "Occupational lead poisoning in the United States: clinical and biochemical findings related to blood lead levels."
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1979) AND (title:(Evaluation clinical pharmacist caring hypertensive diabetic patients) host.pages.first:1321 host.pages.last:5 host.title:(Am J Hosp Pharm) author.name:(Hawkins Fiedler Douglas Eschbach))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "E L Baker Jr"
+            },
+            {
+              "name": "P J Landrigan"
+            },
+            {
+              "name": "A G Barbour"
+            },
+            {
+              "name": "D H Cox"
+            },
+            {
+              "name": "D S Folland"
+            },
+            {
+              "name": "R N Ligo"
+            },
+            {
+              "name": "J Throckmorton"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.36.4.314"
+          ],
+          "host": {
+            "pages": {
+              "first": "314"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "36"
+          },
+          "id": "D05525A421086896B2FAB9168D7E4D96BC72430E",
+          "publicationDate": "1979",
+          "title": "Occupational lead poisoning in the United States: clinical and biochemical findings related to blood lead levels."
+        },
+        "lucn_query": "(host.volume:36 AND publicationDate:1979) AND (title:(Evaluation clinical pharmacist caring hypertensive diabetic patients) host.pages.first:1321 host.pages.last:5 host.title:(Am* journal Hosp* Pharm*) author.name:(Hawkins Fiedler Douglas Eschbach))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:36 AND title:(Evaluation clinical pharmacist caring hypertensive diabetic patients) AND host.pages.first:1321 AND host.pages.last:5 AND publicationDate:1979 AND host.title:(Am J Hosp Pharm) AND author.name:(Hawkins Fiedler Douglas Eschbach)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:36 AND title:(Evaluation clinical pharmacist caring hypertensive diabetic patients) AND host.pages.first:1321 AND host.pages.last:5 AND publicationDate:1979 AND host.title:(Am* journal Hosp* Pharm*) AND author.name:(Hawkins Fiedler Douglas Eschbach)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b16\">\n <analytic>\n  <title level=\"a\" type=\"main\">Effect of pharmacist intervention on control of resistant hypertension</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Gd</forename>\n    <surname>Morse</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jb</forename>\n    <surname>Douglas</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Jh</forename>\n    <surname>Upton</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Rodgers</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <surname>Gal</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am J Hosp Pharm</title>\n  <imprint>\n   <biblScope unit=\"volume\">43</biblScope>\n   <biblScope unit=\"page\" from=\"905\" to=\"9\"></biblScope>\n   <date type=\"published\" when=\"1986\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b16",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. Okamoto Pharm.D."
+            },
+            {
+              "name": "Dr. Nakahiro Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1592/phco.21.17.1337.34424"
+          ],
+          "host": {
+            "pages": {
+              "first": "1337",
+              "last": "1344"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "21"
+          },
+          "id": "DD4A47B0A581A45F0BF2EFE53784FD7BF8D7C320",
+          "publicationDate": "2001",
+          "title": "Pharmacoeconomic Evaluation of a Pharmacist\u2010Managed Hypertension Clinic"
+        },
+        "lucn_query": "Effect of pharmacist intervention on control of resistant hypertension Gd Morse Jb Douglas Jh Upton S Rodgers P Gal Am J Hosp Pharm 43 1986 905 9",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"43\" AND title:\"Effect of pharmacist intervention on control of resistant hypertension\" AND host.pages.first:\"905\" AND host.pages.last:\"9\" AND publicationDate:\"1986\" AND host.title:\"Am J Hosp Pharm\" AND author.name:\"Morse\" AND author.name:\"Douglas\" AND author.name:\"Upton\" AND author.name:\"Rodgers\" AND author.name:\"Gal\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bryan Rodgers"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.2044-835X.1986.tb00993.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "17"
+            },
+            "title": "British Journal of Developmental Psychology",
+            "volume": "4"
+          },
+          "id": "D177894FB1472E32FB1C1C72FC10D06DC2AA8782",
+          "publicationDate": "1986",
+          "title": "Change in the reading attainment of adults: A longitudinal study"
+        },
+        "lucn_query": "host.volume:\"43\" title:\"Effect of pharmacist intervention on control of resistant hypertension\" host.pages.first:\"905\" host.pages.last:\"9\" publicationDate:\"1986\" host.title:\"Am J Hosp Pharm\" author.name:\"Morse\" author.name:\"Douglas\" author.name:\"Upton\" author.name:\"Rodgers\" author.name:\"Gal\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Bernard M. Mechler"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02703201"
+          ],
+          "host": {
+            "pages": {
+              "first": "537",
+              "last": "556"
+            },
+            "title": "J Biosci",
+            "volume": "19"
+          },
+          "id": "7AF88EC8E547846C736021BF26ED71EFABB36991",
+          "publicationDate": "1994",
+          "title": "When the control is lacking\u2014the role of tumour suppressor genes in cancer development"
+        },
+        "lucn_query": "host.volume:43 title:(Effect pharmacist intervention control resistant hypertension) host.pages.first:905 host.pages.last:9 publicationDate:1986 host.title:(Am J Hosp Pharm) author.name:(Morse Douglas Upton Rodgers Gal)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Kathryn Porrello"
+            },
+            {
+              "name": "Douglas Yasumura"
+            },
+            {
+              "name": "Matthew M. LaVail"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0014-4835(86)80077-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "413",
+              "last": "429"
+            },
+            "title": "Experimental Eye Research",
+            "volume": "43"
+          },
+          "id": "7F138D37D9501A7FC2C3A10C8DE184805C4D1430",
+          "publicationDate": "1986",
+          "title": "The interphotoreceptor matrix in RCS rats: Histochemical analysis and correlation with the rate of retinal degeneration"
+        },
+        "lucn_query": "(host.volume:43 AND publicationDate:1986) AND (title:(Effect pharmacist intervention control resistant hypertension) host.pages.first:905 host.pages.last:9 host.title:(Am J Hosp Pharm) author.name:(Morse Douglas Upton Rodgers Gal))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A N Douglas"
+            },
+            {
+              "name": "A Robertson"
+            },
+            {
+              "name": "J S Chapman"
+            },
+            {
+              "name": "V A Ruckley"
+            }
+          ],
+          "corpusName": "bmj",
+          "doi": [
+            "10.1136/oem.43.12.795"
+          ],
+          "host": {
+            "pages": {
+              "first": "795"
+            },
+            "title": "British Journal of Industrial Medicine",
+            "volume": "43"
+          },
+          "id": "7960B7513CDD479270D66A5CB287C86A9395501F",
+          "publicationDate": "1986",
+          "title": "Dust exposure, dust recovered from the lung, and associated pathology in a group of British coalminers."
+        },
+        "lucn_query": "(host.volume:43 AND publicationDate:1986) AND (title:(Effect pharmacist intervention control resistant hypertension) host.pages.first:905 host.pages.last:9 host.title:(Am* journal Hosp* Pharm*) author.name:(Morse Douglas Upton Rodgers Gal))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:43 AND title:(Effect pharmacist intervention control resistant hypertension) AND host.pages.first:905 AND host.pages.last:9 AND publicationDate:1986 AND host.title:(Am J Hosp Pharm) AND author.name:(Morse Douglas Upton Rodgers Gal)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:43 AND title:(Effect pharmacist intervention control resistant hypertension) AND host.pages.first:905 AND host.pages.last:9 AND publicationDate:1986 AND host.title:(Am* journal Hosp* Pharm*) AND author.name:(Morse Douglas Upton Rodgers Gal)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b17\">\n <analytic>\n  <title level=\"a\" type=\"main\">Pharmacists' ability to influence outcomes of hypertension therapy</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Sr</forename>\n    <surname>Erickson</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>Slaughter</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Halapy</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Pharmacotherapy</title>\n  <imprint>\n   <biblScope unit=\"volume\">17</biblScope>\n   <biblScope unit=\"page\" from=\"140\" to=\"7\"></biblScope>\n   <date type=\"published\" when=\"1997\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b17",
+    "findout_errs": [],
+    "parent_doc": "BA20880C738143E6D4C70A35DA20540D6EAADE84",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Steven R. Erickson Pharm.D."
+            },
+            {
+              "name": "Richard Slaughter M.S."
+            },
+            {
+              "name": "Henry Halapy Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03687.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "140",
+              "last": "147"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "67207A76035FFD3C1099014C5501077DCC834728",
+          "publicationDate": "1997",
+          "title": "Pharmacists' Ability to Influence Outcomes of Hypertension Therapy"
+        },
+        "lucn_query": "Pharmacists' ability to influence outcomes of hypertension therapy Sr Erickson R Slaughter H Halapy Pharmacotherapy 17 1997 140 7",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"17\" AND title:\"Pharmacists' ability to influence outcomes of hypertension therapy\" AND host.pages.first:\"140\" AND host.pages.last:\"7\" AND publicationDate:\"1997\" AND host.title:\"Pharmacotherapy\" AND author.name:\"Erickson\" AND author.name:\"Slaughter\" AND author.name:\"Halapy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Steven R. Erickson Pharm.D."
+            },
+            {
+              "name": "Richard Slaughter M.S."
+            },
+            {
+              "name": "Henry Halapy Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03687.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "140",
+              "last": "147"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "67207A76035FFD3C1099014C5501077DCC834728",
+          "publicationDate": "1997",
+          "title": "Pharmacists' Ability to Influence Outcomes of Hypertension Therapy"
+        },
+        "lucn_query": "host.volume:\"17\" title:\"Pharmacists' ability to influence outcomes of hypertension therapy\" host.pages.first:\"140\" host.pages.last:\"7\" publicationDate:\"1997\" host.title:\"Pharmacotherapy\" author.name:\"Erickson\" author.name:\"Slaughter\" author.name:\"Halapy\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Steven R. Erickson Pharm.D."
+            },
+            {
+              "name": "Richard Slaughter M.S."
+            },
+            {
+              "name": "Henry Halapy Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03687.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "140",
+              "last": "147"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "67207A76035FFD3C1099014C5501077DCC834728",
+          "publicationDate": "1997",
+          "title": "Pharmacists' Ability to Influence Outcomes of Hypertension Therapy"
+        },
+        "lucn_query": "host.volume:17 title:(Pharmacists ability influence outcomes hypertension therapy) host.pages.first:140 host.pages.last:7 publicationDate:1997 host.title:Pharmacotherapy author.name:(Erickson Slaughter Halapy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Steven R. Erickson Pharm.D."
+            },
+            {
+              "name": "Richard Slaughter M.S."
+            },
+            {
+              "name": "Henry Halapy Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03687.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "140",
+              "last": "147"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "67207A76035FFD3C1099014C5501077DCC834728",
+          "publicationDate": "1997",
+          "title": "Pharmacists' Ability to Influence Outcomes of Hypertension Therapy"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1997) AND (title:(Pharmacists ability influence outcomes hypertension therapy) host.pages.first:140 host.pages.last:7 host.title:Pharmacotherapy author.name:(Erickson Slaughter Halapy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Steven R. Erickson Pharm.D."
+            },
+            {
+              "name": "Richard Slaughter M.S."
+            },
+            {
+              "name": "Henry Halapy Pharm.D."
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/j.1875-9114.1997.tb03687.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "140",
+              "last": "147"
+            },
+            "title": "Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy",
+            "volume": "17"
+          },
+          "id": "67207A76035FFD3C1099014C5501077DCC834728",
+          "publicationDate": "1997",
+          "title": "Pharmacists' Ability to Influence Outcomes of Hypertension Therapy"
+        },
+        "lucn_query": "(host.volume:17 AND publicationDate:1997) AND (title:(Pharmacists ability influence outcomes hypertension therapy) host.pages.first:140 host.pages.last:7 host.title:(Pharmacotherapy*) author.name:(Erickson Slaughter Halapy))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Pharmacists ability influence outcomes hypertension therapy) AND host.pages.first:140 AND host.pages.last:7 AND publicationDate:1997 AND host.title:Pharmacotherapy AND author.name:(Erickson Slaughter Halapy)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:17 AND title:(Pharmacists ability influence outcomes hypertension therapy) AND host.pages.first:140 AND host.pages.last:7 AND publicationDate:1997 AND host.title:(Pharmacotherapy*) AND author.name:(Erickson Slaughter Halapy)",
+        "match_flag": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+#b5-remarques:
+---------------
+gb:names < title
+
+#b4-remarques:
+---------------
+gb:an <mon
+

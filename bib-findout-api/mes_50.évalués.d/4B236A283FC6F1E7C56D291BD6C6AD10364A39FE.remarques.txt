@@ -1,0 +1,52 @@
+#b40-remarques:
+---------------
+ne passe pas le filtre 1 à cause abbrev journal
+ni le filtre 2 à cause OCR "flow"
+
+#b41-remarques:
+---------------
+test1: pb abbrev test2 pb italique (bientôt corrigé DATA)
+
+#b9-remarques:
+---------------
+méth 2 et 3 on des beaux matchs proches
+
+#b30-remarques:
+---------------
+y: 1919 !?< p 1919 y: 1996
+
+#b2-remarques:
+---------------
+< vol 210...
+j title et vol apparaissent 2 fois à cause mention errata dans le vol 217
+
+#b29-remarques:
+---------------
+même la 0 devrait donner le bon ?
+
+#b31-remarques:
+---------------
+coquille asymmtric chez les auteurs mais surtout titre assez différent (PDF: "Asymmteric segregation of Caulobacter heat shock proteins upon cell division" vs API:"Asymmetric segregation of heat-shock proteins upon cell division in Caulobacter crescentus") toutefois j, vol page concorent
+
+#b7-remarques:
+---------------
+p 81-6929 < vol 81 p 6929
+
+#b11-remarques:
+---------------
+meth2 et 3 match proche
+
+#b22-remarques:
+---------------
+en vrai p 765 auteur pdf met:766
++ titre "pleo"... < en vrai "pleio..."
+
+#b12-remarques:
+---------------
+celui-ci et les précédents: nous n'avons pas J. Bacteriol  chez nous !!
+
+#b36-remarques:
+---------------
+Nature Biotechnology < "Biotechnology" seul 
+(or nous n'avons pas acquis NBT)
+

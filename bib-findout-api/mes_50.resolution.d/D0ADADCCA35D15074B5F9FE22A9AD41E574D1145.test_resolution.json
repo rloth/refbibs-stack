@@ -1,0 +1,209 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">Telecommunication Networks</title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Flood</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1977\"></date>\n   <publisher>Peter Peregrinus Ltd</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title level=\"m\" type=\"main\">Principles of Telecommunication Traffic Engineering</title>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <surname>Bear</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1978\"></date>\n   <publisher>Peter Peregrinus Ltd</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <monogr>\n  <title level=\"m\" type=\"main\">Traffic Flow in Switching Systems</title>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <surname>Hebuterne</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1987\"></date>\n   <publisher>Artech House Inc</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <monogr>\n  <title level=\"m\" type=\"main\">An Introduction to Programming and Problem Solving with Pascal</title>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Scheider</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Weingart</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">O</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Perlman</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1982\"></date>\n   <publisher>Wiley</publisher>\n   <pubPlace>New York</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n </analytic>\n <monogr>\n  <title level=\"j\">TURBO Pascal</title>\n  <imprint></imprint>\n </monogr>\n <note>Reference. Manual Version 3.0</note>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "SUZANNE T. WILLIAMS"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1095-8312.2007.00854.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "573",
+              "last": "592"
+            },
+            "title": "Biological Journal of the Linnean Society",
+            "volume": "92"
+          },
+          "id": "AAF1A28F4F3BCCD156F4AEDFC3D709E5D22EA5E5",
+          "publicationDate": "2007",
+          "title": "Origins and diversification of Indo\u2010West Pacific marine fauna: evolutionary history and biogeography of turban shells (Gastropoda, Turbinidae)"
+        },
+        "lucn_query": "TURBO Pascal Reference. Manual Version 3.0",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.title:\"TURBO Pascal\" AND \"Reference. Manual Version 3.0\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "RADOM\u00cdR SOCHA"
+            },
+            {
+              "name": "ROSTISLAV ZEMEK"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-3032.2006.00535.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "16",
+              "last": "25"
+            },
+            "title": "Physiological Entomology",
+            "volume": "32"
+          },
+          "id": "201BA821CF21DB6423228A49E07B8AA5AB212F96",
+          "publicationDate": "2007",
+          "title": "Temporal pattern of feeding activity in the firebug Pyrrhocoris apterus and its relation to sex, wing dimorphism and physiological state of adults"
+        },
+        "lucn_query": "host.title:\"TURBO Pascal\" \"Reference. Manual Version 3.0\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Jensen"
+            },
+            {
+              "name": "N. Wirth"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/3-540-06950-X_5"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "129"
+            },
+            "title": "PASCAL User Manual and Report",
+            "volume": "18"
+          },
+          "id": "1B0C013289E0B96F5D2D5F1A1D2F0A5DAC23239E",
+          "title": "User manual"
+        },
+        "lucn_query": "host.title:(TURBO Pascal) Reference Manual Version",
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": "Pas de requ\u00eate 5 (champs n\u00e9cessaires absents?)",
+        "lucn_query": null,
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Jensen"
+            },
+            {
+              "name": "N. Wirth"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/3-540-06950-X_5"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "129"
+            },
+            "title": "PASCAL User Manual and Report",
+            "volume": "18"
+          },
+          "id": "1B0C013289E0B96F5D2D5F1A1D2F0A5DAC23239E",
+          "title": "User manual"
+        },
+        "lucn_query": "host.title:(TURBO Pascal) AND Reference AND Manual AND Version",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "K. Jensen"
+            },
+            {
+              "name": "N. Wirth"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/3-540-06950-X_5"
+          ],
+          "host": {
+            "pages": {
+              "first": "3",
+              "last": "129"
+            },
+            "title": "PASCAL User Manual and Report",
+            "volume": "18"
+          },
+          "id": "1B0C013289E0B96F5D2D5F1A1D2F0A5DAC23239E",
+          "title": "User manual"
+        },
+        "lucn_query": "host.title:(TURBO* Pascal*) AND Reference AND Manual AND Version",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">Saudi</forename>\n    <surname>Ptt</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Network</forename>\n    <surname>Cluster Status</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Nov</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1987\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b5",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "D0ADADCCA35D15074B5F9FE22A9AD41E574D1145",
+    "solved_qs": []
+  }
+]

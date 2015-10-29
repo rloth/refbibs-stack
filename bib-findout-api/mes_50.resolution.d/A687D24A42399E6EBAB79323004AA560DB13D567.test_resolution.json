@@ -1,0 +1,1946 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">Self-heating: Evaluating and Controlling the Hazard</title>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Bowes</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1984\"></date>\n   <publisher>HMSO</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Chimie-lng</title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Lindner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <surname>Seibring</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Tech</title>\n  <imprint>\n   <biblScope unit=\"volume\">39</biblScope>\n   <biblScope unit=\"page\">667</biblScope>\n   <date type=\"published\" when=\"1967\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Laurence G. Britton"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/prsb.720100108"
+          ],
+          "host": {
+            "pages": {
+              "first": "27",
+              "last": "44"
+            },
+            "title": "Plant/Operations Progress",
+            "volume": "10"
+          },
+          "id": "7207E302DABECF77D164B03B07DBFD818C82EA8F",
+          "publicationDate": "1991",
+          "title": "Spontaneous fires in insulation"
+        },
+        "lucn_query": "Chimie-lng H Lindner H Seibring Tech 39 667 1967",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"39\" AND title:\"Chimie-lng\" AND host.pages.first:\"667\" AND publicationDate:\"1967\" AND host.title:\"Tech\" AND author.name:\"Lindner\" AND author.name:\"Seibring\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dipl.\u2010Ing. Lindner"
+            },
+            {
+              "name": "Dr.\u2010Ing. Seibring"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cite.330391106"
+          ],
+          "host": {
+            "pages": {
+              "first": "667",
+              "last": "671"
+            },
+            "title": "Chemie Ingenieur Technik",
+            "volume": "39"
+          },
+          "id": "C4FB6C663B5C493C7F8E3C0D8A44AA1828C381F6",
+          "publicationDate": "1967",
+          "title": "Selbstentz\u00fcndung organischer Substanzen an Isoliermaterial"
+        },
+        "lucn_query": "host.volume:\"39\" title:\"Chimie-lng\" host.pages.first:\"667\" publicationDate:\"1967\" host.title:\"Tech\" author.name:\"Lindner\" author.name:\"Seibring\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dipl.\u2010Ing. Lindner"
+            },
+            {
+              "name": "Dr.\u2010Ing. Seibring"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cite.330391106"
+          ],
+          "host": {
+            "pages": {
+              "first": "667",
+              "last": "671"
+            },
+            "title": "Chemie Ingenieur Technik",
+            "volume": "39"
+          },
+          "id": "C4FB6C663B5C493C7F8E3C0D8A44AA1828C381F6",
+          "publicationDate": "1967",
+          "title": "Selbstentz\u00fcndung organischer Substanzen an Isoliermaterial"
+        },
+        "lucn_query": "host.volume:39 title:Chimie host.pages.first:667 publicationDate:1967 host.title:Tech author.name:(Lindner Seibring)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dipl.\u2010Ing. Lindner"
+            },
+            {
+              "name": "Dr.\u2010Ing. Seibring"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cite.330391106"
+          ],
+          "host": {
+            "pages": {
+              "first": "667",
+              "last": "671"
+            },
+            "title": "Chemie Ingenieur Technik",
+            "volume": "39"
+          },
+          "id": "C4FB6C663B5C493C7F8E3C0D8A44AA1828C381F6",
+          "publicationDate": "1967",
+          "title": "Selbstentz\u00fcndung organischer Substanzen an Isoliermaterial"
+        },
+        "lucn_query": "(host.volume:39 AND publicationDate:1967) AND (title:Chimie host.pages.first:667 host.title:Tech author.name:(Lindner Seibring))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dipl.\u2010Ing. Lindner"
+            },
+            {
+              "name": "Dr.\u2010Ing. Seibring"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/cite.330391106"
+          ],
+          "host": {
+            "pages": {
+              "first": "667",
+              "last": "671"
+            },
+            "title": "Chemie Ingenieur Technik",
+            "volume": "39"
+          },
+          "id": "C4FB6C663B5C493C7F8E3C0D8A44AA1828C381F6",
+          "publicationDate": "1967",
+          "title": "Selbstentz\u00fcndung organischer Substanzen an Isoliermaterial"
+        },
+        "lucn_query": "(host.volume:39 AND publicationDate:1967) AND (title:Chimie host.pages.first:667 host.title:(Tech*) author.name:(Lindner Seibring))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:39 AND title:Chimie AND host.pages.first:667 AND publicationDate:1967 AND host.title:Tech AND author.name:(Lindner Seibring)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:39 AND title:Chimie AND host.pages.first:667 AND publicationDate:1967 AND host.title:(Tech*) AND author.name:(Lindner Seibring)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Boddington</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Griffiths</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <surname>Hasegawa</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Combust. Flame</title>\n  <imprint>\n   <biblScope unit=\"volume\">55</biblScope>\n   <biblScope unit=\"page\">297</biblScope>\n   <date type=\"published\" when=\"1984\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "T Boddington J F Griffiths K Hasegawa Combust. Flame 55 297 1984",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"297\" AND host.volume:\"55\" AND publicationDate:\"1984\" AND host.title:\"Combust. Flame\" AND author.name:\"Boddington\" AND author.name:\"Griffiths\" AND author.name:\"Hasegawa\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "host.pages.first:\"297\" host.volume:\"55\" publicationDate:\"1984\" host.title:\"Combust. Flame\" author.name:\"Boddington\" author.name:\"Griffiths\" author.name:\"Hasegawa\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "host.pages.first:297 host.volume:55 publicationDate:1984 host.title:(Combust Flame) author.name:(Boddington Griffiths Hasegawa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "(host.volume:55 AND publicationDate:1984) AND (host.pages.first:297 host.title:(Combust Flame) author.name:(Boddington Griffiths Hasegawa))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "(host.volume:55 AND publicationDate:1984) AND (host.pages.first:297 host.title:(Combust* Flame*) author.name:(Boddington Griffiths Hasegawa))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "host.pages.first:297 AND host.volume:55 AND publicationDate:1984 AND host.title:(Combust Flame) AND author.name:(Boddington Griffiths Hasegawa)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "T. Boddington"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "K. Hasegawa"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(84)90169-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "297",
+              "last": "305"
+            },
+            "title": "Combustion and Flame",
+            "volume": "55"
+          },
+          "id": "79099F0F2B0584EF2573E81EB8EDE3F47E893768",
+          "publicationDate": "1984",
+          "title": "Induction times to thermal ignition in systems with distributed temperatures: An experimental test of theoretical interpretations"
+        },
+        "lucn_query": "host.pages.first:297 AND host.volume:55 AND publicationDate:1984 AND host.title:(Combust* Flame*) AND author.name:(Boddington Griffiths Hasegawa)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Griffiths</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Hasko</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Tong</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Combust. Flame</title>\n  <imprint>\n   <biblScope unit=\"volume\">59</biblScope>\n   <biblScope unit=\"page\">1</biblScope>\n   <date type=\"published\" when=\"1985\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P. Gray"
+            },
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "P.G. Lignola"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(81)90015-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "175",
+              "last": "186"
+            },
+            "title": "Combustion and Flame",
+            "volume": "43"
+          },
+          "id": "C9EF5F0A98A21816AEDB4F5C72DB2EA9AF9B2A2B",
+          "publicationDate": "1981",
+          "title": "Novel, multiple-stage ignitions in the spontaneous combustion of acetaldehyde"
+        },
+        "lucn_query": "J F Griffiths S M Hasko A W Tong Combust. Flame 59 1 1985",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"1\" AND host.volume:\"59\" AND publicationDate:\"1985\" AND host.title:\"Combust. Flame\" AND author.name:\"Griffiths\" AND author.name:\"Hasko\" AND author.name:\"Tong\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "host.pages.first:\"1\" host.volume:\"59\" publicationDate:\"1985\" host.title:\"Combust. Flame\" author.name:\"Griffiths\" author.name:\"Hasko\" author.name:\"Tong\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "host.pages.first:1 host.volume:59 publicationDate:1985 host.title:(Combust Flame) author.name:(Griffiths Hasko Tong)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "(host.volume:59 AND publicationDate:1985) AND (host.pages.first:1 host.title:(Combust Flame) author.name:(Griffiths Hasko Tong))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "(host.volume:59 AND publicationDate:1985) AND (host.pages.first:1 host.title:(Combust* Flame*) author.name:(Griffiths Hasko Tong))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "host.pages.first:1 AND host.volume:59 AND publicationDate:1985 AND host.title:(Combust Flame) AND author.name:(Griffiths Hasko Tong)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "S.M. Hasko"
+            },
+            {
+              "name": "A.W. Tong"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(85)90052-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "9"
+            },
+            "title": "Combustion and Flame",
+            "volume": "59"
+          },
+          "id": "8A532FCA32F2AA9DF9151764878D47E87C7A4287",
+          "publicationDate": "1985",
+          "title": "Thermal ignition in packed particulate solids: Criticality under conditions of variable Biot number"
+        },
+        "lucn_query": "host.pages.first:1 AND host.volume:59 AND publicationDate:1985 AND host.title:(Combust* Flame*) AND author.name:(Griffiths Hasko Tong)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b4\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Griffiths</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <surname>Kordylewski</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Twenty-Fourth Symposium (International) on Combustion</title>\n  <meeting><address><addrLine>Pittsburgh</addrLine></address></meeting>\n  <imprint>\n   <publisher>The Combustion Institute</publisher>\n   <date type=\"published\" when=\"1992\"></date>\n   <biblScope unit=\"page\">1777</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b4",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "P.A. Halford-Maw"
+            },
+            {
+              "name": "D.J. Rose"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(93)90133-N"
+          ],
+          "host": {
+            "pages": {
+              "first": "291",
+              "last": "306"
+            },
+            "title": "Combustion and Flame",
+            "volume": "95"
+          },
+          "id": "98F82FBC3EAAD1A6A05DCDAD8893F72CB8D9C53A",
+          "publicationDate": "1993",
+          "title": "Fundamental features of hydrocarbon autoignition in a rapid compression machine"
+        },
+        "lucn_query": "J F Griffiths W Kordylewski Twenty-Fourth Symposium \\(International\\) on Combustion Pittsburgh The Combustion Institute 1777 1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Griffiths\" AND author.name:\"Kordylewski\" AND host.editor:\"The Combustion Institute\" AND host.pages.first:\"1777\" AND publicationDate:\"1992\" AND host.title:\"Twenty-Fourth Symposium \\(International\\) on Combustion\" AND \"Pittsburgh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "author.name:\"Griffiths\" author.name:\"Kordylewski\" host.editor:\"The Combustion Institute\" host.pages.first:\"1777\" publicationDate:\"1992\" host.title:\"Twenty-Fourth Symposium \\(International\\) on Combustion\" \"Pittsburgh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "host.pages.first:1777 host.editor:(Combustion Institute) Pittsburgh author.name:(Griffiths Kordylewski) host.title:(Twenty Fourth Symposium International on Combustion) publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.pages.first:1777 host.editor:(Combustion Institute) Pittsburgh author.name:(Griffiths Kordylewski) host.title:(Twenty Fourth Symposium International on Combustion))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.pages.first:1777 host.editor:(Combustion Institute) Pittsburgh author.name:(Griffiths Kordylewski) host.title:(Twenty* Fourth* Symposium* International* on* Combustion*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1777 AND host.editor:(Combustion Institute) AND Pittsburgh AND author.name:(Griffiths Kordylewski) AND host.title:(Twenty Fourth Symposium International on Combustion) AND publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1777 AND host.editor:(Combustion Institute) AND Pittsburgh AND author.name:(Griffiths Kordylewski) AND host.title:(Twenty* Fourth* Symposium* International* on* Combustion*) AND publicationDate:1992",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b5\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Gray</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">H</forename>\n    <surname>Merkin</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Griffiths</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Twenty-Fourth Symposium (International) on Combustion</title>\n  <meeting><address><addrLine>Pittsburgh</addrLine></address></meeting>\n  <imprint>\n   <publisher>The Combustion Institute</publisher>\n   <date type=\"published\" when=\"1992\"></date>\n   <biblScope unit=\"page\">1775</biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b5",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Peter M. Walsh"
+            },
+            {
+              "name": "Jianyang Xie"
+            },
+            {
+              "name": "Robert E. Douglas"
+            },
+            {
+              "name": "Joseph J. Battista"
+            },
+            {
+              "name": "Edward A. Zawadzki"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0016-2361(94)90240-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "1074",
+              "last": "1081"
+            },
+            "title": "Fuel",
+            "volume": "73"
+          },
+          "id": "011EAD2440CC43CBF4E69A819D45450786F74DD5",
+          "publicationDate": "1994",
+          "title": "Unburned carbon loss from pulverized coal combustors"
+        },
+        "lucn_query": "B F Gray J H Merkin J F Griffiths Twenty-Fourth Symposium \\(International\\) on Combustion Pittsburgh The Combustion Institute 1775 1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Gray\" AND author.name:\"Merkin\" AND author.name:\"Griffiths\" AND host.editor:\"The Combustion Institute\" AND host.pages.first:\"1775\" AND publicationDate:\"1992\" AND host.title:\"Twenty-Fourth Symposium \\(International\\) on Combustion\" AND \"Pittsburgh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "J.H. Merkin"
+            },
+            {
+              "name": "J.F. Griffiths"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80456-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "1775",
+              "last": "1782"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "23"
+          },
+          "id": "AA1248E4DCF7E7BD96452350CBCA83E787B5A295",
+          "publicationDate": "1991",
+          "title": "The prediction of a practical lower bound for ignition delay times and a method of scaling times-to-ignition in large reactant masses from laboratory data"
+        },
+        "lucn_query": "author.name:\"Gray\" author.name:\"Merkin\" author.name:\"Griffiths\" host.editor:\"The Combustion Institute\" host.pages.first:\"1775\" publicationDate:\"1992\" host.title:\"Twenty-Fourth Symposium \\(International\\) on Combustion\" \"Pittsburgh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "J.H. Merkin"
+            },
+            {
+              "name": "J.F. Griffiths"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80456-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "1775",
+              "last": "1782"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "23"
+          },
+          "id": "AA1248E4DCF7E7BD96452350CBCA83E787B5A295",
+          "publicationDate": "1991",
+          "title": "The prediction of a practical lower bound for ignition delay times and a method of scaling times-to-ignition in large reactant masses from laboratory data"
+        },
+        "lucn_query": "host.pages.first:1775 host.editor:(Combustion Institute) Pittsburgh author.name:(Gray Merkin Griffiths) host.title:(Twenty Fourth Symposium International on Combustion) publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.pages.first:1775 host.editor:(Combustion Institute) Pittsburgh author.name:(Gray Merkin Griffiths) host.title:(Twenty Fourth Symposium International on Combustion))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.F. Griffiths"
+            },
+            {
+              "name": "W. Kordylewski"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0082-0784(06)80208-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "1777",
+              "last": "1784"
+            },
+            "title": "Symposium (International) on Combustion",
+            "volume": "24"
+          },
+          "id": "A9433A8A984B514F84E8B35DEBC420BD686D399F",
+          "publicationDate": "1992",
+          "title": "Combustion hazards associated with the hot stacking of processed materials"
+        },
+        "lucn_query": "(publicationDate:1992) AND (host.pages.first:1775 host.editor:(Combustion Institute) Pittsburgh author.name:(Gray Merkin Griffiths) host.title:(Twenty* Fourth* Symposium* International* on* Combustion*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1775 AND host.editor:(Combustion Institute) AND Pittsburgh AND author.name:(Gray Merkin Griffiths) AND host.title:(Twenty Fourth Symposium International on Combustion) AND publicationDate:1992",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:1775 AND host.editor:(Combustion Institute) AND Pittsburgh AND author.name:(Gray Merkin Griffiths) AND host.title:(Twenty* Fourth* Symposium* International* on* Combustion*) AND publicationDate:1992",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b6\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Gray</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Wake</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">G</forename>\n    <forename type=\"middle\">C</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Combust. Flame</title>\n  <imprint>\n   <biblScope unit=\"volume\">71</biblScope>\n   <biblScope unit=\"page\">101</biblScope>\n   <date type=\"published\" when=\"1988\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b6",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Tsung Leo Jiang"
+            },
+            {
+              "name": "Wei Shin Chen"
+            },
+            {
+              "name": "Ming Jiung Tsai"
+            },
+            {
+              "name": "Huei Huang Chiu"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(95)92244-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "221",
+              "last": "238"
+            },
+            "title": "Combustion and Flame",
+            "volume": "103"
+          },
+          "id": "F9450AC89CB73DBAA27826AB0A4F86A4711A5E3F",
+          "publicationDate": "1995",
+          "title": "A numerical investigation of multiple flame configurations in convective droplet gasification"
+        },
+        "lucn_query": "B F Gray Wake G C Combust. Flame 71 101 1988",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"101\" AND host.volume:\"71\" AND publicationDate:\"1988\" AND host.title:\"Combust. Flame\" AND author.name:\"Gray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Jane Gray"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0031-0182(88)90054-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "1",
+              "last": "214"
+            },
+            "title": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+            "volume": "62"
+          },
+          "id": "A4243F6208A34BC60C5267667474C13459A10DA3",
+          "publicationDate": "1988",
+          "title": "Evolution of the freshwater ecosystem: The fossil record"
+        },
+        "lucn_query": "host.pages.first:\"101\" host.volume:\"71\" publicationDate:\"1988\" host.title:\"Combust. Flame\" author.name:\"Gray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "J.W. Armjtage"
+            },
+            {
+              "name": "P. Gray"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(65)90063-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "173",
+              "last": "184"
+            },
+            "title": "Combustion and Flame",
+            "volume": "9"
+          },
+          "id": "DAC48870D047E539F9432158E16F467E2386E5C8",
+          "publicationDate": "1965",
+          "title": "Flame speeds and flammability limits in the combustion of ammonia: Ternary mixtures with hydrogen, nitric oxide, nitrous oxide or oxygen"
+        },
+        "lucn_query": "host.pages.first:101 host.volume:71 publicationDate:1988 host.title:(Combust Flame) author.name:Gray",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "G.C. Wake"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(88)90109-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "101",
+              "last": "104"
+            },
+            "title": "Combustion and Flame",
+            "volume": "71"
+          },
+          "id": "A23186691EB8BEC2AA33283BB1FEA4E52B93DCD2",
+          "publicationDate": "1988",
+          "title": "On the determination of critical ambient temperatures and critical initial temperatures for thermal ignition"
+        },
+        "lucn_query": "(host.volume:71 AND publicationDate:1988) AND (host.pages.first:101 host.title:(Combust Flame) author.name:Gray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "G.C. Wake"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(88)90109-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "101",
+              "last": "104"
+            },
+            "title": "Combustion and Flame",
+            "volume": "71"
+          },
+          "id": "A23186691EB8BEC2AA33283BB1FEA4E52B93DCD2",
+          "publicationDate": "1988",
+          "title": "On the determination of critical ambient temperatures and critical initial temperatures for thermal ignition"
+        },
+        "lucn_query": "(host.volume:71 AND publicationDate:1988) AND (host.pages.first:101 host.title:(Combust* Flame*) author.name:Gray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "G.C. Wake"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(88)90109-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "101",
+              "last": "104"
+            },
+            "title": "Combustion and Flame",
+            "volume": "71"
+          },
+          "id": "A23186691EB8BEC2AA33283BB1FEA4E52B93DCD2",
+          "publicationDate": "1988",
+          "title": "On the determination of critical ambient temperatures and critical initial temperatures for thermal ignition"
+        },
+        "lucn_query": "host.pages.first:101 AND host.volume:71 AND publicationDate:1988 AND host.title:(Combust Flame) AND author.name:Gray",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B.F. Gray"
+            },
+            {
+              "name": "G.C. Wake"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(88)90109-5"
+          ],
+          "host": {
+            "pages": {
+              "first": "101",
+              "last": "104"
+            },
+            "title": "Combustion and Flame",
+            "volume": "71"
+          },
+          "id": "A23186691EB8BEC2AA33283BB1FEA4E52B93DCD2",
+          "publicationDate": "1988",
+          "title": "On the determination of critical ambient temperatures and critical initial temperatures for thermal ignition"
+        },
+        "lucn_query": "host.pages.first:101 AND host.volume:71 AND publicationDate:1988 AND host.title:(Combust* Flame*) AND author.name:Gray",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b7\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <forename type=\"middle\">F</forename>\n    <surname>Gray</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proc. R</title>\n  <meeting>. R</meeting>\n  <imprint>\n   <date type=\"published\" when=\"1990\"></date>\n   <biblScope unit=\"page\" from=\"449\" to=\"458\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b7",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Brice Marcet"
+            },
+            {
+              "name": "Benot Chevalier"
+            },
+            {
+              "name": "Guillaume Luxardi"
+            },
+            {
+              "name": "Christelle Coraux"
+            },
+            {
+              "name": "Laure-Emmanuelle Zaragosi"
+            },
+            {
+              "name": "Marie Cibois"
+            },
+            {
+              "name": "Karine Robbe-Sermesant"
+            },
+            {
+              "name": "Thomas Jolly"
+            },
+            {
+              "name": "Bruno Cardinaud"
+            },
+            {
+              "name": "Chimne Moreilhon"
+            },
+            {
+              "name": "Lisa Giovannini-Chami"
+            },
+            {
+              "name": "Batrice Nawrocki-Raby"
+            },
+            {
+              "name": "Philippe Birembaut"
+            },
+            {
+              "name": "Rainer Waldmann"
+            },
+            {
+              "name": "Laurent Kodjabachian"
+            },
+            {
+              "name": "Pascal Barbry"
+            }
+          ],
+          "corpusName": "nature",
+          "doi": [
+            "10.1038/ncb2241"
+          ],
+          "host": {
+            "pages": {
+              "first": "693",
+              "last": "699"
+            },
+            "title": "Nature Cell Biology",
+            "volume": "13"
+          },
+          "id": "46AF334BC6BE108C60DA487D67392EC93A4A7EA5",
+          "publicationDate": "2011",
+          "title": "Control of vertebrate multiciliogenesis by miR-449 through direct repression of the Delta/Notch pathway"
+        },
+        "lucn_query": "B F Gray Proc. R . R 1990 449 458",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\". R\" AND host.pages.first:\"449\" AND host.pages.last:\"458\" AND publicationDate:\"1990\" AND host.title:\"Proc. R\" AND author.name:\"Gray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.D. Gray Young"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0019-1035(70)90092-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "449",
+              "last": "458"
+            },
+            "title": "Icarus",
+            "volume": "13"
+          },
+          "id": "3D49BA49DE2952EF06A3C6F22B26983A59B970B5",
+          "publicationDate": "1971",
+          "title": "Effective pressure for line formation in the atmosphere of Venus"
+        },
+        "lucn_query": "host.conference.name:\". R\" host.pages.first:\"449\" host.pages.last:\"458\" publicationDate:\"1990\" host.title:\"Proc. R\" author.name:\"Gray\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "L.D. Gray Young"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0019-1035(70)90092-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "449",
+              "last": "458"
+            },
+            "title": "Icarus",
+            "volume": "13"
+          },
+          "id": "3D49BA49DE2952EF06A3C6F22B26983A59B970B5",
+          "publicationDate": "1971",
+          "title": "Effective pressure for line formation in the atmosphere of Venus"
+        },
+        "lucn_query": "host.pages.first:449 host.pages.last:458 publicationDate:1990 host.title:Proc author.name:Gray",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Nancy A. Neef"
+            },
+            {
+              "name": "Jeffrey Lensbower"
+            },
+            {
+              "name": "Idil Hockersmith"
+            },
+            {
+              "name": "Valerie DePalma"
+            },
+            {
+              "name": "Kevin Gray"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1901/jaba.1990.23-447"
+          ],
+          "host": {
+            "pages": {
+              "first": "447",
+              "last": "458"
+            },
+            "title": "Journal of Applied Behavior Analysis",
+            "volume": "23"
+          },
+          "id": "6EE8A47A7CBD16651F075C87DD72D3B040286287",
+          "publicationDate": "1990",
+          "title": "IN VIVO VERSUS SIMULATION TRAINING: AN INTERACTIONAL ANALYSIS OF RANGE AND TYPE OF TRAINING EXEMPLARS"
+        },
+        "lucn_query": "(publicationDate:1990) AND (host.pages.first:449 host.pages.last:458 host.title:Proc author.name:Gray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "B. Lauriol"
+            },
+            {
+              "name": "J. T. Gray"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ppp.3430010205"
+          ],
+          "host": {
+            "pages": {
+              "first": "129",
+              "last": "144"
+            },
+            "title": "Permafrost and Periglacial Processes",
+            "volume": "1"
+          },
+          "id": "6F57AD173228D3F8A0A6F19C46139ECEABBB1B39",
+          "publicationDate": "1990",
+          "title": "Drainage karstique en milieu de perg\u00e9lisol: le cas de l'\u01d0le d'akpatok, T.N.O. Canada"
+        },
+        "lucn_query": "(publicationDate:1990) AND (host.pages.first:449 host.pages.last:458 host.title:(Proc*) author.name:Gray)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:449 AND host.pages.last:458 AND publicationDate:1990 AND host.title:Proc AND author.name:Gray",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:449 AND host.pages.last:458 AND publicationDate:1990 AND host.title:(Proc*) AND author.name:Gray",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b8\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Mcintosh</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute</title>\n  <meeting>the Joint Meeting of the British and German Sections of the Combustion Institute<address><addrLine>Cambridge</addrLine></address></meeting>\n  <imprint>\n   <date type=\"published\" when=\"1993\"></date>\n   <biblScope unit=\"page\" from=\"327\" to=\"330\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b8",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.C. McIntosh"
+            },
+            {
+              "name": "M. Bains"
+            },
+            {
+              "name": "W. Crocombe"
+            },
+            {
+              "name": "J.F. Griffiths"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(94)90047-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "541",
+              "last": "550"
+            },
+            "title": "Combustion and Flame",
+            "volume": "99"
+          },
+          "id": "A687D24A42399E6EBAB79323004AA560DB13D567",
+          "publicationDate": "1994",
+          "title": "Autoignition of combustible fluids in porous insulation materials"
+        },
+        "lucn_query": "A C Mcintosh Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute the Joint Meeting of the British and German Sections of the Combustion Institute Cambridge 1993 327 330",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:\"the Joint Meeting of the British and German Sections of the Combustion Institute\" AND host.pages.first:\"327\" AND author.name:\"Mcintosh\" AND host.pages.last:\"330\" AND publicationDate:\"1993\" AND host.title:\"Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute\" AND \"Cambridge\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.R. McIntosh"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0893-6080(00)00059-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "861",
+              "last": "870"
+            },
+            "title": "Neural Networks",
+            "volume": "13"
+          },
+          "id": "6B0E8468A6D4D037DBE984EF0A423A274E2BA4F5",
+          "publicationDate": "2000",
+          "title": "Towards a network theory of cognition"
+        },
+        "lucn_query": "host.conference.name:\"the Joint Meeting of the British and German Sections of the Combustion Institute\" host.pages.first:\"327\" author.name:\"Mcintosh\" host.pages.last:\"330\" publicationDate:\"1993\" host.title:\"Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute\" \"Cambridge\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Janet McIntosh"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1467-9655.2004.00181.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "91",
+              "last": "112"
+            },
+            "title": "Journal of the Royal Anthropological Institute",
+            "volume": "10"
+          },
+          "id": "6976B41393260162EFC6D50E3DE1C4E3252A8CB6",
+          "publicationDate": "2004",
+          "title": "Reluctant Muslims: embodied hegemony and moral resistance in a Giriama spirit possession complex"
+        },
+        "lucn_query": "host.conference.name:(Joint Meeting British German Sections Combustion Institute) host.pages.first:327 host.pages.last:330 Cambridge author.name:Mcintosh host.title:(Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute) publicationDate:1993",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xuan Thinh Duong"
+            },
+            {
+              "name": "Alan McIntosh"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02921599"
+          ],
+          "host": {
+            "pages": {
+              "first": "181",
+              "last": "205"
+            },
+            "title": "The Journal of Geometric Analysis",
+            "volume": "6"
+          },
+          "id": "3E3F26BDF4AB5A10A1A2B63369F191E75081C994",
+          "publicationDate": "1993",
+          "title": "Functional calculi of second-order elliptic partial differential operators with bounded measurable coefficients"
+        },
+        "lucn_query": "(publicationDate:1993) AND (host.conference.name:(Joint Meeting British German Sections Combustion Institute) host.pages.first:327 host.pages.last:330 Cambridge author.name:Mcintosh host.title:(Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Xuan Thinh Duong"
+            },
+            {
+              "name": "Alan McIntosh"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02921599"
+          ],
+          "host": {
+            "pages": {
+              "first": "181",
+              "last": "205"
+            },
+            "title": "The Journal of Geometric Analysis",
+            "volume": "6"
+          },
+          "id": "3E3F26BDF4AB5A10A1A2B63369F191E75081C994",
+          "publicationDate": "1993",
+          "title": "Functional calculi of second-order elliptic partial differential operators with bounded measurable coefficients"
+        },
+        "lucn_query": "(publicationDate:1993) AND (host.conference.name:(Joint Meeting British German Sections Combustion Institute) host.pages.first:327 host.pages.last:330 Cambridge author.name:Mcintosh host.title:(Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Joint Meeting British German Sections Combustion Institute) AND host.pages.first:327 AND host.pages.last:330 AND Cambridge AND author.name:Mcintosh AND host.title:(Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute) AND publicationDate:1993",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.conference.name:(Joint Meeting British German Sections Combustion Institute) AND host.pages.first:327 AND host.pages.last:330 AND Cambridge AND author.name:Mcintosh AND host.title:(Proceedings of the Joint Meeting of the British and German Sections of the Combustion Institute) AND publicationDate:1993",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b9\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Mcintosh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Ima</forename>\n    <forename type=\"middle\">J</forename>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Math</title>\n  <imprint>\n   <biblScope unit=\"volume\">51</biblScope>\n   <biblScope unit=\"issue\">3</biblScope>\n   <biblScope unit=\"page\" from=\"217\" to=\"238\"></biblScope>\n   <date type=\"published\" when=\"1993\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b9",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "James J. Liu"
+            },
+            {
+              "name": "David Casley"
+            },
+            {
+              "name": "Johann Wojta"
+            },
+            {
+              "name": "Marisa Gallicchio"
+            },
+            {
+              "name": "Ray Dauer"
+            },
+            {
+              "name": "Colin I. Johnston"
+            },
+            {
+              "name": "Brian F. Buxton"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1440-1681.1994.tb02435.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "49",
+              "last": "57"
+            },
+            "title": "Clinical and Experimental Pharmacology and Physiology",
+            "volume": "21"
+          },
+          "id": "A78E7BA7AFB952D40CC2680816574A38D8E53873",
+          "publicationDate": "1994",
+          "title": "EFFECTS OF CALCIUM\u2010 AND ETa\u2010RECEPTOR ANTAGONISTS ON ENDOTHELIN\u2010INDUCED VASOCONSTRICTION AND LEVELS OF ENDOTHELIN IN THE HUMAN INTERNAL MAMMARY ARTERY"
+        },
+        "lucn_query": "A C Mcintosh Ima J Math 51 3 1993 217 238",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"51\" AND host.pages.first:\"217\" AND host.pages.last:\"238\" AND host.issue:\"3\" AND publicationDate:\"1993\" AND host.title:\"Math\" AND author.name:\"Mcintosh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. C. MCINTOSH"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/imamat/51.3.217"
+          ],
+          "host": {
+            "pages": {
+              "first": "217",
+              "last": "237"
+            },
+            "title": "IMA Journal of Applied Mathematics",
+            "volume": "51"
+          },
+          "id": "87174D6BE442086EEA42B066E2CDD0CC3F993092",
+          "publicationDate": "1993",
+          "title": "A Semenov approach to the modelling of thermal runaway of damp combustible material"
+        },
+        "lucn_query": "host.volume:\"51\" host.pages.first:\"217\" host.pages.last:\"238\" host.issue:\"3\" publicationDate:\"1993\" host.title:\"Math\" author.name:\"Mcintosh\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. C. MCINTOSH"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/imamat/51.3.217"
+          ],
+          "host": {
+            "pages": {
+              "first": "217",
+              "last": "237"
+            },
+            "title": "IMA Journal of Applied Mathematics",
+            "volume": "51"
+          },
+          "id": "87174D6BE442086EEA42B066E2CDD0CC3F993092",
+          "publicationDate": "1993",
+          "title": "A Semenov approach to the modelling of thermal runaway of damp combustible material"
+        },
+        "lucn_query": "host.volume:51 host.pages.first:217 host.pages.last:238 host.issue:3 publicationDate:1993 host.title:Math author.name:Mcintosh",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. C. MCINTOSH"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/imamat/51.3.217"
+          ],
+          "host": {
+            "pages": {
+              "first": "217",
+              "last": "237"
+            },
+            "title": "IMA Journal of Applied Mathematics",
+            "volume": "51"
+          },
+          "id": "87174D6BE442086EEA42B066E2CDD0CC3F993092",
+          "publicationDate": "1993",
+          "title": "A Semenov approach to the modelling of thermal runaway of damp combustible material"
+        },
+        "lucn_query": "(host.volume:51 AND publicationDate:1993) AND (host.pages.first:217 host.pages.last:238 host.issue:3 host.title:Math author.name:Mcintosh)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. C. MCINTOSH"
+            }
+          ],
+          "corpusName": "oup",
+          "doi": [
+            "10.1093/imamat/51.3.217"
+          ],
+          "host": {
+            "pages": {
+              "first": "217",
+              "last": "237"
+            },
+            "title": "IMA Journal of Applied Mathematics",
+            "volume": "51"
+          },
+          "id": "87174D6BE442086EEA42B066E2CDD0CC3F993092",
+          "publicationDate": "1993",
+          "title": "A Semenov approach to the modelling of thermal runaway of damp combustible material"
+        },
+        "lucn_query": "(host.volume:51 AND publicationDate:1993) AND (host.pages.first:217 host.pages.last:238 host.issue:3 host.title:(Math*) author.name:Mcintosh)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:51 AND host.pages.first:217 AND host.pages.last:238 AND host.issue:3 AND publicationDate:1993 AND host.title:Math AND author.name:Mcintosh",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:51 AND host.pages.first:217 AND host.pages.last:238 AND host.issue:3 AND publicationDate:1993 AND host.title:(Math*) AND author.name:Mcintosh",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b10\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">C</forename>\n    <surname>Mcintosh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Tolputt</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Combust. Sci. Technol</title>\n  <imprint>\n   <biblScope unit=\"volume\">69</biblScope>\n   <biblScope unit=\"page\" from=\"133\" to=\"145\"></biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b10",
+    "findout_errs": [],
+    "parent_doc": "A687D24A42399E6EBAB79323004AA560DB13D567",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A.C. McIntosh"
+            },
+            {
+              "name": "M. Bains"
+            },
+            {
+              "name": "W. Crocombe"
+            },
+            {
+              "name": "J.F. Griffiths"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0010-2180(94)90047-7"
+          ],
+          "host": {
+            "pages": {
+              "first": "541",
+              "last": "550"
+            },
+            "title": "Combustion and Flame",
+            "volume": "99"
+          },
+          "id": "A687D24A42399E6EBAB79323004AA560DB13D567",
+          "publicationDate": "1994",
+          "title": "Autoignition of combustible fluids in porous insulation materials"
+        },
+        "lucn_query": "A C Mcintosh T A Tolputt Combust. Sci. Technol 69 1990 133 145",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"69\" AND host.pages.first:\"133\" AND host.pages.last:\"145\" AND publicationDate:\"1990\" AND host.title:\"Combust. Sci. Technol\" AND author.name:\"Mcintosh\" AND author.name:\"Tolputt\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "JAMES McINTOSH"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2214.1992.tb00348.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "133",
+              "last": "150"
+            },
+            "title": "Child: Care, Health and Development",
+            "volume": "18"
+          },
+          "id": "1E7ACEED753EC0297D9110CCBEB1A4FAE04E1879",
+          "publicationDate": "1992",
+          "title": "The perception and use of child health clinics in a sample of working class families"
+        },
+        "lucn_query": "host.volume:\"69\" host.pages.first:\"133\" host.pages.last:\"145\" publicationDate:\"1990\" host.title:\"Combust. Sci. Technol\" author.name:\"Mcintosh\" author.name:\"Tolputt\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "JAMES McINTOSH"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2214.1992.tb00348.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "133",
+              "last": "150"
+            },
+            "title": "Child: Care, Health and Development",
+            "volume": "18"
+          },
+          "id": "1E7ACEED753EC0297D9110CCBEB1A4FAE04E1879",
+          "publicationDate": "1992",
+          "title": "The perception and use of child health clinics in a sample of working class families"
+        },
+        "lucn_query": "host.volume:69 host.pages.first:133 host.pages.last:145 publicationDate:1990 host.title:(Combust Sci Technol) author.name:(Mcintosh Tolputt)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Mirella Manaresi"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02567916"
+          ],
+          "host": {
+            "pages": {
+              "first": "133",
+              "last": "151"
+            },
+            "title": "manuscripta mathematica",
+            "volume": "69"
+          },
+          "id": "988A5EE4EC1A39A33B9E64C203B7E5E97387A84E",
+          "publicationDate": "1990",
+          "title": "On the jumping conics of a semistable rank two vector bundle on P2"
+        },
+        "lucn_query": "(host.volume:69 AND publicationDate:1990) AND (host.pages.first:133 host.pages.last:145 host.title:(Combust Sci Technol) author.name:(Mcintosh Tolputt))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "R. Pinton"
+            },
+            {
+              "name": "Z. Varanini"
+            },
+            {
+              "name": "A. Maggioni"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0168-9452(90)90112-2"
+          ],
+          "host": {
+            "pages": {
+              "first": "139",
+              "last": "145"
+            },
+            "title": "Plant Science",
+            "volume": "69"
+          },
+          "id": "04B98FD03CF609C45F9729341A0788F5375C9632",
+          "publicationDate": "1990",
+          "title": "Proton-translocating ATPase activity in plasma membrane vesicles from roots of grapevine seedlings"
+        },
+        "lucn_query": "(host.volume:69 AND publicationDate:1990) AND (host.pages.first:133 host.pages.last:145 host.title:(Combust* Sci* Technol*) author.name:(Mcintosh Tolputt))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:69 AND host.pages.first:133 AND host.pages.last:145 AND publicationDate:1990 AND host.title:(Combust Sci Technol) AND author.name:(Mcintosh Tolputt)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:69 AND host.pages.first:133 AND host.pages.last:145 AND publicationDate:1990 AND host.title:(Combust* Sci* Technol*) AND author.name:(Mcintosh Tolputt)",
+        "match_flag": false
+      }
+    ]
+  }
+]

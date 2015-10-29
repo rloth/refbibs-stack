@@ -48,7 +48,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"731\" AND host.pages.first:\"725\" AND host.title:\"Journal of Applied Psychology\" AND publicationDate:\"1991\" AND title:\"Preemployment predictors of union attitudes\\: The role of family socialization and work beliefs\" AND author.name:\"Barling\" AND author.name:\"Kelloway\" AND author.name:\"Bremermann\" AND host.volume:\"76\"",
+        "lucn_query": "host.volume:\"76\" AND title:\"Preemployment predictors of union attitudes\\: The role of family socialization and work beliefs\" AND host.pages.first:\"725\" AND host.pages.last:\"731\" AND publicationDate:\"1991\" AND host.title:\"Journal of Applied Psychology\" AND author.name:\"Barling\" AND author.name:\"Kelloway\" AND author.name:\"Bremermann\"",
         "match_flag": false
       },
       {
@@ -77,7 +77,7 @@
           "publicationDate": "1991",
           "title": "Job characteristics, role stress and mental health"
         },
-        "lucn_query": "host.pages.last:\"731\" host.pages.first:\"725\" host.title:\"Journal of Applied Psychology\" publicationDate:\"1991\" title:\"Preemployment predictors of union attitudes\\: The role of family socialization and work beliefs\" author.name:\"Barling\" author.name:\"Kelloway\" author.name:\"Bremermann\" host.volume:\"76\"",
+        "lucn_query": "host.volume:\"76\" title:\"Preemployment predictors of union attitudes\\: The role of family socialization and work beliefs\" host.pages.first:\"725\" host.pages.last:\"731\" publicationDate:\"1991\" host.title:\"Journal of Applied Psychology\" author.name:\"Barling\" author.name:\"Kelloway\" author.name:\"Bremermann\"",
         "match_flag": false
       },
       {
@@ -106,7 +106,7 @@
           "publicationDate": "1991",
           "title": "Job characteristics, role stress and mental health"
         },
-        "lucn_query": "host.pages.last:731 host.pages.first:725 host.title:(Journal of Applied Psychology) publicationDate:1991 title:(Preemployment predictors union attitudes role family socialization work beliefs) author.name:(Barling Kelloway Bremermann) host.volume:76",
+        "lucn_query": "host.volume:76 title:(Preemployment predictors union attitudes role family socialization work beliefs) host.pages.first:725 host.pages.last:731 publicationDate:1991 host.title:(Journal of Applied Psychology) author.name:(Barling Kelloway Bremermann)",
         "match_flag": false
       },
       {
@@ -135,7 +135,7 @@
           "publicationDate": "1991",
           "title": "Role of cesium in iron phosphates used in isobutyric acid oxidative dehydrogenation"
         },
-        "lucn_query": "(publicationDate:1991 AND host.volume:76) AND (host.pages.last:731 host.pages.first:725 host.title:(Journal of Applied Psychology) title:(Preemployment predictors union attitudes role family socialization work beliefs) author.name:(Barling Kelloway Bremermann))",
+        "lucn_query": "(host.volume:76 AND publicationDate:1991) AND (title:(Preemployment predictors union attitudes role family socialization work beliefs) host.pages.first:725 host.pages.last:731 host.title:(Journal of Applied Psychology) author.name:(Barling Kelloway Bremermann))",
         "match_flag": false
       },
       {
@@ -170,17 +170,17 @@
           "publicationDate": "1991",
           "title": "The stability and in vitro release kinetics of a clofibride emulsion"
         },
-        "lucn_query": "(publicationDate:1991 AND host.volume:76) AND (host.pages.last:731 host.pages.first:725 host.title:(journal of* Applied* Psychology*) title:(Preemployment predictors union attitudes role family socialization work beliefs) author.name:(Barling Kelloway Bremermann))",
+        "lucn_query": "(host.volume:76 AND publicationDate:1991) AND (title:(Preemployment predictors union attitudes role family socialization work beliefs) host.pages.first:725 host.pages.last:731 host.title:(journal of* Applied* Psychology*) author.name:(Barling Kelloway Bremermann))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:731 AND host.pages.first:725 AND host.title:(Journal of Applied Psychology) AND publicationDate:1991 AND title:(Preemployment predictors union attitudes role family socialization work beliefs) AND author.name:(Barling Kelloway Bremermann) AND host.volume:76",
+        "lucn_query": "host.volume:76 AND title:(Preemployment predictors union attitudes role family socialization work beliefs) AND host.pages.first:725 AND host.pages.last:731 AND publicationDate:1991 AND host.title:(Journal of Applied Psychology) AND author.name:(Barling Kelloway Bremermann)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:731 AND host.pages.first:725 AND host.title:(journal of* Applied* Psychology*) AND publicationDate:1991 AND title:(Preemployment predictors union attitudes role family socialization work beliefs) AND author.name:(Barling Kelloway Bremermann) AND host.volume:76",
+        "lucn_query": "host.volume:76 AND title:(Preemployment predictors union attitudes role family socialization work beliefs) AND host.pages.first:725 AND host.pages.last:731 AND publicationDate:1991 AND host.title:(journal of* Applied* Psychology*) AND author.name:(Barling Kelloway Bremermann)",
         "match_flag": false
       }
     ]
@@ -218,7 +218,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "publicationDate:\"1970\" AND host.editor:\"Simon and Schuster\" AND host.title:\"Labor and the American community\" AND \"New York\" AND author.name:\"Bok\" AND author.name:\"Dunlop\"",
+        "lucn_query": "host.editor:\"Simon and Schuster\" AND author.name:\"Bok\" AND author.name:\"Dunlop\" AND publicationDate:\"1970\" AND host.title:\"Labor and the American community\" AND \"New York\"",
         "match_flag": false
       },
       {
@@ -243,7 +243,7 @@
           "id": "3842AC89C10619C88DF50030900D66BB9AD1B358",
           "title": "Kant's arguments in support of the maxim \u201cDo what is right though the world should perish\u201d"
         },
-        "lucn_query": "publicationDate:\"1970\" host.editor:\"Simon and Schuster\" host.title:\"Labor and the American community\" \"New York\" author.name:\"Bok\" author.name:\"Dunlop\"",
+        "lucn_query": "host.editor:\"Simon and Schuster\" author.name:\"Bok\" author.name:\"Dunlop\" publicationDate:\"1970\" host.title:\"Labor and the American community\" \"New York\"",
         "match_flag": false
       },
       {
@@ -269,7 +269,39 @@
           "publicationDate": "2000",
           "title": "Reflections on Mira: Interactive evaluation in information retrieval"
         },
-        "lucn_query": "author.name:(Bok Dunlop) host.editor:(Simon Schuster) host.title:(Labor and the American community) York publicationDate:1970",
+        "lucn_query": "host.editor:(Simon Schuster) York author.name:(Bok Dunlop) host.title:(Labor and the American community) publicationDate:1970",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "G. L. Dunlop"
+            },
+            {
+              "name": "J. D. Reid"
+            },
+            {
+              "name": "D. M. R. Taplin"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02917577"
+          ],
+          "host": {
+            "pages": {
+              "first": "2308",
+              "last": "2310"
+            },
+            "title": "Metallurgical and Materials Transactions B",
+            "volume": "2"
+          },
+          "id": "ED38D8CDE296B696F2F37455986292402F84FA49",
+          "publicationDate": "1970",
+          "title": "Anisotropic ductility of a superplastic aluminum bronze"
+        },
+        "lucn_query": "(publicationDate:1970) AND (host.editor:(Simon Schuster) York author.name:(Bok Dunlop) host.title:(Labor and the American community))",
         "match_flag": false
       },
       {
@@ -313,61 +345,17 @@
           "publicationDate": "1970",
           "title": "Etude comparative des epith\u00e9liomas m\u00e9dullaires du corps thyro\u00efde avec et sans stroma amylo\u00efde"
         },
-        "lucn_query": "(publicationDate:1970) AND (author.name:(Bok Dunlop) host.editor:(Simon Schuster) host.title:(Labor and the American community) York)",
-        "match_flag": false
-      },
-      {
-        "json_answr": {
-          "author": [
-            {
-              "name": "M. Tubiana"
-            },
-            {
-              "name": "C. Parmentier"
-            },
-            {
-              "name": "R. Gerard-Marchant"
-            },
-            {
-              "name": "J. Lacour"
-            },
-            {
-              "name": "G. Milhaud"
-            },
-            {
-              "name": "B. Bok"
-            },
-            {
-              "name": "J. Weiler"
-            }
-          ],
-          "corpusName": "elsevier",
-          "doi": [
-            "10.1016/0014-2964(70)90052-6"
-          ],
-          "host": {
-            "pages": {
-              "first": "39",
-              "last": "40"
-            },
-            "title": "European Journal of Cancer (1965)",
-            "volume": "6"
-          },
-          "id": "8339D8D45061E053154E3A9CB3F1CE2ED9B61A06",
-          "publicationDate": "1970",
-          "title": "Etude comparative des epith\u00e9liomas m\u00e9dullaires du corps thyro\u00efde avec et sans stroma amylo\u00efde"
-        },
-        "lucn_query": "(publicationDate:1970) AND (author.name:(Bok Dunlop) host.editor:(Simon Schuster) host.title:(Labor* and* the* American* community*) York)",
+        "lucn_query": "(publicationDate:1970) AND (host.editor:(Simon Schuster) York author.name:(Bok Dunlop) host.title:(Labor* and* the* American* community*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Bok Dunlop) AND host.editor:(Simon Schuster) AND host.title:(Labor and the American community) AND York AND publicationDate:1970",
+        "lucn_query": "host.editor:(Simon Schuster) AND York AND author.name:(Bok Dunlop) AND host.title:(Labor and the American community) AND publicationDate:1970",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Bok Dunlop) AND host.editor:(Simon Schuster) AND host.title:(Labor* and* the* American* community*) AND York AND publicationDate:1970",
+        "lucn_query": "host.editor:(Simon Schuster) AND York AND author.name:(Bok Dunlop) AND host.title:(Labor* and* the* American* community*) AND publicationDate:1970",
         "match_flag": false
       }
     ]
@@ -412,7 +400,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.title:\"Research in organizational behavior\" AND host.pages.last:\"213\" AND host.pages.first:\"177\" AND author.name:\"Brett\" AND \"Greenwich, CT\" AND publicationDate:\"1980\" AND title:\"Behavioral research on unions and union management systems\" AND host.editor:\"B. M. Staw & L. L. Cummings\" AND host.editor:\"JAI Press\"",
+        "lucn_query": "author.name:\"Brett\" AND host.pages.first:\"177\" AND title:\"Behavioral research on unions and union management systems\" AND host.editor:\"B. M. Staw & L. L. Cummings\" AND host.editor:\"JAI Press\" AND host.pages.last:\"213\" AND publicationDate:\"1980\" AND host.title:\"Research in organizational behavior\" AND \"Greenwich, CT\"",
         "match_flag": false
       },
       {
@@ -441,7 +429,36 @@
           "publicationDate": "2001",
           "title": "5. The unfolding model of voluntary turnover and job embeddedness: Foundations for a comprehensive theory of attachment"
         },
-        "lucn_query": "host.title:\"Research in organizational behavior\" host.pages.last:\"213\" host.pages.first:\"177\" author.name:\"Brett\" \"Greenwich, CT\" publicationDate:\"1980\" title:\"Behavioral research on unions and union management systems\" host.editor:\"B. M. Staw & L. L. Cummings\" host.editor:\"JAI Press\"",
+        "lucn_query": "author.name:\"Brett\" host.pages.first:\"177\" title:\"Behavioral research on unions and union management systems\" host.editor:\"B. M. Staw & L. L. Cummings\" host.editor:\"JAI Press\" host.pages.last:\"213\" publicationDate:\"1980\" host.title:\"Research in organizational behavior\" \"Greenwich, CT\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Catherine H. Tinsley"
+            },
+            {
+              "name": "Jeanne M. Brett"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1006/obhd.2000.2944"
+          ],
+          "host": {
+            "pages": {
+              "first": "360",
+              "last": "381"
+            },
+            "title": "Organizational Behavior and Human Decision Processes",
+            "volume": "85"
+          },
+          "id": "8F65BBCCF4B71590ECADE8DA823341099DB95A22",
+          "publicationDate": "2001",
+          "title": "Managing Workplace Conflict in the United States and Hong Kong"
+        },
+        "lucn_query": "host.editor:(Staw Cummings Press) title:(Behavioral research unions union management systems) host.pages.first:177 host.pages.last:213 Greenwich author.name:Brett host.title:(Research in organizational behavior) publicationDate:1980",
         "match_flag": false
       },
       {
@@ -467,7 +484,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:213 host.editor:(Staw Cummings Press) host.title:(Research in organizational behavior) Greenwich author.name:Brett host.pages.first:177 publicationDate:1980 title:(Behavioral research unions union management systems)",
+        "lucn_query": "(publicationDate:1980) AND (host.editor:(Staw Cummings Press) title:(Behavioral research unions union management systems) host.pages.first:177 host.pages.last:213 Greenwich author.name:Brett host.title:(Research in organizational behavior))",
         "match_flag": false
       },
       {
@@ -493,43 +510,17 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "(publicationDate:1980) AND (host.pages.last:213 host.editor:(Staw Cummings Press) host.title:(Research in organizational behavior) Greenwich author.name:Brett host.pages.first:177 title:(Behavioral research unions union management systems))",
-        "match_flag": false
-      },
-      {
-        "json_answr": {
-          "author": [
-            {
-              "name": "Jeanne M. Brett"
-            }
-          ],
-          "corpusName": "elsevier",
-          "doi": [
-            "10.1016/0090-2616(80)90048-0"
-          ],
-          "host": {
-            "pages": {
-              "first": "47",
-              "last": "59"
-            },
-            "title": "Organizational Dynamics",
-            "volume": "8"
-          },
-          "id": "1005C404466F139FBEDCE79F7DB9A53E984DB121",
-          "publicationDate": "1980",
-          "title": "Why employees want unions"
-        },
-        "lucn_query": "(publicationDate:1980) AND (host.pages.last:213 host.editor:(Staw Cummings Press) host.title:(Research* in* organizational* behavior*) Greenwich author.name:Brett host.pages.first:177 title:(Behavioral research unions union management systems))",
+        "lucn_query": "(publicationDate:1980) AND (host.editor:(Staw Cummings Press) title:(Behavioral research unions union management systems) host.pages.first:177 host.pages.last:213 Greenwich author.name:Brett host.title:(Research* in* organizational* behavior*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:213 AND host.editor:(Staw Cummings Press) AND host.title:(Research in organizational behavior) AND Greenwich AND author.name:Brett AND host.pages.first:177 AND publicationDate:1980 AND title:(Behavioral research unions union management systems)",
+        "lucn_query": "host.editor:(Staw Cummings Press) AND title:(Behavioral research unions union management systems) AND host.pages.first:177 AND host.pages.last:213 AND Greenwich AND author.name:Brett AND host.title:(Research in organizational behavior) AND publicationDate:1980",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:213 AND host.editor:(Staw Cummings Press) AND host.title:(Research* in* organizational* behavior*) AND Greenwich AND author.name:Brett AND host.pages.first:177 AND publicationDate:1980 AND title:(Behavioral research unions union management systems)",
+        "lucn_query": "host.editor:(Staw Cummings Press) AND title:(Behavioral research unions union management systems) AND host.pages.first:177 AND host.pages.last:213 AND Greenwich AND author.name:Brett AND host.title:(Research* in* organizational* behavior*) AND publicationDate:1980",
         "match_flag": false
       }
     ]
@@ -595,7 +586,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:\"59\" AND host.pages.first:\"47\" AND host.title:\"Organizational Dynamics\" AND publicationDate:\"1980\" AND title:\"Why employees want unions\" AND author.name:\"Brett\" AND host.volume:\"8\"",
+        "lucn_query": "host.volume:\"8\" AND title:\"Why employees want unions\" AND host.pages.first:\"47\" AND host.pages.last:\"59\" AND publicationDate:\"1980\" AND host.title:\"Organizational Dynamics\" AND author.name:\"Brett\"",
         "match_flag": true
       },
       {
@@ -621,7 +612,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:\"59\" host.pages.first:\"47\" host.title:\"Organizational Dynamics\" publicationDate:\"1980\" title:\"Why employees want unions\" author.name:\"Brett\" host.volume:\"8\"",
+        "lucn_query": "host.volume:\"8\" title:\"Why employees want unions\" host.pages.first:\"47\" host.pages.last:\"59\" publicationDate:\"1980\" host.title:\"Organizational Dynamics\" author.name:\"Brett\"",
         "match_flag": true
       },
       {
@@ -647,7 +638,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:59 host.pages.first:47 host.title:(Organizational Dynamics) publicationDate:1980 title:(employees want unions) author.name:Brett host.volume:8",
+        "lucn_query": "host.volume:8 title:(employees want unions) host.pages.first:47 host.pages.last:59 publicationDate:1980 host.title:(Organizational Dynamics) author.name:Brett",
         "match_flag": true
       },
       {
@@ -673,7 +664,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "(publicationDate:1980 AND host.volume:8) AND (host.pages.last:59 host.pages.first:47 host.title:(Organizational Dynamics) title:(employees want unions) author.name:Brett)",
+        "lucn_query": "(host.volume:8 AND publicationDate:1980) AND (title:(employees want unions) host.pages.first:47 host.pages.last:59 host.title:(Organizational Dynamics) author.name:Brett)",
         "match_flag": true
       },
       {
@@ -699,7 +690,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "(publicationDate:1980 AND host.volume:8) AND (host.pages.last:59 host.pages.first:47 host.title:(Organizational* Dynamics*) title:(employees want unions) author.name:Brett)",
+        "lucn_query": "(host.volume:8 AND publicationDate:1980) AND (title:(employees want unions) host.pages.first:47 host.pages.last:59 host.title:(Organizational* Dynamics*) author.name:Brett)",
         "match_flag": true
       },
       {
@@ -725,7 +716,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:59 AND host.pages.first:47 AND host.title:(Organizational Dynamics) AND publicationDate:1980 AND title:(employees want unions) AND author.name:Brett AND host.volume:8",
+        "lucn_query": "host.volume:8 AND title:(employees want unions) AND host.pages.first:47 AND host.pages.last:59 AND publicationDate:1980 AND host.title:(Organizational Dynamics) AND author.name:Brett",
         "match_flag": true
       },
       {
@@ -751,7 +742,7 @@
           "publicationDate": "1980",
           "title": "Why employees want unions"
         },
-        "lucn_query": "host.pages.last:59 AND host.pages.first:47 AND host.title:(Organizational* Dynamics*) AND publicationDate:1980 AND title:(employees want unions) AND author.name:Brett AND host.volume:8",
+        "lucn_query": "host.volume:8 AND title:(employees want unions) AND host.pages.first:47 AND host.pages.last:59 AND publicationDate:1980 AND host.title:(Organizational* Dynamics*) AND author.name:Brett",
         "match_flag": true
       }
     ]
@@ -790,7 +781,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"36\" AND host.pages.first:\"19\" AND author.name:\"Bronfenbrenner\" AND author.name:\"Juravich\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\" AND publicationDate:\"1998\" AND title:\"It takes more than house calls\\: Organizing to win with a comprehensive union-building strategy\" AND host.editor:\"K. Bronfenbrenner, S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Bronfenbrenner\" AND author.name:\"Juravich\" AND host.pages.first:\"19\" AND title:\"It takes more than house calls\\: Organizing to win with a comprehensive union-building strategy\" AND host.editor:\"K. Bronfenbrenner, S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\" AND host.pages.last:\"36\" AND publicationDate:\"1998\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -819,7 +810,7 @@
           "publicationDate": "1999",
           "title": "Locked Out but Holding Together in Ravenswood"
         },
-        "lucn_query": "host.pages.last:\"36\" host.pages.first:\"19\" author.name:\"Bronfenbrenner\" author.name:\"Juravich\" host.title:\"Organizing to win\" \"Ithaca, NY\" publicationDate:\"1998\" title:\"It takes more than house calls\\: Organizing to win with a comprehensive union-building strategy\" host.editor:\"K. Bronfenbrenner, S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Bronfenbrenner\" author.name:\"Juravich\" host.pages.first:\"19\" title:\"It takes more than house calls\\: Organizing to win with a comprehensive union-building strategy\" host.editor:\"K. Bronfenbrenner, S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\" host.pages.last:\"36\" publicationDate:\"1998\" host.title:\"Organizing to win\" \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -848,7 +839,7 @@
           "publicationDate": "1999",
           "title": "Locked Out but Holding Together in Ravenswood"
         },
-        "lucn_query": "host.pages.last:36 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:19 publicationDate:1998 title:(takes more than house calls Organizing with comprehensive union building strategy)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(takes more than house calls Organizing with comprehensive union building strategy) host.pages.first:19 host.pages.last:36 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing to win) publicationDate:1998",
         "match_flag": false
       },
       {
@@ -886,49 +877,49 @@
           "publicationDate": "1998",
           "title": "Density, Temperature and Potential Fluctuation Measurements With Multiple Fast Swept Langmuir Probes on W7\u2010AS"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:36 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:19 title:(takes more than house calls Organizing with comprehensive union building strategy))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(takes more than house calls Organizing with comprehensive union building strategy) host.pages.first:19 host.pages.last:36 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing to win))",
         "match_flag": false
       },
       {
         "json_answr": {
           "author": [
             {
-              "name": "Herjan J.T Coelingh Bennink M.D., Ph.D."
+              "name": "P Hagan"
             },
             {
-              "name": "Bart C.J.M Fauser M.D., Ph.D."
+              "name": "P.D Ndhlovu"
             },
             {
-              "name": "Henk J Out M.D., Ph.D."
+              "name": "D.W Dunne"
             }
           ],
           "corpusName": "elsevier",
           "doi": [
-            "10.1016/S0015-0282(97)00423-8"
+            "10.1016/S0169-4758(98)01325-8"
           ],
           "host": {
             "pages": {
-              "first": "19",
-              "last": "25"
+              "first": "407",
+              "last": "412"
             },
-            "title": "Fertility and Sterility",
-            "volume": "69"
+            "title": "Parasitology Today",
+            "volume": "14"
           },
-          "id": "7601E175C80A2C699DC0FC260A66CD6A8CB4A349",
+          "id": "310300EA5D13DD529FC0196DF042E91DFE9DC0AF",
           "publicationDate": "1998",
-          "title": "Recombinant follicle-stimulating hormone (FSH; Puregon) is more efficient than urinary FSH (Metrodin) in women with clomiphene citrate-resistant, normogonadotropic, chronic anovulation: a prospective, multicenter, assessor-blind, randomized, clinical trial"
+          "title": "Schistosome Immunology: More Questions than Answers"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:36 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing* to* win*) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:19 title:(takes more than house calls Organizing with comprehensive union building strategy))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(takes more than house calls Organizing with comprehensive union building strategy) host.pages.first:19 host.pages.last:36 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing* to* win*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:36 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing to win) AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.pages.first:19 AND publicationDate:1998 AND title:(takes more than house calls Organizing with comprehensive union building strategy)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(takes more than house calls Organizing with comprehensive union building strategy) AND host.pages.first:19 AND host.pages.last:36 AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.title:(Organizing to win) AND publicationDate:1998",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:36 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing* to* win*) AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.pages.first:19 AND publicationDate:1998 AND title:(takes more than house calls Organizing with comprehensive union building strategy)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(takes more than house calls Organizing with comprehensive union building strategy) AND host.pages.first:19 AND host.pages.last:36 AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.title:(Organizing* to* win*) AND publicationDate:1998",
         "match_flag": false
       }
     ]
@@ -967,7 +958,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"282\" AND host.pages.first:\"261\" AND author.name:\"Bronfenbrenner\" AND author.name:\"Juravich\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\" AND publicationDate:\"1998\" AND title:\"Preparing for the worst\\: Organizing and staying organized in the public sector\" AND host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Bronfenbrenner\" AND author.name:\"Juravich\" AND host.pages.first:\"261\" AND title:\"Preparing for the worst\\: Organizing and staying organized in the public sector\" AND host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\" AND host.pages.last:\"282\" AND publicationDate:\"1998\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -996,7 +987,7 @@
           "publicationDate": "1999",
           "title": "Locked Out but Holding Together in Ravenswood"
         },
-        "lucn_query": "host.pages.last:\"282\" host.pages.first:\"261\" author.name:\"Bronfenbrenner\" author.name:\"Juravich\" host.title:\"Organizing to win\" \"Ithaca, NY\" publicationDate:\"1998\" title:\"Preparing for the worst\\: Organizing and staying organized in the public sector\" host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Bronfenbrenner\" author.name:\"Juravich\" host.pages.first:\"261\" title:\"Preparing for the worst\\: Organizing and staying organized in the public sector\" host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\" host.pages.last:\"282\" publicationDate:\"1998\" host.title:\"Organizing to win\" \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -1025,7 +1016,7 @@
           "publicationDate": "1999",
           "title": "Locked Out but Holding Together in Ravenswood"
         },
-        "lucn_query": "host.pages.last:282 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:261 publicationDate:1998 title:(Preparing worst Organizing staying organized public sector)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Preparing worst Organizing staying organized public sector) host.pages.first:261 host.pages.last:282 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing to win) publicationDate:1998",
         "match_flag": false
       },
       {
@@ -1054,7 +1045,7 @@
           "publicationDate": "1998",
           "title": "Beyond Bureaucrats in Business: a critical review of the World Bank approach to privatization and public sector reform"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:282 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:261 title:(Preparing worst Organizing staying organized public sector))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Preparing worst Organizing staying organized public sector) host.pages.first:261 host.pages.last:282 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing to win))",
         "match_flag": false
       },
       {
@@ -1083,17 +1074,17 @@
           "publicationDate": "1998",
           "title": "Beyond Bureaucrats in Business: a critical review of the World Bank approach to privatization and public sector reform"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:282 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing* to* win*) Ithaca author.name:(Bronfenbrenner Juravich) host.pages.first:261 title:(Preparing worst Organizing staying organized public sector))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Preparing worst Organizing staying organized public sector) host.pages.first:261 host.pages.last:282 Ithaca author.name:(Bronfenbrenner Juravich) host.title:(Organizing* to* win*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:282 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing to win) AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.pages.first:261 AND publicationDate:1998 AND title:(Preparing worst Organizing staying organized public sector)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(Preparing worst Organizing staying organized public sector) AND host.pages.first:261 AND host.pages.last:282 AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.title:(Organizing to win) AND publicationDate:1998",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:282 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing* to* win*) AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.pages.first:261 AND publicationDate:1998 AND title:(Preparing worst Organizing staying organized public sector)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(Preparing worst Organizing staying organized public sector) AND host.pages.first:261 AND host.pages.last:282 AND Ithaca AND author.name:(Bronfenbrenner Juravich) AND host.title:(Organizing* to* win*) AND publicationDate:1998",
         "match_flag": false
       }
     ]
@@ -1108,31 +1099,37 @@
         "json_answr": {
           "author": [
             {
-              "name": "Adrian Furnham"
+              "name": "Sheila M. Puffer"
+            },
+            {
+              "name": "Daniel J. McCarthy"
+            },
+            {
+              "name": "Alexander I. Naumov"
             }
           ],
           "corpusName": "elsevier",
           "doi": [
-            "10.1016/S0167-4870(96)00044-X"
+            "10.1016/S1090-9516(97)90011-0"
           ],
           "host": {
             "pages": {
-              "first": "1",
-              "last": "14"
+              "first": "258",
+              "last": "276"
             },
-            "title": "Journal of Economic Psychology",
-            "volume": "18"
+            "title": "Journal of World Business",
+            "volume": "32"
           },
-          "id": "1A533220412029876B2C8D5F59B07FD48DA800C8",
+          "id": "815E060C68C2752A14869718169C1A4FCE4ED4E2",
           "publicationDate": "1997",
-          "title": "The relationship between work and economic values"
+          "title": "Russian managers' beliefs about work: Beyond the stereotypes"
         },
         "lucn_query": "An empirical study of contemporary beliefs about work in American society R A Buchholz Journal of Applied Psychology 63 1978 219 227",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"227\" AND host.pages.first:\"219\" AND host.title:\"Journal of Applied Psychology\" AND publicationDate:\"1978\" AND title:\"An empirical study of contemporary beliefs about work in American society\" AND author.name:\"Buchholz\" AND host.volume:\"63\"",
+        "lucn_query": "host.volume:\"63\" AND title:\"An empirical study of contemporary beliefs about work in American society\" AND host.pages.first:\"219\" AND host.pages.last:\"227\" AND publicationDate:\"1978\" AND host.title:\"Journal of Applied Psychology\" AND author.name:\"Buchholz\"",
         "match_flag": false
       },
       {
@@ -1158,7 +1155,7 @@
           "publicationDate": "1956",
           "title": "Untersuchungen \u00fcber die Ausscheidungsverh\u00e4ltnisse der gonadotropen Hypophysenhormone FSH und ICSH im mensuellen Cyclus"
         },
-        "lucn_query": "host.pages.last:\"227\" host.pages.first:\"219\" host.title:\"Journal of Applied Psychology\" publicationDate:\"1978\" title:\"An empirical study of contemporary beliefs about work in American society\" author.name:\"Buchholz\" host.volume:\"63\"",
+        "lucn_query": "host.volume:\"63\" title:\"An empirical study of contemporary beliefs about work in American society\" host.pages.first:\"219\" host.pages.last:\"227\" publicationDate:\"1978\" host.title:\"Journal of Applied Psychology\" author.name:\"Buchholz\"",
         "match_flag": false
       },
       {
@@ -1184,7 +1181,7 @@
           "publicationDate": "1977",
           "title": "THE BELIEF STRUCTURE OF MANAGERS RELATIVE TO WORK CONCEPTS MEASURED BY A FACTOR ANALYTIC MODEL1"
         },
-        "lucn_query": "host.pages.last:227 host.pages.first:219 host.title:(Journal of Applied Psychology) publicationDate:1978 title:(empirical study contemporary beliefs about work American society) author.name:Buchholz host.volume:63",
+        "lucn_query": "host.volume:63 title:(empirical study contemporary beliefs about work American society) host.pages.first:219 host.pages.last:227 publicationDate:1978 host.title:(Journal of Applied Psychology) author.name:Buchholz",
         "match_flag": false
       },
       {
@@ -1213,7 +1210,7 @@
           "publicationDate": "1978",
           "title": "Digestion in pycnogonids: a study of some polar forms"
         },
-        "lucn_query": "(publicationDate:1978 AND host.volume:63) AND (host.pages.last:227 host.pages.first:219 host.title:(Journal of Applied Psychology) title:(empirical study contemporary beliefs about work American society) author.name:Buchholz)",
+        "lucn_query": "(host.volume:63 AND publicationDate:1978) AND (title:(empirical study contemporary beliefs about work American society) host.pages.first:219 host.pages.last:227 host.title:(Journal of Applied Psychology) author.name:Buchholz)",
         "match_flag": false
       },
       {
@@ -1242,17 +1239,17 @@
           "publicationDate": "1978",
           "title": "Locomotory mechanisms in Antarctic pycnogonids"
         },
-        "lucn_query": "(publicationDate:1978 AND host.volume:63) AND (host.pages.last:227 host.pages.first:219 host.title:(journal of* Applied* Psychology*) title:(empirical study contemporary beliefs about work American society) author.name:Buchholz)",
+        "lucn_query": "(host.volume:63 AND publicationDate:1978) AND (title:(empirical study contemporary beliefs about work American society) host.pages.first:219 host.pages.last:227 host.title:(journal of* Applied* Psychology*) author.name:Buchholz)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:227 AND host.pages.first:219 AND host.title:(Journal of Applied Psychology) AND publicationDate:1978 AND title:(empirical study contemporary beliefs about work American society) AND author.name:Buchholz AND host.volume:63",
+        "lucn_query": "host.volume:63 AND title:(empirical study contemporary beliefs about work American society) AND host.pages.first:219 AND host.pages.last:227 AND publicationDate:1978 AND host.title:(Journal of Applied Psychology) AND author.name:Buchholz",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:227 AND host.pages.first:219 AND host.title:(journal of* Applied* Psychology*) AND publicationDate:1978 AND title:(empirical study contemporary beliefs about work American society) AND author.name:Buchholz AND host.volume:63",
+        "lucn_query": "host.volume:63 AND title:(empirical study contemporary beliefs about work American society) AND host.pages.first:219 AND host.pages.last:227 AND publicationDate:1978 AND host.title:(journal of* Applied* Psychology*) AND author.name:Buchholz",
         "match_flag": false
       }
     ]
@@ -1267,34 +1264,37 @@
         "json_answr": {
           "author": [
             {
-              "name": "Jacqueline Agesa"
+              "name": "George Neumann"
             },
             {
-              "name": "Anita Brown"
+              "name": "Peder J. Pedersen"
+            },
+            {
+              "name": "Niels Westerg\u00e5rd-Nielsen"
             }
           ],
-          "corpusName": "wiley",
+          "corpusName": "elsevier",
           "doi": [
-            "10.1111/j.1536-7150.1998.tb03210.x"
+            "10.1016/0176-2680(91)90013-S"
           ],
           "host": {
             "pages": {
-              "first": "285",
-              "last": "305"
+              "first": "249",
+              "last": "274"
             },
-            "title": "American Journal of Economics and Sociology",
-            "volume": "57"
+            "title": "European Journal of Political Economy",
+            "volume": "7"
           },
-          "id": "CCC17BC34D5BDA6529434BC224CD2662E3CE4900",
-          "publicationDate": "1998",
-          "title": "Regulation, Unionization, and Racial Wage Discrimination: An Analysis of the Trucking Industry"
+          "id": "AA1512C9164DC178F33C1514535FFDBC97B0331F",
+          "publicationDate": "1991",
+          "title": "Long-run international trends in aggregate unionization"
         },
         "lucn_query": "The decline of unionization in the United States\\: What can be learned from recent experience? H Farber Journal of Labor Economics 8 1990 75 105",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"105\" AND host.pages.first:\"75\" AND host.title:\"Journal of Labor Economics\" AND publicationDate:\"1990\" AND title:\"The decline of unionization in the United States\\: What can be learned from recent experience?\" AND author.name:\"Farber\" AND host.volume:\"8\"",
+        "lucn_query": "host.volume:\"8\" AND title:\"The decline of unionization in the United States\\: What can be learned from recent experience?\" AND host.pages.first:\"75\" AND host.pages.last:\"105\" AND publicationDate:\"1990\" AND host.title:\"Journal of Labor Economics\" AND author.name:\"Farber\"",
         "match_flag": false
       },
       {
@@ -1320,7 +1320,7 @@
           "publicationDate": "1960",
           "title": "MEDICAL, NURSING, RECREATIONAL AND PERSONAL ADJUSTMENT PROGRAMS FOR A SMALL INSTITUTION FOR THE AGED AND CHRONICALLY ILL*"
         },
-        "lucn_query": "host.pages.last:\"105\" host.pages.first:\"75\" host.title:\"Journal of Labor Economics\" publicationDate:\"1990\" title:\"The decline of unionization in the United States\\: What can be learned from recent experience?\" author.name:\"Farber\" host.volume:\"8\"",
+        "lucn_query": "host.volume:\"8\" title:\"The decline of unionization in the United States\\: What can be learned from recent experience?\" host.pages.first:\"75\" host.pages.last:\"105\" publicationDate:\"1990\" host.title:\"Journal of Labor Economics\" author.name:\"Farber\"",
         "match_flag": false
       },
       {
@@ -1346,7 +1346,7 @@
           "publicationDate": "1960",
           "title": "MEDICAL, NURSING, RECREATIONAL AND PERSONAL ADJUSTMENT PROGRAMS FOR A SMALL INSTITUTION FOR THE AGED AND CHRONICALLY ILL*"
         },
-        "lucn_query": "host.pages.last:105 host.pages.first:75 host.title:(Journal of Labor Economics) publicationDate:1990 title:(decline unionization United States What learned from recent experience) author.name:Farber host.volume:8",
+        "lucn_query": "host.volume:8 title:(decline unionization United States What learned from recent experience) host.pages.first:75 host.pages.last:105 publicationDate:1990 host.title:(Journal of Labor Economics) author.name:Farber",
         "match_flag": false
       },
       {
@@ -1387,55 +1387,43 @@
           "publicationDate": "1990",
           "title": "The sensitivity of conditional choice models for hospital care to estimation technique"
         },
-        "lucn_query": "(publicationDate:1990 AND host.volume:8) AND (host.pages.last:105 host.pages.first:75 host.title:(Journal of Labor Economics) title:(decline unionization United States What learned from recent experience) author.name:Farber)",
+        "lucn_query": "(host.volume:8 AND publicationDate:1990) AND (title:(decline unionization United States What learned from recent experience) host.pages.first:75 host.pages.last:105 host.title:(Journal of Labor Economics) author.name:Farber)",
         "match_flag": false
       },
       {
         "json_answr": {
           "author": [
             {
-              "name": "Amiya K. Ghoshal"
-            },
-            {
-              "name": "Tom H. Rushmore"
-            },
-            {
-              "name": "Pedro Buc-Calderon"
-            },
-            {
-              "name": "Marcel Roberfroid"
-            },
-            {
-              "name": "Emmanuel Farber"
+              "name": "John S. Haller,  Jr. PhD"
             }
           ],
           "corpusName": "elsevier",
           "doi": [
-            "10.1016/0891-5849(90)90137-8"
+            "10.1016/0736-4679(90)90289-8"
           ],
           "host": {
             "pages": {
-              "first": "3",
-              "last": "7"
+              "first": "743",
+              "last": "755"
             },
-            "title": "Free Radical Biology and Medicine",
+            "title": "Journal of Emergency Medicine",
             "volume": "8"
           },
-          "id": "3F8D3FB7D7860F2F9F50DC10932DDA52645A4A45",
+          "id": "20EEC7A8D19E4EAF708C70289A80FB3760E22002",
           "publicationDate": "1990",
-          "title": "Prevention by free radical scavenger AD5 of prooxidant effects of choline deficiency"
+          "title": "The beginnings of urban ambulance service in the United States and England"
         },
-        "lucn_query": "(publicationDate:1990 AND host.volume:8) AND (host.pages.last:105 host.pages.first:75 host.title:(journal of* Labor* Economics*) title:(decline unionization United States What learned from recent experience) author.name:Farber)",
+        "lucn_query": "(host.volume:8 AND publicationDate:1990) AND (title:(decline unionization United States What learned from recent experience) host.pages.first:75 host.pages.last:105 host.title:(journal of* Labor* Economics*) author.name:Farber)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:105 AND host.pages.first:75 AND host.title:(Journal of Labor Economics) AND publicationDate:1990 AND title:(decline unionization United States What learned from recent experience) AND author.name:Farber AND host.volume:8",
+        "lucn_query": "host.volume:8 AND title:(decline unionization United States What learned from recent experience) AND host.pages.first:75 AND host.pages.last:105 AND publicationDate:1990 AND host.title:(Journal of Labor Economics) AND author.name:Farber",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:105 AND host.pages.first:75 AND host.title:(journal of* Labor* Economics*) AND publicationDate:1990 AND title:(decline unionization United States What learned from recent experience) AND author.name:Farber AND host.volume:8",
+        "lucn_query": "host.volume:8 AND title:(decline unionization United States What learned from recent experience) AND host.pages.first:75 AND host.pages.last:105 AND publicationDate:1990 AND host.title:(journal of* Labor* Economics*) AND author.name:Farber",
         "match_flag": false
       }
     ]
@@ -1480,7 +1468,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"246\" AND host.pages.first:\"232\" AND author.name:\"Fiorito\" AND author.name:\"Young\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\" AND publicationDate:\"1998\" AND title:\"Union voting intentions\\: Human resource policies, organizational characteristics, and attitudes\" AND host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Fiorito\" AND author.name:\"Young\" AND host.pages.first:\"232\" AND title:\"Union voting intentions\\: Human resource policies, organizational characteristics, and attitudes\" AND host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" AND host.editor:\"Cornell University Press\" AND host.pages.last:\"246\" AND publicationDate:\"1998\" AND host.title:\"Organizing to win\" AND \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -1509,7 +1497,7 @@
           "publicationDate": "2010",
           "title": "Understanding organising activity among US national unions"
         },
-        "lucn_query": "host.pages.last:\"246\" host.pages.first:\"232\" author.name:\"Fiorito\" author.name:\"Young\" host.title:\"Organizing to win\" \"Ithaca, NY\" publicationDate:\"1998\" title:\"Union voting intentions\\: Human resource policies, organizational characteristics, and attitudes\" host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\"",
+        "lucn_query": "author.name:\"Fiorito\" author.name:\"Young\" host.pages.first:\"232\" title:\"Union voting intentions\\: Human resource policies, organizational characteristics, and attitudes\" host.editor:\"K. Bronfenbrenner , S. Friedman, R. Hurd, R. Oswald, & R. Seeber\" host.editor:\"Cornell University Press\" host.pages.last:\"246\" publicationDate:\"1998\" host.title:\"Organizing to win\" \"Ithaca, NY\"",
         "match_flag": false
       },
       {
@@ -1541,7 +1529,7 @@
           "publicationDate": "1987",
           "title": "The Impact of Human Resource Policies on Union Organizing"
         },
-        "lucn_query": "host.pages.last:246 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Fiorito Young) host.pages.first:232 publicationDate:1998 title:(Union voting intentions Human resource policies organizational characteristics attitudes)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Union voting intentions Human resource policies organizational characteristics attitudes) host.pages.first:232 host.pages.last:246 Ithaca author.name:(Fiorito Young) host.title:(Organizing to win) publicationDate:1998",
         "match_flag": false
       },
       {
@@ -1576,7 +1564,7 @@
           "publicationDate": "1998",
           "title": "Repeatability of electrically evoked EMG signals in the human vastus medialis muscle"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:246 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing to win) Ithaca author.name:(Fiorito Young) host.pages.first:232 title:(Union voting intentions Human resource policies organizational characteristics attitudes))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Union voting intentions Human resource policies organizational characteristics attitudes) host.pages.first:232 host.pages.last:246 Ithaca author.name:(Fiorito Young) host.title:(Organizing to win))",
         "match_flag": false
       },
       {
@@ -1611,17 +1599,17 @@
           "publicationDate": "1998",
           "title": "Repeatability of electrically evoked EMG signals in the human vastus medialis muscle"
         },
-        "lucn_query": "(publicationDate:1998) AND (host.pages.last:246 host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) host.title:(Organizing* to* win*) Ithaca author.name:(Fiorito Young) host.pages.first:232 title:(Union voting intentions Human resource policies organizational characteristics attitudes))",
+        "lucn_query": "(publicationDate:1998) AND (host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) title:(Union voting intentions Human resource policies organizational characteristics attitudes) host.pages.first:232 host.pages.last:246 Ithaca author.name:(Fiorito Young) host.title:(Organizing* to* win*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:246 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing to win) AND Ithaca AND author.name:(Fiorito Young) AND host.pages.first:232 AND publicationDate:1998 AND title:(Union voting intentions Human resource policies organizational characteristics attitudes)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(Union voting intentions Human resource policies organizational characteristics attitudes) AND host.pages.first:232 AND host.pages.last:246 AND Ithaca AND author.name:(Fiorito Young) AND host.title:(Organizing to win) AND publicationDate:1998",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:246 AND host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND host.title:(Organizing* to* win*) AND Ithaca AND author.name:(Fiorito Young) AND host.pages.first:232 AND publicationDate:1998 AND title:(Union voting intentions Human resource policies organizational characteristics attitudes)",
+        "lucn_query": "host.editor:(Bronfenbrenner Friedman Hurd Oswald Seeber Cornell University Press) AND title:(Union voting intentions Human resource policies organizational characteristics attitudes) AND host.pages.first:232 AND host.pages.last:246 AND Ithaca AND author.name:(Fiorito Young) AND host.title:(Organizing* to* win*) AND publicationDate:1998",
         "match_flag": false
       }
     ]
@@ -1681,7 +1669,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"398\" AND host.pages.first:\"396\" AND host.title:\"Journal of Social Psychology\" AND publicationDate:\"1999\" AND title:\"An extension of the family socialization model of union attitudes\" AND author.name:\"Hester\" AND author.name:\"Fuller\" AND host.volume:\"139\"",
+        "lucn_query": "host.volume:\"139\" AND title:\"An extension of the family socialization model of union attitudes\" AND host.pages.first:\"396\" AND host.pages.last:\"398\" AND publicationDate:\"1999\" AND host.title:\"Journal of Social Psychology\" AND author.name:\"Hester\" AND author.name:\"Fuller\"",
         "match_flag": false
       },
       {
@@ -1710,7 +1698,7 @@
           "publicationDate": "1999",
           "title": "Comparing the sample-weighted and unweighted meta-analysis: an applied perspective"
         },
-        "lucn_query": "host.pages.last:\"398\" host.pages.first:\"396\" host.title:\"Journal of Social Psychology\" publicationDate:\"1999\" title:\"An extension of the family socialization model of union attitudes\" author.name:\"Hester\" author.name:\"Fuller\" host.volume:\"139\"",
+        "lucn_query": "host.volume:\"139\" title:\"An extension of the family socialization model of union attitudes\" host.pages.first:\"396\" host.pages.last:\"398\" publicationDate:\"1999\" host.title:\"Journal of Social Psychology\" author.name:\"Hester\" author.name:\"Fuller\"",
         "match_flag": false
       },
       {
@@ -1739,7 +1727,7 @@
           "publicationDate": "1999",
           "title": "Comparing the sample-weighted and unweighted meta-analysis: an applied perspective"
         },
-        "lucn_query": "host.pages.last:398 host.pages.first:396 host.title:(Journal of Social Psychology) publicationDate:1999 title:(extension family socialization model union attitudes) author.name:(Hester Fuller) host.volume:139",
+        "lucn_query": "host.volume:139 title:(extension family socialization model union attitudes) host.pages.first:396 host.pages.last:398 publicationDate:1999 host.title:(Journal of Social Psychology) author.name:(Hester Fuller)",
         "match_flag": false
       },
       {
@@ -1771,7 +1759,7 @@
           "publicationDate": "1999",
           "title": "The onset of extension during lithospheric shortening: a two-dimensional thermomechanical model for lithospheric unrooting"
         },
-        "lucn_query": "(publicationDate:1999 AND host.volume:139) AND (host.pages.last:398 host.pages.first:396 host.title:(Journal of Social Psychology) title:(extension family socialization model union attitudes) author.name:(Hester Fuller))",
+        "lucn_query": "(host.volume:139 AND publicationDate:1999) AND (title:(extension family socialization model union attitudes) host.pages.first:396 host.pages.last:398 host.title:(Journal of Social Psychology) author.name:(Hester Fuller))",
         "match_flag": false
       },
       {
@@ -1803,17 +1791,17 @@
           "publicationDate": "1999",
           "title": "The onset of extension during lithospheric shortening: a two-dimensional thermomechanical model for lithospheric unrooting"
         },
-        "lucn_query": "(publicationDate:1999 AND host.volume:139) AND (host.pages.last:398 host.pages.first:396 host.title:(journal of* Social* Psychology*) title:(extension family socialization model union attitudes) author.name:(Hester Fuller))",
+        "lucn_query": "(host.volume:139 AND publicationDate:1999) AND (title:(extension family socialization model union attitudes) host.pages.first:396 host.pages.last:398 host.title:(journal of* Social* Psychology*) author.name:(Hester Fuller))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:398 AND host.pages.first:396 AND host.title:(Journal of Social Psychology) AND publicationDate:1999 AND title:(extension family socialization model union attitudes) AND author.name:(Hester Fuller) AND host.volume:139",
+        "lucn_query": "host.volume:139 AND title:(extension family socialization model union attitudes) AND host.pages.first:396 AND host.pages.last:398 AND publicationDate:1999 AND host.title:(Journal of Social Psychology) AND author.name:(Hester Fuller)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:398 AND host.pages.first:396 AND host.title:(journal of* Social* Psychology*) AND publicationDate:1999 AND title:(extension family socialization model union attitudes) AND author.name:(Hester Fuller) AND host.volume:139",
+        "lucn_query": "host.volume:139 AND title:(extension family socialization model union attitudes) AND host.pages.first:396 AND host.pages.last:398 AND publicationDate:1999 AND host.title:(journal of* Social* Psychology*) AND author.name:(Hester Fuller)",
         "match_flag": false
       }
     ]
@@ -1828,37 +1816,33 @@
         "json_answr": {
           "author": [
             {
-              "name": "Anthea Zacharatos"
+              "name": "Jennifer Steele"
             },
             {
               "name": "Julian Barling"
-            },
-            {
-              "name": "E.Kevin Kelloway"
             }
           ],
-          "corpusName": "elsevier",
+          "corpusName": "springer",
           "doi": [
-            "10.1016/S1048-9843(00)00041-2"
+            "10.1007/BF01551499"
           ],
           "host": {
             "pages": {
-              "first": "211",
-              "last": "226"
+              "first": "637",
+              "last": "648"
             },
-            "title": "The Leadership Quarterly",
-            "volume": "11"
+            "title": "Sex Roles",
+            "volume": "34"
           },
-          "id": "BDBF0CFE1DC3463392304F0FE54351B0D0CC44E4",
-          "publicationDate": "2000",
-          "title": "Development and effects of transformational leadership in adolescents"
+          "id": "A69B0D6414FBBC28D4C5A4FFBF40C0ADF1EC6255",
+          "title": "Influence of maternal gender-role beliefs and role satisfaction on daughters' vocational interests"
         },
         "lucn_query": "Preemployment predictors of children's' union attitudes\\: The moderating role of identification with parents E K Kelloway J Barling Journal of Social Psychology 136 1996 413 416",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"416\" AND host.pages.first:\"413\" AND host.title:\"Journal of Social Psychology\" AND publicationDate:\"1996\" AND title:\"Preemployment predictors of children's' union attitudes\\: The moderating role of identification with parents\" AND author.name:\"Kelloway\" AND author.name:\"Barling\" AND host.volume:\"136\"",
+        "lucn_query": "host.volume:\"136\" AND title:\"Preemployment predictors of children's' union attitudes\\: The moderating role of identification with parents\" AND host.pages.first:\"413\" AND host.pages.last:\"416\" AND publicationDate:\"1996\" AND host.title:\"Journal of Social Psychology\" AND author.name:\"Kelloway\" AND author.name:\"Barling\"",
         "match_flag": false
       },
       {
@@ -1887,7 +1871,7 @@
           "publicationDate": "1991",
           "title": "Job characteristics, role stress and mental health"
         },
-        "lucn_query": "host.pages.last:\"416\" host.pages.first:\"413\" host.title:\"Journal of Social Psychology\" publicationDate:\"1996\" title:\"Preemployment predictors of children's' union attitudes\\: The moderating role of identification with parents\" author.name:\"Kelloway\" author.name:\"Barling\" host.volume:\"136\"",
+        "lucn_query": "host.volume:\"136\" title:\"Preemployment predictors of children's' union attitudes\\: The moderating role of identification with parents\" host.pages.first:\"413\" host.pages.last:\"416\" publicationDate:\"1996\" host.title:\"Journal of Social Psychology\" author.name:\"Kelloway\" author.name:\"Barling\"",
         "match_flag": false
       },
       {
@@ -1916,7 +1900,7 @@
           "publicationDate": "1991",
           "title": "Job characteristics, role stress and mental health"
         },
-        "lucn_query": "host.pages.last:416 host.pages.first:413 host.title:(Journal of Social Psychology) publicationDate:1996 title:(Preemployment predictors children union attitudes moderating role identification with parents) author.name:(Kelloway Barling) host.volume:136",
+        "lucn_query": "host.volume:136 title:(Preemployment predictors children union attitudes moderating role identification with parents) host.pages.first:413 host.pages.last:416 publicationDate:1996 host.title:(Journal of Social Psychology) author.name:(Kelloway Barling)",
         "match_flag": false
       },
       {
@@ -1957,7 +1941,7 @@
           "publicationDate": "1996",
           "title": "Clinical characteristics of familial amyotrophic lateral sclerosis with CuZn superoxide dismutase gene mutations"
         },
-        "lucn_query": "(publicationDate:1996 AND host.volume:136) AND (host.pages.last:416 host.pages.first:413 host.title:(Journal of Social Psychology) title:(Preemployment predictors children union attitudes moderating role identification with parents) author.name:(Kelloway Barling))",
+        "lucn_query": "(host.volume:136 AND publicationDate:1996) AND (title:(Preemployment predictors children union attitudes moderating role identification with parents) host.pages.first:413 host.pages.last:416 host.title:(Journal of Social Psychology) author.name:(Kelloway Barling))",
         "match_flag": false
       },
       {
@@ -1998,17 +1982,17 @@
           "publicationDate": "1996",
           "title": "Clinical characteristics of familial amyotrophic lateral sclerosis with CuZn superoxide dismutase gene mutations"
         },
-        "lucn_query": "(publicationDate:1996 AND host.volume:136) AND (host.pages.last:416 host.pages.first:413 host.title:(journal of* Social* Psychology*) title:(Preemployment predictors children union attitudes moderating role identification with parents) author.name:(Kelloway Barling))",
+        "lucn_query": "(host.volume:136 AND publicationDate:1996) AND (title:(Preemployment predictors children union attitudes moderating role identification with parents) host.pages.first:413 host.pages.last:416 host.title:(journal of* Social* Psychology*) author.name:(Kelloway Barling))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:416 AND host.pages.first:413 AND host.title:(Journal of Social Psychology) AND publicationDate:1996 AND title:(Preemployment predictors children union attitudes moderating role identification with parents) AND author.name:(Kelloway Barling) AND host.volume:136",
+        "lucn_query": "host.volume:136 AND title:(Preemployment predictors children union attitudes moderating role identification with parents) AND host.pages.first:413 AND host.pages.last:416 AND publicationDate:1996 AND host.title:(Journal of Social Psychology) AND author.name:(Kelloway Barling)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:416 AND host.pages.first:413 AND host.title:(journal of* Social* Psychology*) AND publicationDate:1996 AND title:(Preemployment predictors children union attitudes moderating role identification with parents) AND author.name:(Kelloway Barling) AND host.volume:136",
+        "lucn_query": "host.volume:136 AND title:(Preemployment predictors children union attitudes moderating role identification with parents) AND host.pages.first:413 AND host.pages.last:416 AND publicationDate:1996 AND host.title:(journal of* Social* Psychology*) AND author.name:(Kelloway Barling)",
         "match_flag": false
       }
     ]
@@ -2053,7 +2037,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"634\" AND host.pages.first:\"631\" AND host.title:\"Journal of Applied Psychology\" AND publicationDate:\"1994\" AND title:\"Preemployment predictors of union attitudes\\: Replication and extension\" AND author.name:\"Kelloway\" AND author.name:\"Watts\" AND host.volume:\"79\"",
+        "lucn_query": "host.volume:\"79\" AND title:\"Preemployment predictors of union attitudes\\: Replication and extension\" AND host.pages.first:\"631\" AND host.pages.last:\"634\" AND publicationDate:\"1994\" AND host.title:\"Journal of Applied Psychology\" AND author.name:\"Kelloway\" AND author.name:\"Watts\"",
         "match_flag": false
       },
       {
@@ -2082,7 +2066,7 @@
           "publicationDate": "1994",
           "title": "Skills shortages and training: a forgotten dimension in new technology"
         },
-        "lucn_query": "host.pages.last:\"634\" host.pages.first:\"631\" host.title:\"Journal of Applied Psychology\" publicationDate:\"1994\" title:\"Preemployment predictors of union attitudes\\: Replication and extension\" author.name:\"Kelloway\" author.name:\"Watts\" host.volume:\"79\"",
+        "lucn_query": "host.volume:\"79\" title:\"Preemployment predictors of union attitudes\\: Replication and extension\" host.pages.first:\"631\" host.pages.last:\"634\" publicationDate:\"1994\" host.title:\"Journal of Applied Psychology\" author.name:\"Kelloway\" author.name:\"Watts\"",
         "match_flag": false
       },
       {
@@ -2114,7 +2098,7 @@
           "publicationDate": "1992",
           "title": "The construct validity of union commitment: Development and dimensionality of a shorter scale"
         },
-        "lucn_query": "host.pages.last:634 host.pages.first:631 host.title:(Journal of Applied Psychology) publicationDate:1994 title:(Preemployment predictors union attitudes Replication extension) author.name:(Kelloway Watts) host.volume:79",
+        "lucn_query": "host.volume:79 title:(Preemployment predictors union attitudes Replication extension) host.pages.first:631 host.pages.last:634 publicationDate:1994 host.title:(Journal of Applied Psychology) author.name:(Kelloway Watts)",
         "match_flag": false
       },
       {
@@ -2143,7 +2127,7 @@
           "publicationDate": "1994",
           "title": "Surface-induced finite-size effects for first-order phase transitions"
         },
-        "lucn_query": "(publicationDate:1994 AND host.volume:79) AND (host.pages.last:634 host.pages.first:631 host.title:(Journal of Applied Psychology) title:(Preemployment predictors union attitudes Replication extension) author.name:(Kelloway Watts))",
+        "lucn_query": "(host.volume:79 AND publicationDate:1994) AND (title:(Preemployment predictors union attitudes Replication extension) host.pages.first:631 host.pages.last:634 host.title:(Journal of Applied Psychology) author.name:(Kelloway Watts))",
         "match_flag": false
       },
       {
@@ -2172,17 +2156,17 @@
           "publicationDate": "1994",
           "title": "Surface-induced finite-size effects for first-order phase transitions"
         },
-        "lucn_query": "(publicationDate:1994 AND host.volume:79) AND (host.pages.last:634 host.pages.first:631 host.title:(journal of* Applied* Psychology*) title:(Preemployment predictors union attitudes Replication extension) author.name:(Kelloway Watts))",
+        "lucn_query": "(host.volume:79 AND publicationDate:1994) AND (title:(Preemployment predictors union attitudes Replication extension) host.pages.first:631 host.pages.last:634 host.title:(journal of* Applied* Psychology*) author.name:(Kelloway Watts))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:634 AND host.pages.first:631 AND host.title:(Journal of Applied Psychology) AND publicationDate:1994 AND title:(Preemployment predictors union attitudes Replication extension) AND author.name:(Kelloway Watts) AND host.volume:79",
+        "lucn_query": "host.volume:79 AND title:(Preemployment predictors union attitudes Replication extension) AND host.pages.first:631 AND host.pages.last:634 AND publicationDate:1994 AND host.title:(Journal of Applied Psychology) AND author.name:(Kelloway Watts)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:634 AND host.pages.first:631 AND host.title:(journal of* Applied* Psychology*) AND publicationDate:1994 AND title:(Preemployment predictors union attitudes Replication extension) AND author.name:(Kelloway Watts) AND host.volume:79",
+        "lucn_query": "host.volume:79 AND title:(Preemployment predictors union attitudes Replication extension) AND host.pages.first:631 AND host.pages.last:634 AND publicationDate:1994 AND host.title:(journal of* Applied* Psychology*) AND author.name:(Kelloway Watts)",
         "match_flag": false
       }
     ]
@@ -2223,7 +2207,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"31\" AND host.pages.first:\"23\" AND host.title:\"Monthly Labor Review\" AND publicationDate:\"1979\" AND title:\"How American workers view labor unions\" AND author.name:\"Kochan\" AND host.volume:\"21\" AND host.issue:\"4\"",
+        "lucn_query": "host.volume:\"21\" AND title:\"How American workers view labor unions\" AND host.pages.first:\"23\" AND host.pages.last:\"31\" AND host.issue:\"4\" AND publicationDate:\"1979\" AND host.title:\"Monthly Labor Review\" AND author.name:\"Kochan\"",
         "match_flag": false
       },
       {
@@ -2252,7 +2236,7 @@
           "publicationDate": "1994",
           "title": "Recent Developments in US Industrial Relations"
         },
-        "lucn_query": "host.pages.last:\"31\" host.pages.first:\"23\" host.title:\"Monthly Labor Review\" publicationDate:\"1979\" title:\"How American workers view labor unions\" author.name:\"Kochan\" host.volume:\"21\" host.issue:\"4\"",
+        "lucn_query": "host.volume:\"21\" title:\"How American workers view labor unions\" host.pages.first:\"23\" host.pages.last:\"31\" host.issue:\"4\" publicationDate:\"1979\" host.title:\"Monthly Labor Review\" author.name:\"Kochan\"",
         "match_flag": false
       },
       {
@@ -2281,7 +2265,7 @@
           "publicationDate": "1994",
           "title": "Recent Developments in US Industrial Relations"
         },
-        "lucn_query": "host.pages.last:31 host.pages.first:23 host.title:(Monthly Labor Review) publicationDate:1979 title:(American workers view labor unions) author.name:Kochan host.volume:21 host.issue:4",
+        "lucn_query": "host.volume:21 title:(American workers view labor unions) host.pages.first:23 host.pages.last:31 host.issue:4 publicationDate:1979 host.title:(Monthly Labor Review) author.name:Kochan",
         "match_flag": false
       },
       {
@@ -2307,7 +2291,7 @@
           "publicationDate": "1979",
           "title": "Social behavior of the wild black-capped Capuchin ( Cebus apella )"
         },
-        "lucn_query": "(publicationDate:1979 AND host.volume:21) AND (host.pages.last:31 host.pages.first:23 host.title:(Monthly Labor Review) title:(American workers view labor unions) author.name:Kochan host.issue:4)",
+        "lucn_query": "(host.volume:21 AND publicationDate:1979) AND (title:(American workers view labor unions) host.pages.first:23 host.pages.last:31 host.issue:4 host.title:(Monthly Labor Review) author.name:Kochan)",
         "match_flag": false
       },
       {
@@ -2339,17 +2323,17 @@
           "publicationDate": "1979",
           "title": "Longitudinal waves in liquid-filled tubes\u2014II"
         },
-        "lucn_query": "(publicationDate:1979 AND host.volume:21) AND (host.pages.last:31 host.pages.first:23 host.title:(Monthly* Labor* Review*) title:(American workers view labor unions) author.name:Kochan host.issue:4)",
+        "lucn_query": "(host.volume:21 AND publicationDate:1979) AND (title:(American workers view labor unions) host.pages.first:23 host.pages.last:31 host.issue:4 host.title:(Monthly* Labor* Review*) author.name:Kochan)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:31 AND host.pages.first:23 AND host.title:(Monthly Labor Review) AND publicationDate:1979 AND title:(American workers view labor unions) AND author.name:Kochan AND host.volume:21 AND host.issue:4",
+        "lucn_query": "host.volume:21 AND title:(American workers view labor unions) AND host.pages.first:23 AND host.pages.last:31 AND host.issue:4 AND publicationDate:1979 AND host.title:(Monthly Labor Review) AND author.name:Kochan",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:31 AND host.pages.first:23 AND host.title:(Monthly* Labor* Review*) AND publicationDate:1979 AND title:(American workers view labor unions) AND author.name:Kochan AND host.volume:21 AND host.issue:4",
+        "lucn_query": "host.volume:21 AND title:(American workers view labor unions) AND host.pages.first:23 AND host.pages.last:31 AND host.issue:4 AND publicationDate:1979 AND host.title:(Monthly* Labor* Review*) AND author.name:Kochan",
         "match_flag": false
       }
     ]
@@ -2396,7 +2380,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"417\" AND host.pages.first:\"403\" AND host.title:\"Journal of Labor Research\" AND publicationDate:\"1986\" AND title:\"General union attitudes\\: A construct validation\" AND author.name:\"Mcshane\" AND host.volume:\"7\"",
+        "lucn_query": "host.volume:\"7\" AND title:\"General union attitudes\\: A construct validation\" AND host.pages.first:\"403\" AND host.pages.last:\"417\" AND publicationDate:\"1986\" AND host.title:\"Journal of Labor Research\" AND author.name:\"Mcshane\"",
         "match_flag": false
       },
       {
@@ -2421,7 +2405,7 @@
           "id": "7EF296E70E77A4A01FD1A5F5E6C4584F3FD84595",
           "title": "General union attitude: A construct validation"
         },
-        "lucn_query": "host.pages.last:\"417\" host.pages.first:\"403\" host.title:\"Journal of Labor Research\" publicationDate:\"1986\" title:\"General union attitudes\\: A construct validation\" author.name:\"Mcshane\" host.volume:\"7\"",
+        "lucn_query": "host.volume:\"7\" title:\"General union attitudes\\: A construct validation\" host.pages.first:\"403\" host.pages.last:\"417\" publicationDate:\"1986\" host.title:\"Journal of Labor Research\" author.name:\"Mcshane\"",
         "match_flag": false
       },
       {
@@ -2446,7 +2430,7 @@
           "id": "7EF296E70E77A4A01FD1A5F5E6C4584F3FD84595",
           "title": "General union attitude: A construct validation"
         },
-        "lucn_query": "host.pages.last:417 host.pages.first:403 host.title:(Journal of Labor Research) publicationDate:1986 title:(General union attitudes construct validation) author.name:Mcshane host.volume:7",
+        "lucn_query": "host.volume:7 title:(General union attitudes construct validation) host.pages.first:403 host.pages.last:417 publicationDate:1986 host.title:(Journal of Labor Research) author.name:Mcshane",
         "match_flag": false
       },
       {
@@ -2472,7 +2456,7 @@
           "publicationDate": "1986",
           "title": "Employee attitudes toward working with computers"
         },
-        "lucn_query": "(publicationDate:1986 AND host.volume:7) AND (host.pages.last:417 host.pages.first:403 host.title:(Journal of Labor Research) title:(General union attitudes construct validation) author.name:Mcshane)",
+        "lucn_query": "(host.volume:7 AND publicationDate:1986) AND (title:(General union attitudes construct validation) host.pages.first:403 host.pages.last:417 host.title:(Journal of Labor Research) author.name:Mcshane)",
         "match_flag": false
       },
       {
@@ -2498,17 +2482,17 @@
           "publicationDate": "1986",
           "title": "Employee attitudes toward working with computers"
         },
-        "lucn_query": "(publicationDate:1986 AND host.volume:7) AND (host.pages.last:417 host.pages.first:403 host.title:(journal of* Labor* Research*) title:(General union attitudes construct validation) author.name:Mcshane)",
+        "lucn_query": "(host.volume:7 AND publicationDate:1986) AND (title:(General union attitudes construct validation) host.pages.first:403 host.pages.last:417 host.title:(journal of* Labor* Research*) author.name:Mcshane)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:417 AND host.pages.first:403 AND host.title:(Journal of Labor Research) AND publicationDate:1986 AND title:(General union attitudes construct validation) AND author.name:Mcshane AND host.volume:7",
+        "lucn_query": "host.volume:7 AND title:(General union attitudes construct validation) AND host.pages.first:403 AND host.pages.last:417 AND publicationDate:1986 AND host.title:(Journal of Labor Research) AND author.name:Mcshane",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:417 AND host.pages.first:403 AND host.title:(journal of* Labor* Research*) AND publicationDate:1986 AND title:(General union attitudes construct validation) AND author.name:Mcshane AND host.volume:7",
+        "lucn_query": "host.volume:7 AND title:(General union attitudes construct validation) AND host.pages.first:403 AND host.pages.last:417 AND publicationDate:1986 AND host.title:(journal of* Labor* Research*) AND author.name:Mcshane",
         "match_flag": false
       }
     ]
@@ -2550,7 +2534,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "publicationDate:\"1979\" AND host.editor:\"McGraw-Hill\" AND host.title:\"Psychometric theory\" AND \"New York\" AND author.name:\"Nunnally\"",
+        "lucn_query": "host.editor:\"McGraw-Hill\" AND author.name:\"Nunnally\" AND publicationDate:\"1979\" AND host.title:\"Psychometric theory\" AND \"New York\"",
         "match_flag": false
       },
       {
@@ -2575,7 +2559,7 @@
           "id": "3359D5D0EFDDB8CD0147192FB389C14F2C60F295",
           "title": "Stream renovation: An alternative to channelization"
         },
-        "lucn_query": "publicationDate:\"1979\" host.editor:\"McGraw-Hill\" host.title:\"Psychometric theory\" \"New York\" author.name:\"Nunnally\"",
+        "lucn_query": "host.editor:\"McGraw-Hill\" author.name:\"Nunnally\" publicationDate:\"1979\" host.title:\"Psychometric theory\" \"New York\"",
         "match_flag": false
       },
       {
@@ -2600,7 +2584,7 @@
           "id": "3359D5D0EFDDB8CD0147192FB389C14F2C60F295",
           "title": "Stream renovation: An alternative to channelization"
         },
-        "lucn_query": "author.name:Nunnally host.editor:(McGraw Hill) host.title:(Psychometric theory) York publicationDate:1979",
+        "lucn_query": "host.editor:(McGraw Hill) York author.name:Nunnally host.title:(Psychometric theory) publicationDate:1979",
         "match_flag": false
       },
       {
@@ -2629,7 +2613,7 @@
           "publicationDate": "1979",
           "title": "An integrated bevel gears manufacturing system"
         },
-        "lucn_query": "(publicationDate:1979) AND (author.name:Nunnally host.editor:(McGraw Hill) host.title:(Psychometric theory) York)",
+        "lucn_query": "(publicationDate:1979) AND (host.editor:(McGraw Hill) York author.name:Nunnally host.title:(Psychometric theory))",
         "match_flag": false
       },
       {
@@ -2709,17 +2693,17 @@
           "publicationDate": "1979",
           "title": "Book Reviews"
         },
-        "lucn_query": "(publicationDate:1979) AND (author.name:Nunnally host.editor:(McGraw Hill) host.title:(Psychometric* theory*) York)",
+        "lucn_query": "(publicationDate:1979) AND (host.editor:(McGraw Hill) York author.name:Nunnally host.title:(Psychometric* theory*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:Nunnally AND host.editor:(McGraw Hill) AND host.title:(Psychometric theory) AND York AND publicationDate:1979",
+        "lucn_query": "host.editor:(McGraw Hill) AND York AND author.name:Nunnally AND host.title:(Psychometric theory) AND publicationDate:1979",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:Nunnally AND host.editor:(McGraw Hill) AND host.title:(Psychometric* theory*) AND York AND publicationDate:1979",
+        "lucn_query": "host.editor:(McGraw Hill) AND York AND author.name:Nunnally AND host.title:(Psychometric* theory*) AND publicationDate:1979",
         "match_flag": false
       }
     ]
@@ -2761,7 +2745,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"102\" AND host.pages.first:\"89\" AND host.title:\"Industrial and Labor Relations Review\" AND publicationDate:\"1992\" AND title:\"Gender differences in attitudes toward unions\" AND author.name:\"Schur\" AND author.name:\"Kruse\" AND host.volume:\"46\"",
+        "lucn_query": "host.volume:\"46\" AND title:\"Gender differences in attitudes toward unions\" AND host.pages.first:\"89\" AND host.pages.last:\"102\" AND publicationDate:\"1992\" AND host.title:\"Industrial and Labor Relations Review\" AND author.name:\"Schur\" AND author.name:\"Kruse\"",
         "match_flag": false
       },
       {
@@ -2790,7 +2774,7 @@
           "publicationDate": "2003",
           "title": "Employment of People with Disabilities Following the ADA"
         },
-        "lucn_query": "host.pages.last:\"102\" host.pages.first:\"89\" host.title:\"Industrial and Labor Relations Review\" publicationDate:\"1992\" title:\"Gender differences in attitudes toward unions\" author.name:\"Schur\" author.name:\"Kruse\" host.volume:\"46\"",
+        "lucn_query": "host.volume:\"46\" title:\"Gender differences in attitudes toward unions\" host.pages.first:\"89\" host.pages.last:\"102\" publicationDate:\"1992\" host.title:\"Industrial and Labor Relations Review\" author.name:\"Schur\" author.name:\"Kruse\"",
         "match_flag": false
       },
       {
@@ -2819,7 +2803,7 @@
           "publicationDate": "2003",
           "title": "Employment of People with Disabilities Following the ADA"
         },
-        "lucn_query": "host.pages.last:102 host.pages.first:89 host.title:(Industrial and Labor Relations Review) publicationDate:1992 title:(Gender differences attitudes toward unions) author.name:(Schur Kruse) host.volume:46",
+        "lucn_query": "host.volume:46 title:(Gender differences attitudes toward unions) host.pages.first:89 host.pages.last:102 publicationDate:1992 host.title:(Industrial and Labor Relations Review) author.name:(Schur Kruse)",
         "match_flag": false
       },
       {
@@ -2850,7 +2834,7 @@
           "publicationDate": "1992",
           "title": "Gender and race differences in the correlation between body mass and education in the 1971-1975 NHANES I."
         },
-        "lucn_query": "(publicationDate:1992 AND host.volume:46) AND (host.pages.last:102 host.pages.first:89 host.title:(Industrial and Labor Relations Review) title:(Gender differences attitudes toward unions) author.name:(Schur Kruse))",
+        "lucn_query": "(host.volume:46 AND publicationDate:1992) AND (title:(Gender differences attitudes toward unions) host.pages.first:89 host.pages.last:102 host.title:(Industrial and Labor Relations Review) author.name:(Schur Kruse))",
         "match_flag": false
       },
       {
@@ -2881,17 +2865,17 @@
           "publicationDate": "1992",
           "title": "Gender and race differences in the correlation between body mass and education in the 1971-1975 NHANES I."
         },
-        "lucn_query": "(publicationDate:1992 AND host.volume:46) AND (host.pages.last:102 host.pages.first:89 host.title:(Industrial* and* Labor* Relations* Review*) title:(Gender differences attitudes toward unions) author.name:(Schur Kruse))",
+        "lucn_query": "(host.volume:46 AND publicationDate:1992) AND (title:(Gender differences attitudes toward unions) host.pages.first:89 host.pages.last:102 host.title:(Industrial* and* Labor* Relations* Review*) author.name:(Schur Kruse))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:102 AND host.pages.first:89 AND host.title:(Industrial and Labor Relations Review) AND publicationDate:1992 AND title:(Gender differences attitudes toward unions) AND author.name:(Schur Kruse) AND host.volume:46",
+        "lucn_query": "host.volume:46 AND title:(Gender differences attitudes toward unions) AND host.pages.first:89 AND host.pages.last:102 AND publicationDate:1992 AND host.title:(Industrial and Labor Relations Review) AND author.name:(Schur Kruse)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:102 AND host.pages.first:89 AND host.title:(Industrial* and* Labor* Relations* Review*) AND publicationDate:1992 AND title:(Gender differences attitudes toward unions) AND author.name:(Schur Kruse) AND host.volume:46",
+        "lucn_query": "host.volume:46 AND title:(Gender differences attitudes toward unions) AND host.pages.first:89 AND host.pages.last:102 AND publicationDate:1992 AND host.title:(Industrial* and* Labor* Relations* Review*) AND author.name:(Schur Kruse)",
         "match_flag": false
       }
     ]
@@ -2945,7 +2929,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:\"230\" AND host.pages.first:\"223\" AND host.title:\"Journal of Collective Negotiations in the Public Sector\" AND publicationDate:\"1986\" AND title:\"College students' majors and attitudes toward unions\\: Sources of future union members?\" AND author.name:\"Willoughby\" AND author.name:\"Barclay\" AND host.volume:\"15\"",
+        "lucn_query": "host.volume:\"15\" AND title:\"College students' majors and attitudes toward unions\\: Sources of future union members?\" AND host.pages.first:\"223\" AND host.pages.last:\"230\" AND publicationDate:\"1986\" AND host.title:\"Journal of Collective Negotiations in the Public Sector\" AND author.name:\"Willoughby\" AND author.name:\"Barclay\"",
         "match_flag": false
       },
       {
@@ -2971,7 +2955,7 @@
           "publicationDate": "1972",
           "title": "The Canada\u2010United States joint economic agencies of the second world war\u2020"
         },
-        "lucn_query": "host.pages.last:\"230\" host.pages.first:\"223\" host.title:\"Journal of Collective Negotiations in the Public Sector\" publicationDate:\"1986\" title:\"College students' majors and attitudes toward unions\\: Sources of future union members?\" author.name:\"Willoughby\" author.name:\"Barclay\" host.volume:\"15\"",
+        "lucn_query": "host.volume:\"15\" title:\"College students' majors and attitudes toward unions\\: Sources of future union members?\" host.pages.first:\"223\" host.pages.last:\"230\" publicationDate:\"1986\" host.title:\"Journal of Collective Negotiations in the Public Sector\" author.name:\"Willoughby\" author.name:\"Barclay\"",
         "match_flag": false
       },
       {
@@ -3000,7 +2984,7 @@
           "publicationDate": "1985",
           "title": "Family and Nonfamily Components of Social Support as Buffers of Stress for College Women1"
         },
-        "lucn_query": "host.pages.last:230 host.pages.first:223 host.title:(Journal of Collective Negotiations in the Public Sector) publicationDate:1986 title:(College students majors attitudes toward unions Sources future union members) author.name:(Willoughby Barclay) host.volume:15",
+        "lucn_query": "host.volume:15 title:(College students majors attitudes toward unions Sources future union members) host.pages.first:223 host.pages.last:230 publicationDate:1986 host.title:(Journal of Collective Negotiations in the Public Sector) author.name:(Willoughby Barclay)",
         "match_flag": false
       },
       {
@@ -3026,7 +3010,7 @@
           "publicationDate": "1986",
           "title": "The stress of secondary school for vulnerable students"
         },
-        "lucn_query": "(publicationDate:1986 AND host.volume:15) AND (host.pages.last:230 host.pages.first:223 host.title:(Journal of Collective Negotiations in the Public Sector) title:(College students majors attitudes toward unions Sources future union members) author.name:(Willoughby Barclay))",
+        "lucn_query": "(host.volume:15 AND publicationDate:1986) AND (title:(College students majors attitudes toward unions Sources future union members) host.pages.first:223 host.pages.last:230 host.title:(Journal of Collective Negotiations in the Public Sector) author.name:(Willoughby Barclay))",
         "match_flag": false
       },
       {
@@ -3052,17 +3036,17 @@
           "publicationDate": "1986",
           "title": "The stress of secondary school for vulnerable students"
         },
-        "lucn_query": "(publicationDate:1986 AND host.volume:15) AND (host.pages.last:230 host.pages.first:223 host.title:(Journal of Collective Negotiations in the Public Sector) title:(College students majors attitudes toward unions Sources future union members) author.name:(Willoughby Barclay))",
+        "lucn_query": "(host.volume:15 AND publicationDate:1986) AND (title:(College students majors attitudes toward unions Sources future union members) host.pages.first:223 host.pages.last:230 host.title:(Journal of Collective Negotiations in the Public Sector) author.name:(Willoughby Barclay))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:230 AND host.pages.first:223 AND host.title:(Journal of Collective Negotiations in the Public Sector) AND publicationDate:1986 AND title:(College students majors attitudes toward unions Sources future union members) AND author.name:(Willoughby Barclay) AND host.volume:15",
+        "lucn_query": "host.volume:15 AND title:(College students majors attitudes toward unions Sources future union members) AND host.pages.first:223 AND host.pages.last:230 AND publicationDate:1986 AND host.title:(Journal of Collective Negotiations in the Public Sector) AND author.name:(Willoughby Barclay)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.pages.last:230 AND host.pages.first:223 AND host.title:(Journal of Collective Negotiations in the Public Sector) AND publicationDate:1986 AND title:(College students majors attitudes toward unions Sources future union members) AND author.name:(Willoughby Barclay) AND host.volume:15",
+        "lucn_query": "host.volume:15 AND title:(College students majors attitudes toward unions Sources future union members) AND host.pages.first:223 AND host.pages.last:230 AND publicationDate:1986 AND host.title:(Journal of Collective Negotiations in the Public Sector) AND author.name:(Willoughby Barclay)",
         "match_flag": false
       }
     ]

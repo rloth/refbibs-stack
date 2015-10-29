@@ -1,0 +1,20 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <monogr>\n  <title level=\"m\" type=\"main\">&#8212;I have seen to-day a full-sized portrait of a lady with the name painted on&#8212;Ann Wood, wife of John Boult, 1687 Can any of your readers give any information</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Ann</forename>\n    <forename type=\"middle\">Wood</forename>\n   </persName>\n  </author>\n  <imprint>\n   <pubPlace>Wakefield</pubPlace>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "33359F2CE3B663C774F2C5931AD5B7353C4336C3",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title level=\"m\" type=\"main\">for worms in wood, on which is a painting ?</title>\n  <imprint>\n   <publisher>P. R</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "33359F2CE3B663C774F2C5931AD5B7353C4336C3",
+    "solved_qs": []
+  }
+]

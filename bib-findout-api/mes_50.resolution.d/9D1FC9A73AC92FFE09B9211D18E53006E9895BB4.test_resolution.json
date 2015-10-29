@@ -1,0 +1,447 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Blackstead</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Chrisey</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">D</forename>\n    <surname>Dow</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">J</forename>\n    <forename type=\"middle\">S</forename>\n    <surname>Horwitz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">E</forename>\n    <surname>Klunzinger</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">D</forename>\n    <forename type=\"middle\">B</forename>\n    <surname>Pulling</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Phys. Lett. A</title>\n  <imprint>\n   <biblScope unit=\"volume\">207</biblScope>\n   <biblScope unit=\"page\">109</biblScope>\n   <date type=\"published\" when=\"1995\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "9D1FC9A73AC92FFE09B9211D18E53006E9895BB4",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "John D Dow"
+            },
+            {
+              "name": "Howard A Blackstead"
+            },
+            {
+              "name": "Dale R Harshman"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0921-4534(01)00715-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "74",
+              "last": "78"
+            },
+            "title": "Physica C: Superconductivity and its applications",
+            "volume": "364\u2013365"
+          },
+          "id": "C77DFCD1F762F0E1B49DD3C87479D020D051DE1F",
+          "publicationDate": "2001",
+          "title": "High-temperature superconductivity: the roles of oxide layers"
+        },
+        "lucn_query": "H A Blackstead D B Chrisey J D Dow J S Horwitz A E Klunzinger D B Pulling Phys. Lett. A 207 109 1995",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:\"109\" AND host.volume:\"207\" AND publicationDate:\"1995\" AND host.title:\"Phys. Lett. A\" AND author.name:\"Blackstead\" AND author.name:\"Chrisey\" AND author.name:\"Dow\" AND author.name:\"Horwitz\" AND author.name:\"Klunzinger\" AND author.name:\"Pulling\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.A. Blackstead"
+            },
+            {
+              "name": "D.B. Chrisey"
+            },
+            {
+              "name": "John D. Dow"
+            },
+            {
+              "name": "J.S. Horwitz"
+            },
+            {
+              "name": "A.E. Klunzinger"
+            },
+            {
+              "name": "D.B. Pulling"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0375-9601(95)00653-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "109",
+              "last": "112"
+            },
+            "title": "Physics Letters A",
+            "volume": "207"
+          },
+          "id": "A0D0C8C224956E7DAAC0D9C47C3505666FB779D0",
+          "publicationDate": "1995",
+          "title": "Superconductivity in PrBa2Cu3O7"
+        },
+        "lucn_query": "host.pages.first:\"109\" host.volume:\"207\" publicationDate:\"1995\" host.title:\"Phys. Lett. A\" author.name:\"Blackstead\" author.name:\"Chrisey\" author.name:\"Dow\" author.name:\"Horwitz\" author.name:\"Klunzinger\" author.name:\"Pulling\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.A. Blackstead"
+            },
+            {
+              "name": "D.B. Chrisey"
+            },
+            {
+              "name": "John D. Dow"
+            },
+            {
+              "name": "J.S. Horwitz"
+            },
+            {
+              "name": "A.E. Klunzinger"
+            },
+            {
+              "name": "D.B. Pulling"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0375-9601(95)00653-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "109",
+              "last": "112"
+            },
+            "title": "Physics Letters A",
+            "volume": "207"
+          },
+          "id": "A0D0C8C224956E7DAAC0D9C47C3505666FB779D0",
+          "publicationDate": "1995",
+          "title": "Superconductivity in PrBa2Cu3O7"
+        },
+        "lucn_query": "host.pages.first:109 host.volume:207 publicationDate:1995 host.title:(Phys Lett) author.name:(Blackstead Chrisey Dow Horwitz Klunzinger Pulling)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.A. Blackstead"
+            },
+            {
+              "name": "D.B. Chrisey"
+            },
+            {
+              "name": "John D. Dow"
+            },
+            {
+              "name": "J.S. Horwitz"
+            },
+            {
+              "name": "A.E. Klunzinger"
+            },
+            {
+              "name": "D.B. Pulling"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0375-9601(95)00653-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "109",
+              "last": "112"
+            },
+            "title": "Physics Letters A",
+            "volume": "207"
+          },
+          "id": "A0D0C8C224956E7DAAC0D9C47C3505666FB779D0",
+          "publicationDate": "1995",
+          "title": "Superconductivity in PrBa2Cu3O7"
+        },
+        "lucn_query": "(host.volume:207 AND publicationDate:1995) AND (host.pages.first:109 host.title:(Phys Lett) author.name:(Blackstead Chrisey Dow Horwitz Klunzinger Pulling))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.A. Blackstead"
+            },
+            {
+              "name": "D.B. Chrisey"
+            },
+            {
+              "name": "John D. Dow"
+            },
+            {
+              "name": "J.S. Horwitz"
+            },
+            {
+              "name": "A.E. Klunzinger"
+            },
+            {
+              "name": "D.B. Pulling"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0375-9601(95)00653-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "109",
+              "last": "112"
+            },
+            "title": "Physics Letters A",
+            "volume": "207"
+          },
+          "id": "A0D0C8C224956E7DAAC0D9C47C3505666FB779D0",
+          "publicationDate": "1995",
+          "title": "Superconductivity in PrBa2Cu3O7"
+        },
+        "lucn_query": "(host.volume:207 AND publicationDate:1995) AND (host.pages.first:109 host.title:(Phys* Lett*) author.name:(Blackstead Chrisey Dow Horwitz Klunzinger Pulling))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:109 AND host.volume:207 AND publicationDate:1995 AND host.title:(Phys Lett) AND author.name:(Blackstead Chrisey Dow Horwitz Klunzinger Pulling)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "H.A. Blackstead"
+            },
+            {
+              "name": "D.B. Chrisey"
+            },
+            {
+              "name": "John D. Dow"
+            },
+            {
+              "name": "J.S. Horwitz"
+            },
+            {
+              "name": "A.E. Klunzinger"
+            },
+            {
+              "name": "D.B. Pulling"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0375-9601(95)00653-K"
+          ],
+          "host": {
+            "pages": {
+              "first": "109",
+              "last": "112"
+            },
+            "title": "Physics Letters A",
+            "volume": "207"
+          },
+          "id": "A0D0C8C224956E7DAAC0D9C47C3505666FB779D0",
+          "publicationDate": "1995",
+          "title": "Superconductivity in PrBa2Cu3O7"
+        },
+        "lucn_query": "host.pages.first:109 AND host.volume:207 AND publicationDate:1995 AND host.title:(Phys* Lett*) AND author.name:(Blackstead Chrisey Dow Horwitz Klunzinger Pulling)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Araujo-Moreira</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Lisboa-Filho</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Zanetti</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Leite</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Ortiz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Physica</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"1999\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9D1FC9A73AC92FFE09B9211D18E53006E9895BB4",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <monogr>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Araujo-Moreira</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">P</forename>\n    <forename type=\"middle\">N</forename>\n    <surname>Lisboa-Filho</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">J C</forename>\n    <surname>Lanfredi</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">W</forename>\n    <forename type=\"middle\">A</forename>\n    <surname>Ortiz</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Zanetti</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">E</forename>\n    <forename type=\"middle\">R</forename>\n    <surname>Leite</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <forename type=\"middle\">W</forename>\n    <surname>Mombruh</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">L</forename>\n    <surname>Ghivelder</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">Y</forename>\n    <forename type=\"middle\">G</forename>\n    <surname>Zhao</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">V</forename>\n    <surname>Venkatesan</surname>\n   </persName>\n  </author>\n  <imprint>\n   <date type=\"published\" when=\"2000\"></date>\n   <publisher>Physica C</publisher>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [
+      "WARNING: (skip) Refbib = monographie (ne peut exister dans la base)"
+    ],
+    "parent_doc": "9D1FC9A73AC92FFE09B9211D18E53006E9895BB4",
+    "solved_qs": []
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title></title>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <forename type=\"middle\">M</forename>\n    <surname>Araujo-Moreira</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Journal of Magnetism and Magnetic Materials</title>\n  <imprint>\n   <biblScope unit=\"volume\">226</biblScope>\n   <biblScope unit=\"issue\">230</biblScope>\n   <biblScope unit=\"page\" from=\"283\" to=\"284\"></biblScope>\n   <date type=\"published\" when=\"2001\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "9D1FC9A73AC92FFE09B9211D18E53006E9895BB4",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0022-0248(01)01546-9"
+          ],
+          "host": {
+            "pages": {
+              "first": "83",
+              "last": "89"
+            },
+            "title": "Journal of Crystal Growth",
+            "volume": "230"
+          },
+          "id": "E5D8E356270E0B2900C312CAACEE0868A2A47AC8",
+          "publicationDate": "2001",
+          "title": "Subject index vol. 223-230"
+        },
+        "lucn_query": "F M Araujo-Moreira Journal of Magnetism and Magnetic Materials 226 230 2001 283 284",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"226\" AND host.pages.first:\"283\" AND host.pages.last:\"284\" AND host.issue:\"230\" AND publicationDate:\"2001\" AND host.title:\"Journal of Magnetism and Magnetic Materials\" AND author.name:\"Araujo-Moreira\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Yu.A. Fridman"
+            },
+            {
+              "name": "O.A. Kosmachev"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0304-8853(01)00464-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "272",
+              "last": "284"
+            },
+            "title": "Journal of Magnetism and Magnetic Materials",
+            "volume": "236"
+          },
+          "id": "B21966E167368F24CD9FD74B8DE96273BD9E4597",
+          "publicationDate": "2001",
+          "title": "The influence of external magnetic fields on phase states and spectra of coupled magnetoelastic waves in a biaxial non-Heisenberg ferromagnetic"
+        },
+        "lucn_query": "host.volume:\"226\" host.pages.first:\"283\" host.pages.last:\"284\" host.issue:\"230\" publicationDate:\"2001\" host.title:\"Journal of Magnetism and Magnetic Materials\" author.name:\"Araujo-Moreira\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Aloisio Araujo"
+            },
+            {
+              "name": "Humberto Moreira"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0304-4068(00)00055-0"
+          ],
+          "host": {
+            "pages": {
+              "first": "17",
+              "last": "39"
+            },
+            "title": "Journal of Mathematical Economics",
+            "volume": "35"
+          },
+          "id": "47F45C1F736C4808A3D56411F40E1442D7BC8150",
+          "publicationDate": "2001",
+          "title": "A general Lagrangian approach for non-concave moral hazard problems"
+        },
+        "lucn_query": "host.volume:226 host.pages.first:283 host.pages.last:284 host.issue:230 publicationDate:2001 host.title:(Journal of Magnetism and Magnetic Materials) author.name:(Araujo Moreira)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A Forster"
+            },
+            {
+              "name": "J Hempenstall"
+            },
+            {
+              "name": "I Tucker"
+            },
+            {
+              "name": "T Rades"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0378-5173(01)00801-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "147",
+              "last": "161"
+            },
+            "title": "International Journal of Pharmaceutics",
+            "volume": "226"
+          },
+          "id": "EBD3544F195229AE7B90AA0C16E1F23433321734",
+          "publicationDate": "2001",
+          "title": "Selection of excipients for melt extrusion with two poorly water-soluble drugs by solubility parameter calculation and thermal analysis"
+        },
+        "lucn_query": "(host.volume:226 AND publicationDate:2001) AND (host.pages.first:283 host.pages.last:284 host.issue:230 host.title:(Journal of Magnetism and Magnetic Materials) author.name:(Araujo Moreira))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A Forster"
+            },
+            {
+              "name": "J Hempenstall"
+            },
+            {
+              "name": "I Tucker"
+            },
+            {
+              "name": "T Rades"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0378-5173(01)00801-8"
+          ],
+          "host": {
+            "pages": {
+              "first": "147",
+              "last": "161"
+            },
+            "title": "International Journal of Pharmaceutics",
+            "volume": "226"
+          },
+          "id": "EBD3544F195229AE7B90AA0C16E1F23433321734",
+          "publicationDate": "2001",
+          "title": "Selection of excipients for melt extrusion with two poorly water-soluble drugs by solubility parameter calculation and thermal analysis"
+        },
+        "lucn_query": "(host.volume:226 AND publicationDate:2001) AND (host.pages.first:283 host.pages.last:284 host.issue:230 host.title:(journal of* Magnetism* and* Magnetic* Materials*) author.name:(Araujo Moreira))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:226 AND host.pages.first:283 AND host.pages.last:284 AND host.issue:230 AND publicationDate:2001 AND host.title:(Journal of Magnetism and Magnetic Materials) AND author.name:(Araujo Moreira)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:226 AND host.pages.first:283 AND host.pages.last:284 AND host.issue:230 AND publicationDate:2001 AND host.title:(journal of* Magnetism* and* Magnetic* Materials*) AND author.name:(Araujo Moreira)",
+        "match_flag": false
+      }
+    ]
+  }
+]

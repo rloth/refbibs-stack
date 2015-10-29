@@ -1,0 +1,754 @@
+[
+  {
+    "bib_html": "<biblStruct xml:id=\"b0\">\n <analytic>\n  <title level=\"a\" type=\"main\">New approaches to the diagnosis of thymic epithelial tumors</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Kirchner</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <forename type=\"middle\">H K</forename>\n    <surname>Muller-Hermelink</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"m\">Progress in Surgical Pathology</title>\n  <editor>C. M. Fenoglio- Preisser, M. Wolff &amp; F. Rilke</editor>\n  <meeting><address><addrLine>Philadelphia</addrLine></address></meeting>\n  <imprint>\n   <publisher>Field and Wood Inc</publisher>\n   <date type=\"published\" when=\"1989\"></date>\n   <biblScope unit=\"page\" from=\"167\" to=\"186\"></biblScope>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b0",
+    "findout_errs": [],
+    "parent_doc": "2B637EAA52EE8D54FEA49E6161B0F47946347CBB",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "F.C.S. HO"
+            },
+            {
+              "name": "K.H. FU"
+            },
+            {
+              "name": "S.Y. LAM"
+            },
+            {
+              "name": "S.W. CHIU"
+            },
+            {
+              "name": "A.C.L. CHAN"
+            },
+            {
+              "name": "H.K. M\u00dcLLER\u2010HERMELINK"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1111/j.1365-2559.1994.tb00594.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "21",
+              "last": "29"
+            },
+            "title": "Histopathology",
+            "volume": "25"
+          },
+          "id": "A9AD2EDE8167A2855B63D02E71906CA85D56584E",
+          "publicationDate": "1994",
+          "title": "Evaluation of a histogenetic classification for thymic epithelial tumours"
+        },
+        "lucn_query": "New approaches to the diagnosis of thymic epithelial tumors Kirchner T H K Muller-Hermelink Progress in Surgical Pathology C. M. Fenoglio- Preisser, M. Wolff & F. Rilke Philadelphia Field and Wood Inc 1989 167 186",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "author.name:\"Muller-Hermelink\" AND host.pages.first:\"167\" AND title:\"New approaches to the diagnosis of thymic epithelial tumors\" AND host.editor:\"C. M. Fenoglio- Preisser, M. Wolff & F. Rilke\" AND host.editor:\"Field and Wood Inc\" AND host.pages.last:\"186\" AND publicationDate:\"1989\" AND host.title:\"Progress in Surgical Pathology\" AND \"Philadelphia\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Harris Harris"
+            },
+            {
+              "name": "Jaffe Jaffe"
+            },
+            {
+              "name": "Diebold Diebold"
+            },
+            {
+              "name": "Flandrin Flandrin"
+            },
+            {
+              "name": "Muller\u2010Hermelink Muller\u2010Hermelink"
+            },
+            {
+              "name": "Vardiman Vardiman"
+            },
+            {
+              "name": "Lister Lister"
+            },
+            {
+              "name": "Bloomfield Bloomfield"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1046/j.1365-2559.2000.00895.x"
+          ],
+          "host": {
+            "pages": {
+              "first": "69",
+              "last": "86"
+            },
+            "title": "Histopathology",
+            "volume": "36"
+          },
+          "id": "036FBC250621E1F59AB8E3B545F6E742D2801B4D",
+          "publicationDate": "2000",
+          "title": "The World Health Organization classification of neoplastic diseases of the haematopoietic and lymphoid tissues: report of the Clinical Advisory Committee Meeting, Airlie House, Virginia, November 1997"
+        },
+        "lucn_query": "author.name:\"Muller-Hermelink\" host.pages.first:\"167\" title:\"New approaches to the diagnosis of thymic epithelial tumors\" host.editor:\"C. M. Fenoglio- Preisser, M. Wolff & F. Rilke\" host.editor:\"Field and Wood Inc\" host.pages.last:\"186\" publicationDate:\"1989\" host.title:\"Progress in Surgical Pathology\" \"Philadelphia\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Ren Zhou"
+            },
+            {
+              "name": "Andreas Zettl"
+            },
+            {
+              "name": "Philipp Strbel"
+            },
+            {
+              "name": "Kai Wagner"
+            },
+            {
+              "name": "Hans Konrad Mller-Hermelink"
+            },
+            {
+              "name": "Suo-jiang Zhang"
+            },
+            {
+              "name": "Alexander Marx"
+            },
+            {
+              "name": "Petr Starostik"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0002-9440(10)63031-3"
+          ],
+          "host": {
+            "pages": {
+              "first": "1853",
+              "last": "1860"
+            },
+            "title": "The American Journal of Pathology",
+            "volume": "159"
+          },
+          "id": "1052FAFBBD3CD861E055531719AFFC2C2DA178A5",
+          "publicationDate": "2001",
+          "title": "Thymic Epithelial Tumors Can Develop along Two Different Pathogenetic Pathways"
+        },
+        "lucn_query": "host.editor:(Fenoglio Preisser Wolff Rilke Field Wood) title:(approaches diagnosis thymic epithelial tumors) host.pages.first:167 host.pages.last:186 Philadelphia author.name:(Muller Hermelink) host.title:(Progress in Surgical Pathology) publicationDate:1989",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Dr. McCaughan Jr. MD"
+            },
+            {
+              "name": "Philip C. Hawley MD"
+            },
+            {
+              "name": "John Walker"
+            }
+          ],
+          "corpusName": "wiley",
+          "doi": [
+            "10.1002/ssu.2980050107"
+          ],
+          "host": {
+            "pages": {
+              "first": "38",
+              "last": "47"
+            },
+            "title": "Seminars in Surgical Oncology",
+            "volume": "5"
+          },
+          "id": "B588D63CBFD5CA90E3BBC665E4E5703780416D72",
+          "publicationDate": "1989",
+          "title": "Management of endobronchial tumors: A comparative study"
+        },
+        "lucn_query": "(publicationDate:1989) AND (host.editor:(Fenoglio Preisser Wolff Rilke Field Wood) title:(approaches diagnosis thymic epithelial tumors) host.pages.first:167 host.pages.last:186 Philadelphia author.name:(Muller Hermelink) host.title:(Progress in Surgical Pathology))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Carsten Ropke"
+            },
+            {
+              "name": "Bo van Deurs"
+            },
+            {
+              "name": "Ole W. Petersen"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02624423"
+          ],
+          "host": {
+            "pages": {
+              "first": "671",
+              "last": "681"
+            },
+            "title": "In Vitro Cellular & Developmental Biology",
+            "volume": "26"
+          },
+          "id": "144BD0C3B65F2FABD866ECBE8AE0CD9C7EE1D082",
+          "publicationDate": "1989",
+          "title": "Short-term cultivation of murine thymic epithelial cells in a serum-free medium"
+        },
+        "lucn_query": "(publicationDate:1989) AND (host.editor:(Fenoglio Preisser Wolff Rilke Field Wood) title:(approaches diagnosis thymic epithelial tumors) host.pages.first:167 host.pages.last:186 Philadelphia author.name:(Muller Hermelink) host.title:(Progress* in* Surgical* Pathology*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Fenoglio Preisser Wolff Rilke Field Wood) AND title:(approaches diagnosis thymic epithelial tumors) AND host.pages.first:167 AND host.pages.last:186 AND Philadelphia AND author.name:(Muller Hermelink) AND host.title:(Progress in Surgical Pathology) AND publicationDate:1989",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.editor:(Fenoglio Preisser Wolff Rilke Field Wood) AND title:(approaches diagnosis thymic epithelial tumors) AND host.pages.first:167 AND host.pages.last:186 AND Philadelphia AND author.name:(Muller Hermelink) AND host.title:(Progress* in* Surgical* Pathology*) AND publicationDate:1989",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b1\">\n <analytic>\n  <title level=\"a\" type=\"main\">Pathogenesis of myasthenia gravis: acetylcholine receptor-related antigenic determinants in tumor-free thymuses and thymic epithelial tumors</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Kirchner</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Tzartos</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Hoppe</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Schalke</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Wekerle &amp; H</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Muller-Hermelink</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Am. J. Pathol</title>\n  <imprint>\n   <biblScope unit=\"volume\">WO</biblScope>\n   <biblScope unit=\"page\" from=\"268\" to=\"280\"></biblScope>\n   <date type=\"published\" when=\"1988\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b1",
+    "findout_errs": [
+      "ERROR: skip run_queries: 'HTTP Error 400: Bad Request'"
+    ],
+    "parent_doc": "2B637EAA52EE8D54FEA49E6161B0F47946347CBB",
+    "solved_qs": [
+      {
+        "json_answr": null,
+        "lucn_query": "Pathogenesis of myasthenia gravis\\: acetylcholine receptor-related antigenic determinants in tumor-free thymuses and thymic epithelial tumors Kirchner T S Tzartos F Hoppe B Schalke H K Wekerle & H Muller-Hermelink Am. J. Pathol WO 1988 268 280",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"WO\" AND title:\"Pathogenesis of myasthenia gravis\\: acetylcholine receptor-related antigenic determinants in tumor-free thymuses and thymic epithelial tumors\" AND host.pages.first:\"268\" AND host.pages.last:\"280\" AND publicationDate:\"1988\" AND host.title:\"Am. J. Pathol\" AND author.name:\"Tzartos\" AND author.name:\"Hoppe\" AND author.name:\"Schalke\" AND author.name:\"Wekerle & H\" AND author.name:\"Muller-Hermelink\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"WO\" title:\"Pathogenesis of myasthenia gravis\\: acetylcholine receptor-related antigenic determinants in tumor-free thymuses and thymic epithelial tumors\" host.pages.first:\"268\" host.pages.last:\"280\" publicationDate:\"1988\" host.title:\"Am. J. Pathol\" author.name:\"Tzartos\" author.name:\"Hoppe\" author.name:\"Schalke\" author.name:\"Wekerle & H\" author.name:\"Muller-Hermelink\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:WO title:(Pathogenesis myasthenia gravis acetylcholine receptor related antigenic determinants tumor free thymuses thymic epithelial tumors) host.pages.first:268 host.pages.last:280 publicationDate:1988 host.title:(Am J Pathol) author.name:(Tzartos Hoppe Schalke Wekerle Muller Hermelink)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:WO AND publicationDate:1988) AND (title:(Pathogenesis myasthenia gravis acetylcholine receptor related antigenic determinants tumor free thymuses thymic epithelial tumors) host.pages.first:268 host.pages.last:280 host.title:(Am J Pathol) author.name:(Tzartos Hoppe Schalke Wekerle Muller Hermelink))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "(host.volume:WO AND publicationDate:1988) AND (title:(Pathogenesis myasthenia gravis acetylcholine receptor related antigenic determinants tumor free thymuses thymic epithelial tumors) host.pages.first:268 host.pages.last:280 host.title:(Am* journal Pathol*) author.name:(Tzartos Hoppe Schalke Wekerle Muller Hermelink))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:WO AND title:(Pathogenesis myasthenia gravis acetylcholine receptor related antigenic determinants tumor free thymuses thymic epithelial tumors) AND host.pages.first:268 AND host.pages.last:280 AND publicationDate:1988 AND host.title:(Am J Pathol) AND author.name:(Tzartos Hoppe Schalke Wekerle Muller Hermelink)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:WO AND title:(Pathogenesis myasthenia gravis acetylcholine receptor related antigenic determinants tumor free thymuses thymic epithelial tumors) AND host.pages.first:268 AND host.pages.last:280 AND publicationDate:1988 AND host.title:(Am* journal Pathol*) AND author.name:(Tzartos Hoppe Schalke Wekerle Muller Hermelink)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b2\">\n <analytic>\n  <title level=\"a\" type=\"main\">Characterization of a protein with an acetylcholine receptor epitope from myasthenia gravis-associated thymomas</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Marx</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">R</forename>\n    <surname>O 'connor</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">K</forename>\n    <forename type=\"middle\">I</forename>\n    <surname>Geuder</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">F</forename>\n    <surname>Hoppe</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Schalke</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">S</forename>\n    <surname>Tzartos</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">I</forename>\n    <surname>Kalies</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Kirchner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">&amp;</forename>\n    <forename type=\"middle\">H K</forename>\n    <surname>Muller-Hermelink</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Lab. Invest</title>\n  <imprint>\n   <biblScope unit=\"volume\">62</biblScope>\n   <biblScope unit=\"page\" from=\"279\" to=\"286\"></biblScope>\n   <date type=\"published\" when=\"1990\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n",
+    "bib_id": "b2",
+    "findout_errs": [],
+    "parent_doc": "2B637EAA52EE8D54FEA49E6161B0F47946347CBB",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alexander Marx"
+            },
+            {
+              "name": "Hans Konrad M\u00fcller-Hermelink"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0344-0338(99)80001-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "515",
+              "last": "533"
+            },
+            "title": "Pathology - Research and Practice",
+            "volume": "195"
+          },
+          "id": "4C4D17D5C64CA0134A22185504A06F09678F908C",
+          "publicationDate": "1999",
+          "title": "From Basic lmmunobiology to the Upcoming WHO-Classification of Tumors of the Thymus"
+        },
+        "lucn_query": "Characterization of a protein with an acetylcholine receptor epitope from myasthenia gravis-associated thymomas Marx A R O 'connor K I Geuder F Hoppe B Schalke S Tzartos I Kalies T Kirchner & H K Muller-Hermelink Lab. Invest 62 1990 279 286",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"62\" AND title:\"Characterization of a protein with an acetylcholine receptor epitope from myasthenia gravis-associated thymomas\" AND host.pages.first:\"279\" AND host.pages.last:\"286\" AND publicationDate:\"1990\" AND host.title:\"Lab. Invest\" AND author.name:\"O 'connor\" AND author.name:\"Geuder\" AND author.name:\"Hoppe\" AND author.name:\"Schalke\" AND author.name:\"Tzartos\" AND author.name:\"Kalies\" AND author.name:\"Kirchner\" AND author.name:\"Muller-Hermelink\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Thomas Kirchner"
+            },
+            {
+              "name": "Florian Hoppe"
+            },
+            {
+              "name": "Berthold Schalke"
+            },
+            {
+              "name": "Hans Konrad M\u00fcller-Hermelink"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02899226"
+          ],
+          "host": {
+            "pages": {
+              "first": "295",
+              "last": "302"
+            },
+            "title": "Virchows Archiv B",
+            "volume": "54"
+          },
+          "id": "81639428BA8E3E6D904B15EB59D1F04C9BD69EF1",
+          "publicationDate": "1987",
+          "title": "Microenvironment of thymic myoid cells in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:\"62\" title:\"Characterization of a protein with an acetylcholine receptor epitope from myasthenia gravis-associated thymomas\" host.pages.first:\"279\" host.pages.last:\"286\" publicationDate:\"1990\" host.title:\"Lab. Invest\" author.name:\"O 'connor\" author.name:\"Geuder\" author.name:\"Hoppe\" author.name:\"Schalke\" author.name:\"Tzartos\" author.name:\"Kalies\" author.name:\"Kirchner\" author.name:\"Muller-Hermelink\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Thomas Kirchner"
+            },
+            {
+              "name": "Florian Hoppe"
+            },
+            {
+              "name": "Berthold Schalke"
+            },
+            {
+              "name": "Hans Konrad M\u00fcller-Hermelink"
+            }
+          ],
+          "corpusName": "springer",
+          "doi": [
+            "10.1007/BF02899226"
+          ],
+          "host": {
+            "pages": {
+              "first": "295",
+              "last": "302"
+            },
+            "title": "Virchows Archiv B",
+            "volume": "54"
+          },
+          "id": "81639428BA8E3E6D904B15EB59D1F04C9BD69EF1",
+          "publicationDate": "1987",
+          "title": "Microenvironment of thymic myoid cells in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:62 title:(Characterization protein with acetylcholine receptor epitope from myasthenia gravis associated thymomas) host.pages.first:279 host.pages.last:286 publicationDate:1990 host.title:(Lab Invest) author.name:(connor Geuder Hoppe Schalke Tzartos Kalies Kirchner Muller Hermelink)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.J. Coughtrey"
+            },
+            {
+              "name": "J.A. Kirton"
+            },
+            {
+              "name": "N.G. Mitchell"
+            },
+            {
+              "name": "C. Morris"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0269-7491(89)90150-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "281",
+              "last": "315"
+            },
+            "title": "Environmental Pollution",
+            "volume": "62"
+          },
+          "id": "76517D7C665CDEF851071ED7FEE52670B8167425",
+          "publicationDate": "1990",
+          "title": "Transfer of radioactive caesium from soil to vegetation and comparison with potassium in upland grasslands"
+        },
+        "lucn_query": "(host.volume:62 AND publicationDate:1990) AND (title:(Characterization protein with acetylcholine receptor epitope from myasthenia gravis associated thymomas) host.pages.first:279 host.pages.last:286 host.title:(Lab Invest) author.name:(connor Geuder Hoppe Schalke Tzartos Kalies Kirchner Muller Hermelink))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "P.J. Coughtrey"
+            },
+            {
+              "name": "J.A. Kirton"
+            },
+            {
+              "name": "N.G. Mitchell"
+            },
+            {
+              "name": "C. Morris"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0269-7491(89)90150-4"
+          ],
+          "host": {
+            "pages": {
+              "first": "281",
+              "last": "315"
+            },
+            "title": "Environmental Pollution",
+            "volume": "62"
+          },
+          "id": "76517D7C665CDEF851071ED7FEE52670B8167425",
+          "publicationDate": "1990",
+          "title": "Transfer of radioactive caesium from soil to vegetation and comparison with potassium in upland grasslands"
+        },
+        "lucn_query": "(host.volume:62 AND publicationDate:1990) AND (title:(Characterization protein with acetylcholine receptor epitope from myasthenia gravis associated thymomas) host.pages.first:279 host.pages.last:286 host.title:(Lab* Invest*) author.name:(connor Geuder Hoppe Schalke Tzartos Kalies Kirchner Muller Hermelink))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:62 AND title:(Characterization protein with acetylcholine receptor epitope from myasthenia gravis associated thymomas) AND host.pages.first:279 AND host.pages.last:286 AND publicationDate:1990 AND host.title:(Lab Invest) AND author.name:(connor Geuder Hoppe Schalke Tzartos Kalies Kirchner Muller Hermelink)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:62 AND title:(Characterization protein with acetylcholine receptor epitope from myasthenia gravis associated thymomas) AND host.pages.first:279 AND host.pages.last:286 AND publicationDate:1990 AND host.title:(Lab* Invest*) AND author.name:(connor Geuder Hoppe Schalke Tzartos Kalies Kirchner Muller Hermelink)",
+        "match_flag": false
+      }
+    ]
+  },
+  {
+    "bib_html": "<biblStruct xml:id=\"b3\">\n <analytic>\n  <title level=\"a\" type=\"main\">Neurofilament epitopes in thymoma and antiaxonal autoimmunity in myasthenia gravis</title>\n  <author>\n   <persName>\n    <forename type=\"first\">Marx</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">T</forename>\n    <surname>Kirchner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">A</forename>\n    <surname>Greiner</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">H</forename>\n    <forename type=\"middle\">K</forename>\n    <surname>Muller-Hermelink</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <forename type=\"first\">B</forename>\n    <surname>Schalke &amp; M</surname>\n   </persName>\n  </author>\n  <author>\n   <persName>\n    <surname>Osborn</surname>\n   </persName>\n  </author>\n </analytic>\n <monogr>\n  <title level=\"j\">Lancet</title>\n  <imprint>\n   <biblScope unit=\"volume\">339</biblScope>\n   <biblScope unit=\"page\" from=\"707\" to=\"708\"></biblScope>\n   <date type=\"published\" when=\"1992\"></date>\n  </imprint>\n </monogr>\n</biblStruct>\n\n   ",
+    "bib_id": "b3",
+    "findout_errs": [],
+    "parent_doc": "2B637EAA52EE8D54FEA49E6161B0F47946347CBB",
+    "solved_qs": [
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "Alexander Marx"
+            },
+            {
+              "name": "Hans Konrad M\u00fcller-Hermelink"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/S0344-0338(99)80001-6"
+          ],
+          "host": {
+            "pages": {
+              "first": "515",
+              "last": "533"
+            },
+            "title": "Pathology - Research and Practice",
+            "volume": "195"
+          },
+          "id": "4C4D17D5C64CA0134A22185504A06F09678F908C",
+          "publicationDate": "1999",
+          "title": "From Basic lmmunobiology to the Upcoming WHO-Classification of Tumors of the Thymus"
+        },
+        "lucn_query": "Neurofilament epitopes in thymoma and antiaxonal autoimmunity in myasthenia gravis Marx A T Kirchner A Greiner H K Muller-Hermelink B Schalke & M Osborn Lancet 339 1992 707 708",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.volume:\"339\" AND title:\"Neurofilament epitopes in thymoma and antiaxonal autoimmunity in myasthenia gravis\" AND host.pages.first:\"707\" AND host.pages.last:\"708\" AND publicationDate:\"1992\" AND host.title:\"Lancet\" AND author.name:\"Kirchner\" AND author.name:\"Greiner\" AND author.name:\"Muller-Hermelink\" AND author.name:\"Schalke & M\" AND author.name:\"Osborn\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:\"339\" title:\"Neurofilament epitopes in thymoma and antiaxonal autoimmunity in myasthenia gravis\" host.pages.first:\"707\" host.pages.last:\"708\" publicationDate:\"1992\" host.title:\"Lancet\" author.name:\"Kirchner\" author.name:\"Greiner\" author.name:\"Muller-Hermelink\" author.name:\"Schalke & M\" author.name:\"Osborn\"",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:339 title:(Neurofilament epitopes thymoma antiaxonal autoimmunity myasthenia gravis) host.pages.first:707 host.pages.last:708 publicationDate:1992 host.title:Lancet author.name:(Kirchner Greiner Muller Hermelink Schalke Osborn)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "(host.volume:339 AND publicationDate:1992) AND (title:(Neurofilament epitopes thymoma antiaxonal autoimmunity myasthenia gravis) host.pages.first:707 host.pages.last:708 host.title:Lancet author.name:(Kirchner Greiner Muller Hermelink Schalke Osborn))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "(host.volume:339 AND publicationDate:1992) AND (title:(Neurofilament epitopes thymoma antiaxonal autoimmunity myasthenia gravis) host.pages.first:707 host.pages.last:708 host.title:(Lancet*) author.name:(Kirchner Greiner Muller Hermelink Schalke Osborn))",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:339 AND title:(Neurofilament epitopes thymoma antiaxonal autoimmunity myasthenia gravis) AND host.pages.first:707 AND host.pages.last:708 AND publicationDate:1992 AND host.title:Lancet AND author.name:(Kirchner Greiner Muller Hermelink Schalke Osborn)",
+        "match_flag": false
+      },
+      {
+        "json_answr": {
+          "author": [
+            {
+              "name": "A. Marx MD"
+            },
+            {
+              "name": "T. Kirchner MD"
+            },
+            {
+              "name": "A. Greiner MD"
+            },
+            {
+              "name": "H.K. M\u00fcller-Hermelink MD"
+            },
+            {
+              "name": "B. Schalke MD"
+            },
+            {
+              "name": "M. Osborn PhD"
+            }
+          ],
+          "corpusName": "elsevier",
+          "doi": [
+            "10.1016/0140-6736(92)90601-X"
+          ],
+          "host": {
+            "pages": {
+              "first": "707",
+              "last": "708"
+            },
+            "title": "The Lancet",
+            "volume": "339"
+          },
+          "id": "177F8493D04267270CE1470DAFD4401A6B4F01D2",
+          "publicationDate": "1992",
+          "title": "Neurofilament epitopes in thymoma and antiaxonal autoantibodies in myasthenia gravis"
+        },
+        "lucn_query": "host.volume:339 AND title:(Neurofilament epitopes thymoma antiaxonal autoimmunity myasthenia gravis) AND host.pages.first:707 AND host.pages.last:708 AND publicationDate:1992 AND host.title:(Lancet*) AND author.name:(Kirchner Greiner Muller Hermelink Schalke Osborn)",
+        "match_flag": false
+      }
+    ]
+  }
+]

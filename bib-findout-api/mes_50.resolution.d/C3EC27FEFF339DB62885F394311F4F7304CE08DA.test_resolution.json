@@ -43,27 +43,27 @@
         "json_answr": {
           "author": [
             {
-              "name": "Carri Ginter"
+              "name": "Barbara S. Hulka"
             },
             {
-              "name": "Raul Narits"
+              "name": "Patricia G. Moorman"
             }
           ],
-          "corpusName": "brill-journals",
+          "corpusName": "elsevier",
           "doi": [
-            "10.1163/092598812X13274154887303"
+            "10.1016/S0378-5122(00)00196-1"
           ],
           "host": {
             "pages": {
-              "first": "54",
-              "last": "76"
+              "first": "103",
+              "last": "113"
             },
-            "title": "Review of Central and East European Law",
+            "title": "Maturitas",
             "volume": "38"
           },
-          "id": "7DC26C8DE36C1A3E2DC1B5D62020F42B44AF7482",
-          "publicationDate": "2013",
-          "title": "The Perspective of a Small Member State to the Democratic Deficiency of the ESM"
+          "id": "021D7F0613419D91A3135461C048CBA2D56EA780",
+          "publicationDate": "2001",
+          "title": "Breast cancer: hormones and other risk factors"
         },
         "lucn_query": "host.volume:\"38\" title:\"II See, for example\\: I\" host.title:\"Langmuir. J. Am. Chem. Sot\"",
         "match_flag": false
@@ -91,7 +91,7 @@
           "publicationDate": "1975",
           "title": "LAND STORAGE\u2014THE SWEDISH EXAMPLE*"
         },
-        "lucn_query": "host.title:(Langmuir J Am Chem Sot) host.volume:38 title:example",
+        "lucn_query": "host.volume:38 title:example host.title:(Langmuir J Am Chem Sot)",
         "match_flag": false
       },
       {
@@ -120,7 +120,7 @@
           "publicationDate": "2001",
           "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
         },
-        "lucn_query": "(host.volume:38) AND (host.title:(Langmuir J Am Chem Sot) title:example)",
+        "lucn_query": "(host.volume:38) AND (title:example host.title:(Langmuir J Am Chem Sot))",
         "match_flag": false
       },
       {
@@ -149,12 +149,12 @@
           "publicationDate": "2001",
           "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
         },
-        "lucn_query": "(host.volume:38) AND (host.title:(Langmuir* journal Am* Chem* Sot*) title:example)",
+        "lucn_query": "(host.volume:38) AND (title:example host.title:(Langmuir* journal Am* Chem* Sot*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "host.title:(Langmuir J Am Chem Sot) AND host.volume:38 AND title:example",
+        "lucn_query": "host.volume:38 AND title:example AND host.title:(Langmuir J Am Chem Sot)",
         "match_flag": false
       },
       {
@@ -183,7 +183,7 @@
           "publicationDate": "2001",
           "title": "Evaluating Comparability in Computerized Adaptive Testing: Issues, Criteria and an Example"
         },
-        "lucn_query": "host.title:(Langmuir* journal Am* Chem* Sot*) AND host.volume:38 AND title:example",
+        "lucn_query": "host.volume:38 AND title:example AND host.title:(Langmuir* journal Am* Chem* Sot*)",
         "match_flag": false
       }
     ]
@@ -261,7 +261,7 @@
           "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
         },
         "lucn_query": "author.name:\"Marsh\" author.name:\"Farnsworth\" host.title:\"Surt. Sci. I\"",
-        "match_flag": true
+        "match_flag": false
       },
       {
         "json_answr": {
@@ -290,7 +290,7 @@
           "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
         },
         "lucn_query": "author.name:(Marsh Farnsworth) host.title:(Surt Sci)",
-        "match_flag": true
+        "match_flag": false
       },
       {
         "json_answr": "Pas de requ\u00eate 4 (champs n\u00e9cessaires absents?)",
@@ -334,7 +334,7 @@
           "title": "Low-energy electron diffraction studies of (100) and (111) surfaces of semiconducting diamond"
         },
         "lucn_query": "author.name:(Marsh Farnsworth) AND host.title:(Surt* Sci*)",
-        "match_flag": true
+        "match_flag": false
       }
     ]
   },
@@ -372,7 +372,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:\"Germer\" AND host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" AND host.pages.last:\"4\" AND publicationDate:\"1960\" AND host.pages.first:\"7\"",
+        "lucn_query": "host.pages.first:\"7\" AND host.pages.last:\"4\" AND publicationDate:\"1960\" AND host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" AND author.name:\"Germer\"",
         "match_flag": false
       },
       {
@@ -398,7 +398,7 @@
           "publicationDate": "1960",
           "title": "The erosion of relay contacts"
         },
-        "lucn_query": "author.name:\"Germer\" host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" host.pages.last:\"4\" publicationDate:\"1960\" host.pages.first:\"7\"",
+        "lucn_query": "host.pages.first:\"7\" host.pages.last:\"4\" publicationDate:\"1960\" host.title:\"Hartman. Rev. Sci. In .\\:rum. i I\" author.name:\"Germer\"",
         "match_flag": false
       },
       {
@@ -424,7 +424,7 @@
           "publicationDate": "1960",
           "title": "The erosion of relay contacts"
         },
-        "lucn_query": "author.name:Germer host.title:(Hartman Rev Sci In rum) host.pages.last:4 publicationDate:1960 host.pages.first:7",
+        "lucn_query": "host.pages.first:7 host.pages.last:4 publicationDate:1960 host.title:(Hartman Rev Sci In rum) author.name:Germer",
         "match_flag": false
       },
       {
@@ -450,7 +450,7 @@
           "publicationDate": "1960",
           "title": "The erosion of relay contacts"
         },
-        "lucn_query": "(publicationDate:1960) AND (author.name:Germer host.title:(Hartman Rev Sci In rum) host.pages.last:4 host.pages.first:7)",
+        "lucn_query": "(publicationDate:1960) AND (host.pages.first:7 host.pages.last:4 host.title:(Hartman Rev Sci In rum) author.name:Germer)",
         "match_flag": false
       },
       {
@@ -476,17 +476,17 @@
           "publicationDate": "1960",
           "title": "The erosion of relay contacts"
         },
-        "lucn_query": "(publicationDate:1960) AND (author.name:Germer host.title:(Hartman* Rev* Sci* In* rum*) host.pages.last:4 host.pages.first:7)",
+        "lucn_query": "(publicationDate:1960) AND (host.pages.first:7 host.pages.last:4 host.title:(Hartman* Rev* Sci* In* rum*) author.name:Germer)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:Germer AND host.title:(Hartman Rev Sci In rum) AND host.pages.last:4 AND publicationDate:1960 AND host.pages.first:7",
+        "lucn_query": "host.pages.first:7 AND host.pages.last:4 AND publicationDate:1960 AND host.title:(Hartman Rev Sci In rum) AND author.name:Germer",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:Germer AND host.title:(Hartman* Rev* Sci* In* rum*) AND host.pages.last:4 AND publicationDate:1960 AND host.pages.first:7",
+        "lucn_query": "host.pages.first:7 AND host.pages.last:4 AND publicationDate:1960 AND host.title:(Hartman* Rev* Sci* In* rum*) AND author.name:Germer",
         "match_flag": false
       }
     ]
@@ -501,34 +501,40 @@
         "json_answr": {
           "author": [
             {
-              "name": "A. Fasolino"
+              "name": "Eloise Foo"
             },
             {
-              "name": "E. Tosatti"
+              "name": "J. Damien Platten"
+            },
+            {
+              "name": "James L. Weller"
+            },
+            {
+              "name": "James B. Reid"
             }
           ],
-          "corpusName": "elsevier",
+          "corpusName": "wiley",
           "doi": [
-            "10.1016/0039-6028(86)90325-0"
+            "10.1111/j.1399-3054.2006.00649.x"
           ],
           "host": {
             "pages": {
-              "first": "483",
-              "last": "495"
+              "first": "149",
+              "last": "156"
             },
-            "title": "Surface Science",
-            "volume": "178"
+            "title": "Physiologia Plantarum",
+            "volume": "127"
           },
-          "id": "F167BB112FADD64D91F38F18449DAA4687F93FB2",
-          "publicationDate": "1986",
-          "title": "Incommensurate sandwiches in displacive surface reconstructions"
+          "id": "ED39B3A2AB2A2E1069729474D18568B6B708D9D2",
+          "publicationDate": "2006",
+          "title": "PhyA and cry1 act redundantly to regulate gibberellin levels during de\u2010etiolation in blue light"
         },
         "lucn_query": "C Z Wang E Tosatti A Fasolino Phya. Rev. L,ctt 60 2661",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:\"Wang\" AND author.name:\"Tosatti\" AND author.name:\"Fasolino\" AND host.title:\"Phya. Rev. L,ctt\" AND host.volume:\"60\" AND host.pages.first:\"2661\"",
+        "lucn_query": "host.pages.first:\"2661\" AND host.volume:\"60\" AND author.name:\"Wang\" AND author.name:\"Tosatti\" AND author.name:\"Fasolino\" AND host.title:\"Phya. Rev. L,ctt\"",
         "match_flag": false
       },
       {
@@ -557,7 +563,7 @@
           "publicationDate": "1986",
           "title": "Incommensurate sandwiches in displacive surface reconstructions"
         },
-        "lucn_query": "author.name:\"Wang\" author.name:\"Tosatti\" author.name:\"Fasolino\" host.title:\"Phya. Rev. L,ctt\" host.volume:\"60\" host.pages.first:\"2661\"",
+        "lucn_query": "host.pages.first:\"2661\" host.volume:\"60\" author.name:\"Wang\" author.name:\"Tosatti\" author.name:\"Fasolino\" host.title:\"Phya. Rev. L,ctt\"",
         "match_flag": false
       },
       {
@@ -586,7 +592,7 @@
           "publicationDate": "1986",
           "title": "Incommensurate sandwiches in displacive surface reconstructions"
         },
-        "lucn_query": "author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt) host.volume:60 host.pages.first:2661",
+        "lucn_query": "host.pages.first:2661 host.volume:60 author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt)",
         "match_flag": false
       },
       {
@@ -612,7 +618,7 @@
           "publicationDate": "1996",
           "title": "Domain-specific rationality in human choices: violations of utility axioms and social contexts"
         },
-        "lucn_query": "(host.volume:60) AND (author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt) host.pages.first:2661)",
+        "lucn_query": "(host.volume:60) AND (host.pages.first:2661 author.name:(Wang Tosatti Fasolino) host.title:(Phya Rev ctt))",
         "match_flag": false
       },
       {
@@ -638,17 +644,17 @@
           "publicationDate": "1993",
           "title": "A Model of Intertemporal Asset Prices Under Asymmetric Information"
         },
-        "lucn_query": "(host.volume:60) AND (author.name:(Wang Tosatti Fasolino) host.title:(Phya* Rev* ctt*) host.pages.first:2661)",
+        "lucn_query": "(host.volume:60) AND (host.pages.first:2661 author.name:(Wang Tosatti Fasolino) host.title:(Phya* Rev* ctt*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Wang Tosatti Fasolino) AND host.title:(Phya Rev ctt) AND host.volume:60 AND host.pages.first:2661",
+        "lucn_query": "host.pages.first:2661 AND host.volume:60 AND author.name:(Wang Tosatti Fasolino) AND host.title:(Phya Rev ctt)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Wang Tosatti Fasolino) AND host.title:(Phya* Rev* ctt*) AND host.volume:60 AND host.pages.first:2661",
+        "lucn_query": "host.pages.first:2661 AND host.volume:60 AND author.name:(Wang Tosatti Fasolino) AND host.title:(Phya* Rev* ctt*)",
         "match_flag": false
       }
     ]
@@ -687,7 +693,7 @@
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:\"Thiel\" AND author.name:\"Estrup\" AND host.title:\"Boca Raton. FI\" AND title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" AND publicationDate:\"19941\" AND \"in. press\"",
+        "lucn_query": "author.name:\"Thiel\" AND author.name:\"Estrup\" AND title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" AND publicationDate:\"19941\" AND host.title:\"Boca Raton. FI\" AND \"in. press\"",
         "match_flag": false
       },
       {
@@ -716,7 +722,7 @@
           "publicationDate": "1971",
           "title": "Surface studies by electron diffraction"
         },
-        "lucn_query": "author.name:\"Thiel\" author.name:\"Estrup\" host.title:\"Boca Raton. FI\" title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" publicationDate:\"19941\" \"in. press\"",
+        "lucn_query": "author.name:\"Thiel\" author.name:\"Estrup\" title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" publicationDate:\"19941\" host.title:\"Boca Raton. FI\" \"in. press\"",
         "match_flag": false
       },
       {
@@ -742,27 +748,27 @@
           "publicationDate": "2004",
           "title": "Hydrology and nitrogen balance of a seasonally inundated Danish floodplain wetland"
         },
-        "lucn_query": "author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) publicationDate:19941 press",
+        "lucn_query": "title:(Handbook face Imaging Visualization) press author.name:(Thiel Estrup) host.title:(Boca Raton FI) publicationDate:19941",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) press)",
+        "lucn_query": "(publicationDate:19941) AND (title:(Handbook face Imaging Visualization) press author.name:(Thiel Estrup) host.title:(Boca Raton FI))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca* Raton* FI*) title:(Handbook face Imaging Visualization) press)",
+        "lucn_query": "(publicationDate:19941) AND (title:(Handbook face Imaging Visualization) press author.name:(Thiel Estrup) host.title:(Boca* Raton* FI*))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca Raton FI) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "lucn_query": "title:(Handbook face Imaging Visualization) AND press AND author.name:(Thiel Estrup) AND host.title:(Boca Raton FI) AND publicationDate:19941",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca* Raton* FI*) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "lucn_query": "title:(Handbook face Imaging Visualization) AND press AND author.name:(Thiel Estrup) AND host.title:(Boca* Raton* FI*) AND publicationDate:19941",
         "match_flag": false
       }
     ]
@@ -776,109 +782,43 @@
     "parent_doc": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
     "solved_qs": [
       {
-        "json_answr": {
-          "author": [
-            {
-              "name": "Peder J Estrup"
-            }
-          ],
-          "corpusName": "elsevier",
-          "doi": [
-            "10.1016/0039-6028(94)90692-0"
-          ],
-          "host": {
-            "pages": {
-              "first": "722",
-              "last": "730"
-            },
-            "title": "Surface Science",
-            "volume": "299\u2013300"
-          },
-          "id": "C3EC27FEFF339DB62885F394311F4F7304CE08DA",
-          "publicationDate": "1994",
-          "title": "Surface phases of reconstructed tungsten (100) and molybdenum (100)"
-        },
-        "lucn_query": "Handbook of Sut-face Imaging and Visualization \\(CRC' Pa Thiel P J Estrup Boca Raton. FI in. press 19941",
+        "json_answr": null,
+        "lucn_query": "A Smith R A Barker P J E\\trup Surl. Sci 136 lYX4 327",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:\"Thiel\" AND author.name:\"Estrup\" AND host.title:\"Boca Raton. FI\" AND title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" AND publicationDate:\"19941\" AND \"in. press\"",
-        "match_flag": false
-      },
-      {
-        "json_answr": {
-          "author": [
-            {
-              "name": "P.J. Estrup"
-            },
-            {
-              "name": "E.G. McRae"
-            }
-          ],
-          "corpusName": "elsevier",
-          "doi": [
-            "10.1016/0039-6028(71)90209-3"
-          ],
-          "host": {
-            "pages": {
-              "first": "1",
-              "last": "52"
-            },
-            "title": "Surface Science",
-            "volume": "25"
-          },
-          "id": "78B2E19DE1196F1F9D86B056B1A128941EA9810E",
-          "publicationDate": "1971",
-          "title": "Surface studies by electron diffraction"
-        },
-        "lucn_query": "author.name:\"Thiel\" author.name:\"Estrup\" host.title:\"Boca Raton. FI\" title:\"Handbook of Sut-face Imaging and Visualization \\(CRC'\" publicationDate:\"19941\" \"in. press\"",
-        "match_flag": false
-      },
-      {
-        "json_answr": {
-          "author": [
-            {
-              "name": "Hans Estrup Andersen"
-            }
-          ],
-          "corpusName": "wiley",
-          "doi": [
-            "10.1002/hyp.1277"
-          ],
-          "host": {
-            "pages": {
-              "first": "415",
-              "last": "434"
-            },
-            "title": "Hydrological Processes",
-            "volume": "18"
-          },
-          "id": "2CB22ECF4CD2BEBCCBA75E535BCB85EFA5892864",
-          "publicationDate": "2004",
-          "title": "Hydrology and nitrogen balance of a seasonally inundated Danish floodplain wetland"
-        },
-        "lucn_query": "author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) publicationDate:19941 press",
+        "lucn_query": "host.pages.first:\"327\" AND host.volume:\"136\" AND host.issue:\"lYX4\" AND author.name:\"Smith\" AND author.name:\"Barker\" AND author.name:\"E\\trup\" AND host.title:\"Surl. Sci\"",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca Raton FI) title:(Handbook face Imaging Visualization) press)",
+        "lucn_query": "host.pages.first:\"327\" host.volume:\"136\" host.issue:\"lYX4\" author.name:\"Smith\" author.name:\"Barker\" author.name:\"E\\trup\" host.title:\"Surl. Sci\"",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "(publicationDate:19941) AND (author.name:(Thiel Estrup) host.title:(Boca* Raton* FI*) title:(Handbook face Imaging Visualization) press)",
+        "lucn_query": "host.pages.first:327 host.volume:136 host.issue:lYX4 author.name:(Smith Barker trup) host.title:(Surl Sci)",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca Raton FI) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "lucn_query": "(host.volume:136) AND (host.pages.first:327 host.issue:lYX4 author.name:(Smith Barker trup) host.title:(Surl Sci))",
         "match_flag": false
       },
       {
         "json_answr": null,
-        "lucn_query": "author.name:(Thiel Estrup) AND host.title:(Boca* Raton* FI*) AND title:(Handbook face Imaging Visualization) AND publicationDate:19941 AND press",
+        "lucn_query": "(host.volume:136) AND (host.pages.first:327 host.issue:lYX4 author.name:(Smith Barker trup) host.title:(Surl* Sci*))",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:327 AND host.volume:136 AND host.issue:lYX4 AND author.name:(Smith Barker trup) AND host.title:(Surl Sci)",
+        "match_flag": false
+      },
+      {
+        "json_answr": null,
+        "lucn_query": "host.pages.first:327 AND host.volume:136 AND host.issue:lYX4 AND author.name:(Smith Barker trup) AND host.title:(Surl* Sci*)",
         "match_flag": false
       }
     ]
