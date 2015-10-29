@@ -738,13 +738,16 @@ def _text_api_safe(any_text):
 	"""
 	modif liée au fait que même entre guillemets et
 	échappées en %28 et %29, l'API va parfois voir
-	les parenthèses comme opérateurs
+	les parenthèses comme opérateurs (selon position)
 	
 	pour le ':', idem
+	pour le '[', idem
+	pour le ']', idem
+	pour le '-', idem
 	"""
 	
 	# par ex "bonjour (tennessee" => "bonjour \( tennessee"
-	any_text = sub(r'([():])',r'\\\1', any_text)
+	any_text = sub(r'([():\[\]-])',r'\\\1', any_text)
 	
 	return any_text
 
