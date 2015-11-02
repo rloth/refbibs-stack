@@ -44,6 +44,7 @@ OUT_MODE = "json"
 TEI_TO_LUCENE_MAP = {
 	# attention parfois peut-être series au lieu de host dans la cible ?
 
+	'analytic/title[@level="a"]'   : 'title',
 	'analytic/title[@level="a"][@type="main"]'   : 'title',
 	'monogr/title[@level="m"][@type="main"]'  : 'title',  # main et type=m <=> monogr entière
 
@@ -70,7 +71,7 @@ TEI_TO_LUCENE_MAP = {
 
 	'monogr/editor'              : 'host.editor',           # ou 'editor' si monogr entière ,
 	'monogr/imprint/publisher'   : 'host.editor',
-	# 'monogr/imprint/pubPlace'    :  ???,
+	'monogr/imprint/pubPlace'    :  '__IGNORE__',    # pourrait presque exclure la bib en amont (monogr)
 
 	'note'     : '_NULL_',
 	'monogr/meeting/address/addrLine'  : '_NULL_',
@@ -91,6 +92,8 @@ class BiblStruct(object):
 	"""
 	Groupe les méthodes pour un élément XML tei:biblStruct
 	"""
+	
+	no_id_counter=0
 
 	def __init__(self, xml_element, parent_doc_id=None):
 		"""
@@ -109,7 +112,15 @@ class BiblStruct(object):
 		
 		# on garde la trace du doc source
 		self.srcdoc = parent_doc_id
-		self.indoc_id = xml_element.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+		
+		if "{http://www.w3.org/XML/1998/namespace}id" in xml_element.attrib:
+			self.indoc_id = xml_element.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+		else:
+			BiblStruct.no_id_counter += 1
+			ersatz_id = "NO_ID-%i" % BiblStruct.no_id_counter
+			
+			warn('WARNING: bib sans ID (->%s) dans %s' % (ersatz_id, self.srcdoc))
+			self.indoc_id = ersatz_id
 		
 		# les infos diverses : résolution impossible, etc
 		
@@ -213,12 +224,18 @@ class BiblStruct(object):
 		# dictionnaire {k => [strs]} d'expressions relevées
 		# (rangé ici par xpath via préalable subvalues())
 		for bibxpath in self.subvals:
-
+			
+			# todo clarifier pourquoi parfois dans les natives on a direcement du texte dans monogr/imprint
+			# debug
+			#~ if bibxpath == "monogr/imprint":
+				#~ warn ("DEBUG: infos directement sous imprint ? %s" % str(self.subvals))
+			
 			# traduction des clés
 			# ex:    clef  => clé
 			# ex: monogr/author/surname => host.author.name
 			champ = self.xpath_to_api_field(bibxpath)
-
+			
+			
 			# api_strs
 			for whole_str in self.subvals[bibxpath]:
 
@@ -731,7 +748,15 @@ def _text_basic_wildcard(any_text):
 
 	# '?' est le caractère joker qui correspond à la même idée dans le monde des requêtes lucene
 	"""
-	return sub('~', '?', any_text)
+	
+	# le joker principal de toute OCR
+	any_text = sub('~', '?', any_text)
+	
+	# spécifique au bibs ocr:"]" < src:"J"
+	# or ']' rarement seul et peu pertinent pour lucene
+	any_text = sub('\]', '?', any_text)
+	
+	return any_text
 
 
 def _text_api_safe(any_text):
@@ -743,11 +768,16 @@ def _text_api_safe(any_text):
 	pour le ':', idem
 	pour le '[', idem
 	pour le ']', idem
+	pour le '\', idem
 	pour le '-', idem
+	
+	NB: il est logique qu'il y ait des doublons avec _text_basic_wildcard
+	      ==> _text_api_safe() doit passer sur tous les inputs 
+	          alors que l'autre est facultatif
 	"""
 	
 	# par ex "bonjour (tennessee" => "bonjour \( tennessee"
-	any_text = sub(r'([():\[\]-])',r'\\\1', any_text)
+	any_text = sub(r'([():\[\]\\-])',r'\\\1', any_text)
 	
 	return any_text
 
@@ -1454,9 +1484,15 @@ query_funcs = (to_query_method_0_bow,
 # score_filtres + structurés + sous-ensembles selon type
 
 # (3) filtres:
+#  amont
 #  - longueur du titre
 #  - caractères interdits dans le nom/prénom
 #  - nombre de nom/prénoms
+#  aval:
+#    cf. t1 et t2 dans biblStruct:test_hit
+
+# (4)
+#  publicationDate:1992 => (*Date:1992 OR host.*Date:1992) ? voire range [91-93] ???
 
 
 
@@ -1468,24 +1504,44 @@ class TeiDoc(object):
 	  init = lecture > parse xml
 	"""
 	def __init__(self, file_path):
-		tei_dom = etree.parse(file_path)
-
 		self.path=file_path
 		
-		# et voilà
-		self.xtree = tei_dom
+		try:
+			tei_dom = etree.parse(file_path)
+			
+			# et voilà
+			self.xtree = tei_dom
+			
+		except etree.XMLSyntaxError as se:
+			self.xerr = str(se)
+			self.xtree = None
 
 
 	def get_bibs(self):
+		# match conforme
 		bib_elts = self.xtree.xpath('/TEI/text/back//listBibl/biblStruct')
-
 		nb = len(bib_elts)
-		if not len(bib_elts):
+		
+		# on tente aussi un match plus large
+		bib_elts_wide = self.xtree.xpath('/TEI/text/back//biblStruct')
+		
+		nb_wide = len(bib_elts_wide)
+		
+		if nb == 0 and nb_wide == 0:
 			warn("-- DOC %s: aucune bib --" % self.path)
 			return []
 		else:
-			warn("-- DOC %s: %i xbibs lues --" % (self.path,nb))
-			return bib_elts
+			if nb == 0 and nb_wide != 0:
+				warn("WARNING: des bibs apparaissent sans leur listBibl dans le back du doc %s" % self.path)
+				
+				# mais on les prend quand même
+				warn("-- DOC %s: %i xbibs lues --" % (self.path,nb_wide))
+				return bib_elts_wide
+			
+			# cas normal
+			else:
+				warn("-- DOC %s: %i xbibs lues --" % (self.path,nb))
+				return bib_elts
 
 
 	def get_iid(self):
@@ -1537,7 +1593,12 @@ if __name__ == '__main__':
 		warn("======================================\nDOC #%i:%s" % (d_i+1,bibfile))
 
 		teidoc = TeiDoc(bibfile)
-
+		
+		if teidoc.xtree is None:
+			warn ('ERROR: (skip doc) erreur XML [%s] dans l\'input "%s"' % (teidoc.xerr, bibfile))
+			continue
+		
+		
 		bib_elts = teidoc.get_bibs()
 		
 		# £debug juste 10 bibs /!\
