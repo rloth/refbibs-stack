@@ -1,0 +1,52 @@
+#b19-remarques:
+---------------
+on n'a pas "Industrial and Labor Relations Review"
+
+#b2-remarques:
+---------------
+gb:an < mon
+
+#b17-remarques:
+---------------
+bb api:publicationDate absente => fait échouer t1 et t2
+
+#b6-remarques:
+---------------
+chap mon: à exclure en amont
+
+#b3-remarques:
+---------------
+chap mon
+
+#b18-remarques:
+---------------
+gb:an < mon
+
+#b15-remarques:
+---------------
+On n'a pas "Monthly Labor Review"
+
+#b8-remarques:
+---------------
+On n'a pas "Journal of Labor Economics" (Univ Chicago Press)
+
+#b9-remarques:
+---------------
+chap mon
+
+#b1-remarques:
+---------------
+on n'a pas "Journal of Applied Psychology"
+
+#doc-remarques:
+---------------
+Plusieurs revues que nous n'avons pas et chapitres de monographies. Les autres sont pas mal. Problème intéressant sur la b17 avec publicationDate.
+
+#b12-remarques:
+---------------
+On n'a pas "Journal of Social Psychology" (-asian -british -european)
+
+#b5-remarques:
+---------------
+chap mon
+

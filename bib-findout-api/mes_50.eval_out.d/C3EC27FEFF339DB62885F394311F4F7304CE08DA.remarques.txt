@@ -1,0 +1,39 @@
+#b2-remarques:
+---------------
+pdf:"In .:rum" < src:"Instrum"
++ j:Hartman < nom:Hartman
+
+#b1-remarques:
+---------------
+On l'a (5FBD68BD3E19AEAB0D1E8491331CDCBA8413E2D2) mais date absente < ocr:"(19hJ)" < pdf:"(1964)" et ocr:"Surt"<src:"Surf"
+
+
+#doc-remarques:
+---------------
+Qualité PDF 5/10 sur les bibs (9/10 sur le reste de l'article)... Contraste réduit ET OCR gênée par les abbreviations et noms propres avec leurs ngrammes de caractères atypiques. Erreur bibzone supprime les bibs [4-23] car la 4 est plus une note verbeuse qu'une bib classique.
+
+#b4-remarques:
+---------------
+gb:an < mon
+
+#b6-remarques:
+---------------
+gb nom < title j
+gb mon < an
+mais on avait la bib A0A06EB70FF84C4730B6D8A33FC295339720A209
+
+#b5-remarques:
+---------------
+ocr:"E\trup" < src:"Estrup"
+on avait la bib: 9A971B5A3DA5009E7BDD7E1C2B5B3956BB3D3B94 (q2 et 3 l'auraient peut-être trouvés)
+
+#b0-remarques:
+---------------
+ocr:"Sot" < src:"Soc"
+on n'a pas J. Am. Chem. Soc
+
+#b3-remarques:
+---------------
+zonejump b3->b24
+ocr:"Phya. Rev. L,tt" < src:"Phys. Rev Litt"
+

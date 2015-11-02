@@ -1,0 +1,4 @@
+#doc-remarques:
+---------------
+~70 bibs mais pdfCharCount: 0 => gb ne peut rien faire sans re-OCR
+

@@ -1,0 +1,25 @@
+#b2-remarques:
+---------------
+match mais erreur auteur sur la date ! => test1 échoue (+j abbrev)
+et test2 échoue (pas de titre dans ces bibs)
+
+#doc-remarques:
+---------------
+OCR de piètre qualité sur les noms propres
+
+#b3-remarques:
+---------------
+manque nom 2è auteur PDF:"SI" <"S.I. Abdel-Khahk" <src:"S.I.  Abdel-Khalik"
+
+#b0-remarques:
+---------------
+3 bibs en 1 (2 éditions d'une même + une autre)
+
+#b9-remarques:
+---------------
+2 bibs en 1 (an + mon qui suivait)
+
+#b1-remarques:
+---------------
+on n'a pas la revue J Fluid Mech: cambridge journals
+

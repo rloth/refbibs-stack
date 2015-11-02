@@ -1,0 +1,96 @@
+#b27-remarques:
+---------------
+bb mais que en q2 et q3
+
+q4 et suivantes ont un problème sur date: src:@when=1992 alors que  api:publicationDate:1991 (mais api:host.publicationDate:1992)
+
+de plus pour les bb échec t2 car diff tit src:"...containing divinyl chlorophyll a and b" vs api:"...containing divinyl chlorophyll a and chorophyll b"
+
+#b2-remarques:
+---------------
+chap mon
+
+#b4-remarques:
+---------------
+on n'a pas la revue
+
+#b24-remarques:
+---------------
+bb mais:
+~t1: j abbrev
+~t2: "1" renvoi collé dans titre API (en cours correction)
+
+#b31-remarques:
+---------------
+on n'a pas le j "Marine Ecology Progress Series"
+
+#b7-remarques:
+---------------
+bb mais échec t1 (jtit) et t2 (diff art tit = src:"Observations and modelling..." API:"Observations of modelling...")
+
+#b32-remarques:
+---------------
+pb biblines: c'est la marque de haut de page (donc article source lui-même)
+
+#b12-remarques:
+---------------
+bb mais t1 jtit et t2 auteurs: 2 noms split-accentués et doublés chez gb
+
+#b5-remarques:
+---------------
+2 x nom (pb pdftoxml?)
+q4 et q5 match proche (par hasard)
+NB: q3 pas du tout proche
+
+#b29-remarques:
+---------------
+bb mais difftit dans t2 "Modelling" vs "Modeling"
+
+#b19-remarques:
+---------------
+chap mon
+q2 et q3 voisins
+
+#b28-remarques:
+---------------
+chap mon
+
+#b6-remarques:
+---------------
+on n'a pas la revue Appl. Environ. Microbiol.
+
+#b3-remarques:
+---------------
+bonne bib échec t1 pdf:"as measured" vs api:"measured"
+échec t2: jtit
+
+#b22-remarques:
+---------------
+On n'a Journal of Sea Research que jusqu'en 2001
+
+#b18-remarques:
+---------------
+chap mon
+
+#b16-remarques:
+---------------
+on n'a pas la revue Int. Rev. Cytol.
+
+#b9-remarques:
+---------------
+chap mon à exclure en amont
+
+#doc-remarques:
+---------------
+OCR: 9/10 mais si accent rare alors accents disjoints + mot doublé
+convention: titres + ref j/vol/pp
+bon doc pour debugguer les tests de filtrage
+
+#b25-remarques:
+---------------
+bb mais t2:xml:titre espace en trop
+
+#b23-remarques:
+---------------
+chap mon mais gb:<meeting> au lieu de <pubPlace>
+

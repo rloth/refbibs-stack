@@ -1,0 +1,12 @@
+#b2-remarques:
+---------------
+gb:mon < chap mon
+
+#b1-remarques:
+---------------
+thèse de doc: à filtrer amont
+
+#b4-remarques:
+---------------
+gb:an < brevet : à exclure amont
+

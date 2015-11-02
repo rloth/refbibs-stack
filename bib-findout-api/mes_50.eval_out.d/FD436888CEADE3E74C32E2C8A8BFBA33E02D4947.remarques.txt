@@ -1,0 +1,78 @@
+#b17-remarques:
+---------------
+ocr:"J. idol. f3iol" < "J. Mol. Biol"
+
+#b2-remarques:
+---------------
+On n'a pas J. Bacteriol
+
+#b4-remarques:
+---------------
+ocr:"Eik'BOJ" titj:"EMBOJ"
+
+#b9-remarques:
+---------------
+bonne bib: t1 t2 échec idem
+
+#b7-remarques:
+---------------
+chap mon
+
+#b12-remarques:
+---------------
+ocr:"Xci" < src:"Sci"
+
+#b5-remarques:
+---------------
+bonne bib mais t1:j abbrev t2: pas de tit
+
+#b6-remarques:
+---------------
+bonne bib mais idem t1 t2
+
+#b3-remarques:
+---------------
+bonne bib mais t1: j abbrev t2: no tit
+
+#b22-remarques:
+---------------
+4è nom oublié < ocr:"1 h’oller" < src:"Noller"
+
+#b10-remarques:
+---------------
+bonne bib t1 échec tit j "Mol Gen Genet" et t2 no tit a
+
+#b15-remarques:
+---------------
+zonejump on passe 6 bibs et on arrive en haut de la col suivante + ocr:"Pu’omura" < src:"Nomura"
+
+#b8-remarques:
+---------------
+erreur volume src:22< vrai:15(22)
+(mais on n'a Nucleic Acids Research que depuis vol 20)
+
+#b24-remarques:
+---------------
+on n'a pas la revue
+
+#b1-remarques:
+---------------
+On n'a plus Biochemistry en 1989...
+
+#doc-remarques:
+---------------
+OCR: 8/10
+beaucoup de bibs chez nous (3 grandes revues qui reviennent) mais difficiles à valider (pas de titre art. et titre j abbrégé et parfois mal ocrisé)
+
+#b11-remarques:
+---------------
+On n'a pas Annual Review of Biochemistry... q0 et q2-q3 tombent sur des voisins
+
+#b14-remarques:
+---------------
+vol 16 manquant chez nous...
+
+#b25-remarques:
+---------------
+bonne bib mais t2 aurait encore plus de mal car ocr:"J. il/loZ. Biol" < src:"J. Mol. Biol."
+

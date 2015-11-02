@@ -1,0 +1,84 @@
+#b5-remarques:
+---------------
+chap mon
+
+#doc-remarques:
+---------------
+Le document adopte une notation ---- pour ellipse des auteurs repris par anaphore => pas pratique pour grobid
+
+#b10-remarques:
+---------------
+gb:mon < an
+
+#b20-remarques:
+---------------
+2 bibs en une (mais sur la même publication)
+"Nature Ann Bot" < "Nature" et aussi "Ann Bot"
+"184 26" < "184" et aussi "26"
+normalement on a les 2 mais Q2 et Q3 en trouvent 1 et les autres aucune
+
+#b9-remarques:
+---------------
+chap mon
+
+#b23-remarques:
+---------------
+badrequest: crochet fermant
+
+#b6-remarques:
+---------------
+chap mon (mais bien parsé par gb)
+
+#b18-remarques:
+---------------
+title j "J Plant Physiol" < src:"Austral. J Plant Physiol"
+
+#b8-remarques:
+---------------
+on n'a pas la revue Canad. J. Bot
+
+#b7-remarques:
+---------------
+Thèse de doc: à exclure en amont
+
+#b4-remarques:
+---------------
+chapitre de monogr: à exclure en amont
+
+#b12-remarques:
+---------------
+gb:mon < an
+
+#b3-remarques:
+---------------
+an:vide + monogr< in monogr
+
+#b30-remarques:
+---------------
+chap mon
+badrequest("-")
+
+#b16-remarques:
+---------------
+2 bibs en une à cause ellipse auteur
+
+#b25-remarques:
+---------------
+badrequest: "-" non échappé
+
+#b28-remarques:
+---------------
+q3 near
+
+#b14-remarques:
+---------------
+on n'a pas la revue
+
+#b29-remarques:
+---------------
+q3 near
+
+#b1-remarques:
+---------------
+gb:an < mon
+

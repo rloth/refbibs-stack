@@ -1,0 +1,35 @@
+#b6-remarques:
+---------------
+2bibs en 1 + erreur auteur vol28 < vrai:vol38 (6252DD57E3A2C769DE356074D89328BD08468E87)
+
+#b5-remarques:
+---------------
+3 bibs en 1
+(la 3ème est dans RSC 1472-7781) mais "J Chem Sot Perkin" < "Soc" et l'auteur se trompe Perkins<vrai:Perkin et grobid loupe Perkin
+
+#b3-remarques:
+---------------
+faux title (en fait c'est le m title d'une des 2 éditions)
++ manque un auteur 
+
+#doc-remarques:
+---------------
+Le prototype du document chiant
+
+#b9-remarques:
+---------------
+ok mais filtre bloque: pas de titre et j abbrev
+
+#b4-remarques:
+---------------
+ok mais tests pb car ocr:"Adv Muter" < src"Adv Mater" et ocr:"Bduerle" < "src:Bäurle"
+
+#b0-remarques:
+---------------
+ocr:"gamier" < src:"garnier"
+et 3 revues collées < 3 éditions de l'articles
+
+#b8-remarques:
+---------------
+gb a bien coupé la 2ème bib mais loupe la revue
+
