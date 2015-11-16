@@ -1,0 +1,80 @@
+#b3-remarques:
+---------------
+ndbdp 5, (gb:an <) src:mon
+
+#b12-remarques:
+---------------
+idem
+
+#b32-remarques:
+---------------
+Vraie première bib  de la zone !!
+
+#b1-remarques:
+---------------
+2 bibs dans la ndbdp 3/32
+
+#b16-remarques:
+---------------
+idemee
+
+#b34-remarques:
+---------------
+mon
+
+#b6-remarques:
+---------------
+ndbdp 8,  src:mon
+
+#b7-remarques:
+---------------
+ndbdp 9
+
+#b4-remarques:
+---------------
+ndbdp 6,  src:mon
+
+#b2-remarques:
+---------------
+chap mon
+
+#b48-remarques:
+---------------
+première bib de revue mais gb:mon < src:an
+
+#b5-remarques:
+---------------
+ndbdp 7,  src:mon
+
+#b10-remarques:
+---------------
+ndbdp 12,  src:mon
+
+#b70-remarques:
+---------------
+gb:mon < src:an :(
+
+#doc-remarques:
+---------------
+Seulement 3 articles de revues sur 43 bibs cîtées (toutes les autres sont des monographies ou chapitres de monogr) et 32 ndbdp qui viennent doubler les renvois. pb bibzone qui prend ces ndbdp. pb bibfields qui voit les 3 seuls articles commes des monogr. :( :( :(
+
+#b59-remarques:
+---------------
+gb:mon < src: an :(((
+
+#b9-remarques:
+---------------
+ndbdp 11 (2 bibs de  src:mon)
+
+#b13-remarques:
+---------------
+idem
+
+#b14-remarques:
+---------------
+idem
+
+#b8-remarques:
+---------------
+ndbdp 10
+

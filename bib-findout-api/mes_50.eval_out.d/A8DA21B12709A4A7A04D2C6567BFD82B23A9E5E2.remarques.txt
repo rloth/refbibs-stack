@@ -1,0 +1,26 @@
+#b10-remarques:
+---------------
+gb:mon < an
+gb:name < ocr: "Natzsre" < src:"Nature"
+
+#b14-remarques:
+---------------
+ocr:"Chew" < src:"Chem"
+
+#b1-remarques:
+---------------
+revue absente
+
+#b11-remarques:
+---------------
+revue absente
+
+#b9-remarques:
+---------------
+ocr:"Biochenz" < src:"Biochem"
+
+#b8-remarques:
+---------------
+ocr:Di~mondstone > q:Di?mondstone > api:Diamondstone
+(corrigé pour Q3 et 5-7)
+

@@ -1,0 +1,44 @@
+#b3-remarques:
+---------------
+revue absente
+
+#b4-remarques:
+---------------
+revue absente
+
+#doc-remarques:
+---------------
+Pharma: dans les matchs API il y a de bons exemples de suffixes noms à ignorer ! La plupart des revues absentes.
+
+#b6-remarques:
+---------------
+revue absente
+
+#b0-remarques:
+---------------
+rapport
+
+#b2-remarques:
+---------------
+revue absente
+
+#b7-remarques:
+---------------
+revue absente
+
+#b13-remarques:
+---------------
+revue absente
+
+#b11-remarques:
+---------------
+revue absente
+
+#b12-remarques:
+---------------
+revue absente
+
+#b1-remarques:
+---------------
+revue  absente
+

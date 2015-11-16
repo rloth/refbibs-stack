@@ -1,0 +1,13 @@
+#doc-remarques:
+---------------
+Actes de confs et revues absentes (IEEE) + erreur format gb pour les dates d'actes YYYY-MM-d1d1d2d2 > badrequest sur publicationDate
+
+#b6-remarques:
+---------------
+badrequest < publicationDate:"1999-04-1416"  < gb date/@when:"1999-04-1416" <  "14-16 April"
+
+
+#b7-remarques:
+---------------
+idem badrequest < publicationDate < gb:"1999-09-2022"
+

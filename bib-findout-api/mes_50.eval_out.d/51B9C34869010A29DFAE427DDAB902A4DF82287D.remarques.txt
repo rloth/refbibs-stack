@@ -1,0 +1,16 @@
+#b8-remarques:
+---------------
+pb de date dasns la ref trouvée
+
+#b2-remarques:
+---------------
+ref bonne mais année mauvaise ! R. M. German, 1986 j: Metallurgical Transactions A, vol: 18, p: 909 The two-dimensional connectivity of istex: (springer) 6B8955F1178A50ECDFFFCD02C007C56DFE909791 
+
+#b6-remarques:
+---------------
+references trouvée ok mais date fausse !
+
+#doc-remarques:
+---------------
+ref suivante bonne MAIS année fausse dans la ref !  R. Raman, Randall M. German, 1993 j: Metallurgical and Materials Transactions A, vol: 26, p: 653 A mathematical model for gravity-induced distortion during liquid-phase sintering istex: (springer) EAD1C92CA70E08E3C7FCEB0F6136D7325825F3E7 
+

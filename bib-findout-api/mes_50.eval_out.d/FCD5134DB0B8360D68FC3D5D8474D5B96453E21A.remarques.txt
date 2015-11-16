@@ -1,0 +1,49 @@
+#b14-remarques:
+---------------
+suite pb bibzone
+
+#b13-remarques:
+---------------
+suite pb bibzone
+
+#b3-remarques:
+---------------
+gb:an < rapport
+
+#b1-remarques:
+---------------
+dans le titre: ocr: "an" < src:"μm"
+
+#b11-remarques:
+---------------
+suite pb bibzone
+
+#b15-remarques:
+---------------
+suite pb bibzone
+
+#b6-remarques:
+---------------
+test 2 ne matche pas car gb:firstname < src:name:Martonen
+
+#b10-remarques:
+---------------
+pb bibzone
+
+#b12-remarques:
+---------------
+suite pb bibzone
+
+#b0-remarques:
+---------------
+chap mon
+
+#doc-remarques:
+---------------
+pb bibzone: discussion en annexe derrière les bibs + il manque aussi la 1ère bib
+=> les bibs 1 à 9 sont bonnes, mais de 10 à 15 ce sont les éléments de la discussion
+
+#b4-remarques:
+---------------
+revue absente Ann. Otol. Rhinol. Laryngol
+

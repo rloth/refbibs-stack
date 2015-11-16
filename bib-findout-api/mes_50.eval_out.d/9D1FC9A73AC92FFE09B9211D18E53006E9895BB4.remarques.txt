@@ -1,0 +1,16 @@
+#b1-remarques:
+---------------
+! gb:mon < an sans titre !
+
+#b3-remarques:
+---------------
+pb bibzone: c'est le haut de page et non pas une bib
+
+#b2-remarques:
+---------------
+! gb:mon < an sans titre !
+
+#doc-remarques:
+---------------
+bibs minimalistes (sans titre et date "to be published") => erreurs gb
+

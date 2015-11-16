@@ -1,0 +1,117 @@
+#b25-remarques:
+---------------
+ocr: "i994" < src:"1994"
+de plus même avec date,
+test1 ne matcherait pas car j abbrev
+test2 ne matcherait pas car "MD" dans"Phillip A. Green MD"
+
+#b27-remarques:
+---------------
+revue absente
+
+#b33-remarques:
+---------------
+pourquoi test2 ne matche pas ?
+gb:vol5592<src:vol:5
+NB page avec lettre S586
+
+#b28-remarques:
+---------------
+revue absente
+
+#b19-remarques:
+---------------
+revue absente
+
+#b21-remarques:
+---------------
+Pourquoi test 2 ne matche pas ?
+
+#b11-remarques:
+---------------
+gb:an < report
+/!\ q4 et q5 trouvent le même contenu republié
+
+#b39-remarques:
+---------------
+gb:vol:190 < ocr:"Gyneco190" < src "Gynecol 90"
+de plus test2 ne matche pas à cause de ocr:"Fargasonjr" < src : "Fargason Jr"
+
+#b37-remarques:
+---------------
+gb:auteurs(Gbs Neonatal  Disease Study  Group) extraits de la chaîne src"Neonatal GBS Disease Study Group"
+
+#b16-remarques:
+---------------
+q2 et q3 renvoient sur 537FA04C49BE426B91FBB98A0478101B8F41B82D qui est une "citation review" de l'article cité !!
+
+#doc-remarques:
+---------------
+Document avec du potentiel (beaucoup de bibs, dont plusieurs chez nous) mais plusieurs OCR collées provoquent quelques erreurs bibfields ("Nom Jr" => "Nomjr" , "Biol 40" => "Bio 140")
+
+#b29-remarques:
+---------------
+nom de revue collé "EurJ" < "Eur J" => échec q4-q7
+api: date absente => matchs ne peuvent matcher
+
+#b42-remarques:
+---------------
+revue absente "Journal of Clinical Investigation" (sans european)
+
+#b1-remarques:
+---------------
+q3 vraiment proche
+
+#b23-remarques:
+---------------
+on n'a pas la revue
+
+#b5-remarques:
+---------------
+ocr:" Powei1" < src:"Powell"
+et ocr:"DisJ" < src:"Dis J"
+
+#b13-remarques:
+---------------
+src: "in press"
+
+#b14-remarques:
+---------------
+test2 échec suffixes nom de famille
+
+#b30-remarques:
+---------------
+chap mon
+
+#b31-remarques:
+---------------
+chap mon
+
+#b20-remarques:
+---------------
+gb:title += src:conf title
+
+#b41-remarques:
+---------------
+revue absente
+
+#b32-remarques:
+---------------
+On n'a pas la revue "Am J Dis Child"
+
+#b36-remarques:
+---------------
+gb:vol:140 < ocr:"..Bio140" < src:"..Biol 40" => va gêner Q5 et Q7
+
+#b38-remarques:
+---------------
+on n'a pas JAMA
+
+#b26-remarques:
+---------------
+revue absente
+
+#b22-remarques:
+---------------
+pourquoi test 2 ne matche-t-il pas sur 2706531B0567EEF62AE51262F900AFF0B1E57353 ?
+
