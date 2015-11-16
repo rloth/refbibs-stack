@@ -49,6 +49,8 @@ TEI_TO_LUCENE_MAP = {
 	'monogr/title[@level="m"][@type="main"]'  : 'title',  # main et type=m <=> monogr entière
 
 	'monogr/imprint/date[@type="published"]/@when' : 'publicationDate',
+	'monogr/imprint/date'                          : 'publicationDate',
+	'monogr/imprint/date[@type="year"]'             : 'publicationDate',
 	'monogr/imprint/biblScope[@unit="volume"]'     : 'host.volume',
 	'monogr/imprint/biblScope[@unit="vol"]'        : 'host.volume',
 	'monogr/imprint/biblScope[@unit="issue"]'      : "host.issue",
@@ -253,7 +255,11 @@ class BiblStruct(object):
 		for key in self.api_strs:
 			for whole_str in self.api_strs[key]:
 				# from re import split as resplit
-				for tok in resplit(r'\W', whole_str):
+				#     on utilise [^\w?*] au lieu de \W parce qu'on ne
+				#     veut pas couper sur les jokers lucene
+				#     cf. text_to_query_fragment dans bib_subvalues qui
+				#         a le droit d'ajouter des '?' et '*'
+				for tok in resplit(r'[^\w?*]', whole_str):
 					# print("TOK",tok)
 
 					# champs ayant le droit d'être courts
@@ -311,6 +317,7 @@ class BiblStruct(object):
 						warn(msg)
 						self.log.append(msg)
 						if elt.text:
+							field = mon_xpath(elt)
 							value = text_to_query_fragment(elt.text)
 
 					if value:
@@ -478,7 +485,7 @@ class BiblStruct(object):
 		
 		# debug
 		# warn("API_STRS:%s" % self.api_strs)
-		# warn("API_TOKS:%s" % self.api_strs)
+		# warn("API_TOKS:%s" % self.api_toks)
 		
 		
 		#     C O N S T R U C T I O N    R E Q U E T E S
@@ -538,7 +545,7 @@ class BiblStruct(object):
 				if rb_query:
 					
 					warn("run_queries: %i" % i)
-					# warn("Q=%s" % rb_query)
+					warn("Q=%s" % rb_query)
 					
 					save["lucn_query"] = rb_query
 					## ANSWER n° i =====================================
