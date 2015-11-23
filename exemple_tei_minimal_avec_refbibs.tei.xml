@@ -1,0 +1,47 @@
+<TEI>
+
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title>Un titre</title>
+  </titleStmt>
+  <publicationStmt>
+   <distributor>ISTEX</distributor>
+  </publicationStmt>
+  <sourceDesc>
+   <bibl>Ici notice</bibl>
+  </sourceDesc>
+ </fileDesc>
+</teiHeader>
+
+
+<text>
+ <body><p>Du texte</p></body>
+ 
+ <back>
+  <!-- biblios citées obtenues via MODS ou GROBID -->
+  <div>
+   <listBibl>
+    <biblStruct>
+     <analytic>
+      <author>
+       <surname>Dupont</surname>
+      </author>
+      <title level="a">Un article cité très intéressant</title>
+     </analytic>
+     <monogr>
+      <title level="j">Une revue scientifique</title>
+      <imprint>
+       <date>1992</date>
+      </imprint>
+     </monogr>
+     <!-- lien vers la bib obtenu par la résolution bib-findout -->
+     <ref type="istex-url">https://api.istex.fr/document/100E8642B58FB55128FA2703B321FBA0046F545D</ref>
+    </biblStruct>
+   </listBibl>
+  </div>
+ </back>
+ 
+</text>
+
+</TEI>
