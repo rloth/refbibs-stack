@@ -40,6 +40,8 @@ from os import listdir, path
 #OUT_MODE = "json"
 OUT_MODE = "tei_xml"
 
+DEBUG = True
+
 TEI_TO_LUCENE_MAP = {
 	# attention parfois peut-être series au lieu de host dans la cible ?
 
@@ -823,7 +825,7 @@ def text_to_query_fragment(any_text):
 #         - suppression/normalisation espaces et ponctuations
 #         - jonction césures,
 #         - déligatures
-#         - tout en min
+#      -> tout en min (à part pour ne pas gêner le suivant)
 #      -> prépa texte issu de PDF
 #         - multimatch OCR (aka signature simplifiée)
 # £TODO
@@ -843,20 +845,55 @@ def text2_soft_compare(xmlstr,pdfstr, trace=False):
 	"""
 	Version initiale basique
 	"""
+	
+	if DEBUG:
+		print ("|text2_soft_compare \n|xmlstring:'%s' <=> pdfstring:'%s'" % (xmlstr, pdfstr), file=stderr)
+	
+	
+	# 1a) dans tous les cas il faut :
+	#    - supprimer les espaces en trop etc
+	#    - normaliser les tirets
+	#    - normaliser les quotes ?
 	clean_xmlstr = _text_common_prepa(xmlstr)
 	clean_pdfstr = _text_common_prepa(pdfstr)
 	
-	success = (clean_xmlstr == clean_pdfstr)
+	# 1b pour une première comparaison:
+	#  -> minuscules
+	#  -> suppression tirets
+	comparable_xmlstr = sub(r'-', '', clean_xmlstr).lower()
+	comparable_pdfstr = sub(r'-', '', clean_pdfstr).lower()
 	
-	if not success:
+	success = (comparable_xmlstr == comparable_pdfstr)
+	
+	if success and DEBUG:
+		print ("|text2_soft_compare ok \n|comparable_xmlstr:'%s' <=> comparable_pdfstr:'%s'" % (comparable_xmlstr, comparable_pdfstr), file=stderr)
+	
+	# ICI match journals £TODO
+	
+	
+	# 2a) pour comparer en émulant les erreurs OCR
+	#   on repart de la version sans le "tout lowercase"
+	if not success and len(clean_xmlstr) > 5 and len(clean_pdfstr) > 5:
+		if DEBUG:
+			print("|essai match OCR====")
+		
+		# on appauvrit les chaînes (eg 1|l|I ==> I)
 		xml_ocr_signature = _text_ocr_errors(clean_xmlstr)
 		pdf_ocr_signature = _text_ocr_errors(clean_pdfstr)
 		
-		success = (xml_ocr_signature == pdf_ocr_signature)
+		# 2b) on refait après coup les faciliteurs de comparaison
+		#  -> minuscules
+		#  -> suppression tirets
+		comparable_xml_ocr_signature = sub(r'-', '', xml_ocr_signature).lower()
+		comparable_pdf_ocr_signature = sub(r'-', '', pdf_ocr_signature).lower()
+	
+		success = (comparable_xml_ocr_signature == comparable_pdf_ocr_signature)
 		
-		if success:
-			print ("OCR match (experimental) XML:%s, PDF:%s" % (xml_ocr_signature, pdf_ocr_signature), file=stderr)
-		
+		if DEBUG:
+			print ("|OCR match (experimental) XML:%s, PDF:%s" % (comparable_xml_ocr_signature, comparable_pdf_ocr_signature), file=stderr)
+	
+	# Retour du résultat final de comparaison
+	print("|success:", success)
 	if trace:
 		return (success, clean_xmlstr, clean_pdfstr)
 	else:
@@ -924,9 +961,8 @@ def _text_common_prepa(my_str):
 	# --------------
 	# C E S U R E S
 	# --------------
-	# NB: pré-supposent déjà: tr '\n' ' ' et normalisation des tirets
-	my_str = sub(r'\s*-\s*', '', my_str)      # version radicale => plus de tiret
-	# my_str = sub(r'(?<=\w)- ', '-', my_str) # version light avec tiret préservé
+	# NB: pré-suppose déjà: tr '\n' ' ' et normalisation des tirets
+	my_str = sub(r'(?<=\w)- ', '-', my_str) # version light avec tiret préservé
 	
 	
 	# ------------------
@@ -959,11 +995,6 @@ def _text_common_prepa(my_str):
 	my_str = sub(r'ꜩ', 'tz', my_str)
 	
 	
-	# --------------------
-	# M I N U S C U L E S
-	# --------------------
-	my_str = my_str.lower()
-	
 	return my_str
 
 
@@ -973,33 +1004,51 @@ def _text_ocr_errors(my_str):
 	connues pour être des paires d'erreurs
 	OCR fréquentes ==> permet de comparer
 	ensuite les chaînes ainsi appauvires.
+	
+	par ex: Circular fluid energy mill
+	    et  Circular fluid energy rni11  <= avec 3 erreurs
+	  deviennent tous les deux quelque chose comme:
+	     "eIreaIar fIaId energv mIII"
+	
+	# (la différence rn <=> m est oblitérée)
+	
+	
 	"""
-	# c'est visuel... on écrase le niveau de détail des cara 
 	
-	# attention à ne pas trop écraser tout de même !
-	# par exemple G0=Munier  T0=Muller doivent rester différents
+	# un cas hyper fréquent à part où c <=> t
+	my_str = sub(r'Sot.', 'Soc.', my_str)
 	
+	# caractère par caractère
+	#   >> c'est visuel... on écrase le niveau de détail des cara 
+	#   >> attention à ne pas trop écraser tout de même !
+	#   >> par exemple G0=Munier  T0=Muller doivent rester différents
 	
 	# ex: y|v -> v
 	my_str = sub(r'nn|rn', 'm', my_str)    # /!\ 'nn' à traiter avant 'n'
-	my_str = sub(r'ü|ti|fi', 'ii', my_str) # /!\ '*i' à traiter avant 'i'
-	
-	my_str = sub(r'O|o|ø|C\)','0', my_str)
-	my_str = sub(r'1|I|l|i', '1', my_str)
-	my_str = sub(r'f|t|e', 'c', my_str)    # f|c|e ?
+	my_str = sub(r'0|O|o|ø|C\)','0', my_str)
+	my_str = sub(r'1|I|l|i|\]', 'I', my_str)
+	my_str = sub(r't', 'f', my_str)         # sous-entendu r'f|t' => 'f'
+	my_str = sub(r'c', 'e', my_str)         # etc. idem
 	my_str = sub(r'y', 'v', my_str)
 	my_str = sub(r'S', '5', my_str)
-	#~ my_str = sub(r'c', 'e', my_str)
 	my_str = sub(r'E', 'B', my_str)
 	my_str = sub(r'R', 'K', my_str)
-	my_str = sub(r'n|u', 'a', my_str)
-	my_str = sub(r'\]', 'J', my_str)
+	my_str = sub(r'u', 'a', my_str)
+	my_str = sub(r'\]|\.I', 'J', my_str)
 	
 	# diacritiques et cara "spéciaux"
 	my_str = sub(r'\[3', 'β', my_str)
 	my_str = sub(r'é|ö', '6', my_str)
 	
 	my_str = sub(r'ç', 'q', my_str)
+	
+	
+	# erreurs OCR existantes mais à transfo très forte
+	# ici pour mémoire mais désactivées
+	# (vu la freq de ces caras c'est fortement appauvrissant)
+	# my_str = sub(r'f|t|e|c', 'c', my_str)
+	# my_str = sub(r'n|u|a', 'a', my_str)
+	# my_str = sub(r'ü|ti|fi', 'ii', my_str) # /!\ '*i' à traiter avant 'i'
 	
 	return my_str
 
