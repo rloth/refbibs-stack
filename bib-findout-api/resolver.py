@@ -8,6 +8,9 @@ pour chaque doc:
   pour chaque bib extraite:
     - filtrage amont (exclusion monographies et malformées)
     - transposition des champs XML en équivalents API
+      - principalement traduction via TEI_TO_LUCENE_MAP
+      - au passage découpe en tokens (mots)
+        - dont quelques gestions de cas particuliers
     - création d'une requête de résolution structurée
     - récup de son premier résultat dans l'API
     - validation ou non de ce résultat
@@ -31,15 +34,13 @@ from re import search, sub, MULTILINE, match
 from re import split as resplit
 from urllib.error import HTTPError
 from os import listdir, path
+from json import dump, dumps
 
 # pour some_docs uniquement
 from random import shuffle
 
-#OUT_MODE = "tab"
-#OUT_MODE = "json"
-OUT_MODE = "tei_xml"
+from argparse        import ArgumentParser, RawDescriptionHelpFormatter
 
-DEBUG = True
 
 TEI_TO_LUCENE_MAP = {
 	# attention parfois peut-être series au lieu de host dans la cible ?
@@ -111,6 +112,75 @@ for i, line in enumerate(fic_abr):
 fic_abr.close()
 
 
+
+
+def my_parse_args():
+	"""Preparation du hash des arguments ligne de commande pour main()"""
+	
+	parser = ArgumentParser(
+		formatter_class=RawDescriptionHelpFormatter,
+		description="""
+  A bib matcher to resolve every back//biblStruct from a TEI doc
+  into a serie of links to the referenced docs in the ISTEX API
+==================================================================
+ => Ajoute un lien dans les TEI d'origine et les enregistre
+ => Renvoie aussi un tableau  ID_SOURCE  |  ID_bib  |  DOC_TROUVÉ
+ => nov 2015: Trouve +/- 10% des documents cités dans la source
+""",
+		usage="resolver.py -I mes_TEI_avec_bibs/ -O mes_TEI_enrichies/ > tableau_recap.tsv",
+		epilog="- © 2015 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
+		)
+	
+	parser.add_argument('-I','--IN_DIR',
+		metavar='dossier_tei_in',
+		help="input classique: un dossier de documents TEI issus de l'ingestion (natives) et/ou de grobid (extraction pdf)",
+		type=str,
+		required=True,
+		action='store') # str (path)
+	
+	parser.add_argument('-O','--OUT_DIR',
+		metavar='dossier_tei_out',
+		help="output: les mêmes documents TEI avec un lien dans chaque biblStruct résolue",
+		type=str,
+		required=True,
+		action='store') # str (path)
+	
+	parser.add_argument('-L','--LOG_DIR',
+		metavar='dossier_logs',
+		help="dossier de sortie supplémentaire optionnelle: un json par fichier avec un détail des infos matchées",
+		type=str,
+		default=None,
+		required=False,
+		action='store') # str (path)
+	
+	parser.add_argument('-d','--debug',
+		help="affiche les infos de débogage",
+		default=False,
+		required=False,
+		action='store_true') # bool
+	
+	
+	args = parser.parse_args(argv[1:])
+	
+	ok_flag = True
+	if not path.exists(args.IN_DIR) and not path.isdir(args.IN_DIR):
+		warn("problème dossier IN_DIR: %s" % args.IN_DIR)
+		ok_flag = False
+	if not path.exists(args.OUT_DIR) and not path.isdir(args.OUT_DIR):
+		warn("problème dossier OUT_DIR: %s" % args.OUT_DIR)
+		ok_flag = False
+	if args.LOG_DIR is not None and not path.exists(args.LOG_DIR) and not path.isdir(args.LOG_DIR):
+		warn("problème dossier LOG_DIR: %s" % args.IN_DIR)
+		ok_flag = False
+	
+	if not ok_flag:
+		warn("veuillez indiquer: \n -I un dossier de TEI sorties de grobid ou de TEI issues de MODS \n -O un dossier pour les documents TEI avec bib résolues")
+		exit(1)
+	
+	return args
+
+
+
 class TeiDoc(object):
 	"""
 	Classe hyper simple pour un doc TEI parsé
@@ -120,6 +190,7 @@ class TeiDoc(object):
 	"""
 	def __init__(self, file_path):
 		self.path=file_path
+		self.filename=path.basename(file_path)
 		
 		try:
 			tei_dom = etree.parse(file_path)
@@ -402,7 +473,8 @@ class BiblStruct(object):
 						value = elt.attrib['when']
 					else:
 						msg = "WARNING: date sans @when"
-						warn(msg)
+						if args.debug:
+							warn(msg)
 						self.log.append(msg)
 						if elt.text:
 							field = mon_xpath(elt)
@@ -576,9 +648,10 @@ class BiblStruct(object):
 				# issn déduit du fragment extrait
 				issn_revue = ABREVS_REVUES[journal_key]
 				
-				warn("--------> HELLO %s" % journal_key)
-				warn("--------> HELLO issn_local %s" % issn_revue)
-				warn("--------> HELLO issn_api %s" % an_answer['host']['issn'][0])
+				if args.debug:
+					warn("--------> HELLO %s" % journal_key)
+					warn("--------> HELLO issn_local %s" % issn_revue)
+					warn("--------> HELLO issn_api %s" % an_answer['host']['issn'][0])
 				
 				# on vérifie le volume et les pages
 				test1a = (
@@ -666,6 +739,7 @@ class BiblStruct(object):
 		# debug:
 		#~ print ("%=================TEST2", test2)
 		return test2
+
 
 	def make_structured_query(self):
 		"""
@@ -905,7 +979,7 @@ def soft_compare(xmlstr,pdfstr, trace=False):
 	Version initiale basique
 	"""
 	
-	if DEBUG:
+	if args.debug:
 		print ("|soft_compare \n|xmlstring:'%s' <=> pdfstring:'%s'" % (xmlstr, pdfstr), file=stderr)
 	
 	
@@ -924,14 +998,14 @@ def soft_compare(xmlstr,pdfstr, trace=False):
 	
 	success = (comparable_xmlstr == comparable_pdfstr)
 	
-	if success and DEBUG:
+	if success and args.debug:
 		print ("|soft_compare ok \n|comparable_xmlstr:'%s' <=> comparable_pdfstr:'%s'" % (comparable_xmlstr, comparable_pdfstr), file=stderr)
 	
 	
 	# 2a) pour comparer en émulant les erreurs OCR
 	#   on repart de la version sans le "tout lowercase"
 	if not success and len(clean_xmlstr) > 5 and len(clean_pdfstr) > 5:
-		if DEBUG:
+		if args.debug:
 			warn("|essai match OCR====")
 		
 		# on appauvrit les chaînes (eg 1|l|I ==> I)
@@ -946,14 +1020,16 @@ def soft_compare(xmlstr,pdfstr, trace=False):
 	
 		success = (comparable_xml_ocr_signature == comparable_pdf_ocr_signature)
 		
-		if DEBUG:
+		if args.debug:
 			print ("|OCR match (experimental) XML:%s, PDF:%s" % (comparable_xml_ocr_signature, comparable_pdf_ocr_signature), file=stderr)
 	
-	# Retour du résultat final de comparaison
-	warn("|success: %s" % success)
+	if args.debug:
+		warn("|success: %s" % success)
+	
 	if trace:
 		return (success, clean_xmlstr, clean_pdfstr)
 	else:
+		# Retour du résultat final de comparaison
 		return success
 
 def _text_common_prepa(my_str):
@@ -1169,55 +1245,29 @@ def get_top_match_or_None(solving_query):
 
 
 
-def some_docs(a_dir_path, test_mode=False):
-	"""
-	Simple liste de documents depuis fs
-	(si test, on n'en prend que 3)
-	"""
-	try:
-		bibfiles = [path.join(a_dir_path,fi) for fi in listdir(a_dir_path)]
-	except:
-		warn("le dossier %s n'existe pas" % a_dir_path)
-		exit(1)
-
-	if test_mode:
-		# pour les tests (on fait 3 docs différents à chaque fois)
-		shuffle(bibfiles)
-		the_files = bibfiles[0:3]
-
-		warn("= + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + = + =")
-		warn("TEST_FILES %s" % the_files)
-	else:
-		the_files = bibfiles
-
-	return the_files
-
-
 # -------------------------------------
 #               MAIN
 # -------------------------------------
 
 if __name__ == '__main__':
-	try:
-		my_dir_in = argv[1]
-		my_dir_out = argv[2]
-	except:
-		warn("veuillez indiquer: \n INPUT un dossier de sorties de grobid en argument1 \n OUTPUT un dossier pour les recettes de test")
-		exit(1)
-
-	# TODO ici some_docs peut être remplacé par une
-	#      array de Docs() en provenance de Corpus()
 	
-	# mode test: juste 3 docs /!\
-	the_files = some_docs(my_dir_in, test_mode=True)
+	# arguments (dossier IN, OUT et optionnellement LOG)
+	args = my_parse_args()
+
+	try:
+		the_files = [path.join(args.IN_DIR,fi) for fi in listdir(args.IN_DIR)]
+	except:
+		warn("le dossier %s n'existe pas" % args.IN_DIR)
+		exit(1)
 	
 	NB_docs = len(the_files)
 	
 	# lecture pour chaque doc => pour chaque bib
 	for d_i, bibfile in enumerate(the_files):
 		
-		# stockage à la fin si OUT_MODE = json
-		bibinfos = []
+		if args.LOG_DIR is not None:
+			# pour écriture des logs à la fin
+			bibinfos = []
 
 		warn("======================================\nDOC #%i:%s" % (d_i+1,bibfile))
 
@@ -1245,18 +1295,19 @@ if __name__ == '__main__':
 			
 			warn("======================================\nDOC %i/%i -- BIB %i/%i\n" % (d_i+1,NB_docs, b_i+1, NB_bibs))
 
-			# ------ <verbose>
 			subelts = [xelt for xelt in refbib.iter()]
-			warn("---------> contenus de la BIB GROBIDISÉE %s <--------" % str(b_i+1))
-			for xelt in subelts:
-				text = text_to_query_fragment(xelt.text)
-				if len(text):
-					warn("  %s: %s" % (mon_xpath(xelt),text))
-			# ------ </verbose>
-			
+			if args.debug:
+				warn("---------> contenus de la BIB GROBIDISÉE %s <--------" % str(b_i+1))
+				for xelt in subelts:
+					text = text_to_query_fragment(xelt.text)
+					if len(text):
+						warn("  %s: %s" % (mon_xpath(xelt),text))
 			
 			# changera de valeur ssi on obtient un hit ET qu'il est validé
 			found_id_or_none = None
+			
+			# le hit obtenu même si non validé (apparaît dans les logs json optionnels)
+			json_answr = None
 			
 			# ==================================================
 			#            P R E P A     R E Q U E T E S
@@ -1305,14 +1356,15 @@ if __name__ == '__main__':
 				bs_obj.prepare_query_frags()
 			
 				# debug
-				warn("API_STRS:%s" % bs_obj.api_strs)
-				warn("API_TOKS:%s" % bs_obj.api_toks)
+				if args.debug:
+					warn("API_STRS:%s" % bs_obj.api_strs)
+					warn("API_TOKS:%s" % bs_obj.api_toks)
 			
 				# mise sous syntaxe lucene de notre structure champ: [valeurs]
 				the_query = bs_obj.make_structured_query()
 			
-			
-			warn("THE_QUERY:%s\n" % the_query)
+			if args.debug:
+				warn("---\nOUR QUERY:%s\n---" % the_query)
 			
 			if the_query is not None:
 
@@ -1323,16 +1375,17 @@ if __name__ == '__main__':
 				try:
 					# lancement à l'API d'une requête lucene => réponse json
 					json_answr = get_top_match_or_None(the_query)
-					
-					# debug
-					warn("JSON_ANSWR (unchecked):%s" % json_answr)
 				
 				except HTTPError as e:
 					json_answr = None
 					msg = "ERROR: (skip requête): '%s'" % str(e)
 					warn(msg)
 					bs_obj.log.append(msg)
-			
+				
+				print_answer = dumps(json_answr, indent=2)
+				if args.debug:
+					warn("---\nAPI ANSWER (not validated):\n%s\n---" %  print_answer)
+
 			
 				# ==================================================
 				#      V A L I D A T I O N    R E P O N S E
@@ -1352,17 +1405,15 @@ if __name__ == '__main__':
 						
 						# si et seulement si le match a été validé
 						found_id_or_none = json_answr['id']
-						
-						# pour infos
-						warn("VALID ANSWER   ^^^^^^^^^^^^^^^^^^^^^^^^   VALID ANSWER")
 			
-			warn("MATCH: %s" % str(found_id_or_none))
+			if args.debug:
+				warn("---\nRESOLVED MATCH: %s\n---" % str(found_id_or_none))
 			
 			
 			# ==================================
 			#   S O R T I E S    P A R    B I B
 			
-			# dans tous les cas on sort un tableau résumé
+			# dans tous les cas on sort ce tableau résumé sur STDOUT
 			#
 			# 3 cols ex:
 			#   ID SOURCE |  ID BIB  |  ID RESOLUE
@@ -1373,7 +1424,7 @@ if __name__ == '__main__':
 			print("\t".join([bs_obj.srcdoc,bs_obj.indoc_id,str(found_id_or_none)]))
 			
 			
-			if OUT_MODE == "json":
+			if args.LOG_DIR is not None:
 				# sortie détaillée json dans un fichier
 				bibinfos.append(
 				  {
@@ -1384,48 +1435,50 @@ if __name__ == '__main__':
 				   'valid_hit_id': found_id_or_none,
 				   'valid_hit'   : json_answr,
 				   'findout_errs': bs_obj.log
+				   # ...
 				   }
 				)
 			
+			# si on a trouvé quelquechose on modifie le XML de ce biblStruct
+			if found_id_or_none is not None:
+				# le nouvel élément
+				new_xref = etree.Element("ref", type="istex-url")
+				
+				# son contenu
+				new_xref.text = "https://api.istex.fr/document/" + found_id_or_none
+				
+				# ajout dans la DOM dans le biblStruct
+				bs_obj.xelt.append(new_xref)
+				
+				# forme de l'élément qu'on vient d'ajouter!
+				# <ref type="istex-url">https://api.istex.fr/document/$found_id</ref>
 			
-			elif OUT_MODE == "tei_xml":
-				if found_id_or_none is not None:
-					# le nouvel élément
-					new_xref = etree.Element("ref", type="istex-url")
-					
-					# son contenu
-					new_xref.text = "https://api.istex.fr/document/" + found_id_or_none
-					
-					# ajout dans la DOM dans le biblStruct
-					bs_obj.xelt.append(new_xref)
-					
-					# forme de l'élément qu'on vient d'ajouter!
-					# <ref type="istex-url">https://api.istex.fr/document/$found_id</ref>
 			
 			# fin boucle par bib
+			# ------------------
 		
 		
 		# ==================================
 		#   S O R T I E S    P A R    D O C
 		# 
-		# modes XML ou JSON: écriture d'un fichier par doc source
+		# écriture d'un fichier XML par doc source
+		# + optionnel 1 fichier JSON de log
 		
-		if OUT_MODE == "json":
+		# même nom que le fichier d'entrée
+		out_doc_xml_path = path.join(args.OUT_DIR, teidoc.filename)
+		
+		# écriture XML enrichi
+		teidoc.xtree.write(out_doc_xml_path, pretty_print=True)
+		
+		
+		if args.LOG_DIR is not None:
 			doc_id = teidoc.get_iid()
 			
 			# bibinfos entier pour ce doc
 			#   - en json
 			#   - dans un fichier OUT_DIR/ID.resolution.json
 			
-			out_doc_json = open(my_dir_out+'/'+doc_id+'.resolution.json', 'w')
-			dump(bibinfos, out_doc, indent=2, sort_keys=True)
+			out_doc_json = open(path.join(args.LOG_DIR,doc_id+'.resolution.json'), 'w')
+			dump(bibinfos, out_doc_json, indent=2, sort_keys=True)
 			out_doc_json.close()
 		
-		elif OUT_MODE == "tei_xml":
-			# get_iid() à modifier éventuellement
-			doc_id = teidoc.get_iid()
-			out_doc_xml_path = my_dir_out+'/'+doc_id+'.tei.xml'
-			
-			# écriture XML enrichi
-			teidoc.xtree.write(out_doc_xml_path, pretty_print=True)
-			
