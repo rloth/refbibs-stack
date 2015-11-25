@@ -332,6 +332,24 @@ class BiblStruct(object):
 
 						# champs ayant le droit d'être courts
 						if champ in ['host.volume', 'host.issue','host.pages.first','host.pages.last']:
+							
+							# si API demande des valeurs numériques -------->8----
+							# ----------------------------------------------------
+							# on doit intercepter les cas rares non numériques
+							# ex: cas volumes = "12 B" ou issue = "suppl 1"
+							if search(r'[^0-9]', tok):
+								
+								# la partie num la plus longue
+								grep_partie_num = search(r'([0-9]+)', tok)
+								if grep_partie_num is not None:
+									tok = grep_partie_num.groups()[0]
+								else:
+									# s'il n'y a rien de numérique on skip ce token
+									continue
+							# ----------------------------------------------------
+							# ---------------------------------------------->8----
+							
+							# en tout cas enregistrement même si le token est court
 							self.api_toks = self.record(self.api_toks, champ, tok)
 							total_kept += 1
 
