@@ -30,11 +30,10 @@ from sys import stderr, argv
 from re import search, sub, MULTILINE, match
 from re import split as resplit
 from urllib.error import HTTPError
-
+from os import listdir, path
 
 # pour some_docs uniquement
 from random import shuffle
-from os import listdir, path
 
 #OUT_MODE = "tab"
 #OUT_MODE = "json"
@@ -89,6 +88,27 @@ TEI_TO_LUCENE_MAP = {
 	#    (mais suffisant actuellement car monographie entière seule est extremmement rare dans ISTEX)
 }
 
+
+# chargement du fichier etc/issn_abrevs.tsv
+# ------------------------------------------
+# format des infos lues
+# { 
+#   "j mol biol" :              "0022-2836",
+#   "aorn j":                   "0001-2092",
+#   "acta anaesthesiol scand" : "0001-5172", 
+#     ...
+#   (4000+ entrées)
+#  }
+ABREVS_REVUES = {}
+install_dir = path.dirname(path.realpath(__file__))
+fic_abr = open(path.join(install_dir,'etc','issn_abrevs.tsv'), 'r')
+for i, line in enumerate(fic_abr):
+	if match(r'[0-9]{4}-[0-9Xx]{4}\t[\w ]+$', line):
+		[issn,abreviation] = line.strip().split("\t")
+		ABREVS_REVUES[abreviation] = issn
+	else:
+		warn("(skip 1 abrev) ligne %i malformée dans etc/issn_abrevs.tsv" % i)
+fic_abr.close()
 
 
 class TeiDoc(object):
@@ -191,7 +211,6 @@ class BiblStruct(object):
 			self.indoc_id = ersatz_id
 		
 		# les infos diverses : résolution impossible, etc
-		
 		self.log = []
 
 
@@ -309,7 +328,7 @@ class BiblStruct(object):
 					#     cf. text_to_query_fragment dans bib_subvalues qui
 					#         a le droit d'ajouter des '?' et '*'
 					for tok in resplit(r'[^\w?*]', whole_str):
-						# print("TOK",tok)
+						# warn("TOK %s" % tok)
 
 						# champs ayant le droit d'être courts
 						if champ in ['host.volume', 'host.issue','host.pages.first','host.pages.last']:
@@ -397,14 +416,12 @@ class BiblStruct(object):
 				# === cas normaux ===
 				# (texte dans l'élément)
 				else:
-					if elt.text:
+					if elt.text and not match(r"^\W*$", elt.text):
 						field = mon_xpath(elt)
+						# conversion str => str plus safe pour l'API
 						str_value = text_to_query_fragment(elt.text)
-						# souvent vide (non terminaux avec "\s+"
-						# alors on filtre, même si record() l'aurait enlevé
-						if str_value:
-							# enregistrement
-							xml_subtexts_by_field = self.record(xml_subtexts_by_field, field, str_value)
+						# enregistrement
+						xml_subtexts_by_field = self.record(xml_subtexts_by_field, field, str_value)
 
 			# memoize
 			self.tei_subvals = xml_subtexts_by_field
@@ -507,9 +524,9 @@ class BiblStruct(object):
 		
 		TODO: match souple OCR à importer de libtrainers
 		"""
-		#print(">>> AVANT COMPARAISON <<<")
-		#print("S.STRS", self.api_strs)
-		#print("A.STRS", an_answer)
+		#warn(">>> AVANT COMPARAISON <<<")
+		#warn("S.STRS", self.api_strs)
+		#warn("A.STRS", an_answer)
 		
 		test1 = False    # date + imprint + page
 		test2 = False    # date + titre + auteur[0]
@@ -524,23 +541,54 @@ class BiblStruct(object):
 		     and 'host.pages.first' in self.api_strs)
 		and ('publicationDate' in an_answer
 		      and 'host' in an_answer
-		          and 'title' in an_answer['host']
+		          and 'issn' in an_answer['host']
 		          and 'volume' in an_answer['host']
 		          and 'pages' in an_answer['host']
 		             and 'first' in an_answer['host']['pages'])):
-		
-			test1 = (
-			         (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
-			         # match plus souple pour les contenus texte
-			     and (text2_soft_compare(self.api_strs['host.title'][0], an_answer['host']['title']))
-			     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
-			     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
-			         )
 			
-			# si le test1 a matché on s'arrête: c'est suffisant
-			if test1:
-				return True
-		
+			# variante la plus fréquente : avec titre abrégé => table <=> ISSN API
+			# ex: "J. Mol. Biol." dans l'extraction
+			
+			j_extract = self.api_strs['host.title'][0]
+			journal_key = sub("\W+", " ", j_extract.lower())
+			
+			# on a extrait une revue qu'on connait
+			if journal_key in ABREVS_REVUES:
+				
+				# issn déduit du fragment extrait
+				issn_revue = ABREVS_REVUES[journal_key]
+				
+				warn("--------> HELLO %s" % journal_key)
+				warn("--------> HELLO issn_local %s" % issn_revue)
+				warn("--------> HELLO issn_api %s" % an_answer['host']['issn'][0])
+				
+				# on vérifie le volume et les pages
+				test1a = (
+				         (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
+				     and (issn_revue == an_answer['host']['issn'][0])
+				     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
+				     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
+				         )
+			
+				# si le test1a a matché on s'arrête: c'est suffisant
+				if test1a:
+					warn("JOURNAL MATCH: %s <=> %s <=> %s" % (journal_key, issn_revue, an_answer['host']['title']))
+					return True
+			
+			# version avec titre entier
+			if 'title' in an_answer['host']:
+				test1b = (
+				         (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
+				         # match plus souple pour les contenus texte
+				     and (soft_compare(self.api_strs['host.title'][0], an_answer['host']['title']))
+				     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
+				     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
+				         )
+			
+				# si le test1b a matché c'est suffisant
+				if test1b:
+					return True
+			
 		
 		# si on n'a pas les infos du test1 et/ou si elles n'ont pas matché
 		if (('publicationDate' in self.api_strs
@@ -582,9 +630,9 @@ class BiblStruct(object):
 			api_author_0_last_token = api_author_0.split(" ")[-1]
 			
 			test2 = (
-			         (text2_soft_compare(self.api_strs['title'][0],an_answer['title']))
+			         (soft_compare(self.api_strs['title'][0],an_answer['title']))
 			     and (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
-			     and (text2_soft_compare(our_author_0,api_author_0_last_token))
+			     and (soft_compare(our_author_0,api_author_0_last_token))
 			         )
 			
 			# debug valeurs comparées
@@ -820,7 +868,7 @@ def text_to_query_fragment(any_text):
 
 
 # Faire une comparaison souple ------------------------
-#   text2_soft_compare(xmltext,pdftext)
+#   soft_compare(xmltext,pdftext)
 #      -> prépa commune: _text_common_prepa()
 #         - suppression/normalisation espaces et ponctuations
 #         - jonction césures,
@@ -828,26 +876,19 @@ def text_to_query_fragment(any_text):
 #      -> tout en min (à part pour ne pas gêner le suivant)
 #      -> prépa texte issu de PDF
 #         - multimatch OCR (aka signature simplifiée)
-# £TODO
+# £TODO comme dans eval_xml_refbibs.pl
 #         - jonction accents eg o¨ => ö
 #      -> match longueur ?
 #         - caractères intercalés
 #         - quelques caractères en plus à la fin
  
-#  NB sur mes notations : 
-#       _   = fonction privée
-#     text  = fonction sur une chaîne
-#             (renvoie la chaîne transformée)
-#     text2 = fonction de comparaison de 2 chaînes
-#             (renvoie un bool de match)
-
-def text2_soft_compare(xmlstr,pdfstr, trace=False):
+def soft_compare(xmlstr,pdfstr, trace=False):
 	"""
 	Version initiale basique
 	"""
 	
 	if DEBUG:
-		print ("|text2_soft_compare \n|xmlstring:'%s' <=> pdfstring:'%s'" % (xmlstr, pdfstr), file=stderr)
+		print ("|soft_compare \n|xmlstring:'%s' <=> pdfstring:'%s'" % (xmlstr, pdfstr), file=stderr)
 	
 	
 	# 1a) dans tous les cas il faut :
@@ -866,16 +907,14 @@ def text2_soft_compare(xmlstr,pdfstr, trace=False):
 	success = (comparable_xmlstr == comparable_pdfstr)
 	
 	if success and DEBUG:
-		print ("|text2_soft_compare ok \n|comparable_xmlstr:'%s' <=> comparable_pdfstr:'%s'" % (comparable_xmlstr, comparable_pdfstr), file=stderr)
-	
-	# ICI match journals £TODO
+		print ("|soft_compare ok \n|comparable_xmlstr:'%s' <=> comparable_pdfstr:'%s'" % (comparable_xmlstr, comparable_pdfstr), file=stderr)
 	
 	
 	# 2a) pour comparer en émulant les erreurs OCR
 	#   on repart de la version sans le "tout lowercase"
 	if not success and len(clean_xmlstr) > 5 and len(clean_pdfstr) > 5:
 		if DEBUG:
-			print("|essai match OCR====")
+			warn("|essai match OCR====")
 		
 		# on appauvrit les chaînes (eg 1|l|I ==> I)
 		xml_ocr_signature = _text_ocr_errors(clean_xmlstr)
@@ -893,7 +932,7 @@ def text2_soft_compare(xmlstr,pdfstr, trace=False):
 			print ("|OCR match (experimental) XML:%s, PDF:%s" % (comparable_xml_ocr_signature, comparable_pdf_ocr_signature), file=stderr)
 	
 	# Retour du résultat final de comparaison
-	print("|success:", success)
+	warn("|success: %s" % success)
 	if trace:
 		return (success, clean_xmlstr, clean_pdfstr)
 	else:
@@ -1011,12 +1050,10 @@ def _text_ocr_errors(my_str):
 	     "eIreaIar fIaId energv mIII"
 	
 	# (la différence rn <=> m est oblitérée)
-	
-	
 	"""
 	
 	# un cas hyper fréquent à part où c <=> t
-	my_str = sub(r'Sot.', 'Soc.', my_str)
+	my_str = sub(r'Sot\.', 'Soc\.', my_str)
 	
 	# caractère par caractère
 	#   >> c'est visuel... on écrase le niveau de détail des cara 
@@ -1081,6 +1118,7 @@ def get_top_match_or_None(solving_query):
 				limit=1,
 				outfields=['id',
 					'title',
+					'host.issn',
 					'host.title',
 					'host.volume',
 					'host.pages.first',
@@ -1266,13 +1304,13 @@ if __name__ == '__main__':
 				# liste de dict [{lucn_query:"..", json_answr:"..."},...]
 				try:
 					# lancement à l'API d'une requête lucene => réponse json
-					
 					json_answr = get_top_match_or_None(the_query)
 					
 					# debug
 					warn("JSON_ANSWR (unchecked):%s" % json_answr)
 				
 				except HTTPError as e:
+					json_answr = None
 					msg = "ERROR: (skip requête): '%s'" % str(e)
 					warn(msg)
 					bs_obj.log.append(msg)
@@ -1306,15 +1344,18 @@ if __name__ == '__main__':
 			# ==================================
 			#   S O R T I E S    P A R    B I B
 			
-			if OUT_MODE == "tab":
-				# ex: 
-				#   49548E3D7ED1292A50FE084E3BDA06A085EABD4A	b0	100E8642B58FB55128FA2703B321FBA0046F545D
-				#   49548E3D7ED1292A50FE084E3BDA06A085EABD4A	b1	None
-				#        etc.
-				print("\t".join([bs_obj.srcdoc,bs_obj.indoc_id,str(found_id_or_none)]))
+			# dans tous les cas on sort un tableau résumé
+			#
+			# 3 cols ex:
+			#   ID SOURCE |  ID BIB  |  ID RESOLUE
+			# -------------------------------------
+			#   49548E... |   b0     |  100E86...    <== lien trouvé
+			#   49548E... |   b1     |   None        <== pas trouvé
+			#        etc.
+			print("\t".join([bs_obj.srcdoc,bs_obj.indoc_id,str(found_id_or_none)]))
 			
 			
-			elif OUT_MODE == "json":
+			if OUT_MODE == "json":
 				# sortie détaillée json dans un fichier
 				bibinfos.append(
 				  {
@@ -1331,7 +1372,6 @@ if __name__ == '__main__':
 			
 			elif OUT_MODE == "tei_xml":
 				if found_id_or_none is not None:
-					pass
 					# le nouvel élément
 					new_xref = etree.Element("ref", type="istex-url")
 					
@@ -1364,7 +1404,7 @@ if __name__ == '__main__':
 			out_doc_json.close()
 		
 		elif OUT_MODE == "tei_xml":
-			# à modifier éventuellement
+			# get_iid() à modifier éventuellement
 			doc_id = teidoc.get_iid()
 			out_doc_xml_path = my_dir_out+'/'+doc_id+'.tei.xml'
 			
