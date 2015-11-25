@@ -2,18 +2,17 @@ BIB-FINDOUT-API
 ===============
 **An ISTEX bibliographical resolver for structured ISTEX-API queries and validated bibref identification.** 
 
-Install
--------
+Installation
+-------------
 
  Prérequis
+ 
   - un interpréteur `python3`
   - Le package `python3-lxml`
-  - la mise en place du proxy pour accéder à l'API
- 2. Get the current package by cloning the git or getting the ZIP: 
-    - `git clone https://git.istex.fr/git/loth/bib-get.git`
-    - or download [the installation ZIP archive](https://git.istex.fr/loth/bib-get/archive/master.zip) and extract in any chosen directory where future work will take place
-
-That's it! You can run the script on 5 documents for a small test: `python3 bib-get.py -q "agile" --maxi 5`
+  - Récupérer ce package `git clone https://git.istex.fr/git/loth/refbibs-stack.git`
+  - remplacer le lien libconsulte sous `bib-findout-api` par un vrai lien vers le package libconsulte pour les méthodes d'accès API  
+  - la mise en place éventuelle de la variable d'environnement http_proxy pour accéder à l'API
+  
 
 
 Usage standard
@@ -23,31 +22,33 @@ Usage standard
 Description
 -------------
 Resolver fonctionne autour de 3 étapes clés:
+
  1. Transformation de chaque tei:biblStruct en une requête structurée lucene
-   - fonctions dédiées dans resolver.py:
-     - `BiblStruct.bib_subvalues()`
-     - `BiblStruct.prepare_query_frags()`
+    - fonctions dédiées dans resolver.py:
+      - `BiblStruct.bib_subvalues()`
+      - `BiblStruct.prepare_query_frags()`
  2. Interrogation de l'API
-   - objectif : avoir le plus grand *rappel*, même avec des faux positifs)
-   - type de requête lancée : série de fragments champ:(mot1 mot2)
-   - fonctions dédiées dans resolver.py:
-     - `get_top_match_or_None()`
+    - objectif : avoir le plus grand *rappel*, même avec des faux positifs)
+    - type de requête lancée : série de fragments champ:(mot1 mot2)
+    - fonctions dédiées dans resolver.py:
+      - `get_top_match_or_None()`
  3. validation par des règles de comparaison intelligentes
    - objectif : avoir une *précision* parfaite tout en gardant le plus de résultats
    - fonctions dédiées dans resolver.py:
      - `BiblStruct.test_hit()`
-     - qui fait des tests sur des infos nécessaires et suffisantes à valider
-     - elle utilise pour les abréviations de revues la liste sous `etc/issn_abrevs.tsv`
-     - et utilise pour les valeurs texte une fonction de comparaison de 2 chaînes de cara : `soft_compare(str_extrait_PDF, str_réponse_API)`
+       - qui fait des tests sur des infos nécessaires et suffisantes à valider
+       - elle utilise pour les abréviations de revues la liste sous `etc/issn_abrevs.tsv`
+       - et utilise pour les valeurs texte une fonction de comparaison de 2 chaînes de cara : `soft_compare(str_extrait_PDF, str_réponse_API)`
 
 Entrée/sortie
 -------------
 
 L'entrée se fait par un dossier de documents TEI
+
   - soit issus des xml natifs via MODS2TEI
   - soit issues de l'extraction grobid à partir des PDF
 
-Quelque soit la provenance, l'essentiel est que les documents TEI contiennent des éléments `/TEI/text/back//biblStruct`.
+**Quelque soit la provenance, l'essentiel est que les documents TEI contiennent des éléments `/TEI/text/back//biblStruct`.**
 
 Dans l'idéal ils devraient être précisément sous `/TEI/text/back/div/listBibl/biblStruct` et comporter chacun un xml:id.
 
