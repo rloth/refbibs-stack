@@ -8,9 +8,9 @@ Installation
  Prérequis
  
   - un interpréteur `python3`
-  - Le package `python3-lxml`
-  - Récupérer ce package `git clone https://git.istex.fr/git/loth/refbibs-stack.git`
-  - remplacer le lien libconsulte sous `bib-findout-api` par un vrai lien vers le package libconsulte pour les méthodes d'accès API  
+  - le package ubuntu `python3-lxml`
+  - ce package `git clone https://git.istex.fr/git/loth/refbibs-stack.git`
+  - remplacer le lien symbolique libconsulte sous `bib-findout-api` par un vrai lien vers le package libconsulte
   - la mise en place éventuelle de la variable d'environnement http_proxy pour accéder à l'API
   
 
@@ -84,7 +84,8 @@ Pour la phase 1 de tests sur la constitution de requêtes cf. archive
 
 Contacts
 ---------
-romain.loth at inist.fr  
+romain.loth at inist.fr 
+romain.loth at gmail.com 
 istex at inist.fr
 
 © 2015 Inist-CNRS (ISTEX)
