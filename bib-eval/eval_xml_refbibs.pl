@@ -957,6 +957,11 @@ for my $path (sort (@xml_to_check_list)) {
 } ####### fin boucle DOCS todopaths #######
 
 
+# cas particulier si erreur balisage
+
+if ($matchable_L == 0) {
+	warn "!!! Aucune refbib à évaluer -- vérifier s'il n'y a pas d'erreur de balisage côté grobid dans grobid.log !!!\n"
+}
 
 # ============================================
 # 1G) Calcul et affichage stats par documents
@@ -1025,8 +1030,19 @@ if($eval_log_path) {
 	
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar1}d",$aligned_docs)."\t" ;
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$K)."\t" ;
-	print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_K)."\t" ;
-	print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_L)."\t" ;
+	
+	if ($matchable_K == 0) {
+		warn "WARNING (EVAL SORTIE) 0 refbibs golds lues sans erreur, (et donc impossible de calculer le rappel)\n" ;
+		print EVAL_REPORT_TO_APPEND "err\t" ;
+	} else {
+		print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_K)."\t" ;
+	}
+	if ($matchable_L == 0) {
+		warn "WARNING (EVAL SORTIE) 0 refbibs 'todo' (à évaluer) ! (et donc impossible de calculer la précision)\n" ;
+		print EVAL_REPORT_TO_APPEND "err\t" ;
+	} else {
+		print EVAL_REPORT_TO_APPEND sprintf("%.3f",$total_found/$matchable_L)."\t" ;
+	}
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_title)."\t" ;
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_issue)."\t" ;
 	print EVAL_REPORT_TO_APPEND sprintf("% ${nbchar2}d",$total_found_names)."\t" ;

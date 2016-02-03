@@ -940,7 +940,7 @@ def eval_model(model_names=[], eval_set=None,
 		  '-dOut',newbibs_path
 		  ]
 		  )
-	print ('--- Balisage terminé ---', file = stderr)
+	print ('--- Balisage terminé (=>dossier %s)---' % newbibs_path, file = stderr)
 	print ('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^', file = stderr)
 	
 	# (4) évaluer
