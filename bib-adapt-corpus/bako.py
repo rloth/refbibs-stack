@@ -107,7 +107,7 @@ def bako_sub_args(next_sys_args=None):
       A corpus manager and training operator for grobid-trainer
 ----------------------------------------------------------------------""",
 		usage="""
-  bako make_set       corpus_name  [-s size] [-q specific api query]
+  bako make_set       corpus_name  [-s size] [-c specific api query]
   bako take_set       corpus_name
   bako make_trainers  corpus_name  [-m model  [model2...]]
   bako run_training   model_type   [-c corpus_name [corpus_name2...]]
