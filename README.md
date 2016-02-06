@@ -20,14 +20,14 @@ Pour les utilisateurs qui veulent juste baliser des PDFs avec grobid, le client 
 ### Statut
 *Après une phase d'un an de développements séparés, la stack arrive à maturité en septembre 2015.*
 
-<table>
-<tr><td>MODULE</td>          <td>STATUT</td>  <td>LANG</td>    <td>REMARQUES</td></tr>
-<tr><td>bib-get</td>          <td>prod</td> <td>python3</td>   <td>déjà + de 30 Mbibs extraites !</td></tr>
-<tr><td>bib-findout-api</td>  <td>tests</td>  <td>python3</td>    <td>proto. résolution par requêtes API</td></tr>
-<tr><td>bib-install-vp</td>   <td>prod</td> <td>shell+java</td>  <td>décharge un tarball d'un fork de grobid</td></tr>
-<tr><td>bib-eval</td>         <td>prod</td> <td>perl</td>         <td>inclut des matchs souples avancés</td></tr>
-<tr><td>bib-adapt-corpus</td> <td>prod</td> <td>python3+XSL</td>  <td>atelier corpus + prépa + training + modèles CRF</td></tr>
-</table>
+| MODULE           | STATUT | LANG          | REMARQUES                                                 |
+| ---------------- | ------ | ------------- | --------------------------------------------------------- |
+| bib-get          | prod   | python3       | PDF => bibs XML-TEI, via client grobid (intégré loadIstex)|
+| bib-findout-api  | tests  | python3       | bib XML-TEI -> query ES -> match souple -> ID API du doc  |
+| bib-install-vp   | prod   | python3       | installe grobid v0.3.4 avec les modèles istexRD2015       |
+| bib-eval         | prod   | perl          | écrit un rapport résumé et des logs tabulaires détaillés  |
+| bib-adapt-corpus | prod   | python3 + XSL | assistance à la création de corpus et nouveaux modèles CRF|
+
 
 ### Dépôts upstream
 Cette suite intègre directement deux dépôts construits par ailleurs, en les important sous la forme d'un `git subtree`:
@@ -44,8 +44,6 @@ Pour tout travail de développement, il faut être conscient de ces dépendances
  - dockerisations
  - un bib-install-vi avec git pour un grobid utilisé en training
  - paramètrage bako + complet (critères arrêt, params prépas ragréage/Pub2TEI, params éval)
- - readme + complet pour bako !
- - match souple et fin des évaluations pour bib-findout
 
 ### Infos complémentaires
   - Chez Patrice Lopez, l'auteur de Grobid
@@ -62,6 +60,8 @@ Pour tout travail de développement, il faut être conscient de ces dépendances
 Contacts
 ---------
 romain.loth at inist.fr  
-istex at inist.fr
+romain.loth at iscpif.fr  
+istex at inist.fr  
+rd-team at listes.istex.fr  
 
-© 2014-15 Inist-CNRS (ISTEX)
+© 2014-16 Inist-CNRS (ISTEX)

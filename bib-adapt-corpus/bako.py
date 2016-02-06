@@ -3,21 +3,18 @@
 bib-adapt-corpus ou bako
 ------------------------
 5 commands:
+  bako new_workshop
   bako make_set       corpus_name  [-s size] [-q specific api query]
-  bako take_set       corpus_name
   bako make_trainers  corpus_name  [-m model  [model2...]]
   bako run_training   model_type   [-c corpus_name [corpus_name2...]]
   bako eval_model     [-m model_name] [-e evalcorpus_name] [-s] [-g]
-  
-TODO : éval de plusieurs modèles => eval_id
-       avec une sorte de modèles_triggers => substitutionsles
   
 """
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.5"
-__email__     = "romain.loth@inist.fr"
+__version__   = "0.6"
+__email__     = "romain.loth@inist.fr,romain.loth@iscpif.fr"
 __status__    = "Dev"
 
 # imports

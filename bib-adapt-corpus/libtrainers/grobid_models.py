@@ -16,7 +16,7 @@ TODO :
 __author__    = "Romain Loth"
 __copyright__ = "Copyright 2014-5 INIST-CNRS (ISTEX project)"
 __license__   = "LGPL"
-__version__   = "0.4"
+__version__   = "0.41"
 __email__     = "romain.loth@inist.fr"
 __status__    = "Dev"
 
@@ -26,7 +26,7 @@ from re              import sub, search, match
 from configparser    import ConfigParser
 
 # pour l'appel de grobid en training
-from subprocess      import check_output, PIPE, Popen
+from subprocess      import check_output, PIPE, Popen, STDOUT
 from locale          import getlocale, setlocale, LC_NUMERIC
 
 # pour lire la version grobid
@@ -90,8 +90,8 @@ try:
 		'/*[local-name()="project"]/*[local-name()="version"]'
 		)[0]
 	GB_RAW_VERSION = version_elt.text
-	# ex: "GB_0.3.4"
-	GB_VERSION = "GB_"+sub("-SNAPSHOT","",GB_RAW_VERSION)
+	# ex: "GBv0.3.4"
+	GB_VERSION = "GBv"+sub("-SNAPSHOT","",GB_RAW_VERSION)
 	
 except Exception as e:
 	print("Problem while parsing %s: grobid version UNKNOWN, your grobid install is incomplete" % gb_pom)
@@ -245,6 +245,8 @@ def gb_vanilla_restore(model_type):
 		# b - read vanilla object
 		model_object = CRFModel(model_type, existing_mid=model_id_to_restore)
 		
+		print("	MODELS: restoring into grobid the previous model (%s) from the store" % model_id_to_restore)
+		
 		# c - restore
 		model_object.push_to_gb()
 		
@@ -370,14 +372,14 @@ class CRFModel:
 			self.gb_infos = self.recipy['gb_infos']
 		else:
 			# MODE CREATION #
-			# VAR 1: id
-			# exemple authornames-0.3.4-411696A-42
+			# VAR 1: on crée un id du modèle
+			# exemple: "bibzone-GBv0.3.4-corp1.corp2.corp3-42"
 			if existing_mid == None:
 				self.model_idno += 1
 				self.mid = "-".join([
 					 the_model_type,
-					 GB_VERSION,GB_GIT_ID,
-					 '.'.join([name[0:4] for name in the_samples]),
+					 GB_VERSION,
+					 '.'.join([name[0:10] for name in the_samples]),
 					 str(self.model_idno)
 					])
 			# MODE IMPORT : model_id seul #
@@ -389,7 +391,7 @@ class CRFModel:
 			self.mtype = the_model_type
 			
 			# VAR 3: storing_path
-			# exemple: /home/jeanpaul/models/authornames-0.3.4-411696A-42
+			# exemple: /home/jeanpaul/models/bibzone-GBv0.3.4-corp1.corp2.corp3-42
 			self.storing_path = path.join(self._home, self.mid)
 			
 			# VAR 4: source samples names (list of strs)
@@ -597,14 +599,21 @@ class CRFModel:
 		lc_numeric_backup = getlocale(LC_NUMERIC)
 		setlocale(LC_NUMERIC, 'C')
 		
-		mon_process = Popen(
-			  ['mvn',
-			  # offline est intéressant *sauf la première fois*
+		
+		call_args = ['mvn',
+			  # offline serait intéressant *sauf la première fois*
 			  # '--offline',
-			  '-X',
+			  # '-X',              # pour les infos de debug
 			  'generate-resources',
-			  '-P', model_cmd
-			  ], 
+			  '-P', model_cmd,
+			  '-e'                 # pour signaler les erreurs
+			  ]
+		
+		print("Lancement ENTRAINEMENT\n(commande:%s)" 
+		                             % " ".join(call_args))
+		
+		mon_process = Popen(
+			  call_args,
 			  stdout=PIPE, stderr=PIPE,
 			  cwd=work_dir
 		)
@@ -758,6 +767,9 @@ class CRFModel:
 			GB_MODEL_MAP[self.mtype]['gbpath'],
 			'model.wapiti'
 			)
+		
+		print("MODELS.push_to_gb: PUTTING %s" % src_path )
+		print("MODELS.push_to_gb: ...INTO %s" % tgt_path )
 		
 		if not path.exists(src_path):
 			raise FileNotFoundError

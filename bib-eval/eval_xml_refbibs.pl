@@ -1053,7 +1053,7 @@ if($eval_log_path) {
 		print EVAL_REPORT_TO_APPEND $register_id."\t" ;
 	}
 	
-	print "\n";
+	print EVAL_REPORT_TO_APPEND "\n";
 	
 	close EVAL_REPORT_TO_APPEND ;
 }
