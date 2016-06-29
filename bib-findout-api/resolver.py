@@ -93,10 +93,10 @@ TEI_TO_LUCENE_MAP = {
 # chargement du fichier etc/issn_abrevs.tsv
 # ------------------------------------------
 # format des infos lues
-# { 
+# {
 #   "j mol biol" :              "0022-2836",
 #   "aorn j":                   "0001-2092",
-#   "acta anaesthesiol scand" : "0001-5172", 
+#   "acta anaesthesiol scand" : "0001-5172",
 #     ...
 #   (4000+ entrées)
 #  }
@@ -116,7 +116,7 @@ fic_abr.close()
 
 def my_parse_args():
 	"""Preparation du hash des arguments ligne de commande pour main()"""
-	
+
 	parser = ArgumentParser(
 		formatter_class=RawDescriptionHelpFormatter,
 		description="""
@@ -130,21 +130,21 @@ def my_parse_args():
 		usage="resolver.py -I mes_TEI_avec_bibs/ -O mes_TEI_enrichies/ > tableau_recap.tsv",
 		epilog="- © 2015 Inist-CNRS (ISTEX) romain.loth at inist.fr -"
 		)
-	
+
 	parser.add_argument('-I','--IN_DIR',
 		metavar='dossier_tei_in',
 		help="input classique: un dossier de documents TEI issus de l'ingestion (natives) et/ou de grobid (extraction pdf)",
 		type=str,
 		required=True,
 		action='store') # str (path)
-	
+
 	parser.add_argument('-O','--OUT_DIR',
 		metavar='dossier_tei_out',
 		help="output: les mêmes documents TEI avec un lien dans chaque biblStruct résolue",
 		type=str,
 		required=True,
 		action='store') # str (path)
-	
+
 	parser.add_argument('-L','--LOG_DIR',
 		metavar='dossier_logs',
 		help="dossier de sortie supplémentaire optionnelle: un json par fichier avec un détail des infos matchées",
@@ -152,16 +152,16 @@ def my_parse_args():
 		default=None,
 		required=False,
 		action='store') # str (path)
-	
+
 	parser.add_argument('-d','--debug',
 		help="affiche les infos de débogage",
 		default=False,
 		required=False,
 		action='store_true') # bool
-	
-	
+
+
 	args = parser.parse_args(argv[1:])
-	
+
 	ok_flag = True
 	if not path.exists(args.IN_DIR) and not path.isdir(args.IN_DIR):
 		warn("problème dossier IN_DIR: %s" % args.IN_DIR)
@@ -172,11 +172,11 @@ def my_parse_args():
 	if args.LOG_DIR is not None and not path.exists(args.LOG_DIR) and not path.isdir(args.LOG_DIR):
 		warn("problème dossier LOG_DIR: %s" % args.IN_DIR)
 		ok_flag = False
-	
+
 	if not ok_flag:
 		warn("veuillez indiquer: \n -I un dossier de TEI sorties de grobid ou de TEI issues de MODS \n -O un dossier pour les documents TEI avec bib résolues")
 		exit(1)
-	
+
 	return args
 
 
@@ -191,13 +191,13 @@ class TeiDoc(object):
 	def __init__(self, file_path):
 		self.path=file_path
 		self.filename=path.basename(file_path)
-		
+
 		try:
 			tei_dom = etree.parse(file_path)
-			
+
 			# et voilà
 			self.xtree = tei_dom
-			
+
 		except etree.XMLSyntaxError as se:
 			self.xerr = str(se)
 			self.xtree = None
@@ -207,23 +207,23 @@ class TeiDoc(object):
 		# match conforme
 		bib_elts = self.xtree.xpath('/TEI/text/back//listBibl/biblStruct')
 		nb = len(bib_elts)
-		
+
 		# on tente aussi un match plus large
 		bib_elts_wide = self.xtree.xpath('/TEI/text/back//biblStruct')
-		
+
 		nb_wide = len(bib_elts_wide)
-		
+
 		if nb == 0 and nb_wide == 0:
 			warn("-- DOC %s: aucune bib --" % self.path)
 			return []
 		else:
 			if nb == 0 and nb_wide != 0:
 				warn("WARNING: des bibs apparaissent sans leur listBibl dans le back du doc %s" % self.path)
-				
+
 				# mais on les prend quand même
 				warn("-- DOC %s: %i xbibs lues --" % (self.path,nb_wide))
 				return bib_elts_wide
-			
+
 			# cas normal
 			else:
 				warn("-- DOC %s: %i xbibs lues --" % (self.path,nb))
@@ -233,11 +233,11 @@ class TeiDoc(object):
 	def get_iid(self):
 		"""
 		NB: fonction spécifique au contexte bib-findout
-		
+
 		(sinon utiliser libconsulte.Corpus.fileid)
 		"""
 		fname = path.basename(self.path)
-		
+
 		# ex: 0111635BF097A3A1BE4C7112F4DA0606087373A0
 		m = search(r'[0-9A-F]{40}',fname)
 		if m is None:
@@ -251,7 +251,7 @@ class BiblStruct(object):
 	"""
 	Groupe les méthodes pour un élément XML tei:biblStruct
 	"""
-	
+
 	no_id_counter=0
 
 	def __init__(self, xml_element, parent_doc_id=None):
@@ -262,25 +262,25 @@ class BiblStruct(object):
 		# slot central: l'élément XML
 		# ---------------------------
 		self.xelt = xml_element
-		
-		# sa version string 
+
+		# sa version string
 		# (avec auto-fermants réparés pour html5)
 		self.hstr = html.tostring(xml_element).decode()
-		
+
 		# warn(self.hstr)
-		
+
 		# on garde la trace du doc source
 		self.srcdoc = parent_doc_id
-		
+
 		if "{http://www.w3.org/XML/1998/namespace}id" in xml_element.attrib:
 			self.indoc_id = xml_element.attrib["{http://www.w3.org/XML/1998/namespace}id"]
 		else:
 			BiblStruct.no_id_counter += 1
 			ersatz_id = "NO_ID-%i" % BiblStruct.no_id_counter
-			
+
 			warn('WARNING: bib sans ID (->%s) dans %s' % (ersatz_id, self.srcdoc))
 			self.indoc_id = ersatz_id
-		
+
 		# les infos diverses : résolution impossible, etc
 		self.log = []
 
@@ -315,7 +315,7 @@ class BiblStruct(object):
 		#  'monogr/imprint/biblScope[@unit="page"]/@from'    : ['312'],
 		#  'monogr/imprint/biblScope[@unit="page"]/@to'      : ['317'],
 		#  }
-		
+
 		# POUR COMPARAISONS STRICTES A POSTERIORI
 		# self.api_strs {
 		#  'title'          : ['Silent myocardial ischemia'],
@@ -326,7 +326,7 @@ class BiblStruct(object):
 		#  'host.page.first': ['312']
 		#  'host.page.last' : ['317'],
 		#  }
-		
+
 		# POUR REQUETES SOUPLES
 		# self.api_toks {
 		#  'title'          : ['Silent', 'myocardial', 'ischemia'],
@@ -357,24 +357,24 @@ class BiblStruct(object):
 
 		On utilise record() pour mettre à jour les dict en filtrant les [] et les [""]
 		"""
-		
+
 		# pour la forme tokénisée on comptera les tokens retenus
 		total_kept = 0
-		
+
 		# dictionnaire {k => [strs]} d'expressions relevées
 		# (rangé ici par xpath via préalable subvalues())
 		for bibxpath in self.tei_subvals:
-			
+
 			# todo clarifier pourquoi parfois dans les natives on a direcement du texte dans monogr/imprint
 			# debug
 			#~ if bibxpath == "monogr/imprint":
 				#~ warn ("DEBUG: infos directement sous imprint ? %s" % str(self.tei_subvals))
-			
+
 			# traduction des clés  TEI => API
 			# --------------------------------
 			# ex: monogr/author/surname => host.author.name
 			champ = self.xpath_to_api_field(bibxpath)
-			
+
 
 			# un même point source peut avoir plusieurs chaînes
 			# (notamment les noms d'auteurs) donc on a une mini boucle
@@ -389,8 +389,8 @@ class BiblStruct(object):
 					# 1 - sous forme intacte
 					#     ------------------
 					self.api_strs = self.record(self.api_strs, champ, whole_str)
-					
-					
+
+
 					# 2 - sous forme tokénisée
 					#     --------------------
 					# from re import split as resplit
@@ -403,13 +403,13 @@ class BiblStruct(object):
 
 						# champs ayant le droit d'être courts
 						if champ in ['host.volume', 'host.issue','host.pages.first','host.pages.last']:
-							
+
 							# si API demande des valeurs numériques -------->8----
 							# ----------------------------------------------------
 							# on doit intercepter les cas rares non numériques
 							# ex: cas volumes = "12 B" ou issue = "suppl 1"
 							if search(r'[^0-9]', tok):
-								
+
 								# la partie num la plus longue
 								grep_partie_num = search(r'([0-9]+)', tok)
 								if grep_partie_num is not None:
@@ -419,7 +419,7 @@ class BiblStruct(object):
 									continue
 							# ----------------------------------------------------
 							# ---------------------------------------------->8----
-							
+
 							# en tout cas enregistrement même si le token est court
 							self.api_toks = self.record(self.api_toks, champ, tok)
 							total_kept += 1
@@ -433,8 +433,8 @@ class BiblStruct(object):
 						elif len(tok) >= 4:
 							self.api_toks = self.record(self.api_toks, champ, tok)
 							total_kept += 1
-			
-			
+
+
 		# à la fin de chaque bib on vérifie si on a bien des tokens
 		if total_kept == 0:
 			msg = "WARNING: filtrage des tokens courts a tout supprimé (valeurs d'origine: '%s')" % self.tei_subvals
@@ -600,30 +600,30 @@ class BiblStruct(object):
 		else:
 			my_titre_a = my_titre_a_hits.pop()
 			return ( len(my_titre_a.text) > too_many )
-	
-	
+
+
 	def test_hit(self, an_answer):
 		"""
 		Après run_queries, on va tester si la notice renvoyée an_answer (json de l'API) correspond à notre bib
-		
+
 		renvoie True or False
-		
+
 		NB: actuellement aucune souplesse
-		
+
 		cf. aussi les matchs dans eval_xml_refbibs
-		
+
 		TODO: match souple OCR à importer de libtrainers
 		"""
 		#warn(">>> AVANT COMPARAISON <<<")
 		#warn("S.STRS", self.api_strs)
 		#warn("A.STRS", an_answer)
-		
+
 		test1 = False    # date + imprint + page
 		test2 = False    # date + titre + auteur[0]
 		                 #                ---------
 		                 #       avec split simple côté base
 		                 #        pour découper prénom nom
-		
+
 		# test 1
 		if (('publicationDate' in self.api_strs
 		     and 'host.title' in self.api_strs
@@ -635,24 +635,24 @@ class BiblStruct(object):
 		          and 'volume' in an_answer['host']
 		          and 'pages' in an_answer['host']
 		             and 'first' in an_answer['host']['pages'])):
-			
+
 			# variante la plus fréquente : avec titre abrégé => table <=> ISSN API
 			# ex: "J. Mol. Biol." dans l'extraction
-			
+
 			j_extract = self.api_strs['host.title'][0]
 			journal_key = sub("\W+", " ", j_extract.lower())
-			
+
 			# on a extrait une revue qu'on connait
 			if journal_key in ABREVS_REVUES:
-				
+
 				# issn déduit du fragment extrait
 				issn_revue = ABREVS_REVUES[journal_key]
-				
+
 				if args.debug:
 					warn("--------> HELLO %s" % journal_key)
 					warn("--------> HELLO issn_local %s" % issn_revue)
 					warn("--------> HELLO issn_api %s" % an_answer['host']['issn'][0])
-				
+
 				# on vérifie le volume et les pages
 				test1a = (
 				         (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
@@ -660,12 +660,12 @@ class BiblStruct(object):
 				     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
 				     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
 				         )
-			
+
 				# si le test1a a matché on s'arrête: c'est suffisant
 				if test1a:
 					warn("JOURNAL MATCH: %s <=> %s <=> %s" % (journal_key, issn_revue, an_answer['host']['title']))
 					return True
-			
+
 			# version avec titre entier
 			if 'title' in an_answer['host']:
 				test1b = (
@@ -675,12 +675,12 @@ class BiblStruct(object):
 				     and (self.api_strs['host.volume'][0] == an_answer['host']['volume'])
 				     and (self.api_strs['host.pages.first'][0] == an_answer['host']['pages']['first'])
 				         )
-			
+
 				# si le test1b a matché c'est suffisant
 				if test1b:
 					return True
-			
-		
+
+
 		# si on n'a pas les infos du test1 et/ou si elles n'ont pas matché
 		if (('publicationDate' in self.api_strs
 		     and 'title' in self.api_strs
@@ -689,23 +689,23 @@ class BiblStruct(object):
 		     and 'title' in an_answer
 		     and 'author' in an_answer
 		          and 'name' in an_answer['author'][0])):
-			
-			
+
+
 			# NB: les NAMES cumulent plusieurs difficultés
 			# ---------------------------------------------
 			# problème (1/4) >conditions<
-			# dans ce test on ne compare actuellement que 
-			# le premier auteur en combinaison avec titre 
+			# dans ce test on ne compare actuellement que
+			# le premier auteur en combinaison avec titre
 			# et date
-			
+
 			# problème (2/4) >structure nom/prénom<
 			# côté API noms / prénoms dans un seul champ
 			# côté BIB noms / prénoms séparés
-			
+
 			# problème (3/4) >contenu prénom<
 			# côté API prénoms souvent complets
 			# côté BIB prénoms souvent juste initiales => ignorées
-			
+
 			# problème (4/4) >structure données<
 			# chez nous BIB.api_strs: 'author.name':["AAA",...]
 			# côté API                'author':{[{'name':"AAA"},...]}
@@ -714,18 +714,18 @@ class BiblStruct(object):
 			#   api_premier_auteur = an_answer['author'][0]['name']
 			our_author_0 = self.api_strs['author.name'][0]
 			api_author_0 = an_answer['author'][0]['name']
-			
+
 			# on va travailler sur le dernier mot-forme, en espérant que c'est le nom de famille
 			# marchera souvent mais pas à tous les coup (contre-ex: "Jeanne M. Brett, MSci")
 			# mais difficile de faire mieux
 			api_author_0_last_token = api_author_0.split(" ")[-1]
-			
+
 			test2 = (
 			         (soft_compare(self.api_strs['title'][0],an_answer['title']))
 			     and (self.api_strs['publicationDate'][0] == an_answer['publicationDate'])
 			     and (soft_compare(our_author_0,api_author_0_last_token))
 			         )
-			
+
 			# debug valeurs comparées
 			#~ print ('self tested:TITLE', self.api_strs['title'][0])
 			#~ print ('anws tested:TITLE', an_answer['title'])
@@ -734,8 +734,8 @@ class BiblStruct(object):
 			#~ print ('self tested:AUTH[0]', self.api_strs['author.name'][0])
 			#~ print ('answ prepa:AUTH[0].split', an_answer['author'][0]['name'].split(" "))
 			#~ print ('answ tested:AUTH[0].split[-1]', an_answer['author'][0]['name'].split(" ")[-1])
-			
-			
+
+
 		# debug:
 		#~ print ("%=================TEST2", test2)
 		return test2
@@ -744,37 +744,37 @@ class BiblStruct(object):
 	def make_structured_query(self):
 		"""
 		requête tokénisée souple
-		
+
 		Elle doit être la plus large possible (s'occupe du *rappel* grâce aux atouts d'ES).
 		Elle sera ensuite validée ou non par la routine test_hit (qui gèrera la précision).
 
 		Elle utilise comme contenus les tokens de self.api_toks.
-		
-		Méthode de création de la requête: 
+
+		Méthode de création de la requête:
 		  - champs API issus du mapping TEI_TO_LUCENE
 		  - pas de AND
 		  - pas de guillemets
 		  - filtrage des tokens les plus courts hérité de api_toks
 		  - expansion sur le nom de revue Adv => Adv*
-		
+
 		(méthode dite "méthode 3" durant les tests)
 		"""
 
 		# liste des fragments tokenisés
 		longer_tokenized_query_fragments = []
-		
+
 		# 1) les éléments non-structurés d'abord (pas d'info "champ")
 		if '_NULL_' in self.api_toks:
 			longer_tokenized_query_fragments += [tok for tok in self.api_toks['_NULL_']]
-		
-		
+
+
 		# 2) puis les éléments champ:valeur
 		for champ_api in self.api_toks:
 			# warn("CHAMP => ", champ_api)
 			if champ_api != "_NULL_":
 				filtered_toks = self.api_toks[champ_api]
-				
-				
+
+
 				# -------------------------8<------------------------------------------
 				# petit préalable particulier pour revue => filtered_toks
 				if champ_api == 'host.title' and len(filtered_toks) < 8:
@@ -797,15 +797,15 @@ class BiblStruct(object):
 					# ces tokens transformés remplacent les originaux
 					filtered_toks = jokered_toks
 				# -------------------------8<------------------------------------------
-				
-				
+
+
 				# ---------
-				# pour tous 
+				# pour tous
 				# ---------
 				# cas token solo => on écrit champ:valeur
 				if len(filtered_toks) == 1:
 					field_tokenized_frag = champ_api+':'+filtered_toks[0]
-				
+
 				# cas plusieurs => on écrit champ:(valeur1 valeur2 etc)
 				else:
 					field_tokenized_frag = champ_api+':('+' '.join(filtered_toks)+')'
@@ -818,7 +818,7 @@ class BiblStruct(object):
 
 		## QUERY
 		q = " ".join(longer_tokenized_query_fragments)
-		
+
 		return q
 
 
@@ -907,14 +907,14 @@ def _text_basic_wildcard(any_text):
 
 	# '?' est le caractère joker qui correspond à la même idée dans le monde des requêtes lucene
 	"""
-	
+
 	# le joker principal de toute OCR
 	any_text = sub('~', '?', any_text)
-	
+
 	# spécifique au bibs ocr:"]" < src:"J"
 	# or ']' rarement seul et peu pertinent pour lucene
 	any_text = sub('\]', '?', any_text)
-	
+
 	return any_text
 
 
@@ -923,21 +923,21 @@ def _text_api_safe(any_text):
 	modif liée au fait que même entre guillemets et
 	échappées en %28 et %29, l'API va parfois voir
 	les parenthèses comme opérateurs (selon position)
-	
+
 	pour le ':', idem
 	pour le '[', idem
 	pour le ']', idem
 	pour le '\', idem
 	pour le '-', idem
-	
+
 	NB: il est logique qu'il y ait des doublons avec _text_basic_wildcard
-	      ==> _text_api_safe() doit passer sur tous les inputs 
+	      ==> _text_api_safe() doit passer sur tous les inputs
 	          alors que l'autre est facultatif
 	"""
-	
+
 	# par ex "bonjour (tennessee" => "bonjour \( tennessee"
 	any_text = sub(r'([():\[\]\\-])',r'\\\1', any_text)
-	
+
 	return any_text
 
 
@@ -951,10 +951,10 @@ def text_to_query_fragment(any_text):
 		# série minimale de préalables indispensables
 		any_text = _text_remove_s(any_text)
 		any_text = _text_api_safe(any_text)
-		
+
 		# heuristique liée à l'OCR
 		any_text = _text_basic_wildcard(any_text)
-		
+
 		return any_text
 
 
@@ -973,59 +973,59 @@ def text_to_query_fragment(any_text):
 #      -> match longueur ?
 #         - caractères intercalés
 #         - quelques caractères en plus à la fin
- 
+
 def soft_compare(xmlstr,pdfstr, trace=False):
 	"""
 	Version initiale basique
 	"""
-	
+
 	if args.debug:
 		print ("|soft_compare \n|xmlstring:'%s' <=> pdfstring:'%s'" % (xmlstr, pdfstr), file=stderr)
-	
-	
+
+
 	# 1a) dans tous les cas il faut :
 	#    - supprimer les espaces en trop etc
 	#    - normaliser les tirets
 	#    - normaliser les quotes ?
 	clean_xmlstr = _text_common_prepa(xmlstr)
 	clean_pdfstr = _text_common_prepa(pdfstr)
-	
+
 	# 1b pour une première comparaison:
 	#  -> minuscules
 	#  -> suppression tirets
 	comparable_xmlstr = sub(r'-', '', clean_xmlstr).lower()
 	comparable_pdfstr = sub(r'-', '', clean_pdfstr).lower()
-	
+
 	success = (comparable_xmlstr == comparable_pdfstr)
-	
+
 	if success and args.debug:
 		print ("|soft_compare ok \n|comparable_xmlstr:'%s' <=> comparable_pdfstr:'%s'" % (comparable_xmlstr, comparable_pdfstr), file=stderr)
-	
-	
+
+
 	# 2a) pour comparer en émulant les erreurs OCR
 	#   on repart de la version sans le "tout lowercase"
 	if not success and len(clean_xmlstr) > 5 and len(clean_pdfstr) > 5:
 		if args.debug:
 			warn("|essai match OCR====")
-		
+
 		# on appauvrit les chaînes (eg 1|l|I ==> I)
 		xml_ocr_signature = _text_ocr_errors(clean_xmlstr)
 		pdf_ocr_signature = _text_ocr_errors(clean_pdfstr)
-		
+
 		# 2b) on refait après coup les faciliteurs de comparaison
 		#  -> minuscules
 		#  -> suppression tirets
 		comparable_xml_ocr_signature = sub(r'-', '', xml_ocr_signature).lower()
 		comparable_pdf_ocr_signature = sub(r'-', '', pdf_ocr_signature).lower()
-	
+
 		success = (comparable_xml_ocr_signature == comparable_pdf_ocr_signature)
-		
+
 		if args.debug:
 			print ("|OCR match (experimental) XML:%s, PDF:%s" % (comparable_xml_ocr_signature, comparable_pdf_ocr_signature), file=stderr)
-	
+
 	if args.debug:
 		warn("|success: %s" % success)
-	
+
 	if trace:
 		return (success, clean_xmlstr, clean_pdfstr)
 	else:
@@ -1046,24 +1046,24 @@ def _text_common_prepa(my_str):
 	# --------------
 	# tous les caractères de contrôle (dont \t = \x{0009}, \n = \x{000A} et \r = \x{000D}) --> espace
 	my_str = sub(r'[\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\u0008\u0009\u000A\u000B\u000C\u000D\u000E\u000F\u0010\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001A\u001B\u001C\u001D\u001E\u001F\u007F]', ' ', my_str)
-	
+
 	# Line separator
 	my_str = sub(r'\u2028',' ', my_str)
 	my_str = sub(r'\u2029',' ', my_str)
-	
+
 	# U+0092: parfois quote parfois cara de contrôle
-	my_str = sub(r'\u0092', ' ', my_str)   
-	
+	my_str = sub(r'\u0092', ' ', my_str)
+
 	# tous les espaces alternatifs --> espace
 	my_str = sub(r'[\u00A0\u1680\u180E\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u200B\u202F\u205F\u3000\uFEFF]', ' ' , my_str)
-	
-	# pour finir on enlève les espaces en trop 
+
+	# pour finir on enlève les espaces en trop
 	# (dits "trailing spaces")
 	my_str = sub(r'\s+', ' ', my_str)
 	my_str = sub(r'^\s', '', my_str)
 	my_str = sub(r'\s$', '', my_str)
-	
-	
+
+
 	# ------------------------
 	# P O N C T U A T I O N S
 	# ------------------------
@@ -1078,26 +1078,26 @@ def _text_common_prepa(my_str):
 	# Guillemets
 	# ----------
 	# la plupart des quotes simples --> ' APOSTROPHE
-	my_str = sub(r"‘’‚`‛", "'", my_str) # U+2018 U+2019 U+201a U+201b
+	my_str = sub(r"[‘’‚`‛]", "'", my_str) # U+2018 U+2019 U+201a U+201b
 	my_str = sub(r'‹ ?',"'", my_str)    # U+2039 plus espace éventuel après
 	my_str = sub(r' ?›',"'", my_str)    # U+203A plus espace éventuel avant
-	
+
 	# la plupart des quotes doubles --> " QUOTATION MARK
-	my_str = sub(r'“”„‟', '"', my_str)  # U+201C U+201D U+201E U+201F
+	my_str = sub(r'[“”„‟]', '"', my_str)  # U+201C U+201D U+201E U+201F
 	my_str = sub(r'« ?', '"', my_str)   # U+20AB plus espace éventuel après
 	my_str = sub(r' ?»', '"', my_str)   # U+20AB plus espace éventuel avant
-	
+
 	# deux quotes simples (préparées ci-dessus) => une double
 	my_str = sub(r"''", '"', my_str)
-	
-	
+
+
 	# --------------
 	# C E S U R E S
 	# --------------
 	# NB: pré-suppose déjà: tr '\n' ' ' et normalisation des tirets
 	my_str = sub(r'(?<=\w)- ', '-', my_str) # version light avec tiret préservé
-	
-	
+
+
 	# ------------------
 	# L I G A T U R E S
 	# ------------------
@@ -1126,8 +1126,8 @@ def _text_common_prepa(my_str):
 	my_str = sub(r'ﬆ', 'st', my_str)
 	my_str = sub(r'Ꜩ', 'Tz', my_str)
 	my_str = sub(r'ꜩ', 'tz', my_str)
-	
-	
+
+
 	return my_str
 
 
@@ -1137,23 +1137,23 @@ def _text_ocr_errors(my_str):
 	connues pour être des paires d'erreurs
 	OCR fréquentes ==> permet de comparer
 	ensuite les chaînes ainsi appauvires.
-	
+
 	par ex: Circular fluid energy mill
 	    et  Circular fluid energy rni11  <= avec 3 erreurs
 	  deviennent tous les deux quelque chose comme:
 	     "eIreaIar fIaId energv mIII"
-	
+
 	# (la différence rn <=> m est oblitérée)
 	"""
-	
+
 	# un cas hyper fréquent à part où c <=> t
 	my_str = sub(r'Sot\.', 'Soc\.', my_str)
-	
+
 	# caractère par caractère
-	#   >> c'est visuel... on écrase le niveau de détail des cara 
+	#   >> c'est visuel... on écrase le niveau de détail des cara
 	#   >> attention à ne pas trop écraser tout de même !
 	#   >> par exemple G0=Munier  T0=Muller doivent rester différents
-	
+
 	# ex: y|v -> v
 	my_str = sub(r'nn|rn', 'm', my_str)    # /!\ 'nn' à traiter avant 'n'
 	my_str = sub(r'0|O|o|ø|C\)','0', my_str)
@@ -1166,21 +1166,21 @@ def _text_ocr_errors(my_str):
 	my_str = sub(r'R', 'K', my_str)
 	my_str = sub(r'u', 'a', my_str)
 	my_str = sub(r'\]|\.I', 'J', my_str)
-	
+
 	# diacritiques et cara "spéciaux"
 	my_str = sub(r'\[3', 'β', my_str)
 	my_str = sub(r'é|ö', '6', my_str)
-	
+
 	my_str = sub(r'ç', 'q', my_str)
-	
-	
+
+
 	# erreurs OCR existantes mais à transfo très forte
 	# ici pour mémoire mais désactivées
 	# (vu la freq de ces caras c'est fortement appauvrissant)
 	# my_str = sub(r'f|t|e|c', 'c', my_str)
 	# my_str = sub(r'n|u|a', 'a', my_str)
 	# my_str = sub(r'ü|ti|fi', 'ii', my_str) # /!\ '*i' à traiter avant 'i'
-	
+
 	return my_str
 
 
@@ -1199,11 +1199,11 @@ def get_top_match_or_None(solving_query):
 	=> input = one string (lucene query)
 	=> output = one json object or None
 	"""
-	
+
 	# debug
 	if type(solving_query) != str:
 		raise TypeError("ERROR: la requête n'est pas du texte")
-	
+
 	# on lance la requête via api.search()
 	# seul le premier hit est renvoyé
 	try:
@@ -1222,23 +1222,23 @@ def get_top_match_or_None(solving_query):
 					'corpusName',
 					'doi']
 				)
-	
+
 	# HTTPError peut arriver si la requête lucene est incorrecte mais ne devrait pas!
 	# si ça arrive => le main attrape l'exception et signale "ERROR: (skip requête)"
-	#              => un développeur devrait rajouter une règle 
-	#                 dans text_to_query_fragment() ou dans 
+	#              => un développeur devrait rajouter une règle
+	#                 dans text_to_query_fragment() ou dans
 	#                 libconsulte.api.my_url_quoting()
-	#                 pour resp. supprimer ou échapper 
+	#                 pour resp. supprimer ou échapper
 	#                 le caractère posant problème
 	except HTTPError:
 		raise
-		
-	
+
+
 	# cas normal [un_hit_json]
 	if len(my_matches):
 		# json object as dict
 		return my_matches[0]
-	
+
 	# cas [] => devient None pour nous
 	else:
 		return None
@@ -1250,7 +1250,7 @@ def get_top_match_or_None(solving_query):
 # -------------------------------------
 
 if __name__ == '__main__':
-	
+
 	# arguments (dossier IN, OUT et optionnellement LOG)
 	args = my_parse_args()
 
@@ -1259,12 +1259,12 @@ if __name__ == '__main__':
 	except:
 		warn("le dossier %s n'existe pas" % args.IN_DIR)
 		exit(1)
-	
+
 	NB_docs = len(the_files)
-	
+
 	# lecture pour chaque doc => pour chaque bib
 	for d_i, bibfile in enumerate(the_files):
-		
+
 		if args.LOG_DIR is not None:
 			# pour écriture des logs à la fin
 			bibinfos = []
@@ -1272,27 +1272,27 @@ if __name__ == '__main__':
 		warn("======================================\nDOC #%i:%s" % (d_i+1,bibfile))
 
 		teidoc = TeiDoc(bibfile)
-		
+
 		if teidoc.xtree is None:
 			warn ('ERROR: (skip doc) erreur XML [%s] dans l\'input "%s"' % (teidoc.xerr, bibfile))
 			continue
-		
+
 		# récup par xpath
 		bib_elts = teidoc.get_bibs()
-		
+
 		# £debug juste 10 bibs /!\
 		# bib_elts = bib_elts[0:10]
-		
+
 		# taille de la liste à traiter
 		NB_bibs = len(bib_elts)
-		
+
 		# si jamais il n'y a pas d'IDs pour les bibs
 		# la classe BiblStruct les refera avec ce compteur
 		BiblStruct.no_id_counter = 0
-		
-		
+
+
 		for b_i, refbib in enumerate(bib_elts):
-			
+
 			warn("======================================\nDOC %i/%i -- BIB %i/%i\n" % (d_i+1,NB_docs, b_i+1, NB_bibs))
 
 			subelts = [xelt for xelt in refbib.iter()]
@@ -1302,22 +1302,22 @@ if __name__ == '__main__':
 					text = text_to_query_fragment(xelt.text)
 					if len(text):
 						warn("  %s: %s" % (mon_xpath(xelt),text))
-			
+
 			# changera de valeur ssi on obtient un hit ET qu'il est validé
 			found_id_or_none = None
-			
+
 			# le hit obtenu même si non validé (apparaît dans les logs json optionnels)
 			json_answr = None
-			
+
 			# ==================================================
 			#            P R E P A     R E Q U E T E S
-			
+
 			# on emballe le sous-arbre XML dans un objet utile + tard
 			bs_obj = BiblStruct(
-			               refbib, 
+			               refbib,
 			                   parent_doc_id = teidoc.get_iid())
-			
-			
+
+
 			# F I L T R E S    E N    A M O N T
 			# ----------------------------------
 			# ici on va tester si c'est une bib correcte
@@ -1325,7 +1325,7 @@ if __name__ == '__main__':
 			#  si oui on crée une requête lucene à partir de l'objet bib
 			#         --------------------------
 			#  si non on laisse un warning
-		    
+
 			# (1)
 			# Test simpliste monographie ou entrée analytiques
 			if not bs_obj.an_check():
@@ -1335,7 +1335,7 @@ if __name__ == '__main__':
 				the_query = None
 
 			# (2)
-			# Test longueur du titre de niveau "a" 
+			# Test longueur du titre de niveau "a"
 			# (c'est là que le CRF met tout s'il n'a rien compris ou que c'est une fausse bib)
 			elif bs_obj.super_long_tit_check():
 				msg = "WARNING: (skip) Refbib semble avoir un titre trop long"
@@ -1349,23 +1349,23 @@ if __name__ == '__main__':
 				# -----------------------------------------
 				# si on a passé les tests on parse
 				bs_obj.bib_subvalues()
-				
+
 				# les valeurs texte intéressantes sont à présent dans {self.tei_subvals}
 
 				# même valeurs texte tokénisées et rangées par champ API ---> {self.api_toks}
 				bs_obj.prepare_query_frags()
-			
+
 				# debug
 				if args.debug:
 					warn("API_STRS:%s" % bs_obj.api_strs)
 					warn("API_TOKS:%s" % bs_obj.api_toks)
-			
+
 				# mise sous syntaxe lucene de notre structure champ: [valeurs]
 				the_query = bs_obj.make_structured_query()
-			
+
 			if args.debug:
 				warn("---\nOUR QUERY:%s\n---" % the_query)
-			
+
 			if the_query is not None:
 
 				# ==================================================
@@ -1375,44 +1375,44 @@ if __name__ == '__main__':
 				try:
 					# lancement à l'API d'une requête lucene => réponse json
 					json_answr = get_top_match_or_None(the_query)
-				
+
 				except HTTPError as e:
 					json_answr = None
 					msg = "ERROR: (skip requête): '%s'" % str(e)
 					warn(msg)
 					bs_obj.log.append(msg)
-				
+
 				print_answer = dumps(json_answr, indent=2)
 				if args.debug:
 					warn("---\nAPI ANSWER (not validated):\n%s\n---" %  print_answer)
 
-			
+
 				# ==================================================
 				#      V A L I D A T I O N    R E P O N S E
 				#
 				# a posteriori on passe la routine *test_hit*
 				#   - le hit remplit-il des contraintes de base ?
-				#   - avec comparaison intelligente mais stricte :  
+				#   - avec comparaison intelligente mais stricte :
 				#        - "Titanium :/ a panorama" != "Titanium : a panorama"  (scories PAO)
-				#        - "2015-09-01"   <=> "2015"                             (formats transposables)                                       
+				#        - "2015-09-01"   <=> "2015"                             (formats transposables)
 				#        - "Herman Litko" <=> "Herrnan Litko"                    (OCR)
 				#        - "J. Limnol" <=> "Journal of Limnology"    TODO        (ontologie des revues)
 				#        - etc.
-				
+
 				if json_answr is not None:
 					# revérification "intelligente" de notre côté
 					if bs_obj.test_hit(json_answr):
-						
+
 						# si et seulement si le match a été validé
 						found_id_or_none = json_answr['id']
-			
+
 			if args.debug:
 				warn("---\nRESOLVED MATCH: %s\n---" % str(found_id_or_none))
-			
-			
+
+
 			# ==================================
 			#   S O R T I E S    P A R    B I B
-			
+
 			# dans tous les cas on sort ce tableau résumé sur STDOUT
 			#
 			# 3 cols ex:
@@ -1422,8 +1422,8 @@ if __name__ == '__main__':
 			#   49548E... |   b1     |   None        <== pas trouvé
 			#        etc.
 			print("\t".join([bs_obj.srcdoc,bs_obj.indoc_id,str(found_id_or_none)]))
-			
-			
+
+
 			if args.LOG_DIR is not None:
 				# sortie détaillée json dans un fichier
 				bibinfos.append(
@@ -1438,47 +1438,46 @@ if __name__ == '__main__':
 				   # ...
 				   }
 				)
-			
+
 			# si on a trouvé quelquechose on modifie le XML de ce biblStruct
 			if found_id_or_none is not None:
 				# le nouvel élément
 				new_xref = etree.Element("ref", type="istex-url")
-				
+
 				# son contenu
 				new_xref.text = "https://api.istex.fr/document/" + found_id_or_none
-				
+
 				# ajout dans la DOM dans le biblStruct
 				bs_obj.xelt.append(new_xref)
-				
+
 				# forme de l'élément qu'on vient d'ajouter!
 				# <ref type="istex-url">https://api.istex.fr/document/$found_id</ref>
-			
-			
+
+
 			# fin boucle par bib
 			# ------------------
-		
-		
+
+
 		# ==================================
 		#   S O R T I E S    P A R    D O C
-		# 
+		#
 		# écriture d'un fichier XML par doc source
 		# + optionnel 1 fichier JSON de log
-		
+
 		# même nom que le fichier d'entrée
 		out_doc_xml_path = path.join(args.OUT_DIR, teidoc.filename)
-		
+
 		# écriture XML enrichi
 		teidoc.xtree.write(out_doc_xml_path, pretty_print=True)
-		
-		
+
+
 		if args.LOG_DIR is not None:
 			doc_id = teidoc.get_iid()
-			
+
 			# bibinfos entier pour ce doc
 			#   - en json
 			#   - dans un fichier OUT_DIR/ID.resolution.json
-			
+
 			out_doc_json = open(path.join(args.LOG_DIR,doc_id+'.resolution.json'), 'w')
 			dump(bibinfos, out_doc_json, indent=2, sort_keys=True)
 			out_doc_json.close()
-		
